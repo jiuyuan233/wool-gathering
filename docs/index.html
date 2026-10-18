@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐑 薅羊毛情报站 · 每日更新</title>
+  <meta name="description" content="全网 AI / 游戏 免费福利活动自动收集，每日由 GitHub Actions + AI 更新">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐑</text></svg>">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>🐑 薅羊毛情报站</h1>
+      <p class="subtitle">全网 AI / 游戏 免费福利活动 · 每日由 GitHub Actions + AI 自动更新</p>
+      <div class="meta-bar" id="metaBar">
+        <span class="meta-item">⏱ 更新中…</span>
+      </div>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="ai">🤖 AI 类</button>
+        <button class="filter-btn" data-filter="games">🎮 游戏类</button>
+        <button class="filter-btn" data-filter="active">🟢 进行中</button>
+        <button class="filter-btn" data-filter="upcoming">🟡 即将开始</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 顶部日历/时间轴模块 -->
+    <section class="calendar-section">
+      <h2>📅 活动时间轴</h2>
+      <p class="section-hint">每条横条代表一个活动从开始到结束的持续时间，进度条表示当前完成度。鼠标悬停查看详情。</p>
+      <div class="timeline-controls">
+        <label><input type="checkbox" id="showEnded" checked> 显示已结束</label>
+        <label><input type="checkbox" id="showUpcoming" checked> 显示未开始</label>
+      </div>
+      <div id="timeline" class="timeline">
+        <div class="loading">加载中…</div>
+      </div>
+    </section>
+
+    <!-- 活动卡片列表 -->
+    <section class="cards-section">
+      <h2>🗂 活动详情</h2>
+      <div id="cards" class="cards">
+        <div class="loading">加载中…</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>由 <a href="https://github.com/jiuyuan233/wool-gathering" target="_blank" rel="noopener">wool-gathering</a> 自动生成 · 数据每日更新 · MIT License</p>
+    <p class="small">本站仅收集公开活动信息，不参与任何活动分发，领取请前往活动官方页面。</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

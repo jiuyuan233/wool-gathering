@@ -1,0 +1,4 @@
+# 禁用 Jekyll，让 Pages 直接用我们写好的 HTML/CSS/JS
+plugins: []
+exclude: []
+keep_files: ["data"]
