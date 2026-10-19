@@ -22,6 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from calendar_generator import generate_docs_data, generate_readme
+from blog_collector import collect_blog_activities
 from cloud_collector import collect_cloud_activities
 from dedup import dedupe_within, merge, normalize_activity
 from direct_collector import collect_category as collect_games_category
@@ -53,11 +54,13 @@ def process_category(category: str) -> int:
     # 1. 收集活动
     log(f"收集 [{category}] 活动...")
     if category == "ai":
-        # AI 板块 = 云厂商活动（代金券/免费试用/学生优惠）
+        # AI 板块 = 云厂商活动（代金券/免费试用/学生优惠）+ 博客聚合
         raw_acts = collect_cloud_activities(old_acts=old)
+        raw_acts.extend(collect_blog_activities(category))
     else:
-        # 游戏板块 = Epic/Steam/GOG 喜加一
+        # 游戏板块 = Epic/Steam/GOG 喜加一 + 博客聚合（ITAD/Reddit）
         raw_acts = collect_games_category(category)
+        raw_acts.extend(collect_blog_activities(category))
 
     # 2. 规范化（生成 id 等字段）+ 去重 + 合并写回
     new_acts = []
