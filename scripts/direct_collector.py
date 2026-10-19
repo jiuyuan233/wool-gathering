@@ -200,17 +200,23 @@ def collect_gog_free_games() -> list[dict]:
 
     GOG 偶尔有限时免费领取活动，这个 API 返回当前免费游戏列表。
     没有活动时返回空列表（正常情况）。
+    海外 IP 可能被重定向到地区选择页，容错处理。
     """
     activities: list[dict] = []
     try:
         resp = requests.get(
             GOG_API_URL,
-            params={"price": "free", "hideInstallation": "game"},
-            headers=BROWSER_HEADERS,
+            params={"price": "free", "hideInstallation": "game", "countryCode": "CN"},
+            headers={**BROWSER_HEADERS, "Accept": "application/json"},
             timeout=15,
         )
         resp.raise_for_status()
-        data = resp.json()
+        try:
+            data = resp.json()
+        except ValueError:
+            # 返回非 JSON（地区重定向页等），跳过
+            log(f"GOG API 返回非 JSON（{resp.headers.get('Content-Type', '?')}），跳过", level="WARN")
+            return activities
         products = data.get("products", [])
         for p in products:
             title = p.get("title", "")
