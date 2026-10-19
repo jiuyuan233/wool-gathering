@@ -10,11 +10,36 @@ from __future__ import annotations
 
 import json
 import time
+from collections import deque
 from typing import Any
 
 import requests
 
 from utils import env, log, safe_text
+
+
+class RateLimiter:
+    """滑动窗口速率限制器，防止触发中转站限流。"""
+
+    def __init__(self, max_requests: int = 45, window_seconds: int = 300) -> None:
+        self.max_requests = max_requests
+        self.window = window_seconds
+        self._timestamps: deque[float] = deque()
+
+    def wait_if_needed(self) -> None:
+        """如果接近限流阈值，等待到安全位置再继续。"""
+        now = time.time()
+        while self._timestamps and now - self._timestamps[0] > self.window:
+            self._timestamps.popleft()
+        if len(self._timestamps) >= self.max_requests:
+            wait = self.window - (now - self._timestamps[0]) + 1
+            if wait > 0:
+                log(f"速率限制：等待 {wait:.0f}s 避免触发中转站限流")
+                time.sleep(wait)
+            now = time.time()
+            while self._timestamps and now - self._timestamps[0] > self.window:
+                self._timestamps.popleft()
+        self._timestamps.append(time.time())
 
 
 class AIClient:
@@ -36,6 +61,7 @@ class AIClient:
                 "Content-Type": "application/json",
             }
         )
+        self.rate_limiter = RateLimiter(max_requests=45, window_seconds=300)
 
     def chat(
         self,
@@ -62,6 +88,7 @@ class AIClient:
         last_err = None
         for attempt in range(1, retries + 1):
             try:
+                self.rate_limiter.wait_if_needed()
                 resp = self.session.post(url, json=payload, timeout=self.timeout)
                 if resp.status_code == 429:
                     wait = 5 * attempt
