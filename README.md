@@ -63,8 +63,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 19:28** 北京时间
-- 进行中：**104** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**108** 个
+- 更新时间：**2026-10-19 20:28** 北京时间
+- 进行中：**119** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**123** 个
 
 ---
 
@@ -97,6 +97,21 @@
 | 🟢 | 腾讯云·校园计划 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://cloud.tencent.com/act/campus) |
 | 🟢 | 腾讯云·免费体验 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://cloud.tencent.com/act/free) |
 | 🟢 | 腾讯云·开发者 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://cloud.tencent.com/act/developer) |
+| 🟢 | 阿里百炼·通义千问新用户免费额度 | 新用户免费 token 额度，含 qwen3.8-max/plus/flash 全系列 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://bailian.console.aliyun.com/) |
+| 🟢 | DeepSeek·新用户赠送余额+低价API | 新用户赠送余额，deepseek-flash 空闲时段 input 1元/百万tokens | 2026-10-19 ~ 2026-12-31 | — | [领取](https://platform.deepseek.com/) |
+| 🟢 | 腾讯混元·新用户免费额度 | 新用户免费 token 额度，混元大模型全系列 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://cloud.tencent.com/product/hunyuan) |
+| 🟢 | 百度千帆·文心新用户免费额度 | 新用户免费额度，ERNIE-Speed 免费 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://qianfan.cloud.baidu.com/) |
+| 🟢 | 讯飞星火·免费调用次数 | 新用户免费调用次数，星火 V4.0 等 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://xinghuo.xfyun.cn/) |
+| 🟢 | MiniMax·新用户赠送额度 | 新用户赠送额度，M3.1-Flash input 1元/百万tokens | 2026-10-19 ~ 2026-12-31 | — | [领取](https://platform.minimaxi.com/) |
+| 🟢 | 360智脑·免费额度 | 新用户免费额度，360智脑大模型 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://ai.360.cn/) |
+| 🟢 | 月之暗面Kimi·新用户免费额度 | 新用户免费 token 额度，Kimi K3 长上下文 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://platform.moonshot.cn/) |
+| 🟢 | 华为云CodeArts·免费试用 | 新用户免费试用，CodeArts 码道代码智能体 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://www.huaweicloud.com/product/codearts.html) |
+| 🟢 | 智谱BigModel·GLM-4-Flash永久免费 | GLM-4-Flash 永久免费，GLM-4 有免费额度 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://open.bigmodel.cn/) |
+| 🟢 | 字节扣子Coze·免费搭建智能体 | 免费低代码 Agent 搭建平台，发布智能体不收费 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://www.coze.cn/) |
+| 🟢 | Google Gemini·免费版 | Gemini 免费版可用，API 有免费 tier（15 RPM） | 2026-10-19 ~ 2027-12-31 | — | [领取](https://gemini.google.com/) |
+| 🟢 | OpenAI ChatGPT·免费版 | ChatGPT 免费版可用 GPTs，API 新用户有免费额度 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://chat.openai.com/) |
+| 🟢 | Cursor·免费tier（代码Agent） | 免费版：2000 次补全 + 50 次高级请求/月 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://cursor.com/) |
+| 🟢 | 腾讯WorkBuddy·免费使用 | 全场景办公 Agent 工作台，免费使用 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://workbuddy.tencent.com/) |
 
 ### 🔓 开源免费工具
 
