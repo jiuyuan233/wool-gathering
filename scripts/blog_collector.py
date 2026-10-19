@@ -57,6 +57,16 @@ DRIVE_HINTS = ["开车", "发车", "上车", "拼车", "线报", "羊毛群", "�
 
 # 开源工具识别：含"开源"或明显是 GitHub 免费工具，且非限时促销
 OPEN_SOURCE_HINTS = ["开源", "github 上发现", "在 github 发现", "免费小工具", "工具箱"]
+
+# 购物/打折活动（双11、软件打折、红包等）→ shopping 分区
+SHOPPING_HINTS = ["双11", "双 11", "红包", "wps", "vmware", "videoproc",
+                  "复旦", "周年庆", "打折好价", "codex"]
+
+# 视频会员优惠（爱奇艺、腾讯视频等）→ video-vip 分区
+VIDEO_VIP_HINTS = ["爱奇艺", "腾讯视频"]
+
+# 网盘会员优惠（夸克、百度等）→ netdisk-vip 分区
+NETDISK_VIP_HINTS = ["夸克网盘", "百度网盘", "网盘svip", "网盘 svip", "网盘会员"]
 OPEN_SOURCE_EXCLUDE = ["限时", "打折", "优惠", "年卡", "vip", "赠送", "周年庆", "半价"]
 
 
@@ -104,6 +114,24 @@ def is_drive_post(title: str) -> bool:
     """是否开车线报帖（群发车/上车/线报）→ 归 drive 分区。"""
     low = title.lower()
     return any(h in low for h in DRIVE_HINTS)
+
+
+def is_shopping(title: str) -> bool:
+    """是否购物/打折活动（双11、软件打折、红包等）→ 归 shopping 分区。"""
+    low = title.lower()
+    return any(h in low for h in SHOPPING_HINTS)
+
+
+def is_video_vip(title: str) -> bool:
+    """是否视频会员优惠（爱奇艺、腾讯视频等）→ 归 video-vip 分区。"""
+    low = title.lower()
+    return any(h in low for h in VIDEO_VIP_HINTS)
+
+
+def is_netdisk_vip(title: str) -> bool:
+    """是否网盘会员优惠（夸克、百度等）→ 归 netdisk-vip 分区。"""
+    low = title.lower()
+    return any(h in low for h in NETDISK_VIP_HINTS)
 
 
 def _activity(
@@ -275,10 +303,24 @@ def parse_blog_articles(html: str, source_name: str, category: str, base_url: st
             if not url.startswith("http"):
                 continue
             seen.add(title)
-            # 开源工具单独归类；一直免费无结束时间，end_date 置空
-            actual_cat = "open-source" if is_oss else category
+            # 分类分流：开源 → 购物 → 视频会员 → 网盘会员 → 默认
+            if is_oss:
+                actual_cat = "open-source"
+                end_days_val = None
+            elif is_shopping(title):
+                actual_cat = "shopping"
+                end_days_val = 7
+            elif is_video_vip(title):
+                actual_cat = "video-vip"
+                end_days_val = 7
+            elif is_netdisk_vip(title):
+                actual_cat = "netdisk-vip"
+                end_days_val = 7
+            else:
+                actual_cat = category
+                end_days_val = 7
             acts.append(_activity(title, url, source_name, actual_cat,
-                                  end_days=None if is_oss else 7))
+                                  end_days=end_days_val))
     return acts
 
 

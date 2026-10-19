@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T23:53:53.163769+08:00",
-  "today": "2026-10-19",
-  "repository": "jiuyuan233/wool-gathering",
+  "generated_at": "2026-10-20T00:23:09.462176+08:00",
+  "today": "2026-10-20",
+  "repository": "",
   "total": 123,
   "by_category": {
     "ai": {
-      "total": 38,
-      "active": 38,
+      "total": 27,
+      "active": 27,
       "upcoming": 0,
       "ended": 0
     },
@@ -26,6 +26,24 @@
       "total": 70,
       "active": 66,
       "upcoming": 4,
+      "ended": 0
+    },
+    "shopping": {
+      "total": 7,
+      "active": 7,
+      "upcoming": 0,
+      "ended": 0
+    },
+    "video-vip": {
+      "total": 2,
+      "active": 2,
+      "upcoming": 0,
+      "ended": 0
+    },
+    "netdisk-vip": {
+      "total": 2,
+      "active": 2,
+      "upcoming": 0,
       "ended": 0
     }
   }

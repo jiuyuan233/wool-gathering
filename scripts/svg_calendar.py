@@ -41,6 +41,9 @@ COLOR_AI = "#4a9eff"
 COLOR_OPEN_SOURCE = "#a78bfa"
 COLOR_DRIVE = "#fb923c"
 COLOR_GAMES = "#4ade80"
+COLOR_SHOPPING = "#f59e0b"
+COLOR_VIDEO_VIP = "#ec4899"
+COLOR_NETDISK_VIP = "#06b6d4"
 COLOR_TODAY = "#ef4444"
 COLOR_TEXT = "#24292f"
 COLOR_TEXT_DIM = "#6e7681"
@@ -54,6 +57,9 @@ def _cat_color(cat: str) -> str:
         "open-source": COLOR_OPEN_SOURCE,
         "drive": COLOR_DRIVE,
         "games": COLOR_GAMES,
+        "shopping": COLOR_SHOPPING,
+        "video-vip": COLOR_VIDEO_VIP,
+        "netdisk-vip": COLOR_NETDISK_VIP,
     }.get(cat, COLOR_AI)
 
 
@@ -134,8 +140,11 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     max_d = month_end + timedelta(days=1)
 
     # 按分区分组，分区内按 end_date 升序（快结束的在上）
-    CAT_ORDER_SVG = ["ai", "drive", "games"]
-    CAT_LABEL_SVG = {"ai": "AI / 云服务", "drive": "开车线报", "games": "游戏喜加一"}
+    CAT_ORDER_SVG = ["ai", "shopping", "video-vip", "netdisk-vip", "drive", "games"]
+    CAT_LABEL_SVG = {
+        "ai": "AI / 云服务", "shopping": "购物优惠", "video-vip": "视频会员",
+        "netdisk-vip": "网盘会员", "drive": "开车线报", "games": "游戏喜加一",
+    }
     groups = []
     for cat in CAT_ORDER_SVG:
         cat_acts = [a for a in dated if a.get("category") == cat]
@@ -293,8 +302,11 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     legend_y = chart_bottom + 22
     legend_items = [
         (0, COLOR_AI, "AI / 云服务"),
-        (95, COLOR_DRIVE, "开车线报"),
-        (190, COLOR_GAMES, "游戏"),
+        (95, COLOR_SHOPPING, "购物"),
+        (155, COLOR_VIDEO_VIP, "视频会员"),
+        (230, COLOR_NETDISK_VIP, "网盘"),
+        (290, COLOR_DRIVE, "开车"),
+        (350, COLOR_GAMES, "游戏"),
     ]
     for xoff, color, label in legend_items:
         parts.append(
@@ -350,7 +362,7 @@ if __name__ == "__main__":
     import json
     from utils import DATA_DIR
     acts = []
-    for cat in ("ai", "open-source", "drive", "games"):
+    for cat in ("ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip"):
         p = DATA_DIR / cat / "activities.json"
         if p.exists():
             acts.extend(json.loads(p.read_text(encoding="utf-8")))

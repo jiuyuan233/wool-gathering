@@ -1,0 +1,40 @@
+[
+  {
+    "id": "vip-plus-b231be0c08",
+    "title": "爱奇艺 (电视端) VIP 年卡+送京东 PLUS 会员优惠 (年度低价)",
+    "category": "video-vip",
+    "source_url": "https://www.iplaysoft.com/news/4313",
+    "claim_url": "https://www.iplaysoft.com/news/4313",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "svip-tv-58213fc2cc",
+    "title": "腾讯视频 SVIP 超级会员年卡优惠，历史低价！(支持 TV 电视端)",
+    "category": "video-vip",
+    "source_url": "https://www.iplaysoft.com/p/txsp-vip",
+    "claim_url": "https://www.iplaysoft.com/p/txsp-vip",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  }
+]

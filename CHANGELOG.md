@@ -94,3 +94,30 @@
 - 开源工具 12 条不显示（无 end_date）
 - 超过一个月的活动 15 条顶满跨度
 - 3 个分区标题行：AI（38 条）/ 开车（3 条）/ 游戏（70 条）
+
+## 2026-10-19 23:00 更新所有说明性 md 文档
+
+### 改动
+
+- AGENT.md 第 15 节（AI 操作指南）更新：日历逻辑说明改为"显示全部限时活动+时间轴跨度一个月+超过一个月顶满+按分区分组+快结束排上面"
+- AGENT.md 第 15.6 节验证清单更新
+- readme_template.md 活动时间轴说明更新（第 55-60 行）
+- readme_template.md 日历视图说明更新（第 290-303 行）：新增时间轴跨度、分区、顶满等说明
+- README.md 重新生成（反映模板更新）
+
+## 2026-10-20 00:15 新增3个分类：购物/视频会员/网盘会员
+
+### 改动
+
+- 从 ai 分类分出 3 个新分类：shopping（购物优惠）、video-vip（视频会员）、netdisk-vip（网盘会员）
+- blog_collector.py 新增 is_shopping/is_video_vip/is_netdisk_vip 分类函数 + 关键词
+- parse_blog_articles 分流逻辑更新：开源 → 购物 → 视频会员 → 网盘会员 → 默认
+- collect.py / calendar_generator.py / svg_calendar.py 的 CATEGORIES 加新分类
+- SVG 日历新增 3 个分区（颜色：购物金色/视频粉色/网盘青色），图例更新
+- 数据迁移：ai 38→27 条，shopping 7 条，video-vip 2 条，netdisk-vip 2 条
+- AGENT.md 第 2 节从"四大分类"改为"七大分类"，第 15 节加新分类操作说明
+
+### 效果
+
+- SVG 6 个分区：AI（27）/ 购物（7）/ 视频会员（2）/ 网盘会员（2）/ 开车（3）/ 游戏（70）
+- 总 123 条不变，分类更清晰

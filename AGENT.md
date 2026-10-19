@@ -47,26 +47,34 @@ wool-gathering/
 
 ---
 
-## 2. 四大分类规则（核心，必须背下来）
+## 2. 七大分类规则（核心，必须背下来）
 
 | 类别 | 代号 | 包含什么 | 谁来识别 |
 |------|------|---------|---------|
-| AI / 云服务优惠 | `ai` | 云厂商代金券/免费额度/打折、AI 中转站优惠、博客里讲云/AI 优惠的帖 | `cloud_collector.py` + `blog_collector.py`（默认归 ai，除非命中开源/开车规则） |
+| AI / 云服务优惠 | `ai` | 云厂商代金券/免费额度/打折、AI 中转站优惠、博客里讲云/AI 优惠的帖 | `cloud_collector.py` + `blog_collector.py`（默认归 ai，除非命中其他规则） |
+| 购物优惠 | `shopping` | 双11打折、红包、软件打折/赠送（WPS/VMware/VideoProc/复旦Codex等） | `blog_collector.is_shopping()` |
+| 视频会员 | `video-vip` | 爱奇艺/腾讯视频等视频 VIP 优惠 | `blog_collector.is_video_vip()` |
+| 网盘会员 | `netdisk-vip` | 夸克/百度等网盘 SVIP 优惠 | `blog_collector.is_netdisk_vip()` |
 | 开源免费工具 | `open-source` | 一直免费的开源软件/GitHub 工具（非限时促销） | `blog_collector.is_open_source()` |
 | 开车线报 | `drive` | 群发车/上车/拼车/线报类帖子 | `blog_collector.is_drive_post()` |
 | 游戏喜加一 | `games` | Epic/Steam/GOG/itch.io 免费游戏、限免、giveaway | `direct_collector.py` + `blog_collector.py` |
 
 ### 2.1 分类判定顺序（在 `blog_collector.parse_blog_articles` 里）
 
-1. 先判 `is_drive_post(title)` → 命中归 `drive`
-2. 再判 `is_open_source(title)` → 命中归 `open-source`
-3. 否则归调用时传入的 `category`（ai 模式传 ai，games 模式传 games）
+1. 先判 `is_open_source(title)` → 命中归 `open-source`
+2. 再判 `is_shopping(title)` → 命中归 `shopping`
+3. 再判 `is_video_vip(title)` → 命中归 `video-vip`
+4. 再判 `is_netdisk_vip(title)` → 命中归 `netdisk-vip`
+5. 否则归调用时传入的 `category`（ai 模式传 ai，games 模式传 games）
 
 ### 2.2 关键词定义（在 `blog_collector.py` 顶部）
 
 - **开车线报** `DRIVE_HINTS = ["开车","发车","上车","拼车","线报","羊毛群","薅羊毛","白嫖群"]`
 - **开源工具** `OPEN_SOURCE_HINTS = ["开源","github 上发现","在 github 发现","免费小工具","工具箱"]`
   且不含 `OPEN_SOURCE_EXCLUDE = ["限时","打折","优惠","年卡","vip","赠送","周年庆","半价"]`（含促销词的不算纯开源）
+- **购物** `SHOPPING_HINTS = ["双11","双 11","红包","wps","vmware","videoproc","复旦","周年庆","打折好价","codex"]`
+- **视频会员** `VIDEO_VIP_HINTS = ["爱奇艺","腾讯视频"]`
+- **网盘会员** `NETDISK_VIP_HINTS = ["夸克网盘","百度网盘","网盘svip","网盘 svip","网盘会员"]`
 - **价值词** `WOOL_VALUE_WORDS`：限免/喜加一/代金券/0元/免费领/打折/优惠/…（决定博客帖是否收录）
 - **排除模式** `WOOL_EXCLUDE_PATTERNS`：讨论帖/请教/周刊等误判（正则）
 
@@ -91,7 +99,7 @@ drive 分区在 README 里会按车型子分组渲染，顺序即列表顺序：
 1. **end_date 必须为空**：`blog_collector._activity()` 生成开源条目时 `end_days` 参数不传，end_date 留空。
    如果历史数据里开源条目有假 end_date，必须一次性脚本清空（已清理过一次）。
 2. **不进 SVG 时间轴**：`svg_calendar.generate_svg()` 显式排除 `category == "open-source"`。
-   SVG 只画 ai + drive + games 三类有日期的活动。
+   SVG 画 ai + shopping + video-vip + netdisk-vip + drive + games 六类有日期的活动。
 3. **README 时间列显示"长期免费"**：`calendar_generator._md_table()` 里 end_date 为空时显示"长期免费"而非假日期。
 4. **仍出现在 README 表格里**：开源工具在 README 的"开源免费工具"分区正常列表，只是不进甘特图。
 
@@ -468,18 +476,24 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 
 用 `utils.is_long_term(a)` 判定（阈值 90 天，约 3 个月）：
 
-| 条件 | 判定 | 归属分区 |
-|------|------|---------|
-| 无 `end_date` | 长期 | 「♾️ 长期免费」 |
-| `end_date` 距今 > 90 天 | 长期 | 「♾️ 长期免费」 |
-| `end_date` 距今 <= 90 天 | 限时 | 按 category（AI/开车/游戏） |
+| 条件 | 判定 | README 归属 | SVG 时间轴 |
+|------|------|------------|-----------|
+| 无 `end_date` | 长期 | 「♾️ 长期免费」 | 不显示 |
+| `end_date` 距今 > 90 天 | 长期 | 「♾️ 长期免费」 | 显示（在对应分区分组） |
+| `end_date` 距今 <= 90 天 | 限时 | 按 category（AI/开车/游戏） | 显示 |
 
-**日历只显示当月限时活动**：长期活动不进 SVG 时间轴，只在 README 表格显示。
-不在当月的限时活动也不进时间轴（如 12 月才开始的活动在 10 月不显示）。
+**日历显示所有有时间限制的活动**（有 `end_date` 的），不管持续时间多长：
+
+- 时间轴跨度固定为当月（刻度只显示当月 1 日到月末）
+- 超过一个月持续时间的活动：横条顶满整个跨度
+- 不在当月的活动：横条贴在对应边界
+- 按分区分组：AI / 云服务 → 开车线报 → 游戏喜加一
+- 分区内按 `end_date` 升序排列（快结束的排上面）
+- 开源项目（无 `end_date`）不显示在时间轴
 
 ### 15.2 手动新增一条活动
 
-1. 确定目标分类目录：`data/ai/`、`data/drive/`、`data/games/`、`data/open-source/`
+1. 确定目标分类目录：`data/ai/`、`data/shopping/`、`data/video-vip/`、`data/netdisk-vip/`、`data/drive/`、`data/games/`、`data/open-source/`
 2. 读对应的 `activities.json`，追加一条活动对象：
 
 ```json
@@ -519,7 +533,7 @@ cd /workspace/wool-gathering
 python3 scripts/collect.py finalize
 ```
 
-重新生成：`docs/calendar.svg`（当月限时时间轴）+ `docs/data/`（前端 JSON）+ `README.md`（含长期免费分区）
+重新生成：`docs/calendar.svg`（时间轴跨度一个月，显示全部限时活动，按分区分组）+ `docs/data/`（前端 JSON）+ `README.md`（含长期免费分区）
 
 ### 15.5 提交推送
 
@@ -531,7 +545,9 @@ git push origin main
 
 ### 15.6 验证清单
 
-- SVG 标题显示「当月活动时间轴（YYYY年M月）」
-- 长期活动不在 SVG 时间轴，在 README「♾️ 长期免费」分区
-- 限时活动在 SVG 时间轴（如与当月有交集）
-- 总条数 = 限时条数 + 长期条数
+- SVG 标题显示「活动时间轴（YYYY年M月）」
+- SVG 有 3 个分区标题行（AI/开车/游戏），分区内快结束的排上面
+- 超过一个月的活动横条顶满整个跨度
+- 无 `end_date` 的活动不在 SVG 时间轴，在 README「♾️ 长期免费」分区
+- 有 `end_date` 的活动都在 SVG 时间轴（不管多长时间）
+- 总条数 = SVG 显示条数 + 开源工具条数

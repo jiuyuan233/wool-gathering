@@ -45,7 +45,7 @@ from utils import (
 )
 
 
-CATEGORIES = ["ai", "open-source", "drive", "games"]
+CATEGORIES = ["ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip"]
 
 
 def _merge_and_save(category: str, new_acts: list[dict], today) -> None:
