@@ -2,28 +2,30 @@
 
 流程：
 1. 抓所有种子源 → 拼成上下文
-2. 调 AI 抽取活动（按分类）
+2. 调 AI 抽取活动（按分类，用 prompts.py 里的提示词）
 3. AI 联网搜索补充新活动（混合模式）
 4. 合并去重 + 刷新状态
 5. 写回 data/{ai,games}/activities.json
-6. 生成 docs/data/activities.json 供 Pages 前端
-7. 生成 README.md 表格视图
+6. 生成 docs/calendar.svg（README 嵌入的日历）
+7. 生成 docs/data/*.json（前端数据，可选）
+8. 生成 README.md
 """
 from __future__ import annotations
 
-import os
 import sys
 from pathlib import Path
 
-# 让 scripts/ 目录内 import 不用改 sys.path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from ai_client import AIClient
 from calendar_generator import generate_docs_data, generate_readme
 from dedup import dedupe_within, merge, normalize_activity
+from prompts import build_extract_messages, build_search_messages
 from sources_manager import all_source_context, load_sources
+from svg_calendar import generate_svg
 from utils import (
     DATA_DIR,
+    load_json,
     log,
     now_bj,
     save_json,
@@ -33,49 +35,56 @@ from utils import (
 
 CATEGORIES = ["ai", "games"]
 
-# AI 抽取用的 schema 提示
-SCHEMA_HINT = """{
-  "activities": [
-    {
-      "title": "活动标题",
-      "source_url": "活动信息页 URL",
-      "claim_url": "实际领取/参与 URL（若与 source_url 相同可省略）",
-      "start_date": "YYYY-MM-DD",
-      "end_date": "YYYY-MM-DD",
-      "value": "可薅到的具体福利，如 200 元代金券 / 30 天会员",
-      "requirements": ["领取条件1", "领取条件2"],
-      "description": "一句话描述",
-      "tags": ["标签1", "标签2"]
-    }
-  ]
-}"""
-
 # 联网搜索关键词（混合模式补充发现）
+# 这些词会交给 AI 让它联网搜，发现种子源之外的新活动
 SEARCH_KEYWORDS = {
     "ai": [
         "AI 代金券 免费领取 2026",
-        "大模型 免费额度 新用户",
-        "云厂商 AI 算线 免费试用",
-        "GPU 免费算力 活动",
+        "大模型 免费额度 新用户注册",
+        "云厂商 AI 算力 免费试用 活动",
+        "GPU 免费算力 活动 2026",
+        "华为云 AI 代金券",
+        "阿里云 通义千问 免费额度",
+        "HuggingFace free inference Spaces",
+        "Google AI Studio free Gemini",
+        "Groq free tier API",
     ],
     "games": [
-        "游戏 免费领取 限时活动",
         "Epic 免费游戏 本周",
-        "Steam 限免 游戏",
+        "Epic Games free games this week",
+        "Steam 限免 游戏 本周",
+        "Steam 100% off free game",
+        "GOG 限时免费 游戏",
+        "GOG free game giveaway",
+        "Humble Bundle 限时免费",
+        "itch.io 限时免费 游戏",
+        "Amazon Prime Gaming free games",
+        "Ubisoft free game On the House",
+        "EA free game giveaway",
+        "Reddit free games",
+        "喜加一 限时免费 游戏",
+        "游戏 限免 喜加一 2026",
         "手游 公测 礼包 免费领",
+        "PlayStation 会员免费游戏",
+        "Xbox Games with Gold free",
     ],
 }
 
 
 def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]]:
-    """从种子源上下文里抽取活动，按分类分桶。"""
+    """从种子源上下文里抽取活动，按分类分桶。
+
+    用 prompts.py 里的 system prompt + extract 模板组装 messages，
+    这样抽取规则、字段要求、什么算薅羊毛都由 prompts.py 统一控制。
+    """
     if not context:
         log("种子源上下文为空，跳过抽取")
         return {c: [] for c in CATEGORIES}
 
     sources = load_sources()
     by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
-    # 把每个源按其 category 单独抽，避免一次塞太多
+    today_str = today_bj().isoformat()
+
     for src in sources:
         cat = src.category if src.category in CATEGORIES else None
         if cat is None:
@@ -90,19 +99,16 @@ def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]
         if len(snippet) < 50:
             continue
 
-        msgs = [
-            {
-                "role": "user",
-                "content": (
-                    f"从下面这个网页内容里抽取所有【{cat} 类】薅羊毛/免费福利活动。"
-                    "只抽取真实存在的活动，不要编造。"
-                    "如果页面里没有活动，返回 {\"activities\": []}。\n\n"
-                    f"网页内容：\n{snippet[:6000]}"
-                ),
-            }
-        ]
+        # 用 prompts.py 组装 messages（含完整抽取规则）
+        msgs = build_extract_messages(
+            source_name=src.name,
+            source_url=src.url,
+            category=cat,
+            content=snippet[:6000],
+            today=today_str,
+        )
         try:
-            data = client.chat_json(msgs, schema_hint=SCHEMA_HINT, max_tokens=2500)
+            data = client.chat_json(msgs, max_tokens=2500)
             acts = (data or {}).get("activities", []) if isinstance(data, dict) else []
             for a in acts:
                 norm = normalize_activity(a, cat)
@@ -119,25 +125,18 @@ def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]
 def search_new_activities(client: AIClient) -> dict[str, list[dict]]:
     """混合模式：让 AI 联网搜索补充新活动。
 
-    依赖中转站支持 search（部分中转站有 web_search 工具）。
+    用 prompts.py 的 search 模板组装 messages。
+    依赖中转站支持联网搜索（部分中转站有 web_search 工具）。
     不支持也不影响主流程——种子源抽取已经能产出数据。
     """
     by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
+    today_str = today_bj().isoformat()
+
     for cat, keywords in SEARCH_KEYWORDS.items():
         for kw in keywords:
-            msgs = [
-                {
-                    "role": "user",
-                    "content": (
-                        f"请联网搜索关键词：{kw}\n"
-                        f"找出当前正在进行或即将开始的【{cat} 类】薅羊毛/免费福利活动。"
-                        "每个活动必须给出可访问的 source_url。"
-                        "如果搜索功能不可用，直接返回 {\"activities\": []}。"
-                    ),
-                }
-            ]
+            msgs = build_search_messages(keyword=kw, category=cat, today=today_str)
             try:
-                data = client.chat_json(msgs, schema_hint=SCHEMA_HINT, max_tokens=2000)
+                data = client.chat_json(msgs, max_tokens=2000)
                 acts = (data or {}).get("activities", []) if isinstance(data, dict) else []
                 for a in acts:
                     norm = normalize_activity(a, cat)
@@ -159,32 +158,42 @@ def main() -> int:
     client = AIClient()
 
     # 1. 抓种子源
-    log("阶段 1/5：抓取种子源")
+    log("阶段 1/6：抓取种子源")
     context = all_source_context()
 
     # 2. 从种子源抽取
-    log("阶段 2/5：AI 抽取种子源活动")
+    log("阶段 2/6：AI 抽取种子源活动")
     from_sources = extract_from_sources(client, context)
 
     # 3. 联网搜索补充
-    log("阶段 3/5：AI 联网搜索补充")
+    log("阶段 3/6：AI 联网搜索补充")
     from_search = search_new_activities(client)
 
     # 4. 合并去重 + 写回
-    log("阶段 4/5：合并去重并写回 data/")
+    log("阶段 4/6：合并去重并写回 data/")
     for cat in CATEGORIES:
         new = dedupe_within(from_sources[cat] + from_search[cat])
         old_path = DATA_DIR / cat / "activities.json"
-        from utils import load_json
         old = load_json(old_path) or []
         merged = merge(old, new, today)
         save_json(old_path, merged)
         active = sum(1 for a in merged if a["status"] == "active")
         log(f"[{cat}] 合并后共 {len(merged)} 条（active={active}, 新增={len(new)}）")
 
-    # 5. 生成 Pages 数据 + README
-    log("阶段 5/5：生成 Pages 数据与 README")
+    # 5. 生成 SVG 日历 + 前端数据
+    log("阶段 5/6：生成 SVG 日历与前端数据")
+    all_acts = []
+    for cat in CATEGORIES:
+        all_acts.extend(load_json(DATA_DIR / cat / "activities.json") or [])
+    # 先生成 docs_data（会给每条加 progress/days_left 字段，SVG 也要用）
     generate_docs_data()
+    # 重新读带 progress 字段的数据给 SVG
+    from utils import DOCS_DATA_DIR
+    svg_acts = load_json(DOCS_DATA_DIR / "activities.json") or []
+    generate_svg(svg_acts)
+
+    # 6. 生成 README（嵌入 SVG）
+    log("阶段 6/6：生成 README")
     generate_readme()
 
     log("收集完成")

@@ -57,9 +57,11 @@ def generate_docs_data() -> None:
             a["days_left"] = None
 
     save_json(DOCS_DATA_DIR / "activities.json", acts)
+    import os
     meta = {
         "generated_at": now_bj().isoformat(),
         "today": today.isoformat(),
+        "repository": os.environ.get("GITHUB_REPOSITORY", ""),
         "total": len(acts),
         "by_category": {
             cat: {
@@ -104,105 +106,7 @@ def _md_table(acts: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def generate_readme() -> None:
-    """生成 README.md（保留首尾固定段，中间表格动态生成）。"""
-    acts = _all_activities()
-    today = today_bj()
-    active = [a for a in acts if a["status"] == "active"]
-    upcoming = [a for a in acts if a["status"] == "upcoming"]
-
-    sections = []
-    for cat in CATEGORIES:
-        cat_acts = [a for a in acts if a["category"] == cat]
-        sections.append(
-            f"### {CAT_EMOJI[cat]} {CAT_LABEL[cat]}\n\n"
-            + _md_table(cat_acts)
-        )
-
-    body = "\n".join(sections)
-
-    readme = f"""# 🐑 薅羊毛情报站
-
-> 全网 AI / 游戏 免费福利活动自动收集，每日由 GitHub Actions + AI 更新。
-> 顶部日历视图见 **[GitHub Pages 主页]({{PAGES_URL}})**。
-
-## 📊 今日概况
-
-- 更新时间：{now_bj().strftime("%Y-%m-%d %H:%M")} 北京时间
-- 进行中活动：**{len(active)}** 个 ｜ 即将开始：**{len(upcoming)}** 个 ｜ 历史收录：**{len(acts)}** 个
-
-## 📅 活动日历（进度条视图）
-
-完整可视化日历请访问：**{PAGES_URL_PLACEHOLDER}**
-
-下面是 Markdown 表格速览（GitHub 原生渲染）：
-
-## 🗂 分类活动
-
-{body}
-
-## 🔧 工作原理
-
-1. **每日定时**：GitHub Actions 在北京时间每天 09:00 自动运行
-2. **种子源抓取**：从 `data/sources.json` 列出的目标网站抓取页面
-3. **AI 抽取**：调用 AI 中转站（OpenAI 兼容协议）从页面内容里抽取结构化活动信息
-4. **联网搜索补充**：AI 用预设关键词联网搜索，发现种子源之外的新活动
-5. **去重合并**：按稳定 ID 去重，保留已有字段，刷新状态
-6. **生成产物**：更新 `data/{{ai,games}}/activities.json` + `docs/data/*.json` + 本 README
-
-## 📁 仓库结构
-
-```
-wool-gathering/
-├── .github/workflows/      # Actions：每日收集 + Pages 部署
-├── data/
-│   ├── ai/activities.json  # AI 类活动数据
-│   ├── games/activities.json  # 游戏类活动数据
-│   └── sources.json        # 种子源列表（可手动维护）
-├── scripts/                # Python 收集脚本
-├── docs/                   # GitHub Pages 站点（日历视图）
-└── README.md               # 本文件（自动生成）
-```
-
-## ➕ 添加新的种子源
-
-编辑 `data/sources.json`，加一条：
-
-```json
-{{
-  "name": "华为云开发者社区",
-  "url": "https://developer.huaweicloud.com/...",
-  "category": "ai",
-  "type": "html",
-  "enabled": true,
-  "note": "AI 代金券活动页"
-}}
-```
-
-`category` 可选 `ai` / `games` / `mixed`。提交后下次 Action 运行即生效。
-
-## 🔑 配置 Secrets
-
-在仓库 Settings → Secrets and variables → Actions 添加：
-
-| Secret | 说明 |
-|--------|------|
-| `AI_BASE_URL` | AI 中转站地址（OpenAI 兼容），如 `https://api.deepseek.com/v1` |
-| `AI_API_KEY` | 中转站 API Key |
-| `AI_MODEL` | 模型名，如 `deepseek-chat` |
-
-## 📜 License
-
-MIT
-"""
-    # 替换 Pages URL 占位
-    pages_url = _guess_pages_url()
-    readme = readme.replace("{PAGES_URL}", pages_url).replace(PAGES_URL_PLACEHOLDER, pages_url)
-    (REPO_ROOT / "README.md").write_text(readme, encoding="utf-8")
-    log("已生成 README.md")
-
-
-PAGES_URL_PLACEHOLDER = "__PAGES_URL__"
+README_TEMPLATE = REPO_ROOT / "scripts" / "readme_template.md"
 
 
 def _guess_pages_url() -> str:
@@ -213,6 +117,45 @@ def _guess_pages_url() -> str:
         owner, name = repo.split("/", 1)
         return f"https://{owner}.github.io/{name}/"
     return "https://<your-username>.github.io/wool-gathering/"
+
+
+def generate_readme() -> None:
+    """读取 scripts/readme_template.md，替换占位符后写入 README.md。
+
+    模板里用 {{PAGES_URL}} / {{GENERATED_AT}} / {{ACTIVE_COUNT}}
+    / {{UPCOMING_COUNT}} / {{TOTAL_COUNT}} / {{SECTIONS}} 标记动态部分。
+    这样配置指南等静态内容维护在模板里，不会被脚本逻辑冲掉。
+    """
+    acts = _all_activities()
+    active = [a for a in acts if a["status"] == "active"]
+    upcoming = [a for a in acts if a["status"] == "upcoming"]
+
+    sections = []
+    for cat in CATEGORIES:
+        cat_acts = [a for a in acts if a["category"] == cat]
+        sections.append(
+            f"### {CAT_EMOJI[cat]} {CAT_LABEL[cat]}\n\n"
+            + _md_table(cat_acts)
+        )
+    body = "\n".join(sections)
+
+    if not README_TEMPLATE.exists():
+        log(f"README 模板不存在: {README_TEMPLATE}", level="ERROR")
+        return
+
+    template = README_TEMPLATE.read_text(encoding="utf-8")
+    pages_url = _guess_pages_url()
+    readme = (
+        template
+        .replace("{{PAGES_URL}}", pages_url)
+        .replace("{{GENERATED_AT}}", now_bj().strftime("%Y-%m-%d %H:%M"))
+        .replace("{{ACTIVE_COUNT}}", str(len(active)))
+        .replace("{{UPCOMING_COUNT}}", str(len(upcoming)))
+        .replace("{{TOTAL_COUNT}}", str(len(acts)))
+        .replace("{{SECTIONS}}", body)
+    )
+    (REPO_ROOT / "README.md").write_text(readme, encoding="utf-8")
+    log("已生成 README.md")
 
 
 if __name__ == "__main__":

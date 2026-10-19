@@ -197,6 +197,24 @@
     return escapeHtml(s);
   }
 
+  function updateRepoLink() {
+    // 优先用 meta.repository（Action 注入），否则从 Pages URL 推断
+    const link = document.getElementById("repoLink");
+    if (!link) return;
+    let repo = META && META.repository;
+    if (!repo) {
+      // 从 https://owner.github.io/repo/ 推断
+      const m = window.location.pathname.match(/^\/([^/]+)\/([^/]+)\//);
+      if (m) repo = `${m[1]}.github.io`.replace(".github.io", "") + "/" + m[2];
+    }
+    if (repo) {
+      link.href = `https://github.com/${repo}`;
+      link.textContent = repo.split("/")[1] || "wool-gathering";
+    } else {
+      link.href = "https://github.com/search?q=wool-gathering";
+    }
+  }
+
   function bindEvents() {
     document.querySelectorAll(".filter-btn").forEach(btn => {
       btn.addEventListener("click", () => {
@@ -220,6 +238,7 @@
       ALL = Array.isArray(acts) ? acts : [];
       META = meta;
       renderMeta();
+      updateRepoLink();
       renderTimeline();
       renderCards();
       bindEvents();

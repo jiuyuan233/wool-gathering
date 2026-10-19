@@ -5,7 +5,7 @@ on:
   schedule:
     # 每天北京时间 09:00 = UTC 01:00
     - cron: "0 1 * * *"
-  workflow_dispatch: # 支持手动触发，方便首次跑通
+  workflow_dispatch:
     inputs:
       debug:
         description: "开启 debug 日志"
@@ -14,8 +14,6 @@ on:
 
 permissions:
   contents: write   # 允许 push 回仓库
-  pages: write
-  id-token: write
 
 concurrency:
   group: daily-collect
@@ -65,39 +63,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ docs/data/ README.md
+          git add data/ docs/calendar.svg docs/data/ README.md
           if git diff --cached --quiet; then
             echo "今日无更新，跳过提交"
           else
             git commit -m "chore(data): daily update $(date -u +%Y-%m-%d)"
             git push
           fi
-
-      - name: 触发 Pages 重新构建
-        if: success()
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-  # Pages 部署单独一个 job，依赖 collect 完成
-  deploy-pages:
-    needs: collect
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - name: 检出仓库
-        uses: actions/checkout@v4
-
-      - name: 配置 Pages
-        uses: actions/configure-pages@v5
-
-      - name: 上传 docs/ 作为 Pages 产物
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/
-
-      - name: 部署到 GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v4
