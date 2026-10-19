@@ -1,7 +1,226 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="120" viewBox="0 0 940 120" font-family="-apple-system,Segoe UI,sans-serif">
-<rect width="940" height="120" fill="#ffffff"/>
-<text x="20" y="32" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴</text>
-<text x="20" y="56" font-size="12" fill="#6e7681">更新于 2026-10-19 · 暂无活动数据</text>
-<text x="20" y="80" font-size="11" fill="#6e7681">等待 GitHub Actions 首次运行收集数据后，这里会显示所有活动的甘特图。</text>
-<text x="20" y="98" font-size="11" fill="#6e7681">每条横条代表一个活动的持续时间，红色虚线标记今天，进度填充表示当前完成度。</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1100" viewBox="0 0 940 1100" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="940" height="1100" fill="#ffffff"/>
+<text x="20" y="28" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴</text>
+<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-19 · 共 35 条（35 条有日期）· 红线 = 今天</text>
+<line x1="210" y1="62" x2="920" y2="62" stroke="#d0d7de" stroke-width="1"/>
+<line x1="210.0" y1="58" x2="210.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
+<text x="210.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">10-14</text>
+<line x1="328.3333333333333" y1="58" x2="328.3333333333333" y2="62" stroke="#d0d7de" stroke-width="1"/>
+<text x="328.3333333333333" y="54" font-size="9" fill="#6e7681" text-anchor="middle">10-30</text>
+<line x1="446.66666666666663" y1="58" x2="446.66666666666663" y2="62" stroke="#d0d7de" stroke-width="1"/>
+<text x="446.66666666666663" y="54" font-size="9" fill="#6e7681" text-anchor="middle">11-15</text>
+<line x1="565.0" y1="58" x2="565.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
+<text x="565.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">12-01</text>
+<line x1="683.3333333333333" y1="58" x2="683.3333333333333" y2="62" stroke="#d0d7de" stroke-width="1"/>
+<text x="683.3333333333333" y="54" font-size="9" fill="#6e7681" text-anchor="middle">12-17</text>
+<line x1="801.6666666666667" y1="58" x2="801.6666666666667" y2="62" stroke="#d0d7de" stroke-width="1"/>
+<text x="801.6666666666667" y="54" font-size="9" fill="#6e7681" text-anchor="middle">01-02</text>
+<line x1="920.0" y1="58" x2="920.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
+<text x="920.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">01-18</text>
+<line x1="246.97916666666669" y1="60" x2="246.97916666666669" y2="1054" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="246.97916666666669" y="56" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="600">今天</text>
+<line x1="10" y1="98" x2="930" y2="98" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="84" r="3" fill="#4a9eff"/>
+<text x="24" y="88" font-size="11" fill="#24292f">🟢 GitHub: weather-mcp/weather-mcp</text>
+<rect x="246.97916666666669" y="75" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="75" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="87.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="126" x2="930" y2="126" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="112" r="3" fill="#4a9eff"/>
+<text x="24" y="116" font-size="11" fill="#24292f">🟢 GitHub: ildus650-pixel/yosuri-agent</text>
+<rect x="246.97916666666669" y="103" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="103" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="115.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="154" x2="930" y2="154" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="140" r="3" fill="#4a9eff"/>
+<text x="24" y="144" font-size="11" fill="#24292f">🟢 GitHub: jcleng/opencode-free-provider</text>
+<rect x="246.97916666666669" y="131" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="131" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="143.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="182" x2="930" y2="182" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="168" r="3" fill="#4a9eff"/>
+<text x="24" y="172" font-size="11" fill="#24292f">🟢 GitHub: open-free-llm-api/awesome-freell</text>
+<rect x="246.97916666666669" y="159" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="159" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="171.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="210" x2="930" y2="210" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="196" r="3" fill="#4a9eff"/>
+<text x="24" y="200" font-size="11" fill="#24292f">🟢 GitHub: tahaygun/ai-calorie-tracker</text>
+<rect x="246.97916666666669" y="187" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="187" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="199.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="238" x2="930" y2="238" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="224" r="3" fill="#4a9eff"/>
+<text x="24" y="228" font-size="11" fill="#24292f">🟢 GitHub: angconsorte/LLM_Meeting_Assistan</text>
+<rect x="239.58333333333334" y="215" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="215" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="227.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="266" x2="930" y2="266" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="252" r="3" fill="#4a9eff"/>
+<text x="24" y="256" font-size="11" fill="#24292f">🟢 GitHub: JaiiMukundh/fused-knn-search</text>
+<rect x="239.58333333333334" y="243" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="243" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="255.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="294" x2="930" y2="294" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="280" r="3" fill="#4a9eff"/>
+<text x="24" y="284" font-size="11" fill="#24292f">🟢 GitHub: peremartra/Rearchitecting-LLMs</text>
+<rect x="239.58333333333334" y="271" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="271" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="283.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="322" x2="930" y2="322" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="308" r="3" fill="#4a9eff"/>
+<text x="24" y="312" font-size="11" fill="#24292f">🟢 GitHub: NurMohammadDuari/VoiceStudio-Col</text>
+<rect x="239.58333333333334" y="299" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="299" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="311.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="350" x2="930" y2="350" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="336" r="3" fill="#4a9eff"/>
+<text x="24" y="340" font-size="11" fill="#24292f">🟢 GitHub: eswaroy/qwen3.5-2b-physics</text>
+<rect x="232.1875" y="327" width="680.4166666666667" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="232.1875" y="327" width="21.773333333333333" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="572.3958333333334" y="339.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="378" x2="930" y2="378" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="364" r="3" fill="#4a9eff"/>
+<text x="24" y="368" font-size="11" fill="#24292f">🟢 GitHub: tushar29k/pr-review-agent</text>
+<rect x="246.97916666666669" y="355" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="355" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="367.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="406" x2="930" y2="406" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="392" r="3" fill="#4a9eff"/>
+<text x="24" y="396" font-size="11" fill="#24292f">🟢 GitHub: lifejx/free-llm-api-list</text>
+<rect x="246.97916666666669" y="383" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="383" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="395.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="434" x2="930" y2="434" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="420" r="3" fill="#4a9eff"/>
+<text x="24" y="424" font-size="11" fill="#24292f">🟢 GitHub: precisionz/tokenation</text>
+<rect x="246.97916666666669" y="411" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="411" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="423.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="462" x2="930" y2="462" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="448" r="3" fill="#4a9eff"/>
+<text x="24" y="452" font-size="11" fill="#24292f">🟢 GitHub: happyyboxx/free-llm-atlas</text>
+<rect x="246.97916666666669" y="439" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="439" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="451.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="490" x2="930" y2="490" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="476" r="3" fill="#4a9eff"/>
+<text x="24" y="480" font-size="11" fill="#24292f">🟢 GitHub: nejib1/Free-LLM</text>
+<rect x="246.97916666666669" y="467" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="467" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="479.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="518" x2="930" y2="518" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="504" r="3" fill="#4a9eff"/>
+<text x="24" y="508" font-size="11" fill="#24292f">🟢 GitHub: jiuyuan233/wool-gathering</text>
+<rect x="246.97916666666669" y="495" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="495" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="507.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="546" x2="930" y2="546" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="532" r="3" fill="#4a9eff"/>
+<text x="24" y="536" font-size="11" fill="#24292f">🟢 GitHub: rockbenben/free-llm-intel</text>
+<rect x="246.97916666666669" y="523" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="523" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="535.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="574" x2="930" y2="574" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="560" r="3" fill="#4a9eff"/>
+<text x="24" y="564" font-size="11" fill="#24292f">🟢 GitHub: chenli19371015-art/wooltools</text>
+<rect x="239.58333333333334" y="551" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="551" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="563.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="602" x2="930" y2="602" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="588" r="3" fill="#4a9eff"/>
+<text x="24" y="592" font-size="11" fill="#24292f">🟢 GitHub: baiwumm/free-for-dev-zh</text>
+<rect x="239.58333333333334" y="579" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="579" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="591.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="630" x2="930" y2="630" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="616" r="3" fill="#4a9eff"/>
+<text x="24" y="620" font-size="11" fill="#24292f">🟢 GitHub: sanbeitixigua123/token-free</text>
+<rect x="239.58333333333334" y="607" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="607" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="619.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="658" x2="930" y2="658" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="644" r="3" fill="#4a9eff"/>
+<text x="24" y="648" font-size="11" fill="#24292f">🟢 GitHub: Dthen/free-inference-watchdog</text>
+<rect x="246.97916666666669" y="635" width="665.625" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="246.97916666666669" y="635" width="7.321875000000001" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="579.7916666666667" y="647.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="686" x2="930" y2="686" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="672" r="3" fill="#4a9eff"/>
+<text x="24" y="676" font-size="11" fill="#24292f">🟢 GitHub: enapt/SwarmLLM</text>
+<rect x="239.58333333333334" y="663" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="663" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="675.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="714" x2="930" y2="714" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="700" r="3" fill="#4a9eff"/>
+<text x="24" y="704" font-size="11" fill="#24292f">🟢 GitHub: eghrhegpe/dsh-connect-modelscope</text>
+<rect x="239.58333333333334" y="691" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="691" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="703.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="742" x2="930" y2="742" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="728" r="3" fill="#4a9eff"/>
+<text x="24" y="732" font-size="11" fill="#24292f">🟢 GitHub: Cedriceuh/freetoken-rdna3</text>
+<rect x="239.58333333333334" y="719" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="719" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="731.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="770" x2="930" y2="770" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="756" r="3" fill="#4a9eff"/>
+<text x="24" y="760" font-size="11" fill="#24292f">🟢 GitHub: haiggoh/free-agents</text>
+<rect x="239.58333333333334" y="747" width="673.0208333333334" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="239.58333333333334" y="747" width="14.806458333333335" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="576.09375" y="759.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 90 天</text>
+<line x1="10" y1="798" x2="930" y2="798" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="784" r="3" fill="#4ade80"/>
+<text x="24" y="788" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Bad Cheese</text>
+<rect x="217.39583333333334" y="775" width="51.77083333333334" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="217.39583333333334" y="775" width="32.35677083333334" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="826" x2="930" y2="826" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="812" r="3" fill="#4ade80"/>
+<text x="24" y="816" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Agent A - 伪装游戏</text>
+<rect x="217.39583333333334" y="803" width="51.77083333333334" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="217.39583333333334" y="803" width="32.35677083333334" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="854" x2="930" y2="854" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="840" r="3" fill="#4ade80"/>
+<text x="24" y="844" font-size="11" fill="#24292f">🟢 Steam 免费周末: 免费周末</text>
+<rect x="246.97916666666669" y="831" width="22.1875" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="246.97916666666669" y="831" width="5.546875" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="882" x2="930" y2="882" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="868" r="3" fill="#4ade80"/>
+<text x="24" y="872" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Eternal Threads</text>
+<rect x="246.97916666666669" y="859" width="103.54166666666663" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="246.97916666666669" y="859" width="6.937291666666664" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="298.75" y="871.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="910" x2="930" y2="910" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="896" r="3" fill="#4ade80"/>
+<text x="24" y="900" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Castlevania Anniversary Colle</text>
+<rect x="246.97916666666669" y="887" width="103.54166666666663" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="246.97916666666669" y="887" width="6.937291666666664" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="298.75" y="899.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="938" x2="930" y2="938" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="924" r="3" fill="#4ade80"/>
+<text x="24" y="928" font-size="11" fill="#24292f">🟢 Epic 免费游戏: 纪念碑谷（Monument Valley）</text>
+<rect x="246.97916666666669" y="915" width="103.54166666666663" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="246.97916666666669" y="915" width="6.937291666666664" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="298.75" y="927.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="966" x2="930" y2="966" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="952" r="3" fill="#4ade80"/>
+<text x="24" y="956" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Sker Ritual</text>
+<rect x="269.1666666666667" y="943" width="51.770833333333314" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="994" x2="930" y2="994" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="980" r="3" fill="#4ade80"/>
+<text x="24" y="984" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Home - A Unique Horror Advent</text>
+<rect x="269.1666666666667" y="971" width="51.770833333333314" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="1022" x2="930" y2="1022" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1008" r="3" fill="#4ade80"/>
+<text x="24" y="1012" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《LISA: Definitive Edition》</text>
+<rect x="343.125" y="999" width="66.5625" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="1050" x2="930" y2="1050" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1036" r="3" fill="#4ade80"/>
+<text x="24" y="1040" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
+<rect x="631.5625" y="1027" width="207.08333333333326" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<rect x="210" y="1062" width="14" height="10" rx="2" fill="#4a9eff"/><text x="230" y="1071" font-size="10" fill="#24292f">AI 类</text>
+<rect x="290" y="1062" width="14" height="10" rx="2" fill="#4ade80"/><text x="310" y="1071" font-size="10" fill="#24292f">游戏类</text>
+<rect x="380" y="1062" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="400" y="1071" font-size="10" fill="#24292f">已结束</text>
+<rect x="470" y="1062" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="490" y="1071" font-size="10" fill="#24292f">未开始</text>
+<line x1="560" y1="1060" x2="560" y2="1074" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="568" y="1071" font-size="10" fill="#24292f">今天</text>
 </svg>
