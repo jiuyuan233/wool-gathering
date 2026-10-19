@@ -361,26 +361,6 @@
     "last_seen": "2026-10-19"
   },
   {
-    "id": "ai_chatanywhere_free",
-    "title": "ChatAnywhere·免费AI中转站",
-    "url": "https://api.chatanywhere.org",
-    "source_url": "https://docs.chatanywhere.tech/",
-    "claim_url": "https://api.chatanywhere.org",
-    "description": "OpenAI 兼容中转站，免费版每周50000点+每天100次请求。支持GPT/Claude/Gemini/DeepSeek/Qwen/Kimi/MiniMax。国内 api.chatanywhere.tech，国外 api.chatanywhere.org",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-18",
-    "value": "免费版每周50000点+每天100次请求",
-    "category": "ai",
-    "tags": [
-      "ChatAnywhere",
-      "AI中转站",
-      "免费额度"
-    ],
-    "status": "active",
-    "discovered_at": "2026-10-19T16:30:00+08:00",
-    "last_seen": "2026-10-19"
-  },
-  {
     "id": "cloud_a6638bd2c0cc",
     "title": "腾讯云·大促代金券",
     "category": "ai",

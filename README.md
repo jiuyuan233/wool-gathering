@@ -4,6 +4,21 @@
 
 ---
 
+## 🔗 社区整理的免费资源
+
+> 以下为社区维护的免费 AI / 开发者资源聚合项目，可作为日常薅羊毛的补充信息源：
+
+| 项目 | 简介 |
+|------|------|
+| [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) ⭐38.5k | 免费 ChatGPT & DeepSeek API key 分发，含免费版与付费版对比 |
+| [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) ⭐23.7k | 免费 LLM 推理资源列表，覆盖各家厂商的免费额度与限速 |
+| [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) ⭐4.4k | 134+ 免费 LLM API 与 AI API Key 持续更新目录 |
+| [AIPMAndy/FreeToken](https://github.com/AIPMAndy/FreeToken) ⭐140 | 收集免费 AI API Token 获取方法，含申请入口与额度说明 |
+| [robhunter/agentdeals](https://github.com/robhunter/agentdeals) ⭐23 | 开发者基础设施免费层、创业信用额度目录 |
+| [Unicorndy/free-llm-api-discovery](https://github.com/Unicorndy/free-llm-api-discovery) | 免费 LLM API 发现，curated directory + 每日模型可用性测试 |
+
+---
+
 ## 📅 活动时间轴
 
 ![活动日历](docs/calendar.svg)
@@ -15,8 +30,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 16:46** 北京时间
-- 进行中：**104** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**108** 个
+- 更新时间：**2026-10-19 16:58** 北京时间
+- 进行中：**103** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**107** 个
 
 ---
 
@@ -45,7 +60,6 @@
 | 🟢 | 阿里云·高校计划 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://university.aliyun.com) |
 | 🟢 | 阿里云·新人特惠 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://www.aliyun.com/activity/new) |
 | 🟢 | 腾讯·WorkBuddy AI办公 | 免费版 | 2026-10-19 ~ 2026-11-18 | — | [领取](https://workbuddy.tencent.com/) |
-| 🟢 | ChatAnywhere·免费AI中转站 | 免费版每周50000点+每天100次请求 | 2026-10-19 ~ 2026-11-18 | — | [领取](https://api.chatanywhere.org) |
 | 🟢 | 腾讯云·大促代金券 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://cloud.tencent.com/act/new) |
 | 🟢 | 腾讯云·校园计划 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://cloud.tencent.com/act/campus) |
 | 🟢 | 腾讯云·免费体验 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://cloud.tencent.com/act/free) |
