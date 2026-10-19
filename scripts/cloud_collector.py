@@ -81,11 +81,30 @@ def fetch_page(url: str, referer: str = "") -> str | None:
         return None
 
 
-def collect_cloud_activities() -> list[dict]:
+def _fallback_from_old(old_acts: list[dict] | None, url: str, vendor: str, section: str) -> list[dict]:
+    """抓取失败时（如海外 IP 被风控），从旧数据找回该 URL 的条目。
+
+    云厂商活动是长期活动，页面抓不到不代表活动结束，
+    沿用缓存数据并顺延 30 天。
+    """
+    sid = _stable_id(url)
+    for a in old_acts or []:
+        if a.get("id") == sid:
+            cached = dict(a)
+            cached["end_date"] = (BJ + timedelta(days=30)).strftime("%Y-%m-%d")
+            cached["status"] = "active"
+            cached["title"] = f"{vendor}·{section}"
+            log(f"[{vendor}] {section}: 沿用缓存数据（页面抓取受限）")
+            return [cached]
+    return []
+
+
+def collect_cloud_activities(old_acts: list[dict] | None = None) -> list[dict]:
     """收集所有云厂商活动。
 
     每个活动页生成一条活动：标题=厂商+板块，描述=title+description 摘要。
     ID 基于 URL，稳定去重；活动长期有效，end_date 顺延 30 天。
+    抓取失败的页面从 old_acts 缓存回退（长期活动不会因网络问题误判过期）。
     """
     activities: list[dict] = []
     today = BJ.strftime("%Y-%m-%d")
@@ -96,6 +115,7 @@ def collect_cloud_activities() -> list[dict]:
         referer = "https://cloud.tencent.com/" if "cloud.tencent.com" in url else ""
         html = fetch_page(url, referer=referer)
         if not html:
+            activities.extend(_fallback_from_old(old_acts, url, vendor, section))
             continue
 
         title, desc = _get_meta(html)
@@ -103,6 +123,7 @@ def collect_cloud_activities() -> list[dict]:
             # 诊断：打出返回内容片段，方便排查（如海外 IP 被风控/跳转）
             snippet = re.sub(r"\s+", " ", html[:300])
             log(f"[{vendor}] {url} 无 meta，返回内容: {snippet[:150]}", level="WARN")
+            activities.extend(_fallback_from_old(old_acts, url, vendor, section))
             continue
 
         # 拼活动标题和描述
