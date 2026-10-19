@@ -35,47 +35,29 @@ from utils import (
 
 CATEGORIES = ["ai", "games"]
 
-# 联网搜索关键词（混合模式补充发现）
-# 这些词会交给 AI 让它联网搜，发现种子源之外的新活动
+# 联网搜索关键词（精简版，避免触发中转站限流）
+# 每分类只保留最关键的 4 个关键词，总 8 次 AI 搜索调用
 SEARCH_KEYWORDS = {
     "ai": [
-        "AI 代金券 免费领取 2026",
-        "大模型 免费额度 新用户注册",
-        "云厂商 AI 算力 免费试用 活动",
-        "GPU 免费算力 活动 2026",
-        "华为云 AI 代金券",
-        "阿里云 通义千问 免费额度",
-        "HuggingFace free inference Spaces",
-        "Google AI Studio free Gemini",
-        "Groq free tier API",
+        "AI 大模型 免费额度 代金券 新用户 2026",
+        "云厂商 GPU 免费算力 试用活动",
+        "HuggingFace Google AI Studio Groq free tier",
+        "华为云 阿里云 通义千问 AI 免费券",
     ],
     "games": [
-        "Epic 免费游戏 本周",
-        "Epic Games free games this week",
-        "Steam 限免 游戏 本周",
-        "Steam 100% off free game",
-        "GOG 限时免费 游戏",
-        "GOG free game giveaway",
-        "Humble Bundle 限时免费",
-        "itch.io 限时免费 游戏",
-        "Amazon Prime Gaming free games",
-        "Ubisoft free game On the House",
-        "EA free game giveaway",
-        "Reddit free games",
-        "喜加一 限时免费 游戏",
-        "游戏 限免 喜加一 2026",
-        "手游 公测 礼包 免费领",
-        "PlayStation 会员免费游戏",
-        "Xbox Games with Gold free",
+        "Epic Steam GOG 限免 免费 喜加一 本周",
+        "Humble Bundle itch.io Prime Gaming free game",
+        "喜加一 限时免费 游戏 2026",
+        "手游 公测 礼包 免费领 PS Xbox",
     ],
 }
 
 
 def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]]:
-    """从种子源上下文里抽取活动，按分类分桶。
+    """从种子源上下文里抽取活动，按分类批量调用。
 
-    用 prompts.py 里的 system prompt + extract 模板组装 messages，
-    这样抽取规则、字段要求、什么算薅羊毛都由 prompts.py 统一控制。
+    优化：同分类的所有源拼成一段大上下文，一次 AI 调用抽取整个分类。
+    从 51 次调用降到 2 次（ai + games），避免触发中转站限流。
     """
     if not context:
         log("种子源上下文为空，跳过抽取")
@@ -85,11 +67,12 @@ def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]
     by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
     today_str = today_bj().isoformat()
 
+    # 按分类收集源片段
+    cat_snippets: dict[str, list[str]] = {c: [] for c in CATEGORIES}
     for src in sources:
         cat = src.category if src.category in CATEGORIES else None
         if cat is None:
             continue  # mixed 留给搜索阶段
-        # 上下文里找对应片段
         marker = f"### 源: {src.name}"
         i = context.find(marker)
         if i < 0:
@@ -98,26 +81,38 @@ def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]
         snippet = context[i : j if j > 0 else len(context)]
         if len(snippet) < 50:
             continue
+        cat_snippets[cat].append(snippet[:3000])  # 每源截短到 3000 字
 
-        # 用 prompts.py 组装 messages（含完整抽取规则）
+    # 每分类一次批量抽取
+    for cat in CATEGORIES:
+        snippets = cat_snippets[cat]
+        if not snippets:
+            log(f"[{cat}] 无可用源片段，跳过")
+            continue
+
+        # 拼成大上下文（总上限 12000 字，防止 token 爆炸）
+        combined = "\n---\n".join(snippets)[:12000]
+        src_count = len(snippets)
+        log(f"[{cat}] 批量抽取 {src_count} 个源，上下文 {len(combined)} 字")
+
         msgs = build_extract_messages(
-            source_name=src.name,
-            source_url=src.url,
+            source_name=f"批量（{src_count}个源）",
+            source_url="",
             category=cat,
-            content=snippet[:6000],
+            content=combined,
             today=today_str,
         )
         try:
-            data = client.chat_json(msgs, max_tokens=2500)
+            data = client.chat_json(msgs, max_tokens=4000)
             acts = (data or {}).get("activities", []) if isinstance(data, dict) else []
             for a in acts:
                 norm = normalize_activity(a, cat)
                 if norm:
                     norm["discovered_at"] = norm["discovered_at"] or now_bj().isoformat()
                     by_cat[cat].append(norm)
-            log(f"[{cat}] 从 {src.name} 抽到 {len(acts)} 条")
+            log(f"[{cat}] 批量抽到 {len(acts)} 条")
         except Exception as e:
-            log(f"AI 抽取失败 [{src.name}]: {e}", level="ERROR")
+            log(f"AI 批量抽取失败 [{cat}]: {e}", level="ERROR")
 
     return by_cat
 
