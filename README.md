@@ -15,8 +15,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 12:43** 北京时间
-- 进行中：**121** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**125** 个
+- 更新时间：**2026-10-19 12:47** 北京时间
+- 进行中：**116** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**120** 个
 
 ---
 
@@ -60,11 +60,6 @@
 | 🟢 | Epic 免费游戏: Bad Cheese | — | 2026-10-15 ~ 2026-10-22 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: Agent A - 伪装游戏 | — | 2026-10-15 ~ 2026-10-22 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Steam 免费周末: 免费周末 | — | 2026-10-19 ~ 2026-10-22 | — | — |
-| 🟢 | Bad Cheese（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/bad-cheese/info/) |
-| 🟢 | Agent A: A puzzle in disguise（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/agent-a-a-puzzle-in-disguise/info/) |
-| 🟢 | Voidtrain - Big Catch（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/voidtrain-big-catch/info/) |
-| 🟢 | Gear.Club Unlimited 3 - Gear.Club Signature Pack（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/gear-club-unlimited-3-gear-club-signature-pack/info/) |
-| 🟢 | Voidtrain - Tour de Void（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/voidtrain-tour-de-void/info/) |
 | 🟢 | FGF Giveaway: Retro Pond &amp; Sandtrix+!（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/) |
 | 🟢 | Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x47cvi/exiled_giveaways_and_itchio_mega_threads/) |
 | 🟢 | [Steam] (Game) Dumb Ways to Build（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x98rdb/steam_game_dumb_ways_to_build/) |
