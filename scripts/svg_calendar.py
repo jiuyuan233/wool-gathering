@@ -33,6 +33,8 @@ ROW_H = 28                   # 每行高度
 BAR_H = 18                   # 横条高度
 TOP_PAD = 70                 # 顶部留给标题+刻度
 BOTTOM_PAD = 50              # 底部留给图例
+LABEL_TEXT_X = 24            # 活动名文字起点
+LABEL_MAX_PX = TRACK_X - LABEL_TEXT_X - 6  # 活动名最大像素宽（超长强制压缩）
 
 # 颜色
 COLOR_AI = "#4a9eff"
@@ -56,23 +58,30 @@ def _cat_color(cat: str) -> str:
 
 
 def _visual_width(s: str) -> float:
-    """估算字符串显示宽度：全角（CJK/emoji）=1，半角 =0.55。"""
+    """估算字符串显示宽度（单位 = 全角字符宽）。
+
+    全角（CJK）=1，emoji（U+1F000 起）=1.6，半角 =0.55。
+    emoji 实际渲染约 1.5-1.8 个 em，按 1.6 估算更准确。
+    """
     w = 0.0
     for ch in s:
-        w += 1.0 if ord(ch) > 0x2E80 else 0.55
+        o = ord(ch)
+        if o >= 0x1F000:
+            w += 1.6
+        elif o > 0x2E80:
+            w += 1.0
+        else:
+            w += 0.55
     return w
 
 
 def _truncate_label(s: str, max_units: float = 16.0) -> str:
-    """按显示宽度截断活动名（全角=1，半角=0.55），超限加省略号。
-
-    保证文字不超出左标签区（LEFT_LABEL_W=230px）：emoji+空格前缀实际
-    渲染约 2 单位，标题预算 16 单位 + 前缀 ≈ 18 单位 < 可容纳的 19 单位。
-    """
+    """按显示宽度截断活动名（权重与 _visual_width 一致），超限加省略号。"""
     out: list[str] = []
     w = 0.0
     for ch in s:
-        cw = 1.0 if ord(ch) > 0x2E80 else 0.55
+        o = ord(ch)
+        cw = 1.6 if o >= 0x1F000 else (1.0 if o > 0x2E80 else 0.55)
         if w + cw > max_units - 1.0:  # 留 1 个单位给省略号
             break
         out.append(ch)
@@ -193,8 +202,15 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
         )
         # 状态图标
         status_icon = {"active": "🟢", "upcoming": "🟡", "ended": "⚫"}.get(status, "⚪")
+        # 超长文本用 SVG 原生 textLength 强制压缩，保证文字绝不越过左标签区
+        # 与时间轴横条重叠（不依赖字体渲染宽度估算的准确性）
+        label_text = f"{status_icon} {title}"
+        label_px = _visual_width(label_text) * 12  # font-size=12px
+        tl_attr = ""
+        if label_px > LABEL_MAX_PX:
+            tl_attr = f' textLength="{int(LABEL_MAX_PX)}" lengthAdjust="spacingAndGlyphs"'
         parts.append(
-            f'<text x="24" y="{y + ROW_H // 2 + 4}" font-size="11" fill="{COLOR_TEXT}">{status_icon} {title}</text>'
+            f'<text x="24" y="{y + ROW_H // 2 + 4}" font-size="12" fill="{COLOR_TEXT}"{tl_attr}>{label_text}</text>'
         )
 
         # 横条
