@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "运行模式: ai / games / finalize / all"
+        description: "运行模式: ai / games / drive / finalize / all / 逗号分隔如 ai,drive"
         required: false
         default: "all"
 
@@ -50,8 +50,8 @@ jobs:
             HOUR=$(date -u +%H)
             echo "当前 UTC 小时: $HOUR"
             if [ "$HOUR" = "01" ]; then
-              echo "mode=ai" >> $GITHUB_OUTPUT
-              echo "定时任务: 更新 AI 板块"
+              echo "mode=ai,drive" >> $GITHUB_OUTPUT
+              echo "定时任务: 更新 AI + 开车线报板块"
             elif [ "$HOUR" = "07" ]; then
               echo "mode=games" >> $GITHUB_OUTPUT
               echo "定时任务: 更新游戏板块"

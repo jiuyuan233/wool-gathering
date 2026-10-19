@@ -24,9 +24,35 @@ from utils import (
 )
 
 
-CATEGORIES = ["ai", "open-source", "games"]
-CAT_LABEL = {"ai": "AI / 云服务优惠", "open-source": "开源免费工具", "games": "游戏喜加一"}
-CAT_EMOJI = {"ai": "🤖", "open-source": "🔓", "games": "🎮"}  # README 里用，前端不用
+CATEGORIES = ["ai", "open-source", "drive", "games"]
+CAT_LABEL = {
+    "ai": "AI / 云服务优惠",
+    "open-source": "开源免费工具",
+    "drive": "开车线报",
+    "games": "游戏喜加一",
+}
+CAT_EMOJI = {"ai": "🤖", "open-source": "🔓", "drive": "🚗", "games": "🎮"}  # README 里用，前端不用
+
+# 开车线报的车型子分类（按标题关键词归类，顺序即分组顺序）
+CAR_TYPES: list[tuple[str, list[str]]] = [
+    ("云服务器车", ["云服务器", "云服务", "ecs", "主机", "服务器", "vps", "轻量",
+                  "华为云", "阿里云", "腾讯云", "百度云", "rainyun", "狗云"]),
+    ("AI 车", ["ai", "codex", "deepseek", "大模型", "chatgpt", "claude",
+              "gemini", "gpt", "通义", "文心", "kimi", "智谱"]),
+    ("会员车", ["vip", "svip", "会员", "年卡", "网盘", "视频", "音乐",
+               "爱奇艺", "腾讯视频", "优酷", "芒果"]),
+    ("软件工具车", ["软件", "工具", "专业版", "激活", "序列号", "license",
+                 "office", "ide", "jetbrains"]),
+]
+
+
+def guess_car_type(title: str) -> str:
+    """按标题关键词归类车型（云厂商活动优先归云服务器车，即使标题提 AI）。"""
+    low = title.lower()
+    for label, kws in CAR_TYPES:
+        if any(k.lower() in low for k in kws):
+            return label
+    return "其他车"
 
 
 def _all_activities() -> list[dict]:
@@ -117,6 +143,24 @@ def _md_table(acts: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def _drive_section(acts: list[dict]) -> str:
+    """开车线报大分区：内部按车型子分组（组内按 end_date 升序）。"""
+    parts = ["### 🚗 开车线报", ""]
+    groups: dict[str, list[dict]] = {}
+    for a in acts:
+        groups.setdefault(guess_car_type(a["title"]), []).append(a)
+    order = [label for label, _ in CAR_TYPES] + ["其他车"]
+    for label in order:
+        g = groups.get(label, [])
+        if not g:
+            continue
+        parts.append(f"**{label}**")
+        parts.append("")
+        parts.append(_md_table(g).rstrip())
+        parts.append("")
+    return "\n".join(parts).rstrip() + "\n"
+
+
 README_TEMPLATE = REPO_ROOT / "scripts" / "readme_template.md"
 
 
@@ -144,10 +188,14 @@ def generate_readme() -> None:
     sections = []
     for cat in CATEGORIES:
         cat_acts = [a for a in acts if a["category"] == cat]
-        sections.append(
-            f"### {CAT_EMOJI[cat]} {CAT_LABEL[cat]}\n\n"
-            + _md_table(cat_acts)
-        )
+        if cat == "drive" and cat_acts:
+            # 开车线报：大分区内部按车型子分组
+            sections.append(_drive_section(cat_acts))
+        else:
+            sections.append(
+                f"### {CAT_EMOJI[cat]} {CAT_LABEL[cat]}\n\n"
+                + _md_table(cat_acts)
+            )
     body = "\n".join(sections)
 
     if not README_TEMPLATE.exists():

@@ -4,13 +4,16 @@
 - 不自己硬抓云厂商活动页（反爬严重），改为抓别人已做好的聚合博客
 - 每个源独立抓取，失败不影响其他源
 - 条目用关键词过滤后标准化，与现有收集器结果合并去重
+- 开车帖（群发车/线报）自动归 "drive" 分区，开源工具自动归 "open-source" 分区
 
 源清单：
-- games: IsThereAnyDeal（免费游戏聚合）、Reddit FreeGameFindings/GameDeals
-- ai:    异次元软件世界、小众软件、阮一峰周刊、V2EX cloud 节点
+- games:       IsThereAnyDeal（免费游戏聚合）、Reddit FreeGameFindings
+- ai:          异次元软件世界、小众软件
+- drive:       V2EX cloud / promotions 节点（群发车线报，云优惠讨论自动分流回 ai）
 """
 from __future__ import annotations
 
+import html as _html
 import json
 import re
 import urllib.request
@@ -42,11 +45,15 @@ WOOL_VALUE_WORDS = [
 ]
 
 # 排除模式：标题匹配则算误判（讨论帖/广告/泛首页标题）
+# 注意：开车/发车/上车/线报类标志词不再排除，改由 is_drive_post 识别后归 "drive" 分区
 WOOL_EXCLUDE_PATTERNS = [
     r"还能.*吗", r"怎么办", r"如何.*吗", r"请教", r"问一下", r"能不能",
-    r"分享免费、小巧", r"开群发车", r"线报群", r"周刊",
-    r"感兴趣的朋友", r"快来上车",
+    r"分享免费、小巧", r"周刊",
+    r"感兴趣的朋友",
 ]
+
+# 开车线报识别：群发车/上车/线报类帖子 → 归 "drive" 分区（不要求价值词）
+DRIVE_HINTS = ["开车", "发车", "上车", "拼车", "线报", "羊毛群", "薅羊毛", "白嫖群"]
 
 # 开源工具识别：含"开源"或明显是 GitHub 免费工具，且非限时促销
 OPEN_SOURCE_HINTS = ["开源", "github 上发现", "在 github 发现", "免费小工具", "工具箱"]
@@ -93,18 +100,28 @@ def is_open_source(title: str) -> bool:
     return not any(w in low for w in OPEN_SOURCE_EXCLUDE)
 
 
+def is_drive_post(title: str) -> bool:
+    """是否开车线报帖（群发车/上车/线报）→ 归 drive 分区。"""
+    low = title.lower()
+    return any(h in low for h in DRIVE_HINTS)
+
+
 def _activity(title: str, url: str, source_name: str, category: str, desc: str = "") -> dict:
-    """构造标准化条目（兼容 normalize_activity）。"""
+    """构造标准化条目（兼容 normalize_activity）。
+
+    标题统一 html.unescape：RSS/博客数据里的 &amp; 等实体还原成原字符，
+    避免 SVG 渲染时被二次转义成 &amp;amp;。
+    """
     today = today_bj()
     return {
-        "title": title.strip()[:200],
+        "title": _html.unescape(title).strip()[:200],
         "category": category,
         "source_url": url,
         "claim_url": url,
         "start_date": today.isoformat(),
         "end_date": (today + timedelta(days=7)).isoformat(),
         "value": "",
-        "description": desc or f"来源: {source_name}",
+        "description": _html.unescape(desc or f"来源: {source_name}"),
         "tags": ["blog", source_name],
         "discovered_at": today.isoformat(),
     }
@@ -351,7 +368,7 @@ def parse_rss(xml_text: str, source_name: str, category: str, filter_wool: bool 
 
 
 def parse_v2ex_cloud(json_text: str) -> list[dict]:
-    """V2EX cloud 节点 JSON: 提取云厂商优惠讨论。"""
+    """V2EX cloud 节点 JSON: 开车帖归 drive，云优惠讨论归 ai。"""
     acts = []
     try:
         data = json.loads(json_text)
@@ -364,12 +381,46 @@ def parse_v2ex_cloud(json_text: str) -> list[dict]:
         tid = t.get("id")
         if not title or not tid:
             continue
-        if not is_wool_related(title):
+        if is_drive_post(title):
+            # 开车线报帖 → drive 分区（不要求价值词）
+            cat = "drive"
+        elif is_wool_related(title):
+            cat = "ai"
+        else:
             continue
         acts.append(_activity(
             title,
             f"https://www.v2ex.com/t/{tid}",
-            "V2EX-cloud", "ai",
+            "V2EX-cloud", cat,
+        ))
+    return acts
+
+
+def parse_v2ex_promotions(json_text: str) -> list[dict]:
+    """V2EX promotions 节点 JSON: 推广/开车帖 → drive 分区。
+
+    promotions 节点本身全是推广帖，只过滤明显讨论性质的内容，
+    开车帖（is_drive_post）与含价值词的推广帖都收录。
+    """
+    acts = []
+    try:
+        data = json.loads(json_text)
+    except json.JSONDecodeError:
+        return acts
+    if not isinstance(data, list):
+        return acts
+    for t in data:
+        title = t.get("title", "")
+        tid = t.get("id")
+        if not title or not tid:
+            continue
+        # 推广节点：开车帖直接收；非开车帖要求含价值词（过滤纯讨论）
+        if not is_drive_post(title) and not is_wool_related(title):
+            continue
+        acts.append(_activity(
+            title,
+            f"https://www.v2ex.com/t/{tid}",
+            "V2EX-promotions", "drive",
         ))
     return acts
 
@@ -395,9 +446,16 @@ SOURCES: dict[str, list[dict]] = {
          "parser": "iplaysoft"},
         {"name": "小众软件", "url": "https://www.appinn.com/",
          "parser": "appinn"},
+    ],
+    # 开车线报分区：V2EX 群发车等线报帖（V2EX 统一在 drive 步骤抓取，
+    # cloud 节点的云优惠讨论会自动分流回 ai 类别）
+    "drive": [
         {"name": "V2EX-cloud",
          "url": "https://www.v2ex.com/api/topics/show.json?node_name=cloud",
          "parser": "v2ex_json"},
+        {"name": "V2EX-promotions",
+         "url": "https://www.v2ex.com/api/topics/show.json?node_name=promotions",
+         "parser": "v2ex_promotions"},
     ],
 }
 
@@ -452,6 +510,10 @@ def collect_blog_activities(category: str) -> list[dict]:
                 acts = acts[:15]
             elif parser == "v2ex_json":
                 acts = parse_v2ex_cloud(text)
+            elif parser == "v2ex_promotions":
+                acts = parse_v2ex_promotions(text)
+                # 限制 15 条，避免过多
+                acts = acts[:15]
             elif parser == "ruanyifeng":
                 acts = parse_ruanyifeng(text)
             else:

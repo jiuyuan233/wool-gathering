@@ -8,10 +8,12 @@
 - 每天晚上全部整理一下（生成 SVG + README）
 
 用法：
-  python collect.py ai       # 只处理 AI 类
-  python collect.py games    # 只处理游戏类
-  python collect.py finalize # 只做整理（SVG + README）
-  python collect.py all      # 全部处理（默认，手动触发用）
+  python collect.py ai         # 只处理 AI 类（含 open-source 分流）
+  python collect.py games      # 只处理游戏类
+  python collect.py drive      # 只处理开车线报类
+  python collect.py ai,drive   # 逗号分隔多模式
+  python collect.py finalize   # 只做整理（SVG + README）
+  python collect.py all        # 全部处理（默认，手动触发用）
 """
 from __future__ import annotations
 
@@ -37,7 +39,7 @@ from utils import (
 )
 
 
-CATEGORIES = ["ai", "open-source", "games"]
+CATEGORIES = ["ai", "open-source", "drive", "games"]
 
 
 def _merge_and_save(category: str, new_acts: list[dict], today) -> None:
@@ -84,7 +86,8 @@ def process_category(category: str) -> int:
         raw_acts = collect_games_category(category)
         raw_acts.extend(collect_blog_activities(category))
     else:
-        # open-source 等其他类别：仅博客聚合（由 ai 模式分流触发，单独跑时也支持）
+        # open-source / drive 等其他类别：仅博客聚合
+        # （open-source 由 ai 模式分流触发；drive 模式抓 V2EX，云优惠讨论自动分流回 ai）
         raw_acts = collect_blog_activities(category)
 
     # 2. 规范化（生成 id 等字段）
@@ -149,20 +152,24 @@ def finalize() -> int:
 def main() -> int:
     mode = sys.argv[1] if len(sys.argv) > 1 else "all"
 
-    if mode == "ai":
-        return process_category("ai")
-    elif mode == "games":
-        return process_category("games")
-    elif mode == "finalize":
-        return finalize()
-    elif mode == "all":
+    if mode == "all":
         for cat in CATEGORIES:
             process_category(cat)
             time.sleep(3)
         return finalize()
-    else:
-        log(f"未知模式: {mode}，可用: ai / games / finalize / all")
-        return 1
+
+    # 支持逗号分隔多模式（如 ai,drive）
+    for m in [x.strip() for x in mode.split(",") if x.strip()]:
+        if m == "finalize":
+            rc = finalize()
+        elif m in CATEGORIES:
+            rc = process_category(m)
+        else:
+            log(f"未知模式: {m}，可用: ai / open-source / drive / games / finalize / all")
+            return 1
+        if rc != 0:
+            return rc
+    return 0
 
 
 if __name__ == "__main__":

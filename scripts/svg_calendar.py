@@ -26,7 +26,7 @@ from utils import DOCS_DIR, log, parse_date, today_bj
 
 # 画布参数
 WIDTH = 940
-LEFT_LABEL_W = 200          # 左侧活动名宽度
+LEFT_LABEL_W = 240          # 左侧活动名宽度
 TRACK_X = LEFT_LABEL_W + 10  # 时间轴起点 x
 TRACK_W = WIDTH - TRACK_X - 20  # 时间轴宽度
 ROW_H = 28                   # 每行高度
@@ -36,6 +36,8 @@ BOTTOM_PAD = 50              # 底部留给图例
 
 # 颜色
 COLOR_AI = "#4a9eff"
+COLOR_OPEN_SOURCE = "#a78bfa"
+COLOR_DRIVE = "#fb923c"
 COLOR_GAMES = "#4ade80"
 COLOR_TODAY = "#ef4444"
 COLOR_TEXT = "#24292f"
@@ -45,11 +47,44 @@ COLOR_BG = "#ffffff"
 
 
 def _cat_color(cat: str) -> str:
-    return COLOR_AI if cat == "ai" else COLOR_GAMES
+    return {
+        "ai": COLOR_AI,
+        "open-source": COLOR_OPEN_SOURCE,
+        "drive": COLOR_DRIVE,
+        "games": COLOR_GAMES,
+    }.get(cat, COLOR_AI)
+
+
+def _visual_width(s: str) -> float:
+    """估算字符串显示宽度：全角（CJK/emoji）=1，半角 =0.55。"""
+    w = 0.0
+    for ch in s:
+        w += 1.0 if ord(ch) > 0x2E80 else 0.55
+    return w
+
+
+def _truncate_label(s: str, max_units: float = 16.0) -> str:
+    """按显示宽度截断活动名（全角=1，半角=0.55），超限加省略号。
+
+    保证文字不超出左标签区（LEFT_LABEL_W=230px）：emoji+空格前缀实际
+    渲染约 2 单位，标题预算 16 单位 + 前缀 ≈ 18 单位 < 可容纳的 19 单位。
+    """
+    out: list[str] = []
+    w = 0.0
+    for ch in s:
+        cw = 1.0 if ord(ch) > 0x2E80 else 0.55
+        if w + cw > max_units - 1.0:  # 留 1 个单位给省略号
+            break
+        out.append(ch)
+        w += cw
+    if len(out) < len(s):
+        out.append("…")
+    return "".join(out)
 
 
 def _esc(s: str) -> str:
-    return escape(s)[:40]  # 截断防止过长
+    # 先按显示宽度截断再转义，避免转义实体（&amp; 等）被截断破坏
+    return escape(_truncate_label(s))
 
 
 def _date_to_x(d: date, min_d: date, max_d: date) -> float:
@@ -202,27 +237,30 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
 
     # 底部图例
     legend_y = chart_bottom + 22
+    legend_items = [
+        (0, COLOR_AI, "AI / 云服务"),
+        (95, COLOR_OPEN_SOURCE, "开源工具"),
+        (190, COLOR_DRIVE, "开车线报"),
+        (285, COLOR_GAMES, "游戏"),
+    ]
+    for xoff, color, label in legend_items:
+        parts.append(
+            f'<rect x="{TRACK_X + xoff}" y="{legend_y - 10}" width="14" height="10" rx="2" fill="{color}"/>'
+            f'<text x="{TRACK_X + xoff + 20}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">{label}</text>'
+        )
     parts.append(
-        f'<rect x="{TRACK_X}" y="{legend_y - 10}" width="14" height="10" rx="2" fill="{COLOR_AI}"/>'
-        f'<text x="{TRACK_X + 20}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">AI 类</text>'
+        f'<rect x="{TRACK_X + 380}" y="{legend_y - 10}" width="14" height="10" rx="2" fill="#888" opacity="0.35"/>'
+        f'<text x="{TRACK_X + 400}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">已结束</text>'
     )
     parts.append(
-        f'<rect x="{TRACK_X + 80}" y="{legend_y - 10}" width="14" height="10" rx="2" fill="{COLOR_GAMES}"/>'
-        f'<text x="{TRACK_X + 100}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">游戏类</text>'
-    )
-    parts.append(
-        f'<rect x="{TRACK_X + 170}" y="{legend_y - 10}" width="14" height="10" rx="2" fill="#888" opacity="0.35"/>'
-        f'<text x="{TRACK_X + 190}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">已结束</text>'
-    )
-    parts.append(
-        f'<rect x="{TRACK_X + 260}" y="{legend_y - 10}" width="14" height="10" rx="2" '
+        f'<rect x="{TRACK_X + 470}" y="{legend_y - 10}" width="14" height="10" rx="2" '
         f'fill="none" stroke="#888" stroke-dasharray="3,2"/>'
-        f'<text x="{TRACK_X + 280}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">未开始</text>'
+        f'<text x="{TRACK_X + 490}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">未开始</text>'
     )
     parts.append(
-        f'<line x1="{TRACK_X + 350}" y1="{legend_y - 12}" x2="{TRACK_X + 350}" y2="{legend_y + 2}" '
+        f'<line x1="{TRACK_X + 560}" y1="{legend_y - 12}" x2="{TRACK_X + 560}" y2="{legend_y + 2}" '
         f'stroke="{COLOR_TODAY}" stroke-width="1.5" stroke-dasharray="3,2"/>'
-        f'<text x="{TRACK_X + 358}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">今天</text>'
+        f'<text x="{TRACK_X + 568}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">今天</text>'
     )
 
     # 无日期活动提示
@@ -257,7 +295,7 @@ if __name__ == "__main__":
     import json
     from utils import DATA_DIR
     acts = []
-    for cat in ("ai", "games"):
+    for cat in ("ai", "open-source", "drive", "games"):
         p = DATA_DIR / cat / "activities.json"
         if p.exists():
             acts.extend(json.loads(p.read_text(encoding="utf-8")))
