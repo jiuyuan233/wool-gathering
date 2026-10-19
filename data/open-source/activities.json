@@ -93,5 +93,119 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active"
+  },
+  {
+    "id": "konode-chrome-edge-firefox-a80cb514c4",
+    "title": "Konode - 开源浏览器同步工具！跨 Chrome/Edge/Firefox 同步书签/标签页/历史",
+    "category": "open-source",
+    "source_url": "https://www.iplaysoft.com/konode.html",
+    "claim_url": "https://www.iplaysoft.com/konode.html",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "reinstall-db7459ab56",
+    "title": "reinstall：操作系统自己重装自己？这个开源项目有点神奇",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/bin456789-reinstall/",
+    "claim_url": "https://www.appinn.com/bin456789-reinstall/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "finder-17000-macos-fsearch-750f7b8d96",
+    "title": "比 Finder 快 17000 倍？开源 macOS 全盘文件搜索工具：FSearch",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/fsearch-for-macos/",
+    "claim_url": "https://www.appinn.com/fsearch-for-macos/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "ccleaner-fluentcleaner-2d2ac8c1a9",
+    "title": "CCleaner 之后，有人重新做了一款开源清理工具：FluentCleaner",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/fluentcleaner/",
+    "claim_url": "https://www.appinn.com/fluentcleaner/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "10-star-neovim-10-btc-3-b99eb15c8e",
+    "title": "10 万 Star 开源项目 Neovim 收到 10 BTC 巨额捐赠，3 年后被网友发现，开发团队可能都不知道",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/neovim-10-btc-donation-2/",
+    "claim_url": "https://www.appinn.com/neovim-10-btc-donation-2/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "33-7-7b224741c5",
+    "title": "单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/chinese-pinyin-annotation-tool/",
+    "claim_url": "https://www.appinn.com/chinese-pinyin-annotation-tool/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
   }
 ]

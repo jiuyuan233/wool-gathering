@@ -15,45 +15,53 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 12:50** 北京时间
-- 进行中：**89** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**93** 个
+- 更新时间：**2026-10-19 13:16** 北京时间
+- 进行中：**92** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**96** 个
 
 ---
 
 ## 🗂 分类活动
 
-### 🤖 AI 类
+### 🤖 AI / 云服务优惠
 
 | 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
 |------|------|------|------|------|------|
 | 🟢 | 双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了… | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/1111.html) |
-| 🟢 | 免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/artcraft.html) |
 | 🟢 | 爱奇艺 (电视端) VIP 年卡+送京东 PLUS 会员优惠 (年度低价) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/news/4313) |
 | 🟢 | 腾讯视频 SVIP 超级会员年卡优惠，历史低价！(支持 TV 电视端) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/txsp-vip) |
-| 🟢 | Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/scrcpy.html) |
 | 🟢 | 绝对值！夸克网盘 SVIP 会员优惠年卡打折！6TB 大空间 / 不限速 / 离线下载 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/quark-svip) |
-| 🟢 | 闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/tinyplay.html) |
 | 🟢 | 金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/wps-vip) |
 | 🟢 | 复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/qiewenpaper-codex) |
-| 🟢 | VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/vmware-workstation.html) |
-| 🟢 | 开群发车啦！异次元打折线报群，感兴趣的朋友快来上车…… | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/news/6019) |
-| 🟢 | 福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/qiewenpaper-codex-2/) |
 | 🟢 | VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/videoproc-converter-ai-v7-8/) |
 | 🟢 | OpenCode 免费提供 DeepSeek V4.1 Flash 模型 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/opencode-free-deepseek-v4-1-flash/) |
-| 🟢 | MicYou for iOS &#8211; 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
-| 🟢 | 10 款在 GitHub 发现的免费小工具[260919] | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/10-useful-github-tools-26919/) |
-| 🟢 | 分享免费、小巧、实用、有趣、绿色的软件 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/) |
-| 🟢 | 科技爱好者周刊（第 415 期）：3D 版《看不见的城市》 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html) |
-| 🟢 | 做了一个免费的 370+节点的网站测速/排障工具箱，支持 IPv6/被墙检测/MTR，欢迎试用 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.v2ex.com/t/1249838) |
-| 🟢 | 你们的甲骨文免费的两个小主机（amd，非 arm）还能正常 ssh 登录吗 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.v2ex.com/t/1247409) |
+| 🟢 | 百度网盘 SVIP 超级会员年卡历史低价 (送 B 站会员联名) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/baiduwangpan-svip) |
+| 🟢 | 首发！双 11 红包开领啦~ 积少成多！每天3次 / 可当现金 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/news/3252) |
+| 🟢 | VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/vmware-workstation.html) |
+| 🟢 | 福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/qiewenpaper-codex-2/) |
 | 🟢 | 华为云·免费试用 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/free_test/index.html) |
+| 🟢 | 阿里云·免费试用 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://free.aliyun.com) |
 | 🟢 | 华为云·老用户权益 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/member.html) |
 | 🟢 | 华为云·组合购 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/group-purchase/index.html) |
-| 🟢 | 阿里云·免费试用 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://free.aliyun.com) |
 | 🟢 | 阿里云·高校计划 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://university.aliyun.com) |
 | 🟢 | 阿里云·新人特惠 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://www.aliyun.com/activity/new) |
 
-### 🎮 游戏类
+### 🔓 开源免费工具
+
+| 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
+|------|------|------|------|------|------|
+| 🟢 | 免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/artcraft.html) |
+| 🟢 | Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/scrcpy.html) |
+| 🟢 | 闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/tinyplay.html) |
+| 🟢 | MicYou for iOS &#8211; 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
+| 🟢 | 10 款在 GitHub 发现的免费小工具[260919] | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/10-useful-github-tools-26919/) |
+| 🟢 | Konode - 开源浏览器同步工具！跨 Chrome/Edge/Firefox 同步书签/标签页/历史 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/konode.html) |
+| 🟢 | reinstall：操作系统自己重装自己？这个开源项目有点神奇 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/bin456789-reinstall/) |
+| 🟢 | 比 Finder 快 17000 倍？开源 macOS 全盘文件搜索工具：FSearch | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/fsearch-for-macos/) |
+| 🟢 | CCleaner 之后，有人重新做了一款开源清理工具：FluentCleaner | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/fluentcleaner/) |
+| 🟢 | 10 万 Star 开源项目 Neovim 收到 10 BTC 巨额捐赠，3 年后被网友发现，开发团队可能都不知道 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/neovim-10-btc-donation-2/) |
+| 🟢 | 单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/chinese-pinyin-annotation-tool/) |
+
+### 🎮 游戏喜加一
 
 | 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
 |------|------|------|------|------|------|
