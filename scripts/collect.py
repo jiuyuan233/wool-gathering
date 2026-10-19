@@ -47,12 +47,14 @@ def process_category(category: str) -> int:
     log("=" * 60)
 
     today = today_bj()
+    old_path = DATA_DIR / category / "activities.json"
+    old = load_json(old_path) or []
 
     # 1. 收集活动
     log(f"收集 [{category}] 活动...")
     if category == "ai":
         # AI 板块 = 云厂商活动（代金券/免费试用/学生优惠）
-        raw_acts = collect_cloud_activities()
+        raw_acts = collect_cloud_activities(old_acts=old)
     else:
         # 游戏板块 = Epic/Steam/GOG 喜加一
         raw_acts = collect_games_category(category)
@@ -64,8 +66,16 @@ def process_category(category: str) -> int:
         if norm:
             new_acts.append(norm)
     new_acts = dedupe_within(new_acts)
-    old_path = DATA_DIR / category / "activities.json"
-    old = load_json(old_path) or []
+
+    # 云厂商活动是长期活动：同 id 条目用新 end_date 刷新旧数据
+    # （merge 默认日期旧值优先，是为 AI 抽取设计的；云活动需要每天顺延）
+    if category == "ai":
+        new_by_id = {a["id"]: a for a in new_acts}
+        for o in old:
+            n = new_by_id.get(o.get("id"))
+            if n and n.get("end_date"):
+                o["end_date"] = n["end_date"]
+
     merged = merge(old, new_acts, today)
     save_json(old_path, merged)
 
