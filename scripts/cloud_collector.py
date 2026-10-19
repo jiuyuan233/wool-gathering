@@ -42,6 +42,8 @@ CLOUD_PAGES = [
     ("腾讯云", "校园计划", "https://cloud.tencent.com/act/campus"),
     ("腾讯云", "免费体验", "https://cloud.tencent.com/act/free"),
     ("腾讯云", "开发者", "https://cloud.tencent.com/act/developer"),
+    # 腾讯 WorkBuddy（AI Agent 办公助手，workbuddy.tencent.com，SPA 页面靠种子数据+缓存回退）
+    ("腾讯", "WorkBuddy AI办公", "https://workbuddy.tencent.com/"),
 ]
 
 

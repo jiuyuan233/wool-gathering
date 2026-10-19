@@ -340,5 +340,44 @@
     "discovered_at": "2026-10-19T13:16:22.768559+08:00",
     "last_seen": "2026-10-19",
     "status": "active"
+  },
+  {
+    "id": "cloud_8ff1ec8d1772",
+    "title": "腾讯·WorkBuddy AI办公",
+    "url": "https://workbuddy.tencent.com/",
+    "source_url": "https://workbuddy.tencent.com/",
+    "claim_url": "https://workbuddy.tencent.com/",
+    "description": "腾讯 WorkBuddy - AI Agent 办公新范式。AI 办公助手，支持自定义 API 中转站",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-18",
+    "value": "免费版",
+    "category": "ai",
+    "tags": [
+      "腾讯",
+      "WorkBuddy AI办公"
+    ],
+    "status": "active",
+    "discovered_at": "2026-10-19T16:30:00+08:00",
+    "last_seen": "2026-10-19"
+  },
+  {
+    "id": "ai_chatanywhere_free",
+    "title": "ChatAnywhere·免费AI中转站",
+    "url": "https://api.chatanywhere.org",
+    "source_url": "https://docs.chatanywhere.tech/",
+    "claim_url": "https://api.chatanywhere.org",
+    "description": "OpenAI 兼容中转站，免费版每周50000点+每天100次请求。支持GPT/Claude/Gemini/DeepSeek/Qwen/Kimi/MiniMax。国内 api.chatanywhere.tech，国外 api.chatanywhere.org",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-18",
+    "value": "免费版每周50000点+每天100次请求",
+    "category": "ai",
+    "tags": [
+      "ChatAnywhere",
+      "AI中转站",
+      "免费额度"
+    ],
+    "status": "active",
+    "discovered_at": "2026-10-19T16:30:00+08:00",
+    "last_seen": "2026-10-19"
   }
 ]

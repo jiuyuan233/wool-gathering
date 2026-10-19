@@ -358,3 +358,51 @@ $ git checkout -- README.md docs/        # 丢弃产物改动
 一次完整的 finalize 流程：**1 条命令 → 读 4 个数据文件 → 生成 4 个产物 → 验证 3 个关键点 → 清理本地产物**。
 维护 AI 照着这 6 步走，不会出错。如果要跑 `ai` 或 `games` 模式（会抓网络），步骤相同，只是步骤 3 换命令、
 步骤 4 验证点换成"新增了多少条数据"。
+
+---
+
+## 13. AI 中转站配置（ChatAnywhere）
+
+项目配置了 ChatAnywhere 作为 AI 中转站（OpenAI 兼容协议），用于辅助信息抽取。
+
+### 配置（在 workflow env 里，已配好）
+
+| 环境变量 | 值 | 说明 |
+|---------|-----|------|
+| `AI_BASE_URL` | `https://api.chatanywhere.org/v1` | 国外接入点（Action 在海外用 .org，国内用 .tech） |
+| `AI_API_KEY` | `${{ secrets.AI_API_KEY }}` | 从 GitHub Secret 读，**不 commit 到代码** |
+| `AI_MODEL` | `deepseek-v3-2` | 弱模型，最便宜之一（input 0.0012/1K，output 0.0018/1K） |
+
+### 免费版限制（必须注意）
+
+- 每周 50000 点免费配额
+- 每天 100 次请求次数配额
+- **用弱模型 deepseek-v3-2 省额度**，别用 pro/max/gpt-4，超出额度要付费
+
+### 配置 GitHub Secret（必须做，否则 AI 调用会失败）
+
+1. 仓库 **Settings → Secrets and variables → Actions → New repository secret**
+2. Name: `AI_API_KEY`
+3. Value: 你的 ChatAnywhere API Key（`sk-xxx`）
+4. 保存。workflow 会自动读取。
+
+### 已收录的 AI 优惠信息源
+
+- **腾讯 WorkBuddy**（workbuddy.tencent.com）：AI Agent 办公助手，已加到 `cloud_collector.CLOUD_PAGES` 抓取 + 种子数据（SPA 页面靠缓存回退保留）
+- **ChatAnywhere**（api.chatanywhere.org）：免费 AI 中转站，每周 50000 点 + 每天 100 次请求，已作为 AI 优惠条目收录到 `data/ai/activities.json`
+
+### 相关文件
+
+- `scripts/ai_client.py`：OpenAI 兼容客户端，通过环境变量 `AI_BASE_URL`/`AI_API_KEY`/`AI_MODEL` 配置
+- `.github/workflows/daily-collect.yml`：workflow 里配了 AI env（key 从 secret 读）
+- `scripts/cloud_collector.py`：`CLOUD_PAGES` 含腾讯 WorkBuddy（第 11 条）
+
+---
+
+## 14. 游戏平台介绍
+
+详细的游戏平台介绍见 **[docs/GAME_PLATFORMS.md](docs/GAME_PLATFORMS.md)**，包含：
+- 当前启用的 6 个游戏源（Epic/Steam/GOG/itch.io/ITAD/Reddit）的抓取方式
+- sources.json 里登记的其他 15 个平台（可扩展启用）
+- 各平台特点对比、免费游戏类型、抓取可靠性
+- 如何启用新平台的步骤
