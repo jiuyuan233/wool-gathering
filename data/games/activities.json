@@ -1169,6 +1169,25 @@
     "status": "active"
   },
   {
+    "id": "itch-io-rubys-trick-or-treat-e914675e50",
+    "title": "[itch.io] Rubys Trick Or Treat（限免）",
+    "category": "games",
+    "source_url": "https://kripkode.itch.io/rubys-trick-or-treat",
+    "claim_url": "https://kripkode.itch.io/rubys-trick-or-treat",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Rubys Trick Or Treat",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
     "id": "epic-eternal-threads-2edebd45cb",
     "title": "Epic 免费游戏: Eternal Threads",
     "category": "games",

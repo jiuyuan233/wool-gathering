@@ -15,8 +15,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 13:57** 北京时间
-- 进行中：**97** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**101** 个
+- 更新时间：**2026-10-19 15:36** 北京时间
+- 进行中：**98** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**102** 个
 
 ---
 
@@ -49,18 +49,18 @@
 
 | 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
 |------|------|------|------|------|------|
-| 🟢 | 免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/artcraft.html) |
-| 🟢 | Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/scrcpy.html) |
-| 🟢 | 闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/tinyplay.html) |
-| 🟢 | MicYou for iOS &#8211; 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
-| 🟢 | 10 款在 GitHub 发现的免费小工具[260919] | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/10-useful-github-tools-26919/) |
-| 🟢 | Konode - 开源浏览器同步工具！跨 Chrome/Edge/Firefox 同步书签/标签页/历史 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/konode.html) |
-| 🟢 | reinstall：操作系统自己重装自己？这个开源项目有点神奇 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/bin456789-reinstall/) |
-| 🟢 | 比 Finder 快 17000 倍？开源 macOS 全盘文件搜索工具：FSearch | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/fsearch-for-macos/) |
-| 🟢 | CCleaner 之后，有人重新做了一款开源清理工具：FluentCleaner | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/fluentcleaner/) |
-| 🟢 | 10 万 Star 开源项目 Neovim 收到 10 BTC 巨额捐赠，3 年后被网友发现，开发团队可能都不知道 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/neovim-10-btc-donation-2/) |
-| 🟢 | 单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/chinese-pinyin-annotation-tool/) |
-| 🟢 | MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
+| 🟢 | 免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件 | — | 长期免费 | — | [领取](https://www.iplaysoft.com/artcraft.html) |
+| 🟢 | Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root) | — | 长期免费 | — | [领取](https://www.iplaysoft.com/scrcpy.html) |
+| 🟢 | 闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器) | — | 长期免费 | — | [领取](https://www.iplaysoft.com/tinyplay.html) |
+| 🟢 | MicYou for iOS &#8211; 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 长期免费 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
+| 🟢 | 10 款在 GitHub 发现的免费小工具[260919] | — | 长期免费 | — | [领取](https://www.appinn.com/10-useful-github-tools-26919/) |
+| 🟢 | Konode - 开源浏览器同步工具！跨 Chrome/Edge/Firefox 同步书签/标签页/历史 | — | 长期免费 | — | [领取](https://www.iplaysoft.com/konode.html) |
+| 🟢 | reinstall：操作系统自己重装自己？这个开源项目有点神奇 | — | 长期免费 | — | [领取](https://www.appinn.com/bin456789-reinstall/) |
+| 🟢 | 比 Finder 快 17000 倍？开源 macOS 全盘文件搜索工具：FSearch | — | 长期免费 | — | [领取](https://www.appinn.com/fsearch-for-macos/) |
+| 🟢 | CCleaner 之后，有人重新做了一款开源清理工具：FluentCleaner | — | 长期免费 | — | [领取](https://www.appinn.com/fluentcleaner/) |
+| 🟢 | 10 万 Star 开源项目 Neovim 收到 10 BTC 巨额捐赠，3 年后被网友发现，开发团队可能都不知道 | — | 长期免费 | — | [领取](https://www.appinn.com/neovim-10-btc-donation-2/) |
+| 🟢 | 单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典 | — | 长期免费 | — | [领取](https://www.appinn.com/chinese-pinyin-annotation-tool/) |
+| 🟢 | MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 长期免费 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
 
 ### 🚗 开车线报
 
@@ -142,6 +142,7 @@
 | 🟢 | [itch.io] Brok（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://cowcat.itch.io/brok) |
 | 🟢 | FGF Giveaway: Retro Pond & Sandtrix+!（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/) |
 | 🟢 | [itch.io] (Game) The Green Light & The Black Within（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/) |
+| 🟢 | [itch.io] Rubys Trick Or Treat（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://kripkode.itch.io/rubys-trick-or-treat) |
 | 🟢 | Epic 免费游戏: Eternal Threads | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: Castlevania Anniversary Collection | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: 纪念碑谷（Monument Valley） | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |

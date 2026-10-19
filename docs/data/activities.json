@@ -402,7 +402,7 @@
     "source_url": "https://www.iplaysoft.com/artcraft.html",
     "claim_url": "https://www.iplaysoft.com/artcraft.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -413,9 +413,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "scrcpy-5-root-40bd237613",
@@ -424,7 +424,7 @@
     "source_url": "https://www.iplaysoft.com/scrcpy.html",
     "claim_url": "https://www.iplaysoft.com/scrcpy.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -435,9 +435,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "tinyplay-4e78fb369b",
@@ -446,7 +446,7 @@
     "source_url": "https://www.iplaysoft.com/tinyplay.html",
     "claim_url": "https://www.iplaysoft.com/tinyplay.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -457,9 +457,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "micyou-for-ios-8211-iphone-9554777054",
@@ -468,7 +468,7 @@
     "source_url": "https://www.appinn.com/micyou-for-ios/",
     "claim_url": "https://www.appinn.com/micyou-for-ios/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -479,9 +479,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "10-github-260919-f8b27317e5",
@@ -490,7 +490,7 @@
     "source_url": "https://www.appinn.com/10-useful-github-tools-26919/",
     "claim_url": "https://www.appinn.com/10-useful-github-tools-26919/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -501,9 +501,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "konode-chrome-edge-firefox-a80cb514c4",
@@ -512,7 +512,7 @@
     "source_url": "https://www.iplaysoft.com/konode.html",
     "claim_url": "https://www.iplaysoft.com/konode.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -523,9 +523,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "reinstall-db7459ab56",
@@ -534,7 +534,7 @@
     "source_url": "https://www.appinn.com/bin456789-reinstall/",
     "claim_url": "https://www.appinn.com/bin456789-reinstall/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -545,9 +545,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "finder-17000-macos-fsearch-750f7b8d96",
@@ -556,7 +556,7 @@
     "source_url": "https://www.appinn.com/fsearch-for-macos/",
     "claim_url": "https://www.appinn.com/fsearch-for-macos/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -567,9 +567,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "ccleaner-fluentcleaner-2d2ac8c1a9",
@@ -578,7 +578,7 @@
     "source_url": "https://www.appinn.com/fluentcleaner/",
     "claim_url": "https://www.appinn.com/fluentcleaner/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -589,9 +589,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "10-star-neovim-10-btc-3-b99eb15c8e",
@@ -600,7 +600,7 @@
     "source_url": "https://www.appinn.com/neovim-10-btc-donation-2/",
     "claim_url": "https://www.appinn.com/neovim-10-btc-donation-2/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -611,9 +611,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "33-7-7b224741c5",
@@ -622,7 +622,7 @@
     "source_url": "https://www.appinn.com/chinese-pinyin-annotation-tool/",
     "claim_url": "https://www.appinn.com/chinese-pinyin-annotation-tool/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -633,9 +633,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "micyou-for-ios-iphone-ac18530e6d",
@@ -644,7 +644,7 @@
     "source_url": "https://www.appinn.com/micyou-for-ios/",
     "claim_url": "https://www.appinn.com/micyou-for-ios/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "end_date": "",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -655,9 +655,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 12.5,
-    "total_days": 8,
-    "days_left": 7
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "10-c119209b24",
@@ -2050,6 +2050,28 @@
     "tags": [
       "blog",
       "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-rubys-trick-or-treat-e914675e50",
+    "title": "[itch.io] Rubys Trick Or Treat（限免）",
+    "category": "games",
+    "source_url": "https://kripkode.itch.io/rubys-trick-or-treat",
+    "claim_url": "https://kripkode.itch.io/rubys-trick-or-treat",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Rubys Trick Or Treat",
+    "tags": [
+      "blog",
+      "itch.io"
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
