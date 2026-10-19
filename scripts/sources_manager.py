@@ -42,14 +42,24 @@ def load_sources() -> list[Source]:
 
 
 def fetch_source(src: Source, *, timeout: int = 15, max_bytes: int = 200_000) -> str | None:
-    """抓取一个源的原始文本（截断防止超大页面爆内存）。"""
+    """抓取一个源的原始文本（截断防止超大页面爆内存）。
+
+    使用真实浏览器完整请求头伪装，避免被 403/404 拒绝。
+    """
     if not src.enabled or not src.url:
         return None
+    # 真实 Firefox 浏览器请求头（完整伪装）
     headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-        )
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "zh-CN,en;q=0.7,en-US;q=0.3",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
     }
     if src.headers:
         headers.update(src.headers)
