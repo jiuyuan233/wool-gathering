@@ -1,19 +1,23 @@
-# 每日薅羊毛情报收集
+# 每日薅羊毛情报收集（分时段更新不同板块）
 name: Daily Collect
 
 on:
   schedule:
-    # 每天北京时间 09:00 = UTC 01:00
+    # 09:00 北京 = 01:00 UTC → 更新 AI 板块
     - cron: "0 1 * * *"
+    # 15:00 北京 = 07:00 UTC → 更新游戏板块
+    - cron: "0 7 * * *"
+    # 21:00 北京 = 13:00 UTC → 整理（生成 SVG + README）
+    - cron: "0 13 * * *"
   workflow_dispatch:
     inputs:
-      debug:
-        description: "开启 debug 日志"
+      mode:
+        description: "运行模式: ai / games / finalize / all"
         required: false
-        default: "false"
+        default: "all"
 
 permissions:
-  contents: write   # 允许 push 回仓库
+  contents: write
 
 concurrency:
   group: daily-collect
@@ -36,17 +40,37 @@ jobs:
         run: |
           pip install -r scripts/requirements.txt
 
+      - name: 确定运行模式
+        id: mode
+        run: |
+          # 手动触发用 inputs.mode
+          if [ -n "${{ github.event.inputs.mode }}" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
+            echo "手动触发模式: ${{ github.event.inputs.mode }}"
+          else
+            # 定时触发按时间判断
+            HOUR=$(date -u +%H)
+            echo "当前 UTC 小时: $HOUR"
+            if [ "$HOUR" = "01" ]; then
+              echo "mode=ai" >> $GITHUB_OUTPUT
+              echo "定时任务: 更新 AI 板块"
+            elif [ "$HOUR" = "07" ]; then
+              echo "mode=games" >> $GITHUB_OUTPUT
+              echo "定时任务: 更新游戏板块"
+            elif [ "$HOUR" = "13" ]; then
+              echo "mode=finalize" >> $GITHUB_OUTPUT
+              echo "定时任务: 整理"
+            else
+              echo "mode=finalize" >> $GITHUB_OUTPUT
+              echo "定时任务(非标准时间): 整理"
+            fi
+          fi
+
       - name: 校验 Secrets
         run: |
           if [ -z "${{ secrets.AI_API_KEY }}" ]; then
             echo "::error::缺少 Secret: AI_API_KEY"
             exit 1
-          fi
-          if [ -z "${{ secrets.AI_BASE_URL }}" ]; then
-            echo "::warning::未设置 AI_BASE_URL，将使用默认 https://api.openai.com/v1"
-          fi
-          if [ -z "${{ secrets.AI_MODEL }}" ]; then
-            echo "::warning::未设置 AI_MODEL，将使用默认 gpt-4o-mini"
           fi
 
       - name: 运行收集脚本
@@ -57,7 +81,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           TZ: Asia/Shanghai
         run: |
-          python scripts/collect.py
+          python scripts/collect.py ${{ steps.mode.outputs.mode }}
 
       - name: 提交并推送更新
         run: |
@@ -65,9 +89,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ docs/calendar.svg docs/data/ README.md
           if git diff --cached --quiet; then
-            echo "今日无更新，跳过提交"
+            echo "无更新，跳过提交"
           else
-            git commit -m "chore(data): daily update $(date -u +%Y-%m-%d)"
+            git commit -m "chore(data): ${{ steps.mode.outputs.mode }} update $(date -u +%Y-%m-%d)"
             git pull --rebase origin main || true
             git push
           fi
