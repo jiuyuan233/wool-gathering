@@ -68,5 +68,6 @@ jobs:
             echo "今日无更新，跳过提交"
           else
             git commit -m "chore(data): daily update $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main || true
             git push
           fi
