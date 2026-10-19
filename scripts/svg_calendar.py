@@ -114,15 +114,12 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     else:
         month_end = date(today.year, today.month + 1, 1) - timedelta(days=1)
 
-    # 排除长期免费活动（open-source + end_date 超过 3 个月 + 无 end_date）
-    excluded = [a for a in activities if a.get("category") == "open-source" or is_long_term(a, today)]
+    # 只排除 open-source（无 end_date，永久免费），显示所有有时间限制的活动
+    excluded = [a for a in activities if a.get("category") == "open-source"]
     chart_acts = [a for a in activities if a not in excluded]
-    # 有日期的活动
-    dated_all = [a for a in chart_acts if parse_date(a.get("start_date")) and parse_date(a.get("end_date"))]
-    # 只显示与当月有交集的限时活动（start ≤ 月末 且 end ≥ 月初）
-    dated = [a for a in dated_all
-             if parse_date(a["start_date"]) <= month_end and parse_date(a["end_date"]) >= month_start]
-    undated = [a for a in chart_acts if a not in dated_all]
+    # 有日期的活动（有 start_date 和 end_date）
+    dated = [a for a in chart_acts if parse_date(a.get("start_date")) and parse_date(a.get("end_date"))]
+    undated = [a for a in chart_acts if a not in dated]
 
     if not dated:
         # 空状态 SVG
@@ -136,8 +133,25 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     min_d = month_start - timedelta(days=1)
     max_d = month_end + timedelta(days=1)
 
-    n = len(dated)
-    height = TOP_PAD + n * ROW_H + BOTTOM_PAD + (20 if undated else 0)
+    # 按分区分组，分区内按 end_date 升序（快结束的在上）
+    CAT_ORDER_SVG = ["ai", "drive", "games"]
+    CAT_LABEL_SVG = {"ai": "AI / 云服务", "drive": "开车线报", "games": "游戏喜加一"}
+    groups = []
+    for cat in CAT_ORDER_SVG:
+        cat_acts = [a for a in dated if a.get("category") == cat]
+        if not cat_acts:
+            continue
+        cat_acts.sort(key=lambda a: (
+            parse_date(a.get("end_date")) or date(9999, 12, 31),
+            parse_date(a.get("start_date")) or date(9999, 12, 31),
+        ))
+        groups.append((cat, cat_acts))
+
+    SECTION_H = 26  # 分区标题行高度
+    total_act_rows = sum(len(acts) for _, acts in groups)
+    total_headers = len(groups)
+    chart_bottom = TOP_PAD + total_act_rows * ROW_H + total_headers * SECTION_H
+    height = chart_bottom + BOTTOM_PAD + (20 if undated else 0)
 
     # 生成刻度（6 等分）
     total_days = (max_d - min_d).days
@@ -157,12 +171,12 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     # 标题
     parts.append(
         f'<text x="20" y="28" font-size="16" font-weight="600" fill="{COLOR_TEXT}">'
-        f'📅 当月活动时间轴（{today.year}年{today.month}月）</text>'
+        f'📅 活动时间轴（{today.year}年{today.month}月）</text>'
     )
     parts.append(
         f'<text x="20" y="48" font-size="11" fill="{COLOR_TEXT_DIM}">'
-        f'更新于 {today.isoformat()} · 当月限时活动 {len(dated)} 条'
-        f'，长期免费 {len(excluded)} 条见下方表格 · 红线 = 今天</text>'
+        f'更新于 {today.isoformat()} · 有时间限制活动 {len(dated)} 条'
+        f'，开源工具 {len(excluded)} 条不显示 · 红线 = 今天 · 超一个月顶满</text>'
     )
 
     # 时间刻度轴
@@ -177,7 +191,6 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
 
     # 今天竖线（贯穿整个图表区域）
     chart_top = TOP_PAD
-    chart_bottom = TOP_PAD + n * ROW_H
     parts.append(
         f'<line x1="{today_x}" y1="{chart_top - 10}" x2="{today_x}" y2="{chart_bottom + 4}" '
         f'stroke="{COLOR_TODAY}" stroke-width="1.5" stroke-dasharray="3,2"/>'
@@ -187,80 +200,94 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
         f'text-anchor="middle" font-weight="600">今天</text>'
     )
 
-    # 每个活动一行
-    for i, a in enumerate(dated):
-        y = TOP_PAD + i * ROW_H
-        s = parse_date(a["start_date"])
-        e = parse_date(a["end_date"])
-        x1 = _date_to_x(s, min_d, max_d)
-        x2 = _date_to_x(e, min_d, max_d)
-        bar_w = max(2, x2 - x1)
-        color = _cat_color(a.get("category", "ai"))
-        status = a.get("status", "active")
-        cy = y + (ROW_H - BAR_H) // 2
-
-        # 行底分隔线（淡）
+    # 按分区绘制：每个分区一个标题行 + 活动行
+    y = TOP_PAD
+    track_left = TRACK_X
+    track_right = TRACK_X + TRACK_W
+    for cat, cat_acts in groups:
+        color = _cat_color(cat)
+        # 分区标题行
         parts.append(
-            f'<line x1="10" y1="{y + ROW_H}" x2="{WIDTH - 10}" y2="{y + ROW_H}" '
-            f'stroke="{COLOR_GRID}" stroke-width="0.5" opacity="0.5"/>'
+            f'<rect x="10" y="{y}" width="{WIDTH - 20}" height="{SECTION_H - 6}" rx="4" '
+            f'fill="{color}" opacity="0.12"/>'
         )
-
-        # 左侧活动名
-        title = _esc(a.get("title", ""))
-        cat_dot_color = color
         parts.append(
-            f'<circle cx="14" cy="{y + ROW_H // 2}" r="3" fill="{cat_dot_color}"/>'
+            f'<text x="20" y="{y + SECTION_H - 12}" font-size="13" font-weight="600" fill="{color}">'
+            f'{CAT_LABEL_SVG[cat]}（{len(cat_acts)} 条）</text>'
         )
-        # 状态图标
-        status_icon = {"active": "🟢", "upcoming": "🟡", "ended": "⚫"}.get(status, "⚪")
-        # 超长文本用 SVG 原生 textLength 强制压缩，保证文字绝不越过左标签区
-        # 与时间轴横条重叠（不依赖字体渲染宽度估算的准确性）
-        label_text = f"{status_icon} {title}"
-        label_px = _visual_width(label_text) * 12  # font-size=12px
-        tl_attr = ""
-        if label_px > LABEL_MAX_PX:
-            tl_attr = f' textLength="{int(LABEL_MAX_PX)}" lengthAdjust="spacingAndGlyphs"'
-        parts.append(
-            f'<text x="24" y="{y + ROW_H // 2 + 4}" font-size="12" fill="{COLOR_TEXT}"{tl_attr}>{label_text}</text>'
-        )
+        y += SECTION_H
 
-        # 横条
-        opacity = 1.0
-        if status == "ended":
-            opacity = 0.35
-        elif status == "upcoming":
-            opacity = 0.6
+        # 活动行
+        for a in cat_acts:
+            s = parse_date(a["start_date"])
+            e = parse_date(a["end_date"])
+            x1 = _date_to_x(s, min_d, max_d)
+            x2 = _date_to_x(e, min_d, max_d)
+            # clamp 到时间轴范围（超过一个月的顶满，不在当月的贴边）
+            x1 = max(track_left, min(x1, track_right))
+            x2 = max(track_left, min(x2, track_right))
+            bar_w = max(2, x2 - x1)
+            status = a.get("status", "active")
+            cy = y + (ROW_H - BAR_H) // 2
 
-        if status == "upcoming":
-            # 虚线边框，无填充
+            # 行底分隔线（淡）
             parts.append(
-                f'<rect x="{x1}" y="{cy}" width="{bar_w}" height="{BAR_H}" '
-                f'rx="4" fill="none" stroke="{color}" stroke-width="1.5" '
-                f'stroke-dasharray="4,2" opacity="{opacity}"/>'
+                f'<line x1="10" y1="{y + ROW_H}" x2="{WIDTH - 10}" y2="{y + ROW_H}" '
+                f'stroke="{COLOR_GRID}" stroke-width="0.5" opacity="0.5"/>'
             )
-        else:
+
+            # 左侧活动名
+            title = _esc(a.get("title", ""))
             parts.append(
-                f'<rect x="{x1}" y="{cy}" width="{bar_w}" height="{BAR_H}" '
-                f'rx="4" fill="{color}" opacity="{opacity * 0.85}"/>'
+                f'<circle cx="14" cy="{y + ROW_H // 2}" r="3" fill="{color}"/>'
             )
-            # 进度填充（active 才画）
-            if status == "active":
-                progress_pct = a.get("progress_pct", 0) or 0
-                progress_w = bar_w * progress_pct / 100
-                if progress_w > 1:
+            status_icon = {"active": "🟢", "upcoming": "🟡", "ended": "⚫"}.get(status, "⚪")
+            label_text = f"{status_icon} {title}"
+            label_px = _visual_width(label_text) * 12
+            tl_attr = ""
+            if label_px > LABEL_MAX_PX:
+                tl_attr = f' textLength="{int(LABEL_MAX_PX)}" lengthAdjust="spacingAndGlyphs"'
+            parts.append(
+                f'<text x="24" y="{y + ROW_H // 2 + 4}" font-size="12" fill="{COLOR_TEXT}"{tl_attr}>{label_text}</text>'
+            )
+
+            # 横条
+            opacity = 1.0
+            if status == "ended":
+                opacity = 0.35
+            elif status == "upcoming":
+                opacity = 0.6
+
+            if status == "upcoming":
+                parts.append(
+                    f'<rect x="{x1}" y="{cy}" width="{bar_w}" height="{BAR_H}" '
+                    f'rx="4" fill="none" stroke="{color}" stroke-width="1.5" '
+                    f'stroke-dasharray="4,2" opacity="{opacity}"/>'
+                )
+            else:
+                parts.append(
+                    f'<rect x="{x1}" y="{cy}" width="{bar_w}" height="{BAR_H}" '
+                    f'rx="4" fill="{color}" opacity="{opacity * 0.85}"/>'
+                )
+                if status == "active":
+                    progress_pct = a.get("progress_pct", 0) or 0
+                    progress_w = bar_w * progress_pct / 100
+                    if progress_w > 1:
+                        parts.append(
+                            f'<rect x="{x1}" y="{cy}" width="{progress_w}" height="{BAR_H}" '
+                            f'rx="4" fill="#ffffff" opacity="0.35"/>'
+                        )
+
+            # 剩余天数标签
+            if status == "active" and bar_w > 60:
+                dl = a.get("days_left")
+                if dl is not None:
                     parts.append(
-                        f'<rect x="{x1}" y="{cy}" width="{progress_w}" height="{BAR_H}" '
-                        f'rx="4" fill="#ffffff" opacity="0.35"/>'
+                        f'<text x="{x1 + bar_w / 2}" y="{cy + BAR_H / 2 + 3}" font-size="9" '
+                        f'fill="#ffffff" text-anchor="middle" font-weight="600">剩 {dl} 天</text>'
                     )
 
-        # 横条上的剩余天数标签（active 且有空间）
-        if status == "active" and bar_w > 60:
-            dl = a.get("days_left")
-            if dl is not None:
-                parts.append(
-                    f'<text x="{x1 + bar_w / 2}" y="{cy + BAR_H / 2 + 3}" font-size="9" '
-                    f'fill="#ffffff" text-anchor="middle" font-weight="600">剩 {dl} 天</text>'
-                )
+            y += ROW_H
 
     # 底部图例
     legend_y = chart_bottom + 22
@@ -303,8 +330,8 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(svg, encoding="utf-8")
     log(f"已生成 SVG 日历 {output_path.name}"
-        f"（当月限时 {len(dated)} 条，{len(undated)} 条无日期，"
-        f"长期免费 {len(excluded)} 条不显示）")
+        f"（有时间限制 {len(dated)} 条，{len(undated)} 条无日期，"
+        f"开源工具 {len(excluded)} 条不显示）")
     return output_path
 
 
