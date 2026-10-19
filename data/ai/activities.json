@@ -19,25 +19,6 @@
     "status": "active"
   },
   {
-    "id": "adobe-artcraft-ps-ae-pr-ai-e256bde94c",
-    "title": "免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/artcraft.html",
-    "claim_url": "https://www.iplaysoft.com/artcraft.html",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
     "id": "vip-plus-b231be0c08",
     "title": "爱奇艺 (电视端) VIP 年卡+送京东 PLUS 会员优惠 (年度低价)",
     "category": "ai",
@@ -76,49 +57,11 @@
     "status": "active"
   },
   {
-    "id": "scrcpy-5-root-40bd237613",
-    "title": "Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/scrcpy.html",
-    "claim_url": "https://www.iplaysoft.com/scrcpy.html",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
     "id": "svip-6tb-330bda9a39",
     "title": "绝对值！夸克网盘 SVIP 会员优惠年卡打折！6TB 大空间 / 不限速 / 离线下载",
     "category": "ai",
     "source_url": "https://www.iplaysoft.com/p/quark-svip",
     "claim_url": "https://www.iplaysoft.com/p/quark-svip",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "tinyplay-4e78fb369b",
-    "title": "闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/tinyplay.html",
-    "claim_url": "https://www.iplaysoft.com/tinyplay.html",
     "start_date": "2026-10-19",
     "end_date": "2026-10-26",
     "value": "",
@@ -171,63 +114,6 @@
     "status": "active"
   },
   {
-    "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
-    "title": "VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
-    "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "-dd9e7cc566",
-    "title": "开群发车啦！异次元打折线报群，感兴趣的朋友快来上车……",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/news/6019",
-    "claim_url": "https://www.iplaysoft.com/news/6019",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "codex-1-8-79edcabe5f",
-    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
     "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
     "title": "VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领",
     "category": "ai",
@@ -266,120 +152,6 @@
     "status": "active"
   },
   {
-    "id": "micyou-for-ios-8211-iphone-9554777054",
-    "title": "MicYou for iOS &#8211; 老 iPhone 又有新用途：变成电脑麦克风，免费开源",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/micyou-for-ios/",
-    "claim_url": "https://www.appinn.com/micyou-for-ios/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "10-github-260919-f8b27317e5",
-    "title": "10 款在 GitHub 发现的免费小工具[260919]",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/10-useful-github-tools-26919/",
-    "claim_url": "https://www.appinn.com/10-useful-github-tools-26919/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "-c23e4b53eb",
-    "title": "分享免费、小巧、实用、有趣、绿色的软件",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/",
-    "claim_url": "https://www.appinn.com/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "415-3d-f5f53afab4",
-    "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
-    "category": "ai",
-    "source_url": "https://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
-    "claim_url": "https://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "阮一峰科技爱好者周刊，常含免费工具与资源推荐",
-    "tags": [
-      "blog",
-      "阮一峰周刊"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "370-ipv6-mtr-4d17ca134e",
-    "title": "做了一个免费的 370+节点的网站测速/排障工具箱，支持 IPv6/被墙检测/MTR，欢迎试用",
-    "category": "ai",
-    "source_url": "https://www.v2ex.com/t/1249838",
-    "claim_url": "https://www.v2ex.com/t/1249838",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-cloud",
-    "tags": [
-      "blog",
-      "V2EX-cloud"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "amd-arm-ssh-68d2a13270",
-    "title": "你们的甲骨文免费的两个小主机（amd，非 arm）还能正常 ssh 登录吗",
-    "category": "ai",
-    "source_url": "https://www.v2ex.com/t/1247409",
-    "claim_url": "https://www.v2ex.com/t/1247409",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-cloud",
-    "tags": [
-      "blog",
-      "V2EX-cloud"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
     "id": "cloud_21e1f5e207cc",
     "title": "华为云·免费试用",
     "category": "ai",
@@ -399,44 +171,6 @@
     "status": "active"
   },
   {
-    "id": "cloud_e75f23a2006f",
-    "title": "华为云·老用户权益",
-    "category": "ai",
-    "source_url": "https://activity.huaweicloud.com/member.html",
-    "claim_url": "https://activity.huaweicloud.com/member.html",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-18",
-    "value": "",
-    "requirements": [],
-    "description": "老用户专属优惠页面全新升级，为您带来前所未有的超值体验！尊享Flexus云服务会员中心全新上线，畅享服务器续费9折、购买热销产品享8折、升级享7折，还有超值折扣套餐和限时特惠活动。立即登录，领取您的专属福利，助力您的业务飞跃新高度。",
-    "tags": [
-      "华为云",
-      "老用户权益"
-    ],
-    "discovered_at": "2026-10-19T11:37:09.974952+08:00",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "cloud_4d4fd319df26",
-    "title": "华为云·组合购",
-    "category": "ai",
-    "source_url": "https://activity.huaweicloud.com/group-purchase/index.html",
-    "claim_url": "https://activity.huaweicloud.com/group-purchase/index.html",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-18",
-    "value": "",
-    "requirements": [],
-    "description": "组合购,上云场景,热销专区,弹性云服务器,ECS,云服务器,华为云上云场景专区热销场景组合折上折！业务上云推荐云服务器ECS+主机安全组合优惠价",
-    "tags": [
-      "华为云",
-      "组合购"
-    ],
-    "discovered_at": "2026-10-19T11:37:11.164288+08:00",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
     "id": "cloud_b9088095b507",
     "title": "阿里云·免费试用",
     "category": "ai",
@@ -452,44 +186,6 @@
       "免费试用"
     ],
     "discovered_at": "2026-10-19T11:37:12.559443+08:00",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "cloud_3dfb1407dfbe",
-    "title": "阿里云·高校计划",
-    "category": "ai",
-    "source_url": "https://university.aliyun.com",
-    "claim_url": "https://university.aliyun.com",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-18",
-    "value": "",
-    "requirements": [],
-    "description": "“云工开物”是由阿里云发起的高校用云支持计划，支持AI时代高校人才培养和科研创新。与高校合作共建人工智能通识课，为大学生送免费算力资源。",
-    "tags": [
-      "阿里云",
-      "高校计划"
-    ],
-    "discovered_at": "2026-10-19T11:37:13.851133+08:00",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "cloud_5cfd79b201c8",
-    "title": "阿里云·新人特惠",
-    "category": "ai",
-    "source_url": "https://www.aliyun.com/activity/new",
-    "claim_url": "https://www.aliyun.com/activity/new",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-18",
-    "value": "",
-    "requirements": [],
-    "description": "Qwen3.8-Flash 首发尝鲜，个企双版本低至 39 元/月",
-    "tags": [
-      "阿里云",
-      "新人特惠"
-    ],
-    "discovered_at": "2026-10-19T11:37:17.635281+08:00",
     "last_seen": "2026-10-19",
     "status": "active"
   }
