@@ -81,7 +81,7 @@ def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]
         snippet = context[i : j if j > 0 else len(context)]
         if len(snippet) < 50:
             continue
-        cat_snippets[cat].append(snippet[:1500])  # 每源截短到 1500 字
+        cat_snippets[cat].append(snippet[:800])  # 每源截短到 800 字
 
     # 每分类一次批量抽取
     for cat in CATEGORIES:
@@ -90,8 +90,8 @@ def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]
             log(f"[{cat}] 无可用源片段，跳过")
             continue
 
-        # 拼成大上下文（总上限 5000 字，防止中转站超时）
-        combined = "\n---\n".join(snippets)[:5000]
+        # 拼成大上下文（总上限 2000 字，避免中转站超时）
+        combined = "\n---\n".join(snippets)[:2000]
         src_count = len(snippets)
         log(f"[{cat}] 批量抽取 {src_count} 个源，上下文 {len(combined)} 字")
 
@@ -103,7 +103,7 @@ def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]
             today=today_str,
         )
         try:
-            data = client.chat_json(msgs, max_tokens=2000)
+            data = client.chat_json(msgs, max_tokens=4000)
             acts = (data or {}).get("activities", []) if isinstance(data, dict) else []
             for a in acts:
                 norm = normalize_activity(a, cat)
@@ -131,7 +131,7 @@ def search_new_activities(client: AIClient) -> dict[str, list[dict]]:
         for kw in keywords:
             msgs = build_search_messages(keyword=kw, category=cat, today=today_str)
             try:
-                data = client.chat_json(msgs, max_tokens=2000)
+                data = client.chat_json(msgs, max_tokens=1000)
                 acts = (data or {}).get("activities", []) if isinstance(data, dict) else []
                 for a in acts:
                     norm = normalize_activity(a, cat)
