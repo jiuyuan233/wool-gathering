@@ -1,13 +1,11 @@
 """不依赖 AI 的直接收集器。
 
-用 Reddit JSON API + RSS feed 直接拿结构化数据，
-不需要 AI 中转站，不会超时，数据质量更高。
+用各平台官方 API 直接拿结构化数据，不需要 AI 中转站。
 
 数据源：
-- Reddit r/FreeGameFindings, r/FreeGamesOnSteam, r/GameDeals → 游戏类
-- Reddit r/MLQuestions, r/MachineLearning → AI 类（找免费额度/GPU 相关帖子）
-- IsThereAnyDeal RSS → 游戏类
-- HuggingFace spaces RSS → AI 类
+- Epic Games GraphQL API → 游戏类免费游戏促销
+- Steam Store API → 游戏类免费周末/特惠
+- GitHub Search API → AI 类免费资源仓库
 """
 from __future__ import annotations
 
@@ -22,143 +20,252 @@ import requests
 from utils import log, now_bj, safe_text
 
 
-# 北京时区
 BJ_TZ = timezone(timedelta(hours=8))
 
-# 浏览器请求头（完整伪装）
 BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "zh-CN,en;q=0.7,en-US;q=0.3",
     "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
     "Upgrade-Insecure-Requests": "1",
 }
 
 
-# Reddit 子版块配置
-REDDIT_SUBREDDITS = {
-    "games": [
-        "FreeGameFindings",
-        "FreeGamesOnSteam",
-        "GameDeals",
-    ],
-    "ai": [
-        "MachineLearning",
-        "LocalLLaMA",
-    ],
-}
+# ============================================================
+# Epic Games GraphQL API
+# ============================================================
+
+EPIC_GRAPHQL_URL = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions"
 
 
-def fetch_reddit(subreddit: str, limit: int = 25) -> list[dict]:
-    """用 Reddit JSON API 获取帖子列表。
+def collect_epic_free_games() -> list[dict]:
+    """从 Epic Games GraphQL API 获取免费游戏促销信息。
 
-    Reddit 的 .json 后缀返回结构化数据，不需要 AI 解析。
+    Epic 的 API 直接返回 JSON，包含当前免费和即将免费的游戏。
     """
-    url = f"https://www.reddit.com/r/{subreddit}/.json?limit={limit}"
+    activities: list[dict] = []
     try:
-        resp = requests.get(url, headers=BROWSER_HEADERS, timeout=15)
+        resp = requests.get(EPIC_GRAPHQL_URL, params={"locale": "zh-CN"}, headers=BROWSER_HEADERS, timeout=15)
         resp.raise_for_status()
         data = resp.json()
-        children = data.get("data", {}).get("children", [])
-        posts = []
-        for child in children:
-            post = child.get("data", {})
-            if not post.get("title"):
+        elements = data.get("data", {}).get("Catalog", {}).get("searchStore", {}).get("elements", [])
+        log(f"Epic API: 获取 {len(elements)} 个游戏")
+
+        for e in elements:
+            title = e.get("title", "")
+            if not title:
                 continue
-            posts.append(post)
-        log(f"Reddit r/{subreddit}: 获取 {len(posts)} 条帖子")
-        return posts
+
+            promos = e.get("promotions")
+            if not promos:
+                continue
+
+            # 当前促销
+            current_offers = promos.get("promotionalOffers", [])
+            # 即将促销
+            upcoming_offers = promos.get("upcomingPromotionalOffers", [])
+
+            all_offers = []
+            for offer_group in current_offers:
+                all_offers.extend(offer_group.get("promotionalOffers", []))
+            for offer_group in upcoming_offers:
+                all_offers.extend(offer_group.get("promotionalOffers", []))
+
+            for offer in all_offers:
+                start = offer.get("startDate", "")
+                end = offer.get("endDate", "")
+                # 解析日期 (格式: 2026-10-19T16:00:00.000Z)
+                start_date = start[:10] if start else ""
+                end_date = end[:10] if end else ""
+
+                # 构建 URL
+                slug = e.get("catalogNs", {}).get("mappings", [{}])[0].get("pageSlug", "") if e.get("catalogNs") else ""
+                ns = e.get("catalogNs", {}).get("ns", "") if e.get("catalogNs") else ""
+                if slug and ns:
+                    url = f"https://store.epicgames.com/zh-CN/p/{slug}"
+                else:
+                    url = "https://store.epicgames.com/zh-CN/free-games"
+
+                # 判断是否免费（discountSetting 或 price 等于 0）
+                is_free = True  # 在 freeGamesPromotions 端点里的都是免费促销
+
+                status = "active"
+                if start_date and end_date:
+                    today = datetime.now(BJ_TZ).strftime("%Y-%m-%d")
+                    if today > end_date:
+                        status = "expired"
+                    elif today < start_date:
+                        status = "upcoming"
+
+                activities.append({
+                    "title": f"Epic 免费游戏: {title}",
+                    "url": url,
+                    "description": f"Epic Games Store 限时免费 | {start_date} ~ {end_date}",
+                    "start_date": start_date or datetime.now(BJ_TZ).strftime("%Y-%m-%d"),
+                    "end_date": end_date or (datetime.now(BJ_TZ) + timedelta(days=7)).strftime("%Y-%m-%d"),
+                    "category": "games",
+                    "source": "epic_graphql",
+                    "status": status,
+                    "discovered_at": now_bj().isoformat(),
+                })
+                break  # 每个游戏只取一个促销
+
     except Exception as e:
-        log(f"Reddit r/{subreddit} 失败: {safe_text(e, 100)}", level="ERROR")
-        return []
+        log(f"Epic API 失败: {safe_text(e, 100)}", level="ERROR")
+
+    log(f"Epic: 收集到 {len(activities)} 条免费游戏")
+    return activities
 
 
-def parse_reddit_post(post: dict, category: str) -> dict | None:
-    """从 Reddit 帖子解析出活动信息。
+# ============================================================
+# Steam Store API
+# ============================================================
 
-    判断标题/内容是否包含免费活动关键词，
-    提取标题、链接、时间等。
+STEAM_API_URL = "https://store.steampowered.com/api/featuredcategories"
+
+
+def collect_steam_free_weekend() -> list[dict]:
+    """从 Steam Store API 获取免费周末信息。
+
+    Steam 的 featured categories API 返回特色分类，包含免费周末。
     """
-    title = post.get("title", "")
-    permalink = post.get("permalink", "")
-    url = post.get("url", "")
-    created_utc = post.get("created_utc", 0)
-    score = post.get("score", 0)
-    selftext = post.get("selftext", "")
-    flair = post.get("link_flair_text", "") or ""
-
-    # 完整链接
-    full_url = f"https://www.reddit.com{permalink}" if permalink else url
-
-    # 关键词判断
-    title_lower = title.lower()
-    combined = f"{title_lower} {flair.lower()} {selftext[:500].lower()}"
-
-    if category == "games":
-        # 游戏类：找免费/限免/喜加一
-        free_keywords = ["free", "100% off", "限时免费", "限免", "喜加一", "giveaway", "免费领"]
-        if not any(kw in combined for kw in free_keywords):
-            return None
-        # 排除已经过期的（[Expired] 标记）
-        if "expired" in title_lower or "[expired]" in title_lower:
-            return None
-        cat_label = "games"
-    else:
-        # AI 类：找免费额度/GPU/代金券
-        ai_keywords = ["free", "免费", "gpu", "credit", "代金券", "额度", "trial", "试用", "giveaway"]
-        if not any(kw in combined for kw in ai_keywords):
-            return None
-        cat_label = "ai"
-
-    # 解析时间
+    activities: list[dict] = []
     try:
-        created = datetime.fromtimestamp(created_utc, tz=timezone.utc)
-        discovered_at = created.astimezone(BJ_TZ).isoformat()
-    except Exception:
-        discovered_at = now_bj().isoformat()
+        resp = requests.get(STEAM_API_URL, params={"l": "schinese"}, headers=BROWSER_HEADERS, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
 
-    # 尝试从标题提取日期范围（如 [2026-10-19] 或 Oct 19）
-    start_date = created.strftime("%Y-%m-%d")
-    # 默认 7 天后过期
-    end_date = (created + timedelta(days=7)).strftime("%Y-%m-%d")
+        # 查找免费周末
+        for cat_id, cat in data.items():
+            if not isinstance(cat, dict):
+                continue
+            name = cat.get("name", "")
+            items = cat.get("items", [])
 
-    # 提取外部链接（非 reddit 自身链接）
-    external_url = url if url and "reddit.com" not in url else full_url
+            for item in items:
+                item_name = item.get("name", "")
+                # 免费周末
+                if "免费" in item_name or "free" in item_name.lower():
+                    app_id = item.get("id", "")
+                    url = f"https://store.steampowered.com/app/{app_id}" if app_id else ""
+                    activities.append({
+                        "title": f"Steam 免费周末: {item_name}",
+                        "url": url,
+                        "description": f"Steam Store | 分类: {name}",
+                        "start_date": datetime.now(BJ_TZ).strftime("%Y-%m-%d"),
+                        "end_date": (datetime.now(BJ_TZ) + timedelta(days=3)).strftime("%Y-%m-%d"),
+                        "category": "games",
+                        "source": "steam_api",
+                        "status": "active",
+                        "discovered_at": now_bj().isoformat(),
+                    })
 
-    return {
-        "title": title[:200],
-        "url": external_url,
-        "description": f"Reddit r/{post.get('subreddit', '')} | ⬆{score} | {flair}".strip(" |"),
-        "start_date": start_date,
-        "end_date": end_date,
-        "category": cat_label,
-        "source": f"reddit/{post.get('subreddit', '')}",
-        "status": "active",
-        "discovered_at": discovered_at,
-    }
+        # 也检查 specials 里折扣为 100% 的（完全免费）
+        specials = data.get("specials", {}).get("items", [])
+        for item in specials:
+            discount = item.get("discount_pct", 0)
+            if discount >= 100:
+                item_name = item.get("name", "")
+                app_id = item.get("id", "")
+                url = f"https://store.steampowered.com/app/{app_id}" if app_id else ""
+                activities.append({
+                    "title": f"Steam 限免: {item_name}",
+                    "url": url,
+                    "description": f"Steam Store | 100% 折扣 | 原价: {item.get('original_price', 0)//100}元",
+                    "start_date": datetime.now(BJ_TZ).strftime("%Y-%m-%d"),
+                    "end_date": (datetime.now(BJ_TZ) + timedelta(days=7)).strftime("%Y-%m-%d"),
+                    "category": "games",
+                    "source": "steam_api",
+                    "status": "active",
+                    "discovered_at": now_bj().isoformat(),
+                })
 
+    except Exception as e:
+        log(f"Steam API 失败: {safe_text(e, 100)}", level="ERROR")
+
+    log(f"Steam: 收集到 {len(activities)} 条免费游戏")
+    return activities
+
+
+# ============================================================
+# GitHub Search API → AI 免费资源
+# ============================================================
+
+GITHUB_API = "https://api.github.com/search/repositories"
+
+
+def collect_github_ai_resources() -> list[dict]:
+    """从 GitHub Search API 搜索 AI 免费资源仓库。
+
+    搜索关键词：free AI API, free GPU, free LLM 等。
+    """
+    activities: list[dict] = []
+    queries = [
+        "free AI API key",
+        "free GPU colab",
+        "free LLM API",
+        "AI 免费额度",
+        "free inference API",
+    ]
+
+    for q in queries:
+        try:
+            resp = requests.get(GITHUB_API, params={
+                "q": q, "sort": "updated", "per_page": 5
+            }, headers=BROWSER_HEADERS, timeout=15)
+            resp.raise_for_status()
+            data = resp.json()
+            items = data.get("items", [])
+
+            for item in items:
+                desc = item.get("description", "") or ""
+                full_name = item.get("full_name", "")
+                stars = item.get("stargazers_count", 0)
+                html_url = item.get("html_url", "")
+                updated = item.get("updated_at", "")[:10]
+
+                # 只收集最近 30 天内更新的
+                if updated:
+                    days_old = (datetime.now(BJ_TZ) - datetime.fromisoformat(updated + "+08:00")).days
+                    if days_old > 30:
+                        continue
+
+                activities.append({
+                    "title": f"GitHub: {full_name}",
+                    "url": html_url,
+                    "description": f"⭐{stars} | {desc[:100]}",
+                    "start_date": updated or datetime.now(BJ_TZ).strftime("%Y-%m-%d"),
+                    "end_date": (datetime.now(BJ_TZ) + timedelta(days=90)).strftime("%Y-%m-%d"),
+                    "category": "ai",
+                    "source": "github_search",
+                    "status": "active",
+                    "discovered_at": now_bj().isoformat(),
+                })
+
+            log(f"GitHub 搜索 '{q}': {len(items)} 个仓库")
+            time.sleep(2)  # GitHub API 限流
+        except Exception as e:
+            log(f"GitHub 搜索 '{q}' 失败: {safe_text(e, 100)}", level="ERROR")
+
+    log(f"GitHub: 收集到 {len(activities)} 条 AI 资源")
+    return activities
+
+
+# ============================================================
+# 汇总
+# ============================================================
 
 def collect_category(category: str) -> list[dict]:
     """收集一个类别的所有活动。"""
-    subreddits = REDDIT_SUBREDDITS.get(category, [])
-    if not subreddits:
-        log(f"[{category}] 无配置的 Reddit 源")
+    if category == "games":
+        # 游戏类：Epic + Steam
+        results = collect_epic_free_games()
+        time.sleep(2)
+        results.extend(collect_steam_free_weekend())
+        return results
+    elif category == "ai":
+        # AI 类：GitHub 搜索
+        return collect_github_ai_resources()
+    else:
         return []
-
-    all_activities: list[dict] = []
-    for sub in subreddits:
-        posts = fetch_reddit(sub, limit=25)
-        for post in posts:
-            post["subreddit"] = sub
-            activity = parse_reddit_post(post, category)
-            if activity:
-                all_activities.append(activity)
-        time.sleep(2)  # 间隔 2 秒，避免 Reddit 限流
-
-    log(f"[{category}] Reddit 共收集 {len(all_activities)} 条活动")
-    return all_activities
