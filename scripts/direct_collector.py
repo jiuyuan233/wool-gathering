@@ -223,13 +223,18 @@ def collect_github_ai_resources() -> list[dict]:
                 full_name = item.get("full_name", "")
                 stars = item.get("stargazers_count", 0)
                 html_url = item.get("html_url", "")
-                updated = item.get("updated_at", "")[:10]
+                updated_raw = item.get("updated_at", "")  # "2026-10-15T12:34:56Z"
+                updated = updated_raw[:10] if updated_raw else ""
 
                 # 只收集最近 30 天内更新的
-                if updated:
-                    days_old = (datetime.now(BJ_TZ) - datetime.fromisoformat(updated + "+08:00")).days
-                    if days_old > 30:
-                        continue
+                if updated_raw:
+                    try:
+                        updated_dt = datetime.fromisoformat(updated_raw.replace("Z", "+00:00"))
+                        days_old = (datetime.now(timezone.utc) - updated_dt).days
+                        if days_old > 30:
+                            continue
+                    except Exception:
+                        pass  # 解析失败就不过滤
 
                 activities.append({
                     "title": f"GitHub: {full_name}",
