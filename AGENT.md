@@ -546,8 +546,34 @@ git push origin main
 ### 15.6 验证清单
 
 - SVG 标题显示「活动时间轴（YYYY年M月）」
-- SVG 有 3 个分区标题行（AI/开车/游戏），分区内快结束的排上面
+- SVG 有 6 个分区标题行（AI/购物/视频会员/网盘会员/开车/游戏），分区内快结束的排上面
 - 超过一个月的活动横条顶满整个跨度
 - 无 `end_date` 的活动不在 SVG 时间轴，在 README「♾️ 长期免费」分区
 - 有 `end_date` 的活动都在 SVG 时间轴（不管多长时间）
 - 总条数 = SVG 显示条数 + 开源工具条数
+- 游戏分区英文标题后附中文翻译（格式 `英文原名 ｜中文译名`）
+
+### 15.7 游戏标题中文翻译规则
+
+游戏喜加一分区的活动标题常为英文（Epic/Steam/itch.io 独立游戏），需在原标题后附中文翻译。
+
+**格式**：`原标题 ｜中文译名`
+
+例：
+- `Epic 免费游戏: Bad Cheese ｜坏奶酪`
+- `[itch.io] Offrecord Episode 1（限免） ｜非官方记录第一章`
+- `[Steam] (Game) Dumb Ways to Build（Reddit-FreeGameFindings） ｜蠢蛋建造法`
+
+**翻译原则**：
+1. 有官方中文译名的用官方译名（如 Castlevania → 恶魔城，Monument Valley → 纪念碑谷）
+2. 无官方译名的按含义翻译（如 Bad Cheese → 坏奶酪，The Wrong Way → 逆行）
+3. 纯音译无意义时保留英文（如 Pdm）
+4. 标题已有中文的无需再加（如 `Agent A - 伪装游戏`）
+
+**操作步骤**：
+1. 打开 `data/games/activities.json`
+2. 找到含英文且无 `｜` 的标题
+3. 在标题末尾加 ` ｜中文译名`（注意｜前有一个空格）
+4. 运行 `python3 scripts/collect.py finalize` 重新生成产物
+5. 验证 README 游戏表格标题含中文翻译
+6. 提交推送

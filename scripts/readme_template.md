@@ -206,17 +206,17 @@ fork 后 workflow 的 cron 默认和上游一样（6 个时段分散全天，避
                   │ AI 联网搜索  │  混合模式补充
                   └──────────────┘
                          ↓
-         四大分类：ai / open-source / drive / games
-```
+          七大分类：ai / shopping / video-vip / netdisk-vip / open-source / drive / games
+ ```
 
 1. **每日 6 时段定时**：GitHub Actions 分六个时段分散全天运行（避开整点，减轻免费源网站压力），北京时间 06:17 / 09:23 / 11:41 / 14:37 / 16:53 / 20:47，分别跑 `ai-cloud` / `ai-blog` / `drive` / `games-direct` / `games-blog` / `finalize` 六个子模式
 2. **种子源抓取**：从 `data/sources.json` 列出的目标网站抓取页面文本（内置 51 个源，全部启用——Action runner 在海外，可访问 Steam/Reddit/HuggingFace/Google AI Studio 等国内墙的网站）
 3. **AI 抽取**：用 `scripts/prompts.py` 里写好的教程式提示词，调 OpenAI 兼容中转站，从页面内容里抽取结构化活动信息。**特别关注游戏「喜加一」**（Epic/Steam/GOG 免费游戏，用户最爱）
-4. **四大分类分流**：抓到的活动按规则归入 `ai`（云服务/AI 优惠）/ `open-source`（一直免费的开源工具）/ `drive`（开车线报）/ `games`（游戏喜加一）四个类别
+4. **七大分类分流**：抓到的活动按规则归入 `ai`（云服务/AI 优惠）/ `shopping`（双11/红包等纯购物促销）/ `video-vip`（爱奇艺/腾讯视频会员）/ `netdisk-vip`（夸克/百度网盘会员）/ `open-source`（一直免费的开源工具）/ `drive`（开车线报）/ `games`（游戏喜加一）七个类别。游戏标题含英文的在末尾附中文翻译（格式 `英文原名 ｜中文译名`）
 5. **联网搜索补充**：AI 用预设关键词联网搜索，发现种子源之外的新活动（混合模式）
 6. **去重合并**：按稳定 ID（标题 + URL 哈希）去重，已有字段优先保留（旧值优先，防止覆盖已确认数据），按日期重算 status
 7. **生成产物**（`finalize` 阶段）：
-   - 更新 `data/{ai,open-source,drive,games}/activities.json`（原始数据）
+   - 更新 `data/{ai,shopping,video-vip,netdisk-vip,open-source,drive,games}/activities.json`（原始数据）
    - 生成 `docs/calendar.svg`（README 顶部嵌入的甘特图日历，开源工具不进时间轴）
    - 生成 `docs/data/{activities,meta}.json`（结构化数据，可选用于自建前端）
    - 重写 `README.md`（嵌入 SVG + 分类表格）

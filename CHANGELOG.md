@@ -1,5 +1,13 @@
 # 更新日志
 
+## 2026-10-19 游戏中文翻译 + 购物修正
+
+- 购物分区修正：7 条里仅 2 条属购物（双11打折整理+双11红包），其余 5 条归位（WPS/复旦Codex/VideoProc→AI，VMware→open-source，重复复旦Codex删除）
+- SHOPPING_HINTS 关键词精简：移除 wps/vmware/videoproc/复旦/codex/周年庆，只保留双11/红包/打折好价
+- 游戏喜加一 68 条英文标题附中文翻译（格式 `英文原名 ｜中文译名`），如 `Bad Cheese ｜坏奶酪`、`Castlevania Anniversary Collection ｜恶魔城周年纪念合集`
+- AGENT.md 新增第 15.7 节游戏标题中文翻译规则，readme_template.md 更新七大分类说明
+- 最终分布：AI 30 / 购物 2 / 视频会员 2 / 网盘会员 2 / 开源 13 / 开车 3 / 游戏 70 = 122 条
+
 ## 2026-10-18
 
 - 初始版本上线
