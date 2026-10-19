@@ -15,8 +15,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 12:09** 北京时间
-- 进行中：**37** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**41** 个
+- 更新时间：**2026-10-19 12:18** 北京时间
+- 进行中：**52** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**56** 个
 
 ---
 
@@ -65,6 +65,21 @@
 | 🟢 | Voidtrain - Big Catch（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/voidtrain-big-catch/info/) |
 | 🟢 | Gear.Club Unlimited 3 - Gear.Club Signature Pack（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/gear-club-unlimited-3-gear-club-signature-pack/info/) |
 | 🟢 | Voidtrain - Tour de Void（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/voidtrain-tour-de-void/info/) |
+| 🟢 | FGF Giveaway: Retro Pond &amp; Sandtrix+!（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/) |
+| 🟢 | Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x47cvi/exiled_giveaways_and_itchio_mega_threads/) |
+| 🟢 | [Steam] (Game) Dumb Ways to Build（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x98rdb/steam_game_dumb_ways_to_build/) |
+| 🟢 | [itch.io] (Game) The Green Light &amp; The Black Within（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/) |
+| 🟢 | [Steam] (game) Space Pilgrim Academy Year 1（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x89vdw/steam_game_space_pilgrim_academy_year_1/) |
+| 🟢 | [Steam] (Game) Linked（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x9bvk0/steam_game_linked/) |
+| 🟢 | [Steam] (Game) WarSpawn（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x7q1hy/steam_game_warspawn/) |
+| 🟢 | [Steam] (Game) Akin（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x9757j/steam_game_akin/) |
+| 🟢 | [Steam] (Game) Wane’s（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x7ej2d/steam_game_wanes/) |
+| 🟢 | [Epic Games] (Game) Bad Cheese（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x6nyl9/epic_games_game_bad_cheese/) |
+| 🟢 | [Epic Games] (Game) Agent A: A puzzle in disguise（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x6nylb/epic_games_game_agent_a_a_puzzle_in_disguise/) |
+| 🟢 | [Steam] (Game) Gangsta Forest Shooter（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x8i155/steam_game_gangsta_forest_shooter/) |
+| 🟢 | [Epic Games Mobile] (Game) Agent A: A puzzle in disguise（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x6nzqb/epic_games_mobile_game_agent_a_a_puzzle_in/) |
+| 🟢 | [PSA] Vampire: The Masquerade - Swansong (EGS), Caravan SandWitch (Amazon Games) are complimentary with Amazon Prime（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x6r5x4/psa_vampire_the_masquerade_swansong_egs_caravan/) |
+| 🟢 | [Steam] (DLC) Squad Weapon Skins - Recon Team Pack（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x6ssud/steam_dlc_squad_weapon_skins_recon_team_pack/) |
 | 🟢 | Epic 免费游戏: Eternal Threads | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: Castlevania Anniversary Collection | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: 纪念碑谷（Monument Valley） | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |

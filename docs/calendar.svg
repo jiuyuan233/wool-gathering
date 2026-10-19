@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1268" viewBox="0 0 940 1268" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
-<rect width="940" height="1268" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1688" viewBox="0 0 940 1688" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="940" height="1688" fill="#ffffff"/>
 <text x="20" y="28" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴</text>
-<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-19 · 共 41 条（41 条有日期）· 红线 = 今天</text>
+<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-19 · 共 56 条（56 条有日期）· 红线 = 今天</text>
 <line x1="210" y1="62" x2="920" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <line x1="210.0" y1="58" x2="210.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="210.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">10-14</text>
@@ -17,7 +17,7 @@
 <text x="796.1627906976744" y="54" font-size="9" fill="#6e7681" text-anchor="middle">12-24</text>
 <line x1="920.0" y1="58" x2="920.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="920.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">01-08</text>
-<line x1="251.27906976744185" y1="60" x2="251.27906976744185" y2="1222" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="251.27906976744185" y1="60" x2="251.27906976744185" y2="1642" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
 <text x="251.27906976744185" y="56" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="600">今天</text>
 <line x1="10" y1="98" x2="930" y2="98" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="84" r="3" fill="#4a9eff"/>
@@ -197,41 +197,116 @@
 <rect x="251.27906976744185" y="999" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1050" x2="930" y2="1050" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1036" r="3" fill="#4ade80"/>
-<text x="24" y="1040" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Eternal Threads</text>
-<rect x="251.27906976744185" y="1027" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="251.27906976744185" y="1027" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="309.06976744186045" y="1039.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<text x="24" y="1040" font-size="11" fill="#24292f">🟢 FGF Giveaway: Retro Pond &amp;amp; Sandt</text>
+<rect x="251.27906976744185" y="1027" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1027" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1078" x2="930" y2="1078" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1064" r="3" fill="#4ade80"/>
-<text x="24" y="1068" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Castlevania Anniversary Colle</text>
-<rect x="251.27906976744185" y="1055" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="251.27906976744185" y="1055" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="309.06976744186045" y="1067.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<text x="24" y="1068" font-size="11" fill="#24292f">🟢 Exiled Giveaways and Itch.io Mega Thread</text>
+<rect x="251.27906976744185" y="1055" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1055" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1106" x2="930" y2="1106" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1092" r="3" fill="#4ade80"/>
-<text x="24" y="1096" font-size="11" fill="#24292f">🟢 Epic 免费游戏: 纪念碑谷（Monument Valley）</text>
-<rect x="251.27906976744185" y="1083" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="251.27906976744185" y="1083" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="309.06976744186045" y="1095.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<text x="24" y="1096" font-size="11" fill="#24292f">🟢 [Steam] (Game) Dumb Ways to Build（Reddit</text>
+<rect x="251.27906976744185" y="1083" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1083" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1134" x2="930" y2="1134" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1120" r="3" fill="#4ade80"/>
-<text x="24" y="1124" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Sker Ritual</text>
-<rect x="276.04651162790697" y="1111" width="57.79069767441865" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<text x="24" y="1124" font-size="11" fill="#24292f">🟢 [itch.io] (Game) The Green Light &amp;am</text>
+<rect x="251.27906976744185" y="1111" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1111" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1162" x2="930" y2="1162" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1148" r="3" fill="#4ade80"/>
-<text x="24" y="1152" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Home - A Unique Horror Advent</text>
-<rect x="276.04651162790697" y="1139" width="57.79069767441865" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<text x="24" y="1152" font-size="11" fill="#24292f">🟢 [Steam] (game) Space Pilgrim Academy Yea</text>
+<rect x="251.27906976744185" y="1139" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1139" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1190" x2="930" y2="1190" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1176" r="3" fill="#4ade80"/>
-<text x="24" y="1180" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《LISA: Definitive Edition》</text>
-<rect x="358.6046511627907" y="1167" width="74.3023255813954" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<text x="24" y="1180" font-size="11" fill="#24292f">🟢 [Steam] (Game) Linked（Reddit-FreeGameFin</text>
+<rect x="251.27906976744185" y="1167" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1167" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1218" x2="930" y2="1218" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1204" r="3" fill="#4ade80"/>
-<text x="24" y="1208" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
-<rect x="680.5813953488372" y="1195" width="231.16279069767438" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
-<rect x="210" y="1230" width="14" height="10" rx="2" fill="#4a9eff"/><text x="230" y="1239" font-size="10" fill="#24292f">AI 类</text>
-<rect x="290" y="1230" width="14" height="10" rx="2" fill="#4ade80"/><text x="310" y="1239" font-size="10" fill="#24292f">游戏类</text>
-<rect x="380" y="1230" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="400" y="1239" font-size="10" fill="#24292f">已结束</text>
-<rect x="470" y="1230" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="490" y="1239" font-size="10" fill="#24292f">未开始</text>
-<line x1="560" y1="1228" x2="560" y2="1242" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="568" y="1239" font-size="10" fill="#24292f">今天</text>
+<text x="24" y="1208" font-size="11" fill="#24292f">🟢 [Steam] (Game) WarSpawn（Reddit-FreeGameF</text>
+<rect x="251.27906976744185" y="1195" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1195" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1246" x2="930" y2="1246" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1232" r="3" fill="#4ade80"/>
+<text x="24" y="1236" font-size="11" fill="#24292f">🟢 [Steam] (Game) Akin（Reddit-FreeGameFindi</text>
+<rect x="251.27906976744185" y="1223" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1223" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1274" x2="930" y2="1274" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1260" r="3" fill="#4ade80"/>
+<text x="24" y="1264" font-size="11" fill="#24292f">🟢 [Steam] (Game) Wane’s（Reddit-FreeGameFin</text>
+<rect x="251.27906976744185" y="1251" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1251" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1302" x2="930" y2="1302" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1288" r="3" fill="#4ade80"/>
+<text x="24" y="1292" font-size="11" fill="#24292f">🟢 [Epic Games] (Game) Bad Cheese（Reddit-Fr</text>
+<rect x="251.27906976744185" y="1279" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1279" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1330" x2="930" y2="1330" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1316" r="3" fill="#4ade80"/>
+<text x="24" y="1320" font-size="11" fill="#24292f">🟢 [Epic Games] (Game) Agent A: A puzzle in</text>
+<rect x="251.27906976744185" y="1307" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1307" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1358" x2="930" y2="1358" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1344" r="3" fill="#4ade80"/>
+<text x="24" y="1348" font-size="11" fill="#24292f">🟢 [Steam] (Game) Gangsta Forest Shooter（Re</text>
+<rect x="251.27906976744185" y="1335" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1335" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1386" x2="930" y2="1386" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1372" r="3" fill="#4ade80"/>
+<text x="24" y="1376" font-size="11" fill="#24292f">🟢 [Epic Games Mobile] (Game) Agent A: A pu</text>
+<rect x="251.27906976744185" y="1363" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1363" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1414" x2="930" y2="1414" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1400" r="3" fill="#4ade80"/>
+<text x="24" y="1404" font-size="11" fill="#24292f">🟢 [PSA] Vampire: The Masquerade - Swansong</text>
+<rect x="251.27906976744185" y="1391" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1391" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1442" x2="930" y2="1442" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1428" r="3" fill="#4ade80"/>
+<text x="24" y="1432" font-size="11" fill="#24292f">🟢 [Steam] (DLC) Squad Weapon Skins - Recon</text>
+<rect x="251.27906976744185" y="1419" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1419" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1470" x2="930" y2="1470" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1456" r="3" fill="#4ade80"/>
+<text x="24" y="1460" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Eternal Threads</text>
+<rect x="251.27906976744185" y="1447" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1447" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="309.06976744186045" y="1459.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="1498" x2="930" y2="1498" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1484" r="3" fill="#4ade80"/>
+<text x="24" y="1488" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Castlevania Anniversary Colle</text>
+<rect x="251.27906976744185" y="1475" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1475" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="309.06976744186045" y="1487.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="1526" x2="930" y2="1526" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1512" r="3" fill="#4ade80"/>
+<text x="24" y="1516" font-size="11" fill="#24292f">🟢 Epic 免费游戏: 纪念碑谷（Monument Valley）</text>
+<rect x="251.27906976744185" y="1503" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1503" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="309.06976744186045" y="1515.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="1554" x2="930" y2="1554" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1540" r="3" fill="#4ade80"/>
+<text x="24" y="1544" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Sker Ritual</text>
+<rect x="276.04651162790697" y="1531" width="57.79069767441865" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="1582" x2="930" y2="1582" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1568" r="3" fill="#4ade80"/>
+<text x="24" y="1572" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Home - A Unique Horror Advent</text>
+<rect x="276.04651162790697" y="1559" width="57.79069767441865" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="1610" x2="930" y2="1610" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1596" r="3" fill="#4ade80"/>
+<text x="24" y="1600" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《LISA: Definitive Edition》</text>
+<rect x="358.6046511627907" y="1587" width="74.3023255813954" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="1638" x2="930" y2="1638" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1624" r="3" fill="#4ade80"/>
+<text x="24" y="1628" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
+<rect x="680.5813953488372" y="1615" width="231.16279069767438" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<rect x="210" y="1650" width="14" height="10" rx="2" fill="#4a9eff"/><text x="230" y="1659" font-size="10" fill="#24292f">AI 类</text>
+<rect x="290" y="1650" width="14" height="10" rx="2" fill="#4ade80"/><text x="310" y="1659" font-size="10" fill="#24292f">游戏类</text>
+<rect x="380" y="1650" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="400" y="1659" font-size="10" fill="#24292f">已结束</text>
+<rect x="470" y="1650" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="490" y="1659" font-size="10" fill="#24292f">未开始</text>
+<line x1="560" y1="1648" x2="560" y2="1662" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="568" y="1659" font-size="10" fill="#24292f">今天</text>
 </svg>
