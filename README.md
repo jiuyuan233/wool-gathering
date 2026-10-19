@@ -63,7 +63,7 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 17:13** 北京时间
+- 更新时间：**2026-10-19 17:31** 北京时间
 - 进行中：**103** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**107** 个
 
 ---
@@ -209,26 +209,26 @@
 
 ## 🚀 快速开始（2 步跑通）
 
-### 第 1 步：配置 AI Secrets
+### 第 1 步：配置 AI API Key Secret
 
-进入仓库 **Settings → Secrets and variables → Actions → New repository secret**，添加 3 个：
+workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型（在 `.github/workflows/daily-collect.yml` 的 env 里），**只需配 1 个 Secret**：
 
-| Secret 名 | 说明 | 示例值 |
-|-----------|------|--------|
-| `AI_BASE_URL` | AI 中转站地址（OpenAI 兼容协议） | `https://api.deepseek.com/v1` |
-| `AI_API_KEY` | 中转站 API Key | `sk-xxxxxxxx` |
-| `AI_MODEL` | 模型名 | `deepseek-chat` |
+进入仓库 **Settings → Secrets and variables → Actions → New repository secret**：
+- Name：`AI_API_KEY`
+- Value：你的 ChatAnywhere API Key（形如 `sk-xxxxxxxx`，去 [chatanywhere](https://chatanywhere.top) 注册免费领取）
 
-**推荐的免费 / 低价中转站**（任选一个，自行注册）：
+> ChatAnywhere 免费版：每周 50000 点 + 每天 100 次请求，用 `deepseek-v3-2` 弱模型省额度，每次跑约调 AI 30-50 次基本够。
+
+**想换其他中转站？** 编辑 workflow 的 env 改 `AI_BASE_URL` / `AI_MODEL`（任意 OpenAI 协议兼容的都行）：
 
 | 中转站 | `AI_BASE_URL` | `AI_MODEL` | 说明 |
 |--------|---------------|------------|------|
+| ChatAnywhere（默认） | `https://api.chatanywhere.org/v1` | `deepseek-v3-2` | 免费版每周 50000 点 |
 | DeepSeek 官方 | `https://api.deepseek.com/v1` | `deepseek-chat` | 便宜、中文好、有 function calling |
 | 智谱 BigModel | `https://open.bigmodel.cn/api/paas/v4` | `glm-4-flash` | 免费额度大 |
 | 通义千问 | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-turbo` | 阿里云百炼 |
-| OpenAI 兼容中转站 | 任意 `.../v1` | 任意 | 搜"OpenAI 中转站" |
 
-> 任意 OpenAI 协议兼容的中转站都能用，框架不绑定具体厂商。
+> 框架不绑定具体厂商，任意 OpenAI 协议兼容的中转站都能用。
 
 ### 第 2 步：手动触发首次运行
 
@@ -239,7 +239,16 @@
 - 下方分类表格会列出所有活动
 - `data/{ai,games}/activities.json` 是结构化原始数据
 
-之后每天北京时间 **09:00** 自动运行，无需干预。
+之后每天分 **6 个时段** 自动运行（分散全天、避开整点，减轻免费源网站压力），无需干预：
+
+| 北京时间 | 模式 | 做什么 |
+|---------|------|-------|
+| 06:17 | `ai-cloud` | 云厂商活动（华为云/阿里云/腾讯云） |
+| 09:23 | `ai-blog` | 博客聚合（AI 板块，含开源工具分流） |
+| 11:41 | `drive` | V2EX 开车线报 |
+| 14:37 | `games-direct` | Epic/Steam/GOG 官方 API |
+| 16:53 | `games-blog` | ITAD/itch.io/Reddit/ggdeals |
+| 20:47 | `finalize` | 整理：生成 SVG 日历 + 前端 JSON + README |
 
 > ℹ️ 本仓库**不依赖 GitHub Pages**，日历直接以 SVG 图片形式嵌在 README 里渲染，任何账号都能用。
 
@@ -259,28 +268,19 @@
 
 > ⚠️ 不启用这一步，定时任务永远不会跑。
 
-### 3. 配置 3 个 Secrets
+### 3. 配置 AI_API_KEY Secret
 
-进入你 fork 仓库的 **Settings → Secrets and variables → Actions → New repository secret**，依次添加：
+进入你 fork 仓库的 **Settings → Secrets and variables → Actions → New repository secret**，添加：
+- Name：`AI_API_KEY`
+- Value：你的 ChatAnywhere API Key（去 [chatanywhere](https://chatanywhere.top) 注册免费领）
 
-- `AI_BASE_URL` = 你的中转站地址
-- `AI_API_KEY` = 你的 API Key
-- `AI_MODEL` = 模型名
-
-（值同上表，fork 的仓库 secrets 不会从上游继承，必须自己配）
+> fork 的仓库 secrets 不会从上游继承，必须自己配。workflow 的 `AI_BASE_URL` / `AI_MODEL` 已默认配好 ChatAnywhere + `deepseek-v3-2`，想换其他中转站再改 workflow env。
 
 ### 4. （可选）调整定时时间
 
-fork 后 workflow 的 cron 默认和上游一样（北京时间 09:00）。建议改成错峰时间，避免和上游同时跑：
+fork 后 workflow 的 cron 默认和上游一样（6 个时段分散全天，避开整点）。建议把每个 cron 的分钟数整体加一个偏移量（如 +5），避免和上游同时跑：
 
-编辑 `.github/workflows/daily-collect.yml`，把
-```yaml
-- cron: "0 1 * * *"
-```
-改成你想要的时间（UTC 时间，北京时间 = UTC + 8）。例如北京时间 10:30 = UTC 02:30：
-```yaml
-- cron: "30 2 * * *"
-```
+编辑 `.github/workflows/daily-collect.yml`，6 个 cron 表达式形如 `17 22 * * *`（= UTC 22:17 = 北京 06:17）。北京时间 = UTC + 8。改分钟数即可错峰，如 `22 22 * * *`（延后 5 分钟）。
 
 ### 5. 手动触发首次运行
 
@@ -322,19 +322,22 @@ fork 后 workflow 的 cron 默认和上游一样（北京时间 09:00）。建�
                   ┌──────────────┐
                   │ AI 联网搜索  │  混合模式补充
                   └──────────────┘
+                         ↓
+         四大分类：ai / open-source / drive / games
 ```
 
-1. **每日定时**：GitHub Actions 在北京时间每天 09:00 自动运行（cron `0 1 * * *` UTC）
+1. **每日 6 时段定时**：GitHub Actions 分六个时段分散全天运行（避开整点，减轻免费源网站压力），北京时间 06:17 / 09:23 / 11:41 / 14:37 / 16:53 / 20:47，分别跑 `ai-cloud` / `ai-blog` / `drive` / `games-direct` / `games-blog` / `finalize` 六个子模式
 2. **种子源抓取**：从 `data/sources.json` 列出的目标网站抓取页面文本（内置 51 个源，全部启用——Action runner 在海外，可访问 Steam/Reddit/HuggingFace/Google AI Studio 等国内墙的网站）
 3. **AI 抽取**：用 `scripts/prompts.py` 里写好的教程式提示词，调 OpenAI 兼容中转站，从页面内容里抽取结构化活动信息。**特别关注游戏「喜加一」**（Epic/Steam/GOG 免费游戏，用户最爱）
-4. **联网搜索补充**：AI 用预设关键词联网搜索，发现种子源之外的新活动（混合模式）
-5. **去重合并**：按稳定 ID（标题 + URL 哈希）去重，已有字段优先保留，按日期重算 status
-6. **生成产物**：
-   - 更新 `data/{ai,games}/activities.json`（原始数据）
-   - 生成 `docs/calendar.svg`（README 顶部嵌入的甘特图日历）
+4. **四大分类分流**：抓到的活动按规则归入 `ai`（云服务/AI 优惠）/ `open-source`（一直免费的开源工具）/ `drive`（开车线报）/ `games`（游戏喜加一）四个类别
+5. **联网搜索补充**：AI 用预设关键词联网搜索，发现种子源之外的新活动（混合模式）
+6. **去重合并**：按稳定 ID（标题 + URL 哈希）去重，已有字段优先保留（旧值优先，防止覆盖已确认数据），按日期重算 status
+7. **生成产物**（`finalize` 阶段）：
+   - 更新 `data/{ai,open-source,drive,games}/activities.json`（原始数据）
+   - 生成 `docs/calendar.svg`（README 顶部嵌入的甘特图日历，开源工具不进时间轴）
    - 生成 `docs/data/{activities,meta}.json`（结构化数据，可选用于自建前端）
-   - 重写 `README.md`（嵌入 SVG + 表格速览）
-7. **自动提交**：bot 身份 commit & push 回仓库
+   - 重写 `README.md`（嵌入 SVG + 分类表格）
+8. **自动提交**：bot 身份 commit & push 回仓库
 
 ---
 
@@ -342,26 +345,32 @@ fork 后 workflow 的 cron 默认和上游一样（北京时间 09:00）。建�
 
 ```
 wool-gathering/
+├── AGENT.md                       # 维护规范（给 AI 或人看的操作交接文档，14 节）
 ├── .github/workflows/
-│   └── daily-collect.yml          # Actions：每日收集 + 自动提交
-├── data/
-│   ├── ai/activities.json         # AI 类活动数据（自动生成）
-│   ├── games/activities.json      # 游戏类活动数据（自动生成）
-│   └── sources.json               # 种子源列表（51 个源，全部启用，Action 海外可访问）
+│   └── daily-collect.yml          # Actions：六时段定时任务 + 自动提交
+├── data/                          # 原始数据（脚本写，人别手改）
+│   ├── ai/activities.json         # AI/云服务优惠（自动生成）
+│   ├── open-source/activities.json# 开源免费工具（长期免费，end_date 空）
+│   ├── drive/activities.json      # 开车线报（自动生成）
+│   ├── games/activities.json      # 游戏喜加一（自动生成）
+│   └── sources.json               # 种子源列表（51 个源，全部启用，可手改）
 ├── scripts/                       # Python 收集脚本
 │   ├── ai_client.py               # AI 中转站客户端（OpenAI 兼容）
-│   ├── collect.py                 # 主入口（Action 调用）
-│   ├── prompts.py                 # AI 提示词（教程式，抽取规则、喜加一识别、字段要求）
+│   ├── collect.py                 # 主入口（Action 调用，支持子模式）
+│   ├── prompts.py                 # AI 提示词（抽取规则、喜加一识别、字段要求）
 │   ├── ai_guide.md                # AI 使用教程（人可读完整文档）
-│   ├── sources_manager.py         # 种子源抓取
+│   ├── cloud_collector.py         # 云厂商抓取（华为云/阿里云/腾讯云/腾讯 WorkBuddy）
+│   ├── blog_collector.py          # 博客/V2EX/Reddit/ITAD/itch.io 抓取 + 分类规则
+│   ├── direct_collector.py        # Epic/Steam/GOG 官方 API 抓取
 │   ├── dedup.py                   # 去重合并 + 状态刷新
-│   ├── svg_calendar.py            # SVG 甘特图日历生成
-│   ├── calendar_generator.py      # 前端数据 + README 生成
+│   ├── svg_calendar.py            # SVG 甘特图日历生成（含文字防重叠）
+│   ├── calendar_generator.py      # 前端数据 + README 生成（含车型子分类）
 │   ├── readme_template.md         # README 模板
 │   ├── utils.py                   # 工具函数
 │   └── requirements.txt
 ├── docs/                          # 生成产物目录
 │   ├── calendar.svg               # README 嵌入的日历（自动生成）
+│   ├── GAME_PLATFORMS.md          # 游戏平台介绍（当前启用 + 可扩展源）
 │   └── data/                      # 结构化 JSON（可选用于自建前端）
 └── README.md                      # 本文件（由脚本自动刷新）
 ```
@@ -463,12 +472,19 @@ README 顶部的 `docs/calendar.svg` 是一个甘特图时间轴：
 
 ### 修改运行时间
 
-编辑 `.github/workflows/daily-collect.yml` 的 cron 表达式（UTC 时间）：
+编辑 `.github/workflows/daily-collect.yml` 的 6 个 cron 表达式（UTC 时间，北京时间 = UTC + 8）：
 
 ```yaml
 schedule:
-  - cron: "0 1 * * *"   # UTC 01:00 = 北京时间 09:00
+  - cron: "17 22 * * *"   # 06:17 北京 → ai-cloud（云厂商）
+  - cron: "23 1 * * *"    # 09:23 北京 → ai-blog（博客聚合）
+  - cron: "41 3 * * *"    # 11:41 北京 → drive（V2EX 开车线报）
+  - cron: "37 6 * * *"    # 14:37 北京 → games-direct（Epic/Steam/GOG）
+  - cron: "53 8 * * *"    # 16:53 北京 → games-blog（ITAD/itch.io/Reddit）
+  - cron: "47 12 * * *"   # 20:47 北京 → finalize（整理：SVG + README）
 ```
+
+> 6 个时段分散全天、避开整点，减轻免费源网站压力。改分钟数即可错峰。
 
 ---
 
@@ -479,9 +495,9 @@ git clone https://github.com/<你的用户名>/wool-gathering.git
 cd wool-gathering
 pip install -r scripts/requirements.txt
 
-export AI_BASE_URL="https://api.deepseek.com/v1"
+export AI_BASE_URL="https://api.chatanywhere.org/v1"
 export AI_API_KEY="sk-xxx"
-export AI_MODEL="deepseek-chat"
+export AI_MODEL="deepseek-v3-2"
 export GITHUB_REPOSITORY="<你的用户名>/wool-gathering"
 
 cd scripts && python collect.py
@@ -506,7 +522,7 @@ A: fork 默认禁用 Actions，需要到 Actions 页点 "I understand my workflo
 A: 可以。本方案不依赖 GitHub Pages，私有仓库也能正常跑 Action + 在 README 渲染 SVG。
 
 **Q: 每天跑会不会消耗很多 AI 额度？**
-A: 每次跑大约调用 AI 30-50 次（29 个种子源抽取 + 12 个联网搜索），用 DeepSeek/智谱免费额度基本够，单次成本约几分钱。
+A: 6 个时段加起来每次约调 AI 30-50 次（51 个种子源抽取 + 联网搜索补充），用 ChatAnywhere 免费版（每周 50000 点 + 每天 100 次请求）或 DeepSeek/智谱免费额度基本够，单次成本约几分钱。
 
 **Q: 想要更炫的可视化页面？**
 A: `docs/data/activities.json` 已经生成好了，可以自己写个 HTML 读它部署到任意静态托管（GitHub Pages / Vercel / Cloudflare Pages 都行）。本仓库的 `docs/index.html` 也保留着之前的完整前端，可按需启用。

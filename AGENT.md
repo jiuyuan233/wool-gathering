@@ -9,9 +9,9 @@
 
 ## 0. 一句话理解这个项目
 
-GitHub Actions 每天分三个时段自动抓取 AI/云服务优惠、开源免费工具、开车线报、游戏喜加一，
-去重合并后生成 README + SVG 甘特图日历，自动 commit 推送回仓库。维护者的任务是：
-**改规则、修 bug、加源、跑流程、推结果**，不要手动改 `data/` 或 `docs/` 里的生成产物。
+GitHub Actions 每天分六个时段（分散全天、避开整点）自动抓取 AI/云服务优惠、开源免费工具、
+开车线报、游戏喜加一，去重合并后生成 README + SVG 甘特图日历，自动 commit 推送回仓库。
+维护者的任务是：**改规则、修 bug、加源、跑流程、推结果**，不要手动改 `data/` 或 `docs/` 里的生成产物。
 
 ---
 
@@ -20,7 +20,7 @@ GitHub Actions 每天分三个时段自动抓取 AI/云服务优惠、开源免�
 ```
 wool-gathering/
 ├── AGENT.md                      # 本文件（维护规范）
-├── .github/workflows/daily-collect.yml  # Actions：三时段定时任务
+├── .github/workflows/daily-collect.yml  # Actions：六时段定时任务（分散全天避开整点）
 ├── scripts/                      # 所有 Python 脚本
 │   ├── collect.py                # 主入口（Action 调这个）
 │   ├── blog_collector.py         # 博客/V2EX/Reddit/ITAD/itch.io 抓取 + 分类规则
@@ -361,41 +361,64 @@ $ git checkout -- README.md docs/        # 丢弃产物改动
 
 ---
 
-## 13. AI 中转站配置（ChatAnywhere）
+## 13. AI 中转站配置与手动触发
 
-项目配置了 ChatAnywhere 作为 AI 中转站（OpenAI 兼容协议），用于辅助信息抽取。
+项目用 OpenAI 兼容协议的 AI 中转站辅助信息抽取（`scripts/ai_client.py`）。
+workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**只需配一个 GitHub Secret 即可跑通**。
 
-### 配置（在 workflow env 里，已配好）
+### 13.1 当前配置（在 `.github/workflows/daily-collect.yml` 的 env 里）
 
 | 环境变量 | 值 | 说明 |
 |---------|-----|------|
-| `AI_BASE_URL` | `https://api.chatanywhere.org/v1` | 国外接入点（Action 在海外用 .org，国内用 .tech） |
+| `AI_BASE_URL` | `https://api.chatanywhere.org/v1` | ChatAnywhere 国外接入点（Action runner 在海外，用 .org；国内调试用 .tech） |
 | `AI_API_KEY` | `${{ secrets.AI_API_KEY }}` | 从 GitHub Secret 读，**不 commit 到代码** |
 | `AI_MODEL` | `deepseek-v3-2` | 弱模型，最便宜之一（input 0.0012/1K，output 0.0018/1K） |
 
-### 免费版限制（必须注意）
-
-- 每周 50000 点免费配额
-- 每天 100 次请求次数配额
-- **用弱模型 deepseek-v3-2 省额度**，别用 pro/max/gpt-4，超出额度要付费
-
-### 配置 GitHub Secret（必须做，否则 AI 调用会失败）
+### 13.2 配置 GitHub Secret（必须做，否则 AI 调用失败）
 
 1. 仓库 **Settings → Secrets and variables → Actions → New repository secret**
-2. Name: `AI_API_KEY`
-3. Value: 你的 ChatAnywhere API Key（`sk-xxx`）
-4. 保存。workflow 会自动读取。
+2. Name 填 `AI_API_KEY`，Value 填你的 ChatAnywhere API Key（形如 `sk-xxx`）
+3. 点 Add secret 保存。workflow 会自动读取，无需改代码。
 
-### 已收录的 AI 优惠信息源
+> fork 的仓库 secrets 不会从上游继承，必须自己配。
 
-- **腾讯 WorkBuddy**（workbuddy.tencent.com）：AI Agent 办公助手，已加到 `cloud_collector.CLOUD_PAGES` 抓取 + 种子数据（SPA 页面靠缓存回退保留）
-- **ChatAnywhere**（api.chatanywhere.org）：免费 AI 中转站，每周 50000 点 + 每天 100 次请求，已作为 AI 优惠条目收录到 `data/ai/activities.json`
+### 13.3 换其他中转站（可选）
 
-### 相关文件
+框架不绑定具体厂商，任意 OpenAI 协议兼容的中转站都能用。编辑 `.github/workflows/daily-collect.yml` 的 env 改 `AI_BASE_URL`/`AI_MODEL`：
 
-- `scripts/ai_client.py`：OpenAI 兼容客户端，通过环境变量 `AI_BASE_URL`/`AI_API_KEY`/`AI_MODEL` 配置
-- `.github/workflows/daily-collect.yml`：workflow 里配了 AI env（key 从 secret 读）
-- `scripts/cloud_collector.py`：`CLOUD_PAGES` 含腾讯 WorkBuddy（第 11 条）
+| 中转站 | `AI_BASE_URL` | `AI_MODEL` | 说明 |
+|--------|---------------|------------|------|
+| ChatAnywhere（当前默认） | `https://api.chatanywhere.org/v1` | `deepseek-v3-2` | 免费版每周 50000 点 + 每天 100 次 |
+| DeepSeek 官方 | `https://api.deepseek.com/v1` | `deepseek-chat` | 便宜、中文好、有 function calling |
+| 智谱 BigModel | `https://open.bigmodel.cn/api/paas/v4` | `glm-4-flash` | 免费额度大 |
+| 通义千问 | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-turbo` | 阿里云百炼 |
+
+### 13.4 手动触发 workflow（调试 / 首次运行）
+
+1. 进仓库 **Actions** 标签页
+2. 左侧选 **Daily Collect** workflow
+3. 点右上角 **Run workflow** 按钮 → 选 main 分支 → 点绿色 Run workflow 按钮
+4. 等绿勾出现（约 2-5 分钟），点进去可看每步日志
+5. 运行成功后，README 顶部 SVG + 分类表格 + `data/*/activities.json` 自动更新并 commit
+
+> workflow 会按当前 UTC 小时自动判断跑哪个子模式（见第 5 节六时段表）。手动触发默认跑 `all`（全量）。
+
+### 13.5 ChatAnywhere 免费版限制（用 ChatAnywhere 时必看）
+
+- 每周 50000 点免费配额 + 每天 100 次请求次数配额
+- **用弱模型 `deepseek-v3-2` 省额度**，别用 pro/max/gpt-4，超出额度要付费
+- 每次跑约调 AI 30-50 次（51 个种子源抽取 + 联网搜索补充），免费额度基本够
+
+### 13.6 已收录的 AI 信息源
+
+- **腾讯 WorkBuddy**（workbuddy.tencent.com）：AI Agent 办公助手，已加到 `cloud_collector.CLOUD_PAGES`（第 11 条）抓取 + 种子数据
+- ChatAnywhere 中转站本身**不再作为优惠条目收录**到 `data/ai/activities.json`（曾收录后删除，仅保留 workflow 配置用于 AI 抽取辅助）
+
+### 13.7 相关文件
+
+- `scripts/ai_client.py`：OpenAI 兼容客户端，读 `AI_BASE_URL`/`AI_API_KEY`/`AI_MODEL` 环境变量，默认 model `gpt-4o-mini`
+- `.github/workflows/daily-collect.yml`：workflow env 配了 AI（key 从 secret 读）
+- `scripts/cloud_collector.py`：`CLOUD_PAGES` 11 条（华为云 3 + 阿里云 3 + 腾讯云 4 + 腾讯 WorkBuddy 1）
 
 ---
 
