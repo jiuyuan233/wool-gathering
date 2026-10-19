@@ -106,11 +106,16 @@ def is_drive_post(title: str) -> bool:
     return any(h in low for h in DRIVE_HINTS)
 
 
-def _activity(title: str, url: str, source_name: str, category: str, desc: str = "") -> dict:
+def _activity(
+    title: str, url: str, source_name: str, category: str, desc: str = "",
+    end_days: int | None = 7,
+) -> dict:
     """构造标准化条目（兼容 normalize_activity）。
 
     标题统一 html.unescape：RSS/博客数据里的 &amp; 等实体还原成原字符，
     避免 SVG 渲染时被二次转义成 &amp;amp;。
+
+    end_days=None/0 表示无结束时间（长期免费，如开源工具），end_date 置空。
     """
     today = today_bj()
     return {
@@ -119,7 +124,7 @@ def _activity(title: str, url: str, source_name: str, category: str, desc: str =
         "source_url": url,
         "claim_url": url,
         "start_date": today.isoformat(),
-        "end_date": (today + timedelta(days=7)).isoformat(),
+        "end_date": (today + timedelta(days=end_days)).isoformat() if end_days else "",
         "value": "",
         "description": _html.unescape(desc or f"来源: {source_name}"),
         "tags": ["blog", source_name],
@@ -270,9 +275,10 @@ def parse_blog_articles(html: str, source_name: str, category: str, base_url: st
             if not url.startswith("http"):
                 continue
             seen.add(title)
-            # 开源工具单独归类
+            # 开源工具单独归类；一直免费无结束时间，end_date 置空
             actual_cat = "open-source" if is_oss else category
-            acts.append(_activity(title, url, source_name, actual_cat))
+            acts.append(_activity(title, url, source_name, actual_cat,
+                                  end_days=None if is_oss else 7))
     return acts
 
 

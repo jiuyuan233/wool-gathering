@@ -107,9 +107,12 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
         output_path = DOCS_DIR / "calendar.svg"
 
     today = today_bj()
+    # 开源免费工具一直免费（长期有效），不属于限时活动，不显示在时间轴里
+    excluded = [a for a in activities if a.get("category") == "open-source"]
+    chart_acts = [a for a in activities if a.get("category") != "open-source"]
     # 只画有日期的活动；没日期的单独计数提示
-    dated = [a for a in activities if parse_date(a.get("start_date")) and parse_date(a.get("end_date"))]
-    undated = [a for a in activities if a not in dated]
+    dated = [a for a in chart_acts if parse_date(a.get("start_date")) and parse_date(a.get("end_date"))]
+    undated = [a for a in chart_acts if a not in dated]
 
     if not dated:
         # 空状态 SVG
@@ -150,8 +153,8 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     )
     parts.append(
         f'<text x="20" y="48" font-size="11" fill="{COLOR_TEXT_DIM}">'
-        f'更新于 {today.isoformat()} · 共 {len(activities)} 条（{len(dated)} 条有日期）'
-        f'· 红线 = 今天</text>'
+        f'更新于 {today.isoformat()} · 共 {len(activities)} 条（{len(dated)} 条有时间轴'
+        f'，开源工具长期免费不显示）· 红线 = 今天</text>'
     )
 
     # 时间刻度轴
@@ -255,9 +258,8 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     legend_y = chart_bottom + 22
     legend_items = [
         (0, COLOR_AI, "AI / 云服务"),
-        (95, COLOR_OPEN_SOURCE, "开源工具"),
-        (190, COLOR_DRIVE, "开车线报"),
-        (285, COLOR_GAMES, "游戏"),
+        (95, COLOR_DRIVE, "开车线报"),
+        (190, COLOR_GAMES, "游戏"),
     ]
     for xoff, color, label in legend_items:
         parts.append(
@@ -265,18 +267,18 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
             f'<text x="{TRACK_X + xoff + 20}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">{label}</text>'
         )
     parts.append(
-        f'<rect x="{TRACK_X + 380}" y="{legend_y - 10}" width="14" height="10" rx="2" fill="#888" opacity="0.35"/>'
-        f'<text x="{TRACK_X + 400}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">已结束</text>'
+        f'<rect x="{TRACK_X + 285}" y="{legend_y - 10}" width="14" height="10" rx="2" fill="#888" opacity="0.35"/>'
+        f'<text x="{TRACK_X + 305}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">已结束</text>'
     )
     parts.append(
-        f'<rect x="{TRACK_X + 470}" y="{legend_y - 10}" width="14" height="10" rx="2" '
+        f'<rect x="{TRACK_X + 375}" y="{legend_y - 10}" width="14" height="10" rx="2" '
         f'fill="none" stroke="#888" stroke-dasharray="3,2"/>'
-        f'<text x="{TRACK_X + 490}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">未开始</text>'
+        f'<text x="{TRACK_X + 395}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">未开始</text>'
     )
     parts.append(
-        f'<line x1="{TRACK_X + 560}" y1="{legend_y - 12}" x2="{TRACK_X + 560}" y2="{legend_y + 2}" '
+        f'<line x1="{TRACK_X + 465}" y1="{legend_y - 12}" x2="{TRACK_X + 465}" y2="{legend_y + 2}" '
         f'stroke="{COLOR_TODAY}" stroke-width="1.5" stroke-dasharray="3,2"/>'
-        f'<text x="{TRACK_X + 568}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">今天</text>'
+        f'<text x="{TRACK_X + 473}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">今天</text>'
     )
 
     # 无日期活动提示
@@ -292,7 +294,9 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(svg, encoding="utf-8")
-    log(f"已生成 SVG 日历 {output_path.name}（{len(dated)} 条有日期，{len(undated)} 条无日期）")
+    log(f"已生成 SVG 日历 {output_path.name}"
+        f"（{len(dated)} 条有时间轴，{len(undated)} 条无日期，"
+        f"开源工具 {len(excluded)} 条长期免费不显示）")
     return output_path
 
 

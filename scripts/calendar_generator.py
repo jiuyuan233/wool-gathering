@@ -132,9 +132,12 @@ def _md_table(acts: list[dict]) -> str:
         icon = status_icon.get(a["status"], "⚪")
         title = a["title"].replace("|", "\\|")
         value = (a.get("value") or "—").replace("|", "\\|")
-        start = a.get("start_date") or "?"
-        end = a.get("end_date") or "?"
-        time_str = f"{start} ~ {end}"
+        # end_date 为空 = 长期免费（如开源工具），不显示假日期
+        end = a.get("end_date")
+        if end:
+            time_str = f"{a.get('start_date') or '?'} ~ {end}"
+        else:
+            time_str = "长期免费"
         dl = a.get("days_left")
         left = f"{dl} 天" if dl is not None else "—"
         url = a.get("claim_url") or a.get("source_url") or ""
