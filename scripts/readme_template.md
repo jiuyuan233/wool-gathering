@@ -6,7 +6,49 @@
 
 ## 🔗 社区整理的免费资源
 
-> 推荐社区维护的免费资源聚合项目：[AIPMAndy/FreeToken](https://github.com/AIPMAndy/FreeToken) —— 收集各类免费 AI API Token 获取方法，可作为日常薅羊毛的补充信息源。
+> 社区维护的免费资源聚合项目，按方向分类，可作为日常薅羊毛的补充信息源。
+
+### AI / LLM 免费 API
+
+| 项目 | 简介 |
+|------|------|
+| [AIPMAndy/FreeToken](https://github.com/AIPMAndy/FreeToken) | 收集各类免费 AI API Token 获取方法 |
+| [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis) ⭐10.6k | 永久免费 LLM API 列表 |
+| [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) ⭐4.4k | 134+ 免费 LLM API & AI API Key，40+ 厂商 |
+| [guihuashaoxiang/FreeLLM-API-KeyHub](https://github.com/guihuashaoxiang/FreeLLM-API-KeyHub) | 🇨🇳 国内免费大语言模型 API 资源与接入指南 |
+
+### 云服务 / SaaS 免费层
+
+| 项目 | 简介 |
+|------|------|
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ⭐139.8k | SaaS/PaaS/IaaS 免费层列表 |
+| [255kb/stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) ⭐12.5k | 对开发者预算友好的免费层服务集合 |
+
+### 开发者创业信用额度
+
+| 项目 | 简介 |
+|------|------|
+| [dakshshah96/awesome-startup-credits](https://github.com/dakshshah96/awesome-startup-credits) ⭐3k | 创业公司免费/折扣计划合集 |
+| [t3-sh/cloudcredits.io](https://github.com/t3-sh/cloudcredits.io) | 云/SaaS/工具的免费信用额度与折扣列表 |
+
+### 游戏免费聚合
+
+| 项目 | 简介 |
+|------|------|
+| [eikowagenknecht/lootscraper](https://github.com/eikowagenknecht/lootscraper) ⭐320 | 免费 game/loot offers 的 RSS feeds（Steam/Epic/GOG/itchio） |
+| [DoSpamu/free-games-claimer](https://github.com/DoSpamu/free-games-claimer) | 自动领取 Epic/Prime/GOG/Steam 免费游戏 |
+
+### 自托管开源软件
+
+| 项目 | 简介 |
+|------|------|
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐328k | 可自托管的免费网络服务与 Web 应用列表 |
+
+### ChatGPT API 工具
+
+| 项目 | 简介 |
+|------|------|
+| [reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api) ⭐6.4k | 使用 ChatGPT API 的应用与工具合集 |
 
 ---
 
