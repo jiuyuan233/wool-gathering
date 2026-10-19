@@ -114,24 +114,36 @@ drive 分区在 README 里会按车型子分组渲染，顺序即列表顺序：
 
 ---
 
-## 5. 更新流程（三时段，背下来）
+## 5. 更新流程（六时段分散全天，避开整点）
 
-GitHub Actions 每天自动跑三次（`.github/workflows/daily-collect.yml`）：
+GitHub Actions 每天自动跑六次（`.github/workflows/daily-collect.yml`），任务分散到全天，
+**所有 cron 都避开整点**（分钟非 0），减轻免费源网站压力：
 
-| 北京时间 | UTC | 模式 | 做什么 |
-|---------|-----|------|-------|
-| 09:00 | 01:00 | `ai,drive` | 抓云厂商优惠 + 博客（自动分流 ai/open-source/drive）+ V2EX 开车线报 |
-| 15:00 | 07:00 | `games` | 抓 Epic/Steam/GOG/itch.io/Reddit/ITAD 游戏喜加一 |
-| 21:00 | 13:00 | `finalize` | 整理：生成 SVG 日历 + 前端 JSON + README，不抓新数据 |
+| 北京时间 | UTC | cron | 模式 | 做什么 |
+|---------|-----|------|------|-------|
+| 06:17 | 22:17 | `17 22 * * *` | `ai-cloud` | 仅抓云厂商（华为云/阿里云/腾讯云） |
+| 09:23 | 01:23 | `23 1 * * *` | `ai-blog` | 仅抓博客聚合（ai 板块，含 open-source 分流） |
+| 11:41 | 03:41 | `41 3 * * *` | `drive` | V2EX 开车线报 |
+| 14:37 | 06:37 | `37 6 * * *` | `games-direct` | 仅抓 Epic/Steam/GOG 官方 API |
+| 16:53 | 08:53 | `53 8 * * *` | `games-blog` | 仅抓 ITAD/itch.io/Reddit/ggdeals |
+| 20:47 | 12:47 | `47 12 * * *` | `finalize` | 整理：生成 SVG 日历 + 前端 JSON + README |
 
-### 5.1 命令对照
+**设计原则**：不集中在一个时间段请求免费源网站，把请求量分散到全天 6 个时段，间隔约 2-3 小时。
+
+### 5.1 命令对照（子模式）
 
 ```bash
-python scripts/collect.py ai         # 只处理 AI（含 open-source 分流）
-python scripts/collect.py drive      # 只处理开车线报（V2EX）
-python scripts/collect.py ai,drive   # 09:00 时段实际跑的
-python scripts/collect.py games      # 15:00 时段
-python scripts/collect.py finalize   # 21:00 时段：生成 SVG + README
+# 细粒度子模式（workflow 定时用这些，分散请求）
+python scripts/collect.py ai-cloud       # 仅云厂商
+python scripts/collect.py ai-blog        # 仅博客（ai 板块）
+python scripts/collect.py games-direct   # 仅 Epic/Steam/GOG 官方 API
+python scripts/collect.py games-blog     # 仅 ITAD/itch.io/Reddit
+python scripts/collect.py drive          # V2EX 开车线报
+python scripts/collect.py finalize       # 整理：生成 SVG + README
+
+# 粗粒度模式（手动触发或调试用，= 对应子模式之和）
+python scripts/collect.py ai         # = ai-cloud + ai-blog
+python scripts/collect.py games      # = games-direct + games-blog
 python scripts/collect.py all        # 全部（手动触发用）
 ```
 

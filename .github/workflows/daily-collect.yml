@@ -3,16 +3,18 @@ name: Daily Collect
 
 on:
   schedule:
-    # 09:00 北京 = 01:00 UTC → 更新 AI 板块
-    - cron: "0 1 * * *"
-    # 15:00 北京 = 07:00 UTC → 更新游戏板块
-    - cron: "0 7 * * *"
-    # 21:00 北京 = 13:00 UTC → 整理（生成 SVG + README）
-    - cron: "0 13 * * *"
+    # 任务分散到全天，避开整点（减轻免费源网站压力，避免集中请求）
+    # 北京时间 = UTC + 8
+    - cron: "17 22 * * *"   # 06:17 北京 → ai-cloud（云厂商）
+    - cron: "23 1 * * *"    # 09:23 北京 → ai-blog（博客聚合）
+    - cron: "41 3 * * *"    # 11:41 北京 → drive（V2EX 开车线报）
+    - cron: "37 6 * * *"    # 14:37 北京 → games-direct（Epic/Steam/GOG 官方 API）
+    - cron: "53 8 * * *"    # 16:53 北京 → games-blog（ITAD/itch.io/Reddit）
+    - cron: "47 12 * * *"   # 20:47 北京 → finalize（整理：SVG + README）
   workflow_dispatch:
     inputs:
       mode:
-        description: "运行模式: ai / games / drive / finalize / all / 逗号分隔如 ai,drive"
+        description: "运行模式: ai / ai-cloud / ai-blog / games / games-direct / games-blog / drive / finalize / all / 逗号分隔"
         required: false
         default: "all"
 
@@ -49,19 +51,15 @@ jobs:
           else
             HOUR=$(date -u +%H)
             echo "当前 UTC 小时: $HOUR"
-            if [ "$HOUR" = "01" ]; then
-              echo "mode=ai,drive" >> $GITHUB_OUTPUT
-              echo "定时任务: 更新 AI + 开车线报板块"
-            elif [ "$HOUR" = "07" ]; then
-              echo "mode=games" >> $GITHUB_OUTPUT
-              echo "定时任务: 更新游戏板块"
-            elif [ "$HOUR" = "13" ]; then
-              echo "mode=finalize" >> $GITHUB_OUTPUT
-              echo "定时任务: 整理"
-            else
-              echo "mode=finalize" >> $GITHUB_OUTPUT
-              echo "定时任务(非标准时间): 整理"
-            fi
+            case "$HOUR" in
+              22) echo "mode=ai-cloud" >> $GITHUB_OUTPUT;       echo "定时任务: 云厂商 (06:17 北京)" ;;
+              01) echo "mode=ai-blog" >> $GITHUB_OUTPUT;        echo "定时任务: 博客聚合 (09:23 北京)" ;;
+              03) echo "mode=drive" >> $GITHUB_OUTPUT;          echo "定时任务: 开车线报 (11:41 北京)" ;;
+              06) echo "mode=games-direct" >> $GITHUB_OUTPUT;   echo "定时任务: 游戏官方API (14:37 北京)" ;;
+              08) echo "mode=games-blog" >> $GITHUB_OUTPUT;     echo "定时任务: 游戏博客聚合 (16:53 北京)" ;;
+              12) echo "mode=finalize" >> $GITHUB_OUTPUT;       echo "定时任务: 整理 (20:47 北京)" ;;
+              *)  echo "mode=finalize" >> $GITHUB_OUTPUT;       echo "定时任务(非标准时间): 整理" ;;
+            esac
           fi
 
       - name: 运行收集脚本
