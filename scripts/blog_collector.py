@@ -58,9 +58,9 @@ DRIVE_HINTS = ["开车", "发车", "上车", "拼车", "线报", "羊毛群", "�
 # 开源工具识别：含"开源"或明显是 GitHub 免费工具，且非限时促销
 OPEN_SOURCE_HINTS = ["开源", "github 上发现", "在 github 发现", "免费小工具", "工具箱"]
 
-# 购物/打折活动（双11、软件打折、红包等）→ shopping 分区
-SHOPPING_HINTS = ["双11", "双 11", "红包", "wps", "vmware", "videoproc",
-                  "复旦", "周年庆", "打折好价", "codex"]
+# 购物/打折活动（双11、红包等纯购物促销）→ shopping 分区
+# 注意：软件会员优惠(WPS)、AI工具免费领(VideoProc/复旦Codex)、免费软件(VMware)不算购物
+SHOPPING_HINTS = ["双11", "双 11", "红包", "打折好价"]
 
 # 视频会员优惠（爱奇艺、腾讯视频等）→ video-vip 分区
 VIDEO_VIP_HINTS = ["爱奇艺", "腾讯视频"]

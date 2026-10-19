@@ -531,5 +531,62 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active"
+  },
+  {
+    "id": "wps-ai-vip-plus-5a8782e5e4",
+    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/wps-vip",
+    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "codex-1-a30d149305",
+    "title": "复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
+    "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
+    "title": "VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
+    "claim_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
   }
 ]

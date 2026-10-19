@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-20T00:23:09.462176+08:00",
+  "generated_at": "2026-10-20T00:36:33.120982+08:00",
   "today": "2026-10-20",
   "repository": "",
-  "total": 123,
+  "total": 122,
   "by_category": {
     "ai": {
-      "total": 27,
-      "active": 27,
+      "total": 30,
+      "active": 30,
       "upcoming": 0,
       "ended": 0
     },
     "open-source": {
-      "total": 12,
-      "active": 12,
+      "total": 13,
+      "active": 13,
       "upcoming": 0,
       "ended": 0
     },
@@ -29,8 +29,8 @@
       "ended": 0
     },
     "shopping": {
-      "total": 7,
-      "active": 7,
+      "total": 2,
+      "active": 2,
       "upcoming": 0,
       "ended": 0
     },

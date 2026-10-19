@@ -63,8 +63,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-20 00:23** 北京时间
-- 进行中：**119** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**123** 个
+- 更新时间：**2026-10-20 00:36** 北京时间
+- 进行中：**118** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**122** 个
 
 ---
 
@@ -75,6 +75,9 @@
 | 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
 |------|------|------|------|------|------|
 | 🟢 | OpenCode 免费提供 DeepSeek V4.1 Flash 模型 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/opencode-free-deepseek-v4-1-flash/) |
+| 🟢 | 金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/wps-vip) |
+| 🟢 | 复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/qiewenpaper-codex) |
+| 🟢 | VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/videoproc-converter-ai-v7-8/) |
 | 🟢 | 华为云·免费试用 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/free_test/index.html) |
 | 🟢 | 阿里云·免费试用 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://free.aliyun.com) |
 | 🟢 | 华为云·老用户权益 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/member.html) |
@@ -101,12 +104,7 @@
 | 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
 |------|------|------|------|------|------|
 | 🟢 | 双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了… | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/1111.html) |
-| 🟢 | 金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/wps-vip) |
-| 🟢 | 复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/qiewenpaper-codex) |
-| 🟢 | VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/videoproc-converter-ai-v7-8/) |
 | 🟢 | 首发！双 11 红包开领啦~ 积少成多！每天3次 / 可当现金 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/news/3252) |
-| 🟢 | VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/vmware-workstation.html) |
-| 🟢 | 福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/qiewenpaper-codex-2/) |
 
 ### 📺 视频会员
 
@@ -241,6 +239,7 @@
 | 🟢 | 10 万 Star 开源项目 Neovim 收到 10 BTC 巨额捐赠，3 年后被网友发现，开发团队可能都不知道 | — | 长期免费 | — | [领取](https://www.appinn.com/neovim-10-btc-donation-2/) |
 | 🟢 | 单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典 | — | 长期免费 | — | [领取](https://www.appinn.com/chinese-pinyin-annotation-tool/) |
 | 🟢 | MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 长期免费 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
+| 🟢 | VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活) | — | 长期免费 | — | [领取](https://www.iplaysoft.com/vmware-workstation.html) |
 
 
 ---

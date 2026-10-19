@@ -226,5 +226,24 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active"
+  },
+  {
+    "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
+    "title": "VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活)",
+    "category": "open-source",
+    "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
+    "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
+    "start_date": "2026-10-19",
+    "end_date": "",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
   }
 ]
