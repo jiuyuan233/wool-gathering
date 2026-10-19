@@ -262,9 +262,6 @@ SOURCES: dict[str, list[dict]] = {
         {"name": "Reddit-FreeGameFindings",
          "url": "https://www.reddit.com/r/FreeGameFindings/.rss",
          "parser": "reddit_rss"},
-        {"name": "Reddit-GameDeals",
-         "url": "https://www.reddit.com/r/GameDeals/.rss",
-         "parser": "reddit_rss"},
     ],
     "ai": [
         {"name": "异次元软件世界", "url": "https://www.iplaysoft.com/",
