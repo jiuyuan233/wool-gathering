@@ -65,10 +65,13 @@ def _get_meta(text: str) -> tuple[str, str]:
     return t, d
 
 
-def fetch_page(url: str) -> str | None:
+def fetch_page(url: str, referer: str = "") -> str | None:
     """抓取页面 HTML。"""
+    headers = dict(BROWSER_HEADERS)
+    if referer:
+        headers["Referer"] = referer
     try:
-        resp = requests.get(url, headers=BROWSER_HEADERS, timeout=15)
+        resp = requests.get(url, headers=headers, timeout=15)
         if resp.status_code != 200:
             log(f"抓取失败 {url}: HTTP {resp.status_code}", level="ERROR")
             return None
@@ -89,13 +92,17 @@ def collect_cloud_activities() -> list[dict]:
     end = (BJ + timedelta(days=30)).strftime("%Y-%m-%d")
 
     for vendor, section, url in CLOUD_PAGES:
-        html = fetch_page(url)
+        # 腾讯云对海外 IP 敏感，加 Referer 伪装国内来源
+        referer = "https://cloud.tencent.com/" if "cloud.tencent.com" in url else ""
+        html = fetch_page(url, referer=referer)
         if not html:
             continue
 
         title, desc = _get_meta(html)
         if not title and not desc:
-            log(f"[{vendor}] {url} 无 meta 信息，跳过")
+            # 诊断：打出返回内容片段，方便排查（如海外 IP 被风控/跳转）
+            snippet = re.sub(r"\s+", " ", html[:300])
+            log(f"[{vendor}] {url} 无 meta，返回内容: {snippet[:150]}", level="WARN")
             continue
 
         # 拼活动标题和描述
