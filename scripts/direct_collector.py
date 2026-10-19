@@ -189,71 +189,48 @@ def collect_steam_free_weekend() -> list[dict]:
 
 
 # ============================================================
-# GitHub Search API → AI 免费资源
+# GOG embed API → 免费游戏
 # ============================================================
 
-GITHUB_API = "https://api.github.com/search/repositories"
+GOG_API_URL = "https://embed.gog.com/games/ajax/filtered"
 
 
-def collect_github_ai_resources() -> list[dict]:
-    """从 GitHub Search API 搜索 AI 免费资源仓库。
+def collect_gog_free_games() -> list[dict]:
+    """从 GOG embed API 获取免费游戏。
 
-    搜索关键词：free AI API, free GPU, free LLM 等。
+    GOG 偶尔有限时免费领取活动，这个 API 返回当前免费游戏列表。
+    没有活动时返回空列表（正常情况）。
     """
     activities: list[dict] = []
-    queries = [
-        "free AI API key",
-        "free GPU colab",
-        "free LLM API",
-        "AI 免费额度",
-        "free inference API",
-    ]
-
-    for q in queries:
-        try:
-            resp = requests.get(GITHUB_API, params={
-                "q": q, "sort": "updated", "per_page": 5
-            }, headers=BROWSER_HEADERS, timeout=15)
-            resp.raise_for_status()
-            data = resp.json()
-            items = data.get("items", [])
-
-            for item in items:
-                desc = item.get("description", "") or ""
-                full_name = item.get("full_name", "")
-                stars = item.get("stargazers_count", 0)
-                html_url = item.get("html_url", "")
-                updated_raw = item.get("updated_at", "")  # "2026-10-15T12:34:56Z"
-                updated = updated_raw[:10] if updated_raw else ""
-
-                # 只收集最近 30 天内更新的
-                if updated_raw:
-                    try:
-                        updated_dt = datetime.fromisoformat(updated_raw.replace("Z", "+00:00"))
-                        days_old = (datetime.now(timezone.utc) - updated_dt).days
-                        if days_old > 30:
-                            continue
-                    except Exception:
-                        pass  # 解析失败就不过滤
-
-                activities.append({
-                    "title": f"GitHub: {full_name}",
-                    "url": html_url,
-                    "description": f"⭐{stars} | {desc[:100]}",
-                    "start_date": updated or datetime.now(BJ_TZ).strftime("%Y-%m-%d"),
-                    "end_date": (datetime.now(BJ_TZ) + timedelta(days=90)).strftime("%Y-%m-%d"),
-                    "category": "ai",
-                    "source": "github_search",
-                    "status": "active",
-                    "discovered_at": now_bj().isoformat(),
-                })
-
-            log(f"GitHub 搜索 '{q}': {len(items)} 个仓库")
-            time.sleep(2)  # GitHub API 限流
-        except Exception as e:
-            log(f"GitHub 搜索 '{q}' 失败: {safe_text(e, 100)}", level="ERROR")
-
-    log(f"GitHub: 收集到 {len(activities)} 条 AI 资源")
+    try:
+        resp = requests.get(
+            GOG_API_URL,
+            params={"price": "free", "hideInstallation": "game"},
+            headers=BROWSER_HEADERS,
+            timeout=15,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        products = data.get("products", [])
+        for p in products:
+            title = p.get("title", "")
+            if not title:
+                continue
+            slug = p.get("slug", "")
+            url = f"https://www.gog.com/en/game/{slug}" if slug else "https://www.gog.com"
+            activities.append({
+                "title": f"GOG 免费: {title}",
+                "url": url,
+                "description": "GOG 限时免费领取，入库永久保留",
+                "start_date": BJ.strftime("%Y-%m-%d"),
+                "end_date": (BJ + timedelta(days=7)).strftime("%Y-%m-%d"),
+                "category": "games",
+                "status": "active",
+                "discovered_at": now_bj().isoformat(),
+            })
+        log(f"GOG API: {len(products)} 个免费游戏")
+    except Exception as e:
+        log(f"GOG API 失败: {safe_text(e, 100)}", level="ERROR")
     return activities
 
 
@@ -264,13 +241,12 @@ def collect_github_ai_resources() -> list[dict]:
 def collect_category(category: str) -> list[dict]:
     """收集一个类别的所有活动。"""
     if category == "games":
-        # 游戏类：Epic + Steam
+        # 游戏类：Epic + Steam + GOG 喜加一
         results = collect_epic_free_games()
         time.sleep(2)
         results.extend(collect_steam_free_weekend())
+        time.sleep(2)
+        results.extend(collect_gog_free_games())
         return results
-    elif category == "ai":
-        # AI 类：GitHub 搜索
-        return collect_github_ai_resources()
     else:
         return []
