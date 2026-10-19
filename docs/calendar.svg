@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2640" viewBox="0 0 940 2640" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
-<rect width="940" height="2640" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2808" viewBox="0 0 940 2808" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="940" height="2808" fill="#ffffff"/>
 <text x="20" y="28" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴</text>
-<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-19 · 共 102 条（90 条有时间轴，开源工具长期免费不显示）· 红线 = 今天</text>
+<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-19 · 共 108 条（96 条有时间轴，开源工具长期免费不显示）· 红线 = 今天</text>
 <line x1="250" y1="62" x2="920" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <line x1="250.0" y1="58" x2="250.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="250.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">10-14</text>
@@ -17,7 +17,7 @@
 <text x="803.1395348837209" y="54" font-size="9" fill="#6e7681" text-anchor="middle">12-24</text>
 <line x1="920.0" y1="58" x2="920.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="920.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">01-08</text>
-<line x1="288.95348837209303" y1="60" x2="288.95348837209303" y2="2594" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="288.95348837209303" y1="60" x2="288.95348837209303" y2="2762" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
 <text x="288.95348837209303" y="56" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="600">今天</text>
 <line x1="10" y1="98" x2="930" y2="98" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="84" r="3" fill="#4a9eff"/>
@@ -116,368 +116,404 @@
 <rect x="288.95348837209303" y="551" width="7.479069767441863" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <text x="405.81395348837214" y="563.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="602" x2="930" y2="602" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="588" r="3" fill="#fb923c"/>
-<text x="24" y="592" font-size="12" fill="#24292f">🟢 自建反代还是用现成中转？免费领…</text>
-<rect x="288.95348837209303" y="579" width="54.534883720930225" height="18" rx="4" fill="#fb923c" opacity="0.85"/>
-<rect x="288.95348837209303" y="579" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="588" r="3" fill="#4a9eff"/>
+<text x="24" y="592" font-size="12" fill="#24292f">🟢 腾讯·WorkBuddy AI办公</text>
+<rect x="288.95348837209303" y="579" width="233.7209302325582" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="288.95348837209303" y="579" width="7.479069767441863" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="405.81395348837214" y="591.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="630" x2="930" y2="630" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="616" r="3" fill="#fb923c"/>
-<text x="24" y="620" font-size="12" fill="#24292f">🟢 「Myna 鸣意」发布啦！赠送 Pro…</text>
-<rect x="288.95348837209303" y="607" width="54.534883720930225" height="18" rx="4" fill="#fb923c" opacity="0.85"/>
-<rect x="288.95348837209303" y="607" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="616" r="3" fill="#4a9eff"/>
+<text x="24" y="620" font-size="12" fill="#24292f">🟢 ChatAnywhere·免费AI中转站</text>
+<rect x="288.95348837209303" y="607" width="233.7209302325582" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="288.95348837209303" y="607" width="7.479069767441863" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="405.81395348837214" y="619.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="658" x2="930" y2="658" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="644" r="3" fill="#4ade80"/>
-<text x="24" y="648" font-size="12" fill="#24292f">🟢 Epic 免费游戏: Bad Cheese</text>
-<rect x="257.7906976744186" y="635" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="257.7906976744186" y="635" width="34.08430232558139" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="644" r="3" fill="#4a9eff"/>
+<text x="24" y="648" font-size="12" fill="#24292f">🟢 腾讯云·大促代金券</text>
+<rect x="288.95348837209303" y="635" width="233.7209302325582" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="288.95348837209303" y="635" width="7.479069767441863" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="405.81395348837214" y="647.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="686" x2="930" y2="686" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="672" r="3" fill="#4ade80"/>
-<text x="24" y="676" font-size="12" fill="#24292f">🟢 Epic 免费游戏: Agent A - 伪…</text>
-<rect x="257.7906976744186" y="663" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="257.7906976744186" y="663" width="34.08430232558139" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="672" r="3" fill="#4a9eff"/>
+<text x="24" y="676" font-size="12" fill="#24292f">🟢 腾讯云·校园计划</text>
+<rect x="288.95348837209303" y="663" width="233.7209302325582" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="288.95348837209303" y="663" width="7.479069767441863" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="405.81395348837214" y="675.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="714" x2="930" y2="714" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="700" r="3" fill="#4ade80"/>
-<text x="24" y="704" font-size="12" fill="#24292f">🟢 Steam 免费周末: 免费周末</text>
-<rect x="288.95348837209303" y="691" width="23.372093023255786" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="288.95348837209303" y="691" width="5.843023255813946" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="700" r="3" fill="#4a9eff"/>
+<text x="24" y="704" font-size="12" fill="#24292f">🟢 腾讯云·免费体验</text>
+<rect x="288.95348837209303" y="691" width="233.7209302325582" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="288.95348837209303" y="691" width="7.479069767441863" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="405.81395348837214" y="703.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="742" x2="930" y2="742" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="728" r="3" fill="#4ade80"/>
-<text x="24" y="732" font-size="12" fill="#24292f" textLength="220" lengthAdjust="spacingAndGlyphs">🟢 FGF Giveaway: Retro Pond &amp;a…</text>
-<rect x="288.95348837209303" y="719" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="288.95348837209303" y="719" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="728" r="3" fill="#4a9eff"/>
+<text x="24" y="732" font-size="12" fill="#24292f">🟢 腾讯云·开发者</text>
+<rect x="288.95348837209303" y="719" width="233.7209302325582" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="288.95348837209303" y="719" width="7.479069767441863" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="405.81395348837214" y="731.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="770" x2="930" y2="770" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="756" r="3" fill="#4ade80"/>
-<text x="24" y="760" font-size="12" fill="#24292f">🟢 Exiled Giveaways and Itch.i…</text>
-<rect x="288.95348837209303" y="747" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<circle cx="14" cy="756" r="3" fill="#fb923c"/>
+<text x="24" y="760" font-size="12" fill="#24292f">🟢 自建反代还是用现成中转？免费领…</text>
+<rect x="288.95348837209303" y="747" width="54.534883720930225" height="18" rx="4" fill="#fb923c" opacity="0.85"/>
 <rect x="288.95348837209303" y="747" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="798" x2="930" y2="798" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="784" r="3" fill="#4ade80"/>
-<text x="24" y="788" font-size="12" fill="#24292f">🟢 [Steam] (Game) Dumb Ways to…</text>
-<rect x="288.95348837209303" y="775" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<circle cx="14" cy="784" r="3" fill="#fb923c"/>
+<text x="24" y="788" font-size="12" fill="#24292f">🟢 「Myna 鸣意」发布啦！赠送 Pro…</text>
+<rect x="288.95348837209303" y="775" width="54.534883720930225" height="18" rx="4" fill="#fb923c" opacity="0.85"/>
 <rect x="288.95348837209303" y="775" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="826" x2="930" y2="826" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="812" r="3" fill="#4ade80"/>
-<text x="24" y="816" font-size="12" fill="#24292f">🟢 [itch.io] (Game) The Green …</text>
-<rect x="288.95348837209303" y="803" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="288.95348837209303" y="803" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="24" y="816" font-size="12" fill="#24292f">🟢 Epic 免费游戏: Bad Cheese</text>
+<rect x="257.7906976744186" y="803" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="257.7906976744186" y="803" width="34.08430232558139" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="854" x2="930" y2="854" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="840" r="3" fill="#4ade80"/>
-<text x="24" y="844" font-size="12" fill="#24292f">🟢 [Steam] (game) Space Pilgri…</text>
-<rect x="288.95348837209303" y="831" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="288.95348837209303" y="831" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="24" y="844" font-size="12" fill="#24292f">🟢 Epic 免费游戏: Agent A - 伪…</text>
+<rect x="257.7906976744186" y="831" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="257.7906976744186" y="831" width="34.08430232558139" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="882" x2="930" y2="882" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="868" r="3" fill="#4ade80"/>
-<text x="24" y="872" font-size="12" fill="#24292f">🟢 [Steam] (Game) Linked（Redd…</text>
-<rect x="288.95348837209303" y="859" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="288.95348837209303" y="859" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="24" y="872" font-size="12" fill="#24292f">🟢 Steam 免费周末: 免费周末</text>
+<rect x="288.95348837209303" y="859" width="23.372093023255786" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="859" width="5.843023255813946" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="910" x2="930" y2="910" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="896" r="3" fill="#4ade80"/>
-<text x="24" y="900" font-size="12" fill="#24292f">🟢 [Steam] (Game) WarSpawn（Re…</text>
+<text x="24" y="900" font-size="12" fill="#24292f" textLength="220" lengthAdjust="spacingAndGlyphs">🟢 FGF Giveaway: Retro Pond &amp;a…</text>
 <rect x="288.95348837209303" y="887" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="887" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="938" x2="930" y2="938" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="924" r="3" fill="#4ade80"/>
-<text x="24" y="928" font-size="12" fill="#24292f">🟢 [Steam] (Game) Akin（Reddit…</text>
+<text x="24" y="928" font-size="12" fill="#24292f">🟢 Exiled Giveaways and Itch.i…</text>
 <rect x="288.95348837209303" y="915" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="915" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="966" x2="930" y2="966" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="952" r="3" fill="#4ade80"/>
-<text x="24" y="956" font-size="12" fill="#24292f">🟢 [Steam] (Game) Wane’s（Redd…</text>
+<text x="24" y="956" font-size="12" fill="#24292f">🟢 [Steam] (Game) Dumb Ways to…</text>
 <rect x="288.95348837209303" y="943" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="943" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="994" x2="930" y2="994" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="980" r="3" fill="#4ade80"/>
-<text x="24" y="984" font-size="12" fill="#24292f">🟢 [Epic Games] (Game) Bad Che…</text>
+<text x="24" y="984" font-size="12" fill="#24292f">🟢 [itch.io] (Game) The Green …</text>
 <rect x="288.95348837209303" y="971" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="971" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1022" x2="930" y2="1022" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1008" r="3" fill="#4ade80"/>
-<text x="24" y="1012" font-size="12" fill="#24292f">🟢 [Epic Games] (Game) Agent A…</text>
+<text x="24" y="1012" font-size="12" fill="#24292f">🟢 [Steam] (game) Space Pilgri…</text>
 <rect x="288.95348837209303" y="999" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="999" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1050" x2="930" y2="1050" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1036" r="3" fill="#4ade80"/>
-<text x="24" y="1040" font-size="12" fill="#24292f">🟢 [Steam] (Game) Gangsta Fore…</text>
+<text x="24" y="1040" font-size="12" fill="#24292f">🟢 [Steam] (Game) Linked（Redd…</text>
 <rect x="288.95348837209303" y="1027" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1027" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1078" x2="930" y2="1078" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1064" r="3" fill="#4ade80"/>
-<text x="24" y="1068" font-size="12" fill="#24292f">🟢 [Epic Games Mobile] (Game) …</text>
+<text x="24" y="1068" font-size="12" fill="#24292f">🟢 [Steam] (Game) WarSpawn（Re…</text>
 <rect x="288.95348837209303" y="1055" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1055" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1106" x2="930" y2="1106" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1092" r="3" fill="#4ade80"/>
-<text x="24" y="1096" font-size="12" fill="#24292f">🟢 [PSA] Vampire: The Masquera…</text>
+<text x="24" y="1096" font-size="12" fill="#24292f">🟢 [Steam] (Game) Akin（Reddit…</text>
 <rect x="288.95348837209303" y="1083" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1083" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1134" x2="930" y2="1134" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1120" r="3" fill="#4ade80"/>
-<text x="24" y="1124" font-size="12" fill="#24292f">🟢 [Steam] (DLC) Squad Weapon …</text>
+<text x="24" y="1124" font-size="12" fill="#24292f">🟢 [Steam] (Game) Wane’s（Redd…</text>
 <rect x="288.95348837209303" y="1111" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1111" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1162" x2="930" y2="1162" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1148" r="3" fill="#4ade80"/>
-<text x="24" y="1152" font-size="12" fill="#24292f">🟢 [Epic Game Store] Bad Chees…</text>
+<text x="24" y="1152" font-size="12" fill="#24292f">🟢 [Epic Games] (Game) Bad Che…</text>
 <rect x="288.95348837209303" y="1139" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1139" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1190" x2="930" y2="1190" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1176" r="3" fill="#4ade80"/>
-<text x="24" y="1180" font-size="12" fill="#24292f">🟢 [Epic Game Store] Agent A: …</text>
+<text x="24" y="1180" font-size="12" fill="#24292f">🟢 [Epic Games] (Game) Agent A…</text>
 <rect x="288.95348837209303" y="1167" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1167" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1218" x2="930" y2="1218" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1204" r="3" fill="#4ade80"/>
-<text x="24" y="1208" font-size="12" fill="#24292f">🟢 [Epic Game Store] Voidtrain…</text>
+<text x="24" y="1208" font-size="12" fill="#24292f">🟢 [Steam] (Game) Gangsta Fore…</text>
 <rect x="288.95348837209303" y="1195" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1195" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1246" x2="930" y2="1246" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1232" r="3" fill="#4ade80"/>
-<text x="24" y="1236" font-size="12" fill="#24292f">🟢 [Steam] Gear.Club Unlimited…</text>
+<text x="24" y="1236" font-size="12" fill="#24292f">🟢 [Epic Games Mobile] (Game) …</text>
 <rect x="288.95348837209303" y="1223" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1223" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1274" x2="930" y2="1274" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1260" r="3" fill="#4ade80"/>
-<text x="24" y="1264" font-size="12" fill="#24292f">🟢 [Epic Game Store] Voidtrain…</text>
+<text x="24" y="1264" font-size="12" fill="#24292f">🟢 [PSA] Vampire: The Masquera…</text>
 <rect x="288.95348837209303" y="1251" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1251" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1302" x2="930" y2="1302" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1288" r="3" fill="#4ade80"/>
-<text x="24" y="1292" font-size="12" fill="#24292f">🟢 [Steam] squad-weapon-skins-…</text>
+<text x="24" y="1292" font-size="12" fill="#24292f">🟢 [Steam] (DLC) Squad Weapon …</text>
 <rect x="288.95348837209303" y="1279" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1279" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1330" x2="930" y2="1330" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1316" r="3" fill="#4ade80"/>
-<text x="24" y="1320" font-size="12" fill="#24292f">🟢 [itch.io] Offrecord Episode…</text>
+<text x="24" y="1320" font-size="12" fill="#24292f">🟢 [Epic Game Store] Bad Chees…</text>
 <rect x="288.95348837209303" y="1307" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1307" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1358" x2="930" y2="1358" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1344" r="3" fill="#4ade80"/>
-<text x="24" y="1348" font-size="12" fill="#24292f">🟢 [itch.io] The Wrong Way（限…</text>
+<text x="24" y="1348" font-size="12" fill="#24292f">🟢 [Epic Game Store] Agent A: …</text>
 <rect x="288.95348837209303" y="1335" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1335" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1386" x2="930" y2="1386" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1372" r="3" fill="#4ade80"/>
-<text x="24" y="1376" font-size="12" fill="#24292f">🟢 [itch.io] Party Line（限免…</text>
+<text x="24" y="1376" font-size="12" fill="#24292f">🟢 [Epic Game Store] Voidtrain…</text>
 <rect x="288.95348837209303" y="1363" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1363" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1414" x2="930" y2="1414" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1400" r="3" fill="#4ade80"/>
-<text x="24" y="1404" font-size="12" fill="#24292f">🟢 [itch.io] Nun Massacre（限…</text>
+<text x="24" y="1404" font-size="12" fill="#24292f">🟢 [Steam] Gear.Club Unlimited…</text>
 <rect x="288.95348837209303" y="1391" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1391" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1442" x2="930" y2="1442" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1428" r="3" fill="#4ade80"/>
-<text x="24" y="1432" font-size="12" fill="#24292f">🟢 [itch.io] Party Line Reclas…</text>
+<text x="24" y="1432" font-size="12" fill="#24292f">🟢 [Epic Game Store] Voidtrain…</text>
 <rect x="288.95348837209303" y="1419" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1419" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1470" x2="930" y2="1470" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1456" r="3" fill="#4ade80"/>
-<text x="24" y="1460" font-size="12" fill="#24292f">🟢 [itch.io] Thedollshop（限免…</text>
+<text x="24" y="1460" font-size="12" fill="#24292f">🟢 [Steam] squad-weapon-skins-…</text>
 <rect x="288.95348837209303" y="1447" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1447" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1498" x2="930" y2="1498" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1484" r="3" fill="#4ade80"/>
-<text x="24" y="1488" font-size="12" fill="#24292f">🟢 [itch.io] Pdm（限免）</text>
+<text x="24" y="1488" font-size="12" fill="#24292f">🟢 [itch.io] Offrecord Episode…</text>
 <rect x="288.95348837209303" y="1475" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1475" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1526" x2="930" y2="1526" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1512" r="3" fill="#4ade80"/>
-<text x="24" y="1516" font-size="12" fill="#24292f">🟢 [itch.io] Lihiman Full（限…</text>
+<text x="24" y="1516" font-size="12" fill="#24292f">🟢 [itch.io] The Wrong Way（限…</text>
 <rect x="288.95348837209303" y="1503" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1503" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1554" x2="930" y2="1554" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1540" r="3" fill="#4ade80"/>
-<text x="24" y="1544" font-size="12" fill="#24292f">🟢 [itch.io] Fear Assessment（…</text>
+<text x="24" y="1544" font-size="12" fill="#24292f">🟢 [itch.io] Party Line（限免…</text>
 <rect x="288.95348837209303" y="1531" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1531" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1582" x2="930" y2="1582" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1568" r="3" fill="#4ade80"/>
-<text x="24" y="1572" font-size="12" fill="#24292f">🟢 [itch.io] First Contact Pro…</text>
+<text x="24" y="1572" font-size="12" fill="#24292f">🟢 [itch.io] Nun Massacre（限…</text>
 <rect x="288.95348837209303" y="1559" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1559" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1610" x2="930" y2="1610" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1596" r="3" fill="#4ade80"/>
-<text x="24" y="1600" font-size="12" fill="#24292f">🟢 [itch.io] Shattered Pixel D…</text>
+<text x="24" y="1600" font-size="12" fill="#24292f">🟢 [itch.io] Party Line Reclas…</text>
 <rect x="288.95348837209303" y="1587" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1587" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1638" x2="930" y2="1638" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1624" r="3" fill="#4ade80"/>
-<text x="24" y="1628" font-size="12" fill="#24292f">🟢 [itch.io] Demetrios（限免）</text>
+<text x="24" y="1628" font-size="12" fill="#24292f">🟢 [itch.io] Thedollshop（限免…</text>
 <rect x="288.95348837209303" y="1615" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1615" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1666" x2="930" y2="1666" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1652" r="3" fill="#4ade80"/>
-<text x="24" y="1656" font-size="12" fill="#24292f">🟢 [itch.io] The Black Within…</text>
+<text x="24" y="1656" font-size="12" fill="#24292f">🟢 [itch.io] Pdm（限免）</text>
 <rect x="288.95348837209303" y="1643" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1643" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1694" x2="930" y2="1694" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1680" r="3" fill="#4ade80"/>
-<text x="24" y="1684" font-size="12" fill="#24292f">🟢 [itch.io] Brutal Legend（限…</text>
+<text x="24" y="1684" font-size="12" fill="#24292f">🟢 [itch.io] Lihiman Full（限…</text>
 <rect x="288.95348837209303" y="1671" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1671" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1722" x2="930" y2="1722" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1708" r="3" fill="#4ade80"/>
-<text x="24" y="1712" font-size="12" fill="#24292f">🟢 [itch.io] Necrosisfull C64…</text>
+<text x="24" y="1712" font-size="12" fill="#24292f">🟢 [itch.io] Fear Assessment（…</text>
 <rect x="288.95348837209303" y="1699" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1699" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1750" x2="930" y2="1750" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1736" r="3" fill="#4ade80"/>
-<text x="24" y="1740" font-size="12" fill="#24292f">🟢 [itch.io] Kalayaan Road（限…</text>
+<text x="24" y="1740" font-size="12" fill="#24292f">🟢 [itch.io] First Contact Pro…</text>
 <rect x="288.95348837209303" y="1727" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1727" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1778" x2="930" y2="1778" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1764" r="3" fill="#4ade80"/>
-<text x="24" y="1768" font-size="12" fill="#24292f">🟢 [itch.io] Sabado Day One（…</text>
+<text x="24" y="1768" font-size="12" fill="#24292f">🟢 [itch.io] Shattered Pixel D…</text>
 <rect x="288.95348837209303" y="1755" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1755" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1806" x2="930" y2="1806" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1792" r="3" fill="#4ade80"/>
-<text x="24" y="1796" font-size="12" fill="#24292f">🟢 [itch.io] Gravehearts（限免…</text>
+<text x="24" y="1796" font-size="12" fill="#24292f">🟢 [itch.io] Demetrios（限免）</text>
 <rect x="288.95348837209303" y="1783" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1783" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1834" x2="930" y2="1834" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1820" r="3" fill="#4ade80"/>
-<text x="24" y="1824" font-size="12" fill="#24292f">🟢 [itch.io] Babysitter Bloodb…</text>
+<text x="24" y="1824" font-size="12" fill="#24292f">🟢 [itch.io] The Black Within…</text>
 <rect x="288.95348837209303" y="1811" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1811" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1862" x2="930" y2="1862" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1848" r="3" fill="#4ade80"/>
-<text x="24" y="1852" font-size="12" fill="#24292f">🟢 [itch.io] Unearthed（限免）</text>
+<text x="24" y="1852" font-size="12" fill="#24292f">🟢 [itch.io] Brutal Legend（限…</text>
 <rect x="288.95348837209303" y="1839" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1839" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1890" x2="930" y2="1890" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1876" r="3" fill="#4ade80"/>
-<text x="24" y="1880" font-size="12" fill="#24292f">🟢 [itch.io] Killcache（限免）</text>
+<text x="24" y="1880" font-size="12" fill="#24292f">🟢 [itch.io] Necrosisfull C64…</text>
 <rect x="288.95348837209303" y="1867" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1867" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1918" x2="930" y2="1918" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1904" r="3" fill="#4ade80"/>
-<text x="24" y="1908" font-size="12" fill="#24292f">🟢 [itch.io] Deathguest（限免…</text>
+<text x="24" y="1908" font-size="12" fill="#24292f">🟢 [itch.io] Kalayaan Road（限…</text>
 <rect x="288.95348837209303" y="1895" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1895" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1946" x2="930" y2="1946" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1932" r="3" fill="#4ade80"/>
-<text x="24" y="1936" font-size="12" fill="#24292f">🟢 [itch.io] Creature Kitchen…</text>
+<text x="24" y="1936" font-size="12" fill="#24292f">🟢 [itch.io] Sabado Day One（…</text>
 <rect x="288.95348837209303" y="1923" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1923" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="1974" x2="930" y2="1974" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1960" r="3" fill="#4ade80"/>
-<text x="24" y="1964" font-size="12" fill="#24292f">🟢 [itch.io] The Midnight Bus…</text>
+<text x="24" y="1964" font-size="12" fill="#24292f">🟢 [itch.io] Gravehearts（限免…</text>
 <rect x="288.95348837209303" y="1951" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1951" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2002" x2="930" y2="2002" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1988" r="3" fill="#4ade80"/>
-<text x="24" y="1992" font-size="12" fill="#24292f">🟢 [itch.io] The Mayor Of Sanc…</text>
+<text x="24" y="1992" font-size="12" fill="#24292f">🟢 [itch.io] Babysitter Bloodb…</text>
 <rect x="288.95348837209303" y="1979" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="1979" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2030" x2="930" y2="2030" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2016" r="3" fill="#4ade80"/>
-<text x="24" y="2020" font-size="12" fill="#24292f">🟢 [itch.io] Trox The Reversal…</text>
+<text x="24" y="2020" font-size="12" fill="#24292f">🟢 [itch.io] Unearthed（限免）</text>
 <rect x="288.95348837209303" y="2007" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2007" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2058" x2="930" y2="2058" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2044" r="3" fill="#4ade80"/>
-<text x="24" y="2048" font-size="12" fill="#24292f">🟢 [itch.io] Family Manners（…</text>
+<text x="24" y="2048" font-size="12" fill="#24292f">🟢 [itch.io] Killcache（限免）</text>
 <rect x="288.95348837209303" y="2035" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2035" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2086" x2="930" y2="2086" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2072" r="3" fill="#4ade80"/>
-<text x="24" y="2076" font-size="12" fill="#24292f">🟢 [itch.io] Midboss（限免）</text>
+<text x="24" y="2076" font-size="12" fill="#24292f">🟢 [itch.io] Deathguest（限免…</text>
 <rect x="288.95348837209303" y="2063" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2063" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2114" x2="930" y2="2114" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2100" r="3" fill="#4ade80"/>
-<text x="24" y="2104" font-size="12" fill="#24292f">🟢 [itch.io] Pigeon West Call …</text>
+<text x="24" y="2104" font-size="12" fill="#24292f">🟢 [itch.io] Creature Kitchen…</text>
 <rect x="288.95348837209303" y="2091" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2091" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2142" x2="930" y2="2142" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2128" r="3" fill="#4ade80"/>
-<text x="24" y="2132" font-size="12" fill="#24292f">🟢 [itch.io] My Teacher（限免…</text>
+<text x="24" y="2132" font-size="12" fill="#24292f">🟢 [itch.io] The Midnight Bus…</text>
 <rect x="288.95348837209303" y="2119" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2119" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2170" x2="930" y2="2170" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2156" r="3" fill="#4ade80"/>
-<text x="24" y="2160" font-size="12" fill="#24292f">🟢 [itch.io] Pixel Fireplace（…</text>
+<text x="24" y="2160" font-size="12" fill="#24292f">🟢 [itch.io] The Mayor Of Sanc…</text>
 <rect x="288.95348837209303" y="2147" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2147" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2198" x2="930" y2="2198" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2184" r="3" fill="#4ade80"/>
-<text x="24" y="2188" font-size="12" fill="#24292f">🟢 [itch.io] Tylers Deal（限免…</text>
+<text x="24" y="2188" font-size="12" fill="#24292f">🟢 [itch.io] Trox The Reversal…</text>
 <rect x="288.95348837209303" y="2175" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2175" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2226" x2="930" y2="2226" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2212" r="3" fill="#4ade80"/>
-<text x="24" y="2216" font-size="12" fill="#24292f">🟢 [itch.io] Apothecaria Maker…</text>
+<text x="24" y="2216" font-size="12" fill="#24292f">🟢 [itch.io] Family Manners（…</text>
 <rect x="288.95348837209303" y="2203" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2203" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2254" x2="930" y2="2254" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2240" r="3" fill="#4ade80"/>
-<text x="24" y="2244" font-size="12" fill="#24292f">🟢 [itch.io] Lost In Transit（…</text>
+<text x="24" y="2244" font-size="12" fill="#24292f">🟢 [itch.io] Midboss（限免）</text>
 <rect x="288.95348837209303" y="2231" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2231" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2282" x2="930" y2="2282" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2268" r="3" fill="#4ade80"/>
-<text x="24" y="2272" font-size="12" fill="#24292f">🟢 [itch.io] The Failure Even …</text>
+<text x="24" y="2272" font-size="12" fill="#24292f">🟢 [itch.io] Pigeon West Call …</text>
 <rect x="288.95348837209303" y="2259" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2259" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2310" x2="930" y2="2310" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2296" r="3" fill="#4ade80"/>
-<text x="24" y="2300" font-size="12" fill="#24292f">🟢 [itch.io] Brok（限免）</text>
+<text x="24" y="2300" font-size="12" fill="#24292f">🟢 [itch.io] My Teacher（限免…</text>
 <rect x="288.95348837209303" y="2287" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2287" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2338" x2="930" y2="2338" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2324" r="3" fill="#4ade80"/>
-<text x="24" y="2328" font-size="12" fill="#24292f" textLength="220" lengthAdjust="spacingAndGlyphs">🟢 FGF Giveaway: Retro Pond &amp; …</text>
+<text x="24" y="2328" font-size="12" fill="#24292f">🟢 [itch.io] Pixel Fireplace（…</text>
 <rect x="288.95348837209303" y="2315" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2315" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2366" x2="930" y2="2366" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2352" r="3" fill="#4ade80"/>
-<text x="24" y="2356" font-size="12" fill="#24292f">🟢 [itch.io] (Game) The Green …</text>
+<text x="24" y="2356" font-size="12" fill="#24292f">🟢 [itch.io] Tylers Deal（限免…</text>
 <rect x="288.95348837209303" y="2343" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2343" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2394" x2="930" y2="2394" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2380" r="3" fill="#4ade80"/>
-<text x="24" y="2384" font-size="12" fill="#24292f">🟢 [itch.io] Rubys Trick Or Tr…</text>
+<text x="24" y="2384" font-size="12" fill="#24292f">🟢 [itch.io] Apothecaria Maker…</text>
 <rect x="288.95348837209303" y="2371" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
 <rect x="288.95348837209303" y="2371" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2422" x2="930" y2="2422" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2408" r="3" fill="#4ade80"/>
-<text x="24" y="2412" font-size="12" fill="#24292f">🟢 Epic 免费游戏: Eternal Thre…</text>
-<rect x="288.95348837209303" y="2399" width="109.06976744186045" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="288.95348837209303" y="2399" width="7.307674418604651" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="343.48837209302326" y="2411.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<text x="24" y="2412" font-size="12" fill="#24292f">🟢 [itch.io] Lost In Transit（…</text>
+<rect x="288.95348837209303" y="2399" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2399" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2450" x2="930" y2="2450" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2436" r="3" fill="#4ade80"/>
-<text x="24" y="2440" font-size="12" fill="#24292f">🟢 Epic 免费游戏: Castlevania …</text>
-<rect x="288.95348837209303" y="2427" width="109.06976744186045" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="288.95348837209303" y="2427" width="7.307674418604651" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="343.48837209302326" y="2439.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<text x="24" y="2440" font-size="12" fill="#24292f">🟢 [itch.io] The Failure Even …</text>
+<rect x="288.95348837209303" y="2427" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2427" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2478" x2="930" y2="2478" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2464" r="3" fill="#4ade80"/>
-<text x="24" y="2468" font-size="12" fill="#24292f">🟢 Epic 免费游戏: 纪念碑谷（Mon…</text>
-<rect x="288.95348837209303" y="2455" width="109.06976744186045" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="288.95348837209303" y="2455" width="7.307674418604651" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="343.48837209302326" y="2467.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<text x="24" y="2468" font-size="12" fill="#24292f">🟢 [itch.io] Brok（限免）</text>
+<rect x="288.95348837209303" y="2455" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2455" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2506" x2="930" y2="2506" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2492" r="3" fill="#4ade80"/>
-<text x="24" y="2496" font-size="12" fill="#24292f">🟡 Epic 免费游戏: Sker Ritual</text>
-<rect x="312.3255813953488" y="2483" width="54.53488372093028" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<text x="24" y="2496" font-size="12" fill="#24292f" textLength="220" lengthAdjust="spacingAndGlyphs">🟢 FGF Giveaway: Retro Pond &amp; …</text>
+<rect x="288.95348837209303" y="2483" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2483" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2534" x2="930" y2="2534" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2520" r="3" fill="#4ade80"/>
-<text x="24" y="2524" font-size="12" fill="#24292f">🟡 Epic 免费游戏: Home - A Uni…</text>
-<rect x="312.3255813953488" y="2511" width="54.53488372093028" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<text x="24" y="2524" font-size="12" fill="#24292f">🟢 [itch.io] (Game) The Green …</text>
+<rect x="288.95348837209303" y="2511" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2511" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2562" x2="930" y2="2562" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2548" r="3" fill="#4ade80"/>
-<text x="24" y="2552" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《LISA: Defin…</text>
-<rect x="390.2325581395349" y="2539" width="70.11627906976747" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<text x="24" y="2552" font-size="12" fill="#24292f">🟢 [itch.io] Rubys Trick Or Tr…</text>
+<rect x="288.95348837209303" y="2539" width="54.534883720930225" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2539" width="6.816860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="2590" x2="930" y2="2590" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2576" r="3" fill="#4ade80"/>
-<text x="24" y="2580" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
-<rect x="694.0697674418604" y="2567" width="218.1395348837209" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
-<rect x="250" y="2602" width="14" height="10" rx="2" fill="#4a9eff"/><text x="270" y="2611" font-size="10" fill="#24292f">AI / 云服务</text>
-<rect x="345" y="2602" width="14" height="10" rx="2" fill="#fb923c"/><text x="365" y="2611" font-size="10" fill="#24292f">开车线报</text>
-<rect x="440" y="2602" width="14" height="10" rx="2" fill="#4ade80"/><text x="460" y="2611" font-size="10" fill="#24292f">游戏</text>
-<rect x="535" y="2602" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="2611" font-size="10" fill="#24292f">已结束</text>
-<rect x="625" y="2602" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="2611" font-size="10" fill="#24292f">未开始</text>
-<line x1="715" y1="2600" x2="715" y2="2614" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="2611" font-size="10" fill="#24292f">今天</text>
+<text x="24" y="2580" font-size="12" fill="#24292f">🟢 Epic 免费游戏: Eternal Thre…</text>
+<rect x="288.95348837209303" y="2567" width="109.06976744186045" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2567" width="7.307674418604651" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="343.48837209302326" y="2579.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="2618" x2="930" y2="2618" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2604" r="3" fill="#4ade80"/>
+<text x="24" y="2608" font-size="12" fill="#24292f">🟢 Epic 免费游戏: Castlevania …</text>
+<rect x="288.95348837209303" y="2595" width="109.06976744186045" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2595" width="7.307674418604651" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="343.48837209302326" y="2607.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="2646" x2="930" y2="2646" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2632" r="3" fill="#4ade80"/>
+<text x="24" y="2636" font-size="12" fill="#24292f">🟢 Epic 免费游戏: 纪念碑谷（Mon…</text>
+<rect x="288.95348837209303" y="2623" width="109.06976744186045" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="288.95348837209303" y="2623" width="7.307674418604651" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="343.48837209302326" y="2635.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="2674" x2="930" y2="2674" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2660" r="3" fill="#4ade80"/>
+<text x="24" y="2664" font-size="12" fill="#24292f">🟡 Epic 免费游戏: Sker Ritual</text>
+<rect x="312.3255813953488" y="2651" width="54.53488372093028" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="2702" x2="930" y2="2702" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2688" r="3" fill="#4ade80"/>
+<text x="24" y="2692" font-size="12" fill="#24292f">🟡 Epic 免费游戏: Home - A Uni…</text>
+<rect x="312.3255813953488" y="2679" width="54.53488372093028" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="2730" x2="930" y2="2730" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2716" r="3" fill="#4ade80"/>
+<text x="24" y="2720" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《LISA: Defin…</text>
+<rect x="390.2325581395349" y="2707" width="70.11627906976747" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="2758" x2="930" y2="2758" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2744" r="3" fill="#4ade80"/>
+<text x="24" y="2748" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
+<rect x="694.0697674418604" y="2735" width="218.1395348837209" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<rect x="250" y="2770" width="14" height="10" rx="2" fill="#4a9eff"/><text x="270" y="2779" font-size="10" fill="#24292f">AI / 云服务</text>
+<rect x="345" y="2770" width="14" height="10" rx="2" fill="#fb923c"/><text x="365" y="2779" font-size="10" fill="#24292f">开车线报</text>
+<rect x="440" y="2770" width="14" height="10" rx="2" fill="#4ade80"/><text x="460" y="2779" font-size="10" fill="#24292f">游戏</text>
+<rect x="535" y="2770" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="2779" font-size="10" fill="#24292f">已结束</text>
+<rect x="625" y="2770" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="2779" font-size="10" fill="#24292f">未开始</text>
+<line x1="715" y1="2768" x2="715" y2="2782" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="2779" font-size="10" fill="#24292f">今天</text>
 </svg>

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T15:36:51.903377+08:00",
+  "generated_at": "2026-10-19T16:46:39.340294+08:00",
   "today": "2026-10-19",
   "repository": "jiuyuan233/wool-gathering",
-  "total": 102,
+  "total": 108,
   "by_category": {
     "ai": {
-      "total": 18,
-      "active": 18,
+      "total": 24,
+      "active": 24,
       "upcoming": 0,
       "ended": 0
     },

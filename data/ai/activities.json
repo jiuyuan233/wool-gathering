@@ -379,5 +379,81 @@
     "status": "active",
     "discovered_at": "2026-10-19T16:30:00+08:00",
     "last_seen": "2026-10-19"
+  },
+  {
+    "id": "cloud_a6638bd2c0cc",
+    "title": "腾讯云·大促代金券",
+    "category": "ai",
+    "source_url": "https://cloud.tencent.com/act/new",
+    "claim_url": "https://cloud.tencent.com/act/new",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-18",
+    "value": "",
+    "requirements": [],
+    "description": "腾讯云推出大促优惠活动：免费领取5455元代金券礼包；4核4G服务器新客 38元/年起，支持 OpenClaw/Hermes 等热门镜像；Token Plan 低至28元/月，多种主流模型极速调用；云数据库、COS等上云必备产品，低至1折",
+    "tags": [
+      "腾讯云",
+      "大促代金券"
+    ],
+    "discovered_at": "2026-10-19T16:46:02.531627+08:00",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "cloud_4b7a798bd85e",
+    "title": "腾讯云·校园计划",
+    "category": "ai",
+    "source_url": "https://cloud.tencent.com/act/campus",
+    "claim_url": "https://cloud.tencent.com/act/campus",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-18",
+    "value": "",
+    "requirements": [],
+    "description": "云+校园计划是腾讯云为在校学生推出的专项扶持计划。该计划内容主要包括：学生云服务器+mysql数据库优惠套餐，云计算在线学习，云开发实验室…",
+    "tags": [
+      "腾讯云",
+      "校园计划"
+    ],
+    "discovered_at": "2026-10-19T16:46:04.603884+08:00",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "cloud_8a5fcce5d067",
+    "title": "腾讯云·免费体验",
+    "category": "ai",
+    "source_url": "https://cloud.tencent.com/act/free",
+    "claim_url": "https://cloud.tencent.com/act/free",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-18",
+    "value": "",
+    "requirements": [],
+    "description": "腾讯云推出了个人云产品体验馆：云服务器，云数据库，云安全等70+云产品免费试用，续费1年3.3折起….",
+    "tags": [
+      "腾讯云",
+      "免费体验"
+    ],
+    "discovered_at": "2026-10-19T16:46:06.353735+08:00",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "cloud_e9c81e3c3f4a",
+    "title": "腾讯云·开发者",
+    "category": "ai",
+    "source_url": "https://cloud.tencent.com/act/developer",
+    "claim_url": "https://cloud.tencent.com/act/developer",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-18",
+    "value": "",
+    "requirements": [],
+    "description": "腾讯云最新活动_腾讯云促销优惠_代金券-腾讯云官网入口",
+    "tags": [
+      "腾讯云",
+      "开发者"
+    ],
+    "discovered_at": "2026-10-19T16:46:07.791323+08:00",
+    "last_seen": "2026-10-19",
+    "status": "active"
   }
 ]
