@@ -15,8 +15,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 11:17** 北京时间
-- 进行中：**31** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**35** 个
+- 更新时间：**2026-10-19 11:37** 北京时间
+- 进行中：**12** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**16** 个
 
 ---
 
@@ -26,31 +26,12 @@
 
 | 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
 |------|------|------|------|------|------|
-| 🟢 | GitHub: weather-mcp/weather-mcp | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/weather-mcp/weather-mcp) |
-| 🟢 | GitHub: ildus650-pixel/yosuri-agent | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/ildus650-pixel/yosuri-agent) |
-| 🟢 | GitHub: jcleng/opencode-free-provider | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/jcleng/opencode-free-provider) |
-| 🟢 | GitHub: open-free-llm-api/awesome-freellm-apis | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/open-free-llm-api/awesome-freellm-apis) |
-| 🟢 | GitHub: tahaygun/ai-calorie-tracker | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/tahaygun/ai-calorie-tracker) |
-| 🟢 | GitHub: angconsorte/LLM_Meeting_Assistant | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/angconsorte/LLM_Meeting_Assistant) |
-| 🟢 | GitHub: JaiiMukundh/fused-knn-search | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/JaiiMukundh/fused-knn-search) |
-| 🟢 | GitHub: peremartra/Rearchitecting-LLMs | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/peremartra/Rearchitecting-LLMs) |
-| 🟢 | GitHub: NurMohammadDuari/VoiceStudio-Colab-GPU | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/NurMohammadDuari/VoiceStudio-Colab-GPU) |
-| 🟢 | GitHub: eswaroy/qwen3.5-2b-physics | — | 2026-10-17 ~ 2027-01-17 | — | [领取](https://github.com/eswaroy/qwen3.5-2b-physics) |
-| 🟢 | GitHub: tushar29k/pr-review-agent | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/tushar29k/pr-review-agent) |
-| 🟢 | GitHub: lifejx/free-llm-api-list | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/lifejx/free-llm-api-list) |
-| 🟢 | GitHub: precisionz/tokenation | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/precisionz/tokenation) |
-| 🟢 | GitHub: happyyboxx/free-llm-atlas | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/happyyboxx/free-llm-atlas) |
-| 🟢 | GitHub: nejib1/Free-LLM | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/nejib1/Free-LLM) |
-| 🟢 | GitHub: jiuyuan233/wool-gathering | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/jiuyuan233/wool-gathering) |
-| 🟢 | GitHub: rockbenben/free-llm-intel | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/rockbenben/free-llm-intel) |
-| 🟢 | GitHub: chenli19371015-art/wooltools | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/chenli19371015-art/wooltools) |
-| 🟢 | GitHub: baiwumm/free-for-dev-zh | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/baiwumm/free-for-dev-zh) |
-| 🟢 | GitHub: sanbeitixigua123/token-free | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/sanbeitixigua123/token-free) |
-| 🟢 | GitHub: Dthen/free-inference-watchdog | — | 2026-10-19 ~ 2027-01-17 | — | [领取](https://github.com/Dthen/free-inference-watchdog) |
-| 🟢 | GitHub: enapt/SwarmLLM | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/enapt/SwarmLLM) |
-| 🟢 | GitHub: eghrhegpe/dsh-connect-modelscope-token-plan | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/eghrhegpe/dsh-connect-modelscope-token-plan) |
-| 🟢 | GitHub: Cedriceuh/freetoken-rdna3 | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/Cedriceuh/freetoken-rdna3) |
-| 🟢 | GitHub: haiggoh/free-agents | — | 2026-10-18 ~ 2027-01-17 | — | [领取](https://github.com/haiggoh/free-agents) |
+| 🟢 | 华为云·免费试用 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/free_test/index.html) |
+| 🟢 | 华为云·老用户权益 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/member.html) |
+| 🟢 | 华为云·组合购 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/group-purchase/index.html) |
+| 🟢 | 阿里云·免费试用 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://free.aliyun.com) |
+| 🟢 | 阿里云·高校计划 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://university.aliyun.com) |
+| 🟢 | 阿里云·新人特惠 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://www.aliyun.com/activity/new) |
 
 ### 🎮 游戏类
 
