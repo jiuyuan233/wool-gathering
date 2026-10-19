@@ -83,29 +83,95 @@ def _activity(title: str, url: str, source_name: str, category: str, desc: str =
 # ──────────────────────────── 各源解析器 ────────────────────────────
 
 def parse_itad(html: str) -> list[dict]:
-    """IsThereAnyDeal 主页：提取 -100% 免费游戏。
+    """IsThereAnyDeal 主页：提取 -100% 免费游戏 + 所属商店。
 
-    结构: <a href="/game/SLUG/info/">...<img alt="NAME banner">...-100%...
+    ITAD 聚合了 Epic/Steam/GOG/Xbox/PSN/eShop/GMG/Fanatical/Humble 等商店，
+    每个游戏块含: /game/slug/ 链接 + banner alt 名 + -100% 价格 + shop 商店名。
+    按 class="game" 切块，块内提取四要素。
     """
     acts = []
-    pairs = re.findall(
-        r'href="(/game/([^/]+)/info/)"[^>]*>.*?alt="([^"]+)"',
-        html, re.S,
-    )
-    for href, slug, alt in pairs:
-        name = alt.replace(" banner", "").strip()
+    # 按 game 块切分（Svelte SSR，class="game svelte-xxx"）
+    blocks = re.split(r'class="game\s+svelte-[\w]+"', html)
+    seen_slugs: set[str] = set()
+    for b in blocks[1:]:  # 第一段是页头
+        m = re.search(r'href="/game/([^/]+)/info/"', b)
+        if not m:
+            continue
+        slug = m.group(1)
+        if slug in seen_slugs:
+            continue
+        # 只保留 100% off 的块
+        if "-100%" not in b:
+            continue
+        seen_slugs.add(slug)
+        # 游戏名（img alt）
+        alt = re.search(r'alt="([^"]+)"', b)
+        name = (alt.group(1) if alt else slug).replace(" banner", "").strip()
         if not name or "logo" in name.lower():
             continue
-        # 确认这个游戏块含 -100%（免费）
-        idx = html.find(f"/game/{slug}/info/")
-        block = html[idx:idx + 2000]
-        if "-100%" not in block:
-            continue
+        # 所属商店（class="shop" 后的文本）
+        shop_m = re.search(r'class="shop[^"]*"[^>]*>(.{0,150}?)</(?:div|span)>', b, re.S)
+        shop = re.sub(r"<[^>]+>", " ", shop_m.group(1)).strip() if shop_m else ""
+        # ITAD 特例：站点自己送的游戏
+        if slug == "over-the-hill":
+            shop = "ITAD"
+        display_shop = shop or "ITAD"
         acts.append(_activity(
-            f"{name}（ITAD 免费游戏）",
-            f"https://isthereanydeal.com{href}",
+            f"[{display_shop}] {name}（限免）",
+            f"https://isthereanydeal.com/game/{slug}/info/",
             "IsThereAnyDeal", "games",
-            f"IsThereAnyDeal 聚合: {name} 当前 100% off",
+            f"{display_shop} 100% off 限免: {name}",
+        ))
+    return acts
+
+
+def parse_itchio(html: str) -> list[dict]:
+    """itch.io 限时免费页（coming-off-free = 即将结束免费，真喜加一）。
+
+    itch.io 是服务端渲染，game_cell 块含作者子域链接 + 标题。
+    用多种模式宽松匹配，避免改版全挂。
+    """
+    acts = []
+    seen: set[str] = set()
+    # 模式1: game_cell 块 + itch.io 子域链接
+    blocks = re.split(r'class="game_cell', html)
+    candidates = []
+    for b in blocks[1:]:
+        link = re.search(r'href="(https://[\w.-]+\.itch\.io/[\w-]+)"', b)
+        title = re.search(r'title="([^"]+)"', b) or re.search(r'alt="([^"]+)"', b)
+        if link:
+            candidates.append((title.group(1).strip() if title else link.group(1).rsplit("/", 1)[-1],
+                               link.group(1)))
+    # 模式2: 兜底——所有带 data-title 或 game_link 的行
+    if not candidates:
+        for m in re.finditer(r'href="(https://[\w.-]+\.itch\.io/[\w-]+)"[^>]*data-title="([^"]+)"', html):
+            candidates.append((m.group(2).strip(), m.group(1)))
+    for name, url in candidates:
+        if url in seen:
+            continue
+        seen.add(url)
+        acts.append(_activity(
+            f"[itch.io] {name}（限免）",
+            url, "itch.io", "games",
+            f"itch.io 限时免费（即将转付费）: {name}",
+        ))
+    return acts
+
+
+def parse_ggdeals(html: str) -> list[dict]:
+    """GG.deals 免费游戏新闻页：提取免费游戏报道链接。"""
+    acts = []
+    seen: set[str] = set()
+    # 新闻列表条目: <a href="/news/xxx"> 或 article 标题
+    for m in re.finditer(r'<a[^>]+href="(/news/[^"]+)"[^>]*>([^<]{10,150})</a>', html):
+        url, title = f"https://gg.deals{m.group(1)}", m.group(2).strip()
+        if url in seen or not is_wool_related(title):
+            continue
+        seen.add(url)
+        acts.append(_activity(
+            f"{title}（GG.deals）",
+            url, "GG.deals", "games",
+            f"GG.deals 免费游戏报道: {title}",
         ))
     return acts
 
@@ -259,9 +325,15 @@ SOURCES: dict[str, list[dict]] = {
     "games": [
         {"name": "IsThereAnyDeal", "url": "https://isthereanydeal.com/",
          "parser": "itad"},
+        {"name": "itch.io-限免",
+         "url": "https://itch.io/games/coming-off-free",
+         "parser": "itchio"},
         {"name": "Reddit-FreeGameFindings",
          "url": "https://www.reddit.com/r/FreeGameFindings/.rss",
          "parser": "reddit_rss"},
+        {"name": "GG.deals",
+         "url": "https://gg.deals/news/free-games/",
+         "parser": "ggdeals"},
     ],
     "ai": [
         {"name": "异次元软件世界", "url": "https://www.iplaysoft.com/",
@@ -304,6 +376,10 @@ def collect_blog_activities(category: str) -> list[dict]:
         try:
             if parser == "itad":
                 acts = parse_itad(text)
+            elif parser == "itchio":
+                acts = parse_itchio(text)
+            elif parser == "ggdeals":
+                acts = parse_ggdeals(text)
             elif parser == "reddit_json":
                 acts = parse_reddit_freegames(text, name)
             elif parser == "reddit_rss":
