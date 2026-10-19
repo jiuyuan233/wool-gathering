@@ -1,18 +1,22 @@
 """主收集脚本：Action 入口。
 
-流程：
-1. 抓所有种子源 → 拼成上下文
-2. 调 AI 抽取活动（按分类，用 prompts.py 里的提示词）
-3. AI 联网搜索补充新活动（混合模式）
-4. 合并去重 + 刷新状态
-5. 写回 data/{ai,games}/activities.json
-6. 生成 docs/calendar.svg（README 嵌入的日历）
-7. 生成 docs/data/*.json（前端数据，可选）
-8. 生成 README.md
+设计原则（用户要求）：
+- 不同板块分时间段请求，不要频繁请求
+- 每次只更新一个类别，标注更新时间
+- 每天晚上全部整理一下（生成 SVG + README）
+
+用法：
+  python collect.py ai       # 只处理 AI 类
+  python collect.py games    # 只处理游戏类
+  python collect.py finalize # 只做整理（SVG + README）
+  python collect.py all      # 全部处理（默认，手动触发用）
+
+每次只处理一个类别，上下文小（< 2000 字），不会超时。
 """
 from __future__ import annotations
 
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -20,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from ai_client import AIClient
 from calendar_generator import generate_docs_data, generate_readme
 from dedup import dedupe_within, merge, normalize_activity
-from prompts import build_extract_messages, build_search_messages
+from prompts import build_extract_messages
 from sources_manager import all_source_context, load_sources
 from svg_calendar import generate_svg
 from utils import (
@@ -35,44 +39,31 @@ from utils import (
 
 CATEGORIES = ["ai", "games"]
 
-# 联网搜索关键词（精简版，避免触发中转站限流）
-# 每分类只保留最关键的 4 个关键词，总 8 次 AI 搜索调用
-SEARCH_KEYWORDS = {
-    "ai": [
-        "AI 大模型 免费额度 代金券 新用户 2026",
-        "云厂商 GPU 免费算力 试用活动",
-        "HuggingFace Google AI Studio Groq free tier",
-        "华为云 阿里云 通义千问 AI 免费券",
-    ],
-    "games": [
-        "Epic Steam GOG 限免 免费 喜加一 本周",
-        "Humble Bundle itch.io Prime Gaming free game",
-        "喜加一 限时免费 游戏 2026",
-        "手游 公测 礼包 免费领 PS Xbox",
-    ],
-}
+# 每批处理的源数量（控制上下文大小，避免中转站超时）
+BATCH_SIZE = 5
+# 每个源截取的字符数
+PER_SOURCE_CHARS = 400
+# 请求之间的间隔（秒），避免触发中转站限流
+REQUEST_INTERVAL = 3
 
 
-def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]]:
-    """从种子源上下文里抽取活动，按分类批量调用。
+def extract_category_in_batches(
+    client: AIClient,
+    context: str,
+    category: str,
+    today_str: str,
+) -> list[dict]:
+    """分批处理一个类别的所有源，每次只传少量上下文。
 
-    优化：同分类的所有源拼成一段大上下文，一次 AI 调用抽取整个分类。
-    从 51 次调用降到 2 次（ai + games），避免触发中转站限流。
+    每批 BATCH_SIZE 个源，每源截到 PER_SOURCE_CHARS 字，
+    确保上下文 < 2000 字，避免中转站超时。
+    每批之间间隔 REQUEST_INTERVAL 秒，避免限流。
     """
-    if not context:
-        log("种子源上下文为空，跳过抽取")
-        return {c: [] for c in CATEGORIES}
-
     sources = load_sources()
-    by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
-    today_str = today_bj().isoformat()
-
-    # 按分类收集源片段
-    cat_snippets: dict[str, list[str]] = {c: [] for c in CATEGORIES}
+    cat_sources = []
     for src in sources:
-        cat = src.category if src.category in CATEGORIES else None
-        if cat is None:
-            continue  # mixed 留给搜索阶段
+        if src.category != category:
+            continue
         marker = f"### 源: {src.name}"
         i = context.find(marker)
         if i < 0:
@@ -81,118 +72,134 @@ def extract_from_sources(client: AIClient, context: str) -> dict[str, list[dict]
         snippet = context[i : j if j > 0 else len(context)]
         if len(snippet) < 50:
             continue
-        cat_snippets[cat].append(snippet[:800])  # 每源截短到 800 字
+        cat_sources.append((src.name, src.url, snippet[:PER_SOURCE_CHARS]))
 
-    # 每分类一次批量抽取
-    for cat in CATEGORIES:
-        snippets = cat_snippets[cat]
-        if not snippets:
-            log(f"[{cat}] 无可用源片段，跳过")
-            continue
+    if not cat_sources:
+        log(f"[{category}] 无可用源片段，跳过")
+        return []
 
-        # 拼成大上下文（总上限 2000 字，避免中转站超时）
-        combined = "\n---\n".join(snippets)[:2000]
-        src_count = len(snippets)
-        log(f"[{cat}] 批量抽取 {src_count} 个源，上下文 {len(combined)} 字")
+    all_activities: list[dict] = []
+    total_batches = (len(cat_sources) + BATCH_SIZE - 1) // BATCH_SIZE
+    log(f"[{category}] 共 {len(cat_sources)} 个源，分 {total_batches} 批处理")
+
+    for batch_idx in range(0, len(cat_sources), BATCH_SIZE):
+        batch = cat_sources[batch_idx : batch_idx + BATCH_SIZE]
+        batch_num = batch_idx // BATCH_SIZE + 1
+
+        parts = []
+        for name, url, snippet in batch:
+            parts.append(f"### 源: {name} (URL={url})\n\n{snippet}\n")
+        combined = "\n---\n".join(parts)[:2000]
+
+        log(f"[{category}] 第 {batch_num}/{total_batches} 批，{len(batch)} 个源，上下文 {len(combined)} 字")
 
         msgs = build_extract_messages(
-            source_name=f"批量（{src_count}个源）",
+            source_name=f"第{batch_num}批（{len(batch)}个源）",
             source_url="",
-            category=cat,
+            category=category,
             content=combined,
             today=today_str,
         )
         try:
-            data = client.chat_json(msgs, max_tokens=4000)
+            data = client.chat_json(msgs, max_tokens=1000)
             acts = (data or {}).get("activities", []) if isinstance(data, dict) else []
             for a in acts:
-                norm = normalize_activity(a, cat)
+                norm = normalize_activity(a, category)
                 if norm:
                     norm["discovered_at"] = norm["discovered_at"] or now_bj().isoformat()
-                    by_cat[cat].append(norm)
-            log(f"[{cat}] 批量抽到 {len(acts)} 条")
+                    all_activities.append(norm)
+            log(f"[{category}] 第 {batch_num} 批抽到 {len(acts)} 条")
         except Exception as e:
-            log(f"AI 批量抽取失败 [{cat}]: {e}", level="ERROR")
+            log(f"[{category}] 第 {batch_num} 批失败: {e}", level="ERROR")
 
-    return by_cat
+        if batch_idx + BATCH_SIZE < len(cat_sources):
+            time.sleep(REQUEST_INTERVAL)
 
-
-def search_new_activities(client: AIClient) -> dict[str, list[dict]]:
-    """混合模式：让 AI 联网搜索补充新活动。
-
-    用 prompts.py 的 search 模板组装 messages。
-    依赖中转站支持联网搜索（部分中转站有 web_search 工具）。
-    不支持也不影响主流程——种子源抽取已经能产出数据。
-    """
-    by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
-    today_str = today_bj().isoformat()
-
-    for cat, keywords in SEARCH_KEYWORDS.items():
-        for kw in keywords:
-            msgs = build_search_messages(keyword=kw, category=cat, today=today_str)
-            try:
-                data = client.chat_json(msgs, max_tokens=1000)
-                acts = (data or {}).get("activities", []) if isinstance(data, dict) else []
-                for a in acts:
-                    norm = normalize_activity(a, cat)
-                    if norm:
-                        norm["discovered_at"] = norm["discovered_at"] or now_bj().isoformat()
-                        by_cat[cat].append(norm)
-                log(f"[{cat}] 联网搜索 '{kw}' 抽到 {len(acts)} 条")
-            except Exception as e:
-                log(f"联网搜索失败 [{kw}]: {e}", level="ERROR")
-    return by_cat
+    return all_activities
 
 
-def main() -> int:
+def process_category(category: str) -> int:
+    """处理单个类别：抓源 → 分批 AI 抽取 → 合并保存 → 标注时间。"""
     log("=" * 60)
-    log("开始每日薅羊毛情报收集")
+    log(f"开始处理类别: {category}")
+    log(f"运行时间: {now_bj().isoformat()}")
     log("=" * 60)
 
     today = today_bj()
+    today_str = today.isoformat()
     client = AIClient()
 
     # 1. 抓种子源
-    log("阶段 1/6：抓取种子源")
+    log("抓取种子源...")
     context = all_source_context()
 
-    # 2. 从种子源抽取
-    log("阶段 2/6：AI 抽取种子源活动")
-    from_sources = extract_from_sources(client, context)
+    # 2. 分批 AI 抽取
+    log(f"分批 AI 抽取 [{category}]")
+    new_acts = extract_category_in_batches(client, context, category, today_str)
 
-    # 3. 联网搜索补充
-    log("阶段 3/6：AI 联网搜索补充")
-    from_search = search_new_activities(client)
+    # 3. 合并去重 + 写回
+    new_acts = dedupe_within(new_acts)
+    old_path = DATA_DIR / category / "activities.json"
+    old = load_json(old_path) or []
+    merged = merge(old, new_acts, today)
+    save_json(old_path, merged)
 
-    # 4. 合并去重 + 写回
-    log("阶段 4/6：合并去重并写回 data/")
+    active = sum(1 for a in merged if a["status"] == "active")
+    log(f"[{category}] 更新完成: 共 {len(merged)} 条（active={active}, 本次新增={len(new_acts)}）")
+    log(f"[{category}] 更新时间: {now_bj().isoformat()}")
+    log(f"类别 {category} 处理完成")
+    return 0
+
+
+def finalize() -> int:
+    """整理阶段：生成 SVG 日历 + 前端数据 + README。"""
+    log("=" * 60)
+    log("开始每日整理")
+    log(f"运行时间: {now_bj().isoformat()}")
+    log("=" * 60)
+
+    # 统计各类别数据
     for cat in CATEGORIES:
-        new = dedupe_within(from_sources[cat] + from_search[cat])
-        old_path = DATA_DIR / cat / "activities.json"
-        old = load_json(old_path) or []
-        merged = merge(old, new, today)
-        save_json(old_path, merged)
-        active = sum(1 for a in merged if a["status"] == "active")
-        log(f"[{cat}] 合并后共 {len(merged)} 条（active={active}, 新增={len(new)}）")
+        data = load_json(DATA_DIR / cat / "activities.json") or []
+        active = sum(1 for a in data if a["status"] == "active")
+        log(f"[{cat}] 当前共 {len(data)} 条（active={active}）")
 
-    # 5. 生成 SVG 日历 + 前端数据
-    log("阶段 5/6：生成 SVG 日历与前端数据")
-    all_acts = []
-    for cat in CATEGORIES:
-        all_acts.extend(load_json(DATA_DIR / cat / "activities.json") or [])
-    # 先生成 docs_data（会给每条加 progress/days_left 字段，SVG 也要用）
+    # 生成前端数据
+    log("生成前端数据...")
     generate_docs_data()
-    # 重新读带 progress 字段的数据给 SVG
+
+    # 生成 SVG 日历
+    log("生成 SVG 日历...")
     from utils import DOCS_DATA_DIR
     svg_acts = load_json(DOCS_DATA_DIR / "activities.json") or []
     generate_svg(svg_acts)
 
-    # 6. 生成 README（嵌入 SVG）
-    log("阶段 6/6：生成 README")
+    # 生成 README
+    log("生成 README...")
     generate_readme()
 
-    log("收集完成")
+    log("整理完成")
     return 0
+
+
+def main() -> int:
+    mode = sys.argv[1] if len(sys.argv) > 1 else "all"
+
+    if mode == "ai":
+        return process_category("ai")
+    elif mode == "games":
+        return process_category("games")
+    elif mode == "finalize":
+        return finalize()
+    elif mode == "all":
+        # 全部处理（手动触发用）
+        for cat in CATEGORIES:
+            process_category(cat)
+            time.sleep(REQUEST_INTERVAL)
+        return finalize()
+    else:
+        log(f"未知模式: {mode}，可用: ai / games / finalize / all")
+        return 1
 
 
 if __name__ == "__main__":
