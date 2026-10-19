@@ -38,14 +38,24 @@ WOOL_KEYWORDS = [
 
 
 def fetch(url: str, timeout: int = 20) -> str | None:
-    """抓取 URL 返回文本，失败返回 None。"""
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.read().decode("utf-8", errors="replace")
-    except Exception as e:
-        log(f"  抓取失败 {url[:70]}: {e}", level="WARN")
-        return None
+    """抓取 URL 返回文本，失败返回 None。429 限流时等 3 秒重试一次。"""
+    import time as _time
+    for attempt in range(2):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt == 0:
+                log(f"  429 限流，3 秒后重试 {url[:60]}")
+                _time.sleep(3)
+                continue
+            log(f"  抓取失败 {url[:70]}: HTTP {e.code}", level="WARN")
+            return None
+        except Exception as e:
+            log(f"  抓取失败 {url[:70]}: {e}", level="WARN")
+            return None
+    return None
 
 
 def is_wool_related(title: str) -> bool:
