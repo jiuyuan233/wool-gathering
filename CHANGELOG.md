@@ -59,3 +59,19 @@
 - 国内大厂：阿里百炼、智谱 GLM-4-Flash 永久免费、DeepSeek、腾讯混元、百度千帆、讯飞星火、MiniMax、字节 Coze、360 智脑、月之暗面 Kimi
 - 国外：Google Gemini、OpenAI ChatGPT、Cursor
 - Agent 产品：华为云 CodeArts、腾讯 WorkBuddy
+
+## 2026-10-19 22:35 长期免费分区 + 当月日历
+
+### 改动
+
+- 新增 `utils.is_long_term()` 函数：判断活动是否长期免费（无 end_date 或 end_date 距今 > 90 天）
+- SVG 日历改为只显示当月限时活动：时间范围固定为当月，长期活动不进时间轴
+- README 新增「♾️ 长期免费」分区：open-source + end_date 超过 3 个月的活动统一归入此分区
+- open-source 不再单独成区，已合并进长期免费分区
+- AGENT.md 新增第 4.1 节（当月日历规则）+ 第 15 节（AI 操作指南：手动新增/更新活动信息）
+
+### 效果
+
+- 当月限时活动 103 条显示在 SVG 时间轴
+- 长期免费 18 条（12 开源工具 + 6 长期 AI 羊毛）在 README 表格显示，不进时间轴
+- 总 123 条 = 限时 105 条 + 长期 18 条

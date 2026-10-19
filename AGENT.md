@@ -112,6 +112,26 @@ drive 分区在 README 里会按车型子分组渲染，顺序即列表顺序：
 **如果出现文字与横条重叠**：检查 `_esc` 是否先截断再转义、textLength 是否生效、`LEFT_LABEL_W` 是否够宽。
 不要靠调字号或行高硬挤，textLength 才是根本解。
 
+### 4.1 当月日历 + 长期免费分区
+
+**日历只显示当月限时活动**，不再显示全部历史活动：
+
+- 时间范围固定为当月 1 日到月末（前后留 1 天边距）
+- 只显示与当月有交集的限时活动（`start_date ≤ 月末 且 end_date ≥ 月初`）
+- 长期免费活动不显示在时间轴，归到 README 的「♾️ 长期免费」分区
+
+**长期免费判定**（`utils.is_long_term(a, today, threshold_days=90)`）：
+
+- 无 `end_date`（永久免费，如开源工具）→ 长期
+- `end_date` 距今超过 90 天（约 3 个月）→ 长期
+- 其余 → 限时
+
+**README 分区逻辑**（`calendar_generator.generate_readme`）：
+
+1. 限时活动按 category 分区：🤖 AI / 云服务优惠、🚗 开车线报、🎮 游戏喜加一
+2. 长期活动（含 open-source + is_long_term）统一归到「♾️ 长期免费」分区
+3. open-source 不再单独成区，已合并进长期免费分区
+
 ---
 
 ## 5. 更新流程（六时段分散全天，避开整点）
@@ -429,3 +449,81 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 - sources.json 里登记的其他 15 个平台（可扩展启用）
 - 各平台特点对比、免费游戏类型、抓取可靠性
 - 如何启用新平台的步骤
+
+---
+
+## 15. AI 操作指南：手动新增/更新活动信息
+
+当用户要求手动新增或更新某条活动信息时，按以下步骤操作。
+
+### 15.1 判断活动属于限时还是长期
+
+用 `utils.is_long_term(a)` 判定（阈值 90 天，约 3 个月）：
+
+| 条件 | 判定 | 归属分区 |
+|------|------|---------|
+| 无 `end_date` | 长期 | 「♾️ 长期免费」 |
+| `end_date` 距今 > 90 天 | 长期 | 「♾️ 长期免费」 |
+| `end_date` 距今 <= 90 天 | 限时 | 按 category（AI/开车/游戏） |
+
+**日历只显示当月限时活动**：长期活动不进 SVG 时间轴，只在 README 表格显示。
+不在当月的限时活动也不进时间轴（如 12 月才开始的活动在 10 月不显示）。
+
+### 15.2 手动新增一条活动
+
+1. 确定目标分类目录：`data/ai/`、`data/drive/`、`data/games/`、`data/open-source/`
+2. 读对应的 `activities.json`，追加一条活动对象：
+
+```json
+{
+  "id": "可读前缀-md5hash前10位",
+  "title": "活动标题",
+  "category": "ai",
+  "source_url": "来源页面 URL",
+  "claim_url": "领取页面 URL",
+  "start_date": "2026-10-19",
+  "end_date": "2026-12-31",
+  "value": "福利价值描述",
+  "requirements": ["注册账号"],
+  "description": "来源: xxx",
+  "tags": ["blog", "xxx"],
+  "discovered_at": "2026-10-19",
+  "last_seen": "2026-10-19",
+  "status": "active"
+}
+```
+
+3. **永久免费活动**：`end_date` 留空（不填），自动归到长期免费分区
+4. **长期但非永久**：`end_date` 填距今 > 90 天的日期（如 `2027-12-31`），也归到长期免费分区
+5. **限时活动**：`end_date` 填距今 <= 90 天的日期，显示在当月时间轴（如与当月有交集）
+
+### 15.3 手动更新已有活动
+
+1. 读 `data/<分类>/activities.json`，按 `id` 或 `title` 找到目标活动
+2. 修改需要更新的字段（如 `end_date`、`value`、`claim_url`）
+3. 更新 `last_seen` 为当天日期
+4. 手动改完直接写文件即可（不走 merge，merge 是旧值优先）
+
+### 15.4 改完后重新生成产物
+
+```bash
+cd /workspace/wool-gathering
+python3 scripts/collect.py finalize
+```
+
+重新生成：`docs/calendar.svg`（当月限时时间轴）+ `docs/data/`（前端 JSON）+ `README.md`（含长期免费分区）
+
+### 15.5 提交推送
+
+```bash
+git add data/ docs/ README.md CHANGELOG.md AGENT.md
+git commit -m "feat: 描述你的改动"
+git push origin main
+```
+
+### 15.6 验证清单
+
+- SVG 标题显示「当月活动时间轴（YYYY年M月）」
+- 长期活动不在 SVG 时间轴，在 README「♾️ 长期免费」分区
+- 限时活动在 SVG 时间轴（如与当月有交集）
+- 总条数 = 限时条数 + 长期条数

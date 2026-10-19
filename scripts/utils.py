@@ -98,6 +98,22 @@ def save_json(path: Path, data: Any, *, indent: int = 2) -> None:
     )
 
 
+def is_long_term(a: dict, today: date | None = None, threshold_days: int = 90) -> bool:
+    """判断是否长期免费活动。
+
+    判定标准：无 end_date（永久免费）或 end_date 距今超过 threshold_days 天（默认 90 天 ≈ 3 个月）。
+    长期活动归到「长期免费」分区，不显示在 SVG 当月时间轴里。
+    """
+    today = today or today_bj()
+    ed = a.get("end_date")
+    if not ed:
+        return True
+    end = parse_date(ed)
+    if end is None:
+        return True
+    return (end - today).days > threshold_days
+
+
 def status_of(start: date | None, end: date | None, today: date | None = None) -> str:
     """根据起止日期计算活动状态。"""
     today = today or today_bj()

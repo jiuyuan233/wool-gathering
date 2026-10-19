@@ -21,7 +21,7 @@ from xml.sax.saxutils import escape
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from utils import DOCS_DIR, log, parse_date, today_bj
+from utils import DOCS_DIR, log, parse_date, today_bj, is_long_term
 
 
 # 画布参数
@@ -107,26 +107,34 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
         output_path = DOCS_DIR / "calendar.svg"
 
     today = today_bj()
-    # 开源免费工具一直免费（长期有效），不属于限时活动，不显示在时间轴里
-    excluded = [a for a in activities if a.get("category") == "open-source"]
-    chart_acts = [a for a in activities if a.get("category") != "open-source"]
-    # 只画有日期的活动；没日期的单独计数提示
-    dated = [a for a in chart_acts if parse_date(a.get("start_date")) and parse_date(a.get("end_date"))]
-    undated = [a for a in chart_acts if a not in dated]
+    # 当月范围
+    month_start = today.replace(day=1)
+    if today.month == 12:
+        month_end = date(today.year + 1, 1, 1) - timedelta(days=1)
+    else:
+        month_end = date(today.year, today.month + 1, 1) - timedelta(days=1)
+
+    # 排除长期免费活动（open-source + end_date 超过 3 个月 + 无 end_date）
+    excluded = [a for a in activities if a.get("category") == "open-source" or is_long_term(a, today)]
+    chart_acts = [a for a in activities if a not in excluded]
+    # 有日期的活动
+    dated_all = [a for a in chart_acts if parse_date(a.get("start_date")) and parse_date(a.get("end_date"))]
+    # 只显示与当月有交集的限时活动（start ≤ 月末 且 end ≥ 月初）
+    dated = [a for a in dated_all
+             if parse_date(a["start_date"]) <= month_end and parse_date(a["end_date"]) >= month_start]
+    undated = [a for a in chart_acts if a not in dated_all]
 
     if not dated:
         # 空状态 SVG
         svg = _empty_svg(today)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         output_path.write_text(svg, encoding="utf-8")
-        log(f"已生成空状态 SVG 日历 ({output_path.name})")
+        log(f"已生成空状态 SVG 日历 ({output_path.name})，当月无限时活动")
         return output_path
 
-    # 计算时间范围：所有活动起止的 min/max，前后各留 1 天
-    min_d = min(parse_date(a["start_date"]) for a in dated) - timedelta(days=1)
-    max_d = max(parse_date(a["end_date"]) for a in dated) + timedelta(days=1)
-    if max_d <= min_d:
-        max_d = min_d + timedelta(days=7)
+    # 时间范围固定为当月（前后各留 1 天边距）
+    min_d = month_start - timedelta(days=1)
+    max_d = month_end + timedelta(days=1)
 
     n = len(dated)
     height = TOP_PAD + n * ROW_H + BOTTOM_PAD + (20 if undated else 0)
@@ -149,12 +157,12 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     # 标题
     parts.append(
         f'<text x="20" y="28" font-size="16" font-weight="600" fill="{COLOR_TEXT}">'
-        f'📅 活动时间轴</text>'
+        f'📅 当月活动时间轴（{today.year}年{today.month}月）</text>'
     )
     parts.append(
         f'<text x="20" y="48" font-size="11" fill="{COLOR_TEXT_DIM}">'
-        f'更新于 {today.isoformat()} · 共 {len(activities)} 条（{len(dated)} 条有时间轴'
-        f'，开源工具长期免费不显示）· 红线 = 今天</text>'
+        f'更新于 {today.isoformat()} · 当月限时活动 {len(dated)} 条'
+        f'，长期免费 {len(excluded)} 条见下方表格 · 红线 = 今天</text>'
     )
 
     # 时间刻度轴
@@ -295,8 +303,8 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(svg, encoding="utf-8")
     log(f"已生成 SVG 日历 {output_path.name}"
-        f"（{len(dated)} 条有时间轴，{len(undated)} 条无日期，"
-        f"开源工具 {len(excluded)} 条长期免费不显示）")
+        f"（当月限时 {len(dated)} 条，{len(undated)} 条无日期，"
+        f"长期免费 {len(excluded)} 条不显示）")
     return output_path
 
 
@@ -306,7 +314,7 @@ def _empty_svg(today: date) -> str:
 <rect width="{WIDTH}" height="120" fill="{COLOR_BG}"/>
 <text x="20" y="32" font-size="16" font-weight="600" fill="{COLOR_TEXT}">📅 活动时间轴</text>
 <text x="20" y="56" font-size="12" fill="{COLOR_TEXT_DIM}">更新于 {today.isoformat()} · 暂无活动数据</text>
-<text x="20" y="80" font-size="11" fill="{COLOR_TEXT_DIM}">等待 GitHub Actions 首次运行收集数据后，这里会显示所有活动的甘特图。</text>
+<text x="20" y="80" font-size="11" fill="{COLOR_TEXT_DIM}">当月无限时活动。长期免费活动见下方表格，其他月份活动不在此显示。</text>
 <text x="20" y="98" font-size="11" fill="{COLOR_TEXT_DIM}">每条横条代表一个活动的持续时间，红色虚线标记今天，进度填充表示当前完成度。</text>
 </svg>'''
 

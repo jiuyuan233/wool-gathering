@@ -15,6 +15,7 @@ from utils import (
     DATA_DIR,
     DOCS_DATA_DIR,
     REPO_ROOT,
+    is_long_term,
     load_json,
     log,
     now_bj,
@@ -189,9 +190,17 @@ def generate_readme() -> None:
     upcoming = [a for a in acts if a["status"] == "upcoming"]
 
     sections = []
-    for cat in CATEGORIES:
-        cat_acts = [a for a in acts if a["category"] == cat]
-        if cat == "drive" and cat_acts:
+    # 分为限时活动和长期免费活动
+    # 长期 = open-source（永久免费）或 end_date 距今超过 3 个月（is_long_term）
+    long_acts = [a for a in acts if a.get("category") == "open-source" or is_long_term(a)]
+    short_acts = [a for a in acts if a not in long_acts]
+
+    # 限时活动按 category 分区（不含 open-source，已归入长期免费）
+    for cat in ["ai", "drive", "games"]:
+        cat_acts = [a for a in short_acts if a["category"] == cat]
+        if not cat_acts:
+            continue
+        if cat == "drive":
             # 开车线报：大分区内部按车型子分组
             sections.append(_drive_section(cat_acts))
         else:
@@ -199,6 +208,13 @@ def generate_readme() -> None:
                 f"### {CAT_EMOJI[cat]} {CAT_LABEL[cat]}\n\n"
                 + _md_table(cat_acts)
             )
+    # 长期免费分区（open-source + end_date 超过 3 个月 + 无 end_date）
+    if long_acts:
+        sections.append(
+            "### ♾️ 长期免费\n\n"
+            "> 无 end_date 或 end_date 超过 3 个月的活动，不显示在当月时间轴里\n\n"
+            + _md_table(long_acts)
+        )
     body = "\n".join(sections)
 
     if not README_TEMPLATE.exists():

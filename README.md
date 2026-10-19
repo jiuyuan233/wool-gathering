@@ -63,7 +63,7 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 20:28** 北京时间
+- 更新时间：**2026-10-19 22:27** 北京时间
 - 进行中：**119** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**123** 个
 
 ---
@@ -106,29 +106,6 @@
 | 🟢 | 360智脑·免费额度 | 新用户免费额度，360智脑大模型 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://ai.360.cn/) |
 | 🟢 | 月之暗面Kimi·新用户免费额度 | 新用户免费 token 额度，Kimi K3 长上下文 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://platform.moonshot.cn/) |
 | 🟢 | 华为云CodeArts·免费试用 | 新用户免费试用，CodeArts 码道代码智能体 | 2026-10-19 ~ 2026-12-31 | — | [领取](https://www.huaweicloud.com/product/codearts.html) |
-| 🟢 | 智谱BigModel·GLM-4-Flash永久免费 | GLM-4-Flash 永久免费，GLM-4 有免费额度 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://open.bigmodel.cn/) |
-| 🟢 | 字节扣子Coze·免费搭建智能体 | 免费低代码 Agent 搭建平台，发布智能体不收费 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://www.coze.cn/) |
-| 🟢 | Google Gemini·免费版 | Gemini 免费版可用，API 有免费 tier（15 RPM） | 2026-10-19 ~ 2027-12-31 | — | [领取](https://gemini.google.com/) |
-| 🟢 | OpenAI ChatGPT·免费版 | ChatGPT 免费版可用 GPTs，API 新用户有免费额度 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://chat.openai.com/) |
-| 🟢 | Cursor·免费tier（代码Agent） | 免费版：2000 次补全 + 50 次高级请求/月 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://cursor.com/) |
-| 🟢 | 腾讯WorkBuddy·免费使用 | 全场景办公 Agent 工作台，免费使用 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://workbuddy.tencent.com/) |
-
-### 🔓 开源免费工具
-
-| 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
-|------|------|------|------|------|------|
-| 🟢 | 免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件 | — | 长期免费 | — | [领取](https://www.iplaysoft.com/artcraft.html) |
-| 🟢 | Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root) | — | 长期免费 | — | [领取](https://www.iplaysoft.com/scrcpy.html) |
-| 🟢 | 闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器) | — | 长期免费 | — | [领取](https://www.iplaysoft.com/tinyplay.html) |
-| 🟢 | MicYou for iOS &#8211; 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 长期免费 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
-| 🟢 | 10 款在 GitHub 发现的免费小工具[260919] | — | 长期免费 | — | [领取](https://www.appinn.com/10-useful-github-tools-26919/) |
-| 🟢 | Konode - 开源浏览器同步工具！跨 Chrome/Edge/Firefox 同步书签/标签页/历史 | — | 长期免费 | — | [领取](https://www.iplaysoft.com/konode.html) |
-| 🟢 | reinstall：操作系统自己重装自己？这个开源项目有点神奇 | — | 长期免费 | — | [领取](https://www.appinn.com/bin456789-reinstall/) |
-| 🟢 | 比 Finder 快 17000 倍？开源 macOS 全盘文件搜索工具：FSearch | — | 长期免费 | — | [领取](https://www.appinn.com/fsearch-for-macos/) |
-| 🟢 | CCleaner 之后，有人重新做了一款开源清理工具：FluentCleaner | — | 长期免费 | — | [领取](https://www.appinn.com/fluentcleaner/) |
-| 🟢 | 10 万 Star 开源项目 Neovim 收到 10 BTC 巨额捐赠，3 年后被网友发现，开发团队可能都不知道 | — | 长期免费 | — | [领取](https://www.appinn.com/neovim-10-btc-donation-2/) |
-| 🟢 | 单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典 | — | 长期免费 | — | [领取](https://www.appinn.com/chinese-pinyin-annotation-tool/) |
-| 🟢 | MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 长期免费 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
 
 ### 🚗 开车线报
 
@@ -224,6 +201,31 @@
 | 🟡 | Epic 免费游戏: Home - A Unique Horror Adventure | — | 2026-10-22 ~ 2026-10-29 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟡 | Epic 免费游戏: 《LISA: Definitive Edition》 | — | 2026-11-01 ~ 2026-11-10 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟡 | Epic 免费游戏: 《幽灵行者 2》 | — | 2026-12-10 ~ 2027-01-07 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
+
+### ♾️ 长期免费
+
+> 无 end_date 或 end_date 超过 3 个月的活动，不显示在当月时间轴里
+
+| 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
+|------|------|------|------|------|------|
+| 🟢 | 智谱BigModel·GLM-4-Flash永久免费 | GLM-4-Flash 永久免费，GLM-4 有免费额度 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://open.bigmodel.cn/) |
+| 🟢 | 字节扣子Coze·免费搭建智能体 | 免费低代码 Agent 搭建平台，发布智能体不收费 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://www.coze.cn/) |
+| 🟢 | Google Gemini·免费版 | Gemini 免费版可用，API 有免费 tier（15 RPM） | 2026-10-19 ~ 2027-12-31 | — | [领取](https://gemini.google.com/) |
+| 🟢 | OpenAI ChatGPT·免费版 | ChatGPT 免费版可用 GPTs，API 新用户有免费额度 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://chat.openai.com/) |
+| 🟢 | Cursor·免费tier（代码Agent） | 免费版：2000 次补全 + 50 次高级请求/月 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://cursor.com/) |
+| 🟢 | 腾讯WorkBuddy·免费使用 | 全场景办公 Agent 工作台，免费使用 | 2026-10-19 ~ 2027-12-31 | — | [领取](https://workbuddy.tencent.com/) |
+| 🟢 | 免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件 | — | 长期免费 | — | [领取](https://www.iplaysoft.com/artcraft.html) |
+| 🟢 | Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root) | — | 长期免费 | — | [领取](https://www.iplaysoft.com/scrcpy.html) |
+| 🟢 | 闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器) | — | 长期免费 | — | [领取](https://www.iplaysoft.com/tinyplay.html) |
+| 🟢 | MicYou for iOS &#8211; 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 长期免费 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
+| 🟢 | 10 款在 GitHub 发现的免费小工具[260919] | — | 长期免费 | — | [领取](https://www.appinn.com/10-useful-github-tools-26919/) |
+| 🟢 | Konode - 开源浏览器同步工具！跨 Chrome/Edge/Firefox 同步书签/标签页/历史 | — | 长期免费 | — | [领取](https://www.iplaysoft.com/konode.html) |
+| 🟢 | reinstall：操作系统自己重装自己？这个开源项目有点神奇 | — | 长期免费 | — | [领取](https://www.appinn.com/bin456789-reinstall/) |
+| 🟢 | 比 Finder 快 17000 倍？开源 macOS 全盘文件搜索工具：FSearch | — | 长期免费 | — | [领取](https://www.appinn.com/fsearch-for-macos/) |
+| 🟢 | CCleaner 之后，有人重新做了一款开源清理工具：FluentCleaner | — | 长期免费 | — | [领取](https://www.appinn.com/fluentcleaner/) |
+| 🟢 | 10 万 Star 开源项目 Neovim 收到 10 BTC 巨额捐赠，3 年后被网友发现，开发团队可能都不知道 | — | 长期免费 | — | [领取](https://www.appinn.com/neovim-10-btc-donation-2/) |
+| 🟢 | 单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典 | — | 长期免费 | — | [领取](https://www.appinn.com/chinese-pinyin-annotation-tool/) |
+| 🟢 | MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 长期免费 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
 
 
 ---
