@@ -24,9 +24,9 @@ from utils import (
 )
 
 
-CATEGORIES = ["ai", "games"]
-CAT_LABEL = {"ai": "AI 类", "games": "游戏类"}
-CAT_EMOJI = {"ai": "🤖", "games": "🎮"}  # README 里用，前端不用
+CATEGORIES = ["ai", "open-source", "games"]
+CAT_LABEL = {"ai": "AI / 云服务优惠", "open-source": "开源免费工具", "games": "游戏喜加一"}
+CAT_EMOJI = {"ai": "🤖", "open-source": "🔓", "games": "🎮"}  # README 里用，前端不用
 
 
 def _all_activities() -> list[dict]:
@@ -86,12 +86,23 @@ def generate_docs_data() -> None:
 def _md_table(acts: list[dict]) -> str:
     if not acts:
         return "_暂无活动_\n"
+    # 显式按 end_date 升序（快结束的在上），同 end_date 按 start_date 升序
+    # active 优先于 upcoming 优先于 ended
+    status_order = {"active": 0, "upcoming": 1, "ended": 2}
+    sorted_acts = sorted(
+        acts,
+        key=lambda a: (
+            status_order.get(a.get("status", ""), 3),
+            a.get("end_date") or "9999-99-99",
+            a.get("start_date") or "9999-99-99",
+        ),
+    )
     lines = [
         "| 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |",
         "|------|------|------|------|------|------|",
     ]
     status_icon = {"active": "🟢", "upcoming": "🟡", "ended": "⚫"}
-    for a in acts:
+    for a in sorted_acts:
         icon = status_icon.get(a["status"], "⚪")
         title = a["title"].replace("|", "\\|")
         value = (a.get("value") or "—").replace("|", "\\|")

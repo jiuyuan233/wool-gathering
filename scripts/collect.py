@@ -37,41 +37,17 @@ from utils import (
 )
 
 
-CATEGORIES = ["ai", "games"]
+CATEGORIES = ["ai", "open-source", "games"]
 
 
-def process_category(category: str) -> int:
-    """处理单个类别：直接收集 → 合并保存 → 标注时间。"""
-    log("=" * 60)
-    log(f"开始处理类别: {category}")
-    log(f"运行时间: {now_bj().isoformat()}")
-    log("=" * 60)
-
-    today = today_bj()
+def _merge_and_save(category: str, new_acts: list[dict], today) -> None:
+    """规范化 + 去重 + 合并写回单个类别。"""
     old_path = DATA_DIR / category / "activities.json"
     old = load_json(old_path) or []
 
-    # 1. 收集活动
-    log(f"收集 [{category}] 活动...")
-    if category == "ai":
-        # AI 板块 = 云厂商活动（代金券/免费试用/学生优惠）+ 博客聚合
-        raw_acts = collect_cloud_activities(old_acts=old)
-        raw_acts.extend(collect_blog_activities(category))
-    else:
-        # 游戏板块 = Epic/Steam/GOG 喜加一 + 博客聚合（ITAD/Reddit）
-        raw_acts = collect_games_category(category)
-        raw_acts.extend(collect_blog_activities(category))
-
-    # 2. 规范化（生成 id 等字段）+ 去重 + 合并写回
-    new_acts = []
-    for a in raw_acts:
-        norm = normalize_activity(a, category)
-        if norm:
-            new_acts.append(norm)
     new_acts = dedupe_within(new_acts)
 
     # 云厂商活动是长期活动：同 id 条目用新 end_date 刷新旧数据
-    # （merge 默认日期旧值优先，是为 AI 抽取设计的；云活动需要每天顺延）
     if category == "ai":
         new_by_id = {a["id"]: a for a in new_acts}
         for o in old:
@@ -84,7 +60,57 @@ def process_category(category: str) -> int:
 
     active = sum(1 for a in merged if a["status"] == "active")
     log(f"[{category}] 更新完成: 共 {len(merged)} 条（active={active}, 本次新增={len(new_acts)}）")
-    log(f"[{category}] 更新时间: {now_bj().isoformat()}")
+
+
+def process_category(category: str) -> int:
+    """处理单个类别：直接收集 → 合并保存 → 标注时间。"""
+    log("=" * 60)
+    log(f"开始处理类别: {category}")
+    log(f"运行时间: {now_bj().isoformat()}")
+    log("=" * 60)
+
+    today = today_bj()
+
+    # 1. 收集活动
+    log(f"收集 [{category}] 活动...")
+    if category == "ai":
+        # AI 板块 = 云厂商活动 + 博客聚合（博客可能产出 open-source 条目，需分流）
+        raw_acts = collect_cloud_activities(
+            old_acts=load_json(DATA_DIR / "ai" / "activities.json") or []
+        )
+        raw_acts.extend(collect_blog_activities("ai"))
+    elif category == "games":
+        # 游戏板块 = Epic/Steam/GOG 喜加一 + 博客聚合
+        raw_acts = collect_games_category(category)
+        raw_acts.extend(collect_blog_activities(category))
+    else:
+        # open-source 等其他类别：仅博客聚合（由 ai 模式分流触发，单独跑时也支持）
+        raw_acts = collect_blog_activities(category)
+
+    # 2. 规范化（生成 id 等字段）
+    norm_acts = []
+    for a in raw_acts:
+        # 条目自身 category 优先（开源工具会被标为 open-source）
+        act_cat = a.get("category", category)
+        norm = normalize_activity(a, act_cat)
+        if norm:
+            norm_acts.append(norm)
+
+    # 3. 按实际 category 分流保存
+    by_cat: dict[str, list[dict]] = {}
+    for a in norm_acts:
+        by_cat.setdefault(a["category"], []).append(a)
+
+    if not by_cat:
+        # 没有条目，仍要 merge 保存以刷新状态
+        _merge_and_save(category, [], today)
+    elif len(by_cat) == 1 and list(by_cat)[0] == category:
+        _merge_and_save(category, list(by_cat.values())[0], today)
+    else:
+        # 多类别分流（如 ai 模式产出 ai + open-source）
+        for cat, acts in by_cat.items():
+            _merge_and_save(cat, acts, today)
+
     log(f"类别 {category} 处理完成")
     return 0
 

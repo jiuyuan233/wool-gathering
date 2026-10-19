@@ -29,12 +29,28 @@ HEADERS = {
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
 }
 
-# 薅羊毛关键词（标题含任一即相关）
-WOOL_KEYWORDS = [
-    "免费", "限免", "喜加一", "白嫖", "赠送", "0元", "代金券", "优惠", "打折",
-    "福利", "免费领", "免费送", "free", "giveaway", "100% off",
-    "voucher", "coupon", "trial", "deal",
+# 薅羊毛价值词：标题必须含任一才算相关（单纯"免费"不够，避免讨论帖误判）
+WOOL_VALUE_WORDS = [
+    "限免", "喜加一", "代金券", "0元", "白嫖", "免费领", "免费送",
+    "赠送", "送 1 万", "送1万", "送1 万", "送 1万", "送万积分", "送积分", "送会员",
+    "年卡", "vip", "svip", "会员优惠", "低价优惠", "历史低价", "必入低价",
+    "打折", "优惠", "折扣", "8折", "9折", "半价", "特价", "特惠",
+    "限时", "周年庆", "双11", "双 11", "618", "大促", "福利",
+    "免费试用", "免费体验", "免费额度", "免费提供",
+    "免费虚拟机", "免费专业版",
+    "free", "giveaway", "100% off", "-100%",
 ]
+
+# 排除模式：标题匹配则算误判（讨论帖/广告/泛首页标题）
+WOOL_EXCLUDE_PATTERNS = [
+    r"还能.*吗", r"怎么办", r"如何.*吗", r"请教", r"问一下", r"能不能",
+    r"分享免费、小巧", r"开群发车", r"线报群", r"周刊",
+    r"感兴趣的朋友", r"快来上车",
+]
+
+# 开源工具识别：含"开源"或明显是 GitHub 免费工具，且非限时促销
+OPEN_SOURCE_HINTS = ["开源", "github 上发现", "在 github 发现", "免费小工具", "工具箱"]
+OPEN_SOURCE_EXCLUDE = ["限时", "打折", "优惠", "年卡", "vip", "赠送", "周年庆", "半价"]
 
 
 def fetch(url: str, timeout: int = 20) -> str | None:
@@ -59,9 +75,22 @@ def fetch(url: str, timeout: int = 20) -> str | None:
 
 
 def is_wool_related(title: str) -> bool:
-    """标题是否与薅羊毛相关。"""
+    """标题是否与薅羊毛相关：含价值词 + 不匹配排除模式。"""
+    # 排除讨论帖/广告/泛标题
+    for pat in WOOL_EXCLUDE_PATTERNS:
+        if re.search(pat, title):
+            return False
     t = title.lower()
-    return any(k.lower() in t for k in WOOL_KEYWORDS)
+    return any(w.lower() in t for w in WOOL_VALUE_WORDS)
+
+
+def is_open_source(title: str) -> bool:
+    """是否开源免费工具（一直免费，非限时优惠）→ 归 open-source 类。"""
+    low = title.lower()
+    if not any(h in low for h in OPEN_SOURCE_HINTS):
+        return False
+    # 含限时促销词的不算纯开源工具
+    return not any(w in low for w in OPEN_SOURCE_EXCLUDE)
 
 
 def _activity(title: str, url: str, source_name: str, category: str, desc: str = "") -> dict:
@@ -69,6 +98,7 @@ def _activity(title: str, url: str, source_name: str, category: str, desc: str =
     today = today_bj()
     return {
         "title": title.strip()[:200],
+        "category": category,
         "source_url": url,
         "claim_url": url,
         "start_date": today.isoformat(),
@@ -197,9 +227,10 @@ def parse_ggdeals(html: str) -> list[dict]:
 
 
 def parse_blog_articles(html: str, source_name: str, category: str, base_url: str = "") -> list[dict]:
-    """通用博客文章列表解析：提取标题+链接，关键词过滤。
+    """通用博客文章列表解析：提取标题+链接，关键词过滤 + 开源分流。
 
     覆盖 WordPress（entry-title）、通用 h2>a、a[title] 三种结构。
+    开源工具（is_open_source）自动归 "open-source" 类别。
     """
     acts = []
     patterns = [
@@ -213,14 +244,18 @@ def parse_blog_articles(html: str, source_name: str, category: str, base_url: st
             title = title.strip()
             if not title or title in seen:
                 continue
-            if not is_wool_related(title):
+            # 开源工具单独识别（不要求价值词）；其他要求薅羊毛价值词
+            is_oss = is_open_source(title)
+            if not is_oss and not is_wool_related(title):
                 continue
             if base_url and not url.startswith("http"):
                 url = base_url.rstrip("/") + "/" + url.lstrip("/")
             if not url.startswith("http"):
                 continue
             seen.add(title)
-            acts.append(_activity(title, url, source_name, category))
+            # 开源工具单独归类
+            actual_cat = "open-source" if is_oss else category
+            acts.append(_activity(title, url, source_name, actual_cat))
     return acts
 
 
@@ -360,8 +395,6 @@ SOURCES: dict[str, list[dict]] = {
          "parser": "iplaysoft"},
         {"name": "小众软件", "url": "https://www.appinn.com/",
          "parser": "appinn"},
-        {"name": "阮一峰周刊", "url": "https://www.ruanyifeng.com/blog/",
-         "parser": "ruanyifeng"},
         {"name": "V2EX-cloud",
          "url": "https://www.v2ex.com/api/topics/show.json?node_name=cloud",
          "parser": "v2ex_json"},
