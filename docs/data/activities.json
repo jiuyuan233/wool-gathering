@@ -638,6 +638,72 @@
     "days_left": 7
   },
   {
+    "id": "micyou-for-ios-iphone-ac18530e6d",
+    "title": "MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/micyou-for-ios/",
+    "claim_url": "https://www.appinn.com/micyou-for-ios/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "10-c119209b24",
+    "title": "自建反代还是用现成中转？免费领 10 美元算笔账",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1249943",
+    "claim_url": "https://www.v2ex.com/t/1249943",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "myna-pro-d0c0510cc5",
+    "title": "「Myna 鸣意」发布啦！赠送 Pro 会员兑换码！",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1249937",
+    "claim_url": "https://www.v2ex.com/t/1249937",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
     "id": "epic-bad-cheese-f2e34f739e",
     "title": "Epic 免费游戏: Bad Cheese",
     "category": "games",
@@ -1940,6 +2006,50 @@
     "tags": [
       "blog",
       "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "fgf-giveaway-retro-pond-sandtr-3693ac70af",
+    "title": "FGF Giveaway: Retro Pond & Sandtrix+!（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-game-the-green-light-87c1e27198",
+    "title": "[itch.io] (Game) The Green Light & The Black Within（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",

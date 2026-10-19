@@ -15,8 +15,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 13:47** 北京时间
-- 进行中：**92** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**96** 个
+- 更新时间：**2026-10-19 13:57** 北京时间
+- 进行中：**97** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**101** 个
 
 ---
 
@@ -60,6 +60,21 @@
 | 🟢 | CCleaner 之后，有人重新做了一款开源清理工具：FluentCleaner | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/fluentcleaner/) |
 | 🟢 | 10 万 Star 开源项目 Neovim 收到 10 BTC 巨额捐赠，3 年后被网友发现，开发团队可能都不知道 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/neovim-10-btc-donation-2/) |
 | 🟢 | 单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/chinese-pinyin-annotation-tool/) |
+| 🟢 | MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
+
+### 🚗 开车线报
+
+**会员车**
+
+| 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
+|------|------|------|------|------|------|
+| 🟢 | 「Myna 鸣意」发布啦！赠送 Pro 会员兑换码！ | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.v2ex.com/t/1249937) |
+
+**其他车**
+
+| 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
+|------|------|------|------|------|------|
+| 🟢 | 自建反代还是用现成中转？免费领 10 美元算笔账 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.v2ex.com/t/1249943) |
 
 ### 🎮 游戏喜加一
 
@@ -125,6 +140,8 @@
 | 🟢 | [itch.io] Lost In Transit（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://boxer-gaming.itch.io/lost-in-transit) |
 | 🟢 | [itch.io] The Failure Even Death Rejects（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://bigdeal.itch.io/the-failure-even-death-rejects) |
 | 🟢 | [itch.io] Brok（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://cowcat.itch.io/brok) |
+| 🟢 | FGF Giveaway: Retro Pond & Sandtrix+!（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/) |
+| 🟢 | [itch.io] (Game) The Green Light & The Black Within（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/) |
 | 🟢 | Epic 免费游戏: Eternal Threads | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: Castlevania Anniversary Collection | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: 纪念碑谷（Monument Valley） | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |

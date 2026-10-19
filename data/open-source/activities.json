@@ -207,5 +207,24 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active"
+  },
+  {
+    "id": "micyou-for-ios-iphone-ac18530e6d",
+    "title": "MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/micyou-for-ios/",
+    "claim_url": "https://www.appinn.com/micyou-for-ios/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
   }
 ]
