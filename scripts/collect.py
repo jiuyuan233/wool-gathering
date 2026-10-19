@@ -22,7 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from calendar_generator import generate_docs_data, generate_readme
-from dedup import dedupe_within, merge
+from dedup import dedupe_within, merge, normalize_activity
 from direct_collector import collect_category
 from svg_calendar import generate_svg
 from utils import (
@@ -47,11 +47,16 @@ def process_category(category: str) -> int:
 
     today = today_bj()
 
-    # 1. 直接收集（Reddit JSON API，不需要 AI）
+    # 1. 直接收集（官方 API，不需要 AI）
     log(f"收集 [{category}] 活动...")
-    new_acts = collect_category(category)
+    raw_acts = collect_category(category)
 
-    # 2. 合并去重 + 写回
+    # 2. 规范化（生成 id 等字段）+ 去重 + 合并写回
+    new_acts = []
+    for a in raw_acts:
+        norm = normalize_activity(a, category)
+        if norm:
+            new_acts.append(norm)
     new_acts = dedupe_within(new_acts)
     old_path = DATA_DIR / category / "activities.json"
     old = load_json(old_path) or []
