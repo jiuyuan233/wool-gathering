@@ -125,24 +125,44 @@ def parse_itad(html: str) -> list[dict]:
     return acts
 
 
+def _pretty_slug(slug: str) -> str:
+    """URL slug 美化: offrecord-episode-1 -> Offrecord Episode 1"""
+    words = slug.replace("_", "-").split("-")
+    out = []
+    for w in words:
+        if w.isdigit():
+            out.append(w)
+        else:
+            out.append(w[:1].upper() + w[1:])
+    return " ".join(out)
+
+
 def parse_itchio(html: str) -> list[dict]:
-    """itch.io 限时免费页（coming-off-free = 即将结束免费，真喜加一）。
+    """itch.io 限时免费页。
 
     itch.io 是服务端渲染，game_cell 块含作者子域链接 + 标题。
-    用多种模式宽松匹配，避免改版全挂。
+    标题优先级: a.title 文本 > data-title > title 属性 > alt > slug 美化。
     """
     acts = []
     seen: set[str] = set()
-    # 模式1: game_cell 块 + itch.io 子域链接
     blocks = re.split(r'class="game_cell', html)
     candidates = []
     for b in blocks[1:]:
         link = re.search(r'href="(https://[\w.-]+\.itch\.io/[\w-]+)"', b)
-        title = re.search(r'title="([^"]+)"', b) or re.search(r'alt="([^"]+)"', b)
-        if link:
-            candidates.append((title.group(1).strip() if title else link.group(1).rsplit("/", 1)[-1],
-                               link.group(1)))
-    # 模式2: 兜底——所有带 data-title 或 game_link 的行
+        if not link:
+            continue
+        url = link.group(1)
+        slug = url.rsplit("/", 1)[-1]
+        # 标题多级回退
+        t = (
+            re.search(r'<a[^>]*class="[^"]*\btitle\b[^"]*"[^>]*>([^<]+)</a>', b)
+            or re.search(r'data-title="([^"]+)"', b)
+            or re.search(r'title="([^"]+)"', b)
+            or re.search(r'alt="([^"]+)"', b)
+        )
+        name = (t.group(1).strip() if t else "") or _pretty_slug(slug)
+        candidates.append((name, url))
+    # 兜底：无 game_cell 结构时扫全页
     if not candidates:
         for m in re.finditer(r'href="(https://[\w.-]+\.itch\.io/[\w-]+)"[^>]*data-title="([^"]+)"', html):
             candidates.append((m.group(2).strip(), m.group(1)))
@@ -153,7 +173,7 @@ def parse_itchio(html: str) -> list[dict]:
         acts.append(_activity(
             f"[itch.io] {name}（限免）",
             url, "itch.io", "games",
-            f"itch.io 限时免费（即将转付费）: {name}",
+            f"itch.io 限时免费: {name}",
         ))
     return acts
 
