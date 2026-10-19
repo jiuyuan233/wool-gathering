@@ -175,6 +175,50 @@ def parse_reddit_freegames(json_text: str, source_name: str = "Reddit") -> list[
     return acts
 
 
+def parse_rss(xml_text: str, source_name: str, category: str, filter_wool: bool = True) -> list[dict]:
+    """通用 RSS/Atom 解析器。
+
+    支持 RSS 2.0 (<item><title><link><description>) 和
+    Atom (<entry><title><link href><content>)。
+    """
+    acts = []
+    # Atom <entry>
+    entries = re.findall(r"<entry[^>]*>(.*?)</entry>", xml_text, re.S)
+    for e in entries:
+        title = re.search(r"<title[^>]*>(.*?)</title>", e, re.S)
+        link = re.search(r'<link[^>]*href="([^"]+)"', e)
+        if not title or not link:
+            continue
+        t = re.sub(r"<[^>]+>", "", title.group(1)).strip()
+        u = link.group(1).strip()
+        if not t or not u:
+            continue
+        if filter_wool and not is_wool_related(t):
+            continue
+        acts.append(_activity(
+            f"{t}（{source_name}）",
+            u, source_name, category,
+        ))
+    # RSS 2.0 <item>
+    items = re.findall(r"<item[^>]*>(.*?)</item>", xml_text, re.S)
+    for it in items:
+        title = re.search(r"<title[^>]*>(.*?)</title>", it, re.S)
+        link = re.search(r"<link[^>]*>(.*?)</link>", it, re.S)
+        if not title or not link:
+            continue
+        t = re.sub(r"<[^>]+>", "", title.group(1)).strip()
+        u = re.sub(r"<[^>]+>", "", link.group(1)).strip()
+        if not t or not u:
+            continue
+        if filter_wool and not is_wool_related(t):
+            continue
+        acts.append(_activity(
+            f"{t}（{source_name}）",
+            u, source_name, category,
+        ))
+    return acts
+
+
 def parse_v2ex_cloud(json_text: str) -> list[dict]:
     """V2EX cloud 节点 JSON: 提取云厂商优惠讨论。"""
     acts = []
@@ -206,11 +250,11 @@ SOURCES: dict[str, list[dict]] = {
         {"name": "IsThereAnyDeal", "url": "https://isthereanydeal.com/",
          "parser": "itad"},
         {"name": "Reddit-FreeGameFindings",
-         "url": "https://www.reddit.com/r/FreeGameFindings/new.json?limit=25",
-         "parser": "reddit_json"},
+         "url": "https://www.reddit.com/r/FreeGameFindings/.rss",
+         "parser": "reddit_rss"},
         {"name": "Reddit-GameDeals",
-         "url": "https://www.reddit.com/r/GameDeals/new.json?limit=25",
-         "parser": "reddit_json"},
+         "url": "https://www.reddit.com/r/GameDeals/.rss",
+         "parser": "reddit_rss"},
     ],
     "ai": [
         {"name": "异次元软件世界", "url": "https://www.iplaysoft.com/",
@@ -255,6 +299,11 @@ def collect_blog_activities(category: str) -> list[dict]:
                 acts = parse_itad(text)
             elif parser == "reddit_json":
                 acts = parse_reddit_freegames(text, name)
+            elif parser == "reddit_rss":
+                # Reddit FreeGameFindings 里基本都是免费的，不过滤关键词
+                acts = parse_rss(text, name, "games", filter_wool=False)
+                # 限制 15 条，避免过多
+                acts = acts[:15]
             elif parser == "v2ex_json":
                 acts = parse_v2ex_cloud(text)
             elif parser == "ruanyifeng":
