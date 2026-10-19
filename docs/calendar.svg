@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="568" viewBox="0 0 940 568" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
-<rect width="940" height="568" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1268" viewBox="0 0 940 1268" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="940" height="1268" fill="#ffffff"/>
 <text x="20" y="28" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴</text>
-<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-19 · 共 16 条（16 条有日期）· 红线 = 今天</text>
+<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-19 · 共 41 条（41 条有日期）· 红线 = 今天</text>
 <line x1="210" y1="62" x2="920" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <line x1="210.0" y1="58" x2="210.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="210.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">10-14</text>
@@ -17,96 +17,221 @@
 <text x="796.1627906976744" y="54" font-size="9" fill="#6e7681" text-anchor="middle">12-24</text>
 <line x1="920.0" y1="58" x2="920.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="920.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">01-08</text>
-<line x1="251.27906976744185" y1="60" x2="251.27906976744185" y2="522" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="251.27906976744185" y1="60" x2="251.27906976744185" y2="1222" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
 <text x="251.27906976744185" y="56" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="600">今天</text>
 <line x1="10" y1="98" x2="930" y2="98" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="84" r="3" fill="#4a9eff"/>
-<text x="24" y="88" font-size="11" fill="#24292f">🟢 华为云·免费试用</text>
-<rect x="251.27906976744185" y="75" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
-<rect x="251.27906976744185" y="75" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="375.1162790697674" y="87.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<text x="24" y="88" font-size="11" fill="#24292f">🟢 双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了…</text>
+<rect x="251.27906976744185" y="75" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="75" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="126" x2="930" y2="126" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="112" r="3" fill="#4a9eff"/>
-<text x="24" y="116" font-size="11" fill="#24292f">🟢 华为云·老用户权益</text>
-<rect x="251.27906976744185" y="103" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
-<rect x="251.27906976744185" y="103" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="375.1162790697674" y="115.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<text x="24" y="116" font-size="11" fill="#24292f">🟢 免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE /</text>
+<rect x="251.27906976744185" y="103" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="103" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="154" x2="930" y2="154" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="140" r="3" fill="#4a9eff"/>
-<text x="24" y="144" font-size="11" fill="#24292f">🟢 华为云·组合购</text>
-<rect x="251.27906976744185" y="131" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
-<rect x="251.27906976744185" y="131" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="375.1162790697674" y="143.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<text x="24" y="144" font-size="11" fill="#24292f">🟢 爱奇艺 (电视端) VIP 年卡+送京东 PLUS 会员优惠 (年度低价)</text>
+<rect x="251.27906976744185" y="131" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="131" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="182" x2="930" y2="182" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="168" r="3" fill="#4a9eff"/>
-<text x="24" y="172" font-size="11" fill="#24292f">🟢 阿里云·免费试用</text>
-<rect x="251.27906976744185" y="159" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
-<rect x="251.27906976744185" y="159" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="375.1162790697674" y="171.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<text x="24" y="172" font-size="11" fill="#24292f">🟢 腾讯视频 SVIP 超级会员年卡优惠，历史低价！(支持 TV 电视端)</text>
+<rect x="251.27906976744185" y="159" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="159" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="210" x2="930" y2="210" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="196" r="3" fill="#4a9eff"/>
-<text x="24" y="200" font-size="11" fill="#24292f">🟢 阿里云·高校计划</text>
-<rect x="251.27906976744185" y="187" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
-<rect x="251.27906976744185" y="187" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="375.1162790697674" y="199.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<text x="24" y="200" font-size="11" fill="#24292f">🟢 Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏</text>
+<rect x="251.27906976744185" y="187" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="187" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="238" x2="930" y2="238" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="224" r="3" fill="#4a9eff"/>
-<text x="24" y="228" font-size="11" fill="#24292f">🟢 阿里云·新人特惠</text>
-<rect x="251.27906976744185" y="215" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
-<rect x="251.27906976744185" y="215" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="375.1162790697674" y="227.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<text x="24" y="228" font-size="11" fill="#24292f">🟢 绝对值！夸克网盘 SVIP 会员优惠年卡打折！6TB 大空间 / 不限速 / 离</text>
+<rect x="251.27906976744185" y="215" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="215" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="266" x2="930" y2="266" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="252" r="3" fill="#4ade80"/>
-<text x="24" y="256" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Bad Cheese</text>
-<rect x="218.25581395348837" y="243" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="218.25581395348837" y="243" width="36.11918604651162" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="252" r="3" fill="#4a9eff"/>
+<text x="24" y="256" font-size="11" fill="#24292f">🟢 闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控</text>
+<rect x="251.27906976744185" y="243" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="243" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="294" x2="930" y2="294" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="280" r="3" fill="#4ade80"/>
-<text x="24" y="284" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Agent A - 伪装游戏</text>
-<rect x="218.25581395348837" y="271" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="218.25581395348837" y="271" width="36.11918604651162" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="280" r="3" fill="#4a9eff"/>
+<text x="24" y="284" font-size="11" fill="#24292f">🟢 金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 P</text>
+<rect x="251.27906976744185" y="271" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="271" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="322" x2="930" y2="322" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="308" r="3" fill="#4ade80"/>
-<text x="24" y="312" font-size="11" fill="#24292f">🟢 Steam 免费周末: 免费周末</text>
-<rect x="251.27906976744185" y="299" width="24.767441860465112" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="251.27906976744185" y="299" width="6.191860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<circle cx="14" cy="308" r="3" fill="#4a9eff"/>
+<text x="24" y="312" font-size="11" fill="#24292f">🟢 复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠</text>
+<rect x="251.27906976744185" y="299" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="299" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="350" x2="930" y2="350" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="336" r="3" fill="#4ade80"/>
-<text x="24" y="340" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Eternal Threads</text>
-<rect x="251.27906976744185" y="327" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="251.27906976744185" y="327" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="309.06976744186045" y="339.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<circle cx="14" cy="336" r="3" fill="#4a9eff"/>
+<text x="24" y="340" font-size="11" fill="#24292f">🟢 VMware Workstation Pro 26H1u1 - 最新免费虚拟机软</text>
+<rect x="251.27906976744185" y="327" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="327" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="378" x2="930" y2="378" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="364" r="3" fill="#4ade80"/>
-<text x="24" y="368" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Castlevania Anniversary Colle</text>
-<rect x="251.27906976744185" y="355" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="251.27906976744185" y="355" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="309.06976744186045" y="367.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<circle cx="14" cy="364" r="3" fill="#4a9eff"/>
+<text x="24" y="368" font-size="11" fill="#24292f">🟢 开群发车啦！异次元打折线报群，感兴趣的朋友快来上车……</text>
+<rect x="251.27906976744185" y="355" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="355" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="406" x2="930" y2="406" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="392" r="3" fill="#4ade80"/>
-<text x="24" y="396" font-size="11" fill="#24292f">🟢 Epic 免费游戏: 纪念碑谷（Monument Valley）</text>
-<rect x="251.27906976744185" y="383" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
-<rect x="251.27906976744185" y="383" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="309.06976744186045" y="395.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<circle cx="14" cy="392" r="3" fill="#4a9eff"/>
+<text x="24" y="396" font-size="11" fill="#24292f">🟢 福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 </text>
+<rect x="251.27906976744185" y="383" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="383" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="434" x2="930" y2="434" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="420" r="3" fill="#4ade80"/>
-<text x="24" y="424" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Sker Ritual</text>
-<rect x="276.04651162790697" y="411" width="57.79069767441865" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<circle cx="14" cy="420" r="3" fill="#4a9eff"/>
+<text x="24" y="424" font-size="11" fill="#24292f">🟢 VideoProc Converter AI V7.8 周年庆限时赠送！AI 视</text>
+<rect x="251.27906976744185" y="411" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="411" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="462" x2="930" y2="462" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="448" r="3" fill="#4ade80"/>
-<text x="24" y="452" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Home - A Unique Horror Advent</text>
-<rect x="276.04651162790697" y="439" width="57.79069767441865" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<circle cx="14" cy="448" r="3" fill="#4a9eff"/>
+<text x="24" y="452" font-size="11" fill="#24292f">🟢 OpenCode 免费提供 DeepSeek V4.1 Flash 模型</text>
+<rect x="251.27906976744185" y="439" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="439" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="490" x2="930" y2="490" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="476" r="3" fill="#4ade80"/>
-<text x="24" y="480" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《LISA: Definitive Edition》</text>
-<rect x="358.6046511627907" y="467" width="74.3023255813954" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<circle cx="14" cy="476" r="3" fill="#4a9eff"/>
+<text x="24" y="480" font-size="11" fill="#24292f">🟢 MicYou for iOS &amp;#8211; 老 iPhone 又有新用</text>
+<rect x="251.27906976744185" y="467" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="467" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <line x1="10" y1="518" x2="930" y2="518" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="504" r="3" fill="#4ade80"/>
-<text x="24" y="508" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
-<rect x="680.5813953488372" y="495" width="231.16279069767438" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
-<rect x="210" y="530" width="14" height="10" rx="2" fill="#4a9eff"/><text x="230" y="539" font-size="10" fill="#24292f">AI 类</text>
-<rect x="290" y="530" width="14" height="10" rx="2" fill="#4ade80"/><text x="310" y="539" font-size="10" fill="#24292f">游戏类</text>
-<rect x="380" y="530" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="400" y="539" font-size="10" fill="#24292f">已结束</text>
-<rect x="470" y="530" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="490" y="539" font-size="10" fill="#24292f">未开始</text>
-<line x1="560" y1="528" x2="560" y2="542" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="568" y="539" font-size="10" fill="#24292f">今天</text>
+<circle cx="14" cy="504" r="3" fill="#4a9eff"/>
+<text x="24" y="508" font-size="11" fill="#24292f">🟢 10 款在 GitHub 发现的免费小工具[260919]</text>
+<rect x="251.27906976744185" y="495" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="495" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="546" x2="930" y2="546" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="532" r="3" fill="#4a9eff"/>
+<text x="24" y="536" font-size="11" fill="#24292f">🟢 分享免费、小巧、实用、有趣、绿色的软件</text>
+<rect x="251.27906976744185" y="523" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="523" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="574" x2="930" y2="574" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="560" r="3" fill="#4a9eff"/>
+<text x="24" y="564" font-size="11" fill="#24292f">🟢 科技爱好者周刊（第 415 期）：3D 版《看不见的城市》</text>
+<rect x="251.27906976744185" y="551" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="551" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="602" x2="930" y2="602" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="588" r="3" fill="#4a9eff"/>
+<text x="24" y="592" font-size="11" fill="#24292f">🟢 做了一个免费的 370+节点的网站测速/排障工具箱，支持 IPv6/被墙检测/M</text>
+<rect x="251.27906976744185" y="579" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="579" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="630" x2="930" y2="630" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="616" r="3" fill="#4a9eff"/>
+<text x="24" y="620" font-size="11" fill="#24292f">🟢 你们的甲骨文免费的两个小主机（amd，非 arm）还能正常 ssh 登录吗</text>
+<rect x="251.27906976744185" y="607" width="57.790697674418595" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="607" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="658" x2="930" y2="658" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="644" r="3" fill="#4a9eff"/>
+<text x="24" y="648" font-size="11" fill="#24292f">🟢 华为云·免费试用</text>
+<rect x="251.27906976744185" y="635" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="635" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="375.1162790697674" y="647.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<line x1="10" y1="686" x2="930" y2="686" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="672" r="3" fill="#4a9eff"/>
+<text x="24" y="676" font-size="11" fill="#24292f">🟢 华为云·老用户权益</text>
+<rect x="251.27906976744185" y="663" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="663" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="375.1162790697674" y="675.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<line x1="10" y1="714" x2="930" y2="714" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="700" r="3" fill="#4a9eff"/>
+<text x="24" y="704" font-size="11" fill="#24292f">🟢 华为云·组合购</text>
+<rect x="251.27906976744185" y="691" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="691" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="375.1162790697674" y="703.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<line x1="10" y1="742" x2="930" y2="742" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="728" r="3" fill="#4a9eff"/>
+<text x="24" y="732" font-size="11" fill="#24292f">🟢 阿里云·免费试用</text>
+<rect x="251.27906976744185" y="719" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="719" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="375.1162790697674" y="731.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<line x1="10" y1="770" x2="930" y2="770" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="756" r="3" fill="#4a9eff"/>
+<text x="24" y="760" font-size="11" fill="#24292f">🟢 阿里云·高校计划</text>
+<rect x="251.27906976744185" y="747" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="747" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="375.1162790697674" y="759.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<line x1="10" y1="798" x2="930" y2="798" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="784" r="3" fill="#4a9eff"/>
+<text x="24" y="788" font-size="11" fill="#24292f">🟢 阿里云·新人特惠</text>
+<rect x="251.27906976744185" y="775" width="247.67441860465118" height="18" rx="4" fill="#4a9eff" opacity="0.85"/>
+<rect x="251.27906976744185" y="775" width="7.925581395348838" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="375.1162790697674" y="787.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
+<line x1="10" y1="826" x2="930" y2="826" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="812" r="3" fill="#4ade80"/>
+<text x="24" y="816" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Bad Cheese</text>
+<rect x="218.25581395348837" y="803" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="218.25581395348837" y="803" width="36.11918604651162" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="854" x2="930" y2="854" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="840" r="3" fill="#4ade80"/>
+<text x="24" y="844" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Agent A - 伪装游戏</text>
+<rect x="218.25581395348837" y="831" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="218.25581395348837" y="831" width="36.11918604651162" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="882" x2="930" y2="882" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="868" r="3" fill="#4ade80"/>
+<text x="24" y="872" font-size="11" fill="#24292f">🟢 Steam 免费周末: 免费周末</text>
+<rect x="251.27906976744185" y="859" width="24.767441860465112" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="859" width="6.191860465116279" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="910" x2="930" y2="910" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="896" r="3" fill="#4ade80"/>
+<text x="24" y="900" font-size="11" fill="#24292f">🟢 Bad Cheese（ITAD 免费游戏）</text>
+<rect x="251.27906976744185" y="887" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="887" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="938" x2="930" y2="938" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="924" r="3" fill="#4ade80"/>
+<text x="24" y="928" font-size="11" fill="#24292f">🟢 Agent A: A puzzle in disguise（ITAD 免费游戏）</text>
+<rect x="251.27906976744185" y="915" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="915" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="966" x2="930" y2="966" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="952" r="3" fill="#4ade80"/>
+<text x="24" y="956" font-size="11" fill="#24292f">🟢 Voidtrain - Big Catch（ITAD 免费游戏）</text>
+<rect x="251.27906976744185" y="943" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="943" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="994" x2="930" y2="994" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="980" r="3" fill="#4ade80"/>
+<text x="24" y="984" font-size="11" fill="#24292f">🟢 Gear.Club Unlimited 3 - Gear.Club Signat</text>
+<rect x="251.27906976744185" y="971" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="971" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1022" x2="930" y2="1022" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1008" r="3" fill="#4ade80"/>
+<text x="24" y="1012" font-size="11" fill="#24292f">🟢 Voidtrain - Tour de Void（ITAD 免费游戏）</text>
+<rect x="251.27906976744185" y="999" width="57.790697674418595" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="999" width="7.223837209302324" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<line x1="10" y1="1050" x2="930" y2="1050" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1036" r="3" fill="#4ade80"/>
+<text x="24" y="1040" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Eternal Threads</text>
+<rect x="251.27906976744185" y="1027" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1027" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="309.06976744186045" y="1039.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="1078" x2="930" y2="1078" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1064" r="3" fill="#4ade80"/>
+<text x="24" y="1068" font-size="11" fill="#24292f">🟢 Epic 免费游戏: Castlevania Anniversary Colle</text>
+<rect x="251.27906976744185" y="1055" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1055" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="309.06976744186045" y="1067.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="1106" x2="930" y2="1106" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1092" r="3" fill="#4ade80"/>
+<text x="24" y="1096" font-size="11" fill="#24292f">🟢 Epic 免费游戏: 纪念碑谷（Monument Valley）</text>
+<rect x="251.27906976744185" y="1083" width="115.58139534883725" height="18" rx="4" fill="#4ade80" opacity="0.85"/>
+<rect x="251.27906976744185" y="1083" width="7.743953488372096" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="309.06976744186045" y="1095.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 14 天</text>
+<line x1="10" y1="1134" x2="930" y2="1134" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1120" r="3" fill="#4ade80"/>
+<text x="24" y="1124" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Sker Ritual</text>
+<rect x="276.04651162790697" y="1111" width="57.79069767441865" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="1162" x2="930" y2="1162" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1148" r="3" fill="#4ade80"/>
+<text x="24" y="1152" font-size="11" fill="#24292f">🟡 Epic 免费游戏: Home - A Unique Horror Advent</text>
+<rect x="276.04651162790697" y="1139" width="57.79069767441865" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="1190" x2="930" y2="1190" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1176" r="3" fill="#4ade80"/>
+<text x="24" y="1180" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《LISA: Definitive Edition》</text>
+<rect x="358.6046511627907" y="1167" width="74.3023255813954" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="1218" x2="930" y2="1218" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="1204" r="3" fill="#4ade80"/>
+<text x="24" y="1208" font-size="11" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
+<rect x="680.5813953488372" y="1195" width="231.16279069767438" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<rect x="210" y="1230" width="14" height="10" rx="2" fill="#4a9eff"/><text x="230" y="1239" font-size="10" fill="#24292f">AI 类</text>
+<rect x="290" y="1230" width="14" height="10" rx="2" fill="#4ade80"/><text x="310" y="1239" font-size="10" fill="#24292f">游戏类</text>
+<rect x="380" y="1230" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="400" y="1239" font-size="10" fill="#24292f">已结束</text>
+<rect x="470" y="1230" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="490" y="1239" font-size="10" fill="#24292f">未开始</text>
+<line x1="560" y1="1228" x2="560" y2="1242" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="568" y="1239" font-size="10" fill="#24292f">今天</text>
 </svg>

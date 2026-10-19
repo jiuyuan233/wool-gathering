@@ -15,8 +15,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 11:40** 北京时间
-- 进行中：**12** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**16** 个
+- 更新时间：**2026-10-19 12:09** 北京时间
+- 进行中：**37** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**41** 个
 
 ---
 
@@ -26,6 +26,26 @@
 
 | 状态 | 活动 | 福利 | 时间 | 剩余 | 领取 |
 |------|------|------|------|------|------|
+| 🟢 | 双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了… | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/1111.html) |
+| 🟢 | 免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/artcraft.html) |
+| 🟢 | 爱奇艺 (电视端) VIP 年卡+送京东 PLUS 会员优惠 (年度低价) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/news/4313) |
+| 🟢 | 腾讯视频 SVIP 超级会员年卡优惠，历史低价！(支持 TV 电视端) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/txsp-vip) |
+| 🟢 | Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/scrcpy.html) |
+| 🟢 | 绝对值！夸克网盘 SVIP 会员优惠年卡打折！6TB 大空间 / 不限速 / 离线下载 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/quark-svip) |
+| 🟢 | 闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/tinyplay.html) |
+| 🟢 | 金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/wps-vip) |
+| 🟢 | 复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/p/qiewenpaper-codex) |
+| 🟢 | VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活) | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/vmware-workstation.html) |
+| 🟢 | 开群发车啦！异次元打折线报群，感兴趣的朋友快来上车…… | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.iplaysoft.com/news/6019) |
+| 🟢 | 福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/qiewenpaper-codex-2/) |
+| 🟢 | VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/videoproc-converter-ai-v7-8/) |
+| 🟢 | OpenCode 免费提供 DeepSeek V4.1 Flash 模型 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/opencode-free-deepseek-v4-1-flash/) |
+| 🟢 | MicYou for iOS &#8211; 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
+| 🟢 | 10 款在 GitHub 发现的免费小工具[260919] | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/10-useful-github-tools-26919/) |
+| 🟢 | 分享免费、小巧、实用、有趣、绿色的软件 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.appinn.com/) |
+| 🟢 | 科技爱好者周刊（第 415 期）：3D 版《看不见的城市》 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html) |
+| 🟢 | 做了一个免费的 370+节点的网站测速/排障工具箱，支持 IPv6/被墙检测/MTR，欢迎试用 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.v2ex.com/t/1249838) |
+| 🟢 | 你们的甲骨文免费的两个小主机（amd，非 arm）还能正常 ssh 登录吗 | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.v2ex.com/t/1247409) |
 | 🟢 | 华为云·免费试用 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/free_test/index.html) |
 | 🟢 | 华为云·老用户权益 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/member.html) |
 | 🟢 | 华为云·组合购 | — | 2026-10-19 ~ 2026-11-18 | — | [领取](https://activity.huaweicloud.com/group-purchase/index.html) |
@@ -40,6 +60,11 @@
 | 🟢 | Epic 免费游戏: Bad Cheese | — | 2026-10-15 ~ 2026-10-22 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: Agent A - 伪装游戏 | — | 2026-10-15 ~ 2026-10-22 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Steam 免费周末: 免费周末 | — | 2026-10-19 ~ 2026-10-22 | — | — |
+| 🟢 | Bad Cheese（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/bad-cheese/info/) |
+| 🟢 | Agent A: A puzzle in disguise（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/agent-a-a-puzzle-in-disguise/info/) |
+| 🟢 | Voidtrain - Big Catch（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/voidtrain-big-catch/info/) |
+| 🟢 | Gear.Club Unlimited 3 - Gear.Club Signature Pack（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/gear-club-unlimited-3-gear-club-signature-pack/info/) |
+| 🟢 | Voidtrain - Tour de Void（ITAD 免费游戏） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/voidtrain-tour-de-void/info/) |
 | 🟢 | Epic 免费游戏: Eternal Threads | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: Castlevania Anniversary Collection | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: 纪念碑谷（Monument Valley） | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
