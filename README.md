@@ -15,8 +15,8 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-19 12:18** 北京时间
-- 进行中：**52** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**56** 个
+- 更新时间：**2026-10-19 12:43** 北京时间
+- 进行中：**121** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**125** 个
 
 ---
 
@@ -80,6 +80,75 @@
 | 🟢 | [Epic Games Mobile] (Game) Agent A: A puzzle in disguise（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x6nzqb/epic_games_mobile_game_agent_a_a_puzzle_in/) |
 | 🟢 | [PSA] Vampire: The Masquerade - Swansong (EGS), Caravan SandWitch (Amazon Games) are complimentary with Amazon Prime（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x6r5x4/psa_vampire_the_masquerade_swansong_egs_caravan/) |
 | 🟢 | [Steam] (DLC) Squad Weapon Skins - Recon Team Pack（Reddit-FreeGameFindings） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://www.reddit.com/r/FreeGameFindings/comments/1x6ssud/steam_dlc_squad_weapon_skins_recon_team_pack/) |
+| 🟢 | [Epic Game Store] Bad Cheese（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/bad-cheese/info/) |
+| 🟢 | [Epic Game Store] Agent A: A puzzle in disguise（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/agent-a-a-puzzle-in-disguise/info/) |
+| 🟢 | [Epic Game Store] Voidtrain - Big Catch（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/voidtrain-big-catch/info/) |
+| 🟢 | [Steam] Gear.Club Unlimited 3 - Gear.Club Signature Pack（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/gear-club-unlimited-3-gear-club-signature-pack/info/) |
+| 🟢 | [Epic Game Store] Voidtrain - Tour de Void（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/voidtrain-tour-de-void/info/) |
+| 🟢 | [Steam] squad-weapon-skins-recon-team-pack（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/) |
+| 🟢 | [itch.io] Offrecord Episode 1（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://redcap-games.itch.io/offrecord-episode-1) |
+| 🟢 | [itch.io] The Wrong Way（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://zestosyt.itch.io/the-wrong-way) |
+| 🟢 | [itch.io] Party Line（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://notsospecialgames.itch.io/party-line) |
+| 🟢 | [itch.io] Nun Massacre（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://puppetcombo.itch.io/nun-massacre) |
+| 🟢 | [itch.io] Party Line Reclassified（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://notsospecialgames.itch.io/party-line-reclassified) |
+| 🟢 | [itch.io] Thedollshop（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://ateliersento.itch.io/thedollshop) |
+| 🟢 | [itch.io] Pdm（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://puppetcombo.itch.io/pdm) |
+| 🟢 | [itch.io] Lihiman Full（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://kiwidreams-01.itch.io/lihiman-full) |
+| 🟢 | [itch.io] Fear Assessment（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://alexander-wiseman.itch.io/fear-assessment) |
+| 🟢 | [itch.io] First Contact Protocol（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://benjelter.itch.io/first-contact-protocol) |
+| 🟢 | [itch.io] Shattered Pixel Dungeon（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://shattered-pixel.itch.io/shattered-pixel-dungeon) |
+| 🟢 | [itch.io] Demetrios（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://cowcat.itch.io/demetrios) |
+| 🟢 | [itch.io] The Black Within（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://waleedzo.itch.io/the-black-within) |
+| 🟢 | [itch.io] Brutal Legend（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://doublefine.itch.io/brutal-legend) |
+| 🟢 | [itch.io] Necrosisfull C64（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://mjnurney.itch.io/necrosisfull-c64) |
+| 🟢 | [itch.io] Kalayaan Road（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://lawdgames.itch.io/kalayaan-road) |
+| 🟢 | [itch.io] Sabado Day One（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://kiwidreams-01.itch.io/sabado-day-one) |
+| 🟢 | [itch.io] Gravehearts（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://kroovv.itch.io/gravehearts) |
+| 🟢 | [itch.io] Babysitter Bloodbath（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://puppetcombo.itch.io/babysitter-bloodbath) |
+| 🟢 | [itch.io] Unearthed（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://benjelter.itch.io/unearthed) |
+| 🟢 | [itch.io] Killcache（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://verybadscavr.itch.io/killcache) |
+| 🟢 | [itch.io] Deathguest（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://honeybunny-of.itch.io/deathguest) |
+| 🟢 | [itch.io] Creature Kitchen（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://the-rat-zone.itch.io/creature-kitchen) |
+| 🟢 | [itch.io] The Midnight Bus（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://itandfeel.itch.io/the-midnight-bus) |
+| 🟢 | [itch.io] The Mayor Of Sanctuary（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://naramakesgames.itch.io/the-mayor-of-sanctuary) |
+| 🟢 | [itch.io] Trox The Reversal（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://troj4nblazing.itch.io/trox-the-reversal) |
+| 🟢 | [itch.io] Family Manners（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://nney.itch.io/family-manners) |
+| 🟢 | [itch.io] Midboss（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://eniko.itch.io/midboss) |
+| 🟢 | [itch.io] Pigeon West Call Of Gun Isekai（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://squidsquadpapi.itch.io/pigeon-west-call-of-gun-isekai) |
+| 🟢 | [itch.io] My Teacher（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://w3stgta.itch.io/my-teacher) |
+| 🟢 | [itch.io] Pixel Fireplace（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://hammertail.itch.io/pixel-fireplace) |
+| 🟢 | [itch.io] Tylers Deal（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://chodex-productions.itch.io/tylers-deal) |
+| 🟢 | [itch.io] Apothecaria Makers Market Expansion（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://blackwellwriter.itch.io/apothecaria-makers-market-expansion) |
+| 🟢 | [itch.io] Lost In Transit（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://boxer-gaming.itch.io/lost-in-transit) |
+| 🟢 | [itch.io] The Failure Even Death Rejects（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://bigdeal.itch.io/the-failure-even-death-rejects) |
+| 🟢 | [itch.io] Brok（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://cowcat.itch.io/brok) |
+| 🟢 | [itch.io] Offrecord Episode 1（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://redcap-games.itch.io/offrecord-episode-1) |
+| 🟢 | [itch.io] The Wrong Way（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://zestosyt.itch.io/the-wrong-way) |
+| 🟢 | [itch.io] Party Line（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://notsospecialgames.itch.io/party-line) |
+| 🟢 | [itch.io] Nun Massacre（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://puppetcombo.itch.io/nun-massacre) |
+| 🟢 | [itch.io] Party Line Reclassified（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://notsospecialgames.itch.io/party-line-reclassified) |
+| 🟢 | [itch.io] Lihiman Full（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://kiwidreams-01.itch.io/lihiman-full) |
+| 🟢 | [itch.io] Fear Assessment（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://alexander-wiseman.itch.io/fear-assessment) |
+| 🟢 | [itch.io] First Contact Protocol（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://benjelter.itch.io/first-contact-protocol) |
+| 🟢 | [itch.io] Shattered Pixel Dungeon（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://shattered-pixel.itch.io/shattered-pixel-dungeon) |
+| 🟢 | [itch.io] The Black Within（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://waleedzo.itch.io/the-black-within) |
+| 🟢 | [itch.io] Brutal Legend（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://doublefine.itch.io/brutal-legend) |
+| 🟢 | [itch.io] Necrosisfull C64（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://mjnurney.itch.io/necrosisfull-c64) |
+| 🟢 | [itch.io] Kalayaan Road（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://lawdgames.itch.io/kalayaan-road) |
+| 🟢 | [itch.io] Sabado Day One（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://kiwidreams-01.itch.io/sabado-day-one) |
+| 🟢 | [itch.io] Babysitter Bloodbath（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://puppetcombo.itch.io/babysitter-bloodbath) |
+| 🟢 | [itch.io] Creature Kitchen（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://the-rat-zone.itch.io/creature-kitchen) |
+| 🟢 | [itch.io] The Midnight Bus（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://itandfeel.itch.io/the-midnight-bus) |
+| 🟢 | [itch.io] The Mayor Of Sanctuary（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://naramakesgames.itch.io/the-mayor-of-sanctuary) |
+| 🟢 | [itch.io] Trox The Reversal（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://troj4nblazing.itch.io/trox-the-reversal) |
+| 🟢 | [itch.io] Family Manners（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://nney.itch.io/family-manners) |
+| 🟢 | [itch.io] Pigeon West Call Of Gun Isekai（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://squidsquadpapi.itch.io/pigeon-west-call-of-gun-isekai) |
+| 🟢 | [itch.io] My Teacher（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://w3stgta.itch.io/my-teacher) |
+| 🟢 | [itch.io] Pixel Fireplace（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://hammertail.itch.io/pixel-fireplace) |
+| 🟢 | [itch.io] Tylers Deal（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://chodex-productions.itch.io/tylers-deal) |
+| 🟢 | [itch.io] Apothecaria Makers Market Expansion（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://blackwellwriter.itch.io/apothecaria-makers-market-expansion) |
+| 🟢 | [itch.io] Lost In Transit（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://boxer-gaming.itch.io/lost-in-transit) |
+| 🟢 | [itch.io] The Failure Even Death Rejects（限免） | — | 2026-10-19 ~ 2026-10-26 | — | [领取](https://bigdeal.itch.io/the-failure-even-death-rejects) |
 | 🟢 | Epic 免费游戏: Eternal Threads | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: Castlevania Anniversary Collection | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
 | 🟢 | Epic 免费游戏: 纪念碑谷（Monument Valley） | — | 2026-10-19 ~ 2026-11-02 | — | [领取](https://store.epicgames.com/zh-CN/free-games) |
