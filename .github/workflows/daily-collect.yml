@@ -43,12 +43,10 @@ jobs:
       - name: 确定运行模式
         id: mode
         run: |
-          # 手动触发用 inputs.mode
           if [ -n "${{ github.event.inputs.mode }}" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
             echo "手动触发模式: ${{ github.event.inputs.mode }}"
           else
-            # 定时触发按时间判断
             HOUR=$(date -u +%H)
             echo "当前 UTC 小时: $HOUR"
             if [ "$HOUR" = "01" ]; then
@@ -66,19 +64,8 @@ jobs:
             fi
           fi
 
-      - name: 校验 Secrets
-        run: |
-          if [ -z "${{ secrets.AI_API_KEY }}" ]; then
-            echo "::error::缺少 Secret: AI_API_KEY"
-            exit 1
-          fi
-
       - name: 运行收集脚本
         env:
-          AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
-          AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          AI_MODEL: ${{ secrets.AI_MODEL }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
           TZ: Asia/Shanghai
         run: |
           python scripts/collect.py ${{ steps.mode.outputs.mode }}
