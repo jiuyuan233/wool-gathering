@@ -326,14 +326,14 @@ SOURCES: dict[str, list[dict]] = {
         {"name": "IsThereAnyDeal", "url": "https://isthereanydeal.com/",
          "parser": "itad"},
         {"name": "itch.io-限免",
-         "url": "https://itch.io/games/coming-off-free",
+         "urls": [
+             "https://itch.io/games/on-sale?price=free",
+             "https://itch.io/games/free",
+         ],
          "parser": "itchio"},
         {"name": "Reddit-FreeGameFindings",
          "url": "https://www.reddit.com/r/FreeGameFindings/.rss",
          "parser": "reddit_rss"},
-        {"name": "GG.deals",
-         "url": "https://gg.deals/news/free-games/",
-         "parser": "ggdeals"},
     ],
     "ai": [
         {"name": "异次元软件世界", "url": "https://www.iplaysoft.com/",
@@ -366,12 +366,22 @@ def collect_blog_activities(category: str) -> list[dict]:
 
     for src in sources:
         name = src["name"]
-        url = src["url"]
         parser = src["parser"]
-        log(f"抓取 {name}: {url[:70]}")
-        text = fetch(url)
+        # 支持多候选 URL：依次尝试直到成功
+        urls = src.get("urls") or ([src["url"]] if src.get("url") else [])
+        if not urls:
+            continue
+        text = None
+        used_url = ""
+        for u in urls:
+            log(f"抓取 {name}: {u[:70]}")
+            text = fetch(u)
+            if text:
+                used_url = u
+                break
+            log(f"  {name} 该 URL 失败，尝试下一个")
         if not text:
-            log(f"  {name} 抓取失败，跳过")
+            log(f"  {name} 全部 URL 抓取失败，跳过")
             continue
         try:
             if parser == "itad":
@@ -394,11 +404,11 @@ def collect_blog_activities(category: str) -> list[dict]:
             else:
                 # 通用博客解析
                 base = ""
-                if "iplaysoft" in url:
+                if "iplaysoft" in used_url:
                     base = "https://www.iplaysoft.com"
-                elif "appinn" in url:
+                elif "appinn" in used_url:
                     base = "https://www.appinn.com"
-                elif "ruanyifeng" in url:
+                elif "ruanyifeng" in used_url:
                     base = "https://www.ruanyifeng.com"
                 acts = parse_blog_articles(text, name, category, base)
         except Exception as e:
