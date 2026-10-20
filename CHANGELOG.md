@@ -1,25 +1,3 @@
-## 2026-10-20 13:30 两大超级分区：纯免费 + 打折优惠
-
-### 改动
-
-- **README 重组为两大超级分区**（展示层，数据层 8 子分类不变）：
-  - `### 🆓 纯免费（86 条）`：open-source + games + drive，完全免费、0 元可领取
-  - `### 💰 打折优惠（38 条）`：ai + shopping + video-vip + netdisk-vip + game-discount，有折扣但仍需付费
-  - 层级：`## 🗂 分类活动` → `### 超级分区` → `#### 子分类`，每区显示总条数和活跃数
-- **SVG 颜色改为两大色系**（保持 8 分区，颜色区分两大类）：
-  - 绿色系=纯免费：open-source #16a34a（深绿）、games #22c55e（翠绿）、drive #14b8a6（青绿）
-  - 暖色系=打折：ai #f97316（橙）、shopping #eab308（金）、video-vip #ec4899（粉）、netdisk-vip #f43f5e（玫瑰红）、game-discount #8b5cf6（紫）
-- `scripts/calendar_generator.py`：`generate_readme()` 重组为两大超级分区
-- `scripts/svg_calendar.py`：8 个颜色常量改为两大色系
-- `scripts/readme_template.md`：分类活动部分加两大超级分区说明
-- `AGENT.md` 第 2 节：加 2.0 两大超级分区说明（定义、判定规则、层级、颜色系、如何修改）
-
-### 效果
-
-- README 两大分区一目了然：纯免费 86 条 + 打折优惠 38 条
-- SVG 8 分区用绿色系/暖色系一眼区分两大类
-- 数据层不变，无需迁移
-
 # 更新日志
 
 ## 2026-10-20 新增游戏打折分区（小黑盒数据源）

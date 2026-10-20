@@ -49,23 +49,6 @@ wool-gathering/
 
 ## 2. 八大分类规则（核心，必须背下来）
 
-### 2.0 两大超级分区（README 展示层）
-
-README 和 SVG 把 8 个子分类归为两大超级分区，**这是展示层重组，数据层（data/ 目录 8 个子分类）不变**：
-
-| 超级分区 | 含义 | 包含子分类 | 颜色系 |
-|---------|------|-----------|--------|
-| **🆓 纯免费** | 完全免费、0 元可领取 | `open-source` + `games` + `drive` | 绿色系（深绿/翠绿/青绿） |
-| **💰 打折优惠** | 有折扣但仍需付费 | `ai` + `shopping` + `video-vip` + `netdisk-vip` + `game-discount` | 暖色系（橙/金/粉/玫瑰红/紫） |
-
-**判定规则**：子分类本身即决定归属——open-source/games/drive 永远归纯免费，其余永远归打折优惠。无需额外字段。
-
-**README 层级**：`## 🗂 分类活动` → `### 🆓 纯免费` / `### 💰 打折优惠` → `#### 子分类`。两大分区各自显示总条数和活跃数。
-
-**SVG 层级**：保持 8 个分区（时间轴需细粒度），但用两大色系区分——绿色系=纯免费、暖色系=打折，视觉上一眼区分两大类。
-
-**如何修改超级分区归属**：编辑 `scripts/calendar_generator.py` 的 `generate_readme()` 函数里的 `FREE_CATS` 和 `DISCOUNT_CATS` 列表，然后跑 `python3 scripts/collect.py finalize` 重新生成 README。SVG 颜色编辑 `scripts/svg_calendar.py` 的 `COLOR_*` 常量。
-
 | 类别 | 代号 | 包含什么 | 谁来识别 |
 |------|------|---------|---------|
 | AI / 云服务优惠 | `ai` | 云厂商代金券/免费额度/打折、AI 中转站优惠、博客里讲云/AI 优惠的帖 | `cloud_collector.py` + `blog_collector.py`（默认归 ai，除非命中其他规则） |
@@ -627,3 +610,92 @@ git push origin main
 - 本地需 `pip install playwright && playwright install chromium`
 - GitHub Actions 需在 workflow 里加 Playwright 安装步骤
 - 若 Playwright 不可用，`collect_heybox_discounts()` 自动跳过并告警
+
+## 16. AI 操作指南：处理 PENDING_URLS.md（用户提交网址入口）
+
+`PENDING_URLS.md` 是用户提交新网址的入口。用户在「待处理」区写网址，AI 在 Actions 运行时自动接入为数据源并抓取内容。
+
+### 16.1 文档格式
+
+```markdown
+## 待处理
+https://example.com/deal # ai
+https://another.com/free-game # games
+
+## 已处理
+<!-- AI 自动管理 -->
+```
+
+每行一个网址，`#` 后是分类注释（可选）。不写分类时 AI 按 URL 关键词自动判断。
+
+### 16.2 AI 处理流程（在 finalize 阶段执行）
+
+1. 读取 `PENDING_URLS.md` 的「待处理」区，提取所有网址行
+2. 对每个网址：
+   a. **判断分类**：用户 `#` 注释优先，否则按 URL 关键词判断（见 16.3）
+   b. **判断 type**：`xiaoheihe` → `heybox`（需 Playwright），其余 → `html`
+   c. **去重检查**：查 `data/sources.json` 是否已有相同 URL，有则标记「重复，跳过」
+   d. **添加到 sources.json**：加一条源（格式见 16.4）
+   e. **抓取内容**：用对应分类的抓取器抓取（`collect_blog_activities(category)` 或 `collect_heybox_discounts()`），提取活动信息
+   f. **添加到 activities.json**：如果抓取到内容，规范化后添加到 `data/{category}/activities.json`
+3. 把处理完的网址移到「已处理」区，附上结果（见 16.5）
+4. 跑 `python3 scripts/collect.py finalize` 重新生成 SVG + README
+5. 提交推送
+
+### 16.3 URL 分类判断规则（按优先级匹配）
+
+| URL 含关键词 | 归入分类 | type | 说明 |
+|-------------|---------|------|------|
+| `xiaoheihe` | `game-discount` | `heybox` | 小黑盒 SPA，需 Playwright 渲染 |
+| `epic` / `store.steampowered` / `gog` / `itch.io` | `games` | `html` | 游戏平台 |
+| `huaweicloud` / `aliyun` / `cloud.tencent` / `bce.baidu` | `ai` | `html` | 云厂商 |
+| `v2ex` | `drive` | `html` | V2EX 开车线报 |
+| `github` / `opensource` / `npmjs` / `pypi` | `open-source` | `html` | 开源工具 |
+| `iqiyi` / `v.qq` / `youku` / `mgtv` / `bilibili` | `video-vip` | `html` | 视频会员 |
+| `quark` / `pan.baidu` / `aliyundrive` / `115` | `netdisk-vip` | `html` | 网盘会员 |
+| `tmall` / `taobao` / `jd` / `suning` / `双11` | `shopping` | `html` | 购物促销 |
+| `appinn` / `iplaysoft` / `landian` / `xbeta` | `ai` | `html` | 软件博客（默认归 ai，会自动分流） |
+| 其余 | `ai`（默认） | `html` | 无法判断时默认 ai，抓取后按内容分流 |
+
+**注意**：软件博客（appinn/iplaysoft 等）归 `ai` 是因为 `collect_blog_activities("ai")` 会自动按 `is_open_source` / `is_shopping` / `is_video_vip` / `is_netdisk_vip` 分流到正确分类。
+
+### 16.4 添加到 sources.json 的格式
+
+```json
+{
+  "name": "从网页 <title> 或 URL 推断的简短名称",
+  "url": "用户提交的原始 URL",
+  "category": "判断的分类",
+  "type": "heybox 或 html",
+  "enabled": true,
+  "note": "用户提交 + AI 自动接入（YYYY-MM-DD）"
+}
+```
+
+**name 推断**：优先用网页 `<title>` 标签内容（截断 30 字），否则用 URL 域名。
+
+### 16.5 处理完后更新 PENDING_URLS.md
+
+把「待处理」区的已处理网址删除，在「已处理」区追加（每条一行）：
+
+```markdown
+- [2026-10-20] https://example.com/deal → ai，已添加到 sources.json，抓取到 3 条活动
+- [2026-10-20] https://another.com/free → games，重复（sources.json 已有），跳过
+- [2026-10-20] https://failed.com → ai，抓取失败（超时），已添加源但无活动
+```
+
+### 16.6 何时处理
+
+在 **finalize 阶段**（每天 20:47 北京时间，cron `47 12 * * *`）处理 `PENDING_URLS.md`。理由：
+- finalize 是整理阶段，适合做「接入新源 + 重新生成产物」的工作
+- 处理完直接跑 finalize 生成 SVG + README，一步到位
+- 不影响其他时段的抓取任务
+
+### 16.7 边界情况
+
+- **PENDING_URLS.md 不存在**：跳过，不报错
+- **「待处理」区为空**：跳过，不报错
+- **网址格式无效**（不以 http 开头）：跳过该行，在「已处理」区标记「格式无效」
+- **抓取失败**：仍添加到 sources.json（下次运行会重试），在「已处理」区标记「抓取失败」
+- **Playwright 不可用**（heybox 类型）：添加源但跳过抓取，标记「需 Playwright」
+- **分类无法判断**：默认归 `ai`，AI 抓取后按内容自动分流
