@@ -444,7 +444,7 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 
 - 每周 50000 点免费配额 + 每天 100 次请求次数配额
 - **用弱模型 `deepseek-v3-2` 省额度**，别用 pro/max/gpt-4，超出额度要付费
-- 每次跑约调 AI 30-50 次（种子源抽取），免费额度基本够。注：联网搜索补充功能暂未实现
+- 每次跑约调 AI 30-50 次（51 个种子源抽取 + 联网搜索补充），免费额度基本够
 
 ### 13.6 已收录的 AI 信息源
 
@@ -606,20 +606,7 @@ git push origin main
 5. 验证 SVG 有「游戏打折」紫色分区
 6. 提交推送
 
-**Playwright 依赖**（已在 workflow 里配置）：
-- `scripts/requirements.txt` 已含 `playwright>=1.40.0`
-- workflow 有「安装 Playwright」步骤：`playwright install chromium --with-deps`（失败时 `continue-on-error: true` 不阻塞）
-- 本地需手动：`pip install playwright && playwright install chromium`
+**Playwright 依赖**：
+- 本地需 `pip install playwright && playwright install chromium`
+- GitHub Actions 需在 workflow 里加 Playwright 安装步骤
 - 若 Playwright 不可用，`collect_heybox_discounts()` 自动跳过并告警
-
-### 17.7 workflow 已实现的功能（检查过，不是画饼）
-
-| 功能 | 实现位置 | 状态 |
-|------|---------|------|
-| 六时段定时任务 | workflow 6 个 cron | ✅ 已实现 |
-| AI 抽取活动信息 | `AI_API_KEY` env + `ai_client.py` | ✅ 已实现 |
-| Playwright 安装 | workflow「安装 Playwright」步骤 | ✅ 已实现 |
-| PENDING_URLS.md 自动处理 | `collect.py process_pending_urls()` | ✅ 已实现 |
-| PENDING_URLS.md 提交 | workflow `git add PENDING_URLS.md` | ✅ 已实现 |
-| finalize 生成 SVG+README | `collect.py finalize()` | ✅ 已实现 |
-| 联网搜索补充 | — | ❌ 暂未实现（AGENT.md 已标注） |
