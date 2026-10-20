@@ -158,14 +158,16 @@ GitHub Actions 每天自动跑六次（`.github/workflows/daily-collect.yml`）�
 
 | 北京时间 | UTC | cron | 模式 | 做什么 |
 |---------|-----|------|------|-------|
-| 06:17 | 22:17 | `17 22 * * *` | `ai-cloud` | 仅抓云厂商（华为云/阿里云/腾讯云） |
-| 09:23 | 01:23 | `23 1 * * *` | `ai-blog` | 仅抓博客聚合（ai 板块，含 open-source 分流） |
-| 11:41 | 03:41 | `41 3 * * *` | `drive` | V2EX 开车线报 |
-| 14:37 | 06:37 | `37 6 * * *` | `games-direct` | 仅抓 Epic/Steam/GOG 官方 API |
-| 16:53 | 08:53 | `53 8 * * *` | `games-blog` | 仅抓 ITAD/itch.io/Reddit/ggdeals |
+| 05:17 | 21:17 | `17 21 * * *` | `ai-cloud` | 仅抓云厂商（华为云/阿里云/腾讯云） |
+| 08:23 | 00:23 | `23 0 * * *` | `ai-blog` | 仅抓博客聚合（ai 板块，含 open-source 分流） |
+| 10:41 | 02:41 | `41 2 * * *` | `drive` | V2EX 开车线报 |
+| 13:37 | 05:37 | `37 5 * * *` | `games-direct` | 仅抓 Epic/Steam/GOG 官方 API |
+| 15:53 | 07:53 | `53 7 * * *` | `games-blog` | 仅抓 ITAD/itch.io/Reddit/ggdeals |
 | 20:47 | 12:47 | `47 12 * * *` | `finalize` | 整理：生成 SVG 日历 + 前端 JSON + README |
 
 **设计原则**：不集中在一个时间段请求免费源网站，把请求量分散到全天 6 个时段，间隔约 2-3 小时。
+
+**cron 提前说明**：GitHub Actions cron 在高峰期可能延迟 15 分钟到数小时。原 finalize 在 20:47 北京，延迟后可能到凌晨运行。现已提前到 18:47 北京，即使延迟 5 小时也是 23:47 北京，不会到凌晨。
 
 ### 5.1 命令对照（子模式）
 
@@ -610,27 +612,3 @@ git push origin main
 - 本地需 `pip install playwright && playwright install chromium`
 - GitHub Actions 需在 workflow 里加 Playwright 安装步骤
 - 若 Playwright 不可用，`collect_heybox_discounts()` 自动跳过并告警
-
-## 18. 好用 Agent 工具分区（静态，不进日历）
-
-README 里「🛠 好用 Agent 工具」分区是**静态内容**，直接写在 `scripts/readme_template.md` 模板里，不进 SVG 日历，不进 `data/` 目录。
-
-### 18.1 为什么不进日历
-
-这些工具是长期可用的推荐（不是限时活动），没有 end_date，不适合放在 SVG 时间轴上。放在 README 里作为参考即可。
-
-### 18.2 如何修改
-
-编辑 `scripts/readme_template.md` 里 `{{SECTIONS}}` 后面的「🛠 好用 Agent 工具」部分，然后跑 `python3 scripts/collect.py finalize` 重新生成 README。
-
-### 18.3 当前收录的工具
-
-| 工具 | 分类 | 自带 Key |
-|------|------|---------|
-| bolt.diy / bolt.new | 网页+沙箱 | ✅ |
-| OpenCode web | 网页 | ✅ |
-| OpenHands | 网页+Docker | ✅ |
-| Replit | 网页 IDE | ❌ |
-| CodeSandbox | 网页沙箱 | 部分 |
-| Dify / Coze | 网页 agent | ✅ |
-| LobeChat / Open WebUI | 网页聊天 | ✅ |
