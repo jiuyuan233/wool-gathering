@@ -1,3 +1,19 @@
+## 2026-10-20 12:15 小黑盒数据源完善：2条打折+社区首页源+领取链接改小黑盒
+
+### 改动
+
+- `data/game-discount/activities.json`：1 条 → 2 条（153款+169款），`claim_url` 都改为小黑盒链接
+- `data/sources.json`：52 → 54 个源（加 169 款社区直链 + 社区首页 heybox-community）
+- `scripts/blog_collector.py`：`claim_url` 从硬编码 Steam 改为 `url`（小黑盒源 URL）
+- `AGENT.md` 第 15.8 节：加社区首页源说明、强调领取链接不跳 Steam、列出当前 3 个小黑盒源
+- finalize 重新生成产物（README/SVG/docs/data）
+
+### 效果
+
+- README 游戏打折区 2 条，领取链接全部指向小黑盒（0 处 Steam 链接）
+- SVG 紫色「游戏打折」分区显示
+- docs/data/activities.json 124 条（含 2 条 game-discount）
+
 # 更新日志
 
 ## 2026-10-20 新增游戏打折分区（小黑盒数据源）

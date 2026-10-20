@@ -667,7 +667,7 @@ def collect_heybox_discounts() -> list[dict]:
                     "title": f"{title} ｜小黑盒整理",
                     "category": "game-discount",
                     "source_url": url,
-                    "claim_url": "https://store.steampowered.com/sale/steamfestival",
+                    "claim_url": url,
                     "start_date": start_date,
                     "end_date": end_date,
                     "value": value[:200],

@@ -413,6 +413,22 @@
     "category": "game-discount",
     "type": "heybox",
     "enabled": true,
-    "note": "小黑盒Steam打折信息分享帖（SPA需Playwright渲染），含新品节/尖叫节史低汇总"
+    "note": "小黑盒Steam打折信息分享帖（SPA需Playwright渲染），153款佳作，作者露露鱼"
+  },
+  {
+    "name": "小黑盒Steam打折169款",
+    "url": "https://xiaoheihe.cn/app/bbs/link/194463102",
+    "category": "game-discount",
+    "type": "heybox",
+    "enabled": true,
+    "note": "小黑盒Steam打折分享帖（社区直链，SPA需Playwright渲染），169款佳作，作者米迪拉"
+  },
+  {
+    "name": "小黑盒社区首页",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "game-discount",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区首页（SPA需Playwright渲染），用于发现新的打折/喜加一帖子"
   }
 ]

@@ -583,13 +583,19 @@ git push origin main
 
 小黑盒（xiaoheihe.cn）是游戏社区 SPA，分享帖含 Steam 新品节/尖叫节打折汇总（史低/新史低/一折以下）。需 Playwright 渲染才能获取内容。
 
+**关键规则：领取链接必须用小黑盒链接，不跳 Steam**。`claim_url` 直接用源 URL（小黑盒分享帖 API 链接或社区帖子直链），确保用户点击后留在小黑盒生态内。
+
 **数据流**：
 1. `data/sources.json` 里 `type=heybox` 的源 → `blog_collector.collect_heybox_discounts()` → Playwright 渲染 → 提取标题/日期/摘要 → 归入 `game-discount` 分区
 2. `collect.py game-discount` 触发抓取
 3. SVG 紫色（#8b5cf6）分区显示
 
+**小黑盒源类型**：
+- `type=heybox`：分享帖/打折帖，URL 形如 `https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?...&link_id=xxx`（API 分享帖）或 `https://xiaoheihe.cn/app/bbs/link/数字`（社区帖子直链）
+- `type=heybox-community`：社区首页 `https://xiaoheihe.cn/app/bbs/home`，用于发现新的打折/喜加一帖子
+
 **手动新增小黑盒打折帖**：
-1. 获取小黑盒分享帖 URL（形如 `https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?...&link_id=xxx`）
+1. 获取小黑盒帖子 URL（社区直链 `https://xiaoheihe.cn/app/bbs/link/数字` 或 API 分享帖）
 2. 在 `data/sources.json` 加一条：
    ```json
    {
@@ -610,3 +616,8 @@ git push origin main
 - 本地需 `pip install playwright && playwright install chromium`
 - GitHub Actions 需在 workflow 里加 Playwright 安装步骤
 - 若 Playwright 不可用，`collect_heybox_discounts()` 自动跳过并告警
+
+**当前小黑盒源**（3 个）：
+- 小黑盒游戏社区（153 款，作者露露鱼，API 分享帖）
+- 小黑盒 Steam 打折 169 款（作者米迪拉，社区直链）
+- 小黑盒社区首页（发现新帖用）
