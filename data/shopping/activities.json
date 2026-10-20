@@ -15,7 +15,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-20",
     "status": "active"
   },
   {
@@ -34,7 +34,26 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-20",
+    "status": "active"
+  },
+  {
+    "id": "b-11-3b5113163f",
+    "title": "年度低价！哔哩 B 站大会员双 11 年卡折扣优惠 (支持电视端)",
+    "category": "shopping",
+    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "start_date": "2026-10-20",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-20",
+    "last_seen": "2026-10-20",
     "status": "active"
   }
 ]
