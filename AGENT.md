@@ -47,17 +47,18 @@ wool-gathering/
 
 ---
 
-## 2. 七大分类规则（核心，必须背下来）
+## 2. 八大分类规则（核心，必须背下来）
 
 | 类别 | 代号 | 包含什么 | 谁来识别 |
 |------|------|---------|---------|
 | AI / 云服务优惠 | `ai` | 云厂商代金券/免费额度/打折、AI 中转站优惠、博客里讲云/AI 优惠的帖 | `cloud_collector.py` + `blog_collector.py`（默认归 ai，除非命中其他规则） |
-| 购物优惠 | `shopping` | 双11打折、红包、软件打折/赠送（WPS/VMware/VideoProc/复旦Codex等） | `blog_collector.is_shopping()` |
+| 购物优惠 | `shopping` | 双11打折、红包等纯购物促销 | `blog_collector.is_shopping()` |
 | 视频会员 | `video-vip` | 爱奇艺/腾讯视频等视频 VIP 优惠 | `blog_collector.is_video_vip()` |
 | 网盘会员 | `netdisk-vip` | 夸克/百度等网盘 SVIP 优惠 | `blog_collector.is_netdisk_vip()` |
 | 开源免费工具 | `open-source` | 一直免费的开源软件/GitHub 工具（非限时促销） | `blog_collector.is_open_source()` |
 | 开车线报 | `drive` | 群发车/上车/拼车/线报类帖子 | `blog_collector.is_drive_post()` |
 | 游戏喜加一 | `games` | Epic/Steam/GOG/itch.io 免费游戏、限免、giveaway | `direct_collector.py` + `blog_collector.py` |
+| 游戏打折 | `game-discount` | Steam 新品节/尖叫节等打折汇总（史低/新史低/一折以下） | `blog_collector.collect_heybox_discounts()`（小黑盒 SPA + Playwright 渲染） |
 
 ### 2.1 分类判定顺序（在 `blog_collector.parse_blog_articles` 里）
 
@@ -546,7 +547,7 @@ git push origin main
 ### 15.6 验证清单
 
 - SVG 标题显示「活动时间轴（YYYY年M月）」
-- SVG 有 6 个分区标题行（AI/购物/视频会员/网盘会员/开车/游戏），分区内快结束的排上面
+- SVG 有 7 个分区标题行（AI/购物/视频会员/网盘会员/开车/游戏/游戏打折），分区内快结束的排上面
 - 超过一个月的活动横条顶满整个跨度
 - 无 `end_date` 的活动不在 SVG 时间轴，在 README「♾️ 长期免费」分区
 - 有 `end_date` 的活动都在 SVG 时间轴（不管多长时间）
@@ -577,3 +578,35 @@ git push origin main
 4. 运行 `python3 scripts/collect.py finalize` 重新生成产物
 5. 验证 README 游戏表格标题含中文翻译
 6. 提交推送
+
+### 15.8 小黑盒游戏打折信息操作指南
+
+小黑盒（xiaoheihe.cn）是游戏社区 SPA，分享帖含 Steam 新品节/尖叫节打折汇总（史低/新史低/一折以下）。需 Playwright 渲染才能获取内容。
+
+**数据流**：
+1. `data/sources.json` 里 `type=heybox` 的源 → `blog_collector.collect_heybox_discounts()` → Playwright 渲染 → 提取标题/日期/摘要 → 归入 `game-discount` 分区
+2. `collect.py game-discount` 触发抓取
+3. SVG 紫色（#8b5cf6）分区显示
+
+**手动新增小黑盒打折帖**：
+1. 获取小黑盒分享帖 URL（形如 `https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?...&link_id=xxx`）
+2. 在 `data/sources.json` 加一条：
+   ```json
+   {
+     "name": "小黑盒帖子标题",
+     "url": "分享帖URL",
+     "category": "game-discount",
+     "type": "heybox",
+     "enabled": true,
+     "note": "说明"
+   }
+   ```
+3. 或直接在 `data/game-discount/activities.json` 手动加一条活动
+4. 运行 `python3 scripts/collect.py finalize` 重新生成产物
+5. 验证 SVG 有「游戏打折」紫色分区
+6. 提交推送
+
+**Playwright 依赖**：
+- 本地需 `pip install playwright && playwright install chromium`
+- GitHub Actions 需在 workflow 里加 Playwright 安装步骤
+- 若 Playwright 不可用，`collect_heybox_discounts()` 自动跳过并告警

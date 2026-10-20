@@ -584,6 +584,110 @@ def collect_blog_activities(category: str) -> list[dict]:
     return all_acts
 
 
+def collect_heybox_discounts() -> list[dict]:
+    """收集小黑盒游戏打折信息。
+
+    小黑盒是 SPA，需 Playwright 渲染才能获取内容。
+    从 data/sources.json 里 type=heybox 的源抓取分享帖，提取打折汇总信息。
+
+    Returns:
+        标准化条目列表
+    """
+    log("--- 小黑盒打折聚合器 ---")
+    all_acts: list[dict] = []
+
+    # 从 sources.json 读取 heybox 源
+    import json as _json
+    from pathlib import Path
+    sources_path = Path(__file__).parent.parent / "data" / "sources.json"
+    try:
+        with open(sources_path) as f:
+            all_sources = _json.load(f)
+    except Exception:
+        all_sources = []
+    heybox_sources = [s for s in all_sources if s.get("type") == "heybox" and s.get("enabled", True)]
+
+    if not heybox_sources:
+        log("  无小黑盒源，跳过")
+        return all_acts
+
+    # 尝试导入 Playwright
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        log("  Playwright 未安装，跳过小黑盒抓取", level="WARN")
+        return all_acts
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        for src in heybox_sources:
+            url = src["url"]
+            name = src["name"]
+            log(f"  渲染 {name}: {url[:60]}")
+            try:
+                page = browser.new_page()
+                page.goto(url, wait_until="networkidle", timeout=30000)
+                page.wait_for_timeout(3000)
+                title = page.title()
+                content = page.inner_text("body")
+                page.close()
+
+                if not title or len(content) < 100:
+                    log(f"  {name} 内容为空，跳过")
+                    continue
+
+                # 提取日期范围（如 10.20-10.27）
+                import re
+                date_match = re.search(r'(\d{1,2}\.\d{1,2})\s*[一\-~至]\s*(\d{1,2}\.\d{1,2})', content)
+                from datetime import date, timedelta
+                today = date.today()
+                start_date = today.isoformat()
+                end_date = (today + timedelta(days=7)).isoformat()
+                if date_match:
+                    m1, d1 = date_match.group(1).split(".")
+                    m2, d2 = date_match.group(2).split(".")
+                    try:
+                        start_date = f"{today.year}-{int(m1):02d}-{int(d1):02d}"
+                        end_date = f"{today.year}-{int(m2):02d}-{int(d2):02d}"
+                    except ValueError:
+                        pass
+
+                # 提取摘要（前 200 字符有用内容）
+                lines = [l.strip() for l in content.split("\n") if l.strip()]
+                summary_lines = []
+                for l in lines:
+                    if any(k in l for k in ["史低", "折扣", "新品节", "尖叫", "佳作", "款"]):
+                        summary_lines.append(l)
+                        if len(summary_lines) >= 3:
+                            break
+                value = "；".join(summary_lines) if summary_lines else ""
+
+                # 构造条目
+                act = {
+                    "title": f"{title} ｜小黑盒整理",
+                    "category": "game-discount",
+                    "source_url": url,
+                    "claim_url": "https://store.steampowered.com/sale/steamfestival",
+                    "start_date": start_date,
+                    "end_date": end_date,
+                    "value": value[:200],
+                    "requirements": [],
+                    "description": f"小黑盒用户整理的Steam打折汇总 | {start_date} ~ {end_date}",
+                    "tags": ["Steam", "打折", "小黑盒"],
+                    "discovered_at": today.isoformat() + "T00:00:00.000000+08:00",
+                    "last_seen": today.isoformat(),
+                    "status": "active",
+                }
+                all_acts.append(act)
+                log(f"  {name}: 提取 1 条 -> {title[:50]}")
+            except Exception as e:
+                log(f"  {name} 渲染失败: {e}", level="WARN")
+        browser.close()
+
+    log(f"小黑盒打折聚合器共提取 {len(all_acts)} 条")
+    return all_acts
+
+
 if __name__ == "__main__":
     # 本地测试
     import sys

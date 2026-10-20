@@ -6,7 +6,7 @@
     "source_url": "https://www.appinn.com/opencode-free-deepseek-v4-1-flash/",
     "claim_url": "https://www.appinn.com/opencode-free-deepseek-v4-1-flash/",
     "start_date": "2026-10-19",
-    "end_date": "2026-10-27",
+    "end_date": "2026-10-26",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -15,121 +15,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-20",
-    "status": "active"
-  },
-  {
-    "id": "wps-ai-vip-plus-5a8782e5e4",
-    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/wps-vip",
-    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-20",
-    "status": "active"
-  },
-  {
-    "id": "codex-1-a30d149305",
-    "title": "复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
-    "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-20",
-    "status": "active"
-  },
-  {
-    "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
-    "title": "VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
-    "claim_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-20",
-    "status": "active"
-  },
-  {
-    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
-    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/workbuddy.html",
-    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
-    "start_date": "2026-10-20",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-20",
-    "last_seen": "2026-10-20",
-    "status": "active"
-  },
-  {
-    "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
-    "title": "VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
-    "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
-    "start_date": "2026-10-20",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-20",
-    "last_seen": "2026-10-20",
-    "status": "active"
-  },
-  {
-    "id": "codex-1-8-79edcabe5f",
-    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "start_date": "2026-10-20",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-20",
-    "last_seen": "2026-10-20",
+    "last_seen": "2026-10-19",
     "status": "active"
   },
   {
@@ -363,6 +249,26 @@
     "status": "active"
   },
   {
+    "id": "ai-agent-cefaaa69",
+    "title": "智谱BigModel·GLM-4-Flash永久免费",
+    "category": "ai",
+    "source_url": "https://open.bigmodel.cn/pricing",
+    "claim_url": "https://open.bigmodel.cn/",
+    "start_date": "2026-10-19",
+    "end_date": "2027-12-31",
+    "value": "GLM-4-Flash 永久免费，GLM-4 有免费额度",
+    "requirements": [],
+    "description": "智谱 AI 开放平台，glm-4-flash 模型永久免费，OpenAI 兼容协议，base_url=https://open.bigmodel.cn/api/paas/v4",
+    "tags": [
+      "智谱",
+      "GLM",
+      "永久免费"
+    ],
+    "discovered_at": "2026-10-19T19:30:00+08:00",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
     "id": "ai-agent-190f2c96",
     "title": "DeepSeek·新用户赠送余额+低价API",
     "category": "ai",
@@ -463,6 +369,27 @@
     "status": "active"
   },
   {
+    "id": "ai-agent-1a83eebb",
+    "title": "字节扣子Coze·免费搭建智能体",
+    "category": "ai",
+    "source_url": "https://www.coze.cn/",
+    "claim_url": "https://www.coze.cn/",
+    "start_date": "2026-10-19",
+    "end_date": "2027-12-31",
+    "value": "免费低代码 Agent 搭建平台，发布智能体不收费",
+    "requirements": [],
+    "description": "字节跳动扣子（Coze），国内最主流的低代码 Agent 搭建平台，免费制作/发布智能体，底座豆包大模型",
+    "tags": [
+      "字节",
+      "Coze",
+      "扣子",
+      "免费平台"
+    ],
+    "discovered_at": "2026-10-19T19:30:00+08:00",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
     "id": "ai-agent-183e2d4d",
     "title": "360智脑·免费额度",
     "category": "ai",
@@ -498,68 +425,6 @@
       "月之暗面",
       "Moonshot",
       "新用户福利"
-    ],
-    "discovered_at": "2026-10-19T19:30:00+08:00",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "ai-agent-6013aa86",
-    "title": "华为云CodeArts·免费试用",
-    "category": "ai",
-    "source_url": "https://www.huaweicloud.com/product/codearts.html",
-    "claim_url": "https://www.huaweicloud.com/product/codearts.html",
-    "start_date": "2026-10-19",
-    "end_date": "2026-12-31",
-    "value": "新用户免费试用，CodeArts 码道代码智能体",
-    "requirements": [],
-    "description": "华为云 CodeArts 码道，研发场景 Agent 工作台，支持需求分析/编码/调试/测试，新用户免费试用",
-    "tags": [
-      "华为云",
-      "CodeArts",
-      "码道",
-      "免费试用"
-    ],
-    "discovered_at": "2026-10-19T19:30:00+08:00",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "ai-agent-cefaaa69",
-    "title": "智谱BigModel·GLM-4-Flash永久免费",
-    "category": "ai",
-    "source_url": "https://open.bigmodel.cn/pricing",
-    "claim_url": "https://open.bigmodel.cn/",
-    "start_date": "2026-10-19",
-    "end_date": "2027-12-31",
-    "value": "GLM-4-Flash 永久免费，GLM-4 有免费额度",
-    "requirements": [],
-    "description": "智谱 AI 开放平台，glm-4-flash 模型永久免费，OpenAI 兼容协议，base_url=https://open.bigmodel.cn/api/paas/v4",
-    "tags": [
-      "智谱",
-      "GLM",
-      "永久免费"
-    ],
-    "discovered_at": "2026-10-19T19:30:00+08:00",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "ai-agent-1a83eebb",
-    "title": "字节扣子Coze·免费搭建智能体",
-    "category": "ai",
-    "source_url": "https://www.coze.cn/",
-    "claim_url": "https://www.coze.cn/",
-    "start_date": "2026-10-19",
-    "end_date": "2027-12-31",
-    "value": "免费低代码 Agent 搭建平台，发布智能体不收费",
-    "requirements": [],
-    "description": "字节跳动扣子（Coze），国内最主流的低代码 Agent 搭建平台，免费制作/发布智能体，底座豆包大模型",
-    "tags": [
-      "字节",
-      "Coze",
-      "扣子",
-      "免费平台"
     ],
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
@@ -626,6 +491,27 @@
     "status": "active"
   },
   {
+    "id": "ai-agent-6013aa86",
+    "title": "华为云CodeArts·免费试用",
+    "category": "ai",
+    "source_url": "https://www.huaweicloud.com/product/codearts.html",
+    "claim_url": "https://www.huaweicloud.com/product/codearts.html",
+    "start_date": "2026-10-19",
+    "end_date": "2026-12-31",
+    "value": "新用户免费试用，CodeArts 码道代码智能体",
+    "requirements": [],
+    "description": "华为云 CodeArts 码道，研发场景 Agent 工作台，支持需求分析/编码/调试/测试，新用户免费试用",
+    "tags": [
+      "华为云",
+      "CodeArts",
+      "码道",
+      "免费试用"
+    ],
+    "discovered_at": "2026-10-19T19:30:00+08:00",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
     "id": "ai-agent-af3a32c5",
     "title": "腾讯WorkBuddy·免费使用",
     "category": "ai",
@@ -643,6 +529,63 @@
       "免费"
     ],
     "discovered_at": "2026-10-19T19:30:00+08:00",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "wps-ai-vip-plus-5a8782e5e4",
+    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/wps-vip",
+    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "codex-1-a30d149305",
+    "title": "复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
+    "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
+    "title": "VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
+    "claim_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active"
   }

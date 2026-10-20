@@ -1,55 +1,418 @@
 [
-  {"name": "华为云活动中心", "url": "https://activity.huaweicloud.com/", "category": "ai", "type": "html", "enabled": true, "note": "华为云全量优惠活动，含 AI 代金券/ModelArts 免费试用"},
-  {"name": "华为云开发者社区", "url": "https://developer.huaweicloud.com/", "category": "ai", "type": "html", "enabled": true, "note": "开发者社区活动页"},
-  {"name": "阿里云免费试用", "url": "https://free.aliyun.com/", "category": "ai", "type": "html", "enabled": true, "note": "阿里云免费试用中心，含 PAI/百炼"},
-  {"name": "阿里云百炼平台", "url": "https://bailian.console.aliyun.com/", "category": "ai", "type": "html", "enabled": true, "note": "通义大模型百炼平台，新用户免费额度"},
-  {"name": "腾讯云免费活动", "url": "https://cloud.tencent.com/act/free", "category": "ai", "type": "html", "enabled": true, "note": "腾讯云免费产品集合"},
-  {"name": "腾讯混元大模型", "url": "https://hunyuan.tencent.com/", "category": "ai", "type": "html", "enabled": true, "note": "腾讯混元开放平台，免费 token 额度"},
-  {"name": "百度千帆大模型", "url": "https://qianfan.cloud.baidu.com/", "category": "ai", "type": "html", "enabled": true, "note": "百度千帆大模型平台，新用户免费"},
-  {"name": "火山引擎优惠活动", "url": "https://www.volcengine.com/product/promotion", "category": "ai", "type": "html", "enabled": true, "note": "火山引擎全量优惠，含豆包大模型"},
-  {"name": "字节豆包", "url": "https://www.doubao.com/", "category": "ai", "type": "html", "enabled": true, "note": "字节豆包大模型，免费额度"},
-  {"name": "智谱开放平台", "url": "https://open.bigmodel.cn/", "category": "ai", "type": "html", "enabled": true, "note": "智谱 GLM 开放平台，新用户免费 token"},
-  {"name": "Kimi 开放平台", "url": "https://platform.moonshot.cn/", "category": "ai", "type": "html", "enabled": true, "note": "月之暗面 Kimi，免费额度"},
-  {"name": "DeepSeek 开放平台", "url": "https://www.deepseek.com/", "category": "ai", "type": "html", "enabled": true, "note": "DeepSeek 官方，新用户免费 token"},
-  {"name": "讯飞星火开放平台", "url": "https://xinghuo.xfyun.cn/", "category": "ai", "type": "html", "enabled": true, "note": "讯飞星火大模型，免费额度"},
-  {"name": "MiniMax 开放平台", "url": "https://www.minimaxi.com/", "category": "ai", "type": "html", "enabled": true, "note": "MiniMax 大模型，免费额度"},
-  {"name": "Coze 扣子", "url": "https://www.coze.cn/", "category": "ai", "type": "html", "enabled": true, "note": "字节 Coze 智能体平台"},
-  {"name": "ModelScope 魔搭", "url": "https://www.modelscope.cn/", "category": "ai", "type": "html", "enabled": true, "note": "阿里魔搭社区，免费模型推理"},
-  {"name": "硅基流动", "url": "https://siliconflow.cn/", "category": "ai", "type": "html", "enabled": true, "note": "硅基流动，免费模型推理额度"},
-  {"name": "零一万物开放平台", "url": "https://platform.lingyiwanwu.com/", "category": "ai", "type": "html", "enabled": true, "note": "零一万物 Yi 大模型"},
-  {"name": "阶跃星辰开放平台", "url": "https://platform.stepfun.com/", "category": "ai", "type": "html", "enabled": true, "note": "阶跃星辰 Step 大模型"},
-  {"name": "阿里天池", "url": "https://tianchi.aliyun.com/", "category": "ai", "type": "html", "enabled": true, "note": "天池竞赛/免费算力活动"},
-  {"name": "Groq", "url": "https://groq.com/", "category": "ai", "type": "html", "enabled": true, "note": "Groq 超快推理，免费额度（Action 海外可访问）"},
-  {"name": "Google AI Studio", "url": "https://aistudio.google.com/", "category": "ai", "type": "html", "enabled": true, "note": "Google AI Studio 免费 Gemini（Action 海外可访问）"},
-  {"name": "HuggingFace", "url": "https://huggingface.co/", "category": "ai", "type": "html", "enabled": true, "note": "HF 免费推理 Spaces（Action 海外可访问）"},
-
-  {"name": "Epic 免费游戏(中文)", "url": "https://store.epicgames.com/zh-CN/free-games", "category": "games", "type": "html", "enabled": true, "note": "Epic 每周免费游戏，喜加一核心源（页面可能 403，AI 联网搜索兜底）"},
-  {"name": "Epic 免费游戏(英文)", "url": "https://www.epicgames.com/store/en-US/free-games", "category": "games", "type": "html", "enabled": true, "note": "Epic 英文版免费游戏页（反爬可能 403，AI 搜索兜底）"},
-  {"name": "Steam 限免搜索", "url": "https://store.steampowered.com/search/?maxprice=free&specials=1", "category": "games", "type": "html", "enabled": true, "note": "Steam 限免游戏搜索（Action 海外可访问）"},
-  {"name": "Steam 免费游戏", "url": "https://store.steampowered.com/genre/Free%20to%20Play", "category": "games", "type": "html", "enabled": true, "note": "Steam 免费游戏分类（Action 海外可访问）"},
-  {"name": "SteamDB 限免", "url": "https://steamdb.info/upcoming/free/", "category": "games", "type": "html", "enabled": true, "note": "SteamDB 即将限免列表（反爬可能 403，AI 搜索兜底）"},
-  {"name": "GOG 免费游戏", "url": "https://www.gog.com/en/games?priceRange=0,0", "category": "games", "type": "html", "enabled": true, "note": "GOG 免费游戏列表"},
-  {"name": "Humble Bundle 商店", "url": "https://www.humblebundle.com/store", "category": "games", "type": "html", "enabled": true, "note": "Humble 限时免费游戏"},
-  {"name": "Humble 免费搜索", "url": "https://www.humblebundle.com/store/search?sort=discount&filter=onsale&price=free", "category": "games", "type": "html", "enabled": true, "note": "Humble 免费游戏直接搜索"},
-  {"name": "itch.io 免费游戏", "url": "https://itch.io/game/free", "category": "games", "type": "html", "enabled": true, "note": "itch.io 独立游戏免费区（Action 海外可访问）"},
-  {"name": "Amazon Prime Gaming", "url": "https://gaming.amazon.com/home", "category": "games", "type": "html", "enabled": true, "note": "Amazon Prime 每月免费游戏（喜加一重要源）"},
-  {"name": "IsThereAnyDeal", "url": "https://isthereanydeal.com/", "category": "games", "type": "html", "enabled": true, "note": "游戏比价聚合，可查降到 0 元的"},
-  {"name": "Fanatical", "url": "https://www.fanatical.com/", "category": "games", "type": "html", "enabled": true, "note": "Fanatical 游戏 bundle，偶有限免"},
-  {"name": "IndieGala", "url": "https://www.indiegala.com/", "category": "games", "type": "html", "enabled": true, "note": "IndieGala 独立游戏，偶有免费领"},
-  {"name": "Green Man Gaming", "url": "https://www.greenmangaming.com/", "category": "games", "type": "html", "enabled": true, "note": "Green Man Gaming 商店"},
-  {"name": "Ubisoft 游戏", "url": "https://www.ubisoft.com/en-us/games", "category": "games", "type": "html", "enabled": true, "note": "育碧免费活动/周免"},
-  {"name": "EA 游戏", "url": "https://www.ea.com/games", "category": "games", "type": "html", "enabled": true, "note": "EA On the House 免费游戏"},
-  {"name": "Nintendo", "url": "https://www.nintendo.com/", "category": "games", "type": "html", "enabled": true, "note": "任天堂免费试玩/活动"},
-  {"name": "Xbox games", "url": "https://www.xbox.com/en-US/games", "category": "games", "type": "html", "enabled": true, "note": "Xbox Games with Gold 金会员免费"},
-  {"name": "PlayStation Store", "url": "https://store.playstation.com/zh-hans-hk/pages/latest", "category": "games", "type": "html", "enabled": true, "note": "PSN 限时免费/会员免费游戏"},
-  {"name": "TapTap 游戏", "url": "https://www.taptap.io/", "category": "games", "type": "html", "enabled": true, "note": "TapTap 手游礼包/公测活动"},
-  {"name": "SteamGifts", "url": "https://www.steamgifts.com/", "category": "games", "type": "html", "enabled": true, "note": "Steam 礼物赠送社区（反爬可能 403，AI 搜索兜底）"},
-  {"name": "Reddit FreeGameFindings", "url": "https://www.reddit.com/r/FreeGameFindings/", "category": "games", "type": "html", "enabled": true, "note": "Reddit 免费游戏社区聚合（Action 海外可访问）"},
-  {"name": "Reddit GameDeals", "url": "https://www.reddit.com/r/GameDeals/", "category": "games", "type": "html", "enabled": true, "note": "Reddit 游戏优惠社区（Action 海外可访问）"},
-  {"name": "Reddit FreeGamesOnSteam", "url": "https://www.reddit.com/r/FreeGamesOnSteam/", "category": "games", "type": "html", "enabled": true, "note": "Reddit Steam 免费游戏（Action 海外可访问）"},
-
-  {"name": "小众软件", "url": "https://www.appinn.com/", "category": "mixed", "type": "html", "enabled": true, "note": "小众软件 限免/免费软件推荐"},
-  {"name": "异次元软件", "url": "https://www.iplaysoft.com/", "category": "mixed", "type": "html", "enabled": true, "note": "异次元 限免/免费资源"},
-  {"name": "赠人玫瑰", "url": "https://free.apprcn.com/", "category": "mixed", "type": "html", "enabled": true, "note": "赠人玫瑰 限免软件聚合"},
-  {"name": "V2EX 福利节点", "url": "https://www.v2ex.com/?tab=deals", "category": "mixed", "type": "html", "enabled": true, "note": "V2EX 福利节点（Action 海外可访问）"}
+  {
+    "name": "华为云活动中心",
+    "url": "https://activity.huaweicloud.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "华为云全量优惠活动，含 AI 代金券/ModelArts 免费试用"
+  },
+  {
+    "name": "华为云开发者社区",
+    "url": "https://developer.huaweicloud.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "开发者社区活动页"
+  },
+  {
+    "name": "阿里云免费试用",
+    "url": "https://free.aliyun.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "阿里云免费试用中心，含 PAI/百炼"
+  },
+  {
+    "name": "阿里云百炼平台",
+    "url": "https://bailian.console.aliyun.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "通义大模型百炼平台，新用户免费额度"
+  },
+  {
+    "name": "腾讯云免费活动",
+    "url": "https://cloud.tencent.com/act/free",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "腾讯云免费产品集合"
+  },
+  {
+    "name": "腾讯混元大模型",
+    "url": "https://hunyuan.tencent.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "腾讯混元开放平台，免费 token 额度"
+  },
+  {
+    "name": "百度千帆大模型",
+    "url": "https://qianfan.cloud.baidu.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "百度千帆大模型平台，新用户免费"
+  },
+  {
+    "name": "火山引擎优惠活动",
+    "url": "https://www.volcengine.com/product/promotion",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "火山引擎全量优惠，含豆包大模型"
+  },
+  {
+    "name": "字节豆包",
+    "url": "https://www.doubao.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "字节豆包大模型，免费额度"
+  },
+  {
+    "name": "智谱开放平台",
+    "url": "https://open.bigmodel.cn/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "智谱 GLM 开放平台，新用户免费 token"
+  },
+  {
+    "name": "Kimi 开放平台",
+    "url": "https://platform.moonshot.cn/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "月之暗面 Kimi，免费额度"
+  },
+  {
+    "name": "DeepSeek 开放平台",
+    "url": "https://www.deepseek.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "DeepSeek 官方，新用户免费 token"
+  },
+  {
+    "name": "讯飞星火开放平台",
+    "url": "https://xinghuo.xfyun.cn/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "讯飞星火大模型，免费额度"
+  },
+  {
+    "name": "MiniMax 开放平台",
+    "url": "https://www.minimaxi.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "MiniMax 大模型，免费额度"
+  },
+  {
+    "name": "Coze 扣子",
+    "url": "https://www.coze.cn/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "字节 Coze 智能体平台"
+  },
+  {
+    "name": "ModelScope 魔搭",
+    "url": "https://www.modelscope.cn/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "阿里魔搭社区，免费模型推理"
+  },
+  {
+    "name": "硅基流动",
+    "url": "https://siliconflow.cn/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "硅基流动，免费模型推理额度"
+  },
+  {
+    "name": "零一万物开放平台",
+    "url": "https://platform.lingyiwanwu.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "零一万物 Yi 大模型"
+  },
+  {
+    "name": "阶跃星辰开放平台",
+    "url": "https://platform.stepfun.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "阶跃星辰 Step 大模型"
+  },
+  {
+    "name": "阿里天池",
+    "url": "https://tianchi.aliyun.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "天池竞赛/免费算力活动"
+  },
+  {
+    "name": "Groq",
+    "url": "https://groq.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "Groq 超快推理，免费额度（Action 海外可访问）"
+  },
+  {
+    "name": "Google AI Studio",
+    "url": "https://aistudio.google.com/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "Google AI Studio 免费 Gemini（Action 海外可访问）"
+  },
+  {
+    "name": "HuggingFace",
+    "url": "https://huggingface.co/",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "HF 免费推理 Spaces（Action 海外可访问）"
+  },
+  {
+    "name": "Epic 免费游戏(中文)",
+    "url": "https://store.epicgames.com/zh-CN/free-games",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Epic 每周免费游戏，喜加一核心源（页面可能 403，AI 联网搜索兜底）"
+  },
+  {
+    "name": "Epic 免费游戏(英文)",
+    "url": "https://www.epicgames.com/store/en-US/free-games",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Epic 英文版免费游戏页（反爬可能 403，AI 搜索兜底）"
+  },
+  {
+    "name": "Steam 限免搜索",
+    "url": "https://store.steampowered.com/search/?maxprice=free&specials=1",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Steam 限免游戏搜索（Action 海外可访问）"
+  },
+  {
+    "name": "Steam 免费游戏",
+    "url": "https://store.steampowered.com/genre/Free%20to%20Play",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Steam 免费游戏分类（Action 海外可访问）"
+  },
+  {
+    "name": "SteamDB 限免",
+    "url": "https://steamdb.info/upcoming/free/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "SteamDB 即将限免列表（反爬可能 403，AI 搜索兜底）"
+  },
+  {
+    "name": "GOG 免费游戏",
+    "url": "https://www.gog.com/en/games?priceRange=0,0",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "GOG 免费游戏列表"
+  },
+  {
+    "name": "Humble Bundle 商店",
+    "url": "https://www.humblebundle.com/store",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Humble 限时免费游戏"
+  },
+  {
+    "name": "Humble 免费搜索",
+    "url": "https://www.humblebundle.com/store/search?sort=discount&filter=onsale&price=free",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Humble 免费游戏直接搜索"
+  },
+  {
+    "name": "itch.io 免费游戏",
+    "url": "https://itch.io/game/free",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "itch.io 独立游戏免费区（Action 海外可访问）"
+  },
+  {
+    "name": "Amazon Prime Gaming",
+    "url": "https://gaming.amazon.com/home",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Amazon Prime 每月免费游戏（喜加一重要源）"
+  },
+  {
+    "name": "IsThereAnyDeal",
+    "url": "https://isthereanydeal.com/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "游戏比价聚合，可查降到 0 元的"
+  },
+  {
+    "name": "Fanatical",
+    "url": "https://www.fanatical.com/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Fanatical 游戏 bundle，偶有限免"
+  },
+  {
+    "name": "IndieGala",
+    "url": "https://www.indiegala.com/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "IndieGala 独立游戏，偶有免费领"
+  },
+  {
+    "name": "Green Man Gaming",
+    "url": "https://www.greenmangaming.com/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Green Man Gaming 商店"
+  },
+  {
+    "name": "Ubisoft 游戏",
+    "url": "https://www.ubisoft.com/en-us/games",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "育碧免费活动/周免"
+  },
+  {
+    "name": "EA 游戏",
+    "url": "https://www.ea.com/games",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "EA On the House 免费游戏"
+  },
+  {
+    "name": "Nintendo",
+    "url": "https://www.nintendo.com/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "任天堂免费试玩/活动"
+  },
+  {
+    "name": "Xbox games",
+    "url": "https://www.xbox.com/en-US/games",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Xbox Games with Gold 金会员免费"
+  },
+  {
+    "name": "PlayStation Store",
+    "url": "https://store.playstation.com/zh-hans-hk/pages/latest",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "PSN 限时免费/会员免费游戏"
+  },
+  {
+    "name": "TapTap 游戏",
+    "url": "https://www.taptap.io/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "TapTap 手游礼包/公测活动"
+  },
+  {
+    "name": "SteamGifts",
+    "url": "https://www.steamgifts.com/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Steam 礼物赠送社区（反爬可能 403，AI 搜索兜底）"
+  },
+  {
+    "name": "Reddit FreeGameFindings",
+    "url": "https://www.reddit.com/r/FreeGameFindings/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Reddit 免费游戏社区聚合（Action 海外可访问）"
+  },
+  {
+    "name": "Reddit GameDeals",
+    "url": "https://www.reddit.com/r/GameDeals/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Reddit 游戏优惠社区（Action 海外可访问）"
+  },
+  {
+    "name": "Reddit FreeGamesOnSteam",
+    "url": "https://www.reddit.com/r/FreeGamesOnSteam/",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "Reddit Steam 免费游戏（Action 海外可访问）"
+  },
+  {
+    "name": "小众软件",
+    "url": "https://www.appinn.com/",
+    "category": "mixed",
+    "type": "html",
+    "enabled": true,
+    "note": "小众软件 限免/免费软件推荐"
+  },
+  {
+    "name": "异次元软件",
+    "url": "https://www.iplaysoft.com/",
+    "category": "mixed",
+    "type": "html",
+    "enabled": true,
+    "note": "异次元 限免/免费资源"
+  },
+  {
+    "name": "赠人玫瑰",
+    "url": "https://free.apprcn.com/",
+    "category": "mixed",
+    "type": "html",
+    "enabled": true,
+    "note": "赠人玫瑰 限免软件聚合"
+  },
+  {
+    "name": "V2EX 福利节点",
+    "url": "https://www.v2ex.com/?tab=deals",
+    "category": "mixed",
+    "type": "html",
+    "enabled": true,
+    "note": "V2EX 福利节点（Action 海外可访问）"
+  },
+  {
+    "name": "小黑盒游戏社区",
+    "url": "https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=1aa472ac9a13",
+    "category": "game-discount",
+    "type": "heybox",
+    "enabled": true,
+    "note": "小黑盒Steam打折信息分享帖（SPA需Playwright渲染），含新品节/尖叫节史低汇总"
+  }
 ]

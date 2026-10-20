@@ -45,7 +45,7 @@ from utils import (
 )
 
 
-CATEGORIES = ["ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip"]
+CATEGORIES = ["ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip", "game-discount"]
 
 
 def _merge_and_save(category: str, new_acts: list[dict], today) -> None:
@@ -103,6 +103,10 @@ def process_category(category: str, subset: str = "all") -> int:
             raw_acts.extend(collect_games_category(category))
         if subset in ("all", "blog"):
             raw_acts.extend(collect_blog_activities(category))
+    elif category == "game-discount":
+        # 游戏打折 = 小黑盒分享帖（SPA需Playwright渲染）
+        from blog_collector import collect_heybox_discounts
+        raw_acts = collect_heybox_discounts()
     else:
         # open-source / drive 等其他类别：仅博客聚合
         # （open-source 由 ai 模式分流触发；drive 模式抓 V2EX，云优惠讨论自动分流回 ai）

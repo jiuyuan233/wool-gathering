@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="3328" viewBox="0 0 940 3328" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
-<rect width="940" height="3328" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="3382" viewBox="0 0 940 3382" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="940" height="3382" fill="#ffffff"/>
 <text x="20" y="28" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴（2026年10月）</text>
-<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-20 · 有时间限制活动 109 条，开源工具 13 条不显示 · 红线 = 今天 · 超一个月顶满</text>
+<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-10-20 · 有时间限制活动 110 条，开源工具 13 条不显示 · 红线 = 今天 · 超一个月顶满</text>
 <line x1="250" y1="62" x2="920" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <line x1="250.0" y1="58" x2="250.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="250.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">09-30</text>
@@ -17,7 +17,7 @@
 <text x="794.375" y="54" font-size="9" fill="#6e7681" text-anchor="middle">10-26</text>
 <line x1="920.0" y1="58" x2="920.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="920.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">11-01</text>
-<line x1="668.75" y1="60" x2="668.75" y2="3282" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="668.75" y1="60" x2="668.75" y2="3336" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
 <text x="668.75" y="56" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="600">今天</text>
 <rect x="10" y="70" width="920" height="20" rx="4" fill="#4a9eff" opacity="0.12"/>
 <text x="20" y="84" font-size="13" font-weight="600" fill="#4a9eff">AI / 云服务（30 条）</text>
@@ -677,13 +677,21 @@
 <circle cx="14" cy="3264" r="3" fill="#4ade80"/>
 <text x="24" y="3268" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
 <rect x="920" y="3255" width="2" height="18" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
-<rect x="250" y="3290" width="14" height="10" rx="2" fill="#4a9eff"/><text x="270" y="3299" font-size="10" fill="#24292f">AI / 云服务</text>
-<rect x="345" y="3290" width="14" height="10" rx="2" fill="#f59e0b"/><text x="365" y="3299" font-size="10" fill="#24292f">购物</text>
-<rect x="405" y="3290" width="14" height="10" rx="2" fill="#ec4899"/><text x="425" y="3299" font-size="10" fill="#24292f">视频会员</text>
-<rect x="480" y="3290" width="14" height="10" rx="2" fill="#06b6d4"/><text x="500" y="3299" font-size="10" fill="#24292f">网盘</text>
-<rect x="540" y="3290" width="14" height="10" rx="2" fill="#fb923c"/><text x="560" y="3299" font-size="10" fill="#24292f">开车</text>
-<rect x="600" y="3290" width="14" height="10" rx="2" fill="#4ade80"/><text x="620" y="3299" font-size="10" fill="#24292f">游戏</text>
-<rect x="535" y="3290" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="3299" font-size="10" fill="#24292f">已结束</text>
-<rect x="625" y="3290" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="3299" font-size="10" fill="#24292f">未开始</text>
-<line x1="715" y1="3288" x2="715" y2="3302" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="3299" font-size="10" fill="#24292f">今天</text>
+<rect x="10" y="3278" width="920" height="20" rx="4" fill="#8b5cf6" opacity="0.12"/>
+<text x="20" y="3292" font-size="13" font-weight="600" fill="#8b5cf6">游戏打折（1 条）</text>
+<line x1="10" y1="3332" x2="930" y2="3332" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3318" r="3" fill="#8b5cf6"/>
+<text x="24" y="3322" font-size="12" fill="#24292f">🟢 【10.20】Steam新品节打折：15…</text>
+<rect x="668.75" y="3309" width="146.5625" height="18" rx="4" fill="#8b5cf6" opacity="0.85"/>
+<rect x="668.75" y="3309" width="18.3203125" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="742.03125" y="3321.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<rect x="250" y="3344" width="14" height="10" rx="2" fill="#4a9eff"/><text x="270" y="3353" font-size="10" fill="#24292f">AI / 云服务</text>
+<rect x="345" y="3344" width="14" height="10" rx="2" fill="#f59e0b"/><text x="365" y="3353" font-size="10" fill="#24292f">购物</text>
+<rect x="405" y="3344" width="14" height="10" rx="2" fill="#ec4899"/><text x="425" y="3353" font-size="10" fill="#24292f">视频会员</text>
+<rect x="480" y="3344" width="14" height="10" rx="2" fill="#06b6d4"/><text x="500" y="3353" font-size="10" fill="#24292f">网盘</text>
+<rect x="540" y="3344" width="14" height="10" rx="2" fill="#fb923c"/><text x="560" y="3353" font-size="10" fill="#24292f">开车</text>
+<rect x="600" y="3344" width="14" height="10" rx="2" fill="#4ade80"/><text x="620" y="3353" font-size="10" fill="#24292f">游戏</text>
+<rect x="535" y="3344" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="3353" font-size="10" fill="#24292f">已结束</text>
+<rect x="625" y="3344" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="3353" font-size="10" fill="#24292f">未开始</text>
+<line x1="715" y1="3342" x2="715" y2="3356" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="3353" font-size="10" fill="#24292f">今天</text>
 </svg>

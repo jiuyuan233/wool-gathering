@@ -25,7 +25,7 @@ from utils import (
 )
 
 
-CATEGORIES = ["ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip"]
+CATEGORIES = ["ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip", "game-discount"]
 CAT_LABEL = {
     "ai": "AI / 云服务优惠",
     "open-source": "开源免费工具",
@@ -34,8 +34,9 @@ CAT_LABEL = {
     "shopping": "购物优惠",
     "video-vip": "视频会员",
     "netdisk-vip": "网盘会员",
+    "game-discount": "游戏打折",
 }
-CAT_EMOJI = {"ai": "🤖", "open-source": "🔓", "drive": "🚗", "games": "🎮", "shopping": "🛒", "video-vip": "📺", "netdisk-vip": "💾"}  # README 里用，前端不用
+CAT_EMOJI = {"ai": "🤖", "open-source": "🔓", "drive": "🚗", "games": "🎮", "shopping": "🛒", "video-vip": "📺", "netdisk-vip": "💾", "game-discount": "🏷️"}  # README 里用，前端不用
 
 # 开车线报的车型子分类（按标题关键词归类，顺序即分组顺序）
 CAR_TYPES: list[tuple[str, list[str]]] = [
@@ -199,7 +200,7 @@ def generate_readme() -> None:
     short_acts = [a for a in acts if a not in long_acts]
 
     # 限时活动按 category 分区（不含 open-source，已归入长期免费）
-    for cat in ["ai", "shopping", "video-vip", "netdisk-vip", "drive", "games"]:
+    for cat in ["ai", "shopping", "video-vip", "netdisk-vip", "drive", "games", "game-discount"]:
         cat_acts = [a for a in short_acts if a["category"] == cat]
         if not cat_acts:
             continue

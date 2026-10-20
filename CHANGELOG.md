@@ -1,5 +1,16 @@
 # 更新日志
 
+## 2026-10-20 新增游戏打折分区（小黑盒数据源）
+
+- 新增 `game-discount` 分区：Steam 新品节/尖叫节打折汇总（史低/新史低/一折以下）
+- 小黑盒（xiaoheihe.cn）作为新数据源：SPA 需 Playwright 渲染，`blog_collector.collect_heybox_discounts()` 处理
+- 首条活动：【10.20】Steam新品节打折153款佳作最低3元（40款新史低+86款史低+27款一折以下）
+- collect.py/calendar_generator.py/svg_calendar.py: CATEGORIES 加 game-discount，紫色 #8b5cf6
+- sources.json: 加小黑盒源（type=heybox），源总数 51→52
+- AGENT.md: 七大→八大分类，新增第15.8节小黑盒操作指南
+- readme_template.md: 七大→八大分类说明
+- 最终分布：AI 30 / 购物 2 / 视频会员 2 / 网盘会员 2 / 开源 13 / 开车 3 / 游戏 70 / 游戏打折 1 = 123 条
+
 ## 2026-10-19 游戏中文翻译 + 购物修正
 
 - 购物分区修正：7 条里仅 2 条属购物（双11打折整理+双11红包），其余 5 条归位（WPS/复旦Codex/VideoProc→AI，VMware→open-source，重复复旦Codex删除）

@@ -44,6 +44,7 @@ COLOR_GAMES = "#4ade80"
 COLOR_SHOPPING = "#f59e0b"
 COLOR_VIDEO_VIP = "#ec4899"
 COLOR_NETDISK_VIP = "#06b6d4"
+COLOR_GAME_DISCOUNT = "#8b5cf6"
 COLOR_TODAY = "#ef4444"
 COLOR_TEXT = "#24292f"
 COLOR_TEXT_DIM = "#6e7681"
@@ -60,6 +61,7 @@ def _cat_color(cat: str) -> str:
         "shopping": COLOR_SHOPPING,
         "video-vip": COLOR_VIDEO_VIP,
         "netdisk-vip": COLOR_NETDISK_VIP,
+        "game-discount": COLOR_GAME_DISCOUNT,
     }.get(cat, COLOR_AI)
 
 
@@ -140,10 +142,11 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
     max_d = month_end + timedelta(days=1)
 
     # 按分区分组，分区内按 end_date 升序（快结束的在上）
-    CAT_ORDER_SVG = ["ai", "shopping", "video-vip", "netdisk-vip", "drive", "games"]
+    CAT_ORDER_SVG = ["ai", "shopping", "video-vip", "netdisk-vip", "drive", "games", "game-discount"]
     CAT_LABEL_SVG = {
         "ai": "AI / 云服务", "shopping": "购物优惠", "video-vip": "视频会员",
         "netdisk-vip": "网盘会员", "drive": "开车线报", "games": "游戏喜加一",
+        "game-discount": "游戏打折",
     }
     groups = []
     for cat in CAT_ORDER_SVG:
