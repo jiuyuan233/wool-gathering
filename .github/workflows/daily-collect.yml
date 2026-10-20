@@ -42,6 +42,11 @@ jobs:
         run: |
           pip install -r scripts/requirements.txt
 
+      - name: 安装 Playwright（小黑盒SPA渲染用）
+        run: |
+          playwright install chromium --with-deps || echo "Playwright安装失败，小黑盒抓取将跳过"
+        continue-on-error: true
+
       - name: 确定运行模式
         id: mode
         run: |
@@ -78,7 +83,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ docs/calendar.svg docs/data/ README.md
+          git add data/ docs/calendar.svg docs/data/ README.md PENDING_URLS.md
           if git diff --cached --quiet; then
             echo "无更新，跳过提交"
           else

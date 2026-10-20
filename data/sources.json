@@ -328,6 +328,14 @@
     "note": "Xbox Games with Gold 金会员免费"
   },
   {
+    "name": "PlayStation Store",
+    "url": "https://store.playstation.com/zh-hans-hk/pages/latest",
+    "category": "games",
+    "type": "html",
+    "enabled": true,
+    "note": "PSN 限时免费/会员免费游戏"
+  },
+  {
     "name": "TapTap 游戏",
     "url": "https://www.taptap.io/",
     "category": "games",

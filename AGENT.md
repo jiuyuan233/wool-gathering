@@ -163,7 +163,7 @@ GitHub Actions 每天自动跑六次（`.github/workflows/daily-collect.yml`）�
 | 11:41 | 03:41 | `41 3 * * *` | `drive` | V2EX 开车线报 |
 | 14:37 | 06:37 | `37 6 * * *` | `games-direct` | 仅抓 Epic/Steam/GOG 官方 API |
 | 16:53 | 08:53 | `53 8 * * *` | `games-blog` | 仅抓 ITAD/itch.io/Reddit/ggdeals |
-| 20:47 | 12:47 | `47 12 * * *` | `finalize` | 处理 PENDING_URLS.md + 生成 SVG 日历 + 前端 JSON + README |
+| 20:47 | 12:47 | `47 12 * * *` | `finalize` | 整理：生成 SVG 日历 + 前端 JSON + README |
 
 **设计原则**：不集中在一个时间段请求免费源网站，把请求量分散到全天 6 个时段，间隔约 2-3 小时。
 
@@ -187,7 +187,7 @@ python scripts/collect.py all        # 全部（手动触发用）
 ### 5.2 collect.py 内部流程
 
 1. `process_category(cat)`：抓取 → `normalize_activity` 规范化 → 按 `category` 字段分流 → `_merge_and_save` 去重合并写回
-2. `finalize()`：**先处理 `PENDING_URLS.md`**（`process_pending_urls()` 把用户提交的网址加入 `sources.json`）→ 读所有 `data/*/activities.json` → `generate_docs_data()` 生成前端 JSON → `generate_svg()` 生成 SVG → `generate_readme()` 生成 README
+2. `finalize()`：读所有 `data/*/activities.json` → `generate_docs_data()` 生成前端 JSON → `generate_svg()` 生成 SVG → `generate_readme()` 生成 README
 3. `merge(old, new, today)`：**旧值优先**——已存在的字段不被新数据覆盖（尤其 end_date 一旦写入不覆盖）；
    status 按起止日期每天重算（active/upcoming/ended）
 
@@ -444,7 +444,7 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 
 - 每周 50000 点免费配额 + 每天 100 次请求次数配额
 - **用弱模型 `deepseek-v3-2` 省额度**，别用 pro/max/gpt-4，超出额度要付费
-- 每次跑约调 AI 30-50 次（51 个种子源抽取 + 联网搜索补充），免费额度基本够
+- 每次跑约调 AI 30-50 次（种子源抽取），免费额度基本够。注：联网搜索补充功能暂未实现
 
 ### 13.6 已收录的 AI 信息源
 
@@ -606,66 +606,20 @@ git push origin main
 5. 验证 SVG 有「游戏打折」紫色分区
 6. 提交推送
 
-**Playwright 依赖**：
-- 本地需 `pip install playwright && playwright install chromium`
-- GitHub Actions 需在 workflow 里加 Playwright 安装步骤
+**Playwright 依赖**（已在 workflow 里配置）：
+- `scripts/requirements.txt` 已含 `playwright>=1.40.0`
+- workflow 有「安装 Playwright」步骤：`playwright install chromium --with-deps`（失败时 `continue-on-error: true` 不阻塞）
+- 本地需手动：`pip install playwright && playwright install chromium`
 - 若 Playwright 不可用，`collect_heybox_discounts()` 自动跳过并告警
 
-## 17. AI 完整操作规范总结（必读）
+### 17.7 workflow 已实现的功能（检查过，不是画饼）
 
-本节把所有关键操作流程串起来，AI 接手维护时按此规范操作。
-
-### 17.1 日常运行（全自动，AI 不干预）
-
-GitHub Actions 每天跑 6 次（见第 5 节），AI 不需要手动干预：
-- 06:17 / 09:23 / 11:41 / 14:37 / 16:53 → 抓取各板块数据
-- 20:47 → `finalize`：**自动处理 PENDING_URLS.md** → 生成 SVG + README
-
-### 17.2 用户提交新网址（全自动）
-
-1. 用户在 `PENDING_URLS.md` 的「待处理」区写网址（可选加 `# 分类` 注释）
-2. 当天 20:47 finalize 自动处理：`process_pending_urls()` 读取网址 → 判断分类 → 加入 `sources.json` → 移到「已处理」区
-3. 次日对应分类的抓取模式运行时，自动抓取新源内容
-4. 次日 20:47 finalize 生成新的 SVG + README
-
-### 17.3 AI 手动维护操作（用户要求时执行）
-
-| 用户要求 | AI 操作 |
-|---------|--------|
-| 新增一条活动 | 按 15 节，直接写 `data/{category}/activities.json`，跑 finalize |
-| 新增一个数据源 | 写 `data/sources.json` 加一条，跑对应分类 + finalize |
-| 新增小黑盒打折帖 | 按 15.8 节，加 heybox 源，跑 game-discount + finalize |
-| 修改分类归属 | 编辑 `calendar_generator.py` 的 `FREE_CATS`/`DISCOUNT_CATS`，跑 finalize |
-| 修改 SVG 颜色 | 编辑 `svg_calendar.py` 的 `COLOR_*` 常量，跑 finalize |
-| 调试 | 按 12 节，`git fetch && git reset --hard origin/main` → 改规则 → 跑 finalize → 验证 → 清理 |
-
-### 17.4 两大超级分区（第 2.0 节）
-
-| 超级分区 | 子分类 | 颜色系 |
-|---------|--------|--------|
-| 🆓 纯免费 | open-source + games + drive | 绿色系 |
-| 💰 打折优惠 | ai + shopping + video-vip + netdisk-vip + game-discount | 暖色系 |
-
-**判定规则**：子分类本身决定归属，无需额外字段。修改归属编辑 `FREE_CATS`/`DISCOUNT_CATS`。
-
-### 17.5 关键文件速查
-
-| 文件 | 作用 | 何时改 |
-|------|------|--------|
-| `AGENT.md` | AI 操作规范（本文档） | 流程变更时 |
-| `PENDING_URLS.md` | 用户提交网址入口 | 用户写网址 |
-| `data/sources.json` | 种子源列表 | 加新源 |
-| `data/*/activities.json` | 各分类原始数据 | 加活动 |
-| `scripts/collect.py` | 主流程（含 `process_pending_urls`） | 改流程 |
-| `scripts/calendar_generator.py` | README 生成（含 `FREE_CATS`/`DISCOUNT_CATS`） | 改分区 |
-| `scripts/svg_calendar.py` | SVG 生成（含 `COLOR_*`） | 改颜色 |
-| `scripts/blog_collector.py` | 博客/小黑盒抓取 | 改抓取规则 |
-
-### 17.6 禁止事项（第 9 节摘要）
-
-- 不要手动编辑 `docs/` 或 `README.md`（生成产物）
-- 不要手动编辑 `data/*/activities.json` 的生成字段（id/status/last_seen）
-- 本地调试产物不要 commit（`git reset --hard` 丢弃）
-- 不要在整点 cron（减轻源网站压力）
-- 开源工具 `end_date` 必须空（一直免费）
-- 领取链接用小黑盒链接，不跳 Steam（第 15.8 节）
+| 功能 | 实现位置 | 状态 |
+|------|---------|------|
+| 六时段定时任务 | workflow 6 个 cron | ✅ 已实现 |
+| AI 抽取活动信息 | `AI_API_KEY` env + `ai_client.py` | ✅ 已实现 |
+| Playwright 安装 | workflow「安装 Playwright」步骤 | ✅ 已实现 |
+| PENDING_URLS.md 自动处理 | `collect.py process_pending_urls()` | ✅ 已实现 |
+| PENDING_URLS.md 提交 | workflow `git add PENDING_URLS.md` | ✅ 已实现 |
+| finalize 生成 SVG+README | `collect.py finalize()` | ✅ 已实现 |
+| 联网搜索补充 | — | ❌ 暂未实现（AGENT.md 已标注） |
