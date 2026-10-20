@@ -49,6 +49,23 @@ wool-gathering/
 
 ## 2. 八大分类规则（核心，必须背下来）
 
+### 2.0 两大超级分区（README 展示层）
+
+README 和 SVG 把 8 个子分类归为两大超级分区，**这是展示层重组，数据层（data/ 目录 8 个子分类）不变**：
+
+| 超级分区 | 含义 | 包含子分类 | 颜色系 |
+|---------|------|-----------|--------|
+| **🆓 纯免费** | 完全免费、0 元可领取 | `open-source` + `games` + `drive` | 绿色系（深绿/翠绿/青绿） |
+| **💰 打折优惠** | 有折扣但仍需付费 | `ai` + `shopping` + `video-vip` + `netdisk-vip` + `game-discount` | 暖色系（橙/金/粉/玫瑰红/紫） |
+
+**判定规则**：子分类本身即决定归属——open-source/games/drive 永远归纯免费，其余永远归打折优惠。无需额外字段。
+
+**README 层级**：`## 🗂 分类活动` → `### 🆓 纯免费` / `### 💰 打折优惠` → `#### 子分类`。两大分区各自显示总条数和活跃数。
+
+**SVG 层级**：保持 8 个分区（时间轴需细粒度），但用两大色系区分——绿色系=纯免费、暖色系=打折，视觉上一眼区分两大类。
+
+**如何修改超级分区归属**：编辑 `scripts/calendar_generator.py` 的 `generate_readme()` 函数里的 `FREE_CATS` 和 `DISCOUNT_CATS` 列表，然后跑 `python3 scripts/collect.py finalize` 重新生成 README。SVG 颜色编辑 `scripts/svg_calendar.py` 的 `COLOR_*` 常量。
+
 | 类别 | 代号 | 包含什么 | 谁来识别 |
 |------|------|---------|---------|
 | AI / 云服务优惠 | `ai` | 云厂商代金券/免费额度/打折、AI 中转站优惠、博客里讲云/AI 优惠的帖 | `cloud_collector.py` + `blog_collector.py`（默认归 ai，除非命中其他规则） |
@@ -583,19 +600,13 @@ git push origin main
 
 小黑盒（xiaoheihe.cn）是游戏社区 SPA，分享帖含 Steam 新品节/尖叫节打折汇总（史低/新史低/一折以下）。需 Playwright 渲染才能获取内容。
 
-**关键规则：领取链接必须用小黑盒链接，不跳 Steam**。`claim_url` 直接用源 URL（小黑盒分享帖 API 链接或社区帖子直链），确保用户点击后留在小黑盒生态内。
-
 **数据流**：
 1. `data/sources.json` 里 `type=heybox` 的源 → `blog_collector.collect_heybox_discounts()` → Playwright 渲染 → 提取标题/日期/摘要 → 归入 `game-discount` 分区
 2. `collect.py game-discount` 触发抓取
 3. SVG 紫色（#8b5cf6）分区显示
 
-**小黑盒源类型**：
-- `type=heybox`：分享帖/打折帖，URL 形如 `https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?...&link_id=xxx`（API 分享帖）或 `https://xiaoheihe.cn/app/bbs/link/数字`（社区帖子直链）
-- `type=heybox-community`：社区首页 `https://xiaoheihe.cn/app/bbs/home`，用于发现新的打折/喜加一帖子
-
 **手动新增小黑盒打折帖**：
-1. 获取小黑盒帖子 URL（社区直链 `https://xiaoheihe.cn/app/bbs/link/数字` 或 API 分享帖）
+1. 获取小黑盒分享帖 URL（形如 `https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?...&link_id=xxx`）
 2. 在 `data/sources.json` 加一条：
    ```json
    {
@@ -616,8 +627,3 @@ git push origin main
 - 本地需 `pip install playwright && playwright install chromium`
 - GitHub Actions 需在 workflow 里加 Playwright 安装步骤
 - 若 Playwright 不可用，`collect_heybox_discounts()` 自动跳过并告警
-
-**当前小黑盒源**（3 个）：
-- 小黑盒游戏社区（153 款，作者露露鱼，API 分享帖）
-- 小黑盒 Steam 打折 169 款（作者米迪拉，社区直链）
-- 小黑盒社区首页（发现新帖用）
