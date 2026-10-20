@@ -1,3 +1,13 @@
+## 2026-10-21 新建好用Agent工具分区（静态，不进日历）
+
+### 改动
+
+- `scripts/readme_template.md`：在 `{{SECTIONS}}` 后加「🛠 好用 Agent 工具」静态分区
+- 收录 10 个 AI 编程 Agent 工具（bolt.diy/bolt.new/OpenCode web/OpenHands/Replit/CodeSandbox/Dify/Coze/LobeChat/Open WebUI）
+- 不进 SVG 日历（长期可用，非限时活动）
+- `AGENT.md` 第 18 节：说明这个分区是静态的、为什么不进日历、如何修改
+- `README.md`：重新生成
+
 # 更新日志
 
 ## 2026-10-20 新增游戏打折分区（小黑盒数据源）

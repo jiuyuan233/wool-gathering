@@ -63,7 +63,7 @@
 
 ## 📊 今日概况
 
-- 更新时间：**2026-10-20 09:38** 北京时间
+- 更新时间：**2026-10-21 00:58** 北京时间
 - 进行中：**119** 个 ｜ 即将开始：**4** 个 ｜ 历史收录：**123** 个
 
 ---
@@ -247,6 +247,35 @@
 | 🟢 | MicYou for iOS – 老 iPhone 又有新用途：变成电脑麦克风，免费开源 | — | 长期免费 | — | [领取](https://www.appinn.com/micyou-for-ios/) |
 | 🟢 | VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活) | — | 长期免费 | — | [领取](https://www.iplaysoft.com/vmware-workstation.html) |
 
+
+## 🛠 好用 Agent 工具（网页 + 自带 Key + 沙箱）
+
+> AI 编程 Agent 工具推荐，均支持自带 OpenAI 兼容 API Key（BYOK）。不进日历，长期可用。
+
+### 最贴合需求（网页 + 自带 Key + 运行沙箱 + Agent）
+
+| 工具 | 特点 | 自带 Key | 地址 |
+|------|------|---------|------|
+| **bolt.diy** | 开源，浏览器内 WebContainer 沙箱，agent 写码直接运行/预览 | ✅ 任意 OpenAI 兼容 API | https://bolt.diy |
+| **bolt.new** | StackBlitz 官方版，同上 | ✅ | https://bolt.new |
+| **OpenCode web** | `opencode web` 起网页版，沙箱=本机环境 | ✅ ChatAnywhere provider | 本地起 |
+| **OpenHands** | 开源自部署，Docker 沙箱，agent 自主写码/跑命令/改文件 | ✅ 任意 key | 自部署 |
+
+### 其他可选
+
+| 工具 | 特点 | 自带 Key | 地址 |
+|------|------|---------|------|
+| Replit | 网页 IDE + Replit Agent，沙箱完整 | ❌ 平台额度 | https://replit.com |
+| CodeSandbox | 网页沙箱 + AI | 部分 | https://codesandbox.io |
+| Dify | 网页 agent 平台，偏 workflow，有代码执行节点 | ✅ 国内可用 | https://dify.ai |
+| Coze（扣子） | 同上，字节出品 | ✅ 国内可用 | https://coze.cn |
+| LobeChat | 网页聊天 + 工具/插件，代码沙箱弱 | ✅ | https://lobechat.com |
+| Open WebUI | 网页聊天 + 工具/插件 | ✅ | 自部署 |
+
+### 选择建议
+
+- **想零部署直接试** → bolt.diy，填 ChatAnywhere 的 baseURL + key 即开即用
+- **想长期自己搭类码道环境** → OpenCode web 或 OpenHands 自部署
 
 ---
 
