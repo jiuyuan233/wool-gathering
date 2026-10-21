@@ -153,7 +153,7 @@ def _md_table(acts: list[dict]) -> str:
 
 def _drive_section(acts: list[dict]) -> str:
     """开车线报大分区：内部按车型子分组（组内按 end_date 升序）。"""
-    parts = ["#### 🚗 开车线报（" + str(len(acts)) + " 条）", ""]
+    parts = ["### 🚗 开车线报", ""]
     groups: dict[str, list[dict]] = {}
     for a in acts:
         groups.setdefault(guess_car_type(a["title"]), []).append(a)
@@ -185,44 +185,40 @@ def _guess_pages_url() -> str:
 def generate_readme() -> None:
     """读取 scripts/readme_template.md，替换占位符后写入 README.md。
 
-    分类活动按两大超级分区组织：
-    - 🆓 纯免费（open-source + games + drive）：完全免费、0 元可领取
-    - 💰 打折优惠（ai + shopping + video-vip + netdisk-vip + game-discount）：有折扣但仍需付费
+    模板里用 {{PAGES_URL}} / {{GENERATED_AT}} / {{ACTIVE_COUNT}}
+    / {{UPCOMING_COUNT}} / {{TOTAL_COUNT}} / {{SECTIONS}} 标记动态部分。
+    这样配置指南等静态内容维护在模板里，不会被脚本逻辑冲掉。
     """
     acts = _all_activities()
     active = [a for a in acts if a["status"] == "active"]
     upcoming = [a for a in acts if a["status"] == "upcoming"]
 
-    FREE_CATS = ["open-source", "games", "drive"]
-    DISCOUNT_CATS = ["ai", "shopping", "video-vip", "netdisk-vip", "game-discount"]
+    sections = []
+    # 分为限时活动和长期免费活动
+    # 长期 = open-source（永久免费）或 end_date 距今超过 3 个月（is_long_term）
+    long_acts = [a for a in acts if a.get("category") == "open-source" or is_long_term(a)]
+    short_acts = [a for a in acts if a not in long_acts]
 
-    sections: list[str] = []
-
-    # 🆓 纯免费
-    free_acts = [a for a in acts if a["category"] in FREE_CATS]
-    free_active = sum(1 for a in free_acts if a["status"] == "active")
-    sections.append(f"### 🆓 纯免费（{len(free_acts)} 条，活跃 {free_active}）\n")
-    sections.append("> 完全免费、0 元可领取的项目\n")
-    for cat in FREE_CATS:
-        cat_acts = [a for a in free_acts if a["category"] == cat]
+    # 限时活动按 category 分区（不含 open-source，已归入长期免费）
+    for cat in ["ai", "shopping", "video-vip", "netdisk-vip", "drive", "games", "game-discount"]:
+        cat_acts = [a for a in short_acts if a["category"] == cat]
         if not cat_acts:
             continue
         if cat == "drive":
+            # 开车线报：大分区内部按车型子分组
             sections.append(_drive_section(cat_acts))
         else:
-            sections.append(f"#### {CAT_EMOJI[cat]} {CAT_LABEL[cat]}（{len(cat_acts)} 条）\n\n" + _md_table(cat_acts))
-
-    # 💰 打折优惠
-    discount_acts = [a for a in acts if a["category"] in DISCOUNT_CATS]
-    discount_active = sum(1 for a in discount_acts if a["status"] == "active")
-    sections.append(f"\n### 💰 打折优惠（{len(discount_acts)} 条，活跃 {discount_active}）\n")
-    sections.append("> 有折扣但仍需付费的项目\n")
-    for cat in DISCOUNT_CATS:
-        cat_acts = [a for a in discount_acts if a["category"] == cat]
-        if not cat_acts:
-            continue
-        sections.append(f"#### {CAT_EMOJI[cat]} {CAT_LABEL[cat]}（{len(cat_acts)} 条）\n\n" + _md_table(cat_acts))
-
+            sections.append(
+                f"### {CAT_EMOJI[cat]} {CAT_LABEL[cat]}\n\n"
+                + _md_table(cat_acts)
+            )
+    # 长期免费分区（open-source + end_date 超过 3 个月 + 无 end_date）
+    if long_acts:
+        sections.append(
+            "### ♾️ 长期免费\n\n"
+            "> 无 end_date 或 end_date 超过 3 个月的活动，不显示在当月时间轴里\n\n"
+            + _md_table(long_acts)
+        )
     body = "\n".join(sections)
 
     if not README_TEMPLATE.exists():
