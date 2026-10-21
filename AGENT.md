@@ -158,16 +158,14 @@ GitHub Actions 每天自动跑六次（`.github/workflows/daily-collect.yml`）�
 
 | 北京时间 | UTC | cron | 模式 | 做什么 |
 |---------|-----|------|------|-------|
-| 05:17 | 21:17 | `17 21 * * *` | `ai-cloud` | 仅抓云厂商（华为云/阿里云/腾讯云） |
-| 08:23 | 00:23 | `23 0 * * *` | `ai-blog` | 仅抓博客聚合（ai 板块，含 open-source 分流） |
-| 10:41 | 02:41 | `41 2 * * *` | `drive` | V2EX 开车线报 |
-| 13:37 | 05:37 | `37 5 * * *` | `games-direct` | 仅抓 Epic/Steam/GOG 官方 API |
-| 15:53 | 07:53 | `53 7 * * *` | `games-blog` | 仅抓 ITAD/itch.io/Reddit/ggdeals |
+| 06:17 | 22:17 | `17 22 * * *` | `ai-cloud` | 仅抓云厂商（华为云/阿里云/腾讯云） |
+| 09:23 | 01:23 | `23 1 * * *` | `ai-blog` | 仅抓博客聚合（ai 板块，含 open-source 分流） |
+| 11:41 | 03:41 | `41 3 * * *` | `drive` | V2EX 开车线报 |
+| 14:37 | 06:37 | `37 6 * * *` | `games-direct` | 仅抓 Epic/Steam/GOG 官方 API |
+| 16:53 | 08:53 | `53 8 * * *` | `games-blog` | 仅抓 ITAD/itch.io/Reddit/ggdeals |
 | 20:47 | 12:47 | `47 12 * * *` | `finalize` | 整理：生成 SVG 日历 + 前端 JSON + README |
 
 **设计原则**：不集中在一个时间段请求免费源网站，把请求量分散到全天 6 个时段，间隔约 2-3 小时。
-
-**cron 提前说明**：GitHub Actions cron 在高峰期可能延迟 15 分钟到数小时。原 finalize 在 20:47 北京，延迟后可能到凌晨运行。现已提前到 18:47 北京，即使延迟 5 小时也是 23:47 北京，不会到凌晨。
 
 ### 5.1 命令对照（子模式）
 

@@ -1,16 +1,3 @@
-## 2026-10-21 修复凌晨运行问题+cron提前+恢复Playwright/PENDING_URLS提交
-
-### 改动
-
-- **cron 时间提前 2 小时**（避免 GitHub Actions cron 延迟导致凌晨运行）：
-  - ai-cloud: 06:17→05:17 / ai-blog: 09:23→08:23 / drive: 11:41→10:41
-  - games-direct: 14:37→13:37 / games-blog: 16:53→15:53 / finalize: 20:47→18:47
-  - finalize 提前到 18:47，即使延迟 5 小时也是 23:47，不会到凌晨
-- **恢复 workflow Playwright 安装**（c20b8a8 的修复被后续 commit 回退了）
-- **恢复 workflow git add PENDING_URLS.md**（同上）
-- **恢复 requirements.txt playwright>=1.40.0**（同上）
-- AGENT.md 第 5 节 cron 时间表更新 + 加 cron 延迟说明
-
 # 更新日志
 
 ## 2026-10-20 新增游戏打折分区（小黑盒数据源）
