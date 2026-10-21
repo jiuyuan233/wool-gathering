@@ -414,5 +414,13 @@
     "type": "heybox",
     "enabled": true,
     "note": "小黑盒Steam打折信息分享帖（SPA需Playwright渲染），含新品节/尖叫节史低汇总"
+  },
+  {
+    "name": "docs.qoder.cn",
+    "url": "https://docs.qoder.cn/qoder/overview",
+    "category": "ai",
+    "type": "html",
+    "enabled": true,
+    "note": "用户提交 + AI 自动接入（2026-10-21）"
   }
 ]

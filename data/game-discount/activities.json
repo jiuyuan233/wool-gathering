@@ -40,5 +40,25 @@
     "discovered_at": "2026-10-20T01:00:00.000000+08:00",
     "last_seen": "2026-10-20",
     "status": "active"
+  },
+  {
+    "id": "10-20-steam-153-3-6953a19bdb",
+    "title": "【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元 ｜小黑盒整理",
+    "category": "game-discount",
+    "source_url": "https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=1aa472ac9a13",
+    "claim_url": "https://store.steampowered.com/sale/steamfestival",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元；【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元；Steam新品节正式开启，凌晨迎来一波折扣，Steam发大力！下面给大伙整理了新史低，史低，一折及以下的佳作。整理不易，感谢大家，双击屏幕支持一下！",
+    "requirements": [],
+    "description": "小黑盒用户整理的Steam打折汇总 | 2026-10-21 ~ 2026-10-28",
+    "tags": [
+      "Steam",
+      "打折",
+      "小黑盒"
+    ],
+    "discovered_at": "2026-10-21T00:00:00.000000+08:00",
+    "last_seen": "2026-10-21",
+    "status": "active"
   }
 ]

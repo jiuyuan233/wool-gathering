@@ -55,5 +55,43 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active"
+  },
+  {
+    "id": "midalo-ai-1024-7-24-5-2767c13b40",
+    "title": "[midalo 米搭 AI 中转站] 1024 提前给大家发福利， 不降智、7*24 小时稳定，新用户注册进群即送 5$",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1250582",
+    "claim_url": "https://www.v2ex.com/t/1250582",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active"
+  },
+  {
+    "id": "zooproxy-f412885a1a",
+    "title": "✨分享一个最近一直在稳用的 Zooproxy，现在免费送福利，找客服还有折扣",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1250573",
+    "claim_url": "https://www.v2ex.com/t/1250573",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active"
   }
 ]
