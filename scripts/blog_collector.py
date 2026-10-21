@@ -762,9 +762,17 @@ def collect_heybox_community(category: str) -> list[dict]:
 
                 # 提取帖子标题和链接
                 lines = [l.strip() for l in content.split("\n") if l.strip()]
+                # 活动词（必须包含至少一个才收录，避免抓到无关新闻）
+                ACTIVITY_WORDS = ["免费", "打折", "优惠", "赠送", "限免", "白嫖", "羊毛",
+                                  "开车", "速领", "手慢无", "史低", "骨折价", "喜加一",
+                                  "送", "领", "折扣", "促销", "福利", "红包", "代金券",
+                                  "免费领", "0元", "一折", "半价", "新人", "激活", "额度"]
                 for line in lines:
                     # 按分类关键词过滤
                     if not any(k.lower() in line.lower() for k in keywords):
+                        continue
+                    # 必须包含活动词（避免抓到无关新闻如"Neovim收到BTC捐赠"）
+                    if not any(w in line for w in ACTIVITY_WORDS):
                         continue
                     if len(line) < 10 or len(line) > 200:
                         continue
