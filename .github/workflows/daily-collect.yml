@@ -5,12 +5,12 @@ on:
   schedule:
     # 任务分散到全天，避开整点（减轻免费源网站压力，避免集中请求）
     # 北京时间 = UTC + 8
-    - cron: "17 22 * * *"   # 06:17 北京 → ai-cloud（云厂商）
-    - cron: "23 1 * * *"    # 09:23 北京 → ai-blog（博客聚合）
-    - cron: "41 3 * * *"    # 11:41 北京 → drive（V2EX 开车线报）
-    - cron: "37 6 * * *"    # 14:37 北京 → games-direct（Epic/Steam/GOG 官方 API）
-    - cron: "53 8 * * *"    # 16:53 北京 → games-blog（ITAD/itch.io/Reddit）
-    - cron: "47 12 * * *"   # 20:47 北京 → finalize（整理：SVG + README）
+    - cron: "17 21 * * *"   # 05:17 北京 → ai-cloud（云厂商）
+    - cron: "23 0 * * *"    # 08:23 北京 → ai-blog（博客聚合）
+    - cron: "41 2 * * *"    # 10:41 北京 → drive（V2EX 开车线报）
+    - cron: "37 5 * * *"    # 13:37 北京 → games-direct（Epic/Steam/GOG 官方 API）
+    - cron: "53 7 * * *"    # 15:53 北京 → games-blog（ITAD/itch.io/Reddit）
+    - cron: "47 10 * * *"   # 18:47 北京 → finalize（整理：SVG + README）
   workflow_dispatch:
     inputs:
       mode:
@@ -42,6 +42,11 @@ jobs:
         run: |
           pip install -r scripts/requirements.txt
 
+      - name: 安装 Playwright（小黑盒SPA渲染用）
+        run: |
+          playwright install chromium --with-deps || echo "Playwright安装失败，小黑盒抓取将跳过"
+        continue-on-error: true
+
       - name: 确定运行模式
         id: mode
         run: |
@@ -52,12 +57,12 @@ jobs:
             HOUR=$(date -u +%H)
             echo "当前 UTC 小时: $HOUR"
             case "$HOUR" in
-              22) echo "mode=ai-cloud" >> $GITHUB_OUTPUT;       echo "定时任务: 云厂商 (06:17 北京)" ;;
-              01) echo "mode=ai-blog" >> $GITHUB_OUTPUT;        echo "定时任务: 博客聚合 (09:23 北京)" ;;
-              03) echo "mode=drive" >> $GITHUB_OUTPUT;          echo "定时任务: 开车线报 (11:41 北京)" ;;
-              06) echo "mode=games-direct" >> $GITHUB_OUTPUT;   echo "定时任务: 游戏官方API (14:37 北京)" ;;
-              08) echo "mode=games-blog" >> $GITHUB_OUTPUT;     echo "定时任务: 游戏博客聚合 (16:53 北京)" ;;
-              12) echo "mode=finalize" >> $GITHUB_OUTPUT;       echo "定时任务: 整理 (20:47 北京)" ;;
+              21) echo "mode=ai-cloud" >> $GITHUB_OUTPUT;       echo "定时任务: 云厂商 (06:17 北京)" ;;
+              00) echo "mode=ai-blog" >> $GITHUB_OUTPUT;        echo "定时任务: 博客聚合 (09:23 北京)" ;;
+              02) echo "mode=drive" >> $GITHUB_OUTPUT;          echo "定时任务: 开车线报 (11:41 北京)" ;;
+              05) echo "mode=games-direct" >> $GITHUB_OUTPUT;   echo "定时任务: 游戏官方API (14:37 北京)" ;;
+              07) echo "mode=games-blog" >> $GITHUB_OUTPUT;     echo "定时任务: 游戏博客聚合 (16:53 北京)" ;;
+              10) echo "mode=finalize" >> $GITHUB_OUTPUT;       echo "定时任务: 整理 (20:47 北京)" ;;
               *)  echo "mode=finalize" >> $GITHUB_OUTPUT;       echo "定时任务(非标准时间): 整理" ;;
             esac
           fi
@@ -78,7 +83,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ docs/calendar.svg docs/data/ README.md
+          git add data/ docs/calendar.svg docs/data/ README.md PENDING_URLS.md
           if git diff --cached --quiet; then
             echo "无更新，跳过提交"
           else
