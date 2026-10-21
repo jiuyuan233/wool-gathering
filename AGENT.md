@@ -610,3 +610,187 @@ git push origin main
 - 本地需 `pip install playwright && playwright install chromium`
 - GitHub Actions 需在 workflow 里加 Playwright 安装步骤
 - 若 Playwright 不可用，`collect_heybox_discounts()` 自动跳过并告警
+
+## 16. AI 操作指南：处理 PENDING_URLS.md（用户提交网址入口）
+
+`PENDING_URLS.md` 是用户提交新网址的入口。用户在「待处理」区写网址，AI 在 Actions 运行时自动接入为数据源并抓取内容。
+
+### 16.1 文档格式
+
+```markdown
+## 待处理
+https://example.com/deal # ai
+https://another.com/free-game # games
+
+## 已处理
+<!-- AI 自动管理 -->
+```
+
+每行一个网址，`#` 后是分类注释（可选）。不写分类时 AI 按 URL 关键词自动判断。
+
+### 16.2 AI 处理流程（在 finalize 阶段执行）
+
+1. 读取 `PENDING_URLS.md` 的「待处理」区，提取所有网址行
+2. 对每个网址：
+   a. **判断分类**：用户 `#` 注释优先，否则按 URL 关键词判断（见 16.3）
+   b. **判断 type**：`xiaoheihe` → `heybox`（需 Playwright），其余 → `html`
+   c. **去重检查**：查 `data/sources.json` 是否已有相同 URL，有则标记「重复，跳过」
+   d. **添加到 sources.json**：加一条源（格式见 16.4）
+   e. **抓取内容**：用对应分类的抓取器抓取（`collect_blog_activities(category)` 或 `collect_heybox_discounts()`），提取活动信息
+   f. **添加到 activities.json**：如果抓取到内容，规范化后添加到 `data/{category}/activities.json`
+3. 把处理完的网址移到「已处理」区，附上结果（见 16.5）
+4. 跑 `python3 scripts/collect.py finalize` 重新生成 SVG + README
+5. 提交推送
+
+### 16.3 URL 分类判断规则（按优先级匹配）
+
+| URL 含关键词 | 归入分类 | type | 说明 |
+|-------------|---------|------|------|
+| `xiaoheihe` | `game-discount` | `heybox` | 小黑盒 SPA，需 Playwright 渲染 |
+| `epic` / `store.steampowered` / `gog` / `itch.io` | `games` | `html` | 游戏平台 |
+| `huaweicloud` / `aliyun` / `cloud.tencent` / `bce.baidu` | `ai` | `html` | 云厂商 |
+| `v2ex` | `drive` | `html` | V2EX 开车线报 |
+| `github` / `opensource` / `npmjs` / `pypi` | `open-source` | `html` | 开源工具 |
+| `iqiyi` / `v.qq` / `youku` / `mgtv` / `bilibili` | `video-vip` | `html` | 视频会员 |
+| `quark` / `pan.baidu` / `aliyundrive` / `115` | `netdisk-vip` | `html` | 网盘会员 |
+| `tmall` / `taobao` / `jd` / `suning` / `双11` | `shopping` | `html` | 购物促销 |
+| `appinn` / `iplaysoft` / `landian` / `xbeta` | `ai` | `html` | 软件博客（默认归 ai，会自动分流） |
+| 其余 | `ai`（默认） | `html` | 无法判断时默认 ai，抓取后按内容分流 |
+
+**注意**：软件博客（appinn/iplaysoft 等）归 `ai` 是因为 `collect_blog_activities("ai")` 会自动按 `is_open_source` / `is_shopping` / `is_video_vip` / `is_netdisk_vip` 分流到正确分类。
+
+### 16.4 添加到 sources.json 的格式
+
+```json
+{
+  "name": "从网页 <title> 或 URL 推断的简短名称",
+  "url": "用户提交的原始 URL",
+  "category": "判断的分类",
+  "type": "heybox 或 html",
+  "enabled": true,
+  "note": "用户提交 + AI 自动接入（YYYY-MM-DD）"
+}
+```
+
+**name 推断**：优先用网页 `<title>` 标签内容（截断 30 字），否则用 URL 域名。
+
+### 16.5 处理完后更新 PENDING_URLS.md
+
+把「待处理」区的已处理网址删除，在「已处理」区追加（每条一行）：
+
+```markdown
+- [2026-10-20] https://example.com/deal → ai，已添加到 sources.json，抓取到 3 条活动
+- [2026-10-20] https://another.com/free → games，重复（sources.json 已有），跳过
+- [2026-10-20] https://failed.com → ai，抓取失败（超时），已添加源但无活动
+```
+
+### 16.6 何时处理
+
+在 **finalize 阶段**（每天 20:47 北京时间，cron `47 12 * * *`）处理 `PENDING_URLS.md`。理由：
+- finalize 是整理阶段，适合做「接入新源 + 重新生成产物」的工作
+- 处理完直接跑 finalize 生成 SVG + README，一步到位
+- 不影响其他时段的抓取任务
+
+### 16.7 边界情况
+
+- **PENDING_URLS.md 不存在**：跳过，不报错
+- **「待处理」区为空**：跳过，不报错
+- **网址格式无效**（不以 http 开头）：跳过该行，在「已处理」区标记「格式无效」
+- **抓取失败**：仍添加到 sources.json（下次运行会重试），在「已处理」区标记「抓取失败」
+- **Playwright 不可用**（heybox 类型）：添加源但跳过抓取，标记「需 Playwright」
+- **分类无法判断**：默认归 `ai`，AI 抓取后按内容自动分流
+
+## 17. AI 完整操作规范总结（必读）
+
+本节把所有关键操作流程串起来，AI 接手维护时按此规范操作。
+
+### 17.1 日常运行（全自动，AI 不干预）
+
+GitHub Actions 每天跑 6 次（见第 5 节），AI 不需要手动干预：
+- 06:17 / 09:23 / 11:41 / 14:37 / 16:53 → 抓取各板块数据
+- 20:47 → `finalize`：**自动处理 PENDING_URLS.md** → 生成 SVG + README
+
+### 17.2 用户提交新网址（全自动）
+
+1. 用户在 `PENDING_URLS.md` 的「待处理」区写网址（可选加 `# 分类` 注释）
+2. 当天 20:47 finalize 自动处理：`process_pending_urls()` 读取网址 → 判断分类 → 加入 `sources.json` → 移到「已处理」区
+3. 次日对应分类的抓取模式运行时，自动抓取新源内容
+4. 次日 20:47 finalize 生成新的 SVG + README
+
+### 17.3 AI 手动维护操作（用户要求时执行）
+
+| 用户要求 | AI 操作 |
+|---------|--------|
+| 新增一条活动 | 按 15 节，直接写 `data/{category}/activities.json`，跑 finalize |
+| 新增一个数据源 | 写 `data/sources.json` 加一条，跑对应分类 + finalize |
+| 新增小黑盒打折帖 | 按 15.8 节，加 heybox 源，跑 game-discount + finalize |
+| 修改分类归属 | 编辑 `calendar_generator.py` 的 `FREE_CATS`/`DISCOUNT_CATS`，跑 finalize |
+| 修改 SVG 颜色 | 编辑 `svg_calendar.py` 的 `COLOR_*` 常量，跑 finalize |
+| 调试 | 按 12 节，`git fetch && git reset --hard origin/main` → 改规则 → 跑 finalize → 验证 → 清理 |
+
+### 17.4 两大超级分区（第 2.0 节）
+
+| 超级分区 | 子分类 | 颜色系 |
+|---------|--------|--------|
+| 🆓 纯免费 | open-source + games + drive | 绿色系 |
+| 💰 打折优惠 | ai + shopping + video-vip + netdisk-vip + game-discount | 暖色系 |
+
+**判定规则**：子分类本身决定归属，无需额外字段。修改归属编辑 `FREE_CATS`/`DISCOUNT_CATS`。
+
+### 17.5 关键文件速查
+
+| 文件 | 作用 | 何时改 |
+|------|------|--------|
+| `AGENT.md` | AI 操作规范（本文档） | 流程变更时 |
+| `PENDING_URLS.md` | 用户提交网址入口 | 用户写网址 |
+| `data/sources.json` | 种子源列表 | 加新源 |
+| `data/*/activities.json` | 各分类原始数据 | 加活动 |
+| `scripts/collect.py` | 主流程（含 `process_pending_urls`） | 改流程 |
+| `scripts/calendar_generator.py` | README 生成（含 `FREE_CATS`/`DISCOUNT_CATS`） | 改分区 |
+| `scripts/svg_calendar.py` | SVG 生成（含 `COLOR_*`） | 改颜色 |
+| `scripts/blog_collector.py` | 博客/小黑盒抓取 | 改抓取规则 |
+
+### 17.6 禁止事项（第 9 节摘要）
+
+- 不要手动编辑 `docs/` 或 `README.md`（生成产物）
+- 不要手动编辑 `data/*/activities.json` 的生成字段（id/status/last_seen）
+- 本地调试产物不要 commit（`git reset --hard` 丢弃）
+- 不要在整点 cron（减轻源网站压力）
+- 开源工具 `end_date` 必须空（一直免费）
+- 领取链接用小黑盒链接，不跳 Steam（第 15.8 节）
+
+### 17.7 workflow 已实现的功能（检查过，不是画饼）
+
+| 功能 | 实现位置 | 状态 |
+|------|---------|------|
+| 六时段定时任务 | workflow 6 个 cron | ✅ 已实现 |
+| AI 抽取活动信息 | `AI_API_KEY` env + `ai_client.py` | ✅ 已实现 |
+| Playwright 安装 | workflow「安装 Playwright」步骤 | ✅ 已实现 |
+| PENDING_URLS.md 自动处理 | `collect.py process_pending_urls()` | ✅ 已实现 |
+| PENDING_URLS.md 提交 | workflow `git add PENDING_URLS.md` | ✅ 已实现 |
+| finalize 生成 SVG+README | `collect.py finalize()` | ✅ 已实现 |
+| 联网搜索补充 | — | ❌ 暂未实现（AGENT.md 已标注） |
+
+## 18. 好用 Agent 工具分区（静态，不进日历）
+
+README 里「🛠 好用 Agent 工具」分区是**静态内容**，直接写在 `scripts/readme_template.md` 模板里，不进 SVG 日历，不进 `data/` 目录。
+
+### 18.1 为什么不进日历
+
+这些工具是长期可用的推荐（不是限时活动），没有 end_date，不适合放在 SVG 时间轴上。放在 README 里作为参考即可。
+
+### 18.2 如何修改
+
+编辑 `scripts/readme_template.md` 里 `{{SECTIONS}}` 后面的「🛠 好用 Agent 工具」部分，然后跑 `python3 scripts/collect.py finalize` 重新生成 README。
+
+### 18.3 当前收录的工具
+
+| 工具 | 分类 | 自带 Key |
+|------|------|---------|
+| bolt.diy / bolt.new | 网页+沙箱 | ✅ |
+| OpenCode web | 网页 | ✅ |
+| OpenHands | 网页+Docker | ✅ |
+| Replit | 网页 IDE | ❌ |
+| CodeSandbox | 网页沙箱 | 部分 |
+| Dify / Coze | 网页 agent | ✅ |
+| LobeChat / Open WebUI | 网页聊天 | ✅ |
