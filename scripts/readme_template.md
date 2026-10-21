@@ -72,35 +72,6 @@
 
 {{SECTIONS}}
 
-## 🛠 好用 Agent 工具（网页 + 自带 Key + 沙箱）
-
-> AI 编程 Agent 工具推荐，均支持自带 OpenAI 兼容 API Key（BYOK）。不进日历，长期可用。
-
-### 最贴合需求（网页 + 自带 Key + 运行沙箱 + Agent）
-
-| 工具 | 特点 | 自带 Key | 地址 |
-|------|------|---------|------|
-| **bolt.diy** | 开源，浏览器内 WebContainer 沙箱，agent 写码直接运行/预览 | ✅ 任意 OpenAI 兼容 API | https://bolt.diy |
-| **bolt.new** | StackBlitz 官方版，同上 | ✅ | https://bolt.new |
-| **OpenCode web** | `opencode web` 起网页版，沙箱=本机环境 | ✅ ChatAnywhere provider | 本地起 |
-| **OpenHands** | 开源自部署，Docker 沙箱，agent 自主写码/跑命令/改文件 | ✅ 任意 key | 自部署 |
-
-### 其他可选
-
-| 工具 | 特点 | 自带 Key | 地址 |
-|------|------|---------|------|
-| Replit | 网页 IDE + Replit Agent，沙箱完整 | ❌ 平台额度 | https://replit.com |
-| CodeSandbox | 网页沙箱 + AI | 部分 | https://codesandbox.io |
-| Dify | 网页 agent 平台，偏 workflow，有代码执行节点 | ✅ 国内可用 | https://dify.ai |
-| Coze（扣子） | 同上，字节出品 | ✅ 国内可用 | https://coze.cn |
-| LobeChat | 网页聊天 + 工具/插件，代码沙箱弱 | ✅ | https://lobechat.com |
-| Open WebUI | 网页聊天 + 工具/插件 | ✅ | 自部署 |
-
-### 选择建议
-
-- **想零部署直接试** → bolt.diy，填 ChatAnywhere 的 baseURL + key 即开即用
-- **想长期自己搭类码道环境** → OpenCode web 或 OpenHands 自部署
-
 ---
 
 ## 🚀 快速开始（2 步跑通）
