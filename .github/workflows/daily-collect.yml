@@ -88,6 +88,7 @@ jobs:
             echo "无更新，跳过提交"
           else
             git commit -m "chore(data): ${{ steps.mode.outputs.mode }} update $(date -u +%Y-%m-%d)"
-            git pull --rebase origin main || true
-            git push
+            git fetch origin
+            git rebase origin/main 2>/dev/null || git rebase --abort 2>/dev/null || true
+            git push origin main 2>/dev/null || git push --force-with-lease origin main || true
           fi

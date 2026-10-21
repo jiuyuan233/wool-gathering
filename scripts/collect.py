@@ -23,7 +23,6 @@
 """
 from __future__ import annotations
 
-import re
 import sys
 import time
 from pathlib import Path
@@ -47,146 +46,6 @@ from utils import (
 
 
 CATEGORIES = ["ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip", "game-discount"]
-
-
-def _guess_category_from_url(url: str) -> tuple[str, str]:
-    """根据 URL 关键词判断分类和 type。返回 (category, type)。"""
-    u = url.lower()
-    if "xiaoheihe" in u:
-        return "game-discount", "heybox"
-    if any(k in u for k in ["epic", "store.steampowered", "gog.com", "itch.io"]):
-        return "games", "html"
-    if any(k in u for k in ["huaweicloud", "aliyun", "cloud.tencent", "bce.baidu"]):
-        return "ai", "html"
-    if "v2ex" in u:
-        return "drive", "html"
-    if any(k in u for k in ["github", "opensource", "npmjs", "pypi"]):
-        return "open-source", "html"
-    if any(k in u for k in ["iqiyi", "v.qq", "youku", "mgtv", "bilibili"]):
-        return "video-vip", "html"
-    if any(k in u for k in ["quark", "pan.baidu", "aliyundrive", "115.com"]):
-        return "netdisk-vip", "html"
-    if any(k in u for k in ["tmall", "taobao", "jd.com", "suning"]):
-        return "shopping", "html"
-    if any(k in u for k in ["appinn", "iplaysoft", "landian", "xbeta"]):
-        return "ai", "html"
-    return "ai", "html"
-
-
-def process_pending_urls() -> int:
-    """处理 PENDING_URLS.md 里用户提交的网址。
-
-    读取「待处理」区的网址，添加到 data/sources.json，
-    然后把已处理的移到「已处理」区并附上结果。
-
-    Returns:
-        处理的网址数量
-    """
-    pending_path = DATA_DIR.parent / "PENDING_URLS.md"
-    if not pending_path.exists():
-        log("PENDING_URLS.md 不存在，跳过")
-        return 0
-
-    content = pending_path.read_text(encoding="utf-8")
-
-    # 分割「待处理」和「已处理」区
-    if "## 已处理" not in content:
-        log("PENDING_URLS.md 格式异常（缺少「已处理」区），跳过")
-        return 0
-
-    parts = content.split("## 已处理", 1)
-    todo_section = parts[0]
-    done_section = "## 已处理" + parts[1]
-
-    # 提取「待处理」区的网址行
-    url_pattern = re.compile(r'^(https?://\S+)(?:\s*#\s*(\w[\w-]*))?\s*$')
-    urls_to_process = []
-    for line in todo_section.split("\n"):
-        stripped = line.strip()
-        if not stripped or stripped.startswith("<!--") or stripped.startswith(">") or stripped.startswith("#"):
-            continue
-        m = url_pattern.match(stripped)
-        if m:
-            urls_to_process.append((m.group(1), m.group(2), stripped))
-
-    if not urls_to_process:
-        log("PENDING_URLS.md 无待处理网址")
-        return 0
-
-    log(f"PENDING_URLS.md: 发现 {len(urls_to_process)} 个待处理网址")
-
-    # 读取 sources.json
-    sources_path = DATA_DIR / "sources.json"
-    all_sources = load_json(sources_path) or []
-    existing_urls = {s.get("url", "") for s in all_sources}
-
-    today = now_bj().strftime("%Y-%m-%d")
-    processed = []
-    new_count = 0
-
-    from urllib.parse import urlparse
-    for url, cat_hint, original_line in urls_to_process:
-        # 判断分类：用户注释优先
-        if cat_hint and cat_hint in CATEGORIES:
-            category = cat_hint
-            _, src_type = _guess_category_from_url(url)
-        else:
-            category, src_type = _guess_category_from_url(url)
-
-        # 去重
-        if url in existing_urls:
-            processed.append(f"- [{today}] {url} → {category}，重复（sources.json 已有），跳过")
-            log(f"  {url} → {category}，重复，跳过")
-            continue
-
-        # 推断 name
-        domain = urlparse(url).netloc or url
-        name = domain.replace("www.", "")[:30]
-
-        # 添加到 sources
-        all_sources.append({
-            "name": name,
-            "url": url,
-            "category": category,
-            "type": src_type,
-            "enabled": True,
-            "note": f"用户提交 + AI 自动接入（{today}）"
-        })
-        existing_urls.add(url)
-        new_count += 1
-        processed.append(f"- [{today}] {url} → {category}，已添加到 sources.json")
-        log(f"  {url} → {category}（{src_type}），已添加")
-
-    # 保存 sources.json
-    if new_count > 0:
-        save_json(sources_path, all_sources)
-        log(f"sources.json: 新增 {new_count} 个源（总计 {len(all_sources)}）")
-
-    # 更新 PENDING_URLS.md：删除已处理行，在已处理区追加结果
-    new_todo_lines = []
-    for line in todo_section.split("\n"):
-        stripped = line.strip()
-        if stripped and not stripped.startswith("<!--") and not stripped.startswith(">") and not stripped.startswith("#"):
-            if url_pattern.match(stripped):
-                continue  # 跳过已处理的网址行
-        new_todo_lines.append(line)
-
-    # 在已处理区的注释行前插入结果
-    done_lines = done_section.rstrip().split("\n")
-    insert_idx = len(done_lines)
-    for i, line in enumerate(done_lines):
-        if "<!--" in line and "AI 自动" in line:
-            insert_idx = i
-            break
-    for p in reversed(processed):
-        done_lines.insert(insert_idx, p)
-
-    new_content = "\n".join(new_todo_lines) + "\n" + "\n".join(done_lines)
-    pending_path.write_text(new_content, encoding="utf-8")
-    log(f"PENDING_URLS.md: 已处理 {len(processed)} 个网址，{new_count} 个新增源")
-
-    return len(processed)
-
 
 
 def _merge_and_save(category: str, new_acts: list[dict], today) -> None:
@@ -287,10 +146,6 @@ def finalize() -> int:
     log("开始每日整理")
     log(f"运行时间: {now_bj().isoformat()}")
     log("=" * 60)
-
-    # 处理 PENDING_URLS.md 里用户提交的网址（自动接入新源）
-    log("检查 PENDING_URLS.md...")
-    process_pending_urls()
 
     # 统计各类别数据
     for cat in CATEGORIES:
