@@ -796,3 +796,20 @@ README 里「🛠 好用 Agent 工具」分区是**静态内容**，直接写在
 | CodeSandbox | 网页沙箱 | 部分 |
 | Dify / Coze | 网页 agent | ✅ |
 | LobeChat / Open WebUI | 网页聊天 | ✅ |
+
+## 19. 小黑盒多分区源（全分类覆盖）
+
+小黑盒社区（xiaoheihe.cn）不只有游戏打折，**所有分区的信息都有**。已为 8 个分类各加 1 个小黑盒社区源（`type=heybox-community`）：
+
+| 分类 | 源名称 | 说明 |
+|------|--------|------|
+| ai | 小黑盒社区-ai | AI/大模型/云服务相关 |
+| open-source | 小黑盒社区-open-source | 开源/免费工具 |
+| drive | 小黑盒社区-drive | 开车/线报/羊毛 |
+| shopping | 小黑盒社区-shopping | 购物/红包/优惠券 |
+| video-vip | 小黑盒社区-video-vip | 视频/会员 |
+| netdisk-vip | 小黑盒社区-netdisk-vip | 网盘/会员 |
+| game-discount | 小黑盒社区-game-discount | Steam打折/史低 |
+| games | 小黑盒社区-games | 喜加一/免费领游戏 |
+
+**工作原理**：`collect_heybox_community(category)` 用 Playwright 渲染小黑盒社区首页 → 按标题关键词过滤属于该分类的帖子 → 提取活动信息。在每次抓取对应分类时自动执行。
