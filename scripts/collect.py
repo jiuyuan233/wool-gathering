@@ -266,11 +266,6 @@ def process_category(category: str, subset: str = "all") -> int:
         # 小黑盒社区帖子（多分区）
         raw_acts.extend(collect_heybox_community(category))
     else:
-        # 其他分类也尝试小黑盒社区源
-        from blog_collector import collect_heybox_community
-        heybox_acts = collect_heybox_community(category)
-        raw_acts.extend(heybox_acts)
-    else:
         # open-source / drive 等其他类别：仅博客聚合 + 小黑盒社区
         # （open-source 由 ai 模式分流触发；drive 模式抓 V2EX，云优惠讨论自动分流回 ai）
         raw_acts = collect_blog_activities(category)
