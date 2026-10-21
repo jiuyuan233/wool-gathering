@@ -403,7 +403,7 @@ $ git checkout -- README.md docs/        # 丢弃产物改动
 ## 13. AI 中转站配置与手动触发
 
 项目用 OpenAI 兼容协议的 AI 中转站辅助信息抽取（`scripts/ai_client.py`）。
-workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**只需配一个 GitHub Secret 即可跑通**。
+workflow 已默认配置 ChatAnywhere 中转站 + `gpt-4o` 模型，**只需配一个 GitHub Secret 即可跑通**。
 
 ### 13.1 当前配置（在 `.github/workflows/daily-collect.yml` 的 env 里）
 
@@ -411,7 +411,7 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 |---------|-----|------|
 | `AI_BASE_URL` | `https://api.chatanywhere.org/v1` | ChatAnywhere 国外接入点（Action runner 在海外，用 .org；国内调试用 .tech） |
 | `AI_API_KEY` | `${{ secrets.AI_API_KEY }}` | 从 GitHub Secret 读，**不 commit 到代码** |
-| `AI_MODEL` | `deepseek-v3-2` | 弱模型，最便宜之一（input 0.0012/1K，output 0.0018/1K） |
+| `AI_MODEL` | `gpt-4o` | 弱模型，最便宜之一（input 0.0012/1K，output 0.0018/1K） |
 
 ### 13.2 配置 GitHub Secret（必须做，否则 AI 调用失败）
 
@@ -427,7 +427,7 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 
 | 中转站 | `AI_BASE_URL` | `AI_MODEL` | 说明 |
 |--------|---------------|------------|------|
-| ChatAnywhere（当前默认） | `https://api.chatanywhere.org/v1` | `deepseek-v3-2` | 免费版每周 50000 点 + 每天 100 次 |
+| ChatAnywhere（当前默认） | `https://api.chatanywhere.org/v1` | `gpt-4o` | 免费版每周 50000 点 + 每天 100 次 |
 | DeepSeek 官方 | `https://api.deepseek.com/v1` | `deepseek-chat` | 便宜、中文好、有 function calling |
 | 智谱 BigModel | `https://open.bigmodel.cn/api/paas/v4` | `glm-4-flash` | 免费额度大 |
 | 通义千问 | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-turbo` | 阿里云百炼 |
@@ -445,7 +445,7 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 ### 13.5 ChatAnywhere 免费版限制（用 ChatAnywhere 时必看）
 
 - 每周 50000 点免费配额 + 每天 100 次请求次数配额
-- **用弱模型 `deepseek-v3-2` 省额度**，别用 pro/max/gpt-4，超出额度要付费
+- **用弱模型 `gpt-4o` 省额度**，gpt-4o 较强但消耗额度多，如不够可降为 gpt-4o-mini
 - 每次跑约调 AI 30-50 次（51 个种子源抽取 + 联网搜索补充），免费额度基本够
 
 ### 13.6 已收录的 AI 信息源

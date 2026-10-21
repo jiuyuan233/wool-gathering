@@ -75,7 +75,7 @@ jobs:
           # AI_API_KEY 从 GitHub Secret 读，不 commit 到代码
           AI_BASE_URL: https://api.chatanywhere.org/v1
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          AI_MODEL: deepseek-v3-2
+          AI_MODEL: gpt-4o
         run: |
           python scripts/collect.py ${{ steps.mode.outputs.mode }}
 
