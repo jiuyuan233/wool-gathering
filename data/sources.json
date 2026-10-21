@@ -422,5 +422,69 @@
     "type": "html",
     "enabled": true,
     "note": "用户提交 + AI 自动接入（2026-10-21）"
+  },
+  {
+    "name": "小黑盒社区-ai",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "ai",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区ai相关帖子（SPA需Playwright渲染）"
+  },
+  {
+    "name": "小黑盒社区-open-source",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "open-source",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区open-source相关帖子（SPA需Playwright渲染）"
+  },
+  {
+    "name": "小黑盒社区-drive",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "drive",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区drive相关帖子（SPA需Playwright渲染）"
+  },
+  {
+    "name": "小黑盒社区-shopping",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "shopping",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区shopping相关帖子（SPA需Playwright渲染）"
+  },
+  {
+    "name": "小黑盒社区-video-vip",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "video-vip",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区video-vip相关帖子（SPA需Playwright渲染）"
+  },
+  {
+    "name": "小黑盒社区-netdisk-vip",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "netdisk-vip",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区netdisk-vip相关帖子（SPA需Playwright渲染）"
+  },
+  {
+    "name": "小黑盒社区-game-discount",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "game-discount",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区game-discount相关帖子（SPA需Playwright渲染）"
+  },
+  {
+    "name": "小黑盒社区-games",
+    "url": "https://xiaoheihe.cn/app/bbs/home",
+    "category": "games",
+    "type": "heybox-community",
+    "enabled": true,
+    "note": "小黑盒社区games相关帖子（SPA需Playwright渲染）"
   }
 ]

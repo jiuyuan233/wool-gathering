@@ -696,3 +696,100 @@ if __name__ == "__main__":
     print(f"\n=== {cat} 提取 {len(result)} 条 ===")
     for a in result[:10]:
         print(f"  {a['title'][:50]} -> {a['source_url'][:60]}")
+
+
+def collect_heybox_community(category: str) -> list[dict]:
+    """收集小黑盒社区帖子（多分区）。
+
+    小黑盒社区首页有各种帖子，按标题关键词过滤属于指定分类的帖子。
+    SPA需Playwright渲染。
+
+    Returns:
+        属于指定分类的活动列表
+    """
+    log(f"--- 小黑盒社区聚合器 [{category}] ---")
+    all_acts: list[dict] = []
+
+    # 从 sources.json 读取 heybox-community 源
+    import json as _json
+    from pathlib import Path
+    sources_path = Path(__file__).parent.parent / "data" / "sources.json"
+    try:
+        with open(sources_path) as f:
+            all_sources = _json.load(f)
+    except Exception:
+        all_sources = []
+    community_sources = [s for s in all_sources if s.get("type") == "heybox-community" and s.get("enabled", True)]
+
+    if not community_sources:
+        return all_acts
+
+    # 分类关键词（用于过滤帖子标题）
+    CATEGORY_KEYWORDS = {
+       A        "ai": ["AI", "大模型", "GPT", "Claude", "Gemini", "deepseek", "通义", "文心", "kimi", "智谱", "API", "额度", "免费调用", "云服务", "华为云", "阿里云", "腾讯云"],
+        "open-source": ["开源", "免费工具", "github", "软件", "工具", "插件", "IDE", "编辑器"],
+        "drive": ["开车", "线报", "白嫖", "羊毛", "限时", "速领", "手慢无"],
+        "shopping": ["购物", "红包", "优惠券", "打折", "满减", "双11", "618", "淘宝", "京东", "天猫"],
+        "video-vip": ["视频", "会员", "VIP", "爱奇艺", "腾讯视频", "优酷", "芒果", "B站", "哔哩"],
+        "netdisk-vip": ["网盘", "夸克", "百度网盘", "阿里云盘", "115", "天翼云盘", "迅雷"],
+        "game-discount": ["Steam", "打折", "史低", "新品节", "尖叫", "折扣", "骨折价"],
+        "games": ["喜加一", "免费领", "Epic", "GOG", "限免", "白嫖游戏", "送游戏"],
+    }
+    keywords = CATEGORY_KEYWORDS.get(category, [])
+
+    # 尝试导入 Playwright
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        return all_acts
+
+    from datetime import date
+    today = date.today()
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        for src in community_sources:
+            url = src["url"]
+            try:
+                page = browser.new_page()
+                page.goto(url, wait_until="network6networkidle", timeout=30000)
+                page.wait_for_timeout(3000)
+                content = page.inner_text("body")
+                page.close()
+
+                if not content or len(content) < 100:
+                    continue
+
+                # 提取帖子标题和链接
+                lines = [l.strip() for l in content.split("\n") if l.strip()]
+                for line in lines:
+                    # 按分类关键词过滤
+                    if not any(k.lower() in line.lower() for k in keywords):
+                        continue
+                    if len(line) < 10 or len(line) > 200:
+                        continue
+
+                    act = {
+                        "title": line[:100],
+                        "category": category,
+                        "source_url": url,
+                        "claim_url": url,
+                        "start_date": today.isoformat(),
+                        "end_date": (today).isoformat(),
+                        "value": "",
+                        "requirements": [],
+                        "description": f"小黑盒社区帖子 | {category}",
+                        "tags": ["小黑盒", category],
+                        "discovered_at": today.isoformat() + "T00:00:00.000000+08:00",
+                        "last_seen": today.isoformat(),
+                        "status": "active",
+                    }
+                    all_acts.append(act)
+
+                if all_acts:
+                    log(f"  小黑盒社区 [{category}]: 提取 {len(all_acts)} 条")
+            except Exception as e:
+                log(f"  小黑盒社区渲染失败: {e}", level="WARN")
+        browser.close()
+
+    return all_acts

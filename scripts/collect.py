@@ -162,6 +162,21 @@ def process_pending_urls() -> int:
         save_json(sources_path, all_sources)
         log(f"sources.json: 新增 {new_count} 个源（总计 {len(all_sources)}）")
 
+        # 抓取新源内容（让用户提交的URL进日历）
+        cats_to_fetch = set()
+        for url2, cat_hint2, _ in urls_to_process:
+            if url2 in existing_urls and cat_hint2 and cat_hint2 in CATEGORIES:
+                cats_to_fetch.add(cat_hint2)
+            elif url2 in existing_urls:
+                cat2, _ = _guess_category_from_url(url2)
+                cats_to_fetch.add(cat2)
+        for cat in cats_to_fetch:
+            log(f"  抓取 [{cat}] 新源内容...")
+            try:
+                process_category(cat)
+            except Exception as e:
+                log(f"  抓取 [{cat}] 失败: {e}", level="WARN")
+
     # 更新 PENDING_URLS.md：删除已处理行，在已处理区追加结果
     new_todo_lines = []
     for line in todo_section.split("\n"):
@@ -246,12 +261,22 @@ def process_category(category: str, subset: str = "all") -> int:
             raw_acts.extend(collect_blog_activities(category))
     elif category == "game-discount":
         # 游戏打折 = 小黑盒分享帖（SPA需Playwright渲染）
-        from blog_collector import collect_heybox_discounts
+        from blog_collector import collect_heybox_discounts, collect_heybox_community
         raw_acts = collect_heybox_discounts()
+        # 小黑盒社区帖子（多分区）
+        raw_acts.extend(collect_heybox_community(category))
     else:
-        # open-source / drive 等其他类别：仅博客聚合
+        # 其他分类也尝试小黑盒社区源
+        from blog_collector import collect_heybox_community
+        heybox_acts = collect_heybox_community(category)
+        raw_acts.extend(heybox_acts)
+    else:
+        # open-source / drive 等其他类别：仅博客聚合 + 小黑盒社区
         # （open-source 由 ai 模式分流触发；drive 模式抓 V2EX，云优惠讨论自动分流回 ai）
         raw_acts = collect_blog_activities(category)
+        # 小黑盒社区帖子（多分区）
+        from blog_collector import collect_heybox_community
+        raw_acts.extend(collect_heybox_community(category))
 
     # 2. 规范化（生成 id 等字段）
     norm_acts = []
