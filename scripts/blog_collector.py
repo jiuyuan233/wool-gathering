@@ -752,7 +752,7 @@ def collect_heybox_community(category: str) -> list[dict]:
             url = src["url"]
             try:
                 page = browser.new_page()
-                page.goto(url, wait_until="network6networkidle", timeout=30000)
+                page.goto(url, wait_until="networkidle", timeout=30000)
                 page.wait_for_timeout(3000)
                 content = page.inner_text("body")
                 page.close()
