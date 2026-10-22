@@ -726,7 +726,7 @@ def collect_heybox_community(category: str) -> list[dict]:
 
     # 分类关键词（用于过滤帖子标题）
     CATEGORY_KEYWORDS = {
-       A        "ai": ["AI", "大模型", "GPT", "Claude", "Gemini", "deepseek", "通义", "文心", "kimi", "智谱", "API", "额度", "免费调用", "云服务", "华为云", "阿里云", "腾讯云"],
+        "ai": ["AI", "大模型", "GPT", "Claude", "Gemini", "deepseek", "通义", "文心", "kimi", "智谱", "API", "额度", "免费调用", "云服务", "华为云", "阿里云", "腾讯云"],
         "open-source": ["开源", "免费工具", "github", "软件", "工具", "插件", "IDE", "编辑器"],
         "drive": ["开车", "线报", "白嫖", "羊毛", "限时", "速领", "手慢无"],
         "shopping": ["购物", "红包", "优惠券", "打折", "满减", "双11", "618", "淘宝", "京东", "天猫"],
