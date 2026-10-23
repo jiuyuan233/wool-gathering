@@ -73,6 +73,65 @@ def _guess_category_from_url(url: str) -> tuple[str, str]:
     return "ai", "html"
 
 
+
+def archive_expired() -> int:
+    """把过期活动按月归档到 docs/archive/YYYY-MM.md，从 activities.json 移除。"""
+    from datetime import date
+    from collections import defaultdict
+    today = date.today().isoformat()
+    archive_dir = DATA_DIR.parent / "docs" / "archive"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    by_month = defaultdict(list)
+    archived_count = 0
+    for cat in CATEGORIES:
+        path = DATA_DIR / cat / "activities.json"
+        acts = load_json(path) or []
+        kept = []
+        for a in acts:
+            status = a.get("status", "")
+            end = a.get("end_date", "")
+            if status == "ended" or (end and end < today):
+                month = (end or a.get("start_date", "") or "unknown")[:7]
+                by_month[month].append((cat, a))
+                archived_count += 1
+            else:
+                kept.append(a)
+        if len(kept) < len(acts):
+            save_json(path, kept)
+    if archived_count == 0:
+        log("无过期活动需归档")
+        return 0
+    cat_names = {"ai":"AI/云服务","open-source":"开源工具","drive":"开车线报","games":"游戏喜加一","shopping":"购物优惠","video-vip":"视频会员","netdisk-vip":"网盘会员","game-discount":"游戏打折"}
+    cat_emojis = {"ai":"🤖","open-source":"🔓","drive":"🚗","games":"🎮","shopping":"🛒","video-vip":"📺","netdisk-vip":"💾","game-discount":"🏷️"}
+    for month, items in sorted(by_month.items()):
+        archive_path = archive_dir / f"{month}.md"
+        by_cat = defaultdict(list)
+        for cat, act in items:
+            by_cat[cat].append(act)
+        lines = [f"# {month[:4]}年{int(month[5:7])}月归档", "", "> 已过期的活动归档，从主页面移除。", ""]
+        for cat in CATEGORIES:
+            cat_acts = by_cat.get(cat, [])
+            if not cat_acts:
+                continue
+            lines.append(f"## {cat_emojis.get(cat,'📋')} {cat_names.get(cat,cat)}")
+            lines.append("")
+            lines.append("| 活动 | 福利 | 时间 | 来源 |")
+            lines.append("|------|------|------|------|")
+            for a in cat_acts:
+                title = a.get("title", "").replace("|", "\|")
+                value = (a.get("value") or "—").replace("|", "\|")
+                start = a.get("start_date", "?")
+                end = a.get("end_date", "?")
+                url = a.get("source_url", "") or a.get("claim_url", "")
+                link = f"[链接]({url})" if url else "—"
+                lines.append(f"| {title} | {value} | {start} ~ {end} | {link} |")
+            lines.append("")
+        archive_path.write_text("\n".join(lines), encoding="utf-8")
+        log(f"归档 {month}: {len(items)} 条")
+    log(f"归档完成: 共 {archived_count} 条")
+    return archived_count
+
+
 def process_pending_urls() -> int:
     """处理 PENDING_URLS.md 里用户提交的网址。
 

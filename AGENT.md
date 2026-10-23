@@ -813,3 +813,9 @@ README 里「🛠 好用 Agent 工具」分区是**静态内容**，直接写在
 | games | 小黑盒社区-games | 喜加一/免费领游戏 |
 
 **工作原理**：`collect_heybox_community(category)` 用 Playwright 渲染小黑盒社区首页 → 按标题关键词过滤属于该分类的帖子 → 提取活动信息。在每次抓取对应分类时自动执行。
+
+## 20. 过期活动归档（自动）
+
+`finalize` 阶段自动把过期活动按月归档到 `docs/archive/YYYY-MM.md`，从 `activities.json` 移除。
+
+**工作原理**：`archive_expired()` 找出 `status=ended` 或 `end_date < 今天` 的活动 → 按月分组 → 写入 `docs/archive/YYYY-MM.md` → 从 `activities.json` 移除。

@@ -83,7 +83,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ docs/calendar.svg docs/data/ README.md PENDING_URLS.md
+          git add data/ docs/ README.md PENDING_URLS.md
           if git diff --cached --quiet; then
             echo "无更新，跳过提交"
           else
