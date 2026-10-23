@@ -17,9 +17,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 60.0,
     "total_days": 10,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "wps-ai-vip-plus-5a8782e5e4",
@@ -39,9 +39,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 60.0,
     "total_days": 10,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "codex-1-a30d149305",
@@ -61,9 +61,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 60.0,
     "total_days": 10,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
@@ -83,9 +83,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 60.0,
     "total_days": 10,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
@@ -105,9 +105,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "b-plus-87eed4109c",
@@ -127,9 +127,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
@@ -149,9 +149,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "codex-1-8-79edcabe5f",
@@ -171,9 +171,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "11-e06ae154ad",
@@ -193,9 +193,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "cloud_21e1f5e207cc",
@@ -215,9 +215,9 @@
     "discovered_at": "2026-10-19T11:37:08.835788+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_b9088095b507",
@@ -237,9 +237,9 @@
     "discovered_at": "2026-10-19T11:37:12.559443+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_e75f23a2006f",
@@ -259,9 +259,9 @@
     "discovered_at": "2026-10-19T13:16:14.748266+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_4d4fd319df26",
@@ -281,9 +281,9 @@
     "discovered_at": "2026-10-19T13:16:15.804000+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_3dfb1407dfbe",
@@ -303,9 +303,9 @@
     "discovered_at": "2026-10-19T13:16:18.485054+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_5cfd79b201c8",
@@ -325,9 +325,9 @@
     "discovered_at": "2026-10-19T13:16:22.768559+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_8ff1ec8d1772",
@@ -347,9 +347,9 @@
     "status": "active",
     "discovered_at": "2026-10-19T16:30:00+08:00",
     "last_seen": "2026-10-21",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_a6638bd2c0cc",
@@ -369,9 +369,9 @@
     "discovered_at": "2026-10-19T16:46:02.531627+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_4b7a798bd85e",
@@ -391,9 +391,9 @@
     "discovered_at": "2026-10-19T16:46:04.603884+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_8a5fcce5d067",
@@ -413,9 +413,9 @@
     "discovered_at": "2026-10-19T16:46:06.353735+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_e9c81e3c3f4a",
@@ -435,9 +435,9 @@
     "discovered_at": "2026-10-19T16:46:07.791323+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 15.2,
+    "progress_pct": 18.2,
     "total_days": 33,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "ai-agent-5cecfcac",
@@ -459,9 +459,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-190f2c96",
@@ -482,9 +482,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-4c4a355f",
@@ -505,9 +505,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-cee2957f",
@@ -529,9 +529,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-b1a16b4d",
@@ -552,9 +552,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-43916e68",
@@ -574,9 +574,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-183e2d4d",
@@ -597,9 +597,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-bfdfe2d9",
@@ -621,9 +621,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-6013aa86",
@@ -645,9 +645,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 8.1,
     "total_days": 74,
-    "days_left": 69
+    "days_left": 68
   },
   {
     "id": "ai-agent-cefaaa69",
@@ -668,9 +668,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.1,
+    "progress_pct": 1.4,
     "total_days": 439,
-    "days_left": 434
+    "days_left": 433
   },
   {
     "id": "ai-agent-1a83eebb",
@@ -692,9 +692,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.1,
+    "progress_pct": 1.4,
     "total_days": 439,
-    "days_left": 434
+    "days_left": 433
   },
   {
     "id": "ai-agent-e66621c6",
@@ -715,9 +715,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.1,
+    "progress_pct": 1.4,
     "total_days": 439,
-    "days_left": 434
+    "days_left": 433
   },
   {
     "id": "ai-agent-a983e290",
@@ -738,9 +738,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.1,
+    "progress_pct": 1.4,
     "total_days": 439,
-    "days_left": 434
+    "days_left": 433
   },
   {
     "id": "ai-agent-fac0be86",
@@ -761,9 +761,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.1,
+    "progress_pct": 1.4,
     "total_days": 439,
-    "days_left": 434
+    "days_left": 433
   },
   {
     "id": "ai-agent-af3a32c5",
@@ -785,9 +785,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.1,
+    "progress_pct": 1.4,
     "total_days": 439,
-    "days_left": 434
+    "days_left": 433
   },
   {
     "id": "adobe-artcraft-ps-ae-pr-ai-e256bde94c",
@@ -1093,9 +1093,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "myna-pro-d0c0510cc5",
@@ -1115,9 +1115,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "midalo-claude-gpt-gemini-57-2-3b6a24d75b",
@@ -1137,9 +1137,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "midalo-ai-1024-7-24-5-2767c13b40",
@@ -1159,9 +1159,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "zooproxy-f412885a1a",
@@ -1181,9 +1181,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-bad-cheese-f2e34f739e",
@@ -1260,9 +1260,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "exiled-giveaways-and-itch-io-m-7e4d16baff",
@@ -1282,9 +1282,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-game-dumb-ways-to-build-842e5a7ce9",
@@ -1304,9 +1304,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-game-the-green-light-86fb29f667",
@@ -1326,9 +1326,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-game-space-pilgrim-acad-7c5fc790e4",
@@ -1348,9 +1348,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-game-linked-reddit-free-f318733ab4",
@@ -1370,9 +1370,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-game-warspawn-reddit-fr-aadded35d0",
@@ -1392,9 +1392,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-game-akin-reddit-freega-000107bb18",
@@ -1414,9 +1414,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-game-wane-s-reddit-free-553a9abc6b",
@@ -1436,9 +1436,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-games-game-bad-cheese-re-574e844815",
@@ -1458,9 +1458,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-games-game-agent-a-a-puz-7f553e20a9",
@@ -1480,9 +1480,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-game-gangsta-forest-sho-b97784464c",
@@ -1502,9 +1502,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-games-mobile-game-agent-5c031ab2c8",
@@ -1524,9 +1524,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "psa-vampire-the-masquerade-sw-b151146fbd",
@@ -1546,9 +1546,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-dlc-squad-weapon-skins-fe800a98d7",
@@ -1568,9 +1568,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-game-store-bad-cheese-cb8fff24ce",
@@ -1590,9 +1590,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-game-store-agent-a-a-puz-a063b03c41",
@@ -1612,9 +1612,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-game-store-voidtrain-big-aae483eb14",
@@ -1634,9 +1634,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-gear-club-unlimited-3-g-c6a605365e",
@@ -1656,9 +1656,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-game-store-voidtrain-tou-040d3bcc30",
@@ -1678,9 +1678,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "steam-squad-weapon-skins-reco-44489a741a",
@@ -1700,9 +1700,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-offrecord-episode-1-065bfb2b0f",
@@ -1722,9 +1722,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-the-wrong-way-000f7e305a",
@@ -1744,9 +1744,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-party-line-fd5629810f",
@@ -1766,9 +1766,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-nun-massacre-dbb9559f69",
@@ -1788,9 +1788,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-party-line-reclassifi-7f14c56b7d",
@@ -1810,9 +1810,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-thedollshop-204190012c",
@@ -1832,9 +1832,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-pdm-f46863f6d5",
@@ -1854,9 +1854,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-lihiman-full-d1e6e91726",
@@ -1876,9 +1876,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-fear-assessment-f6c631ab0b",
@@ -1898,9 +1898,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-first-contact-protoco-e7c3a6acc6",
@@ -1920,9 +1920,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-shattered-pixel-dunge-df8a2bafd2",
@@ -1942,9 +1942,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-demetrios-50a4aec172",
@@ -1964,9 +1964,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-the-black-within-f40d1b2394",
@@ -1986,9 +1986,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-brutal-legend-e5b84ae1fb",
@@ -2008,9 +2008,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-necrosisfull-c64-b6d7e4f6d8",
@@ -2030,9 +2030,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-kalayaan-road-d9a52ad9cf",
@@ -2052,9 +2052,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-sabado-day-one-2d50d34b41",
@@ -2074,9 +2074,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-gravehearts-d53303934c",
@@ -2096,9 +2096,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-babysitter-bloodbath-c78e142930",
@@ -2118,9 +2118,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-unearthed-4e41ebd11a",
@@ -2140,9 +2140,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-killcache-e5fd2217fd",
@@ -2162,9 +2162,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-deathguest-2f81305ee3",
@@ -2184,9 +2184,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-creature-kitchen-659a6f65a3",
@@ -2206,9 +2206,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-the-midnight-bus-efaacf3862",
@@ -2228,9 +2228,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-the-mayor-of-sanctuar-40b09fd69d",
@@ -2250,9 +2250,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-trox-the-reversal-70b089da9e",
@@ -2272,9 +2272,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-family-manners-bc241ac89c",
@@ -2294,9 +2294,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-midboss-13a86d3661",
@@ -2316,9 +2316,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-pigeon-west-call-of-g-ce6832bb3d",
@@ -2338,9 +2338,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-my-teacher-615a6cdb22",
@@ -2360,9 +2360,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-pixel-fireplace-35806ca855",
@@ -2382,9 +2382,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-tylers-deal-4a351fa01c",
@@ -2404,9 +2404,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-apothecaria-makers-ma-df00db0988",
@@ -2426,9 +2426,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-lost-in-transit-1d4a2046f4",
@@ -2448,9 +2448,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-the-failure-even-deat-4e51a3ebd0",
@@ -2470,9 +2470,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-brok-34552c1b5d",
@@ -2492,9 +2492,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "fgf-giveaway-retro-pond-sandtr-3693ac70af",
@@ -2514,9 +2514,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-game-the-green-light-87c1e27198",
@@ -2536,9 +2536,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-rubys-trick-or-treat-e914675e50",
@@ -2558,9 +2558,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-game-store-gethigh-exe-8ed5a51426",
@@ -2580,9 +2580,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-squad-weapon-skins-reco-301536c158",
@@ -2602,9 +2602,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-the-green-light-9341c6ea6f",
@@ -2624,9 +2624,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-where-winter-crows-go-0475ebf97a",
@@ -2646,9 +2646,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-roguecraft-dx-next-a6dbc1c86c",
@@ -2668,9 +2668,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-smiling-terror-3712a68807",
@@ -2690,9 +2690,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-cherophobia-4454de1637",
@@ -2712,9 +2712,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-quiet-west-butcher-no-7d01961b97",
@@ -2734,9 +2734,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-apothecaria-nightfall-f4680ea9b6",
@@ -2756,9 +2756,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-cosmic-express-61ea3e21d5",
@@ -2778,9 +2778,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "exiled-giveaways-and-itch-io-m-25c3d9451c",
@@ -2800,9 +2800,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-games-game-gethigh-exe-r-4bd053ae43",
@@ -2822,9 +2822,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-game-hellcard-reddit-fr-4c75f5a0a6",
@@ -2844,9 +2844,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "indiegala-game-last-room-redd-0309c2eabf",
@@ -2866,9 +2866,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-game-memology-goyda-red-bd11da2685",
@@ -2888,9 +2888,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-game-uncanny-tales-1992-ebc7ccb989",
@@ -2910,9 +2910,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-game-deadzone-rogue-red-0914b6dfad",
@@ -2932,9 +2932,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-eternal-threads-2edebd45cb",
@@ -2951,9 +2951,9 @@
     "discovered_at": "2026-10-19T11:17:11.082864+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 33.3,
+    "progress_pct": 40.0,
     "total_days": 15,
-    "days_left": 10
+    "days_left": 9
   },
   {
     "id": "epic-castlevania-anniversary-c-4860771dff",
@@ -2970,9 +2970,9 @@
     "discovered_at": "2026-10-19T11:17:11.082934+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 33.3,
+    "progress_pct": 40.0,
     "total_days": 15,
-    "days_left": 10
+    "days_left": 9
   },
   {
     "id": "epic-monument-valley-57a0ec43bc",
@@ -2989,9 +2989,9 @@
     "discovered_at": "2026-10-19T11:17:11.082946+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 33.3,
+    "progress_pct": 40.0,
     "total_days": 15,
-    "days_left": 10
+    "days_left": 9
   },
   {
     "id": "epic-sker-ritual-0f64e3a767",
@@ -3008,9 +3008,9 @@
     "discovered_at": "2026-10-19T11:17:11.082922+08:00",
     "last_seen": "2026-10-21",
     "status": "upcoming",
-    "progress_pct": 25.0,
+    "progress_pct": 37.5,
     "total_days": 8,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "epic-home-a-unique-horror-adve-c5f73b1ced",
@@ -3027,9 +3027,9 @@
     "discovered_at": "2026-10-19T11:17:11.082980+08:00",
     "last_seen": "2026-10-21",
     "status": "upcoming",
-    "progress_pct": 25.0,
+    "progress_pct": 37.5,
     "total_days": 8,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "epic-lisa-definitive-edition-0bdd07144d",
@@ -3048,7 +3048,7 @@
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 10,
-    "days_left": 18
+    "days_left": 17
   },
   {
     "id": "epic-2-c44c4e8654",
@@ -3067,7 +3067,7 @@
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 29,
-    "days_left": 76
+    "days_left": 75
   },
   {
     "id": "11-vip-edc5befef4",
@@ -3087,9 +3087,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "11-3-9b63a182f0",
@@ -3109,9 +3109,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "vip-plus-b231be0c08",
@@ -3131,9 +3131,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "svip-tv-58213fc2cc",
@@ -3153,9 +3153,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "svip-6tb-330bda9a39",
@@ -3175,9 +3175,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "svip-b-95b3f9be7b",
@@ -3197,9 +3197,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "heybox-steam-festival-1020",
@@ -3221,9 +3221,9 @@
     "discovered_at": "2026-10-20T00:50:00.000000+08:00",
     "last_seen": "2026-10-20",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "heybox-steam-discount-1020-169",
@@ -3245,9 +3245,9 @@
     "discovered_at": "2026-10-20T01:00:00.000000+08:00",
     "last_seen": "2026-10-20",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "10-20-steam-153-3-6953a19bdb",
@@ -3268,8 +3268,8 @@
     "discovered_at": "2026-10-21T00:00:00.000000+08:00",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   }
 ]
