@@ -225,6 +225,13 @@ def generate_readme() -> None:
 
     body = "\n".join(sections)
 
+    # 把分类活动写到 docs/分类活动.md
+    from utils import REPO_ROOT
+    sections_path = REPO_ROOT / "docs" / "分类活动.md"
+    sections_path.parent.mkdir(parents=True, exist_ok=True)
+    sections_path.write_text("# 🗂 分类活动\n\n" + body + "\n", encoding="utf-8")
+    log("已生成 docs/分类活动.md")
+
     if not README_TEMPLATE.exists():
         log(f"README 模板不存在: {README_TEMPLATE}", level="ERROR")
         return
