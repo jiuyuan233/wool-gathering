@@ -1,1193 +1,5 @@
 [
   {
-    "id": "epic-bad-cheese-f2e34f739e",
-    "title": "Epic 免费游戏: Bad Cheese ｜坏奶酪",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-15",
-    "end_date": "2026-10-22",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-15 ~ 2026-10-22",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082957+08:00",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "epic-agent-a-cba121d705",
-    "title": "Epic 免费游戏: Agent A - 伪装游戏 ｜特工A-伪装游戏",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-15",
-    "end_date": "2026-10-22",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-15 ~ 2026-10-22",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082969+08:00",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "steam-6a25439ae4",
-    "title": "Steam 免费周末: 免费周末",
-    "category": "games",
-    "source_url": "",
-    "claim_url": "",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-22",
-    "value": "",
-    "requirements": [],
-    "description": "Steam Store | 分类: Spotlights",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:13.209438+08:00",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "fgf-giveaway-retro-pond-amp-sa-0af139ff0d",
-    "title": "FGF Giveaway: Retro Pond &amp; Sandtrix+!（Reddit-FreeGameFindings） ｜复古池塘",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "exiled-giveaways-and-itch-io-m-7e4d16baff",
-    "title": "Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings） ｜流放赠品与itch.io大合集",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x47cvi/exiled_giveaways_and_itchio_mega_threads/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x47cvi/exiled_giveaways_and_itchio_mega_threads/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "steam-game-dumb-ways-to-build-842e5a7ce9",
-    "title": "[Steam] (Game) Dumb Ways to Build（Reddit-FreeGameFindings） ｜蠢蛋建造法",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x98rdb/steam_game_dumb_ways_to_build/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x98rdb/steam_game_dumb_ways_to_build/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-game-the-green-light-86fb29f667",
-    "title": "[itch.io] (Game) The Green Light &amp; The Black Within（Reddit-FreeGameFindings） ｜绿光与黑境",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "steam-game-space-pilgrim-acad-7c5fc790e4",
-    "title": "[Steam] (game) Space Pilgrim Academy Year 1（Reddit-FreeGameFindings） ｜太空朝圣者学院第一年",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x89vdw/steam_game_space_pilgrim_academy_year_1/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x89vdw/steam_game_space_pilgrim_academy_year_1/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "steam-game-linked-reddit-free-f318733ab4",
-    "title": "[Steam] (Game) Linked（Reddit-FreeGameFindings） ｜链接",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9bvk0/steam_game_linked/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9bvk0/steam_game_linked/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "steam-game-warspawn-reddit-fr-aadded35d0",
-    "title": "[Steam] (Game) WarSpawn（Reddit-FreeGameFindings） ｜战争重生",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7q1hy/steam_game_warspawn/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7q1hy/steam_game_warspawn/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "steam-game-akin-reddit-freega-000107bb18",
-    "title": "[Steam] (Game) Akin（Reddit-FreeGameFindings） ｜相似",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9757j/steam_game_akin/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9757j/steam_game_akin/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "steam-game-wane-s-reddit-free-553a9abc6b",
-    "title": "[Steam] (Game) Wane’s（Reddit-FreeGameFindings） ｜衰退",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7ej2d/steam_game_wanes/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7ej2d/steam_game_wanes/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "epic-games-game-bad-cheese-re-574e844815",
-    "title": "[Epic Games] (Game) Bad Cheese（Reddit-FreeGameFindings） ｜坏奶酪",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nyl9/epic_games_game_bad_cheese/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nyl9/epic_games_game_bad_cheese/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "epic-games-game-agent-a-a-puz-7f553e20a9",
-    "title": "[Epic Games] (Game) Agent A: A puzzle in disguise（Reddit-FreeGameFindings） ｜特工A：伪装之谜",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nylb/epic_games_game_agent_a_a_puzzle_in_disguise/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nylb/epic_games_game_agent_a_a_puzzle_in_disguise/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "steam-game-gangsta-forest-sho-b97784464c",
-    "title": "[Steam] (Game) Gangsta Forest Shooter（Reddit-FreeGameFindings） ｜黑帮森林射手",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8i155/steam_game_gangsta_forest_shooter/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8i155/steam_game_gangsta_forest_shooter/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "epic-games-mobile-game-agent-5c031ab2c8",
-    "title": "[Epic Games Mobile] (Game) Agent A: A puzzle in disguise（Reddit-FreeGameFindings） ｜特工A：伪装之谜",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nzqb/epic_games_mobile_game_agent_a_a_puzzle_in/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nzqb/epic_games_mobile_game_agent_a_a_puzzle_in/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "psa-vampire-the-masquerade-sw-b151146fbd",
-    "title": "[PSA] Vampire: The Masquerade - Swansong (EGS), Caravan SandWitch (Amazon Games) are complimentary with Amazon Prime（Reddit-FreeGameFindings） ｜吸血鬼：避世潜藏-天鹅之歌",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6r5x4/psa_vampire_the_masquerade_swansong_egs_caravan/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6r5x4/psa_vampire_the_masquerade_swansong_egs_caravan/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "steam-dlc-squad-weapon-skins-fe800a98d7",
-    "title": "[Steam] (DLC) Squad Weapon Skins - Recon Team Pack（Reddit-FreeGameFindings） ｜小队武器皮肤-侦察队包",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6ssud/steam_dlc_squad_weapon_skins_recon_team_pack/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6ssud/steam_dlc_squad_weapon_skins_recon_team_pack/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "epic-game-store-bad-cheese-cb8fff24ce",
-    "title": "[Epic Game Store] Bad Cheese（限免） ｜坏奶酪",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/bad-cheese/info/",
-    "claim_url": "https://isthereanydeal.com/game/bad-cheese/info/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: Bad Cheese",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "epic-game-store-agent-a-a-puz-a063b03c41",
-    "title": "[Epic Game Store] Agent A: A puzzle in disguise（限免） ｜特工A：伪装之谜",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/agent-a-a-puzzle-in-disguise/info/",
-    "claim_url": "https://isthereanydeal.com/game/agent-a-a-puzzle-in-disguise/info/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: Agent A: A puzzle in disguise",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "epic-game-store-voidtrain-big-aae483eb14",
-    "title": "[Epic Game Store] Voidtrain - Big Catch（限免） ｜虚空列车-大捕获",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/voidtrain-big-catch/info/",
-    "claim_url": "https://isthereanydeal.com/game/voidtrain-big-catch/info/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: Voidtrain - Big Catch",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "steam-gear-club-unlimited-3-g-c6a605365e",
-    "title": "[Steam] Gear.Club Unlimited 3 - Gear.Club Signature Pack（限免） ｜齿轮俱乐部无限3-签名包",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/gear-club-unlimited-3-gear-club-signature-pack/info/",
-    "claim_url": "https://isthereanydeal.com/game/gear-club-unlimited-3-gear-club-signature-pack/info/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "Steam 100% off 限免: Gear.Club Unlimited 3 - Gear.Club Signature Pack",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "epic-game-store-voidtrain-tou-040d3bcc30",
-    "title": "[Epic Game Store] Voidtrain - Tour de Void（限免） ｜虚空列车-虚空之旅",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/voidtrain-tour-de-void/info/",
-    "claim_url": "https://isthereanydeal.com/game/voidtrain-tour-de-void/info/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: Voidtrain - Tour de Void",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "steam-squad-weapon-skins-reco-44489a741a",
-    "title": "[Steam] squad-weapon-skins-recon-team-pack（限免） ｜小队武器皮肤-侦察队包",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/",
-    "claim_url": "https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "Steam 100% off 限免: squad-weapon-skins-recon-team-pack",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-offrecord-episode-1-065bfb2b0f",
-    "title": "[itch.io] Offrecord Episode 1（限免） ｜非官方记录第一章",
-    "category": "games",
-    "source_url": "https://redcap-games.itch.io/offrecord-episode-1",
-    "claim_url": "https://redcap-games.itch.io/offrecord-episode-1",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: offrecord-episode-1",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-the-wrong-way-000f7e305a",
-    "title": "[itch.io] The Wrong Way（限免） ｜逆行",
-    "category": "games",
-    "source_url": "https://zestosyt.itch.io/the-wrong-way",
-    "claim_url": "https://zestosyt.itch.io/the-wrong-way",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: the-wrong-way",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-party-line-fd5629810f",
-    "title": "[itch.io] Party Line（限免） ｜电话分机",
-    "category": "games",
-    "source_url": "https://notsospecialgames.itch.io/party-line",
-    "claim_url": "https://notsospecialgames.itch.io/party-line",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: party-line",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-nun-massacre-dbb9559f69",
-    "title": "[itch.io] Nun Massacre（限免） ｜修女大屠杀",
-    "category": "games",
-    "source_url": "https://puppetcombo.itch.io/nun-massacre",
-    "claim_url": "https://puppetcombo.itch.io/nun-massacre",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: nun-massacre",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-party-line-reclassifi-7f14c56b7d",
-    "title": "[itch.io] Party Line Reclassified（限免） ｜电话分机",
-    "category": "games",
-    "source_url": "https://notsospecialgames.itch.io/party-line-reclassified",
-    "claim_url": "https://notsospecialgames.itch.io/party-line-reclassified",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: party-line-reclassified",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-thedollshop-204190012c",
-    "title": "[itch.io] Thedollshop（限免） ｜玩偶店",
-    "category": "games",
-    "source_url": "https://ateliersento.itch.io/thedollshop",
-    "claim_url": "https://ateliersento.itch.io/thedollshop",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: thedollshop",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-pdm-f46863f6d5",
-    "title": "[itch.io] Pdm（限免） ｜Pdm",
-    "category": "games",
-    "source_url": "https://puppetcombo.itch.io/pdm",
-    "claim_url": "https://puppetcombo.itch.io/pdm",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: pdm",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-lihiman-full-d1e6e91726",
-    "title": "[itch.io] Lihiman Full（限免） ｜利希曼完整版",
-    "category": "games",
-    "source_url": "https://kiwidreams-01.itch.io/lihiman-full",
-    "claim_url": "https://kiwidreams-01.itch.io/lihiman-full",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: lihiman-full",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-fear-assessment-f6c631ab0b",
-    "title": "[itch.io] Fear Assessment（限免） ｜恐惧评估",
-    "category": "games",
-    "source_url": "https://alexander-wiseman.itch.io/fear-assessment",
-    "claim_url": "https://alexander-wiseman.itch.io/fear-assessment",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: fear-assessment",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-first-contact-protoco-e7c3a6acc6",
-    "title": "[itch.io] First Contact Protocol（限免） ｜第一次接触协议",
-    "category": "games",
-    "source_url": "https://benjelter.itch.io/first-contact-protocol",
-    "claim_url": "https://benjelter.itch.io/first-contact-protocol",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: first-contact-protocol",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-shattered-pixel-dunge-df8a2bafd2",
-    "title": "[itch.io] Shattered Pixel Dungeon（限免） ｜破碎像素地牢",
-    "category": "games",
-    "source_url": "https://shattered-pixel.itch.io/shattered-pixel-dungeon",
-    "claim_url": "https://shattered-pixel.itch.io/shattered-pixel-dungeon",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: shattered-pixel-dungeon",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-demetrios-50a4aec172",
-    "title": "[itch.io] Demetrios（限免） ｜德米特里奥斯",
-    "category": "games",
-    "source_url": "https://cowcat.itch.io/demetrios",
-    "claim_url": "https://cowcat.itch.io/demetrios",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: demetrios",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-the-black-within-f40d1b2394",
-    "title": "[itch.io] The Black Within（限免） ｜黑境",
-    "category": "games",
-    "source_url": "https://waleedzo.itch.io/the-black-within",
-    "claim_url": "https://waleedzo.itch.io/the-black-within",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: the-black-within",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-brutal-legend-e5b84ae1fb",
-    "title": "[itch.io] Brutal Legend（限免） ｜横暴传奇",
-    "category": "games",
-    "source_url": "https://doublefine.itch.io/brutal-legend",
-    "claim_url": "https://doublefine.itch.io/brutal-legend",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: brutal-legend",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-necrosisfull-c64-b6d7e4f6d8",
-    "title": "[itch.io] Necrosisfull C64（限免） ｜坏死完整版C64",
-    "category": "games",
-    "source_url": "https://mjnurney.itch.io/necrosisfull-c64",
-    "claim_url": "https://mjnurney.itch.io/necrosisfull-c64",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: necrosisfull-c64",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-kalayaan-road-d9a52ad9cf",
-    "title": "[itch.io] Kalayaan Road（限免） ｜卡拉亚安之路",
-    "category": "games",
-    "source_url": "https://lawdgames.itch.io/kalayaan-road",
-    "claim_url": "https://lawdgames.itch.io/kalayaan-road",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: kalayaan-road",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-sabado-day-one-2d50d34b41",
-    "title": "[itch.io] Sabado Day One（限免） ｜萨巴多第一天",
-    "category": "games",
-    "source_url": "https://kiwidreams-01.itch.io/sabado-day-one",
-    "claim_url": "https://kiwidreams-01.itch.io/sabado-day-one",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: sabado-day-one",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-gravehearts-d53303934c",
-    "title": "[itch.io] Gravehearts（限免） ｜坟心",
-    "category": "games",
-    "source_url": "https://kroovv.itch.io/gravehearts",
-    "claim_url": "https://kroovv.itch.io/gravehearts",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: gravehearts",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-babysitter-bloodbath-c78e142930",
-    "title": "[itch.io] Babysitter Bloodbath（限免） ｜保姆血浴",
-    "category": "games",
-    "source_url": "https://puppetcombo.itch.io/babysitter-bloodbath",
-    "claim_url": "https://puppetcombo.itch.io/babysitter-bloodbath",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: babysitter-bloodbath",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-unearthed-4e41ebd11a",
-    "title": "[itch.io] Unearthed（限免） ｜出土",
-    "category": "games",
-    "source_url": "https://benjelter.itch.io/unearthed",
-    "claim_url": "https://benjelter.itch.io/unearthed",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: unearthed",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-killcache-e5fd2217fd",
-    "title": "[itch.io] Killcache（限免） ｜杀戮缓存",
-    "category": "games",
-    "source_url": "https://verybadscavr.itch.io/killcache",
-    "claim_url": "https://verybadscavr.itch.io/killcache",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: killcache",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-deathguest-2f81305ee3",
-    "title": "[itch.io] Deathguest（限免） ｜死亡之客",
-    "category": "games",
-    "source_url": "https://honeybunny-of.itch.io/deathguest",
-    "claim_url": "https://honeybunny-of.itch.io/deathguest",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: deathguest",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-creature-kitchen-659a6f65a3",
-    "title": "[itch.io] Creature Kitchen（限免） ｜生物厨房",
-    "category": "games",
-    "source_url": "https://the-rat-zone.itch.io/creature-kitchen",
-    "claim_url": "https://the-rat-zone.itch.io/creature-kitchen",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: creature-kitchen",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-the-midnight-bus-efaacf3862",
-    "title": "[itch.io] The Midnight Bus（限免） ｜午夜巴士",
-    "category": "games",
-    "source_url": "https://itandfeel.itch.io/the-midnight-bus",
-    "claim_url": "https://itandfeel.itch.io/the-midnight-bus",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: the-midnight-bus",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-the-mayor-of-sanctuar-40b09fd69d",
-    "title": "[itch.io] The Mayor Of Sanctuary（限免） ｜避难所市长",
-    "category": "games",
-    "source_url": "https://naramakesgames.itch.io/the-mayor-of-sanctuary",
-    "claim_url": "https://naramakesgames.itch.io/the-mayor-of-sanctuary",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: the-mayor-of-sanctuary",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-trox-the-reversal-70b089da9e",
-    "title": "[itch.io] Trox The Reversal（限免） ｜特罗克斯逆转",
-    "category": "games",
-    "source_url": "https://troj4nblazing.itch.io/trox-the-reversal",
-    "claim_url": "https://troj4nblazing.itch.io/trox-the-reversal",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: trox-the-reversal",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-family-manners-bc241ac89c",
-    "title": "[itch.io] Family Manners（限免） ｜家族规矩",
-    "category": "games",
-    "source_url": "https://nney.itch.io/family-manners",
-    "claim_url": "https://nney.itch.io/family-manners",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: family-manners",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-midboss-13a86d3661",
-    "title": "[itch.io] Midboss（限免） ｜中层Boss",
-    "category": "games",
-    "source_url": "https://eniko.itch.io/midboss",
-    "claim_url": "https://eniko.itch.io/midboss",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: midboss",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-pigeon-west-call-of-g-ce6832bb3d",
-    "title": "[itch.io] Pigeon West Call Of Gun Isekai（限免） ｜鸽子西部枪之召唤异世界",
-    "category": "games",
-    "source_url": "https://squidsquadpapi.itch.io/pigeon-west-call-of-gun-isekai",
-    "claim_url": "https://squidsquadpapi.itch.io/pigeon-west-call-of-gun-isekai",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: pigeon-west-call-of-gun-isekai",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-my-teacher-615a6cdb22",
-    "title": "[itch.io] My Teacher（限免） ｜我的老师",
-    "category": "games",
-    "source_url": "https://w3stgta.itch.io/my-teacher",
-    "claim_url": "https://w3stgta.itch.io/my-teacher",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: my-teacher",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-pixel-fireplace-35806ca855",
-    "title": "[itch.io] Pixel Fireplace（限免） ｜像素壁炉",
-    "category": "games",
-    "source_url": "https://hammertail.itch.io/pixel-fireplace",
-    "claim_url": "https://hammertail.itch.io/pixel-fireplace",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: pixel-fireplace",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-tylers-deal-4a351fa01c",
-    "title": "[itch.io] Tylers Deal（限免） ｜泰勒的交易",
-    "category": "games",
-    "source_url": "https://chodex-productions.itch.io/tylers-deal",
-    "claim_url": "https://chodex-productions.itch.io/tylers-deal",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: tylers-deal",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-apothecaria-makers-ma-df00db0988",
-    "title": "[itch.io] Apothecaria Makers Market Expansion（限免） ｜药剂师制造市场扩展",
-    "category": "games",
-    "source_url": "https://blackwellwriter.itch.io/apothecaria-makers-market-expansion",
-    "claim_url": "https://blackwellwriter.itch.io/apothecaria-makers-market-expansion",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: apothecaria-makers-market-expansion",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-lost-in-transit-1d4a2046f4",
-    "title": "[itch.io] Lost In Transit（限免） ｜运输遗失",
-    "category": "games",
-    "source_url": "https://boxer-gaming.itch.io/lost-in-transit",
-    "claim_url": "https://boxer-gaming.itch.io/lost-in-transit",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: lost-in-transit",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-the-failure-even-deat-4e51a3ebd0",
-    "title": "[itch.io] The Failure Even Death Rejects（限免） ｜连死亡都拒绝的失败",
-    "category": "games",
-    "source_url": "https://bigdeal.itch.io/the-failure-even-death-rejects",
-    "claim_url": "https://bigdeal.itch.io/the-failure-even-death-rejects",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: the-failure-even-death-rejects",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-brok-34552c1b5d",
-    "title": "[itch.io] Brok（限免） ｜布罗克",
-    "category": "games",
-    "source_url": "https://cowcat.itch.io/brok",
-    "claim_url": "https://cowcat.itch.io/brok",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费（即将转付费）: brok",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "fgf-giveaway-retro-pond-sandtr-3693ac70af",
-    "title": "FGF Giveaway: Retro Pond & Sandtrix+!（Reddit-FreeGameFindings） ｜复古池塘",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-game-the-green-light-87c1e27198",
-    "title": "[itch.io] (Game) The Green Light & The Black Within（Reddit-FreeGameFindings） ｜绿光与黑境",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-rubys-trick-or-treat-e914675e50",
-    "title": "[itch.io] Rubys Trick Or Treat（限免） ｜露比的不给糖就捣蛋",
-    "category": "games",
-    "source_url": "https://kripkode.itch.io/rubys-trick-or-treat",
-    "claim_url": "https://kripkode.itch.io/rubys-trick-or-treat",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Rubys Trick Or Treat",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active"
-  },
-  {
     "id": "epic-game-store-gethigh-exe-8ed5a51426",
     "title": "[Epic Game Store] GetHigh.EXE（限免）",
     "category": "games",
@@ -1241,7 +53,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -1260,7 +72,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -1511,6 +323,38 @@
     "status": "active"
   },
   {
+    "id": "epic-sker-ritual-0f64e3a767",
+    "title": "Epic 免费游戏: Sker Ritual ｜斯克尔仪式",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-29",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082922+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-home-a-unique-horror-adve-c5f73b1ced",
+    "title": "Epic 免费游戏: Home - A Unique Horror Adventure ｜归家-独特恐怖冒险",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-29",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082980+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
     "id": "epic-eternal-threads-2edebd45cb",
     "title": "Epic 免费游戏: Eternal Threads ｜永恒之线",
     "category": "games",
@@ -1523,7 +367,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082864+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -1539,7 +383,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082934+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -1555,40 +399,898 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082946+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
-    "id": "epic-sker-ritual-0f64e3a767",
-    "title": "Epic 免费游戏: Sker Ritual ｜斯克尔仪式",
+    "id": "epic-sorry-we-re-closed-be392014b9",
+    "title": "Epic 免费游戏: 《Sorry We’re Closed》",
     "category": "games",
     "source_url": "https://store.epicgames.com/zh-CN/free-games",
     "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-22",
-    "end_date": "2026-10-29",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-02",
     "value": "",
     "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
+    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082922+08:00",
-    "last_seen": "2026-10-21",
-    "status": "upcoming"
+    "discovered_at": "2026-10-27T11:51:56.314613+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active"
   },
   {
-    "id": "epic-home-a-unique-horror-adve-c5f73b1ced",
-    "title": "Epic 免费游戏: Home - A Unique Horror Adventure ｜归家-独特恐怖冒险",
+    "id": "epic-game-store-sker-ritual-8727e02332",
+    "title": "[Epic Game Store] Sker Ritual（限免）",
     "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-22",
-    "end_date": "2026-10-29",
+    "source_url": "https://isthereanydeal.com/game/sker-ritual/info/",
+    "claim_url": "https://isthereanydeal.com/game/sker-ritual/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
     "value": "",
     "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082980+08:00",
-    "last_seen": "2026-10-21",
-    "status": "upcoming"
+    "description": "Epic Game Store 100% off 限免: Sker Ritual",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-mafia-hotel-9a54af577b",
+    "title": "[Epic Game Store] MAFIA HOTEL（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/mafia-hotel/info/",
+    "claim_url": "https://isthereanydeal.com/game/mafia-hotel/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: MAFIA HOTEL",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-terraspace-126f46a8eb",
+    "title": "[Epic Game Store] Terraspace（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/terraspace/info/",
+    "claim_url": "https://isthereanydeal.com/game/terraspace/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Terraspace",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-home-a-unique-6ef0e73e7f",
+    "title": "[Epic Game Store] Home - A Unique Horror Adventure（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/home-a-unique-horror-adventure/info/",
+    "claim_url": "https://isthereanydeal.com/game/home-a-unique-horror-adventure/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Home - A Unique Horror Adventure",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-gethigh-exe-eb5e3278ba",
+    "title": "[Epic Game Store] gethigh-exe（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/gethigh-exe/info/",
+    "claim_url": "https://isthereanydeal.com/game/gethigh-exe/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: gethigh-exe",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "steam-popcorn-and-premieren-a-707d33696f",
+    "title": "[Steam] popcorn-and-premieren-ausgehviertel（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/popcorn-and-premieren-ausgehviertel/info/",
+    "claim_url": "https://isthereanydeal.com/game/popcorn-and-premieren-ausgehviertel/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: popcorn-and-premieren-ausgehviertel",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-usuimo-9bc1d41e7b",
+    "title": "[itch.io] Usuimo（限免）",
+    "category": "games",
+    "source_url": "https://nlch.itch.io/usuimo",
+    "claim_url": "https://nlch.itch.io/usuimo",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Usuimo",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-criminally-yours-8f7020a4cf",
+    "title": "[itch.io] Criminally Yours（限免）",
+    "category": "games",
+    "source_url": "https://meant-to-bee-studios.itch.io/criminally-yours",
+    "claim_url": "https://meant-to-bee-studios.itch.io/criminally-yours",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Criminally Yours",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-supertuxkart-2f47c11cc8",
+    "title": "[itch.io] Supertuxkart（限免）",
+    "category": "games",
+    "source_url": "https://supertuxkart.itch.io/supertuxkart",
+    "claim_url": "https://supertuxkart.itch.io/supertuxkart",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Supertuxkart",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-ad-nauseam-the-wrong-2615627c85",
+    "title": "[itch.io] Ad Nauseam The Wrong Side（限免）",
+    "category": "games",
+    "source_url": "https://throwpup.itch.io/ad-nauseam-the-wrong-side",
+    "claim_url": "https://throwpup.itch.io/ad-nauseam-the-wrong-side",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Ad Nauseam The Wrong Side",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-labyrinthos-bd0c8b49eb",
+    "title": "[itch.io] Labyrinthos（限免）",
+    "category": "games",
+    "source_url": "https://dataerase.itch.io/labyrinthos",
+    "claim_url": "https://dataerase.itch.io/labyrinthos",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Labyrinthos",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-super-hexagon-85426fcd06",
+    "title": "[itch.io] Super Hexagon（限免）",
+    "category": "games",
+    "source_url": "https://terrycavanagh.itch.io/super-hexagon",
+    "claim_url": "https://terrycavanagh.itch.io/super-hexagon",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Super Hexagon",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-grim-fandango-remaste-e15b703043",
+    "title": "[itch.io] Grim Fandango Remastered（限免）",
+    "category": "games",
+    "source_url": "https://doublefine.itch.io/grim-fandango-remastered",
+    "claim_url": "https://doublefine.itch.io/grim-fandango-remastered",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Grim Fandango Remastered",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-final-witness-3ddd0cb187",
+    "title": "[itch.io] Final Witness（限免）",
+    "category": "games",
+    "source_url": "https://hexnut-studios.itch.io/final-witness",
+    "claim_url": "https://hexnut-studios.itch.io/final-witness",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Final Witness",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-batty-zabella-4719cc629c",
+    "title": "[itch.io] Batty Zabella（限免）",
+    "category": "games",
+    "source_url": "https://icecoldblood.itch.io/batty-zabella",
+    "claim_url": "https://icecoldblood.itch.io/batty-zabella",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Batty Zabella",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-bunny-forest-ae611914bc",
+    "title": "[itch.io] Bunny Forest（限免）",
+    "category": "games",
+    "source_url": "https://erytau.itch.io/bunny-forest",
+    "claim_url": "https://erytau.itch.io/bunny-forest",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Bunny Forest",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-dont-stop-in-red-wood-6f72ea3d4b",
+    "title": "[itch.io] Dont Stop In Red Wood 2（限免）",
+    "category": "games",
+    "source_url": "https://noxusgamesstudio.itch.io/dont-stop-in-red-wood-2",
+    "claim_url": "https://noxusgamesstudio.itch.io/dont-stop-in-red-wood-2",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dont Stop In Red Wood 2",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-absolutely-nothing-go-ef688cf045",
+    "title": "[itch.io] Absolutely Nothing Good（限免）",
+    "category": "games",
+    "source_url": "https://emika-games.itch.io/absolutely-nothing-good",
+    "claim_url": "https://emika-games.itch.io/absolutely-nothing-good",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Absolutely Nothing Good",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-my-sweet-housemate-ea2305b71a",
+    "title": "[itch.io] My Sweet Housemate（限免）",
+    "category": "games",
+    "source_url": "https://sourmiiiilk.itch.io/my-sweet-housemate",
+    "claim_url": "https://sourmiiiilk.itch.io/my-sweet-housemate",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: My Sweet Housemate",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-limsod-7d371c47de",
+    "title": "[itch.io] Limsod（限免）",
+    "category": "games",
+    "source_url": "https://limsodgames.itch.io/limsod",
+    "claim_url": "https://limsodgames.itch.io/limsod",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Limsod",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-andromeda-six-2eeb04d644",
+    "title": "[itch.io] Andromeda Six（限免）",
+    "category": "games",
+    "source_url": "https://wanderlust-games.itch.io/andromeda-six",
+    "claim_url": "https://wanderlust-games.itch.io/andromeda-six",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Andromeda Six",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-printcremental-7dd8591931",
+    "title": "[itch.io] Printcremental（限免）",
+    "category": "games",
+    "source_url": "https://halogamesofficial.itch.io/printcremental",
+    "claim_url": "https://halogamesofficial.itch.io/printcremental",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Printcremental",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-enkhirydion-testament-76fe318e58",
+    "title": "[itch.io] Enkhirydion Testament Of Shadows（限免）",
+    "category": "games",
+    "source_url": "https://lemonade-soft.itch.io/enkhirydion-testament-of-shadows",
+    "claim_url": "https://lemonade-soft.itch.io/enkhirydion-testament-of-shadows",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Enkhirydion Testament Of Shadows",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-death-crown-89546a9a55",
+    "title": "[itch.io] Death Crown（限免）",
+    "category": "games",
+    "source_url": "https://co5monaut.itch.io/death-crown",
+    "claim_url": "https://co5monaut.itch.io/death-crown",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Death Crown",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-good-boy-1fda80566f",
+    "title": "[itch.io] Good Boy（限免）",
+    "category": "games",
+    "source_url": "https://lunamakaio.itch.io/good-boy",
+    "claim_url": "https://lunamakaio.itch.io/good-boy",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Good Boy",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-this-game-will-end-in-5d4dd4c3a3",
+    "title": "[itch.io] This Game Will End In 205 Clicks（限免）",
+    "category": "games",
+    "source_url": "https://insertdisc5.itch.io/this-game-will-end-in-205-clicks",
+    "claim_url": "https://insertdisc5.itch.io/this-game-will-end-in-205-clicks",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: This Game Will End In 205 Clicks",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-neighbor-35f9509136",
+    "title": "[itch.io] Neighbor（限免）",
+    "category": "games",
+    "source_url": "https://horatiunyc.itch.io/neighbor",
+    "claim_url": "https://horatiunyc.itch.io/neighbor",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Neighbor",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-bedrot-f11e88170d",
+    "title": "[itch.io] Bedrot（限免）",
+    "category": "games",
+    "source_url": "https://liminace.itch.io/bedrot",
+    "claim_url": "https://liminace.itch.io/bedrot",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Bedrot",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-hillside-arcade-d208c8bb82",
+    "title": "[itch.io] Hillside Arcade（限免）",
+    "category": "games",
+    "source_url": "https://zestosyt.itch.io/hillside-arcade",
+    "claim_url": "https://zestosyt.itch.io/hillside-arcade",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Hillside Arcade",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-bad-end-theater-600095d364",
+    "title": "[itch.io] Bad End Theater（限免）",
+    "category": "games",
+    "source_url": "https://nomnomnami.itch.io/bad-end-theater",
+    "claim_url": "https://nomnomnami.itch.io/bad-end-theater",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Bad End Theater",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-give-me-back-my-goat-60161257de",
+    "title": "[itch.io] Give Me Back My Goat（限免）",
+    "category": "games",
+    "source_url": "https://blindhermit.itch.io/give-me-back-my-goat",
+    "claim_url": "https://blindhermit.itch.io/give-me-back-my-goat",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Give Me Back My Goat",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "fgf-discussion-thread-big-offe-c54d3fa10c",
+    "title": "FGF Discussion Thread | Big Offers & Old Active Thread（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1vemihn/fgf_discussion_thread_big_offers_old_active_thread/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1vemihn/fgf_discussion_thread_big_offers_old_active_thread/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "exiled-giveaways-and-itch-io-m-6acf6dc3db",
+    "title": "Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2kh9/exiled_giveaways_and_itchio_mega_threads/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2kh9/exiled_giveaways_and_itchio_mega_threads/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "steam-dlc-v-rising-haunted-ni-22beec46cc",
+    "title": "[Steam] (DLC) V Rising - Haunted Nights Castle Pack（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2tm4/steam_dlc_v_rising_haunted_nights_castle_pack/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2tm4/steam_dlc_v_rising_haunted_nights_castle_pack/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "indiegala-game-ancient-evil-r-9ee5c02e40",
+    "title": "[Indiegala] (Game) ANCIENT EVIL（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xfvl73/indiegala_game_ancient_evil/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xfvl73/indiegala_game_ancient_evil/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "fgf-giveaway-mechanicalkeyboar-565dcbb5fa",
+    "title": "FGF Giveaway: MechanicalKeyboards.com #3 - Mechanical Keyboard, Keyboard Kits, Mouse & More!（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2mzi/fgf_giveaway_mechanicalkeyboardscom_3_mechanical/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2mzi/fgf_giveaway_mechanicalkeyboardscom_3_mechanical/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "pc-game-running-late-3d-chaot-da7eb50ced",
+    "title": "[PC] (Game) Running Late! 3D Chaotic comedy platformer - Tester Reward（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xfuwlm/pc_game_running_late_3d_chaotic_comedy_platformer/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xfuwlm/pc_game_running_late_3d_chaotic_comedy_platformer/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-games-game-mafia-hotel-r-2385b6bb19",
+    "title": "[Epic Games] (Game) MAFIA HOTEL（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xefo48/epic_games_game_mafia_hotel/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xefo48/epic_games_game_mafia_hotel/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "pc-xbox-playstation-other-gen-705b4eb4e5",
+    "title": "[PC/Xbox/PlayStation] (Other) Genshin Impact - 300 Primogems（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xdjjjt/pcxboxplaystation_other_genshin_impact_300/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xdjjjt/pcxboxplaystation_other_genshin_impact_300/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "steam-game-depths-unseen-redd-1ecf6a9caf",
+    "title": "[Steam] (Game) Depths Unseen（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xcshld/steam_game_depths_unseen/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xcshld/steam_game_depths_unseen/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "steam-game-radiant-exodus-red-17343e7b9f",
+    "title": "[Steam] (Game) Radiant Exodus（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xcs5ly/steam_game_radiant_exodus/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xcs5ly/steam_game_radiant_exodus/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-games-game-sker-ritual-r-ec5c3e2af5",
+    "title": "[Epic Games] (Game) Sker Ritual（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxi5/epic_games_game_sker_ritual/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxi5/epic_games_game_sker_ritual/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-games-game-home-a-unique-426332c5ad",
+    "title": "[Epic Games] (Game) Home - A Unique Horror Adventure（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxi4/epic_games_game_home_a_unique_horror_adventure/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxi4/epic_games_game_home_a_unique_horror_adventure/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "epic-games-mobile-game-home-a-e7e1c51fd7",
+    "title": "[Epic Games Mobile] (Game) Home - A Unique Horror Adventure（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxmv/epic_games_mobile_game_home_a_unique_horror/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxmv/epic_games_mobile_game_home_a_unique_horror/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "psa-ad-infinitum-egs-time-tra-459ddcb956",
+    "title": "[PSA] Ad Infinitum (EGS), Time Travel: Escape Room Game (Legacy Games) are complimentary with Amazon Prime（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xco743/psa_ad_infinitum_egs_time_travel_escape_room_game/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xco743/psa_ad_infinitum_egs_time_travel_escape_room_game/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "steam-game-dregs-reddit-freeg-78ff0babbb",
+    "title": "[Steam] (Game) DREGS（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xclx1e/steam_game_dregs/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xclx1e/steam_game_dregs/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active"
   },
   {
     "id": "epic-lisa-definitive-edition-0bdd07144d",
@@ -1603,7 +1305,7 @@
     "description": "Epic Games Store 限时免费 | 2026-11-01 ~ 2026-11-10",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082899+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "upcoming"
   },
   {
@@ -1619,7 +1321,1195 @@
     "description": "Epic Games Store 限时免费 | 2026-12-10 ~ 2027-01-07",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082882+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "upcoming"
+  },
+  {
+    "id": "epic-bad-cheese-f2e34f739e",
+    "title": "Epic 免费游戏: Bad Cheese ｜坏奶酪",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-15",
+    "end_date": "2026-10-22",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-15 ~ 2026-10-22",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082957+08:00",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "epic-agent-a-cba121d705",
+    "title": "Epic 免费游戏: Agent A - 伪装游戏 ｜特工A-伪装游戏",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-15",
+    "end_date": "2026-10-22",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-15 ~ 2026-10-22",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082969+08:00",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "steam-6a25439ae4",
+    "title": "Steam 免费周末: 免费周末",
+    "category": "games",
+    "source_url": "",
+    "claim_url": "",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-22",
+    "value": "",
+    "requirements": [],
+    "description": "Steam Store | 分类: Spotlights",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:13.209438+08:00",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "fgf-giveaway-retro-pond-amp-sa-0af139ff0d",
+    "title": "FGF Giveaway: Retro Pond &amp; Sandtrix+!（Reddit-FreeGameFindings） ｜复古池塘",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "exiled-giveaways-and-itch-io-m-7e4d16baff",
+    "title": "Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings） ｜流放赠品与itch.io大合集",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x47cvi/exiled_giveaways_and_itchio_mega_threads/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x47cvi/exiled_giveaways_and_itchio_mega_threads/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "steam-game-dumb-ways-to-build-842e5a7ce9",
+    "title": "[Steam] (Game) Dumb Ways to Build（Reddit-FreeGameFindings） ｜蠢蛋建造法",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x98rdb/steam_game_dumb_ways_to_build/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x98rdb/steam_game_dumb_ways_to_build/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-game-the-green-light-86fb29f667",
+    "title": "[itch.io] (Game) The Green Light &amp; The Black Within（Reddit-FreeGameFindings） ｜绿光与黑境",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "steam-game-space-pilgrim-acad-7c5fc790e4",
+    "title": "[Steam] (game) Space Pilgrim Academy Year 1（Reddit-FreeGameFindings） ｜太空朝圣者学院第一年",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x89vdw/steam_game_space_pilgrim_academy_year_1/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x89vdw/steam_game_space_pilgrim_academy_year_1/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "steam-game-linked-reddit-free-f318733ab4",
+    "title": "[Steam] (Game) Linked（Reddit-FreeGameFindings） ｜链接",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9bvk0/steam_game_linked/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9bvk0/steam_game_linked/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "steam-game-warspawn-reddit-fr-aadded35d0",
+    "title": "[Steam] (Game) WarSpawn（Reddit-FreeGameFindings） ｜战争重生",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7q1hy/steam_game_warspawn/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7q1hy/steam_game_warspawn/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "steam-game-akin-reddit-freega-000107bb18",
+    "title": "[Steam] (Game) Akin（Reddit-FreeGameFindings） ｜相似",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9757j/steam_game_akin/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9757j/steam_game_akin/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "steam-game-wane-s-reddit-free-553a9abc6b",
+    "title": "[Steam] (Game) Wane’s（Reddit-FreeGameFindings） ｜衰退",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7ej2d/steam_game_wanes/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7ej2d/steam_game_wanes/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "epic-games-game-bad-cheese-re-574e844815",
+    "title": "[Epic Games] (Game) Bad Cheese（Reddit-FreeGameFindings） ｜坏奶酪",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nyl9/epic_games_game_bad_cheese/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nyl9/epic_games_game_bad_cheese/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "epic-games-game-agent-a-a-puz-7f553e20a9",
+    "title": "[Epic Games] (Game) Agent A: A puzzle in disguise（Reddit-FreeGameFindings） ｜特工A：伪装之谜",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nylb/epic_games_game_agent_a_a_puzzle_in_disguise/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nylb/epic_games_game_agent_a_a_puzzle_in_disguise/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "steam-game-gangsta-forest-sho-b97784464c",
+    "title": "[Steam] (Game) Gangsta Forest Shooter（Reddit-FreeGameFindings） ｜黑帮森林射手",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8i155/steam_game_gangsta_forest_shooter/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8i155/steam_game_gangsta_forest_shooter/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "epic-games-mobile-game-agent-5c031ab2c8",
+    "title": "[Epic Games Mobile] (Game) Agent A: A puzzle in disguise（Reddit-FreeGameFindings） ｜特工A：伪装之谜",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nzqb/epic_games_mobile_game_agent_a_a_puzzle_in/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6nzqb/epic_games_mobile_game_agent_a_a_puzzle_in/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "psa-vampire-the-masquerade-sw-b151146fbd",
+    "title": "[PSA] Vampire: The Masquerade - Swansong (EGS), Caravan SandWitch (Amazon Games) are complimentary with Amazon Prime（Reddit-FreeGameFindings） ｜吸血鬼：避世潜藏-天鹅之歌",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6r5x4/psa_vampire_the_masquerade_swansong_egs_caravan/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6r5x4/psa_vampire_the_masquerade_swansong_egs_caravan/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "steam-dlc-squad-weapon-skins-fe800a98d7",
+    "title": "[Steam] (DLC) Squad Weapon Skins - Recon Team Pack（Reddit-FreeGameFindings） ｜小队武器皮肤-侦察队包",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6ssud/steam_dlc_squad_weapon_skins_recon_team_pack/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x6ssud/steam_dlc_squad_weapon_skins_recon_team_pack/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-bad-cheese-cb8fff24ce",
+    "title": "[Epic Game Store] Bad Cheese（限免） ｜坏奶酪",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/bad-cheese/info/",
+    "claim_url": "https://isthereanydeal.com/game/bad-cheese/info/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Bad Cheese",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-agent-a-a-puz-a063b03c41",
+    "title": "[Epic Game Store] Agent A: A puzzle in disguise（限免） ｜特工A：伪装之谜",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/agent-a-a-puzzle-in-disguise/info/",
+    "claim_url": "https://isthereanydeal.com/game/agent-a-a-puzzle-in-disguise/info/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Agent A: A puzzle in disguise",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-voidtrain-big-aae483eb14",
+    "title": "[Epic Game Store] Voidtrain - Big Catch（限免） ｜虚空列车-大捕获",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/voidtrain-big-catch/info/",
+    "claim_url": "https://isthereanydeal.com/game/voidtrain-big-catch/info/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Voidtrain - Big Catch",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "steam-gear-club-unlimited-3-g-c6a605365e",
+    "title": "[Steam] Gear.Club Unlimited 3 - Gear.Club Signature Pack（限免） ｜齿轮俱乐部无限3-签名包",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/gear-club-unlimited-3-gear-club-signature-pack/info/",
+    "claim_url": "https://isthereanydeal.com/game/gear-club-unlimited-3-gear-club-signature-pack/info/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: Gear.Club Unlimited 3 - Gear.Club Signature Pack",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-voidtrain-tou-040d3bcc30",
+    "title": "[Epic Game Store] Voidtrain - Tour de Void（限免） ｜虚空列车-虚空之旅",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/voidtrain-tour-de-void/info/",
+    "claim_url": "https://isthereanydeal.com/game/voidtrain-tour-de-void/info/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Voidtrain - Tour de Void",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "steam-squad-weapon-skins-reco-44489a741a",
+    "title": "[Steam] squad-weapon-skins-recon-team-pack（限免） ｜小队武器皮肤-侦察队包",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/",
+    "claim_url": "https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: squad-weapon-skins-recon-team-pack",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-offrecord-episode-1-065bfb2b0f",
+    "title": "[itch.io] Offrecord Episode 1（限免） ｜非官方记录第一章",
+    "category": "games",
+    "source_url": "https://redcap-games.itch.io/offrecord-episode-1",
+    "claim_url": "https://redcap-games.itch.io/offrecord-episode-1",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: offrecord-episode-1",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-the-wrong-way-000f7e305a",
+    "title": "[itch.io] The Wrong Way（限免） ｜逆行",
+    "category": "games",
+    "source_url": "https://zestosyt.itch.io/the-wrong-way",
+    "claim_url": "https://zestosyt.itch.io/the-wrong-way",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: the-wrong-way",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-party-line-fd5629810f",
+    "title": "[itch.io] Party Line（限免） ｜电话分机",
+    "category": "games",
+    "source_url": "https://notsospecialgames.itch.io/party-line",
+    "claim_url": "https://notsospecialgames.itch.io/party-line",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: party-line",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-nun-massacre-dbb9559f69",
+    "title": "[itch.io] Nun Massacre（限免） ｜修女大屠杀",
+    "category": "games",
+    "source_url": "https://puppetcombo.itch.io/nun-massacre",
+    "claim_url": "https://puppetcombo.itch.io/nun-massacre",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: nun-massacre",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-party-line-reclassifi-7f14c56b7d",
+    "title": "[itch.io] Party Line Reclassified（限免） ｜电话分机",
+    "category": "games",
+    "source_url": "https://notsospecialgames.itch.io/party-line-reclassified",
+    "claim_url": "https://notsospecialgames.itch.io/party-line-reclassified",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: party-line-reclassified",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-thedollshop-204190012c",
+    "title": "[itch.io] Thedollshop（限免） ｜玩偶店",
+    "category": "games",
+    "source_url": "https://ateliersento.itch.io/thedollshop",
+    "claim_url": "https://ateliersento.itch.io/thedollshop",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: thedollshop",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-pdm-f46863f6d5",
+    "title": "[itch.io] Pdm（限免） ｜Pdm",
+    "category": "games",
+    "source_url": "https://puppetcombo.itch.io/pdm",
+    "claim_url": "https://puppetcombo.itch.io/pdm",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: pdm",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-lihiman-full-d1e6e91726",
+    "title": "[itch.io] Lihiman Full（限免） ｜利希曼完整版",
+    "category": "games",
+    "source_url": "https://kiwidreams-01.itch.io/lihiman-full",
+    "claim_url": "https://kiwidreams-01.itch.io/lihiman-full",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: lihiman-full",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-fear-assessment-f6c631ab0b",
+    "title": "[itch.io] Fear Assessment（限免） ｜恐惧评估",
+    "category": "games",
+    "source_url": "https://alexander-wiseman.itch.io/fear-assessment",
+    "claim_url": "https://alexander-wiseman.itch.io/fear-assessment",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: fear-assessment",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-first-contact-protoco-e7c3a6acc6",
+    "title": "[itch.io] First Contact Protocol（限免） ｜第一次接触协议",
+    "category": "games",
+    "source_url": "https://benjelter.itch.io/first-contact-protocol",
+    "claim_url": "https://benjelter.itch.io/first-contact-protocol",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: first-contact-protocol",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-shattered-pixel-dunge-df8a2bafd2",
+    "title": "[itch.io] Shattered Pixel Dungeon（限免） ｜破碎像素地牢",
+    "category": "games",
+    "source_url": "https://shattered-pixel.itch.io/shattered-pixel-dungeon",
+    "claim_url": "https://shattered-pixel.itch.io/shattered-pixel-dungeon",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: shattered-pixel-dungeon",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-demetrios-50a4aec172",
+    "title": "[itch.io] Demetrios（限免） ｜德米特里奥斯",
+    "category": "games",
+    "source_url": "https://cowcat.itch.io/demetrios",
+    "claim_url": "https://cowcat.itch.io/demetrios",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: demetrios",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-the-black-within-f40d1b2394",
+    "title": "[itch.io] The Black Within（限免） ｜黑境",
+    "category": "games",
+    "source_url": "https://waleedzo.itch.io/the-black-within",
+    "claim_url": "https://waleedzo.itch.io/the-black-within",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: the-black-within",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-brutal-legend-e5b84ae1fb",
+    "title": "[itch.io] Brutal Legend（限免） ｜横暴传奇",
+    "category": "games",
+    "source_url": "https://doublefine.itch.io/brutal-legend",
+    "claim_url": "https://doublefine.itch.io/brutal-legend",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: brutal-legend",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-necrosisfull-c64-b6d7e4f6d8",
+    "title": "[itch.io] Necrosisfull C64（限免） ｜坏死完整版C64",
+    "category": "games",
+    "source_url": "https://mjnurney.itch.io/necrosisfull-c64",
+    "claim_url": "https://mjnurney.itch.io/necrosisfull-c64",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: necrosisfull-c64",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-kalayaan-road-d9a52ad9cf",
+    "title": "[itch.io] Kalayaan Road（限免） ｜卡拉亚安之路",
+    "category": "games",
+    "source_url": "https://lawdgames.itch.io/kalayaan-road",
+    "claim_url": "https://lawdgames.itch.io/kalayaan-road",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: kalayaan-road",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-sabado-day-one-2d50d34b41",
+    "title": "[itch.io] Sabado Day One（限免） ｜萨巴多第一天",
+    "category": "games",
+    "source_url": "https://kiwidreams-01.itch.io/sabado-day-one",
+    "claim_url": "https://kiwidreams-01.itch.io/sabado-day-one",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: sabado-day-one",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-gravehearts-d53303934c",
+    "title": "[itch.io] Gravehearts（限免） ｜坟心",
+    "category": "games",
+    "source_url": "https://kroovv.itch.io/gravehearts",
+    "claim_url": "https://kroovv.itch.io/gravehearts",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: gravehearts",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-babysitter-bloodbath-c78e142930",
+    "title": "[itch.io] Babysitter Bloodbath（限免） ｜保姆血浴",
+    "category": "games",
+    "source_url": "https://puppetcombo.itch.io/babysitter-bloodbath",
+    "claim_url": "https://puppetcombo.itch.io/babysitter-bloodbath",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: babysitter-bloodbath",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-unearthed-4e41ebd11a",
+    "title": "[itch.io] Unearthed（限免） ｜出土",
+    "category": "games",
+    "source_url": "https://benjelter.itch.io/unearthed",
+    "claim_url": "https://benjelter.itch.io/unearthed",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: unearthed",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-killcache-e5fd2217fd",
+    "title": "[itch.io] Killcache（限免） ｜杀戮缓存",
+    "category": "games",
+    "source_url": "https://verybadscavr.itch.io/killcache",
+    "claim_url": "https://verybadscavr.itch.io/killcache",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: killcache",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-deathguest-2f81305ee3",
+    "title": "[itch.io] Deathguest（限免） ｜死亡之客",
+    "category": "games",
+    "source_url": "https://honeybunny-of.itch.io/deathguest",
+    "claim_url": "https://honeybunny-of.itch.io/deathguest",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: deathguest",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-creature-kitchen-659a6f65a3",
+    "title": "[itch.io] Creature Kitchen（限免） ｜生物厨房",
+    "category": "games",
+    "source_url": "https://the-rat-zone.itch.io/creature-kitchen",
+    "claim_url": "https://the-rat-zone.itch.io/creature-kitchen",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: creature-kitchen",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-the-midnight-bus-efaacf3862",
+    "title": "[itch.io] The Midnight Bus（限免） ｜午夜巴士",
+    "category": "games",
+    "source_url": "https://itandfeel.itch.io/the-midnight-bus",
+    "claim_url": "https://itandfeel.itch.io/the-midnight-bus",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: the-midnight-bus",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-the-mayor-of-sanctuar-40b09fd69d",
+    "title": "[itch.io] The Mayor Of Sanctuary（限免） ｜避难所市长",
+    "category": "games",
+    "source_url": "https://naramakesgames.itch.io/the-mayor-of-sanctuary",
+    "claim_url": "https://naramakesgames.itch.io/the-mayor-of-sanctuary",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: the-mayor-of-sanctuary",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-trox-the-reversal-70b089da9e",
+    "title": "[itch.io] Trox The Reversal（限免） ｜特罗克斯逆转",
+    "category": "games",
+    "source_url": "https://troj4nblazing.itch.io/trox-the-reversal",
+    "claim_url": "https://troj4nblazing.itch.io/trox-the-reversal",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: trox-the-reversal",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-family-manners-bc241ac89c",
+    "title": "[itch.io] Family Manners（限免） ｜家族规矩",
+    "category": "games",
+    "source_url": "https://nney.itch.io/family-manners",
+    "claim_url": "https://nney.itch.io/family-manners",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: family-manners",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-midboss-13a86d3661",
+    "title": "[itch.io] Midboss（限免） ｜中层Boss",
+    "category": "games",
+    "source_url": "https://eniko.itch.io/midboss",
+    "claim_url": "https://eniko.itch.io/midboss",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: midboss",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-pigeon-west-call-of-g-ce6832bb3d",
+    "title": "[itch.io] Pigeon West Call Of Gun Isekai（限免） ｜鸽子西部枪之召唤异世界",
+    "category": "games",
+    "source_url": "https://squidsquadpapi.itch.io/pigeon-west-call-of-gun-isekai",
+    "claim_url": "https://squidsquadpapi.itch.io/pigeon-west-call-of-gun-isekai",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: pigeon-west-call-of-gun-isekai",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-my-teacher-615a6cdb22",
+    "title": "[itch.io] My Teacher（限免） ｜我的老师",
+    "category": "games",
+    "source_url": "https://w3stgta.itch.io/my-teacher",
+    "claim_url": "https://w3stgta.itch.io/my-teacher",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: my-teacher",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-pixel-fireplace-35806ca855",
+    "title": "[itch.io] Pixel Fireplace（限免） ｜像素壁炉",
+    "category": "games",
+    "source_url": "https://hammertail.itch.io/pixel-fireplace",
+    "claim_url": "https://hammertail.itch.io/pixel-fireplace",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: pixel-fireplace",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-tylers-deal-4a351fa01c",
+    "title": "[itch.io] Tylers Deal（限免） ｜泰勒的交易",
+    "category": "games",
+    "source_url": "https://chodex-productions.itch.io/tylers-deal",
+    "claim_url": "https://chodex-productions.itch.io/tylers-deal",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: tylers-deal",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-apothecaria-makers-ma-df00db0988",
+    "title": "[itch.io] Apothecaria Makers Market Expansion（限免） ｜药剂师制造市场扩展",
+    "category": "games",
+    "source_url": "https://blackwellwriter.itch.io/apothecaria-makers-market-expansion",
+    "claim_url": "https://blackwellwriter.itch.io/apothecaria-makers-market-expansion",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: apothecaria-makers-market-expansion",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-lost-in-transit-1d4a2046f4",
+    "title": "[itch.io] Lost In Transit（限免） ｜运输遗失",
+    "category": "games",
+    "source_url": "https://boxer-gaming.itch.io/lost-in-transit",
+    "claim_url": "https://boxer-gaming.itch.io/lost-in-transit",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: lost-in-transit",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-the-failure-even-deat-4e51a3ebd0",
+    "title": "[itch.io] The Failure Even Death Rejects（限免） ｜连死亡都拒绝的失败",
+    "category": "games",
+    "source_url": "https://bigdeal.itch.io/the-failure-even-death-rejects",
+    "claim_url": "https://bigdeal.itch.io/the-failure-even-death-rejects",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: the-failure-even-death-rejects",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-brok-34552c1b5d",
+    "title": "[itch.io] Brok（限免） ｜布罗克",
+    "category": "games",
+    "source_url": "https://cowcat.itch.io/brok",
+    "claim_url": "https://cowcat.itch.io/brok",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费（即将转付费）: brok",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "fgf-giveaway-retro-pond-sandtr-3693ac70af",
+    "title": "FGF Giveaway: Retro Pond & Sandtrix+!（Reddit-FreeGameFindings） ｜复古池塘",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x7louh/fgf_giveaway_retro_pond_sandtrix/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-game-the-green-light-87c1e27198",
+    "title": "[itch.io] (Game) The Green Light & The Black Within（Reddit-FreeGameFindings） ｜绿光与黑境",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x8juzt/itchio_game_the_green_light_the_black_within/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-rubys-trick-or-treat-e914675e50",
+    "title": "[itch.io] Rubys Trick Or Treat（限免） ｜露比的不给糖就捣蛋",
+    "category": "games",
+    "source_url": "https://kripkode.itch.io/rubys-trick-or-treat",
+    "claim_url": "https://kripkode.itch.io/rubys-trick-or-treat",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Rubys Trick Or Treat",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
   }
 ]

@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-10-24T07:51:50.439901+08:00",
-  "today": "2026-10-24",
+  "generated_at": "2026-10-27T11:59:33.017533+08:00",
+  "today": "2026-10-27",
   "repository": "jiuyuan233/wool-gathering",
-  "total": 149,
+  "total": 210,
   "by_category": {
     "ai": {
-      "total": 35,
-      "active": 35,
+      "total": 38,
+      "active": 38,
       "upcoming": 0,
       "ended": 0
     },
     "open-source": {
-      "total": 13,
-      "active": 13,
+      "total": 14,
+      "active": 14,
       "upcoming": 0,
       "ended": 0
     },
     "drive": {
-      "total": 5,
-      "active": 5,
+      "total": 9,
+      "active": 6,
       "upcoming": 0,
-      "ended": 0
+      "ended": 3
     },
     "games": {
-      "total": 87,
-      "active": 83,
-      "upcoming": 4,
-      "ended": 0
+      "total": 134,
+      "active": 69,
+      "upcoming": 2,
+      "ended": 63
     },
     "shopping": {
-      "total": 2,
-      "active": 2,
+      "total": 5,
+      "active": 3,
       "upcoming": 0,
-      "ended": 0
+      "ended": 2
     },
     "video-vip": {
       "total": 2,
-      "active": 2,
+      "active": 0,
       "upcoming": 0,
-      "ended": 0
+      "ended": 2
     },
     "netdisk-vip": {
       "total": 2,
-      "active": 2,
+      "active": 0,
       "upcoming": 0,
-      "ended": 0
+      "ended": 2
     },
     "game-discount": {
-      "total": 3,
-      "active": 3,
+      "total": 6,
+      "active": 6,
       "upcoming": 0,
       "ended": 0
     }

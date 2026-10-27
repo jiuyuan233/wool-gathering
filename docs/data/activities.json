@@ -1,5 +1,27 @@
 [
   {
+    "id": "2-3-deepseek-ai-qq-deepseek-a-882bccf95d",
+    "title": "你是否也想养一只属于自己大肥鱼，接下来我会教你仅需2-3元DeepSeek余额，即可搭建专属AI聊天机器人。一、准备工作- QQ小号- DeepSeek API密钥- 阿里云服务器新人账号二、步骤详解",
+    "category": "ai",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | ai",
+    "tags": [
+      "小黑盒",
+      "ai"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": 1,
+    "days_left": 0
+  },
+  {
     "id": "opencode-deepseek-v4-1-flash-5f1c07186a",
     "title": "OpenCode 免费提供 DeepSeek V4.1 Flash 模型",
     "category": "ai",
@@ -17,53 +39,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 60.0,
+    "progress_pct": 90.0,
     "total_days": 10,
-    "days_left": 4
-  },
-  {
-    "id": "wps-ai-vip-plus-5a8782e5e4",
-    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/wps-vip",
-    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 60.0,
-    "total_days": 10,
-    "days_left": 4
-  },
-  {
-    "id": "codex-1-a30d149305",
-    "title": "复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
-    "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 60.0,
-    "total_days": 10,
-    "days_left": 4
+    "days_left": 1
   },
   {
     "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
@@ -83,97 +61,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 60.0,
+    "progress_pct": 90.0,
     "total_days": 10,
-    "days_left": 4
-  },
-  {
-    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
-    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/workbuddy.html",
-    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "b-plus-87eed4109c",
-    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
-    "title": "VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
-    "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "codex-1-8-79edcabe5f",
-    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
+    "days_left": 1
   },
   {
     "id": "11-e06ae154ad",
@@ -182,7 +72,7 @@
     "source_url": "https://www.v2ex.com/t/1250393",
     "claim_url": "https://www.v2ex.com/t/1250393",
     "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
+    "end_date": "2026-11-03",
     "value": "",
     "requirements": [],
     "description": "来源: V2EX-cloud",
@@ -191,11 +81,187 @@
       "V2EX-cloud"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
     "progress_pct": 50.0,
+    "total_days": 14,
+    "days_left": 7
+  },
+  {
+    "id": "wps-ai-vip-plus-5a8782e5e4",
+    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/wps-vip",
+    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 56.2,
+    "total_days": 16,
+    "days_left": 7
+  },
+  {
+    "id": "codex-1-a30d149305",
+    "title": "复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
+    "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 56.2,
+    "total_days": 16,
+    "days_left": 7
+  },
+  {
+    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
+    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/workbuddy.html",
+    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 50.0,
+    "total_days": 14,
+    "days_left": 7
+  },
+  {
+    "id": "b-plus-87eed4109c",
+    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 50.0,
+    "total_days": 14,
+    "days_left": 7
+  },
+  {
+    "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
+    "title": "VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
+    "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 50.0,
+    "total_days": 14,
+    "days_left": 7
+  },
+  {
+    "id": "codex-1-8-79edcabe5f",
+    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
+    "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 50.0,
+    "total_days": 14,
+    "days_left": 7
+  },
+  {
+    "id": "zcode-1024-5-tokens-6e9fe0859e",
+    "title": "赛博领鸡蛋：智谱 ZCode 1024 程序员节免费送 5 亿 Tokens｜现在领，周末用。",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
+    "claim_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 7
+  },
+  {
+    "id": "cloudcone-50-5-1-2-55-cf1ade3da3",
+    "title": "CloudCone 再次开启50%赠送：充值 5.1 美元，送 2.55 美元",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/cloudcone-50p-26/",
+    "claim_url": "https://www.appinn.com/cloudcone-50p-26/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
   },
   {
     "id": "cloud_21e1f5e207cc",
@@ -204,7 +270,7 @@
     "source_url": "https://activity.huaweicloud.com/free_test/index.html",
     "claim_url": "https://activity.huaweicloud.com/free_test/index.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "华为云产品0元试用活动，免费试用AI、云安全、云会议等云计算产品。为用户提供免费的云服务试用机会，帮助企业和个人轻松享受云服务。",
@@ -213,11 +279,11 @@
       "免费试用"
     ],
     "discovered_at": "2026-10-19T11:37:08.835788+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_b9088095b507",
@@ -226,7 +292,7 @@
     "source_url": "https://free.aliyun.com",
     "claim_url": "https://free.aliyun.com",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "阿里云免费试用提供多种产品免费，包括免费云服务器、免费云存储、免费数据库以及AI试用等。飞天免费试用计划，全栈产品体验，让企业和个人轻松享受云服务。",
@@ -235,11 +301,11 @@
       "免费试用"
     ],
     "discovered_at": "2026-10-19T11:37:12.559443+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_e75f23a2006f",
@@ -248,7 +314,7 @@
     "source_url": "https://activity.huaweicloud.com/member.html",
     "claim_url": "https://activity.huaweicloud.com/member.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "老用户专属优惠页面全新升级，为您带来前所未有的超值体验！尊享Flexus云服务会员中心全新上线，畅享服务器续费9折、购买热销产品享8折、升级享7折，还有超值折扣套餐和限时特惠活动。立即登录，领取您的专属福利，助力您的业务飞跃新高度。",
@@ -257,11 +323,11 @@
       "老用户权益"
     ],
     "discovered_at": "2026-10-19T13:16:14.748266+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_4d4fd319df26",
@@ -270,7 +336,7 @@
     "source_url": "https://activity.huaweicloud.com/group-purchase/index.html",
     "claim_url": "https://activity.huaweicloud.com/group-purchase/index.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "组合购,上云场景,热销专区,弹性云服务器,ECS,云服务器,华为云上云场景专区热销场景组合折上折！业务上云推荐云服务器ECS+主机安全组合优惠价",
@@ -279,11 +345,11 @@
       "组合购"
     ],
     "discovered_at": "2026-10-19T13:16:15.804000+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_3dfb1407dfbe",
@@ -292,7 +358,7 @@
     "source_url": "https://university.aliyun.com",
     "claim_url": "https://university.aliyun.com",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "“云工开物”是由阿里云发起的高校用云支持计划，支持AI时代高校人才培养和科研创新。与高校合作共建人工智能通识课，为大学生送免费算力资源。",
@@ -301,11 +367,11 @@
       "高校计划"
     ],
     "discovered_at": "2026-10-19T13:16:18.485054+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_5cfd79b201c8",
@@ -314,7 +380,7 @@
     "source_url": "https://www.aliyun.com/activity/new",
     "claim_url": "https://www.aliyun.com/activity/new",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "Qwen3.8-Flash 首发尝鲜，个企双版本低至 39 元/月",
@@ -323,11 +389,11 @@
       "新人特惠"
     ],
     "discovered_at": "2026-10-19T13:16:22.768559+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_8ff1ec8d1772",
@@ -337,7 +403,7 @@
     "claim_url": "https://workbuddy.tencent.com/",
     "description": "腾讯 WorkBuddy - AI Agent 办公新范式。AI 办公助手，支持自定义 API 中转站",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "免费版",
     "category": "ai",
     "tags": [
@@ -346,10 +412,10 @@
     ],
     "status": "active",
     "discovered_at": "2026-10-19T16:30:00+08:00",
-    "last_seen": "2026-10-21",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "last_seen": "2026-10-27",
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_a6638bd2c0cc",
@@ -358,7 +424,7 @@
     "source_url": "https://cloud.tencent.com/act/new",
     "claim_url": "https://cloud.tencent.com/act/new",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "腾讯云推出大促优惠活动：免费领取5455元代金券礼包；4核4G服务器新客 38元/年起，支持 OpenClaw/Hermes 等热门镜像；Token Plan 低至28元/月，多种主流模型极速调用；云数据库、COS等上云必备产品，低至1折",
@@ -367,11 +433,11 @@
       "大促代金券"
     ],
     "discovered_at": "2026-10-19T16:46:02.531627+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_4b7a798bd85e",
@@ -380,7 +446,7 @@
     "source_url": "https://cloud.tencent.com/act/campus",
     "claim_url": "https://cloud.tencent.com/act/campus",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "云+校园计划是腾讯云为在校学生推出的专项扶持计划。该计划内容主要包括：学生云服务器+mysql数据库优惠套餐，云计算在线学习，云开发实验室…",
@@ -389,11 +455,11 @@
       "校园计划"
     ],
     "discovered_at": "2026-10-19T16:46:04.603884+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_8a5fcce5d067",
@@ -402,7 +468,7 @@
     "source_url": "https://cloud.tencent.com/act/free",
     "claim_url": "https://cloud.tencent.com/act/free",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "腾讯云推出了个人云产品体验馆：云服务器，云数据库，云安全等70+云产品免费试用，续费1年3.3折起….",
@@ -411,11 +477,11 @@
       "免费体验"
     ],
     "discovered_at": "2026-10-19T16:46:06.353735+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "cloud_e9c81e3c3f4a",
@@ -424,7 +490,7 @@
     "source_url": "https://cloud.tencent.com/act/developer",
     "claim_url": "https://cloud.tencent.com/act/developer",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-20",
+    "end_date": "2026-11-26",
     "value": "",
     "requirements": [],
     "description": "腾讯云最新活动_腾讯云促销优惠_代金券-腾讯云官网入口",
@@ -433,11 +499,11 @@
       "开发者"
     ],
     "discovered_at": "2026-10-19T16:46:07.791323+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 18.2,
-    "total_days": 33,
-    "days_left": 27
+    "progress_pct": 23.1,
+    "total_days": 39,
+    "days_left": 30
   },
   {
     "id": "ai-agent-5cecfcac",
@@ -459,9 +525,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-190f2c96",
@@ -482,9 +548,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-4c4a355f",
@@ -505,9 +571,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-cee2957f",
@@ -529,9 +595,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-b1a16b4d",
@@ -552,9 +618,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-43916e68",
@@ -574,9 +640,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-183e2d4d",
@@ -597,9 +663,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-bfdfe2d9",
@@ -621,9 +687,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-6013aa86",
@@ -645,9 +711,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.1,
+    "progress_pct": 12.2,
     "total_days": 74,
-    "days_left": 68
+    "days_left": 65
   },
   {
     "id": "ai-agent-cefaaa69",
@@ -668,9 +734,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.4,
+    "progress_pct": 2.1,
     "total_days": 439,
-    "days_left": 433
+    "days_left": 430
   },
   {
     "id": "ai-agent-1a83eebb",
@@ -692,9 +758,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.4,
+    "progress_pct": 2.1,
     "total_days": 439,
-    "days_left": 433
+    "days_left": 430
   },
   {
     "id": "ai-agent-e66621c6",
@@ -715,9 +781,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.4,
+    "progress_pct": 2.1,
     "total_days": 439,
-    "days_left": 433
+    "days_left": 430
   },
   {
     "id": "ai-agent-a983e290",
@@ -738,9 +804,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.4,
+    "progress_pct": 2.1,
     "total_days": 439,
-    "days_left": 433
+    "days_left": 430
   },
   {
     "id": "ai-agent-fac0be86",
@@ -761,9 +827,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.4,
+    "progress_pct": 2.1,
     "total_days": 439,
-    "days_left": 433
+    "days_left": 430
   },
   {
     "id": "ai-agent-af3a32c5",
@@ -785,9 +851,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 1.4,
+    "progress_pct": 2.1,
     "total_days": 439,
-    "days_left": 433
+    "days_left": 430
   },
   {
     "id": "adobe-artcraft-ps-ae-pr-ai-e256bde94c",
@@ -805,7 +871,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -827,7 +893,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -849,7 +915,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -915,7 +981,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -937,7 +1003,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -981,7 +1047,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1076,70 +1142,48 @@
     "days_left": null
   },
   {
-    "id": "10-c119209b24",
-    "title": "自建反代还是用现成中转？免费领 10 美元算笔账",
-    "category": "drive",
-    "source_url": "https://www.v2ex.com/t/1249943",
-    "claim_url": "https://www.v2ex.com/t/1249943",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "id": "ylih-8536636499",
+    "title": "ylih 耳机里程表：用了多久、续航掉多少，记录蓝牙耳机的一生[安卓开源]",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/ylih-headphones-records-android/",
+    "claim_url": "https://www.appinn.com/ylih-headphones-records-android/",
+    "start_date": "2026-10-27",
+    "end_date": null,
     "value": "",
     "requirements": [],
-    "description": "来源: V2EX-promotions",
+    "description": "来源: 小众软件",
     "tags": [
       "blog",
-      "V2EX-promotions"
+      "小众软件"
     ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 75.0,
-    "total_days": 8,
-    "days_left": 2
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
-    "id": "myna-pro-d0c0510cc5",
-    "title": "「Myna 鸣意」发布啦！赠送 Pro 会员兑换码！",
+    "id": "-c84302191a",
+    "title": "搞西安补贴，大概率板车拖回来，有什么需要注意的吗友友们或者有什么好物推荐，有什么羊毛可以薅",
     "category": "drive",
-    "source_url": "https://www.v2ex.com/t/1249937",
-    "claim_url": "https://www.v2ex.com/t/1249937",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
     "value": "",
     "requirements": [],
-    "description": "来源: V2EX-promotions",
+    "description": "小黑盒社区帖子 | drive",
     "tags": [
-      "blog",
-      "V2EX-promotions"
+      "小黑盒",
+      "drive"
     ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 75.0,
-    "total_days": 8,
-    "days_left": 2
-  },
-  {
-    "id": "midalo-claude-gpt-gemini-57-2-3b6a24d75b",
-    "title": "[福利] 中转站 Midalo 米搭： Claude/GPT/Gemini 全系 57+ 模型一站接入，新用户注册进群即送 2$",
-    "category": "drive",
-    "source_url": "https://www.v2ex.com/t/1250070",
-    "claim_url": "https://www.v2ex.com/t/1250070",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-promotions",
-    "tags": [
-      "blog",
-      "V2EX-promotions"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
-    "total_days": 8,
-    "days_left": 2
+    "progress_pct": 100,
+    "total_days": 1,
+    "days_left": 0
   },
   {
     "id": "midalo-ai-1024-7-24-5-2767c13b40",
@@ -1159,9 +1203,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 1
   },
   {
     "id": "zooproxy-f412885a1a",
@@ -1181,9 +1225,1679 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 1
+  },
+  {
+    "id": "grok-4-gpt-2747ae25de",
+    "title": "grok 半价截止到下午 4 点 需要的下单全自动充值，另有 gpt 半价成品号",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1252171",
+    "claim_url": "https://www.v2ex.com/t/1252171",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "hyperapi-id-15-3c5eef258f",
+    "title": "[HyperAPI 中转站]限时福利，评论留 ID，送$15 体验额度",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1252147",
+    "claim_url": "https://www.v2ex.com/t/1252147",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "5-10-ix-10-27-a99eba731e",
+    "title": "《我享云》机场代理 · 性价比之王 · 注册免费试用 5-10 天 · 让一块钱用上 IX 专线 10-27",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1252092",
+    "claim_url": "https://www.v2ex.com/t/1252092",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "10-c119209b24",
+    "title": "自建反代还是用现成中转？免费领 10 美元算笔账",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1249943",
+    "claim_url": "https://www.v2ex.com/t/1249943",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 8,
+    "days_left": 0
+  },
+  {
+    "id": "myna-pro-d0c0510cc5",
+    "title": "「Myna 鸣意」发布啦！赠送 Pro 会员兑换码！",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1249937",
+    "claim_url": "https://www.v2ex.com/t/1249937",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 8,
+    "days_left": 0
+  },
+  {
+    "id": "midalo-claude-gpt-gemini-57-2-3b6a24d75b",
+    "title": "[福利] 中转站 Midalo 米搭： Claude/GPT/Gemini 全系 57+ 模型一站接入，新用户注册进群即送 2$",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1250070",
+    "claim_url": "https://www.v2ex.com/t/1250070",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 8,
+    "days_left": 0
+  },
+  {
+    "id": "epic-game-store-gethigh-exe-8ed5a51426",
+    "title": "[Epic Game Store] GetHigh.EXE（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/gethigh-exe/info/",
+    "claim_url": "https://isthereanydeal.com/game/gethigh-exe/info/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: GetHigh.EXE",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "steam-squad-weapon-skins-reco-301536c158",
+    "title": "[Steam] Squad Weapon Skins - Recon Team Pack（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/",
+    "claim_url": "https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: Squad Weapon Skins - Recon Team Pack",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "itch-io-the-green-light-9341c6ea6f",
+    "title": "[itch.io] The Green Light（限免）",
+    "category": "games",
+    "source_url": "https://waleedzo.itch.io/the-green-light",
+    "claim_url": "https://waleedzo.itch.io/the-green-light",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: The Green Light",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "itch-io-where-winter-crows-go-0475ebf97a",
+    "title": "[itch.io] Where Winter Crows Go（限免）",
+    "category": "games",
+    "source_url": "https://prikarin.itch.io/where-winter-crows-go",
+    "claim_url": "https://prikarin.itch.io/where-winter-crows-go",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Where Winter Crows Go",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "itch-io-roguecraft-dx-next-a6dbc1c86c",
+    "title": "[itch.io] Roguecraft Dx Next（限免）",
+    "category": "games",
+    "source_url": "https://thalamusdigital.itch.io/roguecraft-dx-next",
+    "claim_url": "https://thalamusdigital.itch.io/roguecraft-dx-next",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Roguecraft Dx Next",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "itch-io-smiling-terror-3712a68807",
+    "title": "[itch.io] Smiling Terror（限免）",
+    "category": "games",
+    "source_url": "https://poisonicestudios.itch.io/smiling-terror",
+    "claim_url": "https://poisonicestudios.itch.io/smiling-terror",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Smiling Terror",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "itch-io-cherophobia-4454de1637",
+    "title": "[itch.io] Cherophobia（限免）",
+    "category": "games",
+    "source_url": "https://worsteventgames.itch.io/cherophobia",
+    "claim_url": "https://worsteventgames.itch.io/cherophobia",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Cherophobia",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "itch-io-quiet-west-butcher-no-7d01961b97",
+    "title": "[itch.io] Quiet West Butcher Noose（限免）",
+    "category": "games",
+    "source_url": "https://squidsquadpapi.itch.io/quiet-west-butcher-noose",
+    "claim_url": "https://squidsquadpapi.itch.io/quiet-west-butcher-noose",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Quiet West Butcher Noose",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "itch-io-apothecaria-nightfall-f4680ea9b6",
+    "title": "[itch.io] Apothecaria Nightfall（限免）",
+    "category": "games",
+    "source_url": "https://blackwellwriter.itch.io/apothecaria-nightfall",
+    "claim_url": "https://blackwellwriter.itch.io/apothecaria-nightfall",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Apothecaria Nightfall",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "itch-io-cosmic-express-61ea3e21d5",
+    "title": "[itch.io] Cosmic Express（限免）",
+    "category": "games",
+    "source_url": "https://draknek.itch.io/cosmic-express",
+    "claim_url": "https://draknek.itch.io/cosmic-express",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Cosmic Express",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "exiled-giveaways-and-itch-io-m-25c3d9451c",
+    "title": "Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xa2eeg/exiled_giveaways_and_itchio_mega_threads/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xa2eeg/exiled_giveaways_and_itchio_mega_threads/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "epic-games-game-gethigh-exe-r-4bd053ae43",
+    "title": "[Epic Games] (Game) GetHigh.EXE（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9zb0y/epic_games_game_gethighexe/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9zb0y/epic_games_game_gethighexe/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "steam-game-hellcard-reddit-fr-4c75f5a0a6",
+    "title": "[Steam] (Game) HELLCARD（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xa1m9g/steam_game_hellcard/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xa1m9g/steam_game_hellcard/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "indiegala-game-last-room-redd-0309c2eabf",
+    "title": "[Indiegala] (Game) Last Room（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9ymm4/indiegala_game_last_room/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9ymm4/indiegala_game_last_room/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "steam-game-memology-goyda-red-bd11da2685",
+    "title": "[Steam] (Game) MEMOLOGY: GOYDA（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xb47wh/steam_game_memology_goyda/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xb47wh/steam_game_memology_goyda/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "steam-game-uncanny-tales-1992-ebc7ccb989",
+    "title": "[Steam] (Game) Uncanny Tales: 1992（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xacvzs/steam_game_uncanny_tales_1992/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xacvzs/steam_game_uncanny_tales_1992/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "steam-game-deadzone-rogue-red-0914b6dfad",
+    "title": "[Steam] (Game)Deadzone Rogue（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9xgb5/steam_gamedeadzone_rogue/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9xgb5/steam_gamedeadzone_rogue/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "progress_pct": 87.5,
+    "total_days": 8,
+    "days_left": 1
+  },
+  {
+    "id": "epic-sker-ritual-0f64e3a767",
+    "title": "Epic 免费游戏: Sker Ritual ｜斯克尔仪式",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-29",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082922+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 75.0,
+    "total_days": 8,
+    "days_left": 2
+  },
+  {
+    "id": "epic-home-a-unique-horror-adve-c5f73b1ced",
+    "title": "Epic 免费游戏: Home - A Unique Horror Adventure ｜归家-独特恐怖冒险",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-29",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082980+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 75.0,
+    "total_days": 8,
+    "days_left": 2
+  },
+  {
+    "id": "epic-eternal-threads-2edebd45cb",
+    "title": "Epic 免费游戏: Eternal Threads ｜永恒之线",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-02",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082864+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 60.0,
+    "total_days": 15,
+    "days_left": 6
+  },
+  {
+    "id": "epic-castlevania-anniversary-c-4860771dff",
+    "title": "Epic 免费游戏: Castlevania Anniversary Collection ｜恶魔城周年纪念合集",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-02",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082934+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 60.0,
+    "total_days": 15,
+    "days_left": 6
+  },
+  {
+    "id": "epic-monument-valley-57a0ec43bc",
+    "title": "Epic 免费游戏: 纪念碑谷（Monument Valley） ｜纪念碑谷",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-02",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082946+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 60.0,
+    "total_days": 15,
+    "days_left": 6
+  },
+  {
+    "id": "epic-sorry-we-re-closed-be392014b9",
+    "title": "Epic 免费游戏: 《Sorry We’re Closed》",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-02",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
+    "tags": [],
+    "discovered_at": "2026-10-27T11:51:56.314613+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 60.0,
+    "total_days": 15,
+    "days_left": 6
+  },
+  {
+    "id": "epic-game-store-sker-ritual-8727e02332",
+    "title": "[Epic Game Store] Sker Ritual（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/sker-ritual/info/",
+    "claim_url": "https://isthereanydeal.com/game/sker-ritual/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Sker Ritual",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-game-store-mafia-hotel-9a54af577b",
+    "title": "[Epic Game Store] MAFIA HOTEL（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/mafia-hotel/info/",
+    "claim_url": "https://isthereanydeal.com/game/mafia-hotel/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: MAFIA HOTEL",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-game-store-terraspace-126f46a8eb",
+    "title": "[Epic Game Store] Terraspace（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/terraspace/info/",
+    "claim_url": "https://isthereanydeal.com/game/terraspace/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Terraspace",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-game-store-home-a-unique-6ef0e73e7f",
+    "title": "[Epic Game Store] Home - A Unique Horror Adventure（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/home-a-unique-horror-adventure/info/",
+    "claim_url": "https://isthereanydeal.com/game/home-a-unique-horror-adventure/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Home - A Unique Horror Adventure",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-game-store-gethigh-exe-eb5e3278ba",
+    "title": "[Epic Game Store] gethigh-exe（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/gethigh-exe/info/",
+    "claim_url": "https://isthereanydeal.com/game/gethigh-exe/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: gethigh-exe",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-popcorn-and-premieren-a-707d33696f",
+    "title": "[Steam] popcorn-and-premieren-ausgehviertel（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/popcorn-and-premieren-ausgehviertel/info/",
+    "claim_url": "https://isthereanydeal.com/game/popcorn-and-premieren-ausgehviertel/info/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: popcorn-and-premieren-ausgehviertel",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-usuimo-9bc1d41e7b",
+    "title": "[itch.io] Usuimo（限免）",
+    "category": "games",
+    "source_url": "https://nlch.itch.io/usuimo",
+    "claim_url": "https://nlch.itch.io/usuimo",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Usuimo",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-criminally-yours-8f7020a4cf",
+    "title": "[itch.io] Criminally Yours（限免）",
+    "category": "games",
+    "source_url": "https://meant-to-bee-studios.itch.io/criminally-yours",
+    "claim_url": "https://meant-to-bee-studios.itch.io/criminally-yours",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Criminally Yours",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-supertuxkart-2f47c11cc8",
+    "title": "[itch.io] Supertuxkart（限免）",
+    "category": "games",
+    "source_url": "https://supertuxkart.itch.io/supertuxkart",
+    "claim_url": "https://supertuxkart.itch.io/supertuxkart",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Supertuxkart",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-ad-nauseam-the-wrong-2615627c85",
+    "title": "[itch.io] Ad Nauseam The Wrong Side（限免）",
+    "category": "games",
+    "source_url": "https://throwpup.itch.io/ad-nauseam-the-wrong-side",
+    "claim_url": "https://throwpup.itch.io/ad-nauseam-the-wrong-side",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Ad Nauseam The Wrong Side",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-labyrinthos-bd0c8b49eb",
+    "title": "[itch.io] Labyrinthos（限免）",
+    "category": "games",
+    "source_url": "https://dataerase.itch.io/labyrinthos",
+    "claim_url": "https://dataerase.itch.io/labyrinthos",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Labyrinthos",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-super-hexagon-85426fcd06",
+    "title": "[itch.io] Super Hexagon（限免）",
+    "category": "games",
+    "source_url": "https://terrycavanagh.itch.io/super-hexagon",
+    "claim_url": "https://terrycavanagh.itch.io/super-hexagon",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Super Hexagon",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-grim-fandango-remaste-e15b703043",
+    "title": "[itch.io] Grim Fandango Remastered（限免）",
+    "category": "games",
+    "source_url": "https://doublefine.itch.io/grim-fandango-remastered",
+    "claim_url": "https://doublefine.itch.io/grim-fandango-remastered",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Grim Fandango Remastered",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-final-witness-3ddd0cb187",
+    "title": "[itch.io] Final Witness（限免）",
+    "category": "games",
+    "source_url": "https://hexnut-studios.itch.io/final-witness",
+    "claim_url": "https://hexnut-studios.itch.io/final-witness",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Final Witness",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-batty-zabella-4719cc629c",
+    "title": "[itch.io] Batty Zabella（限免）",
+    "category": "games",
+    "source_url": "https://icecoldblood.itch.io/batty-zabella",
+    "claim_url": "https://icecoldblood.itch.io/batty-zabella",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Batty Zabella",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-bunny-forest-ae611914bc",
+    "title": "[itch.io] Bunny Forest（限免）",
+    "category": "games",
+    "source_url": "https://erytau.itch.io/bunny-forest",
+    "claim_url": "https://erytau.itch.io/bunny-forest",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Bunny Forest",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-dont-stop-in-red-wood-6f72ea3d4b",
+    "title": "[itch.io] Dont Stop In Red Wood 2（限免）",
+    "category": "games",
+    "source_url": "https://noxusgamesstudio.itch.io/dont-stop-in-red-wood-2",
+    "claim_url": "https://noxusgamesstudio.itch.io/dont-stop-in-red-wood-2",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dont Stop In Red Wood 2",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-absolutely-nothing-go-ef688cf045",
+    "title": "[itch.io] Absolutely Nothing Good（限免）",
+    "category": "games",
+    "source_url": "https://emika-games.itch.io/absolutely-nothing-good",
+    "claim_url": "https://emika-games.itch.io/absolutely-nothing-good",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Absolutely Nothing Good",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-my-sweet-housemate-ea2305b71a",
+    "title": "[itch.io] My Sweet Housemate（限免）",
+    "category": "games",
+    "source_url": "https://sourmiiiilk.itch.io/my-sweet-housemate",
+    "claim_url": "https://sourmiiiilk.itch.io/my-sweet-housemate",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: My Sweet Housemate",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-limsod-7d371c47de",
+    "title": "[itch.io] Limsod（限免）",
+    "category": "games",
+    "source_url": "https://limsodgames.itch.io/limsod",
+    "claim_url": "https://limsodgames.itch.io/limsod",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Limsod",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-andromeda-six-2eeb04d644",
+    "title": "[itch.io] Andromeda Six（限免）",
+    "category": "games",
+    "source_url": "https://wanderlust-games.itch.io/andromeda-six",
+    "claim_url": "https://wanderlust-games.itch.io/andromeda-six",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Andromeda Six",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-printcremental-7dd8591931",
+    "title": "[itch.io] Printcremental（限免）",
+    "category": "games",
+    "source_url": "https://halogamesofficial.itch.io/printcremental",
+    "claim_url": "https://halogamesofficial.itch.io/printcremental",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Printcremental",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-enkhirydion-testament-76fe318e58",
+    "title": "[itch.io] Enkhirydion Testament Of Shadows（限免）",
+    "category": "games",
+    "source_url": "https://lemonade-soft.itch.io/enkhirydion-testament-of-shadows",
+    "claim_url": "https://lemonade-soft.itch.io/enkhirydion-testament-of-shadows",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Enkhirydion Testament Of Shadows",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-death-crown-89546a9a55",
+    "title": "[itch.io] Death Crown（限免）",
+    "category": "games",
+    "source_url": "https://co5monaut.itch.io/death-crown",
+    "claim_url": "https://co5monaut.itch.io/death-crown",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Death Crown",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-good-boy-1fda80566f",
+    "title": "[itch.io] Good Boy（限免）",
+    "category": "games",
+    "source_url": "https://lunamakaio.itch.io/good-boy",
+    "claim_url": "https://lunamakaio.itch.io/good-boy",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Good Boy",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-this-game-will-end-in-5d4dd4c3a3",
+    "title": "[itch.io] This Game Will End In 205 Clicks（限免）",
+    "category": "games",
+    "source_url": "https://insertdisc5.itch.io/this-game-will-end-in-205-clicks",
+    "claim_url": "https://insertdisc5.itch.io/this-game-will-end-in-205-clicks",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: This Game Will End In 205 Clicks",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-neighbor-35f9509136",
+    "title": "[itch.io] Neighbor（限免）",
+    "category": "games",
+    "source_url": "https://horatiunyc.itch.io/neighbor",
+    "claim_url": "https://horatiunyc.itch.io/neighbor",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Neighbor",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-bedrot-f11e88170d",
+    "title": "[itch.io] Bedrot（限免）",
+    "category": "games",
+    "source_url": "https://liminace.itch.io/bedrot",
+    "claim_url": "https://liminace.itch.io/bedrot",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Bedrot",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-hillside-arcade-d208c8bb82",
+    "title": "[itch.io] Hillside Arcade（限免）",
+    "category": "games",
+    "source_url": "https://zestosyt.itch.io/hillside-arcade",
+    "claim_url": "https://zestosyt.itch.io/hillside-arcade",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Hillside Arcade",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-bad-end-theater-600095d364",
+    "title": "[itch.io] Bad End Theater（限免）",
+    "category": "games",
+    "source_url": "https://nomnomnami.itch.io/bad-end-theater",
+    "claim_url": "https://nomnomnami.itch.io/bad-end-theater",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Bad End Theater",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-give-me-back-my-goat-60161257de",
+    "title": "[itch.io] Give Me Back My Goat（限免）",
+    "category": "games",
+    "source_url": "https://blindhermit.itch.io/give-me-back-my-goat",
+    "claim_url": "https://blindhermit.itch.io/give-me-back-my-goat",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Give Me Back My Goat",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "fgf-discussion-thread-big-offe-c54d3fa10c",
+    "title": "FGF Discussion Thread | Big Offers & Old Active Thread（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1vemihn/fgf_discussion_thread_big_offers_old_active_thread/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1vemihn/fgf_discussion_thread_big_offers_old_active_thread/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "exiled-giveaways-and-itch-io-m-6acf6dc3db",
+    "title": "Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2kh9/exiled_giveaways_and_itchio_mega_threads/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2kh9/exiled_giveaways_and_itchio_mega_threads/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-dlc-v-rising-haunted-ni-22beec46cc",
+    "title": "[Steam] (DLC) V Rising - Haunted Nights Castle Pack（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2tm4/steam_dlc_v_rising_haunted_nights_castle_pack/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2tm4/steam_dlc_v_rising_haunted_nights_castle_pack/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "indiegala-game-ancient-evil-r-9ee5c02e40",
+    "title": "[Indiegala] (Game) ANCIENT EVIL（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xfvl73/indiegala_game_ancient_evil/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xfvl73/indiegala_game_ancient_evil/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "fgf-giveaway-mechanicalkeyboar-565dcbb5fa",
+    "title": "FGF Giveaway: MechanicalKeyboards.com #3 - Mechanical Keyboard, Keyboard Kits, Mouse & More!（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2mzi/fgf_giveaway_mechanicalkeyboardscom_3_mechanical/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xg2mzi/fgf_giveaway_mechanicalkeyboardscom_3_mechanical/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "pc-game-running-late-3d-chaot-da7eb50ced",
+    "title": "[PC] (Game) Running Late! 3D Chaotic comedy platformer - Tester Reward（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xfuwlm/pc_game_running_late_3d_chaotic_comedy_platformer/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xfuwlm/pc_game_running_late_3d_chaotic_comedy_platformer/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-games-game-mafia-hotel-r-2385b6bb19",
+    "title": "[Epic Games] (Game) MAFIA HOTEL（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xefo48/epic_games_game_mafia_hotel/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xefo48/epic_games_game_mafia_hotel/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "pc-xbox-playstation-other-gen-705b4eb4e5",
+    "title": "[PC/Xbox/PlayStation] (Other) Genshin Impact - 300 Primogems（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xdjjjt/pcxboxplaystation_other_genshin_impact_300/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xdjjjt/pcxboxplaystation_other_genshin_impact_300/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-game-depths-unseen-redd-1ecf6a9caf",
+    "title": "[Steam] (Game) Depths Unseen（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xcshld/steam_game_depths_unseen/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xcshld/steam_game_depths_unseen/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-game-radiant-exodus-red-17343e7b9f",
+    "title": "[Steam] (Game) Radiant Exodus（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xcs5ly/steam_game_radiant_exodus/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xcs5ly/steam_game_radiant_exodus/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-games-game-sker-ritual-r-ec5c3e2af5",
+    "title": "[Epic Games] (Game) Sker Ritual（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxi5/epic_games_game_sker_ritual/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxi5/epic_games_game_sker_ritual/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-games-game-home-a-unique-426332c5ad",
+    "title": "[Epic Games] (Game) Home - A Unique Horror Adventure（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxi4/epic_games_game_home_a_unique_horror_adventure/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxi4/epic_games_game_home_a_unique_horror_adventure/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-games-mobile-game-home-a-e7e1c51fd7",
+    "title": "[Epic Games Mobile] (Game) Home - A Unique Horror Adventure（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxmv/epic_games_mobile_game_home_a_unique_horror/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xckxmv/epic_games_mobile_game_home_a_unique_horror/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "psa-ad-infinitum-egs-time-tra-459ddcb956",
+    "title": "[PSA] Ad Infinitum (EGS), Time Travel: Escape Room Game (Legacy Games) are complimentary with Amazon Prime（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xco743/psa_ad_infinitum_egs_time_travel_escape_room_game/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xco743/psa_ad_infinitum_egs_time_travel_escape_room_game/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-game-dregs-reddit-freeg-78ff0babbb",
+    "title": "[Steam] (Game) DREGS（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xclx1e/steam_game_dregs/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xclx1e/steam_game_dregs/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-lisa-definitive-edition-0bdd07144d",
+    "title": "Epic 免费游戏: 《LISA: Definitive Edition》 ｜LISA：决定版",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-01 ~ 2026-11-10",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082899+08:00",
+    "last_seen": "2026-10-27",
+    "status": "upcoming",
+    "progress_pct": 0,
+    "total_days": 10,
+    "days_left": 14
+  },
+  {
+    "id": "epic-2-c44c4e8654",
+    "title": "Epic 免费游戏: 《幽灵行者 2》",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-12-10",
+    "end_date": "2027-01-07",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-12-10 ~ 2027-01-07",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082882+08:00",
+    "last_seen": "2026-10-27",
+    "status": "upcoming",
+    "progress_pct": 0,
+    "total_days": 29,
+    "days_left": 72
   },
   {
     "id": "epic-bad-cheese-f2e34f739e",
@@ -1199,7 +2913,7 @@
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082957+08:00",
     "last_seen": "2026-10-21",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -1218,7 +2932,7 @@
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082969+08:00",
     "last_seen": "2026-10-21",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -1237,7 +2951,7 @@
     "tags": [],
     "discovered_at": "2026-10-19T11:17:13.209438+08:00",
     "last_seen": "2026-10-19",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 4,
     "days_left": 0
@@ -1259,10 +2973,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "exiled-giveaways-and-itch-io-m-7e4d16baff",
@@ -1281,10 +2995,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-game-dumb-ways-to-build-842e5a7ce9",
@@ -1303,10 +3017,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-game-the-green-light-86fb29f667",
@@ -1325,10 +3039,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-game-space-pilgrim-acad-7c5fc790e4",
@@ -1347,10 +3061,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-game-linked-reddit-free-f318733ab4",
@@ -1369,10 +3083,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-game-warspawn-reddit-fr-aadded35d0",
@@ -1391,10 +3105,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-game-akin-reddit-freega-000107bb18",
@@ -1413,10 +3127,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-game-wane-s-reddit-free-553a9abc6b",
@@ -1435,10 +3149,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "epic-games-game-bad-cheese-re-574e844815",
@@ -1457,10 +3171,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "epic-games-game-agent-a-a-puz-7f553e20a9",
@@ -1479,10 +3193,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-game-gangsta-forest-sho-b97784464c",
@@ -1501,10 +3215,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "epic-games-mobile-game-agent-5c031ab2c8",
@@ -1523,10 +3237,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "psa-vampire-the-masquerade-sw-b151146fbd",
@@ -1545,10 +3259,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-dlc-squad-weapon-skins-fe800a98d7",
@@ -1567,10 +3281,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "epic-game-store-bad-cheese-cb8fff24ce",
@@ -1589,10 +3303,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "epic-game-store-agent-a-a-puz-a063b03c41",
@@ -1611,10 +3325,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "epic-game-store-voidtrain-big-aae483eb14",
@@ -1633,10 +3347,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-gear-club-unlimited-3-g-c6a605365e",
@@ -1655,10 +3369,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "epic-game-store-voidtrain-tou-040d3bcc30",
@@ -1677,10 +3391,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "steam-squad-weapon-skins-reco-44489a741a",
@@ -1699,10 +3413,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-offrecord-episode-1-065bfb2b0f",
@@ -1721,10 +3435,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-the-wrong-way-000f7e305a",
@@ -1743,10 +3457,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-party-line-fd5629810f",
@@ -1765,10 +3479,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-nun-massacre-dbb9559f69",
@@ -1786,11 +3500,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-party-line-reclassifi-7f14c56b7d",
@@ -1809,10 +3523,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-thedollshop-204190012c",
@@ -1831,10 +3545,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-pdm-f46863f6d5",
@@ -1852,11 +3566,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-lihiman-full-d1e6e91726",
@@ -1874,11 +3588,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-fear-assessment-f6c631ab0b",
@@ -1896,11 +3610,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-first-contact-protoco-e7c3a6acc6",
@@ -1919,10 +3633,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-shattered-pixel-dunge-df8a2bafd2",
@@ -1941,10 +3655,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-demetrios-50a4aec172",
@@ -1963,10 +3677,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-the-black-within-f40d1b2394",
@@ -1985,10 +3699,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-brutal-legend-e5b84ae1fb",
@@ -2007,10 +3721,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-necrosisfull-c64-b6d7e4f6d8",
@@ -2029,10 +3743,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-kalayaan-road-d9a52ad9cf",
@@ -2051,10 +3765,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-sabado-day-one-2d50d34b41",
@@ -2072,11 +3786,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-gravehearts-d53303934c",
@@ -2095,10 +3809,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-babysitter-bloodbath-c78e142930",
@@ -2116,11 +3830,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-unearthed-4e41ebd11a",
@@ -2138,11 +3852,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-killcache-e5fd2217fd",
@@ -2161,10 +3875,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-deathguest-2f81305ee3",
@@ -2183,10 +3897,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-creature-kitchen-659a6f65a3",
@@ -2205,10 +3919,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-the-midnight-bus-efaacf3862",
@@ -2227,10 +3941,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-the-mayor-of-sanctuar-40b09fd69d",
@@ -2248,11 +3962,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-trox-the-reversal-70b089da9e",
@@ -2270,11 +3984,11 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-family-manners-bc241ac89c",
@@ -2293,10 +4007,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-midboss-13a86d3661",
@@ -2315,10 +4029,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-pigeon-west-call-of-g-ce6832bb3d",
@@ -2337,10 +4051,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-my-teacher-615a6cdb22",
@@ -2359,10 +4073,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-pixel-fireplace-35806ca855",
@@ -2381,10 +4095,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-tylers-deal-4a351fa01c",
@@ -2403,10 +4117,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-apothecaria-makers-ma-df00db0988",
@@ -2425,10 +4139,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-lost-in-transit-1d4a2046f4",
@@ -2447,10 +4161,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-the-failure-even-deat-4e51a3ebd0",
@@ -2469,10 +4183,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-brok-34552c1b5d",
@@ -2491,10 +4205,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "fgf-giveaway-retro-pond-sandtr-3693ac70af",
@@ -2513,10 +4227,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-game-the-green-light-87c1e27198",
@@ -2535,10 +4249,10 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "itch-io-rubys-trick-or-treat-e914675e50",
@@ -2557,517 +4271,76 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
-    "id": "epic-game-store-gethigh-exe-8ed5a51426",
-    "title": "[Epic Game Store] GetHigh.EXE（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/gethigh-exe/info/",
-    "claim_url": "https://isthereanydeal.com/game/gethigh-exe/info/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
+    "id": "-0d9269fb72",
+    "title": "今天又有几款游戏打折了，各位感兴趣的喝油可以挑一挑。接下来给大家提供简洁的游戏清单：喜欢的喝油可以点个赞充个电哦，谢谢啦",
+    "category": "shopping",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
     "value": "",
     "requirements": [],
-    "description": "Epic Game Store 100% off 限免: GetHigh.EXE",
+    "description": "小黑盒社区帖子 | shopping",
+    "tags": [
+      "小黑盒",
+      "shopping"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": 1,
+    "days_left": 0
+  },
+  {
+    "id": "-de6f7f5e8d",
+    "title": "突然刷到的，看到打折就买了。",
+    "category": "shopping",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | shopping",
+    "tags": [
+      "小黑盒",
+      "shopping"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": 1,
+    "days_left": 0
+  },
+  {
+    "id": "11-8-5-0486c6d043",
+    "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
+    "category": "shopping",
+    "source_url": "https://www.appinn.com/lizhi-2610/",
+    "claim_url": "https://www.appinn.com/lizhi-2610/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
     "tags": [
       "blog",
-      "IsThereAnyDeal"
+      "小众软件"
     ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 12.5,
     "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "steam-squad-weapon-skins-reco-301536c158",
-    "title": "[Steam] Squad Weapon Skins - Recon Team Pack（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/",
-    "claim_url": "https://isthereanydeal.com/game/squad-weapon-skins-recon-team-pack/info/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "Steam 100% off 限免: Squad Weapon Skins - Recon Team Pack",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "itch-io-the-green-light-9341c6ea6f",
-    "title": "[itch.io] The Green Light（限免）",
-    "category": "games",
-    "source_url": "https://waleedzo.itch.io/the-green-light",
-    "claim_url": "https://waleedzo.itch.io/the-green-light",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: The Green Light",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "itch-io-where-winter-crows-go-0475ebf97a",
-    "title": "[itch.io] Where Winter Crows Go（限免）",
-    "category": "games",
-    "source_url": "https://prikarin.itch.io/where-winter-crows-go",
-    "claim_url": "https://prikarin.itch.io/where-winter-crows-go",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Where Winter Crows Go",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "itch-io-roguecraft-dx-next-a6dbc1c86c",
-    "title": "[itch.io] Roguecraft Dx Next（限免）",
-    "category": "games",
-    "source_url": "https://thalamusdigital.itch.io/roguecraft-dx-next",
-    "claim_url": "https://thalamusdigital.itch.io/roguecraft-dx-next",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Roguecraft Dx Next",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "itch-io-smiling-terror-3712a68807",
-    "title": "[itch.io] Smiling Terror（限免）",
-    "category": "games",
-    "source_url": "https://poisonicestudios.itch.io/smiling-terror",
-    "claim_url": "https://poisonicestudios.itch.io/smiling-terror",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Smiling Terror",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "itch-io-cherophobia-4454de1637",
-    "title": "[itch.io] Cherophobia（限免）",
-    "category": "games",
-    "source_url": "https://worsteventgames.itch.io/cherophobia",
-    "claim_url": "https://worsteventgames.itch.io/cherophobia",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Cherophobia",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "itch-io-quiet-west-butcher-no-7d01961b97",
-    "title": "[itch.io] Quiet West Butcher Noose（限免）",
-    "category": "games",
-    "source_url": "https://squidsquadpapi.itch.io/quiet-west-butcher-noose",
-    "claim_url": "https://squidsquadpapi.itch.io/quiet-west-butcher-noose",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Quiet West Butcher Noose",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "itch-io-apothecaria-nightfall-f4680ea9b6",
-    "title": "[itch.io] Apothecaria Nightfall（限免）",
-    "category": "games",
-    "source_url": "https://blackwellwriter.itch.io/apothecaria-nightfall",
-    "claim_url": "https://blackwellwriter.itch.io/apothecaria-nightfall",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Apothecaria Nightfall",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "itch-io-cosmic-express-61ea3e21d5",
-    "title": "[itch.io] Cosmic Express（限免）",
-    "category": "games",
-    "source_url": "https://draknek.itch.io/cosmic-express",
-    "claim_url": "https://draknek.itch.io/cosmic-express",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Cosmic Express",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "exiled-giveaways-and-itch-io-m-25c3d9451c",
-    "title": "Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xa2eeg/exiled_giveaways_and_itchio_mega_threads/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xa2eeg/exiled_giveaways_and_itchio_mega_threads/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "epic-games-game-gethigh-exe-r-4bd053ae43",
-    "title": "[Epic Games] (Game) GetHigh.EXE（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9zb0y/epic_games_game_gethighexe/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9zb0y/epic_games_game_gethighexe/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "steam-game-hellcard-reddit-fr-4c75f5a0a6",
-    "title": "[Steam] (Game) HELLCARD（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xa1m9g/steam_game_hellcard/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xa1m9g/steam_game_hellcard/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "indiegala-game-last-room-redd-0309c2eabf",
-    "title": "[Indiegala] (Game) Last Room（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9ymm4/indiegala_game_last_room/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9ymm4/indiegala_game_last_room/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "steam-game-memology-goyda-red-bd11da2685",
-    "title": "[Steam] (Game) MEMOLOGY: GOYDA（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xb47wh/steam_game_memology_goyda/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xb47wh/steam_game_memology_goyda/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "steam-game-uncanny-tales-1992-ebc7ccb989",
-    "title": "[Steam] (Game) Uncanny Tales: 1992（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xacvzs/steam_game_uncanny_tales_1992/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xacvzs/steam_game_uncanny_tales_1992/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "steam-game-deadzone-rogue-red-0914b6dfad",
-    "title": "[Steam] (Game)Deadzone Rogue（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9xgb5/steam_gamedeadzone_rogue/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1x9xgb5/steam_gamedeadzone_rogue/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 50.0,
-    "total_days": 8,
-    "days_left": 4
-  },
-  {
-    "id": "epic-eternal-threads-2edebd45cb",
-    "title": "Epic 免费游戏: Eternal Threads ｜永恒之线",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-02",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082864+08:00",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 40.0,
-    "total_days": 15,
-    "days_left": 9
-  },
-  {
-    "id": "epic-castlevania-anniversary-c-4860771dff",
-    "title": "Epic 免费游戏: Castlevania Anniversary Collection ｜恶魔城周年纪念合集",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-02",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082934+08:00",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 40.0,
-    "total_days": 15,
-    "days_left": 9
-  },
-  {
-    "id": "epic-monument-valley-57a0ec43bc",
-    "title": "Epic 免费游戏: 纪念碑谷（Monument Valley） ｜纪念碑谷",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-02",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082946+08:00",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 40.0,
-    "total_days": 15,
-    "days_left": 9
-  },
-  {
-    "id": "epic-sker-ritual-0f64e3a767",
-    "title": "Epic 免费游戏: Sker Ritual ｜斯克尔仪式",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-22",
-    "end_date": "2026-10-29",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082922+08:00",
-    "last_seen": "2026-10-21",
-    "status": "upcoming",
-    "progress_pct": 37.5,
-    "total_days": 8,
-    "days_left": 5
-  },
-  {
-    "id": "epic-home-a-unique-horror-adve-c5f73b1ced",
-    "title": "Epic 免费游戏: Home - A Unique Horror Adventure ｜归家-独特恐怖冒险",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-22",
-    "end_date": "2026-10-29",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082980+08:00",
-    "last_seen": "2026-10-21",
-    "status": "upcoming",
-    "progress_pct": 37.5,
-    "total_days": 8,
-    "days_left": 5
-  },
-  {
-    "id": "epic-lisa-definitive-edition-0bdd07144d",
-    "title": "Epic 免费游戏: 《LISA: Definitive Edition》 ｜LISA：决定版",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-11-01",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-11-01 ~ 2026-11-10",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082899+08:00",
-    "last_seen": "2026-10-21",
-    "status": "upcoming",
-    "progress_pct": 0,
-    "total_days": 10,
-    "days_left": 17
-  },
-  {
-    "id": "epic-2-c44c4e8654",
-    "title": "Epic 免费游戏: 《幽灵行者 2》",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-12-10",
-    "end_date": "2027-01-07",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-12-10 ~ 2027-01-07",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082882+08:00",
-    "last_seen": "2026-10-21",
-    "status": "upcoming",
-    "progress_pct": 0,
-    "total_days": 29,
-    "days_left": 75
+    "days_left": 7
   },
   {
     "id": "11-vip-edc5befef4",
@@ -3085,11 +4358,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "11-3-9b63a182f0",
@@ -3107,11 +4380,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "vip-plus-b231be0c08",
@@ -3129,11 +4402,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "svip-tv-58213fc2cc",
@@ -3151,11 +4424,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "svip-6tb-330bda9a39",
@@ -3173,11 +4446,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "svip-b-95b3f9be7b",
@@ -3195,11 +4468,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "active",
-    "progress_pct": 75.0,
+    "last_seen": "2026-10-27",
+    "status": "ended",
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 0
   },
   {
     "id": "heybox-steam-festival-1020",
@@ -3221,9 +4494,9 @@
     "discovered_at": "2026-10-20T00:50:00.000000+08:00",
     "last_seen": "2026-10-20",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 0
   },
   {
     "id": "heybox-steam-discount-1020-169",
@@ -3245,9 +4518,75 @@
     "discovered_at": "2026-10-20T01:00:00.000000+08:00",
     "last_seen": "2026-10-20",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 100,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 0
+  },
+  {
+    "id": "xp-f8b7384b18",
+    "title": "问问这个游戏怎么样啊。封面上这个女主真的太符合我xp了好想和她在一起，准备打折价购入了。想问一下前辈们的意见",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": 1,
+    "days_left": 0
+  },
+  {
+    "id": "3a-576e1d1bfa",
+    "title": "这次你一定要入库！3A/独游等上百款促销折扣游戏来啦！",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": 1,
+    "days_left": 0
+  },
+  {
+    "id": "3a-2-2077-ea35ee1919",
+    "title": "也是好久没给大家做折扣促销推荐了咱们今天就来给大家盘点上百款游戏促销折扣！包含3A/独立游戏等等~最近虽然边缘行者2暴雷了，但是2077的游戏还是值得一玩更何况现在还是史低的价格游戏好像最近还更新了，",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": 1,
+    "days_left": 0
   },
   {
     "id": "10-20-steam-153-3-6953a19bdb",
@@ -3266,10 +4605,10 @@
       "小黑盒"
     ],
     "discovered_at": "2026-10-21T00:00:00.000000+08:00",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 1
   }
 ]
