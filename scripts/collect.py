@@ -312,12 +312,18 @@ def process_category(category: str, subset: str = "all") -> int:
             ))
         if subset in ("all", "blog"):
             raw_acts.extend(collect_blog_activities("ai"))
+            # 小黑盒社区帖子（多分区）
+            from blog_collector import collect_heybox_community
+            raw_acts.extend(collect_heybox_community("ai"))
     elif category == "games":
         # 游戏板块 = Epic/Steam/GOG 喜加一 + 博客聚合
         if subset in ("all", "direct"):
             raw_acts.extend(collect_games_category(category))
         if subset in ("all", "blog"):
             raw_acts.extend(collect_blog_activities(category))
+            # 小黑盒社区帖子（多分区）
+            from blog_collector import collect_heybox_community
+            raw_acts.extend(collect_heybox_community("games"))
     elif category == "game-discount":
         # 游戏打折 = 小黑盒分享帖（SPA需Playwright渲染）
         from blog_collector import collect_heybox_discounts, collect_heybox_community
