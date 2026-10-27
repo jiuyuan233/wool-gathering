@@ -18,7 +18,7 @@
     ],
     "discovered_at": "2026-10-20T00:50:00.000000+08:00",
     "last_seen": "2026-10-20",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "heybox-steam-discount-1020-169",
@@ -39,7 +39,7 @@
     ],
     "discovered_at": "2026-10-20T01:00:00.000000+08:00",
     "last_seen": "2026-10-20",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "xp-f8b7384b18",
@@ -58,7 +58,7 @@
     ],
     "discovered_at": "2026-10-27T00:00:00.000000+08:00",
     "last_seen": "2026-10-27",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "3a-576e1d1bfa",
@@ -77,7 +77,7 @@
     ],
     "discovered_at": "2026-10-27T00:00:00.000000+08:00",
     "last_seen": "2026-10-27",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "3a-2-2077-ea35ee1919",
@@ -96,7 +96,7 @@
     ],
     "discovered_at": "2026-10-27T00:00:00.000000+08:00",
     "last_seen": "2026-10-27",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "10-20-steam-153-3-6953a19bdb",
