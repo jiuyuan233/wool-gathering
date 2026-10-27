@@ -15,7 +15,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -34,7 +34,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -53,7 +53,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -110,7 +110,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -129,7 +129,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -167,7 +167,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-27",
     "status": "active"
   },
   {
@@ -244,6 +244,25 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "id": "ylih-8536636499",
+    "title": "ylih 耳机里程表：用了多久、续航掉多少，记录蓝牙耳机的一生[安卓开源]",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/ylih-headphones-records-android/",
+    "claim_url": "https://www.appinn.com/ylih-headphones-records-android/",
+    "start_date": "2026-10-27",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
     "status": "active"
   }
 ]
