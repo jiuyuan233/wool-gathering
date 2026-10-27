@@ -377,9 +377,13 @@ def finalize() -> int:
     log("检查 PENDING_URLS.md...")
     process_pending_urls()
 
-    # 统计各类别数据
+    # 刷新所有活动的 status（根据当前日期重算，避免过期 status 导致 SVG 虚线不变实线）
+    from dedup import refresh_status
     for cat in CATEGORIES:
-        data = load_json(DATA_DIR / cat / "activities.json") or []
+        path = DATA_DIR / cat / "activities.json"
+        data = load_json(path) or []
+        refresh_status(data, today_bj())
+        save_json(path, data)
         active = sum(1 for a in data if a["status"] == "active")
         log(f"[{cat}] 当前共 {len(data)} 条（active={active}）")
 

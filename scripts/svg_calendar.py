@@ -21,7 +21,7 @@ from xml.sax.saxutils import escape
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from utils import DOCS_DIR, log, parse_date, today_bj, is_long_term
+from utils import DOCS_DIR, log, parse_date, today_bj, is_long_term, status_of
 
 
 # 画布参数
@@ -239,7 +239,7 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
             x1 = max(track_left, min(x1, track_right))
             x2 = max(track_left, min(x2, track_right))
             bar_w = max(2, x2 - x1)
-            status = a.get("status", "active")
+            status = status_of(s, e, today)  # 实时根据日期计算，不依赖可能过期的 status 字段
             cy = y + (ROW_H - BAR_H) // 2
 
             # 行底分隔线（淡）
