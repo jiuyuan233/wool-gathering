@@ -16,7 +16,7 @@
     ],
     "discovered_at": "2026-10-27T00:00:00.000000+08:00",
     "last_seen": "2026-10-28",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "opencode-deepseek-v4-1-flash-5f1c07186a",
@@ -35,7 +35,7 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
@@ -54,7 +54,7 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-21",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "island-dairy-8aa1a3deed",
@@ -73,7 +73,7 @@
     ],
     "discovered_at": "2026-10-28T00:00:00.000000+08:00",
     "last_seen": "2026-10-28",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "11-e06ae154ad",

@@ -16,7 +16,7 @@
     ],
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "zooproxy-f412885a1a",
@@ -35,7 +35,7 @@
     ],
     "discovered_at": "2026-10-21",
     "last_seen": "2026-10-21",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "grok-4-gpt-2747ae25de",
