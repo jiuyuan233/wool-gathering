@@ -41,6 +41,7 @@ from utils import (
     load_json,
     log,
     now_bj,
+    safe_text,
     save_json,
     today_bj,
 )
