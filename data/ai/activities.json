@@ -6,7 +6,7 @@
     "source_url": "https://xiaoheihe.cn/app/bbs/home",
     "claim_url": "https://xiaoheihe.cn/app/bbs/home",
     "start_date": "2026-10-27",
-    "end_date": "2026-10-27",
+    "end_date": "2026-10-28",
     "value": "",
     "requirements": [],
     "description": "小黑盒社区帖子 | ai",
@@ -15,8 +15,8 @@
       "ai"
     ],
     "discovered_at": "2026-10-27T00:00:00.000000+08:00",
-    "last_seen": "2026-10-27",
-    "status": "ended"
+    "last_seen": "2026-10-28",
+    "status": "active"
   },
   {
     "id": "opencode-deepseek-v4-1-flash-5f1c07186a",
@@ -57,6 +57,25 @@
     "status": "active"
   },
   {
+    "id": "island-dairy-8aa1a3deed",
+    "title": "整理不易，感谢您的点赞和关注，谢谢点击有惊喜！注：本篇更多以推荐为主，可能有些常年不打折的，绝大部分都会打折！———————————————————《Island Dairy》《巧可甜恋》《巧克力和香",
+    "category": "ai",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-28",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | ai",
+    "tags": [
+      "小黑盒",
+      "ai"
+    ],
+    "discovered_at": "2026-10-28T00:00:00.000000+08:00",
+    "last_seen": "2026-10-28",
+    "status": "active"
+  },
+  {
     "id": "11-e06ae154ad",
     "title": "双 11 腾讯云和阿里云有没有活动啊？",
     "category": "ai",
@@ -82,7 +101,7 @@
     "source_url": "https://www.iplaysoft.com/p/wps-vip",
     "claim_url": "https://www.iplaysoft.com/p/wps-vip",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -91,7 +110,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active"
   },
   {
@@ -101,7 +120,7 @@
     "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
     "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -110,7 +129,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active"
   },
   {
@@ -120,7 +139,7 @@
     "source_url": "https://www.iplaysoft.com/workbuddy.html",
     "claim_url": "https://www.iplaysoft.com/workbuddy.html",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -129,7 +148,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active"
   },
   {
@@ -139,7 +158,7 @@
     "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
     "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -148,7 +167,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active"
   },
   {
@@ -158,7 +177,7 @@
     "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
     "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -167,7 +186,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active"
   },
   {
@@ -177,7 +196,7 @@
     "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
     "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -186,7 +205,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active"
   },
   {
@@ -196,7 +215,7 @@
     "source_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
     "claim_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
     "start_date": "2026-10-27",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -205,7 +224,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active"
   },
   {
@@ -215,7 +234,7 @@
     "source_url": "https://www.appinn.com/cloudcone-50p-26/",
     "claim_url": "https://www.appinn.com/cloudcone-50p-26/",
     "start_date": "2026-10-27",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -224,7 +243,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active"
   },
   {

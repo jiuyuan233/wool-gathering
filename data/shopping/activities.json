@@ -1,43 +1,5 @@
 [
   {
-    "id": "-0d9269fb72",
-    "title": "今天又有几款游戏打折了，各位感兴趣的喝油可以挑一挑。接下来给大家提供简洁的游戏清单：喜欢的喝油可以点个赞充个电哦，谢谢啦",
-    "category": "shopping",
-    "source_url": "https://xiaoheihe.cn/app/bbs/home",
-    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
-    "start_date": "2026-10-27",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "小黑盒社区帖子 | shopping",
-    "tags": [
-      "小黑盒",
-      "shopping"
-    ],
-    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
-    "last_seen": "2026-10-27",
-    "status": "ended"
-  },
-  {
-    "id": "-de6f7f5e8d",
-    "title": "突然刷到的，看到打折就买了。",
-    "category": "shopping",
-    "source_url": "https://xiaoheihe.cn/app/bbs/home",
-    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
-    "start_date": "2026-10-27",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "小黑盒社区帖子 | shopping",
-    "tags": [
-      "小黑盒",
-      "shopping"
-    ],
-    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
-    "last_seen": "2026-10-27",
-    "status": "ended"
-  },
-  {
     "id": "11-8-5-0486c6d043",
     "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
     "category": "shopping",
@@ -72,7 +34,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "ended"
   },
   {
@@ -91,6 +53,44 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-28",
+    "status": "ended"
+  },
+  {
+    "id": "-0d9269fb72",
+    "title": "今天又有几款游戏打折了，各位感兴趣的喝油可以挑一挑。接下来给大家提供简洁的游戏清单：喜欢的喝油可以点个赞充个电哦，谢谢啦",
+    "category": "shopping",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | shopping",
+    "tags": [
+      "小黑盒",
+      "shopping"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "-de6f7f5e8d",
+    "title": "突然刷到的，看到打折就买了。",
+    "category": "shopping",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | shopping",
+    "tags": [
+      "小黑盒",
+      "shopping"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
     "last_seen": "2026-10-27",
     "status": "ended"
   }
