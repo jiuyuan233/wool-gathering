@@ -10,10 +10,11 @@
 
 <!-- 在这下面写网址，每行一个。加 # 分类 注释可选，例如：-->
 <!-- https://example.com/some-deal # ai -->
-Qoder现在每天领100积分，非常好用 #ai
+
 
 
 ## 已处理
 
 - [2026-10-21] https://docs.qoder.cn/qoder/overview → ai，已添加到 sources.json
+- [2026-10-28] Qoder现在每天领100积分，非常好用... → 处理失败: AI 调用最终失败: 401 Client Error: Unauthorized for url: https://api.chatanywhere.org/v1/chat/completions
 <!-- AI 自动把处理完的网址移到这里，附上结果。不要手动编辑这个区域。 -->

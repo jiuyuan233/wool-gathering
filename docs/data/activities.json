@@ -6,7 +6,7 @@
     "source_url": "https://xiaoheihe.cn/app/bbs/home",
     "claim_url": "https://xiaoheihe.cn/app/bbs/home",
     "start_date": "2026-10-27",
-    "end_date": "2026-10-27",
+    "end_date": "2026-10-28",
     "value": "",
     "requirements": [],
     "description": "小黑盒社区帖子 | ai",
@@ -15,10 +15,10 @@
       "ai"
     ],
     "discovered_at": "2026-10-27T00:00:00.000000+08:00",
-    "last_seen": "2026-10-27",
-    "status": "ended",
+    "last_seen": "2026-10-28",
+    "status": "active",
     "progress_pct": 100,
-    "total_days": 1,
+    "total_days": 2,
     "days_left": 0
   },
   {
@@ -66,6 +66,28 @@
     "days_left": 0
   },
   {
+    "id": "island-dairy-8aa1a3deed",
+    "title": "整理不易，感谢您的点赞和关注，谢谢点击有惊喜！注：本篇更多以推荐为主，可能有些常年不打折的，绝大部分都会打折！———————————————————《Island Dairy》《巧可甜恋》《巧克力和香",
+    "category": "ai",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-28",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | ai",
+    "tags": [
+      "小黑盒",
+      "ai"
+    ],
+    "discovered_at": "2026-10-28T00:00:00.000000+08:00",
+    "last_seen": "2026-10-28",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": 1,
+    "days_left": 0
+  },
+  {
     "id": "11-e06ae154ad",
     "title": "双 11 腾讯云和阿里云有没有活动啊？",
     "category": "ai",
@@ -94,7 +116,7 @@
     "source_url": "https://www.iplaysoft.com/p/wps-vip",
     "claim_url": "https://www.iplaysoft.com/p/wps-vip",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -103,11 +125,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
-    "progress_pct": 62.5,
-    "total_days": 16,
-    "days_left": 6
+    "progress_pct": 58.8,
+    "total_days": 17,
+    "days_left": 7
   },
   {
     "id": "codex-1-a30d149305",
@@ -116,7 +138,7 @@
     "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
     "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -125,11 +147,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
-    "progress_pct": 62.5,
-    "total_days": 16,
-    "days_left": 6
+    "progress_pct": 58.8,
+    "total_days": 17,
+    "days_left": 7
   },
   {
     "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
@@ -138,7 +160,7 @@
     "source_url": "https://www.iplaysoft.com/workbuddy.html",
     "claim_url": "https://www.iplaysoft.com/workbuddy.html",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -147,11 +169,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
-    "progress_pct": 57.1,
-    "total_days": 14,
-    "days_left": 6
+    "progress_pct": 53.3,
+    "total_days": 15,
+    "days_left": 7
   },
   {
     "id": "b-plus-87eed4109c",
@@ -160,7 +182,7 @@
     "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
     "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -169,11 +191,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
-    "progress_pct": 57.1,
-    "total_days": 14,
-    "days_left": 6
+    "progress_pct": 53.3,
+    "total_days": 15,
+    "days_left": 7
   },
   {
     "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
@@ -182,7 +204,7 @@
     "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
     "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -191,11 +213,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
-    "progress_pct": 57.1,
-    "total_days": 14,
-    "days_left": 6
+    "progress_pct": 53.3,
+    "total_days": 15,
+    "days_left": 7
   },
   {
     "id": "codex-1-8-79edcabe5f",
@@ -204,7 +226,7 @@
     "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
     "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -213,11 +235,11 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
-    "progress_pct": 57.1,
-    "total_days": 14,
-    "days_left": 6
+    "progress_pct": 53.3,
+    "total_days": 15,
+    "days_left": 7
   },
   {
     "id": "zcode-1024-5-tokens-6e9fe0859e",
@@ -226,7 +248,7 @@
     "source_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
     "claim_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
     "start_date": "2026-10-27",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -235,11 +257,11 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
-    "progress_pct": 25.0,
-    "total_days": 8,
-    "days_left": 6
+    "progress_pct": 22.2,
+    "total_days": 9,
+    "days_left": 7
   },
   {
     "id": "cloudcone-50-5-1-2-55-cf1ade3da3",
@@ -248,7 +270,7 @@
     "source_url": "https://www.appinn.com/cloudcone-50p-26/",
     "claim_url": "https://www.appinn.com/cloudcone-50p-26/",
     "start_date": "2026-10-27",
-    "end_date": "2026-11-03",
+    "end_date": "2026-11-04",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -257,11 +279,11 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
-    "progress_pct": 25.0,
-    "total_days": 8,
-    "days_left": 6
+    "progress_pct": 22.2,
+    "total_days": 9,
+    "days_left": 7
   },
   {
     "id": "cloud_21e1f5e207cc",
@@ -871,7 +893,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -893,7 +915,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -915,7 +937,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -981,7 +1003,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1003,7 +1025,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1047,7 +1069,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1157,7 +1179,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1748,7 +1770,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082922+08:00",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 87.5,
     "total_days": 8,
@@ -1767,7 +1789,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-22 ~ 2026-10-29",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082980+08:00",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 87.5,
     "total_days": 8,
@@ -1786,7 +1808,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082864+08:00",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 66.7,
     "total_days": 15,
@@ -1805,7 +1827,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082934+08:00",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 66.7,
     "total_days": 15,
@@ -1824,7 +1846,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082946+08:00",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 66.7,
     "total_days": 15,
@@ -1843,7 +1865,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-27T11:51:56.314613+08:00",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "active",
     "progress_pct": 66.7,
     "total_days": 15,
@@ -2874,7 +2896,7 @@
     "description": "Epic Games Store 限时免费 | 2026-11-01 ~ 2026-11-10",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082899+08:00",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 10,
@@ -2893,7 +2915,7 @@
     "description": "Epic Games Store 限时免费 | 2026-12-10 ~ 2027-01-07",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082882+08:00",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 29,
@@ -4277,6 +4299,72 @@
     "days_left": 0
   },
   {
+    "id": "11-8-5-0486c6d043",
+    "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
+    "category": "shopping",
+    "source_url": "https://www.appinn.com/lizhi-2610/",
+    "claim_url": "https://www.appinn.com/lizhi-2610/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "active",
+    "progress_pct": 25.0,
+    "total_days": 8,
+    "days_left": 6
+  },
+  {
+    "id": "11-vip-edc5befef4",
+    "title": "双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了…",
+    "category": "shopping",
+    "source_url": "https://www.iplaysoft.com/1111.html",
+    "claim_url": "https://www.iplaysoft.com/1111.html",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-28",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 8,
+    "days_left": 0
+  },
+  {
+    "id": "11-3-9b63a182f0",
+    "title": "首发！双 11 红包开领啦~ 积少成多！每天3次 / 可当现金",
+    "category": "shopping",
+    "source_url": "https://www.iplaysoft.com/news/3252",
+    "claim_url": "https://www.iplaysoft.com/news/3252",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-26",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-28",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 8,
+    "days_left": 0
+  },
+  {
     "id": "-0d9269fb72",
     "title": "今天又有几款游戏打折了，各位感兴趣的喝油可以挑一挑。接下来给大家提供简洁的游戏清单：喜欢的喝油可以点个赞充个电哦，谢谢啦",
     "category": "shopping",
@@ -4321,72 +4409,6 @@
     "days_left": 0
   },
   {
-    "id": "11-8-5-0486c6d043",
-    "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
-    "category": "shopping",
-    "source_url": "https://www.appinn.com/lizhi-2610/",
-    "claim_url": "https://www.appinn.com/lizhi-2610/",
-    "start_date": "2026-10-27",
-    "end_date": "2026-11-03",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-27",
-    "status": "active",
-    "progress_pct": 25.0,
-    "total_days": 8,
-    "days_left": 6
-  },
-  {
-    "id": "11-vip-edc5befef4",
-    "title": "双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了…",
-    "category": "shopping",
-    "source_url": "https://www.iplaysoft.com/1111.html",
-    "claim_url": "https://www.iplaysoft.com/1111.html",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "11-3-9b63a182f0",
-    "title": "首发！双 11 红包开领啦~ 积少成多！每天3次 / 可当现金",
-    "category": "shopping",
-    "source_url": "https://www.iplaysoft.com/news/3252",
-    "claim_url": "https://www.iplaysoft.com/news/3252",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-26",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
     "id": "vip-plus-b231be0c08",
     "title": "爱奇艺 (电视端) VIP 年卡+送京东 PLUS 会员优惠 (年度低价)",
     "category": "video-vip",
@@ -4402,7 +4424,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -4424,7 +4446,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -4446,7 +4468,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -4468,7 +4490,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
