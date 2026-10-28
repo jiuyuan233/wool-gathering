@@ -1,24 +1,5 @@
 [
   {
-    "id": "-c84302191a",
-    "title": "搞西安补贴，大概率板车拖回来，有什么需要注意的吗友友们或者有什么好物推荐，有什么羊毛可以薅",
-    "category": "drive",
-    "source_url": "https://xiaoheihe.cn/app/bbs/home",
-    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
-    "start_date": "2026-10-27",
-    "end_date": "2026-10-27",
-    "value": "",
-    "requirements": [],
-    "description": "小黑盒社区帖子 | drive",
-    "tags": [
-      "小黑盒",
-      "drive"
-    ],
-    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
-    "last_seen": "2026-10-27",
-    "status": "ended"
-  },
-  {
     "id": "midalo-ai-1024-7-24-5-2767c13b40",
     "title": "[midalo 米搭 AI 中转站] 1024 提前给大家发福利， 不降智、7*24 小时稳定，新用户注册进群即送 5$",
     "category": "drive",
@@ -114,6 +95,25 @@
     "status": "active"
   },
   {
+    "id": "huppo-v-11-5b9e7aa807",
+    "title": "HUPPO 香氛诚邀有烘干机的 V 友免费体验新品，另双 11 盖楼送好礼🎁",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1252565",
+    "claim_url": "https://www.v2ex.com/t/1252565",
+    "start_date": "2026-10-28",
+    "end_date": "2026-11-04",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "status": "active"
+  },
+  {
     "id": "10-c119209b24",
     "title": "自建反代还是用现成中转？免费领 10 美元算笔账",
     "category": "drive",
@@ -168,6 +168,25 @@
     ],
     "discovered_at": "2026-10-19",
     "last_seen": "2026-10-19",
+    "status": "ended"
+  },
+  {
+    "id": "-c84302191a",
+    "title": "搞西安补贴，大概率板车拖回来，有什么需要注意的吗友友们或者有什么好物推荐，有什么羊毛可以薅",
+    "category": "drive",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-27",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | drive",
+    "tags": [
+      "小黑盒",
+      "drive"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-27",
     "status": "ended"
   }
 ]
