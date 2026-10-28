@@ -630,7 +630,13 @@ https://another.com/free-game # games
 
 每行一个网址，`#` 后是分类注释（可选）。不写分类时 AI 按 URL 关键词自动判断。
 
-### 16.2 AI 处理流程（在 finalize 阶段执行）
+### 16.2 AI 处理流程（在每次 Actions 运行时执行）
+
+支持两种输入：
+- **URL 行**（`https://...`）：添加到 sources.json 作为数据源
+- **自然语言行**（如 `Qoder每天领100积分 #ai`）：用 AI 理解并直接创建活动
+
+#### URL 行处理
 
 1. 读取 `PENDING_URLS.md` 的「待处理」区，提取所有网址行
 2. 对每个网址：
@@ -638,11 +644,21 @@ https://another.com/free-game # games
    b. **判断 type**：`xiaoheihe` → `heybox`（需 Playwright），其余 → `html`
    c. **去重检查**：查 `data/sources.json` 是否已有相同 URL，有则标记「重复，跳过」
    d. **添加到 sources.json**：加一条源（格式见 16.4）
-   e. **抓取内容**：用对应分类的抓取器抓取（`collect_blog_activities(category)` 或 `collect_heybox_discounts()`），提取活动信息
+   e. **抓取内容**：用对应分类的抓取器抓取，提取活动信息
    f. **添加到 activities.json**：如果抓取到内容，规范化后添加到 `data/{category}/activities.json`
-3. 把处理完的网址移到「已处理」区，附上结果（见 16.5）
-4. 跑 `python3 scripts/collect.py finalize` 重新生成 SVG + README
-5. 提交推送
+
+#### 自然语言行处理（新增）
+
+1. 提取非 URL 的文本行（如 `Qoder现在每天领100积分，非常好用 #ai`）
+2. 解析 `#分类` 注释（可选）
+3. 调用 `_process_natural_language(desc, category, today)`：
+   a. 用 AI（deepseek-v3-2）理解自然语言描述
+   b. AI 联网搜索该产品的免费福利/积分领取信息
+   c. 返回结构化活动 JSON
+4. 将活动直接写入 `data/{category}/activities.json`
+
+3. 把处理完的条目移到「已处理」区，附上结果（见 16.5）
+4. 提交推送
 
 ### 16.3 URL 分类判断规则（按优先级匹配）
 
@@ -812,10 +828,28 @@ README 里「🛠 好用 Agent 工具」分区是**静态内容**，直接写在
 | game-discount | 小黑盒社区-game-discount | Steam打折/史低 |
 | games | 小黑盒社区-games | 喜加一/免费领游戏 |
 
-**工作原理**：`collect_heybox_community(category)` 用 Playwright 渲染小黑盒社区首页 → 按标题关键词过滤属于该分类的帖子 → 提取活动信息。在每次抓取对应分类时自动执行。
+**工作原理**：`collect_heybox_community(category)` 用 Playwright 渲染小黑盒社区首页 → 用 `eval_on_selector_all` 提取帖子标题和链接 → 按标题关键词过滤属于该分类的帖子 → 优先找"整理合集"帖子（标题含"整理/合集/汇总/盘点"等词）→ 创建活动，`source_url` 指向帖子链接，`end_date` 留空（不当天过期）。在每次抓取对应分类时自动执行。
+
+**合集帖模式**（2026-10-28 更新）：不再把每条线报拆开抓，而是找人家整理好的合集帖，把帖子链接放到 README，持续时间按帖子内容。一个合集帖 = 一个活动。
 
 ## 20. 过期活动归档（自动）
 
 `finalize` 阶段自动把过期活动按月归档到 `docs/archive/YYYY-MM.md`，从 `activities.json` 移除。
 
 **工作原理**：`archive_expired()` 找出 `status=ended` 或 `end_date < 今天` 的活动 → 按月分组 → 写入 `docs/archive/YYYY-MM.md` → 从 `activities.json` 移除。
+
+## 21. 开发文档（交接文档）
+
+完整的开发文档见 `DEV_GUIDE.md`，包含：
+
+- 项目概述与架构设计
+- 每个文件的职责和关键函数详解
+- AI 工作流程（调用链、输入输出、模型配置）
+- 数据流与状态机（活动状态转换、数据文件结构）
+- **用户画像与交流指南**（如何和用户交流、用户偏好）
+- 开发环境与常见操作（GitHub API 提交、触发 Actions、更新 Secret）
+- **遗留问题**（6 个待解决问题及建议）
+- 已实现功能清单
+- GitHub Actions 配置详解
+
+**接手开发的 AI 必读 `DEV_GUIDE.md`**，里面有完整的工作流程和环境限制说明。
