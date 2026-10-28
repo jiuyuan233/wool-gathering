@@ -133,13 +133,14 @@ def archive_expired() -> int:
 
 
 def process_pending_urls() -> int:
-    """处理 PENDING_URLS.md 里用户提交的网址。
+    """处理 PENDING_URLS.md 里用户提交的网址或自然语言描述。
 
-    读取「待处理」区的网址，添加到 data/sources.json，
-    然后把已处理的移到「已处理」区并附上结果。
+    支持两种输入：
+    1. URL 行（http://...）→ 添加到 sources.json
+    2. 自然语言行（如"Qoder每天领100积分 #ai"）→ 用 AI 理解并直接创建活动
 
     Returns:
-        处理的网址数量
+        处理的条目数量
     """
     pending_path = DATA_DIR.parent / "PENDING_URLS.md"
     if not pending_path.exists():
@@ -157,9 +158,10 @@ def process_pending_urls() -> int:
     todo_section = parts[0]
     done_section = "## 已处理" + parts[1]
 
-    # 提取「待处理」区的网址行
+    # 提取「待处理」区的网址行和自然语言行
     url_pattern = re.compile(r'^(https?://\S+)(?:\s*#\s*(\w[\w-]*))?\s*$')
     urls_to_process = []
+    nl_to_process = []
     for line in todo_section.split("\n"):
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--") or stripped.startswith(">") or stripped.startswith("#"):
@@ -167,12 +169,19 @@ def process_pending_urls() -> int:
         m = url_pattern.match(stripped)
         if m:
             urls_to_process.append((m.group(1), m.group(2), stripped))
+        else:
+            # 非URL的自然语言描述，提取 #分类 注释
+            cat_match = re.search(r'#\s*(\w[\w-]*)\s*$', stripped)
+            cat_hint = cat_match.group(1) if cat_match else None
+            desc = re.sub(r'\s*#\s*\w[\w-]*\s*$', '', stripped).strip()
+            if len(desc) > 3:
+                nl_to_process.append((desc, cat_hint, stripped))
 
-    if not urls_to_process:
-        log("PENDING_URLS.md 无待处理网址")
+    if not urls_to_process and not nl_to_process:
+        log("PENDING_URLS.md 无待处理内容")
         return 0
 
-    log(f"PENDING_URLS.md: 发现 {len(urls_to_process)} 个待处理网址")
+    log(f"PENDING_URLS.md: {len(urls_to_process)} 个网址, {len(nl_to_process)} 个自然语言描述")
 
     # 读取 sources.json
     sources_path = DATA_DIR / "sources.json"
@@ -183,26 +192,23 @@ def process_pending_urls() -> int:
     processed = []
     new_count = 0
 
+    # ── 处理 URL 行（原有逻辑）──
     from urllib.parse import urlparse
     for url, cat_hint, original_line in urls_to_process:
-        # 判断分类：用户注释优先
         if cat_hint and cat_hint in CATEGORIES:
             category = cat_hint
             _, src_type = _guess_category_from_url(url)
         else:
             category, src_type = _guess_category_from_url(url)
 
-        # 去重
         if url in existing_urls:
             processed.append(f"- [{today}] {url} → {category}，重复（sources.json 已有），跳过")
             log(f"  {url} → {category}，重复，跳过")
             continue
 
-        # 推断 name
         domain = urlparse(url).netloc or url
         name = domain.replace("www.", "")[:30]
 
-        # 添加到 sources
         all_sources.append({
             "name": name,
             "url": url,
@@ -217,11 +223,10 @@ def process_pending_urls() -> int:
         log(f"  {url} → {category}（{src_type}），已添加")
 
     # 保存 sources.json
-    if new_count > 0:
+    if any(u[0] in existing_urls for u in urls_to_process):
         save_json(sources_path, all_sources)
-        log(f"sources.json: 新增 {new_count} 个源（总计 {len(all_sources)}）")
+        log(f"sources.json: 新增源（总计 {len(all_sources)}）")
 
-        # 抓取新源内容（让用户提交的URL进日历）
         cats_to_fetch = set()
         for url2, cat_hint2, _ in urls_to_process:
             if url2 in existing_urls and cat_hint2 and cat_hint2 in CATEGORIES:
@@ -236,16 +241,45 @@ def process_pending_urls() -> int:
             except Exception as e:
                 log(f"  抓取 [{cat}] 失败: {e}", level="WARN")
 
-    # 更新 PENDING_URLS.md：删除已处理行，在已处理区追加结果
+    # ── 处理自然语言描述（新增逻辑）──
+    for desc, cat_hint, original_line in nl_to_process:
+        category = cat_hint if cat_hint and cat_hint in CATEGORIES else "ai"
+        log(f"  自然语言: {desc[:50]}... → [{category}]")
+        try:
+            acts = _process_natural_language(desc, category, today)
+            if acts:
+                act_path = DATA_DIR / category / "activities.json"
+                existing_acts = load_json(act_path) or []
+                existing_ids = {a.get("id") for a in existing_acts}
+                added = 0
+                for a in acts:
+                    if a.get("id") not in existing_ids:
+                        existing_acts.append(a)
+                        existing_ids.add(a.get("id"))
+                        added += 1
+                if added > 0:
+                    save_json(act_path, existing_acts)
+                    log(f"    AI 创建 {added} 条活动 → data/{category}/activities.json")
+                processed.append(f"- [{today}] {desc[:40]}... → {category}，AI 创建 {added} 条活动")
+            else:
+                processed.append(f"- [{today}] {desc[:40]}... → {category}，AI 未找到活动")
+                log(f"    AI 未找到活动")
+        except Exception as e:
+            processed.append(f"- [{today}] {desc[:40]}... → 处理失败: {safe_text(e, 100)}")
+            log(f"    自然语言处理失败: {e}", level="WARN")
+
+    # ── 更新 PENDING_URLS.md ──
     new_todo_lines = []
     for line in todo_section.split("\n"):
         stripped = line.strip()
         if stripped and not stripped.startswith("<!--") and not stripped.startswith(">") and not stripped.startswith("#"):
             if url_pattern.match(stripped):
                 continue  # 跳过已处理的网址行
+            # 跳过已处理的自然语言行
+            if any(stripped == nl[2] for nl in nl_to_process):
+                continue
         new_todo_lines.append(line)
 
-    # 在已处理区的注释行前插入结果
     done_lines = done_section.rstrip().split("\n")
     insert_idx = len(done_lines)
     for i, line in enumerate(done_lines):
@@ -257,9 +291,66 @@ def process_pending_urls() -> int:
 
     new_content = "\n".join(new_todo_lines) + "\n" + "\n".join(done_lines)
     pending_path.write_text(new_content, encoding="utf-8")
-    log(f"PENDING_URLS.md: 已处理 {len(processed)} 个网址，{new_count} 个新增源")
+    log(f"PENDING_URLS.md: 已处理 {len(processed)} 条")
 
     return len(processed)
+
+
+def _process_natural_language(desc: str, category: str, today: str) -> list[dict]:
+    """用 AI 理解自然语言描述，创建薅羊毛活动。
+
+    用户可能写"Qoder每天领100积分"这种描述，AI 需要理解并找到对应活动。
+    """
+    import hashlib
+    try:
+        from ai_client import AIClient
+        from prompts import SYSTEM_PROMPT
+    except ImportError:
+        log("  AI 客户端不可用，跳过自然语言处理")
+        return []
+
+    ai = AIClient()
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": f"""用户在薅羊毛情报站提交了一条自然语言描述：
+
+\"{desc}\"
+
+分类提示：{category}
+当前日期：{today}
+
+请理解这段描述，找出对应的薅羊毛/免费福利活动。
+- 如果描述提到某个产品/服务（如 Qoder、Cursor 等），请联网搜索该产品的最新免费福利/积分领取/额度信息
+- 提取活动标题、领取链接、开始/结束日期、福利价值等
+- 日期格式严格 YYYY-MM-DD，算不出来留空字符串
+- 如果找不到活动，返回 {{"activities": []}}
+
+请严格按系统提示的 JSON 格式输出。"""},
+    ]
+
+    data = ai.chat_json(messages, max_tokens=2000)
+    if not data or "activities" not in data:
+        return []
+
+    acts = []
+    for a in data["activities"]:
+        a["category"] = category
+        a.setdefault("source_url", "")
+        a.setdefault("claim_url", "")
+        a.setdefault("start_date", today)
+        a.setdefault("end_date", "")
+        a.setdefault("value", "")
+        a.setdefault("requirements", [])
+        a.setdefault("description", desc[:50])
+        a.setdefault("tags", [category])
+        a["discovered_at"] = today + "T00:00:00.000000+08:00"
+        a["last_seen"] = today
+        a["status"] = "active"
+        a["id"] = hashlib.md5((a.get("title", "") + a.get("source_url", "")).encode()).hexdigest()[:12]
+        acts.append(a)
+
+    return acts
+
 
 
 

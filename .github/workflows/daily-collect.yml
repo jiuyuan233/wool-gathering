@@ -71,11 +71,12 @@ jobs:
         env:
           TZ: Asia/Shanghai
           # AI 中转站配置（ChatAnywhere，OpenAI 兼容协议）
-          # 免费版：每周 50000 点 + 每天 100 次请求，用弱模型 deepseek-v3-2 省额度
+          # 免费版：每周 50000 点 + 每天 100 次请求
+          # gpt-4o-mini：比 deepseek-v3-2 更强的信息抽取能力，额度消耗适中
           # AI_API_KEY 从 GitHub Secret 读，不 commit 到代码
           AI_BASE_URL: https://api.chatanywhere.org/v1
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          AI_MODEL: deepseek-v3-2
+          AI_MODEL: gpt-4o-mini
         run: |
           python scripts/collect.py ${{ steps.mode.outputs.mode }}
 

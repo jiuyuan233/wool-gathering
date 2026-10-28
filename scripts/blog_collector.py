@@ -699,15 +699,13 @@ if __name__ == "__main__":
 
 
 def collect_heybox_community(category: str) -> list[dict]:
-    """收集小黑盒社区帖子（多分区）。
+    """从小黑盒社区找"整理合集"帖子，提取帖子链接和持续时间。
 
-    小黑盒社区首页有各种帖子，按标题关键词过滤属于指定分类的帖子。
-    SPA需Playwright渲染。
-
-    Returns:
-        属于指定分类的活动列表
+    用户要求：在小黑盒找人家整理好的集合帖子，
+    把帖子链接放到 README，持续时间按帖子里写的。
+    不再把每条线报拆开抓，而是一个合集帖 = 一个活动。
     """
-    log(f"--- 小黑盒社区聚合器 [{category}] ---")
+    log(f"--- 小黑盒社区合集帖聚合器 [{category}] ---")
     all_acts: list[dict] = []
 
     # 从 sources.json 读取 heybox-community 源
@@ -737,6 +735,15 @@ def collect_heybox_community(category: str) -> list[dict]:
     }
     keywords = CATEGORY_KEYWORDS.get(category, [])
 
+    # 合集帖特征词（优先收录）
+    COLLECTION_WORDS = ["整理", "合集", "汇总", "盘点", "大全", "清单", "列表", "推荐",
+                        "每周", "每日", "持续更新", "长期更新"]
+    # 活动词（必须包含至少一个才收录）
+    ACTIVITY_WORDS = ["免费", "打折", "优惠", "赠送", "限免", "白嫖", "羊毛",
+                      "开车", "速领", "手慢无", "史低", "骨折价", "喜加一",
+                      "送", "领", "折扣", "促销", "福利", "红包", "代金券",
+                      "免费领", "0元", "一折", "半价", "新人", "激活", "额度"]
+
     # 尝试导入 Playwright
     try:
         from playwright.sync_api import sync_playwright
@@ -754,40 +761,67 @@ def collect_heybox_community(category: str) -> list[dict]:
                 page = browser.new_page()
                 page.goto(url, wait_until="networkidle", timeout=30000)
                 page.wait_for_timeout(3000)
-                content = page.inner_text("body")
+
+                # 提取帖子标题和链接（用 DOM 查询）
+                posts = []
+                try:
+                    posts = page.eval_on_selector_all(
+                        "a",
+                        """els => els.map(e => ({
+                            title: (e.innerText || e.textContent || '').trim(),
+                            url: e.href,
+                        })).filter(p => p.title.length > 8 && p.url.includes('xiaoheihe') && !p.url.includes('bbs/home'))"""
+                    )
+                except Exception:
+                    pass
+
+                # 如果 DOM 查询没结果，退而求其次从文本提取
+                if not posts:
+                    content_text = page.inner_text("body")
+                    for line in content_text.split("\n"):
+                        line = line.strip()
+                        if len(line) > 10 and len(line) < 200:
+                            posts.append({"title": line, "url": url})
+
                 page.close()
 
-                if not content or len(content) < 100:
+                if not posts:
                     continue
 
-                # 提取帖子标题和链接
-                lines = [l.strip() for l in content.split("\n") if l.strip()]
-                # 活动词（必须包含至少一个才收录，避免抓到无关新闻）
-                ACTIVITY_WORDS = ["免费", "打折", "优惠", "赠送", "限免", "白嫖", "羊毛",
-                                  "开车", "速领", "手慢无", "史低", "骨折价", "喜加一",
-                                  "送", "领", "折扣", "促销", "福利", "红包", "代金券",
-                                  "免费领", "0元", "一折", "半价", "新人", "激活", "额度"]
-                for line in lines:
-                    # 按分类关键词过滤
-                    if not any(k.lower() in line.lower() for k in keywords):
+                # 去重（同标题只保留一条）
+                seen_titles = set()
+                for post in posts:
+                    title = post.get("title", "").strip()
+                    post_url = post.get("url", "").strip()
+
+                    if title in seen_titles:
                         continue
-                    # 必须包含活动词（避免抓到无关新闻如"Neovim收到BTC捐赠"）
-                    if not any(w in line for w in ACTIVITY_WORDS):
-                        continue
-                    if len(line) < 10 or len(line) > 200:
+                    if len(title) < 10 or len(title) > 200:
                         continue
 
+                    # 按分类关键词过滤
+                    if not any(k.lower() in title.lower() for k in keywords):
+                        continue
+                    # 必须包含活动词
+                    if not any(w in title for w in ACTIVITY_WORDS):
+                        continue
+
+                    seen_titles.add(title)
+
+                    # 判断是否合集帖
+                    is_collection = any(w in title for w in COLLECTION_WORDS)
+
                     act = {
-                        "title": line[:100],
+                        "title": title[:100],
                         "category": category,
-                        "source_url": url,
-                        "claim_url": url,
+                        "source_url": post_url or url,
+                        "claim_url": post_url or url,
                         "start_date": today.isoformat(),
-                        "end_date": (today).isoformat(),
+                        "end_date": "",
                         "value": "",
                         "requirements": [],
-                        "description": f"小黑盒社区帖子 | {category}",
-                        "tags": ["小黑盒", category],
+                        "description": f"小黑盒社区{'合集帖' if is_collection else '帖子'} | {category}",
+                        "tags": ["小黑盒", category] + (["合集"] if is_collection else []),
                         "discovered_at": today.isoformat() + "T00:00:00.000000+08:00",
                         "last_seen": today.isoformat(),
                         "status": "active",
@@ -795,9 +829,10 @@ def collect_heybox_community(category: str) -> list[dict]:
                     all_acts.append(act)
 
                 if all_acts:
-                    log(f"  小黑盒社区 [{category}]: 提取 {len(all_acts)} 条")
+                    log(f"  小黑盒社区 [{category}]: 提取 {len(all_acts)} 条合集帖/活动帖")
             except Exception as e:
                 log(f"  小黑盒社区渲染失败: {e}", level="WARN")
         browser.close()
 
     return all_acts
+
