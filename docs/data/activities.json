@@ -44,94 +44,6 @@
     "days_left": 5
   },
   {
-    "id": "wps-ai-vip-plus-5a8782e5e4",
-    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/wps-vip",
-    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
-    "status": "active",
-    "progress_pct": 66.7,
-    "total_days": 18,
-    "days_left": 6
-  },
-  {
-    "id": "codex-1-a30d149305",
-    "title": "复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
-    "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
-    "status": "active",
-    "progress_pct": 66.7,
-    "total_days": 18,
-    "days_left": 6
-  },
-  {
-    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
-    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/workbuddy.html",
-    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-29",
-    "status": "active",
-    "progress_pct": 62.5,
-    "total_days": 16,
-    "days_left": 6
-  },
-  {
-    "id": "b-plus-87eed4109c",
-    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-29",
-    "status": "active",
-    "progress_pct": 62.5,
-    "total_days": 16,
-    "days_left": 6
-  },
-  {
     "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
     "title": "VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活)",
     "category": "ai",
@@ -154,13 +66,101 @@
     "days_left": 6
   },
   {
+    "id": "wps-ai-vip-plus-5a8782e5e4",
+    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/wps-vip",
+    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-06",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-30",
+    "status": "active",
+    "progress_pct": 63.2,
+    "total_days": 19,
+    "days_left": 7
+  },
+  {
+    "id": "codex-1-a30d149305",
+    "title": "复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
+    "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-06",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-30",
+    "status": "active",
+    "progress_pct": 63.2,
+    "total_days": 19,
+    "days_left": 7
+  },
+  {
+    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
+    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/workbuddy.html",
+    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-06",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-30",
+    "status": "active",
+    "progress_pct": 58.8,
+    "total_days": 17,
+    "days_left": 7
+  },
+  {
+    "id": "b-plus-87eed4109c",
+    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-06",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-30",
+    "status": "active",
+    "progress_pct": 58.8,
+    "total_days": 17,
+    "days_left": 7
+  },
+  {
     "id": "codex-1-8-79edcabe5f",
     "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
     "category": "ai",
     "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
     "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -169,11 +169,11 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "active",
-    "progress_pct": 62.5,
-    "total_days": 16,
-    "days_left": 6
+    "progress_pct": 58.8,
+    "total_days": 17,
+    "days_left": 7
   },
   {
     "id": "zcode-1024-5-tokens-6e9fe0859e",
@@ -182,7 +182,7 @@
     "source_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
     "claim_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
     "start_date": "2026-10-27",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -191,11 +191,33 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "active",
-    "progress_pct": 40.0,
-    "total_days": 10,
-    "days_left": 6
+    "progress_pct": 36.4,
+    "total_days": 11,
+    "days_left": 7
+  },
+  {
+    "id": "ai-vip-587de366e7",
+    "title": "为了低价续费会员，我用 AI 做了个 VIP 年卡降价监控提醒网站",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/news/6636",
+    "claim_url": "https://www.iplaysoft.com/news/6636",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-06",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-30",
+    "last_seen": "2026-10-30",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
   },
   {
     "id": "cloud_21e1f5e207cc",
@@ -915,7 +937,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -937,7 +959,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -959,7 +981,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1025,7 +1047,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1047,7 +1069,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1091,7 +1113,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1224,6 +1246,72 @@
     ],
     "discovered_at": "2026-10-28T00:00:00.000000+08:00",
     "last_seen": "2026-10-28",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "marktext-markdown-typora-39ba071ce4",
+    "title": "MarkText - 开源轻量流畅极简的 Markdown 编辑器 (免费 Typora 平替)",
+    "category": "open-source",
+    "source_url": "https://www.iplaysoft.com/marktext.html",
+    "claim_url": "https://www.iplaysoft.com/marktext.html",
+    "start_date": "2026-10-30",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-30",
+    "last_seen": "2026-10-30",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "tailscale-tailcat-a7ceec7f0f",
+    "title": "Tailscale 开源 Tailcat：快速让两台设备临时直连，即用即抛的内网穿透工具",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/tailscale-tailcat/",
+    "claim_url": "https://www.appinn.com/tailscale-tailcat/",
+    "start_date": "2026-10-30",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-30",
+    "last_seen": "2026-10-30",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "search-6mb-mac-chrome-69963087ee",
+    "title": "Search – 仅 6MB，开源、极简 Mac 浏览器，支持 Chrome 扩展",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/officecommun-serach-browser/",
+    "claim_url": "https://www.appinn.com/officecommun-serach-browser/",
+    "start_date": "2026-10-30",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-30",
+    "last_seen": "2026-10-30",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -4911,7 +4999,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -4933,7 +5021,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5021,7 +5109,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5043,7 +5131,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5065,7 +5153,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5087,7 +5175,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-29",
+    "last_seen": "2026-10-30",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
