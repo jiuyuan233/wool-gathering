@@ -1,43 +1,5 @@
 [
   {
-    "id": "midalo-ai-1024-7-24-5-2767c13b40",
-    "title": "[midalo 米搭 AI 中转站] 1024 提前给大家发福利， 不降智、7*24 小时稳定，新用户注册进群即送 5$",
-    "category": "drive",
-    "source_url": "https://www.v2ex.com/t/1250582",
-    "claim_url": "https://www.v2ex.com/t/1250582",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-promotions",
-    "tags": [
-      "blog",
-      "V2EX-promotions"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "ended"
-  },
-  {
-    "id": "zooproxy-f412885a1a",
-    "title": "✨分享一个最近一直在稳用的 Zooproxy，现在免费送福利，找客服还有折扣",
-    "category": "drive",
-    "source_url": "https://www.v2ex.com/t/1250573",
-    "claim_url": "https://www.v2ex.com/t/1250573",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-promotions",
-    "tags": [
-      "blog",
-      "V2EX-promotions"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "ended"
-  },
-  {
     "id": "grok-4-gpt-2747ae25de",
     "title": "grok 半价截止到下午 4 点 需要的下单全自动充值，另有 gpt 半价成品号",
     "category": "drive",
@@ -114,6 +76,44 @@
     "status": "active"
   },
   {
+    "id": "vvae-for-v2ex-ai-premium-eab4335f4f",
+    "title": "VVAE for V2EX 更新：发帖预览和 AI 排版，开放一周 Premium 免费试用",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1253490",
+    "claim_url": "https://www.v2ex.com/t/1253490",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active"
+  },
+  {
+    "id": "5-10-dabadb7674",
+    "title": "《我享云》机场代理 · 性价比之王 · 十一月份优惠码 · 注册免费试用 5-10 天 · 一块钱用上专线",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1253470",
+    "claim_url": "https://www.v2ex.com/t/1253470",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active"
+  },
+  {
     "id": "10-c119209b24",
     "title": "自建反代还是用现成中转？免费领 10 美元算笔账",
     "category": "drive",
@@ -187,6 +187,44 @@
     ],
     "discovered_at": "2026-10-27T00:00:00.000000+08:00",
     "last_seen": "2026-10-27",
+    "status": "ended"
+  },
+  {
+    "id": "midalo-ai-1024-7-24-5-2767c13b40",
+    "title": "[midalo 米搭 AI 中转站] 1024 提前给大家发福利， 不降智、7*24 小时稳定，新用户注册进群即送 5$",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1250582",
+    "claim_url": "https://www.v2ex.com/t/1250582",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "zooproxy-f412885a1a",
+    "title": "✨分享一个最近一直在稳用的 Zooproxy，现在免费送福利，找客服还有折扣",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1250573",
+    "claim_url": "https://www.v2ex.com/t/1250573",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
     "status": "ended"
   }
 ]

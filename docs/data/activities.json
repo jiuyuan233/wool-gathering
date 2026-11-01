@@ -1,27 +1,5 @@
 [
   {
-    "id": "11-e06ae154ad",
-    "title": "双 11 腾讯云和阿里云有没有活动啊？",
-    "category": "ai",
-    "source_url": "https://www.v2ex.com/t/1250393",
-    "claim_url": "https://www.v2ex.com/t/1250393",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-04",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-cloud",
-    "tags": [
-      "blog",
-      "V2EX-cloud"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-28",
-    "status": "active",
-    "progress_pct": 80.0,
-    "total_days": 15,
-    "days_left": 3
-  },
-  {
     "id": "cloudcone-50-5-1-2-55-cf1ade3da3",
     "title": "CloudCone 再次开启50%赠送：充值 5.1 美元，送 2.55 美元",
     "category": "ai",
@@ -86,6 +64,28 @@
     "progress_pct": 54.5,
     "total_days": 11,
     "days_left": 5
+  },
+  {
+    "id": "11-e06ae154ad",
+    "title": "双 11 腾讯云和阿里云有没有活动啊？",
+    "category": "ai",
+    "source_url": "https://www.v2ex.com/t/1250393",
+    "claim_url": "https://www.v2ex.com/t/1250393",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-cloud",
+    "tags": [
+      "blog",
+      "V2EX-cloud"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 63.2,
+    "total_days": 19,
+    "days_left": 7
   },
   {
     "id": "wps-ai-vip-plus-5a8782e5e4",
@@ -226,7 +226,7 @@
     "source_url": "https://activity.huaweicloud.com/free_test/index.html",
     "claim_url": "https://activity.huaweicloud.com/free_test/index.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "华为云产品0元试用活动，免费试用AI、云安全、云会议等云计算产品。为用户提供免费的云服务试用机会，帮助企业和个人轻松享受云服务。",
@@ -235,11 +235,11 @@
       "免费试用"
     ],
     "discovered_at": "2026-10-19T11:37:08.835788+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_b9088095b507",
@@ -248,7 +248,7 @@
     "source_url": "https://free.aliyun.com",
     "claim_url": "https://free.aliyun.com",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "阿里云免费试用提供多种产品免费，包括免费云服务器、免费云存储、免费数据库以及AI试用等。飞天免费试用计划，全栈产品体验，让企业和个人轻松享受云服务。",
@@ -257,11 +257,11 @@
       "免费试用"
     ],
     "discovered_at": "2026-10-19T11:37:12.559443+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_e75f23a2006f",
@@ -270,7 +270,7 @@
     "source_url": "https://activity.huaweicloud.com/member.html",
     "claim_url": "https://activity.huaweicloud.com/member.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "老用户专属优惠页面全新升级，为您带来前所未有的超值体验！尊享Flexus云服务会员中心全新上线，畅享服务器续费9折、购买热销产品享8折、升级享7折，还有超值折扣套餐和限时特惠活动。立即登录，领取您的专属福利，助力您的业务飞跃新高度。",
@@ -279,11 +279,11 @@
       "老用户权益"
     ],
     "discovered_at": "2026-10-19T13:16:14.748266+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_4d4fd319df26",
@@ -292,7 +292,7 @@
     "source_url": "https://activity.huaweicloud.com/group-purchase/index.html",
     "claim_url": "https://activity.huaweicloud.com/group-purchase/index.html",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "组合购,上云场景,热销专区,弹性云服务器,ECS,云服务器,华为云上云场景专区热销场景组合折上折！业务上云推荐云服务器ECS+主机安全组合优惠价",
@@ -301,11 +301,11 @@
       "组合购"
     ],
     "discovered_at": "2026-10-19T13:16:15.804000+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_3dfb1407dfbe",
@@ -314,7 +314,7 @@
     "source_url": "https://university.aliyun.com",
     "claim_url": "https://university.aliyun.com",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "“云工开物”是由阿里云发起的高校用云支持计划，支持AI时代高校人才培养和科研创新。与高校合作共建人工智能通识课，为大学生送免费算力资源。",
@@ -323,11 +323,11 @@
       "高校计划"
     ],
     "discovered_at": "2026-10-19T13:16:18.485054+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_5cfd79b201c8",
@@ -336,7 +336,7 @@
     "source_url": "https://www.aliyun.com/activity/new",
     "claim_url": "https://www.aliyun.com/activity/new",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "Qwen3.8-Flash 首发尝鲜，个企双版本低至 39 元/月",
@@ -345,11 +345,11 @@
       "新人特惠"
     ],
     "discovered_at": "2026-10-19T13:16:22.768559+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_8ff1ec8d1772",
@@ -359,7 +359,7 @@
     "claim_url": "https://workbuddy.tencent.com/",
     "description": "腾讯 WorkBuddy - AI Agent 办公新范式。AI 办公助手，支持自定义 API 中转站",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "免费版",
     "category": "ai",
     "tags": [
@@ -368,10 +368,10 @@
     ],
     "status": "active",
     "discovered_at": "2026-10-19T16:30:00+08:00",
-    "last_seen": "2026-10-28",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "last_seen": "2026-11-01",
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_a6638bd2c0cc",
@@ -380,7 +380,7 @@
     "source_url": "https://cloud.tencent.com/act/new",
     "claim_url": "https://cloud.tencent.com/act/new",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "腾讯云推出大促优惠活动：免费领取5455元代金券礼包；4核4G服务器新客 38元/年起，支持 OpenClaw/Hermes 等热门镜像；Token Plan 低至28元/月，多种主流模型极速调用；云数据库、COS等上云必备产品，低至1折",
@@ -389,11 +389,11 @@
       "大促代金券"
     ],
     "discovered_at": "2026-10-19T16:46:02.531627+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_4b7a798bd85e",
@@ -402,7 +402,7 @@
     "source_url": "https://cloud.tencent.com/act/campus",
     "claim_url": "https://cloud.tencent.com/act/campus",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "云+校园计划是腾讯云为在校学生推出的专项扶持计划。该计划内容主要包括：学生云服务器+mysql数据库优惠套餐，云计算在线学习，云开发实验室…",
@@ -411,11 +411,11 @@
       "校园计划"
     ],
     "discovered_at": "2026-10-19T16:46:04.603884+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_8a5fcce5d067",
@@ -424,7 +424,7 @@
     "source_url": "https://cloud.tencent.com/act/free",
     "claim_url": "https://cloud.tencent.com/act/free",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "腾讯云推出了个人云产品体验馆：云服务器，云数据库，云安全等70+云产品免费试用，续费1年3.3折起….",
@@ -433,11 +433,11 @@
       "免费体验"
     ],
     "discovered_at": "2026-10-19T16:46:06.353735+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "cloud_e9c81e3c3f4a",
@@ -446,7 +446,7 @@
     "source_url": "https://cloud.tencent.com/act/developer",
     "claim_url": "https://cloud.tencent.com/act/developer",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "value": "",
     "requirements": [],
     "description": "腾讯云最新活动_腾讯云促销优惠_代金券-腾讯云官网入口",
@@ -455,11 +455,11 @@
       "开发者"
     ],
     "discovered_at": "2026-10-19T16:46:07.791323+08:00",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 35.0,
-    "total_days": 40,
-    "days_left": 26
+    "progress_pct": 31.8,
+    "total_days": 44,
+    "days_left": 30
   },
   {
     "id": "ai-agent-5cecfcac",
@@ -1318,50 +1318,6 @@
     "days_left": null
   },
   {
-    "id": "midalo-ai-1024-7-24-5-2767c13b40",
-    "title": "[midalo 米搭 AI 中转站] 1024 提前给大家发福利， 不降智、7*24 小时稳定，新用户注册进群即送 5$",
-    "category": "drive",
-    "source_url": "https://www.v2ex.com/t/1250582",
-    "claim_url": "https://www.v2ex.com/t/1250582",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-promotions",
-    "tags": [
-      "blog",
-      "V2EX-promotions"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "zooproxy-f412885a1a",
-    "title": "✨分享一个最近一直在稳用的 Zooproxy，现在免费送福利，找客服还有折扣",
-    "category": "drive",
-    "source_url": "https://www.v2ex.com/t/1250573",
-    "claim_url": "https://www.v2ex.com/t/1250573",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-promotions",
-    "tags": [
-      "blog",
-      "V2EX-promotions"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-21",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
     "id": "grok-4-gpt-2747ae25de",
     "title": "grok 半价截止到下午 4 点 需要的下单全自动充值，另有 gpt 半价成品号",
     "category": "drive",
@@ -1448,6 +1404,50 @@
     "progress_pct": 62.5,
     "total_days": 8,
     "days_left": 3
+  },
+  {
+    "id": "vvae-for-v2ex-ai-premium-eab4335f4f",
+    "title": "VVAE for V2EX 更新：发帖预览和 AI 排版，开放一周 Premium 免费试用",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1253490",
+    "claim_url": "https://www.v2ex.com/t/1253490",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "5-10-dabadb7674",
+    "title": "《我享云》机场代理 · 性价比之王 · 十一月份优惠码 · 注册免费试用 5-10 天 · 一块钱用上专线",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1253470",
+    "claim_url": "https://www.v2ex.com/t/1253470",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
   },
   {
     "id": "10-c119209b24",
@@ -1538,6 +1538,50 @@
     "days_left": 0
   },
   {
+    "id": "midalo-ai-1024-7-24-5-2767c13b40",
+    "title": "[midalo 米搭 AI 中转站] 1024 提前给大家发福利， 不降智、7*24 小时稳定，新用户注册进群即送 5$",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1250582",
+    "claim_url": "https://www.v2ex.com/t/1250582",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 8,
+    "days_left": 0
+  },
+  {
+    "id": "zooproxy-f412885a1a",
+    "title": "✨分享一个最近一直在稳用的 Zooproxy，现在免费送福利，找客服还有折扣",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1250573",
+    "claim_url": "https://www.v2ex.com/t/1250573",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 8,
+    "days_left": 0
+  },
+  {
     "id": "epic-eternal-threads-2edebd45cb",
     "title": "Epic 免费游戏: Eternal Threads ｜永恒之线",
     "category": "games",
@@ -1550,7 +1594,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082864+08:00",
-    "last_seen": "2026-10-31",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 93.3,
     "total_days": 15,
@@ -1569,7 +1613,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082934+08:00",
-    "last_seen": "2026-10-31",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 93.3,
     "total_days": 15,
@@ -1588,7 +1632,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082946+08:00",
-    "last_seen": "2026-10-31",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 93.3,
     "total_days": 15,
@@ -1607,7 +1651,7 @@
     "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
     "tags": [],
     "discovered_at": "2026-10-27T11:51:56.314613+08:00",
-    "last_seen": "2026-10-31",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 93.3,
     "total_days": 15,
@@ -1651,7 +1695,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -1761,7 +1805,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -1783,7 +1827,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -1805,7 +1849,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -1893,7 +1937,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -1937,7 +1981,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2025,7 +2069,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2113,7 +2157,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2135,7 +2179,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2311,7 +2355,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2399,7 +2443,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2663,7 +2707,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2685,7 +2729,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2707,7 +2751,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2729,7 +2773,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2751,7 +2795,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2773,7 +2817,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2795,7 +2839,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2817,7 +2861,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2839,7 +2883,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2861,7 +2905,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2927,7 +2971,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -3000,6 +3044,685 @@
     "days_left": 3
   },
   {
+    "id": "epic-game-store-sorry-we-re-c-790d8c9a76",
+    "title": "[Epic Game Store] Sorry We're Closed（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/sorry-we-re-closed/info/",
+    "claim_url": "https://isthereanydeal.com/game/sorry-we-re-closed/info/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Sorry We're Closed",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-asleep-ato-1-dc73a20acf",
+    "title": "[Steam] Asleep - Ato 1（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/asleep-ato-1/info/",
+    "claim_url": "https://isthereanydeal.com/game/asleep-ato-1/info/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: Asleep - Ato 1",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-hunting-simulator-3-cla-2a13e0bcbd",
+    "title": "[Steam] Hunting Simulator 3 - Classic American Hunter Pack（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/hunting-simulator-3-classic-american-hunter-pack/info/",
+    "claim_url": "https://isthereanydeal.com/game/hunting-simulator-3-classic-american-hunter-pack/info/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: Hunting Simulator 3 - Classic American Hunter Pack",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-game-store-gladiator-bla-733e71de99",
+    "title": "[Epic Game Store] gladiator-blades-of-fury（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/gladiator-blades-of-fury/info/",
+    "claim_url": "https://isthereanydeal.com/game/gladiator-blades-of-fury/info/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: gladiator-blades-of-fury",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-game-store-quiztopia-the-948a9e4a00",
+    "title": "[Epic Game Store] quiztopia-the-ultimate-trivia（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/quiztopia-the-ultimate-trivia/info/",
+    "claim_url": "https://isthereanydeal.com/game/quiztopia-the-ultimate-trivia/info/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: quiztopia-the-ultimate-trivia",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-hotwax-3d900f079f",
+    "title": "[itch.io] Hotwax（限免）",
+    "category": "games",
+    "source_url": "https://punkcake.itch.io/hotwax",
+    "claim_url": "https://punkcake.itch.io/hotwax",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Hotwax",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-rogueslide-5d3adb67ca",
+    "title": "[itch.io] Rogueslide（限免）",
+    "category": "games",
+    "source_url": "https://beepyeah.itch.io/rogueslide",
+    "claim_url": "https://beepyeah.itch.io/rogueslide",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Rogueslide",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-poolscape-6d213c3788",
+    "title": "[itch.io] Poolscape（限免）",
+    "category": "games",
+    "source_url": "https://cosmicarcadegames.itch.io/poolscape",
+    "claim_url": "https://cosmicarcadegames.itch.io/poolscape",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Poolscape",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-lancer-tactics-2960626002",
+    "title": "[itch.io] Lancer Tactics（限免）",
+    "category": "games",
+    "source_url": "https://wick.itch.io/lancer-tactics",
+    "claim_url": "https://wick.itch.io/lancer-tactics",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Lancer Tactics",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-the-bagmans-curse-2e21861c92",
+    "title": "[itch.io] The Bagmans Curse（限免）",
+    "category": "games",
+    "source_url": "https://caramelgames.itch.io/the-bagmans-curse",
+    "claim_url": "https://caramelgames.itch.io/the-bagmans-curse",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: The Bagmans Curse",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-new-meat-a05520c88c",
+    "title": "[itch.io] New Meat（限免）",
+    "category": "games",
+    "source_url": "https://rocketlex.itch.io/new-meat",
+    "claim_url": "https://rocketlex.itch.io/new-meat",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: New Meat",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-islands-of-the-caliph-f36c99899e",
+    "title": "[itch.io] Islands Of The Caliph（限免）",
+    "category": "games",
+    "source_url": "https://schmidt-workshops.itch.io/islands-of-the-caliph",
+    "claim_url": "https://schmidt-workshops.itch.io/islands-of-the-caliph",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Islands Of The Caliph",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-jester-53d0008cc6",
+    "title": "[itch.io] Jester（限免）",
+    "category": "games",
+    "source_url": "https://ant-san.itch.io/jester",
+    "claim_url": "https://ant-san.itch.io/jester",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Jester",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-the-librarian-0ed02984ee",
+    "title": "[itch.io] The Librarian（限免）",
+    "category": "games",
+    "source_url": "https://octavinavarro.itch.io/the-librarian",
+    "claim_url": "https://octavinavarro.itch.io/the-librarian",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: The Librarian",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-dicey-dungeons-22b7356427",
+    "title": "[itch.io] Dicey Dungeons（限免）",
+    "category": "games",
+    "source_url": "https://terrycavanagh.itch.io/dicey-dungeons",
+    "claim_url": "https://terrycavanagh.itch.io/dicey-dungeons",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dicey Dungeons",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-tinylogic-6e114b21de",
+    "title": "[itch.io] Tinylogic（限免）",
+    "category": "games",
+    "source_url": "https://whoismuzzy.itch.io/tinylogic",
+    "claim_url": "https://whoismuzzy.itch.io/tinylogic",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Tinylogic",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-roguecraft-dx-amiga-02524d88e7",
+    "title": "[itch.io] Roguecraft Dx Amiga（限免）",
+    "category": "games",
+    "source_url": "https://thalamusdigital.itch.io/roguecraft-dx-amiga",
+    "claim_url": "https://thalamusdigital.itch.io/roguecraft-dx-amiga",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Roguecraft Dx Amiga",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-games-game-gladiator-bla-9f2dddc530",
+    "title": "[Epic Games] (Game) Gladiator: Blades of Fury（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xkhqj9/epic_games_game_gladiator_blades_of_fury/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xkhqj9/epic_games_game_gladiator_blades_of_fury/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-games-game-quiztopia-the-e6418a0d7b",
+    "title": "[Epic Games] (Game) Quiztopia : The Ultimate Trivia（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xkhr0f/epic_games_game_quiztopia_the_ultimate_trivia/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xkhr0f/epic_games_game_quiztopia_the_ultimate_trivia/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-game-asleep-act-1-reddi-aa3c386a50",
+    "title": "[Steam] (Game) Asleep: Act 1（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xjkwtl/steam_game_asleep_act_1/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xjkwtl/steam_game_asleep_act_1/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "gog-game-a-new-beginning-fina-5d05ae3837",
+    "title": "[GOG] (Game) A New Beginning: Final Cut（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xjg650/gog_game_a_new_beginning_final_cut/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xjg650/gog_game_a_new_beginning_final_cut/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "indiegala-game-my-darkest-wit-9825dc608e",
+    "title": "[Indiegala] (Game) My Darkest Witch（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xjkrk9/indiegala_game_my_darkest_witch/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xjkrk9/indiegala_game_my_darkest_witch/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "pc-xb-ps-switch-other-dead-by-c0cc89221b",
+    "title": "[PC/XB/PS/Switch] (Other) Dead by Daylight - 100k Bloodpoints（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xjp0tu/pcxbpsswitch_other_dead_by_daylight_100k/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xjp0tu/pcxbpsswitch_other_dead_by_daylight_100k/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-game-hexologic-reddit-f-ee1ca27ad3",
+    "title": "[Steam](Game) Hexologic（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xipmh1/steamgame_hexologic/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xipmh1/steamgame_hexologic/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-games-game-sorry-we-re-c-52e5982104",
+    "title": "[Epic Games] (Game) Sorry We're Closed（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1ximc22/epic_games_game_sorry_were_closed/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1ximc22/epic_games_game_sorry_were_closed/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-games-mobile-game-galaxy-db65bfb844",
+    "title": "[Epic Games Mobile] (Game) Galaxy Kart（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1ximi13/epic_games_mobile_game_galaxy_kart/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1ximi13/epic_games_mobile_game_galaxy_kart/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "psa-trash-goblin-egs-kiborg-a-d41cf914d2",
+    "title": "[PSA] Trash Goblin (EGS), Kiborg (Amazon Games) are complimentary with Amazon Prime（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xipmim/psa_trash_goblin_egs_kiborg_amazon_games_are/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xipmim/psa_trash_goblin_egs_kiborg_amazon_games_are/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-dlc-v-rising-sinister-e-cabe03bb50",
+    "title": "[Steam] (DLC) V Rising - Sinister Evolution Pack（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xio57t/steam_dlc_v_rising_sinister_evolution_pack/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xio57t/steam_dlc_v_rising_sinister_evolution_pack/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-game-demonator-reddit-f-9e71586c78",
+    "title": "[Steam] (Game) Demonator（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xk6om5/steam_game_demonator/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xk6om5/steam_game_demonator/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "steam-dlc-hunting-simulator-3-2236ff338f",
+    "title": "[Steam] (DLC) Hunting Simulator 3 - Classic American Hunter Pack（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xik3ym/steam_dlc_hunting_simulator_3_classic_american/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xik3ym/steam_dlc_hunting_simulator_3_classic_american/",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-08",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "epic-lisa-definitive-edition-0bdd07144d",
+    "title": "Epic 免费游戏: 《LISA: Definitive Edition》 ｜LISA：决定版",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-01 ~ 2026-11-10",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082899+08:00",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 10.0,
+    "total_days": 10,
+    "days_left": 9
+  },
+  {
     "id": "bug-lv-10-steam-steam-steam-10-fde4953f58",
     "title": "bug\n\nLv.10\nSteam尖叫游戏节开启！凌晨折扣发力，上百款史低游戏盘点\n✅ 等等党狂喜！Steam折扣持续加码｜今日折扣精选盘点🔥 Steam尖叫游戏节10.27-11.3已经等不及开玩的朋",
     "category": "games",
@@ -3023,25 +3746,6 @@
     "days_left": null
   },
   {
-    "id": "epic-lisa-definitive-edition-0bdd07144d",
-    "title": "Epic 免费游戏: 《LISA: Definitive Edition》 ｜LISA：决定版",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-11-01",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-11-01 ~ 2026-11-10",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082899+08:00",
-    "last_seen": "2026-10-31",
-    "status": "active",
-    "progress_pct": 10.0,
-    "total_days": 10,
-    "days_left": 9
-  },
-  {
     "id": "epic-idle-champions-of-the-for-e9da2a541b",
     "title": "Epic 免费游戏: 《Idle Champions of the Forgotten Realms》",
     "category": "games",
@@ -3054,7 +3758,7 @@
     "description": "Epic Games Store 限时免费 | 2026-11-05 ~ 2026-11-12",
     "tags": [],
     "discovered_at": "2026-10-31T13:57:59.405705+08:00",
-    "last_seen": "2026-10-31",
+    "last_seen": "2026-11-01",
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 8,
@@ -3073,7 +3777,7 @@
     "description": "Epic Games Store 限时免费 | 2026-11-05 ~ 2026-11-12",
     "tags": [],
     "discovered_at": "2026-10-31T13:57:59.405860+08:00",
-    "last_seen": "2026-10-31",
+    "last_seen": "2026-11-01",
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 8,
@@ -3092,7 +3796,7 @@
     "description": "Epic Games Store 限时免费 | 2026-12-10 ~ 2027-01-07",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082882+08:00",
-    "last_seen": "2026-10-31",
+    "last_seen": "2026-11-01",
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 29,
@@ -3699,7 +4403,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -3765,7 +4469,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -3787,7 +4491,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-11-01",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -3809,7 +4513,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -4491,7 +5195,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -4557,7 +5261,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-01",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5022,6 +5726,28 @@
     "days_left": null
   },
   {
+    "id": "81525020-lv-8-10-cec145bc30",
+    "title": "玩家81525020\n\nLv.8\n跟老婆吵架被拉黑，意外发现一款不得了的游戏\n起因是这样的，大概10天之前让老婆减肥，老婆一气之下就把我拉黑了。我是一名在新疆驻场的工程队预算员，天天晚上要么是看电视，",
+    "category": "shopping",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/195535833",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/195535833",
+    "start_date": "2026-11-01",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | shopping",
+    "tags": [
+      "小黑盒",
+      "shopping"
+    ],
+    "discovered_at": "2026-11-01T00:00:00.000000+08:00",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
     "id": "11-vip-edc5befef4",
     "title": "双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了…",
     "category": "shopping",
@@ -5220,29 +5946,6 @@
     "days_left": 0
   },
   {
-    "id": "10-20-steam-153-3-6953a19bdb",
-    "title": "【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元 ｜小黑盒整理",
-    "category": "game-discount",
-    "source_url": "https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=1aa472ac9a13",
-    "claim_url": "https://store.steampowered.com/sale/steamfestival",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-28",
-    "value": "【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元；【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元；Steam新品节正式开启，凌晨迎来一波折扣，Steam发大力！下面给大伙整理了新史低，史低，一折及以下的佳作。整理不易，感谢大家，双击屏幕支持一下！",
-    "requirements": [],
-    "description": "小黑盒用户整理的Steam打折汇总 | 2026-10-21 ~ 2026-10-28",
-    "tags": [
-      "Steam",
-      "打折",
-      "小黑盒"
-    ],
-    "discovered_at": "2026-10-21T00:00:00.000000+08:00",
-    "last_seen": "2026-10-28",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
     "id": "lv-17-steam-steam-eb8dbfcb96",
     "title": "鸽子纸\n\nLv.17\nsteam尖叫游戏节万圣节折扣（喜加十）\nsteam比较受到期待的新的官方游戏节尖叫游戏节开始了本次喜加一质量高一些为了方便各位观看，游戏节价格降序排名，希望能大家可以找到自己喜",
     "category": "game-discount",
@@ -5327,6 +6030,28 @@
     ],
     "discovered_at": "2026-10-28T00:00:00.000000+08:00",
     "last_seen": "2026-10-28",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "lv-16-10-29-steam-69-30-3-10-90fd3f6718",
+    "title": "喵喵沫兮\n\nLv.16\n<10.29>Steam骨折价！凌晨迎来一波折扣。69款￥30以下，最低￥3\n<10.29>Steam骨折价！凌晨迎来一波折扣。69款￥30以下，最低￥3Steam尖叫节发大力",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/195266028",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/195266028",
+    "start_date": "2026-11-01",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount"
+    ],
+    "discovered_at": "2026-11-01T00:00:00.000000+08:00",
+    "last_seen": "2026-11-01",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -5444,6 +6169,29 @@
     "status": "ended",
     "progress_pct": 100,
     "total_days": 1,
+    "days_left": 0
+  },
+  {
+    "id": "10-20-steam-153-3-6953a19bdb",
+    "title": "【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元 ｜小黑盒整理",
+    "category": "game-discount",
+    "source_url": "https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=1aa472ac9a13",
+    "claim_url": "https://store.steampowered.com/sale/steamfestival",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-28",
+    "value": "【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元；【10.20】凌晨迎来一波折扣！Steam发大力。153款佳作！最低3元；Steam新品节正式开启，凌晨迎来一波折扣，Steam发大力！下面给大伙整理了新史低，史低，一折及以下的佳作。整理不易，感谢大家，双击屏幕支持一下！",
+    "requirements": [],
+    "description": "小黑盒用户整理的Steam打折汇总 | 2026-10-21 ~ 2026-10-28",
+    "tags": [
+      "Steam",
+      "打折",
+      "小黑盒"
+    ],
+    "discovered_at": "2026-10-21T00:00:00.000000+08:00",
+    "last_seen": "2026-10-28",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 8,
     "days_left": 0
   }
 ]
