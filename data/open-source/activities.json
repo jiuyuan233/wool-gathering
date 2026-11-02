@@ -340,5 +340,53 @@
     "discovered_at": "2026-10-30",
     "last_seen": "2026-11-02",
     "status": "active"
+  },
+  {
+    "title": "VS Code 免费 AI 扩展（GitHub Copilot Free）",
+    "source_url": "https://github.com/features/copilot",
+    "claim_url": "https://github.com/features/copilot",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "每月 2000 行代码补全 + 50 次聊天",
+    "requirements": [
+      "GitHub 账号"
+    ],
+    "description": "GitHub Copilot 免费版，每月 2000 行代码补全和 50 次聊天请求",
+    "tags": [
+      "开源",
+      "VSCode",
+      "Copilot",
+      "免费工具",
+      "长期"
+    ],
+    "category": "open-source",
+    "id": "01871de9912f",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
+    "title": "Trae 免费 AI IDE（字节跳动）",
+    "source_url": "https://trae.io/",
+    "claim_url": "https://trae.io/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "免费 AI IDE",
+    "requirements": [
+      "注册"
+    ],
+    "description": "字节跳动出品的免费 AI IDE，内置 AI 助手",
+    "tags": [
+      "开源",
+      "Trae",
+      "字节",
+      "免费工具",
+      "长期"
+    ],
+    "category": "open-source",
+    "id": "7fa66aac2f44",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
   }
 ]
