@@ -94,7 +94,7 @@
     "source_url": "https://www.iplaysoft.com/p/wps-vip",
     "claim_url": "https://www.iplaysoft.com/p/wps-vip",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-08",
+    "end_date": "2026-11-09",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -103,11 +103,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
-    "progress_pct": 71.4,
-    "total_days": 21,
-    "days_left": 6
+    "progress_pct": 68.2,
+    "total_days": 22,
+    "days_left": 7
   },
   {
     "id": "codex-1-a30d149305",
@@ -116,7 +116,7 @@
     "source_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
     "claim_url": "https://www.iplaysoft.com/p/qiewenpaper-codex",
     "start_date": "2026-10-19",
-    "end_date": "2026-11-08",
+    "end_date": "2026-11-09",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -125,11 +125,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
-    "progress_pct": 71.4,
-    "total_days": 21,
-    "days_left": 6
+    "progress_pct": 68.2,
+    "total_days": 22,
+    "days_left": 7
   },
   {
     "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
@@ -138,7 +138,7 @@
     "source_url": "https://www.iplaysoft.com/workbuddy.html",
     "claim_url": "https://www.iplaysoft.com/workbuddy.html",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-08",
+    "end_date": "2026-11-09",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -147,11 +147,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
-    "progress_pct": 68.4,
-    "total_days": 19,
-    "days_left": 6
+    "progress_pct": 65.0,
+    "total_days": 20,
+    "days_left": 7
   },
   {
     "id": "b-plus-87eed4109c",
@@ -160,7 +160,7 @@
     "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
     "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-08",
+    "end_date": "2026-11-09",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -169,11 +169,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
-    "progress_pct": 68.4,
-    "total_days": 19,
-    "days_left": 6
+    "progress_pct": 65.0,
+    "total_days": 20,
+    "days_left": 7
   },
   {
     "id": "codex-1-8-79edcabe5f",
@@ -182,7 +182,7 @@
     "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
     "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
     "start_date": "2026-10-21",
-    "end_date": "2026-11-08",
+    "end_date": "2026-11-09",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -191,11 +191,11 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
-    "progress_pct": 68.4,
-    "total_days": 19,
-    "days_left": 6
+    "progress_pct": 65.0,
+    "total_days": 20,
+    "days_left": 7
   },
   {
     "id": "ai-vip-587de366e7",
@@ -204,7 +204,7 @@
     "source_url": "https://www.iplaysoft.com/news/6636",
     "claim_url": "https://www.iplaysoft.com/news/6636",
     "start_date": "2026-10-30",
-    "end_date": "2026-11-08",
+    "end_date": "2026-11-09",
     "value": "",
     "requirements": [],
     "description": "来源: 异次元软件世界",
@@ -213,11 +213,11 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-30",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
-    "progress_pct": 40.0,
-    "total_days": 10,
-    "days_left": 6
+    "progress_pct": 36.4,
+    "total_days": 11,
+    "days_left": 7
   },
   {
     "id": "cloud_21e1f5e207cc",
@@ -937,7 +937,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -959,7 +959,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -981,7 +981,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1047,7 +1047,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1069,7 +1069,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1113,7 +1113,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1267,7 +1267,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-30",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1311,7 +1311,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-30",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -5763,7 +5763,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5785,7 +5785,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5873,7 +5873,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5895,7 +5895,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5917,7 +5917,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -5939,7 +5939,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
