@@ -922,6 +922,278 @@
     "days_left": 0
   },
   {
+    "title": "Qoder 每天免费领 100 积分",
+    "source_url": "https://docs.qoder.cn/qoder/overview",
+    "claim_url": "https://qoder.cn",
+    "start_date": "2026-10-21",
+    "end_date": "",
+    "value": "每天 100 积分",
+    "requirements": [
+      "注册"
+    ],
+    "description": "Qoder AI 编程助手，每天可免费领取 100 积分，非常好用",
+    "tags": [
+      "AI",
+      "Qoder",
+      "免费积分",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "8ce91c46d958",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "DeepSeek 免费 API 额度（新用户送 500 万 tokens）",
+    "source_url": "https://platform.deepseek.com/",
+    "claim_url": "https://platform.deepseek.com/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "500 万 tokens",
+    "requirements": [
+      "新用户",
+      "注册"
+    ],
+    "description": "DeepSeek 新用户免费送 500 万 tokens API 额度",
+    "tags": [
+      "AI",
+      "DeepSeek",
+      "免费API",
+      "tokens",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "7d87d4fed386",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "智谱 GLM-4-Flash 免费 API（永久免费）",
+    "source_url": "https://open.bigmodel.cn/",
+    "claim_url": "https://open.bigmodel.cn/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "GLM-4-Flash 永久免费",
+    "requirements": [
+      "注册"
+    ],
+    "description": "智谱 AI GLM-4-Flash 模型永久免费调用，无限制",
+    "tags": [
+      "AI",
+      "智谱",
+      "GLM",
+      "免费API",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "608ffe1bee35",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "Kimi 免费 API 额度（新用户送 15 元）",
+    "source_url": "https://platform.moonshot.cn/",
+    "claim_url": "https://platform.moonshot.cn/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "15 元额度",
+    "requirements": [
+      "新用户",
+      "注册"
+    ],
+    "description": "月之暗面 Kimi 新用户免费送 15 元 API 额度",
+    "tags": [
+      "AI",
+      "Kimi",
+      "Moonshot",
+      "免费API",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "7a72069c1645",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "阿里云百炼 新用户免费额度（100 万 tokens）",
+    "source_url": "https://bailian.console.aliyun.com/",
+    "claim_url": "https://bailian.console.aliyun.com/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "100 万 tokens",
+    "requirements": [
+      "新用户",
+      "阿里云账号"
+    ],
+    "description": "阿里云百炼平台新用户免费送 100 万 tokens 通义千问 API 额度",
+    "tags": [
+      "AI",
+      "阿里云",
+      "通义千问",
+      "免费API",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "6318140e557d",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "腾讯混元 免费 API 体验额度",
+    "source_url": "https://cloud.tencent.com/product/hunyuan",
+    "claim_url": "https://cloud.tencent.com/product/hunyuan",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "免费体验额度",
+    "requirements": [
+      "新用户",
+      "腾讯云账号"
+    ],
+    "description": "腾讯混元大模型新用户免费 API 体验额度",
+    "tags": [
+      "AI",
+      "腾讯云",
+      "混元",
+      "免费API",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "1b86c40c9036",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "Google Gemini 免费 API（Gemini 1.5 Flash）",
+    "source_url": "https://ai.google.dev/",
+    "claim_url": "https://aistudio.google.com/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "Gemini 1.5 Flash 免费（15 RPM）",
+    "requirements": [
+      "Google 账号"
+    ],
+    "description": "Google AI Studio 提供 Gemini 1.5 Flash 免费 API，每分钟 15 次请求",
+    "tags": [
+      "AI",
+      "Google",
+      "Gemini",
+      "免费API",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "94e7b10d5f13",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "Groq 免费 API（Llama 3.1 超快推理）",
+    "source_url": "https://groq.com/",
+    "claim_url": "https://console.groq.com/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "Llama 3.1 免费 API",
+    "requirements": [
+      "注册"
+    ],
+    "description": "Groq 提供 Llama 3.1 免费 API，超快推理速度",
+    "tags": [
+      "AI",
+      "Groq",
+      "Llama",
+      "免费API",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "7b541a39e946",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "Cursor 免费 AI 编程（基础版永久免费）",
+    "source_url": "https://cursor.com/",
+    "claim_url": "https://cursor.com/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "基础版永久免费",
+    "requirements": [
+      "注册"
+    ],
+    "description": "Cursor AI 编程助手基础版永久免费，每月 50 次慢速请求",
+    "tags": [
+      "AI",
+      "Cursor",
+      "免费工具",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "d757b86d252e",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "Windsurf 免费 AI 编程（基础版）",
+    "source_url": "https://codeium.com/windsurf",
+    "claim_url": "https://codeium.com/windsurf",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "基础版免费",
+    "requirements": [
+      "注册"
+    ],
+    "description": "Codeium Windsurf AI IDE 基础版免费使用",
+    "tags": [
+      "AI",
+      "Windsurf",
+      "Codeium",
+      "免费工具",
+      "长期"
+    ],
+    "category": "ai",
+    "id": "dc5df52cf84e",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
     "id": "adobe-artcraft-ps-ae-pr-ai-e256bde94c",
     "title": "免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件",
     "category": "open-source",
@@ -1311,6 +1583,60 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-30",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "VS Code 免费 AI 扩展（GitHub Copilot Free）",
+    "source_url": "https://github.com/features/copilot",
+    "claim_url": "https://github.com/features/copilot",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "每月 2000 行代码补全 + 50 次聊天",
+    "requirements": [
+      "GitHub 账号"
+    ],
+    "description": "GitHub Copilot 免费版，每月 2000 行代码补全和 50 次聊天请求",
+    "tags": [
+      "开源",
+      "VSCode",
+      "Copilot",
+      "免费工具",
+      "长期"
+    ],
+    "category": "open-source",
+    "id": "01871de9912f",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "title": "Trae 免费 AI IDE（字节跳动）",
+    "source_url": "https://trae.io/",
+    "claim_url": "https://trae.io/",
+    "start_date": "2026-11-02",
+    "end_date": "",
+    "value": "免费 AI IDE",
+    "requirements": [
+      "注册"
+    ],
+    "description": "字节跳动出品的免费 AI IDE，内置 AI 助手",
+    "tags": [
+      "开源",
+      "Trae",
+      "字节",
+      "免费工具",
+      "长期"
+    ],
+    "category": "open-source",
+    "id": "7fa66aac2f44",
+    "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active",
     "progress_pct": 100,
