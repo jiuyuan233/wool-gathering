@@ -1194,6 +1194,57 @@
     "days_left": null
   },
   {
+    "id": "qiewenpaper-codex-10000-credits-c06ed27902",
+    "title": "复旦切问学术（学术版 Codex）：下载登录客户端送 10000 积分 + 会员 8 折",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
+    "claim_url": "https://qiewenpaper.com/zh/download",
+    "start_date": "2026-09-09",
+    "end_date": "",
+    "value": "10000 积分 + 会员 8 折（折扣码 197720）",
+    "requirements": [
+      "下载客户端",
+      "登录账号"
+    ],
+    "description": "复旦大学 NLP 团队推出的学术版 Codex（切问学术）桌面客户端。下载登录即送 10000 积分，可用于搜索、翻译、论文总结、论文对话。Pro/Max 会员 8 折优惠，折扣码：197720。官网: https://qiewenpaper.com/zh。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "学术",
+      "AI"
+    ],
+    "discovered_at": "2026-09-09T00:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "rovo-dev-cli-free-claude-code-4662a27260",
+    "title": "Rovo Dev CLI: 免费 Claude Code，可用 Claude Sonnet 4、GPT-5，每天 500 万 Token",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/rovo-dev-cli/",
+    "claim_url": "https://www.appinn.com/rovo-dev-cli/",
+    "start_date": "2025-09-02",
+    "end_date": "",
+    "value": "每天 500 万 Token",
+    "requirements": [],
+    "description": "Rovo Dev CLI 提供免费的 Claude Code 体验，可使用 Claude Sonnet 4、GPT-5 模型，每天 500 万 Token 额度。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "AI",
+      "claude"
+    ],
+    "discovered_at": "2025-09-02T00:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
     "id": "adobe-artcraft-ps-ae-pr-ai-e256bde94c",
     "title": "免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件",
     "category": "open-source",
@@ -1968,20 +2019,24 @@
     "id": "epic-sorry-we-re-closed-be392014b9",
     "title": "Epic 免费游戏: 《Sorry We’re Closed》",
     "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-02",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/sorry-were-closed-724c86",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
     "value": "",
     "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
-    "tags": [],
+    "description": "Epic 喜加一（10.30~11.5）：《抱歉我们打烊了》单人生存恐怖游戏，好评如潮（98%好评）。支持中文。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic"
+    ],
     "discovered_at": "2026-10-27T11:51:56.314613+08:00",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active",
-    "progress_pct": 100,
-    "total_days": 15,
-    "days_left": 0
+    "progress_pct": 57.1,
+    "total_days": 7,
+    "days_left": 3
   },
   {
     "id": "epic-game-store-sker-ritual-8727e02332",
@@ -5918,6 +5973,54 @@
     "days_left": 0
   },
   {
+    "id": "epic-galaxy-kart-android-6117378607",
+    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》Android 版",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-android-135821",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。Android 版。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic",
+      "android"
+    ],
+    "discovered_at": "2026-11-02T18:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 57.1,
+    "total_days": 7,
+    "days_left": 3
+  },
+  {
+    "id": "epic-galaxy-kart-ios-4588fad824",
+    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》iOS 版",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-ios-0cfcc7",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。iOS 版。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic",
+      "ios"
+    ],
+    "discovered_at": "2026-11-02T18:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 57.1,
+    "total_days": 7,
+    "days_left": 3
+  },
+  {
     "id": "11-8-5-0486c6d043",
     "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
     "category": "shopping",
@@ -6160,6 +6263,30 @@
     "progress_pct": 100,
     "total_days": 1,
     "days_left": 0
+  },
+  {
+    "id": "mac-mini-m6-national-subsidy-4902-04fe285a5e",
+    "title": "Mac mini M6 钙版国补后 ¥4902｜最佳 AI Agent 运行硬件",
+    "category": "shopping",
+    "source_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+    "claim_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+    "start_date": "2026-10-27",
+    "end_date": "",
+    "value": "国补后 ¥4902",
+    "requirements": [],
+    "description": "Mac mini M6 钙版，国补后价格 ¥4902，被称为最佳 AI Agent 运行硬件。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "团购",
+      "hardware"
+    ],
+    "discovered_at": "2026-10-27T00:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
   },
   {
     "id": "snail-lv-24-donk-bb-pgl-donk-a74d29114e",
