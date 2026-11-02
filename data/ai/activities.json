@@ -1039,5 +1039,50 @@
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
+  },
+  {
+    "id": "qiewenpaper-codex-10000-credits-c06ed27902",
+    "title": "复旦切问学术（学术版 Codex）：下载登录客户端送 10000 积分 + 会员 8 折",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
+    "claim_url": "https://qiewenpaper.com/zh/download",
+    "start_date": "2026-09-09",
+    "end_date": "",
+    "value": "10000 积分 + 会员 8 折（折扣码 197720）",
+    "requirements": [
+      "下载客户端",
+      "登录账号"
+    ],
+    "description": "复旦大学 NLP 团队推出的学术版 Codex（切问学术）桌面客户端。下载登录即送 10000 积分，可用于搜索、翻译、论文总结、论文对话。Pro/Max 会员 8 折优惠，折扣码：197720。官网: https://qiewenpaper.com/zh。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "学术",
+      "AI"
+    ],
+    "discovered_at": "2026-09-09T00:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
+    "id": "rovo-dev-cli-free-claude-code-4662a27260",
+    "title": "Rovo Dev CLI: 免费 Claude Code，可用 Claude Sonnet 4、GPT-5，每天 500 万 Token",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/rovo-dev-cli/",
+    "claim_url": "https://www.appinn.com/rovo-dev-cli/",
+    "start_date": "2025-09-02",
+    "end_date": "",
+    "value": "每天 500 万 Token",
+    "requirements": [],
+    "description": "Rovo Dev CLI 提供免费的 Claude Code 体验，可使用 Claude Sonnet 4、GPT-5 模型，每天 500 万 Token 额度。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "AI",
+      "claude"
+    ],
+    "discovered_at": "2025-09-02T00:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
   }
 ]

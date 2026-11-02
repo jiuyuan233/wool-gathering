@@ -51,16 +51,20 @@
     "id": "epic-sorry-we-re-closed-be392014b9",
     "title": "Epic 免费游戏: 《Sorry We’re Closed》",
     "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-02",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/sorry-were-closed-724c86",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
     "value": "",
     "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
-    "tags": [],
+    "description": "Epic 喜加一（10.30~11.5）：《抱歉我们打烊了》单人生存恐怖游戏，好评如潮（98%好评）。支持中文。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic"
+    ],
     "discovered_at": "2026-10-27T11:51:56.314613+08:00",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "status": "active"
   },
   {
@@ -3456,5 +3460,47 @@
     "discovered_at": "2026-10-19T11:17:11.082980+08:00",
     "last_seen": "2026-10-28",
     "status": "ended"
+  },
+  {
+    "id": "epic-galaxy-kart-android-6117378607",
+    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》Android 版",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-android-135821",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。Android 版。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic",
+      "android"
+    ],
+    "discovered_at": "2026-11-02T18:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
+    "id": "epic-galaxy-kart-ios-4588fad824",
+    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》iOS 版",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-ios-0cfcc7",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。iOS 版。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic",
+      "ios"
+    ],
+    "discovered_at": "2026-11-02T18:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
   }
 ]
