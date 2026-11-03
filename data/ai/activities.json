@@ -57,25 +57,6 @@
     "status": "active"
   },
   {
-    "id": "11-e06ae154ad",
-    "title": "双 11 腾讯云和阿里云有没有活动啊？",
-    "category": "ai",
-    "source_url": "https://www.v2ex.com/t/1250393",
-    "claim_url": "https://www.v2ex.com/t/1250393",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-08",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-cloud",
-    "tags": [
-      "blog",
-      "V2EX-cloud"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-01",
-    "status": "active"
-  },
-  {
     "id": "wps-ai-vip-plus-5a8782e5e4",
     "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
     "category": "ai",
@@ -187,6 +168,25 @@
     ],
     "discovered_at": "2026-10-30",
     "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
+    "id": "11-e06ae154ad",
+    "title": "双 11 腾讯云和阿里云有没有活动啊？",
+    "category": "ai",
+    "source_url": "https://www.v2ex.com/t/1250393",
+    "claim_url": "https://www.v2ex.com/t/1250393",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-cloud",
+    "tags": [
+      "blog",
+      "V2EX-cloud"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -723,82 +723,6 @@
     "status": "active"
   },
   {
-    "id": "2-3-deepseek-ai-qq-deepseek-a-882bccf95d",
-    "title": "你是否也想养一只属于自己大肥鱼，接下来我会教你仅需2-3元DeepSeek余额，即可搭建专属AI聊天机器人。一、准备工作- QQ小号- DeepSeek API密钥- 阿里云服务器新人账号二、步骤详解",
-    "category": "ai",
-    "source_url": "https://xiaoheihe.cn/app/bbs/home",
-    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
-    "start_date": "2026-10-27",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "小黑盒社区帖子 | ai",
-    "tags": [
-      "小黑盒",
-      "ai"
-    ],
-    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
-    "last_seen": "2026-10-28",
-    "status": "ended"
-  },
-  {
-    "id": "opencode-deepseek-v4-1-flash-5f1c07186a",
-    "title": "OpenCode 免费提供 DeepSeek V4.1 Flash 模型",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/opencode-free-deepseek-v4-1-flash/",
-    "claim_url": "https://www.appinn.com/opencode-free-deepseek-v4-1-flash/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "ended"
-  },
-  {
-    "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
-    "title": "VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
-    "claim_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
-    "start_date": "2026-10-19",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
-    "status": "ended"
-  },
-  {
-    "id": "island-dairy-8aa1a3deed",
-    "title": "整理不易，感谢您的点赞和关注，谢谢点击有惊喜！注：本篇更多以推荐为主，可能有些常年不打折的，绝大部分都会打折！———————————————————《Island Dairy》《巧可甜恋》《巧克力和香",
-    "category": "ai",
-    "source_url": "https://xiaoheihe.cn/app/bbs/home",
-    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
-    "start_date": "2026-10-28",
-    "end_date": "2026-10-28",
-    "value": "",
-    "requirements": [],
-    "description": "小黑盒社区帖子 | ai",
-    "tags": [
-      "小黑盒",
-      "ai"
-    ],
-    "discovered_at": "2026-10-28T00:00:00.000000+08:00",
-    "last_seen": "2026-10-28",
-    "status": "ended"
-  },
-  {
     "title": "Qoder 每天免费领 100 积分",
     "source_url": "https://docs.qoder.cn/qoder/overview",
     "claim_url": "https://qoder.cn",
@@ -1084,5 +1008,81 @@
     "discovered_at": "2025-09-02T00:00:00+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
+  },
+  {
+    "id": "2-3-deepseek-ai-qq-deepseek-a-882bccf95d",
+    "title": "你是否也想养一只属于自己大肥鱼，接下来我会教你仅需2-3元DeepSeek余额，即可搭建专属AI聊天机器人。一、准备工作- QQ小号- DeepSeek API密钥- 阿里云服务器新人账号二、步骤详解",
+    "category": "ai",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-27",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | ai",
+    "tags": [
+      "小黑盒",
+      "ai"
+    ],
+    "discovered_at": "2026-10-27T00:00:00.000000+08:00",
+    "last_seen": "2026-10-28",
+    "status": "ended"
+  },
+  {
+    "id": "opencode-deepseek-v4-1-flash-5f1c07186a",
+    "title": "OpenCode 免费提供 DeepSeek V4.1 Flash 模型",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/opencode-free-deepseek-v4-1-flash/",
+    "claim_url": "https://www.appinn.com/opencode-free-deepseek-v4-1-flash/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "videoproc-converter-ai-v7-8-ai-2361aeb16f",
+    "title": "VideoProc Converter AI V7.8 周年庆限时赠送！AI 视频增强、图片修复与 4K/10K 放大工具免费领",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
+    "claim_url": "https://www.appinn.com/videoproc-converter-ai-v7-8/",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "status": "ended"
+  },
+  {
+    "id": "island-dairy-8aa1a3deed",
+    "title": "整理不易，感谢您的点赞和关注，谢谢点击有惊喜！注：本篇更多以推荐为主，可能有些常年不打折的，绝大部分都会打折！———————————————————《Island Dairy》《巧可甜恋》《巧克力和香",
+    "category": "ai",
+    "source_url": "https://xiaoheihe.cn/app/bbs/home",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/home",
+    "start_date": "2026-10-28",
+    "end_date": "2026-10-28",
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | ai",
+    "tags": [
+      "小黑盒",
+      "ai"
+    ],
+    "discovered_at": "2026-10-28T00:00:00.000000+08:00",
+    "last_seen": "2026-10-28",
+    "status": "ended"
   }
 ]
