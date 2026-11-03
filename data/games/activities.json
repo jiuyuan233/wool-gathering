@@ -1,73 +1,5 @@
 [
   {
-    "id": "epic-eternal-threads-2edebd45cb",
-    "title": "Epic 免费游戏: Eternal Threads ｜永恒之线",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-02",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082864+08:00",
-    "last_seen": "2026-11-01",
-    "status": "ended"
-  },
-  {
-    "id": "epic-castlevania-anniversary-c-4860771dff",
-    "title": "Epic 免费游戏: Castlevania Anniversary Collection ｜恶魔城周年纪念合集",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-02",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082934+08:00",
-    "last_seen": "2026-11-01",
-    "status": "ended"
-  },
-  {
-    "id": "epic-monument-valley-57a0ec43bc",
-    "title": "Epic 免费游戏: 纪念碑谷（Monument Valley） ｜纪念碑谷",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-02",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082946+08:00",
-    "last_seen": "2026-11-01",
-    "status": "ended"
-  },
-  {
-    "id": "epic-sorry-we-re-closed-be392014b9",
-    "title": "Epic 免费游戏: 《Sorry We’re Closed》",
-    "category": "games",
-    "source_url": "https://www.appinn.com/eggs-261030/",
-    "claim_url": "https://store.epicgames.com/zh-CN/p/sorry-were-closed-724c86",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "Epic 喜加一（10.30~11.5）：《抱歉我们打烊了》单人生存恐怖游戏，好评如潮（98%好评）。支持中文。来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件",
-      "epic"
-    ],
-    "discovered_at": "2026-10-27T11:51:56.314613+08:00",
-    "last_seen": "2026-11-02",
-    "status": "active"
-  },
-  {
     "id": "epic-game-store-sker-ritual-8727e02332",
     "title": "[Epic Game Store] Sker Ritual（限免）",
     "category": "games",
@@ -197,7 +129,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -216,7 +148,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -235,7 +167,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -349,7 +281,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -425,7 +357,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -520,7 +452,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -539,7 +471,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -976,7 +908,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1014,7 +946,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1033,7 +965,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1052,7 +984,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1071,7 +1003,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1090,7 +1022,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1109,7 +1041,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1128,7 +1060,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1147,7 +1079,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1204,7 +1136,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1265,6 +1197,68 @@
     "status": "active"
   },
   {
+    "id": "epic-sorry-we-re-closed-be392014b9",
+    "title": "Epic 免费游戏: 《Sorry We’re Closed》",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/sorry-were-closed-724c86",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：《抱歉我们打烊了》单人生存恐怖游戏，好评如潮（98%好评）。支持中文。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic"
+    ],
+    "discovered_at": "2026-10-27T11:51:56.314613+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
+    "id": "epic-galaxy-kart-android-6117378607",
+    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》Android 版",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-android-135821",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。Android 版。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic",
+      "android"
+    ],
+    "discovered_at": "2026-11-02T18:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
+    "id": "epic-galaxy-kart-ios-4588fad824",
+    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》iOS 版",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-ios-0cfcc7",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。iOS 版。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic",
+      "ios"
+    ],
+    "discovered_at": "2026-11-02T18:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
     "id": "epic-game-store-sorry-we-re-c-790d8c9a76",
     "title": "[Epic Game Store] Sorry We're Closed（限免）",
     "category": "games",
@@ -1280,7 +1274,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1356,7 +1350,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1375,7 +1369,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1394,7 +1388,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1413,7 +1407,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1432,7 +1426,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1451,7 +1445,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1508,7 +1502,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1527,7 +1521,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1546,7 +1540,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -1848,6 +1842,348 @@
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082899+08:00",
     "last_seen": "2026-11-01",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-gladiator-bla-2efd4251e2",
+    "title": "[Epic Game Store] Gladiator: Blades of Fury（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/gladiator-blades-of-fury/info/",
+    "claim_url": "https://isthereanydeal.com/game/gladiator-blades-of-fury/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Gladiator: Blades of Fury",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "steam-hunting-simulator-3-cla-2edaf08a8c",
+    "title": "[Steam] hunting-simulator-3-classic-american-hunter-pack（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/hunting-simulator-3-classic-american-hunter-pack/info/",
+    "claim_url": "https://isthereanydeal.com/game/hunting-simulator-3-classic-american-hunter-pack/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: hunting-simulator-3-classic-american-hunter-pack",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-epic-world-hu-48f8ab9280",
+    "title": "[Epic Game Store] epic-world-hunt-for-quest（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/epic-world-hunt-for-quest/info/",
+    "claim_url": "https://isthereanydeal.com/game/epic-world-hunt-for-quest/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: epic-world-hunt-for-quest",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-highway-drivi-3c0b8c01da",
+    "title": "[Epic Game Store] highway-driving（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/highway-driving/info/",
+    "claim_url": "https://isthereanydeal.com/game/highway-driving/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: highway-driving",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-maze-the-amaz-d6809df805",
+    "title": "[Epic Game Store] maze-the-amazing-labyrinth（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/maze-the-amazing-labyrinth/info/",
+    "claim_url": "https://isthereanydeal.com/game/maze-the-amazing-labyrinth/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: maze-the-amazing-labyrinth",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-dark-mystery-70be16bae8",
+    "title": "[Epic Game Store] dark-mystery（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/dark-mystery/info/",
+    "claim_url": "https://isthereanydeal.com/game/dark-mystery/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: dark-mystery",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-balloon-strik-216289c9e6",
+    "title": "[Epic Game Store] balloon-strike（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/balloon-strike/info/",
+    "claim_url": "https://isthereanydeal.com/game/balloon-strike/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: balloon-strike",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-super-kids-ra-58f0fd4191",
+    "title": "[Epic Game Store] super-kids-racing-mini-edition（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/super-kids-racing-mini-edition/info/",
+    "claim_url": "https://isthereanydeal.com/game/super-kids-racing-mini-edition/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: super-kids-racing-mini-edition",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-math-fun-8071f78fdd",
+    "title": "[Epic Game Store] math-fun（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/math-fun/info/",
+    "claim_url": "https://isthereanydeal.com/game/math-fun/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: math-fun",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-funtoons-worl-91b8786194",
+    "title": "[Epic Game Store] funtoons-world（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/funtoons-world/info/",
+    "claim_url": "https://isthereanydeal.com/game/funtoons-world/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: funtoons-world",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-mountain-raci-ae24853369",
+    "title": "[Epic Game Store] mountain-racing（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/mountain-racing/info/",
+    "claim_url": "https://isthereanydeal.com/game/mountain-racing/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: mountain-racing",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-horror-advent-6bef9067da",
+    "title": "[Epic Game Store] horror-adventure（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/horror-adventure/info/",
+    "claim_url": "https://isthereanydeal.com/game/horror-adventure/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: horror-adventure",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-deferral-5478e2ff81",
+    "title": "[itch.io] Deferral（限免）",
+    "category": "games",
+    "source_url": "https://serhiy-andreiev.itch.io/deferral",
+    "claim_url": "https://serhiy-andreiev.itch.io/deferral",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Deferral",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-slasher-circus-128c209c52",
+    "title": "[itch.io] Slasher Circus（限免）",
+    "category": "games",
+    "source_url": "https://redwolfstudios-deg.itch.io/slasher-circus",
+    "claim_url": "https://redwolfstudios-deg.itch.io/slasher-circus",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Slasher Circus",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-requiem-station-089ac368e4",
+    "title": "[itch.io] Requiem Station（限免）",
+    "category": "games",
+    "source_url": "https://batpan-games.itch.io/requiem-station",
+    "claim_url": "https://batpan-games.itch.io/requiem-station",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Requiem Station",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-syntaxia-96d80e2e0c",
+    "title": "[itch.io] Syntaxia（限免）",
+    "category": "games",
+    "source_url": "https://spelkollektivet.itch.io/syntaxia",
+    "claim_url": "https://spelkollektivet.itch.io/syntaxia",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Syntaxia",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-golf-peaks-4a739cec5c",
+    "title": "[itch.io] Golf Peaks（限免）",
+    "category": "games",
+    "source_url": "https://afterburn.itch.io/golf-peaks",
+    "claim_url": "https://afterburn.itch.io/golf-peaks",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Golf Peaks",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-cthon-600099024a",
+    "title": "[itch.io] Cthon（限免）",
+    "category": "games",
+    "source_url": "https://gravitygames.itch.io/cthon",
+    "claim_url": "https://gravitygames.itch.io/cthon",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Cthon",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
     "status": "active"
   },
   {
@@ -2438,7 +2774,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "ended"
   },
   {
@@ -2495,7 +2831,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "ended"
   },
   {
@@ -2514,7 +2850,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "ended"
   },
   {
@@ -2533,7 +2869,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-03",
     "status": "ended"
   },
   {
@@ -2685,7 +3021,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-11-03",
     "status": "ended"
   },
   {
@@ -3462,45 +3798,51 @@
     "status": "ended"
   },
   {
-    "id": "epic-galaxy-kart-android-6117378607",
-    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》Android 版",
+    "id": "epic-eternal-threads-2edebd45cb",
+    "title": "Epic 免费游戏: Eternal Threads ｜永恒之线",
     "category": "games",
-    "source_url": "https://www.appinn.com/eggs-261030/",
-    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-android-135821",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-02",
     "value": "",
     "requirements": [],
-    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。Android 版。来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件",
-      "epic",
-      "android"
-    ],
-    "discovered_at": "2026-11-02T18:00:00+08:00",
-    "last_seen": "2026-11-02",
-    "status": "active"
+    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082864+08:00",
+    "last_seen": "2026-11-01",
+    "status": "ended"
   },
   {
-    "id": "epic-galaxy-kart-ios-4588fad824",
-    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》iOS 版",
+    "id": "epic-castlevania-anniversary-c-4860771dff",
+    "title": "Epic 免费游戏: Castlevania Anniversary Collection ｜恶魔城周年纪念合集",
     "category": "games",
-    "source_url": "https://www.appinn.com/eggs-261030/",
-    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-ios-0cfcc7",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-02",
     "value": "",
     "requirements": [],
-    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。iOS 版。来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件",
-      "epic",
-      "ios"
-    ],
-    "discovered_at": "2026-11-02T18:00:00+08:00",
-    "last_seen": "2026-11-02",
-    "status": "active"
+    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082934+08:00",
+    "last_seen": "2026-11-01",
+    "status": "ended"
+  },
+  {
+    "id": "epic-monument-valley-57a0ec43bc",
+    "title": "Epic 免费游戏: 纪念碑谷（Monument Valley） ｜纪念碑谷",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-02",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-10-19 ~ 2026-11-02",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082946+08:00",
+    "last_seen": "2026-11-01",
+    "status": "ended"
   }
 ]
