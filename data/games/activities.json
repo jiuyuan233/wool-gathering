@@ -890,7 +890,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-10-28",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-empty-box-f8f39937f9",
@@ -909,7 +909,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-dungeonbound-4d6a33d7b6",
@@ -928,7 +928,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-a-date-with-death-4af2a2e832",
@@ -947,7 +947,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-tavern-talk-f09bf91e50",
@@ -966,7 +966,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-beyond-the-bet-dlc-972b7de0b3",
@@ -985,7 +985,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-soulsov-4c40ecb046",
@@ -1004,7 +1004,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-obscura-6f4054c8f2",
@@ -1023,7 +1023,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-saihateeki-4949bea4a9",
@@ -1042,7 +1042,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-bewitching-sinners-vi-40e210b4c4",
@@ -1061,7 +1061,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-sprout-valley-caa5edca8b",
@@ -1080,7 +1080,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-changeling-07f68bec89",
@@ -1099,7 +1099,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-10-28",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-demonizer-f4b4c9e99a",
@@ -1118,7 +1118,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-10-28",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-gildedshadows-7781f97c5c",
@@ -1137,7 +1137,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "steam-game-layers-of-fear-red-7ed54b89d6",
@@ -1156,7 +1156,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-10-28",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "pc-xbox-playstation-other-dyi-9eb52a9d6a",
@@ -1175,7 +1175,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-10-28",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "removed-by-reddit-reddit-free-b5b28566e9",
@@ -1194,7 +1194,7 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-10-28",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-sorry-we-re-closed-be392014b9",
@@ -2220,7 +2220,7 @@
     "tags": [],
     "discovered_at": "2026-10-31T13:57:59.405705+08:00",
     "last_seen": "2026-11-01",
-    "status": "upcoming"
+    "status": "active"
   },
   {
     "id": "epic-fdfa30294b",
@@ -2236,7 +2236,7 @@
     "tags": [],
     "discovered_at": "2026-10-31T13:57:59.405860+08:00",
     "last_seen": "2026-11-01",
-    "status": "upcoming"
+    "status": "active"
   },
   {
     "id": "epic-2-c44c4e8654",
