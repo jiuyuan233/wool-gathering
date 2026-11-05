@@ -17,7 +17,7 @@
     ],
     "discovered_at": "2026-10-27T11:51:56.314613+08:00",
     "last_seen": "2026-11-02",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-galaxy-kart-android-6117378607",
@@ -38,7 +38,7 @@
     ],
     "discovered_at": "2026-11-02T18:00:00+08:00",
     "last_seen": "2026-11-02",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-galaxy-kart-ios-4588fad824",
@@ -59,7 +59,7 @@
     ],
     "discovered_at": "2026-11-02T18:00:00+08:00",
     "last_seen": "2026-11-02",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-game-store-sorry-we-re-c-790d8c9a76",
