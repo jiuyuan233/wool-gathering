@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="8694" viewBox="0 0 940 8694" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
-<rect width="940" height="8694" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="9030" viewBox="0 0 940 9030" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="940" height="9030" fill="#ffffff"/>
 <text x="20" y="28" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴（2026年11月）</text>
-<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-11-06 · 有时间限制活动 299 条，开源工具 20 条不显示 · 红线 = 今天 · 超一个月顶满</text>
+<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-11-06 · 有时间限制活动 311 条，开源工具 20 条不显示 · 红线 = 今天 · 超一个月顶满</text>
 <line x1="250" y1="62" x2="920" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <line x1="250.0" y1="58" x2="250.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="250.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">10-31</text>
@@ -17,7 +17,7 @@
 <text x="790.3225806451612" y="54" font-size="9" fill="#6e7681" text-anchor="middle">11-25</text>
 <line x1="920.0" y1="58" x2="920.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="920.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">12-01</text>
-<line x1="379.6774193548387" y1="60" x2="379.6774193548387" y2="8628" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="379.6774193548387" y1="60" x2="379.6774193548387" y2="8964" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
 <text x="379.6774193548387" y="56" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="600">今天</text>
 <rect x="10" y="70" width="920" height="20" rx="4" fill="#f97316" opacity="0.12"/>
 <text x="20" y="84" font-size="13" font-weight="600" fill="#f97316">AI / 云服务（40 条）</text>
@@ -364,7 +364,7 @@
 <rect x="314.8387096774194" y="1969" width="75.64516129032256" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <text x="390.48387096774195" y="1981.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 4 天</text>
 <rect x="10" y="1992" width="920" height="20" rx="4" fill="#22c55e" opacity="0.12"/>
-<text x="20" y="2006" font-size="13" font-weight="600" fill="#22c55e">游戏喜加一（229 条）</text>
+<text x="20" y="2006" font-size="13" font-weight="600" fill="#22c55e">游戏喜加一（241 条）</text>
 <line x1="10" y1="2046" x2="930" y2="2046" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2032" r="3" fill="#22c55e"/>
 <text x="24" y="2036" font-size="12" fill="#24292f">⚫ Epic 免费游戏: Bad Cheese ｜…</text>
@@ -1433,42 +1433,114 @@
 <text x="433.7096774193549" y="8391.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 6 天</text>
 <line x1="10" y1="8430" x2="930" y2="8430" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="8416" r="3" fill="#22c55e"/>
-<text x="24" y="8420" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
-<rect x="920" y="8407" width="2" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
-<rect x="10" y="8430" width="920" height="20" rx="4" fill="#8b5cf6" opacity="0.12"/>
-<text x="20" y="8444" font-size="13" font-weight="600" fill="#8b5cf6">游戏打折（6 条）</text>
-<line x1="10" y1="8484" x2="930" y2="8484" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="8470" r="3" fill="#8b5cf6"/>
-<text x="24" y="8474" font-size="12" fill="#24292f">⚫ 【10.20】Steam新品节打折：15…</text>
-<rect x="250" y="8461" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
-<line x1="10" y1="8512" x2="930" y2="8512" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="8498" r="3" fill="#8b5cf6"/>
-<text x="24" y="8502" font-size="12" fill="#24292f">⚫ 【10.20】Steam骨折价：169款…</text>
-<rect x="250" y="8489" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
-<line x1="10" y1="8540" x2="930" y2="8540" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="8526" r="3" fill="#8b5cf6"/>
-<text x="24" y="8530" font-size="12" fill="#24292f">⚫ 问问这个游戏怎么样啊。封面上这…</text>
-<rect x="250" y="8517" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
-<line x1="10" y1="8568" x2="930" y2="8568" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="8554" r="3" fill="#8b5cf6"/>
-<text x="24" y="8558" font-size="12" fill="#24292f">⚫ 这次你一定要入库！3A/独游等上…</text>
-<rect x="250" y="8545" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
-<line x1="10" y1="8596" x2="930" y2="8596" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="8582" r="3" fill="#8b5cf6"/>
-<text x="24" y="8586" font-size="12" fill="#24292f">⚫ 也是好久没给大家做折扣促销推荐…</text>
-<rect x="250" y="8573" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
-<line x1="10" y1="8624" x2="930" y2="8624" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
-<circle cx="14" cy="8610" r="3" fill="#8b5cf6"/>
-<text x="24" y="8614" font-size="12" fill="#24292f">⚫ 【10.20】凌晨迎来一波折扣！St…</text>
-<rect x="250" y="8601" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
-<rect x="250" y="8636" width="14" height="10" rx="2" fill="#f97316"/><text x="270" y="8645" font-size="10" fill="#24292f">AI / 云服务</text>
-<rect x="345" y="8636" width="14" height="10" rx="2" fill="#eab308"/><text x="365" y="8645" font-size="10" fill="#24292f">购物</text>
-<rect x="405" y="8636" width="14" height="10" rx="2" fill="#ec4899"/><text x="425" y="8645" font-size="10" fill="#24292f">视频会员</text>
-<rect x="480" y="8636" width="14" height="10" rx="2" fill="#f43f5e"/><text x="500" y="8645" font-size="10" fill="#24292f">网盘</text>
-<rect x="540" y="8636" width="14" height="10" rx="2" fill="#14b8a6"/><text x="560" y="8645" font-size="10" fill="#24292f">开车</text>
-<rect x="600" y="8636" width="14" height="10" rx="2" fill="#22c55e"/><text x="620" y="8645" font-size="10" fill="#24292f">游戏</text>
-<rect x="535" y="8636" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="8645" font-size="10" fill="#24292f">已结束</text>
-<rect x="625" y="8636" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="8645" font-size="10" fill="#24292f">未开始</text>
-<line x1="715" y1="8634" x2="715" y2="8648" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="8645" font-size="10" fill="#24292f">今天</text>
-<text x="20" y="8668" font-size="10" fill="#6e7681">另有 28 条活动缺少明确日期，未在时间轴显示（见下方表格）</text>
+<text x="24" y="8420" font-size="12" fill="#24292f">🟢 [Epic Game Store] Flotsam（…</text>
+<rect x="379.6774193548387" y="8407" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8407" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8419.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8458" x2="930" y2="8458" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8444" r="3" fill="#22c55e"/>
+<text x="24" y="8448" font-size="12" fill="#24292f">🟢 [itch.io] Kinstead（限免）</text>
+<rect x="379.6774193548387" y="8435" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8435" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8447.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8486" x2="930" y2="8486" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8472" r="3" fill="#22c55e"/>
+<text x="24" y="8476" font-size="12" fill="#24292f">🟢 [itch.io] Sapphire City（限…</text>
+<rect x="379.6774193548387" y="8463" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8463" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8475.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8514" x2="930" y2="8514" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8500" r="3" fill="#22c55e"/>
+<text x="24" y="8504" font-size="12" fill="#24292f">🟢 [itch.io] Project Threshold…</text>
+<rect x="379.6774193548387" y="8491" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8491" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8503.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8542" x2="930" y2="8542" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8528" r="3" fill="#22c55e"/>
+<text x="24" y="8532" font-size="12" fill="#24292f">🟢 [itch.io] Brok The Brawl Ba…</text>
+<rect x="379.6774193548387" y="8519" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8519" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8531.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8570" x2="930" y2="8570" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8556" r="3" fill="#22c55e"/>
+<text x="24" y="8560" font-size="12" fill="#24292f">🟢 [itch.io] The House Before…</text>
+<rect x="379.6774193548387" y="8547" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8547" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8559.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8598" x2="930" y2="8598" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8584" r="3" fill="#22c55e"/>
+<text x="24" y="8588" font-size="12" fill="#24292f">🟢 [itch.io] The Noise Inside…</text>
+<rect x="379.6774193548387" y="8575" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8575" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8587.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8626" x2="930" y2="8626" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8612" r="3" fill="#22c55e"/>
+<text x="24" y="8616" font-size="12" fill="#24292f">🟢 [Epic Games] (Game) GMH - G…</text>
+<rect x="379.6774193548387" y="8603" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8603" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8615.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8654" x2="930" y2="8654" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8640" r="3" fill="#22c55e"/>
+<text x="24" y="8644" font-size="12" fill="#24292f">🟢 [Epic Games] (Game) Flotsam…</text>
+<rect x="379.6774193548387" y="8631" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8631" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8643.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8682" x2="930" y2="8682" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8668" r="3" fill="#22c55e"/>
+<text x="24" y="8672" font-size="12" fill="#24292f">🟢 [Epic Games Mobile] (Game) …</text>
+<rect x="379.6774193548387" y="8659" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8659" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8671.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8710" x2="930" y2="8710" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8696" r="3" fill="#22c55e"/>
+<text x="24" y="8700" font-size="12" fill="#24292f">🟢 [PSA] Squirrel with a Gun (…</text>
+<rect x="379.6774193548387" y="8687" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8687" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8699.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8738" x2="930" y2="8738" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8724" r="3" fill="#22c55e"/>
+<text x="24" y="8728" font-size="12" fill="#24292f">🟢 [Epic Games] (Other) Idle C…</text>
+<rect x="379.6774193548387" y="8715" width="151.29032258064518" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="379.6774193548387" y="8715" width="18.911290322580648" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="455.32258064516134" y="8727.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="8766" x2="930" y2="8766" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8752" r="3" fill="#22c55e"/>
+<text x="24" y="8756" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
+<rect x="920" y="8743" width="2" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<rect x="10" y="8766" width="920" height="20" rx="4" fill="#8b5cf6" opacity="0.12"/>
+<text x="20" y="8780" font-size="13" font-weight="600" fill="#8b5cf6">游戏打折（6 条）</text>
+<line x1="10" y1="8820" x2="930" y2="8820" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8806" r="3" fill="#8b5cf6"/>
+<text x="24" y="8810" font-size="12" fill="#24292f">⚫ 【10.20】Steam新品节打折：15…</text>
+<rect x="250" y="8797" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
+<line x1="10" y1="8848" x2="930" y2="8848" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8834" r="3" fill="#8b5cf6"/>
+<text x="24" y="8838" font-size="12" fill="#24292f">⚫ 【10.20】Steam骨折价：169款…</text>
+<rect x="250" y="8825" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
+<line x1="10" y1="8876" x2="930" y2="8876" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8862" r="3" fill="#8b5cf6"/>
+<text x="24" y="8866" font-size="12" fill="#24292f">⚫ 问问这个游戏怎么样啊。封面上这…</text>
+<rect x="250" y="8853" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
+<line x1="10" y1="8904" x2="930" y2="8904" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8890" r="3" fill="#8b5cf6"/>
+<text x="24" y="8894" font-size="12" fill="#24292f">⚫ 这次你一定要入库！3A/独游等上…</text>
+<rect x="250" y="8881" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
+<line x1="10" y1="8932" x2="930" y2="8932" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8918" r="3" fill="#8b5cf6"/>
+<text x="24" y="8922" font-size="12" fill="#24292f">⚫ 也是好久没给大家做折扣促销推荐…</text>
+<rect x="250" y="8909" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
+<line x1="10" y1="8960" x2="930" y2="8960" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="8946" r="3" fill="#8b5cf6"/>
+<text x="24" y="8950" font-size="12" fill="#24292f">⚫ 【10.20】凌晨迎来一波折扣！St…</text>
+<rect x="250" y="8937" width="2" height="18" rx="4" fill="#8b5cf6" opacity="0.2975"/>
+<rect x="250" y="8972" width="14" height="10" rx="2" fill="#f97316"/><text x="270" y="8981" font-size="10" fill="#24292f">AI / 云服务</text>
+<rect x="345" y="8972" width="14" height="10" rx="2" fill="#eab308"/><text x="365" y="8981" font-size="10" fill="#24292f">购物</text>
+<rect x="405" y="8972" width="14" height="10" rx="2" fill="#ec4899"/><text x="425" y="8981" font-size="10" fill="#24292f">视频会员</text>
+<rect x="480" y="8972" width="14" height="10" rx="2" fill="#f43f5e"/><text x="500" y="8981" font-size="10" fill="#24292f">网盘</text>
+<rect x="540" y="8972" width="14" height="10" rx="2" fill="#14b8a6"/><text x="560" y="8981" font-size="10" fill="#24292f">开车</text>
+<rect x="600" y="8972" width="14" height="10" rx="2" fill="#22c55e"/><text x="620" y="8981" font-size="10" fill="#24292f">游戏</text>
+<rect x="535" y="8972" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="8981" font-size="10" fill="#24292f">已结束</text>
+<rect x="625" y="8972" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="8981" font-size="10" fill="#24292f">未开始</text>
+<line x1="715" y1="8970" x2="715" y2="8984" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="8981" font-size="10" fill="#24292f">今天</text>
+<text x="20" y="9004" font-size="10" fill="#6e7681">另有 30 条活动缺少明确日期，未在时间轴显示（见下方表格）</text>
 </svg>
