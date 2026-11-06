@@ -1,67 +1,5 @@
 [
   {
-    "id": "epic-sorry-we-re-closed-be392014b9",
-    "title": "Epic 免费游戏: 《Sorry We’re Closed》",
-    "category": "games",
-    "source_url": "https://www.appinn.com/eggs-261030/",
-    "claim_url": "https://store.epicgames.com/zh-CN/p/sorry-were-closed-724c86",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "Epic 喜加一（10.30~11.5）：《抱歉我们打烊了》单人生存恐怖游戏，好评如潮（98%好评）。支持中文。来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件",
-      "epic"
-    ],
-    "discovered_at": "2026-10-27T11:51:56.314613+08:00",
-    "last_seen": "2026-11-02",
-    "status": "ended"
-  },
-  {
-    "id": "epic-galaxy-kart-android-6117378607",
-    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》Android 版",
-    "category": "games",
-    "source_url": "https://www.appinn.com/eggs-261030/",
-    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-android-135821",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。Android 版。来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件",
-      "epic",
-      "android"
-    ],
-    "discovered_at": "2026-11-02T18:00:00+08:00",
-    "last_seen": "2026-11-02",
-    "status": "ended"
-  },
-  {
-    "id": "epic-galaxy-kart-ios-4588fad824",
-    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》iOS 版",
-    "category": "games",
-    "source_url": "https://www.appinn.com/eggs-261030/",
-    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-ios-0cfcc7",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。iOS 版。来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件",
-      "epic",
-      "ios"
-    ],
-    "discovered_at": "2026-11-02T18:00:00+08:00",
-    "last_seen": "2026-11-02",
-    "status": "ended"
-  },
-  {
     "id": "epic-game-store-sorry-we-re-c-790d8c9a76",
     "title": "[Epic Game Store] Sorry We're Closed（限免）",
     "category": "games",
@@ -134,7 +72,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -153,7 +91,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -438,7 +376,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -457,7 +395,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -682,7 +620,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -701,7 +639,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -720,7 +658,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -739,7 +677,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -758,7 +696,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -777,7 +715,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -796,7 +734,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -815,7 +753,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -834,7 +772,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -853,7 +791,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -872,7 +810,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -891,7 +829,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -948,7 +886,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1056,7 +994,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1075,7 +1013,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1094,7 +1032,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1132,7 +1070,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1170,7 +1108,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1189,7 +1127,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1208,7 +1146,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1227,7 +1165,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1246,7 +1184,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1265,7 +1203,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1303,7 +1241,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1322,7 +1260,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1341,7 +1279,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1398,7 +1336,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1417,7 +1355,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1436,7 +1374,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1455,7 +1393,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1474,7 +1412,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1493,7 +1431,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1512,7 +1450,235 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-flotsam-e6dade2ee3",
+    "title": "[Epic Game Store] Flotsam（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/flotsam/info/",
+    "claim_url": "https://isthereanydeal.com/game/flotsam/info/",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Flotsam",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-kinstead-702d2c50ca",
+    "title": "[itch.io] Kinstead（限免）",
+    "category": "games",
+    "source_url": "https://alindamian98.itch.io/kinstead",
+    "claim_url": "https://alindamian98.itch.io/kinstead",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Kinstead",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-sapphire-city-7788d2c1af",
+    "title": "[itch.io] Sapphire City（限免）",
+    "category": "games",
+    "source_url": "https://pehriska.itch.io/sapphire-city",
+    "claim_url": "https://pehriska.itch.io/sapphire-city",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Sapphire City",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-project-threshold-d721efebbc",
+    "title": "[itch.io] Project Threshold（限免）",
+    "category": "games",
+    "source_url": "https://murushii.itch.io/project-threshold",
+    "claim_url": "https://murushii.itch.io/project-threshold",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Project Threshold",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-brok-the-brawl-bar-a1a411bb39",
+    "title": "[itch.io] Brok The Brawl Bar（限免）",
+    "category": "games",
+    "source_url": "https://cowcat.itch.io/brok-the-brawl-bar",
+    "claim_url": "https://cowcat.itch.io/brok-the-brawl-bar",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Brok The Brawl Bar",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-the-house-before-70f5ca00f3",
+    "title": "[itch.io] The House Before（限免）",
+    "category": "games",
+    "source_url": "https://gabriel-helfenstein.itch.io/the-house-before",
+    "claim_url": "https://gabriel-helfenstein.itch.io/the-house-before",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: The House Before",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-the-noise-inside-971f60286a",
+    "title": "[itch.io] The Noise Inside（限免）",
+    "category": "games",
+    "source_url": "https://bubu07.itch.io/the-noise-inside",
+    "claim_url": "https://bubu07.itch.io/the-noise-inside",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: The Noise Inside",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "epic-games-game-gmh-good-morn-0cb1e5a3f5",
+    "title": "[Epic Games] (Game) GMH - Good Morning Human（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xox2xs/epic_games_game_gmh_good_morning_human/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xox2xs/epic_games_game_gmh_good_morning_human/",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "epic-games-game-flotsam-reddi-d769250900",
+    "title": "[Epic Games] (Game) Flotsam（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xomc0u/epic_games_game_flotsam/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xomc0u/epic_games_game_flotsam/",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "epic-games-mobile-game-chants-f029c5dc80",
+    "title": "[Epic Games Mobile] (Game) Chants of Sennaar（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xomz4o/epic_games_mobile_game_chants_of_sennaar/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xomz4o/epic_games_mobile_game_chants_of_sennaar/",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "psa-squirrel-with-a-gun-amazo-c8999c7231",
+    "title": "[PSA] Squirrel with a Gun (Amazon Games), WRC Generations (EGS) are complimentary with Amazon Prime（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xopll7/psa_squirrel_with_a_gun_amazon_games_wrc/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xopll7/psa_squirrel_with_a_gun_amazon_games_wrc/",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "epic-games-other-idle-champio-e5a47da259",
+    "title": "[Epic Games] (Other) Idle Champions of the Forgotten Realms - Morte’s Champions of Renown Pack（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xonxig/epic_games_other_idle_champions_of_the_forgotten/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xonxig/epic_games_other_idle_champions_of_the_forgotten/",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-13",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -1551,7 +1717,45 @@
       "games"
     ],
     "discovered_at": "2026-11-05T00:00:00.000000+08:00",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "lv-16-epic-epic-11-6-0-b6c3048533",
+    "title": "阐释你的梦集\n\nLv.16\nEpic喜加一，疯狂水世界启动！\nepic喜加一浮游世界11月6号0点免费领取盒友们速速上线领取去晚了，可没有高级庇护所住了游戏简介建造你的漂浮家园将海洋垃圾变成房屋、工坊",
+    "category": "games",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/196166158",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/196166158",
+    "start_date": "2026-11-06",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | games",
+    "tags": [
+      "小黑盒",
+      "games"
+    ],
+    "discovered_at": "2026-11-06T00:00:00.000000+08:00",
+    "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "stars-lv-20-epic-steam-n-epic-7d2526e680",
+    "title": "丙醇星stars\n\nLv.20\n喜加一！Epic喜加十八，Steam喜加N，入库永久保留，查缺补漏！\n省流：Epic喜加十八，Steam喜加N！还有十款免费精品游戏！喜加一别错过！入库永久保留，查缺补",
+    "category": "games",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/196189866",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/196189866",
+    "start_date": "2026-11-06",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | games",
+    "tags": [
+      "小黑盒",
+      "games"
+    ],
+    "discovered_at": "2026-11-06T00:00:00.000000+08:00",
+    "last_seen": "2026-11-06",
     "status": "active"
   },
   {
@@ -2090,7 +2294,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2147,7 +2351,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2166,7 +2370,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2337,7 +2541,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2375,7 +2579,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2470,7 +2674,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2565,7 +2769,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2679,7 +2883,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2698,7 +2902,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2888,7 +3092,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -2907,7 +3111,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -3424,7 +3628,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -3557,7 +3761,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -3766,7 +3970,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -4127,7 +4331,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -4184,7 +4388,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-28",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "status": "ended"
   },
   {
@@ -4356,6 +4560,68 @@
     ],
     "discovered_at": "2026-10-28",
     "last_seen": "2026-10-28",
+    "status": "ended"
+  },
+  {
+    "id": "epic-sorry-we-re-closed-be392014b9",
+    "title": "Epic 免费游戏: 《Sorry We’re Closed》",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/sorry-were-closed-724c86",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：《抱歉我们打烊了》单人生存恐怖游戏，好评如潮（98%好评）。支持中文。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic"
+    ],
+    "discovered_at": "2026-10-27T11:51:56.314613+08:00",
+    "last_seen": "2026-11-02",
+    "status": "ended"
+  },
+  {
+    "id": "epic-galaxy-kart-android-6117378607",
+    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》Android 版",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-android-135821",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。Android 版。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic",
+      "android"
+    ],
+    "discovered_at": "2026-11-02T18:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "ended"
+  },
+  {
+    "id": "epic-galaxy-kart-ios-4588fad824",
+    "title": "Epic 喜加一: 《银河卡丁车 / Galaxy Kart》iOS 版",
+    "category": "games",
+    "source_url": "https://www.appinn.com/eggs-261030/",
+    "claim_url": "https://store.epicgames.com/zh-CN/p/galaxy-kart-ios-0cfcc7",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "Epic 喜加一（10.30~11.5）：街机卡丁车竞速游戏，18条赛道、6项锦标赛、9名角色，支持6人在线竞速。iOS 版。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "epic",
+      "ios"
+    ],
+    "discovered_at": "2026-11-02T18:00:00+08:00",
+    "last_seen": "2026-11-02",
     "status": "ended"
   }
 ]
