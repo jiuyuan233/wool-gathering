@@ -1,93 +1,5 @@
 [
   {
-    "id": "cloudcone-50-5-1-2-55-cf1ade3da3",
-    "title": "CloudCone 再次开启50%赠送：充值 5.1 美元，送 2.55 美元",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/cloudcone-50p-26/",
-    "claim_url": "https://www.appinn.com/cloudcone-50p-26/",
-    "start_date": "2026-10-27",
-    "end_date": "2026-11-04",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-28",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 9,
-    "days_left": 0
-  },
-  {
-    "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
-    "title": "VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
-    "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-05",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-10-29",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 16,
-    "days_left": 0
-  },
-  {
-    "id": "zcode-1024-5-tokens-6e9fe0859e",
-    "title": "赛博领鸡蛋：智谱 ZCode 1024 程序员节免费送 5 亿 Tokens｜现在领，周末用。",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
-    "claim_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
-    "start_date": "2026-10-27",
-    "end_date": "2026-11-06",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-30",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 11,
-    "days_left": 0
-  },
-  {
-    "id": "wps-ai-vip-plus-5a8782e5e4",
-    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/wps-vip",
-    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-09",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
-    "status": "active",
-    "progress_pct": 90.9,
-    "total_days": 22,
-    "days_left": 2
-  },
-  {
     "id": "codex-1-a30d149305",
     "title": "复旦「学术版 Codex」客户端上线！送 1 万积分，还可领会员优惠",
     "category": "ai",
@@ -107,94 +19,6 @@
     "status": "active",
     "progress_pct": 90.9,
     "total_days": 22,
-    "days_left": 2
-  },
-  {
-    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
-    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/workbuddy.html",
-    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-09",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-02",
-    "status": "active",
-    "progress_pct": 90.0,
-    "total_days": 20,
-    "days_left": 2
-  },
-  {
-    "id": "b-plus-87eed4109c",
-    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-09",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-02",
-    "status": "active",
-    "progress_pct": 90.0,
-    "total_days": 20,
-    "days_left": 2
-  },
-  {
-    "id": "codex-1-8-79edcabe5f",
-    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-09",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-02",
-    "status": "active",
-    "progress_pct": 90.0,
-    "total_days": 20,
-    "days_left": 2
-  },
-  {
-    "id": "ai-vip-587de366e7",
-    "title": "为了低价续费会员，我用 AI 做了个 VIP 年卡降价监控提醒网站",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/news/6636",
-    "claim_url": "https://www.iplaysoft.com/news/6636",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-09",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-30",
-    "last_seen": "2026-11-02",
-    "status": "active",
-    "progress_pct": 81.8,
-    "total_days": 11,
     "days_left": 2
   },
   {
@@ -218,6 +42,160 @@
     "progress_pct": 85.7,
     "total_days": 21,
     "days_left": 3
+  },
+  {
+    "id": "wps-ai-vip-plus-5a8782e5e4",
+    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/wps-vip",
+    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-14",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 74.1,
+    "total_days": 27,
+    "days_left": 7
+  },
+  {
+    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
+    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/workbuddy.html",
+    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-14",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 72.0,
+    "total_days": 25,
+    "days_left": 7
+  },
+  {
+    "id": "b-plus-87eed4109c",
+    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-14",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 72.0,
+    "total_days": 25,
+    "days_left": 7
+  },
+  {
+    "id": "codex-1-8-79edcabe5f",
+    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
+    "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-14",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 72.0,
+    "total_days": 25,
+    "days_left": 7
+  },
+  {
+    "id": "ai-vip-587de366e7",
+    "title": "为了低价续费会员，我用 AI 做了个 VIP 年卡降价监控提醒网站",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/news/6636",
+    "claim_url": "https://www.iplaysoft.com/news/6636",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-14",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-30",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 56.2,
+    "total_days": 16,
+    "days_left": 7
+  },
+  {
+    "id": "icloud-85-2tb-123-765d0dd4d2",
+    "title": "刚需必入！苹果 iCloud+ 会员订阅 85 折优惠年卡 (2TB 空间/立省 123 元)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/icloud",
+    "claim_url": "https://www.iplaysoft.com/p/icloud",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-14",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-11-07",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "mac-andromeld-8-28-fda483200c",
+    "title": "Mac 端安卓设备管理工具 AndroMeld 限时 8 折，仅需 28 元起！",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/andromeld/",
+    "claim_url": "https://www.appinn.com/andromeld/",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-14",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-11-07",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
   },
   {
     "id": "cloud_21e1f5e207cc",
@@ -1157,6 +1135,28 @@
     "days_left": null
   },
   {
+    "id": "lv-15-ai-x999999999999-4801358c64",
+    "title": "纱雾雨\n\nLv.15\n网友把AI直播间刷出几千万亿，大肥鱼：我知道，能来我就很开心\n最近，由于大肥鱼插件的流行，有网友用大肥鱼开启了直播，但是观众发现弹幕打一串\"送出嘉年华x999999999999\"",
+    "category": "ai",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/196256237",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/196256237",
+    "start_date": "2026-11-07",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | ai",
+    "tags": [
+      "小黑盒",
+      "ai"
+    ],
+    "discovered_at": "2026-11-07T00:00:00.000000+08:00",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
     "id": "2-3-deepseek-ai-qq-deepseek-a-882bccf95d",
     "title": "你是否也想养一只属于自己大肥鱼，接下来我会教你仅需2-3元DeepSeek余额，即可搭建专属AI聊天机器人。一、准备工作- QQ小号- DeepSeek API密钥- 阿里云服务器新人账号二、步骤详解",
     "category": "ai",
@@ -1245,6 +1245,72 @@
     "days_left": 0
   },
   {
+    "id": "cloudcone-50-5-1-2-55-cf1ade3da3",
+    "title": "CloudCone 再次开启50%赠送：充值 5.1 美元，送 2.55 美元",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/cloudcone-50p-26/",
+    "claim_url": "https://www.appinn.com/cloudcone-50p-26/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-04",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-28",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 9,
+    "days_left": 0
+  },
+  {
+    "id": "vmware-workstation-pro-26h1u1-80f78bcc50",
+    "title": "VMware Workstation Pro 26H1u1 - 最新免费虚拟机软件专业版 (中文汉化版 / 免激活)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/vmware-workstation.html",
+    "claim_url": "https://www.iplaysoft.com/vmware-workstation.html",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-05",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-10-29",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 16,
+    "days_left": 0
+  },
+  {
+    "id": "zcode-1024-5-tokens-6e9fe0859e",
+    "title": "赛博领鸡蛋：智谱 ZCode 1024 程序员节免费送 5 亿 Tokens｜现在领，周末用。",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
+    "claim_url": "https://www.appinn.com/zcode-1024-free-500-million-tokens/",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-06",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-30",
+    "status": "ended",
+    "progress_pct": 100,
+    "total_days": 11,
+    "days_left": 0
+  },
+  {
     "id": "adobe-artcraft-ps-ae-pr-ai-e256bde94c",
     "title": "免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件",
     "category": "open-source",
@@ -1260,7 +1326,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1282,7 +1348,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1304,7 +1370,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1370,7 +1436,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1392,7 +1458,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1436,7 +1502,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1590,7 +1656,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-30",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -1689,6 +1755,50 @@
     "id": "7fa66aac2f44",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "root-546c7ff527",
+    "title": "安卓去广告神器！一键关闭国产手机系统全部内置广告 (开源 / 免 ROOT 刷机)",
+    "category": "open-source",
+    "source_url": "https://www.iplaysoft.com/android-ad-cleaner.html",
+    "claim_url": "https://www.iplaysoft.com/android-ad-cleaner.html",
+    "start_date": "2026-11-07",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-11-07",
+    "last_seen": "2026-11-07",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "mac-steamos-steamac-windows-82f21320ca",
+    "title": "Mac 也能装 SteamOS 了！开源工具 Steamac，让苹果电脑直接玩 Windows 游戏",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/steamac/",
+    "claim_url": "https://www.appinn.com/steamac/",
+    "start_date": "2026-11-07",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-11-07",
+    "last_seen": "2026-11-07",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
@@ -7385,28 +7495,6 @@
     "days_left": 0
   },
   {
-    "id": "11-8-5-0486c6d043",
-    "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
-    "category": "shopping",
-    "source_url": "https://www.appinn.com/lizhi-2610/",
-    "claim_url": "https://www.appinn.com/lizhi-2610/",
-    "start_date": "2026-10-27",
-    "end_date": "2026-11-03",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-27",
-    "status": "ended",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
     "id": "lv-17-10-27-68-galgame-4f626db50b",
     "title": "泫梦聿海\n\nLv.17\n【10.27特惠】最全捆绑包整理，68款galgame开启史低折扣！\n整理不易，感谢您的点赞和关注，谢谢点击有惊喜！注：本篇更多以推荐为主，可能有些常年不打折的，绝大部分都会打",
     "category": "shopping",
@@ -7541,6 +7629,30 @@
     "days_left": null
   },
   {
+    "id": "mac-mini-m6-national-subsidy-4902-04fe285a5e",
+    "title": "Mac mini M6 钙版国补后 ¥4902｜最佳 AI Agent 运行硬件",
+    "category": "shopping",
+    "source_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+    "claim_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+    "start_date": "2026-10-27",
+    "end_date": "",
+    "value": "国补后 ¥4902",
+    "requirements": [],
+    "description": "Mac mini M6 钙版，国补后价格 ¥4902，被称为最佳 AI Agent 运行硬件。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "团购",
+      "hardware"
+    ],
+    "discovered_at": "2026-10-27T00:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
     "id": "11-vip-edc5befef4",
     "title": "双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了…",
     "category": "shopping",
@@ -7556,7 +7668,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -7629,28 +7741,26 @@
     "days_left": 0
   },
   {
-    "id": "mac-mini-m6-national-subsidy-4902-04fe285a5e",
-    "title": "Mac mini M6 钙版国补后 ¥4902｜最佳 AI Agent 运行硬件",
+    "id": "11-8-5-0486c6d043",
+    "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
     "category": "shopping",
-    "source_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
-    "claim_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+    "source_url": "https://www.appinn.com/lizhi-2610/",
+    "claim_url": "https://www.appinn.com/lizhi-2610/",
     "start_date": "2026-10-27",
-    "end_date": "",
-    "value": "国补后 ¥4902",
+    "end_date": "2026-11-03",
+    "value": "",
     "requirements": [],
-    "description": "Mac mini M6 钙版，国补后价格 ¥4902，被称为最佳 AI Agent 运行硬件。来源: 小众软件",
+    "description": "来源: 小众软件",
     "tags": [
       "blog",
-      "小众软件",
-      "团购",
-      "hardware"
+      "小众软件"
     ],
-    "discovered_at": "2026-10-27T00:00:00+08:00",
-    "last_seen": "2026-11-02",
-    "status": "active",
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "ended",
     "progress_pct": 100,
-    "total_days": null,
-    "days_left": null
+    "total_days": 8,
+    "days_left": 0
   },
   {
     "id": "snail-lv-24-donk-bb-pgl-donk-a74d29114e",
@@ -7690,7 +7800,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -7712,7 +7822,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -7734,7 +7844,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
@@ -7756,7 +7866,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
