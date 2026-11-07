@@ -15,7 +15,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active"
   },
   {
@@ -34,7 +34,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active"
   },
   {
@@ -53,7 +53,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active"
   },
   {
@@ -110,7 +110,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active"
   },
   {
@@ -129,7 +129,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active"
   },
   {
@@ -167,7 +167,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active"
   },
   {
@@ -300,7 +300,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-30",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "active"
   },
   {
@@ -387,6 +387,44 @@
     "id": "7fa66aac2f44",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
+    "id": "root-546c7ff527",
+    "title": "安卓去广告神器！一键关闭国产手机系统全部内置广告 (开源 / 免 ROOT 刷机)",
+    "category": "open-source",
+    "source_url": "https://www.iplaysoft.com/android-ad-cleaner.html",
+    "claim_url": "https://www.iplaysoft.com/android-ad-cleaner.html",
+    "start_date": "2026-11-07",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-11-07",
+    "last_seen": "2026-11-07",
+    "status": "active"
+  },
+  {
+    "id": "mac-steamos-steamac-windows-82f21320ca",
+    "title": "Mac 也能装 SteamOS 了！开源工具 Steamac，让苹果电脑直接玩 Windows 游戏",
+    "category": "open-source",
+    "source_url": "https://www.appinn.com/steamac/",
+    "claim_url": "https://www.appinn.com/steamac/",
+    "start_date": "2026-11-07",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-11-07",
+    "last_seen": "2026-11-07",
     "status": "active"
   }
 ]

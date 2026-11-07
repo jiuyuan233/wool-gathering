@@ -1,24 +1,5 @@
 [
   {
-    "id": "11-8-5-0486c6d043",
-    "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
-    "category": "shopping",
-    "source_url": "https://www.appinn.com/lizhi-2610/",
-    "claim_url": "https://www.appinn.com/lizhi-2610/",
-    "start_date": "2026-10-27",
-    "end_date": "2026-11-03",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-27",
-    "last_seen": "2026-10-27",
-    "status": "ended"
-  },
-  {
     "id": "lv-17-10-27-68-galgame-4f626db50b",
     "title": "泫梦聿海\n\nLv.17\n【10.27特惠】最全捆绑包整理，68款galgame开启史低折扣！\n整理不易，感谢您的点赞和关注，谢谢点击有惊喜！注：本篇更多以推荐为主，可能有些常年不打折的，绝大部分都会打",
     "category": "shopping",
@@ -135,6 +116,27 @@
     "status": "active"
   },
   {
+    "id": "mac-mini-m6-national-subsidy-4902-04fe285a5e",
+    "title": "Mac mini M6 钙版国补后 ¥4902｜最佳 AI Agent 运行硬件",
+    "category": "shopping",
+    "source_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+    "claim_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+    "start_date": "2026-10-27",
+    "end_date": "",
+    "value": "国补后 ¥4902",
+    "requirements": [],
+    "description": "Mac mini M6 钙版，国补后价格 ¥4902，被称为最佳 AI Agent 运行硬件。来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件",
+      "团购",
+      "hardware"
+    ],
+    "discovered_at": "2026-10-27T00:00:00+08:00",
+    "last_seen": "2026-11-02",
+    "status": "active"
+  },
+  {
     "id": "11-vip-edc5befef4",
     "title": "双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了…",
     "category": "shopping",
@@ -150,7 +152,7 @@
       "异次元软件世界"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-07",
     "status": "ended"
   },
   {
@@ -211,24 +213,22 @@
     "status": "ended"
   },
   {
-    "id": "mac-mini-m6-national-subsidy-4902-04fe285a5e",
-    "title": "Mac mini M6 钙版国补后 ¥4902｜最佳 AI Agent 运行硬件",
+    "id": "11-8-5-0486c6d043",
+    "title": "别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起",
     "category": "shopping",
-    "source_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
-    "claim_url": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+    "source_url": "https://www.appinn.com/lizhi-2610/",
+    "claim_url": "https://www.appinn.com/lizhi-2610/",
     "start_date": "2026-10-27",
-    "end_date": "",
-    "value": "国补后 ¥4902",
+    "end_date": "2026-11-03",
+    "value": "",
     "requirements": [],
-    "description": "Mac mini M6 钙版，国补后价格 ¥4902，被称为最佳 AI Agent 运行硬件。来源: 小众软件",
+    "description": "来源: 小众软件",
     "tags": [
       "blog",
-      "小众软件",
-      "团购",
-      "hardware"
+      "小众软件"
     ],
-    "discovered_at": "2026-10-27T00:00:00+08:00",
-    "last_seen": "2026-11-02",
-    "status": "active"
+    "discovered_at": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "status": "ended"
   }
 ]
