@@ -38,101 +38,6 @@
     "status": "active"
   },
   {
-    "id": "wps-ai-vip-plus-5a8782e5e4",
-    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/wps-vip",
-    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-14",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-07",
-    "status": "active"
-  },
-  {
-    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
-    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/workbuddy.html",
-    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-14",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-07",
-    "status": "active"
-  },
-  {
-    "id": "b-plus-87eed4109c",
-    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-14",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-07",
-    "status": "active"
-  },
-  {
-    "id": "codex-1-8-79edcabe5f",
-    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-14",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-07",
-    "status": "active"
-  },
-  {
-    "id": "ai-vip-587de366e7",
-    "title": "为了低价续费会员，我用 AI 做了个 VIP 年卡降价监控提醒网站",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/news/6636",
-    "claim_url": "https://www.iplaysoft.com/news/6636",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-14",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-30",
-    "last_seen": "2026-11-07",
-    "status": "active"
-  },
-  {
     "id": "icloud-85-2tb-123-765d0dd4d2",
     "title": "刚需必入！苹果 iCloud+ 会员订阅 85 折优惠年卡 (2TB 空间/立省 123 元)",
     "category": "ai",
@@ -152,13 +57,108 @@
     "status": "active"
   },
   {
+    "id": "wps-ai-vip-plus-5a8782e5e4",
+    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/wps-vip",
+    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-15",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-19",
+    "last_seen": "2026-11-08",
+    "status": "active"
+  },
+  {
+    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
+    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/workbuddy.html",
+    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-15",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-08",
+    "status": "active"
+  },
+  {
+    "id": "b-plus-87eed4109c",
+    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-15",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-08",
+    "status": "active"
+  },
+  {
+    "id": "codex-1-8-79edcabe5f",
+    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
+    "category": "ai",
+    "source_url": "https://www.appinn.com/qiewenpaper-codex-2/",
+    "claim_url": "https://www.appinn.com/qiewenpaper-codex-2/",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-15",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 小众软件",
+    "tags": [
+      "blog",
+      "小众软件"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-08",
+    "status": "active"
+  },
+  {
+    "id": "ai-vip-587de366e7",
+    "title": "为了低价续费会员，我用 AI 做了个 VIP 年卡降价监控提醒网站",
+    "category": "ai",
+    "source_url": "https://www.iplaysoft.com/news/6636",
+    "claim_url": "https://www.iplaysoft.com/news/6636",
+    "start_date": "2026-10-30",
+    "end_date": "2026-11-15",
+    "value": "",
+    "requirements": [],
+    "description": "来源: 异次元软件世界",
+    "tags": [
+      "blog",
+      "异次元软件世界"
+    ],
+    "discovered_at": "2026-10-30",
+    "last_seen": "2026-11-08",
+    "status": "active"
+  },
+  {
     "id": "mac-andromeld-8-28-fda483200c",
     "title": "Mac 端安卓设备管理工具 AndroMeld 限时 8 折，仅需 28 元起！",
     "category": "ai",
     "source_url": "https://www.appinn.com/andromeld/",
     "claim_url": "https://www.appinn.com/andromeld/",
     "start_date": "2026-11-07",
-    "end_date": "2026-11-14",
+    "end_date": "2026-11-15",
     "value": "",
     "requirements": [],
     "description": "来源: 小众软件",
@@ -167,7 +167,7 @@
       "小众软件"
     ],
     "discovered_at": "2026-11-07",
-    "last_seen": "2026-11-07",
+    "last_seen": "2026-11-08",
     "status": "active"
   },
   {
