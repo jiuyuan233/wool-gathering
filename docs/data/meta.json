@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T22:37:38.929562+08:00",
-  "today": "2026-11-08",
+  "generated_at": "2026-11-09T00:48:40.985405+08:00",
+  "today": "2026-11-09",
   "repository": "jiuyuan233/wool-gathering",
   "total": 366,
   "by_category": {
@@ -18,15 +18,15 @@
     },
     "drive": {
       "total": 15,
-      "active": 5,
+      "active": 3,
       "upcoming": 0,
-      "ended": 10
+      "ended": 12
     },
     "games": {
       "total": 245,
-      "active": 93,
+      "active": 63,
       "upcoming": 1,
-      "ended": 151
+      "ended": 181
     },
     "shopping": {
       "total": 12,

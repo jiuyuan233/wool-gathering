@@ -16,7 +16,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-05",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "steam-asleep-ato-1-dc73a20acf",
@@ -35,7 +35,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "steam-hunting-simulator-3-cla-2a13e0bcbd",
@@ -54,7 +54,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-game-store-gladiator-bla-733e71de99",
@@ -73,7 +73,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-06",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-game-store-quiztopia-the-948a9e4a00",
@@ -92,7 +92,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-06",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-hotwax-3d900f079f",
@@ -111,7 +111,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-rogueslide-5d3adb67ca",
@@ -130,7 +130,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-poolscape-6d213c3788",
@@ -149,7 +149,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-lancer-tactics-2960626002",
@@ -168,7 +168,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-the-bagmans-curse-2e21861c92",
@@ -187,7 +187,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-new-meat-a05520c88c",
@@ -206,7 +206,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-islands-of-the-caliph-f36c99899e",
@@ -225,7 +225,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-jester-53d0008cc6",
@@ -244,7 +244,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-the-librarian-0ed02984ee",
@@ -263,7 +263,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-dicey-dungeons-22b7356427",
@@ -282,7 +282,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-tinylogic-6e114b21de",
@@ -301,7 +301,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "itch-io-roguecraft-dx-amiga-02524d88e7",
@@ -320,7 +320,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-games-game-gladiator-bla-9f2dddc530",
@@ -339,7 +339,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-games-game-quiztopia-the-e6418a0d7b",
@@ -358,7 +358,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "steam-game-asleep-act-1-reddi-aa3c386a50",
@@ -377,7 +377,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-06",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "gog-game-a-new-beginning-fina-5d05ae3837",
@@ -396,7 +396,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-06",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "indiegala-game-my-darkest-wit-9825dc608e",
@@ -415,7 +415,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-05",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "pc-xb-ps-switch-other-dead-by-c0cc89221b",
@@ -434,7 +434,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-05",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "steam-game-hexologic-reddit-f-ee1ca27ad3",
@@ -453,7 +453,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-05",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-games-game-sorry-we-re-c-52e5982104",
@@ -472,7 +472,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-05",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-games-mobile-game-galaxy-db65bfb844",
@@ -491,7 +491,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-05",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "psa-trash-goblin-egs-kiborg-a-d41cf914d2",
@@ -510,7 +510,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "steam-dlc-v-rising-sinister-e-cabe03bb50",
@@ -529,7 +529,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "steam-game-demonator-reddit-f-9e71586c78",
@@ -548,7 +548,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "steam-dlc-hunting-simulator-3-2236ff338f",
@@ -567,7 +567,7 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "epic-lisa-definitive-edition-0bdd07144d",
