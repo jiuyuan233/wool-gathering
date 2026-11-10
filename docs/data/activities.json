@@ -16,7 +16,7 @@
     ],
     "discovered_at": "2026-10-21",
     "last_seen": "2026-11-03",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 21,
     "days_left": 0
@@ -39,9 +39,9 @@
     "discovered_at": "2026-11-07",
     "last_seen": "2026-11-07",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "wps-ai-vip-plus-5a8782e5e4",
@@ -61,9 +61,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-11-09",
     "status": "active",
-    "progress_pct": 79.3,
+    "progress_pct": 82.8,
     "total_days": 29,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
@@ -83,9 +83,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-11-09",
     "status": "active",
-    "progress_pct": 77.8,
+    "progress_pct": 81.5,
     "total_days": 27,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "b-plus-87eed4109c",
@@ -105,9 +105,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-11-09",
     "status": "active",
-    "progress_pct": 77.8,
+    "progress_pct": 81.5,
     "total_days": 27,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "codex-1-8-79edcabe5f",
@@ -127,9 +127,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-11-09",
     "status": "active",
-    "progress_pct": 77.8,
+    "progress_pct": 81.5,
     "total_days": 27,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "ai-vip-587de366e7",
@@ -149,9 +149,9 @@
     "discovered_at": "2026-10-30",
     "last_seen": "2026-11-09",
     "status": "active",
-    "progress_pct": 66.7,
+    "progress_pct": 72.2,
     "total_days": 18,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "mac-andromeld-8-28-fda483200c",
@@ -171,9 +171,9 @@
     "discovered_at": "2026-11-07",
     "last_seen": "2026-11-09",
     "status": "active",
-    "progress_pct": 40.0,
+    "progress_pct": 50.0,
     "total_days": 10,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "cloud_21e1f5e207cc",
@@ -193,9 +193,9 @@
     "discovered_at": "2026-10-19T11:37:08.835788+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_b9088095b507",
@@ -215,9 +215,9 @@
     "discovered_at": "2026-10-19T11:37:12.559443+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_e75f23a2006f",
@@ -237,9 +237,9 @@
     "discovered_at": "2026-10-19T13:16:14.748266+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_4d4fd319df26",
@@ -259,9 +259,9 @@
     "discovered_at": "2026-10-19T13:16:15.804000+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_3dfb1407dfbe",
@@ -281,9 +281,9 @@
     "discovered_at": "2026-10-19T13:16:18.485054+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_5cfd79b201c8",
@@ -303,9 +303,9 @@
     "discovered_at": "2026-10-19T13:16:22.768559+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_8ff1ec8d1772",
@@ -325,9 +325,9 @@
     "status": "active",
     "discovered_at": "2026-10-19T16:30:00+08:00",
     "last_seen": "2026-11-10",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_a6638bd2c0cc",
@@ -347,9 +347,9 @@
     "discovered_at": "2026-10-19T16:46:02.531627+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_4b7a798bd85e",
@@ -369,9 +369,9 @@
     "discovered_at": "2026-10-19T16:46:04.603884+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_8a5fcce5d067",
@@ -391,9 +391,9 @@
     "discovered_at": "2026-10-19T16:46:06.353735+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "cloud_e9c81e3c3f4a",
@@ -413,9 +413,9 @@
     "discovered_at": "2026-10-19T16:46:07.791323+08:00",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 43.4,
+    "progress_pct": 45.3,
     "total_days": 53,
-    "days_left": 30
+    "days_left": 29
   },
   {
     "id": "ai-agent-5cecfcac",
@@ -437,9 +437,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-190f2c96",
@@ -460,9 +460,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-4c4a355f",
@@ -483,9 +483,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-cee2957f",
@@ -507,9 +507,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-b1a16b4d",
@@ -530,9 +530,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-43916e68",
@@ -552,9 +552,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-183e2d4d",
@@ -575,9 +575,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-bfdfe2d9",
@@ -599,9 +599,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-6013aa86",
@@ -623,9 +623,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 31.1,
+    "progress_pct": 32.4,
     "total_days": 74,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "ai-agent-cefaaa69",
@@ -646,9 +646,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 5.2,
+    "progress_pct": 5.5,
     "total_days": 439,
-    "days_left": 416
+    "days_left": 415
   },
   {
     "id": "ai-agent-1a83eebb",
@@ -670,9 +670,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 5.2,
+    "progress_pct": 5.5,
     "total_days": 439,
-    "days_left": 416
+    "days_left": 415
   },
   {
     "id": "ai-agent-e66621c6",
@@ -693,9 +693,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 5.2,
+    "progress_pct": 5.5,
     "total_days": 439,
-    "days_left": 416
+    "days_left": 415
   },
   {
     "id": "ai-agent-a983e290",
@@ -716,9 +716,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 5.2,
+    "progress_pct": 5.5,
     "total_days": 439,
-    "days_left": 416
+    "days_left": 415
   },
   {
     "id": "ai-agent-fac0be86",
@@ -739,9 +739,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 5.2,
+    "progress_pct": 5.5,
     "total_days": 439,
-    "days_left": 416
+    "days_left": 415
   },
   {
     "id": "ai-agent-af3a32c5",
@@ -763,9 +763,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 5.2,
+    "progress_pct": 5.5,
     "total_days": 439,
-    "days_left": 416
+    "days_left": 415
   },
   {
     "id": "zzzzzzzzzbv-lv-12-deepseek-qq-82106f31ac",
@@ -1953,7 +1953,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -1975,7 +1975,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -1997,7 +1997,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2148,7 +2148,7 @@
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082899+08:00",
     "last_seen": "2026-11-01",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 10,
     "days_left": 0
@@ -2170,7 +2170,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2192,7 +2192,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2214,7 +2214,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2236,7 +2236,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2258,7 +2258,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2280,7 +2280,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2302,7 +2302,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2324,7 +2324,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2346,7 +2346,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2368,7 +2368,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2390,7 +2390,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2412,7 +2412,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2434,7 +2434,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2456,7 +2456,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2478,7 +2478,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2500,7 +2500,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-06",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2522,7 +2522,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2544,7 +2544,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-05",
-    "status": "active",
+    "status": "ended",
     "progress_pct": 100,
     "total_days": 8,
     "days_left": 0
@@ -2564,9 +2564,9 @@
     "discovered_at": "2026-10-31T13:57:59.405705+08:00",
     "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "epic-fdfa30294b",
@@ -2583,9 +2583,9 @@
     "discovered_at": "2026-10-31T13:57:59.405860+08:00",
     "last_seen": "2026-11-01",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "epic-game-store-horse-racing-47c7e27932",
@@ -2605,9 +2605,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-05",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-gloom-break-2047e6706a",
@@ -2627,9 +2627,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-fix-her-pipes-51b38ba67c",
@@ -2649,9 +2649,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-3dnes-67f2728e68",
@@ -2671,9 +2671,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-bighead-d850cb820f",
@@ -2693,9 +2693,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-05",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-very-realistic-game-d-9019bb52c9",
@@ -2715,9 +2715,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-do-you-have-a-moment-67d828de82",
@@ -2737,9 +2737,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-05",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-pigeon-west-el-diablo-84a1708806",
@@ -2759,9 +2759,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-penance-4348897b3f",
@@ -2781,9 +2781,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-this-is-not-your-hous-e77090d37c",
@@ -2803,9 +2803,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-johnny-the-pigeon-f0dbaf7219",
@@ -2825,9 +2825,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-andromeda-six-star-cr-148f878e00",
@@ -2847,9 +2847,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-dispatches-1940-2a9267bcea",
@@ -2869,9 +2869,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-taguan-1e8c5205db",
@@ -2891,9 +2891,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-05",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-garbanzo-quest-3e73135eb5",
@@ -2913,9 +2913,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-jack-in-the-box-2da63f1866",
@@ -2935,9 +2935,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-beeswing-2d046e8647",
@@ -2957,9 +2957,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-canine-de4f78530b",
@@ -2979,9 +2979,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-05",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-at-sixes-and-sevens-189bd25f71",
@@ -3001,9 +3001,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-05",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "exiled-giveaways-and-itch-io-m-817c3c5993",
@@ -3023,9 +3023,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "steam-game-letter-quest-grimm-5ace5c937f",
@@ -3045,9 +3045,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "steam-game-one-must-fall-2197-838ce74334",
@@ -3067,9 +3067,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "steam-game-the-wild-eight-red-b96191b302",
@@ -3089,9 +3089,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "epic-games-game-yash-future-g-a57ac601c6",
@@ -3111,9 +3111,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "steam-game-last-gambit-reddit-55ff16b8b2",
@@ -3133,9 +3133,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "steam-game-cold-blooded-cube-6eba3a3559",
@@ -3155,9 +3155,9 @@
     "discovered_at": "2026-11-05",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "epic-game-store-flotsam-e6dade2ee3",
@@ -3177,9 +3177,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-kinstead-702d2c50ca",
@@ -3199,9 +3199,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-sapphire-city-7788d2c1af",
@@ -3221,9 +3221,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-project-threshold-d721efebbc",
@@ -3243,9 +3243,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-brok-the-brawl-bar-a1a411bb39",
@@ -3265,9 +3265,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-the-house-before-70f5ca00f3",
@@ -3287,9 +3287,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-the-noise-inside-971f60286a",
@@ -3309,9 +3309,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-06",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-games-game-gmh-good-morn-0cb1e5a3f5",
@@ -3331,9 +3331,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-games-game-flotsam-reddi-d769250900",
@@ -3353,9 +3353,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-games-mobile-game-chants-f029c5dc80",
@@ -3375,9 +3375,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "psa-squirrel-with-a-gun-amazo-c8999c7231",
@@ -3397,9 +3397,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-games-other-idle-champio-e5a47da259",
@@ -3419,9 +3419,9 @@
     "discovered_at": "2026-11-06",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-tower-of-gold-d7aad5a8c0",
@@ -3441,9 +3441,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-how-to-date-a-sleep-p-64cfdd50b6",
@@ -3463,9 +3463,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-seasonshift-d837f11072",
@@ -3485,9 +3485,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-votv-f261ceefc5",
@@ -3507,9 +3507,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-datingkillmulator-7900f2906c",
@@ -3529,9 +3529,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-guesthour-8bdf23acde",
@@ -3551,9 +3551,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-error143-0bdda4e80d",
@@ -3573,9 +3573,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-touchstarved-407d3f6e84",
@@ -3595,9 +3595,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-earth-regen-7d13d07430",
@@ -3617,9 +3617,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-to-eat-a-god-0c65485134",
@@ -3639,9 +3639,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-14dayswithyou-7ed7170037",
@@ -3661,9 +3661,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-the-freak-circus-72359aae4a",
@@ -3683,9 +3683,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-creepydates-972ad81f8a",
@@ -3705,9 +3705,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-bleeding-f5735b7e5c",
@@ -3727,9 +3727,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-ddlc-b185bbf53e",
@@ -3749,9 +3749,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-mushroom-oasis-12efff9a82",
@@ -3771,9 +3771,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-u-dont-get-it-8e66082aad",
@@ -3793,9 +3793,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-online-obsession-8ba34fffc9",
@@ -3815,9 +3815,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-mindustry-14eb20d23f",
@@ -3837,9 +3837,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-bigbaddogs-8ef50c9256",
@@ -3859,9 +3859,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-my-fiance-is-a-fiend-1fdb3ff227",
@@ -3881,9 +3881,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-dont-eat-the-cashier-03b85eb15d",
@@ -3903,9 +3903,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-kingdom-of-marionette-11d2d7f000",
@@ -3925,9 +3925,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-kritsana-4bd5622f37",
@@ -3947,9 +3947,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-martin-no-filter-figh-bdcc4b1bbe",
@@ -3969,9 +3969,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-dressmaker-599878da1b",
@@ -3991,9 +3991,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-roam-3621b76e4a",
@@ -4013,9 +4013,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-obsession-cec1e827d3",
@@ -4035,9 +4035,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-gravekeepers-assistan-f36df93412",
@@ -4057,9 +4057,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-lookouts-046b930541",
@@ -4079,9 +4079,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-our-life-2dcaafb7fd",
@@ -4101,9 +4101,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-knee-deep-e046305f7b",
@@ -4123,9 +4123,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-the-devils-in-the-det-b66746e057",
@@ -4145,9 +4145,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-behind-the-broadcast-0271ab22f4",
@@ -4167,9 +4167,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-our-life-nf-25744b38de",
@@ -4189,9 +4189,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "exiled-giveaways-and-itch-io-m-468bf53699",
@@ -4211,9 +4211,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "steam-game-freestyle-2-street-e78b2c34b0",
@@ -4233,9 +4233,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "steam-game-sadball-reddit-fre-056630c3fd",
@@ -4255,9 +4255,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "steam-game-demon-sighting-red-1355705246",
@@ -4277,9 +4277,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "steam-game-ammerow-lands-beyo-ac07527f00",
@@ -4299,9 +4299,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "steam-game-growtopia-reddit-f-96b2c798d0",
@@ -4321,9 +4321,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "steam-game-missile-input-redd-d7aaa8ca6b",
@@ -4343,9 +4343,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "steam-game-stickman-killing-z-2b453292c3",
@@ -4365,9 +4365,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "steam-game-sorcerer-adventure-d78ab4e714",
@@ -4387,9 +4387,9 @@
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "bug-lv-10-steam-steam-steam-10-fde4953f58",
@@ -4497,7 +4497,7 @@
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 29,
-    "days_left": 58
+    "days_left": 57
   },
   {
     "id": "epic-bad-cheese-f2e34f739e",

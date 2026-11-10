@@ -130,7 +130,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "11-10-d5617649d7",
@@ -149,7 +149,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "labex-linux-devops-c42ac9674c",
@@ -168,7 +168,7 @@
     ],
     "discovered_at": "2026-11-03",
     "last_seen": "2026-11-03",
-    "status": "active"
+    "status": "ended"
   },
   {
     "id": "10-c119209b24",
