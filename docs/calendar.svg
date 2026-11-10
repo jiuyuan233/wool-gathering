@@ -104,69 +104,69 @@
 <line x1="10" y1="572" x2="930" y2="572" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="558" r="3" fill="#f97316"/>
 <text x="24" y="562" font-size="12" fill="#24292f">🟢 华为云·免费试用</text>
-<rect x="250" y="549" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="549" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="561.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="549" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="549" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="561.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="600" x2="930" y2="600" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="586" r="3" fill="#f97316"/>
 <text x="24" y="590" font-size="12" fill="#24292f">🟢 阿里云·免费试用</text>
-<rect x="250" y="577" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="577" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="589.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="577" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="577" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="589.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="628" x2="930" y2="628" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="614" r="3" fill="#f97316"/>
 <text x="24" y="618" font-size="12" fill="#24292f">🟢 华为云·老用户权益</text>
-<rect x="250" y="605" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="605" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="617.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="605" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="605" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="617.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="656" x2="930" y2="656" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="642" r="3" fill="#f97316"/>
 <text x="24" y="646" font-size="12" fill="#24292f">🟢 华为云·组合购</text>
-<rect x="250" y="633" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="633" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="645.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="633" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="633" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="645.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="684" x2="930" y2="684" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="670" r="3" fill="#f97316"/>
 <text x="24" y="674" font-size="12" fill="#24292f">🟢 阿里云·高校计划</text>
-<rect x="250" y="661" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="661" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="673.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="661" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="661" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="673.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="712" x2="930" y2="712" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="698" r="3" fill="#f97316"/>
 <text x="24" y="702" font-size="12" fill="#24292f">🟢 阿里云·新人特惠</text>
-<rect x="250" y="689" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="689" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="701.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="689" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="689" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="701.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="740" x2="930" y2="740" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="726" r="3" fill="#f97316"/>
 <text x="24" y="730" font-size="12" fill="#24292f">🟢 腾讯·WorkBuddy AI办公</text>
-<rect x="250" y="717" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="717" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="729.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="717" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="717" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="729.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="768" x2="930" y2="768" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="754" r="3" fill="#f97316"/>
 <text x="24" y="758" font-size="12" fill="#24292f">🟢 腾讯云·大促代金券</text>
-<rect x="250" y="745" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="745" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="757.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="745" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="745" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="757.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="796" x2="930" y2="796" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="782" r="3" fill="#f97316"/>
 <text x="24" y="786" font-size="12" fill="#24292f">🟢 腾讯云·校园计划</text>
-<rect x="250" y="773" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="773" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="785.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="773" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="773" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="785.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="824" x2="930" y2="824" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="810" r="3" fill="#f97316"/>
 <text x="24" y="814" font-size="12" fill="#24292f">🟢 腾讯云·免费体验</text>
-<rect x="250" y="801" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="801" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="813.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="801" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="801" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="813.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="852" x2="930" y2="852" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="838" r="3" fill="#f97316"/>
 <text x="24" y="842" font-size="12" fill="#24292f">🟢 腾讯云·开发者</text>
-<rect x="250" y="829" width="670.0" height="18" rx="4" fill="#f97316" opacity="0.85"/>
-<rect x="250" y="829" width="350.41" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="585.0" y="841.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 21 天</text>
+<rect x="250" y="829" width="670" height="18" rx="4" fill="#f97316" opacity="0.85"/>
+<rect x="250" y="829" width="290.78" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="841.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 30 天</text>
 <line x1="10" y1="880" x2="930" y2="880" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="866" r="3" fill="#f97316"/>
 <text x="24" y="870" font-size="12" fill="#24292f">🟢 阿里百炼·通义千问新用户免费额…</text>
