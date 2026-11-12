@@ -1,363 +1,5 @@
 [
   {
-    "id": "epic-lisa-definitive-edition-0bdd07144d",
-    "title": "Epic 免费游戏: 《LISA: Definitive Edition》 ｜LISA：决定版",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-11-01",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-11-01 ~ 2026-11-10",
-    "tags": [],
-    "discovered_at": "2026-10-19T11:17:11.082899+08:00",
-    "last_seen": "2026-11-01",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-gladiator-bla-2efd4251e2",
-    "title": "[Epic Game Store] Gladiator: Blades of Fury（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/gladiator-blades-of-fury/info/",
-    "claim_url": "https://isthereanydeal.com/game/gladiator-blades-of-fury/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: Gladiator: Blades of Fury",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-03",
-    "status": "ended"
-  },
-  {
-    "id": "steam-hunting-simulator-3-cla-2edaf08a8c",
-    "title": "[Steam] hunting-simulator-3-classic-american-hunter-pack（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/hunting-simulator-3-classic-american-hunter-pack/info/",
-    "claim_url": "https://isthereanydeal.com/game/hunting-simulator-3-classic-american-hunter-pack/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Steam 100% off 限免: hunting-simulator-3-classic-american-hunter-pack",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-epic-world-hu-48f8ab9280",
-    "title": "[Epic Game Store] epic-world-hunt-for-quest（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/epic-world-hunt-for-quest/info/",
-    "claim_url": "https://isthereanydeal.com/game/epic-world-hunt-for-quest/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: epic-world-hunt-for-quest",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-highway-drivi-3c0b8c01da",
-    "title": "[Epic Game Store] highway-driving（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/highway-driving/info/",
-    "claim_url": "https://isthereanydeal.com/game/highway-driving/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: highway-driving",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-maze-the-amaz-d6809df805",
-    "title": "[Epic Game Store] maze-the-amazing-labyrinth（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/maze-the-amazing-labyrinth/info/",
-    "claim_url": "https://isthereanydeal.com/game/maze-the-amazing-labyrinth/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: maze-the-amazing-labyrinth",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-dark-mystery-70be16bae8",
-    "title": "[Epic Game Store] dark-mystery（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/dark-mystery/info/",
-    "claim_url": "https://isthereanydeal.com/game/dark-mystery/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: dark-mystery",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-balloon-strik-216289c9e6",
-    "title": "[Epic Game Store] balloon-strike（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/balloon-strike/info/",
-    "claim_url": "https://isthereanydeal.com/game/balloon-strike/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: balloon-strike",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-super-kids-ra-58f0fd4191",
-    "title": "[Epic Game Store] super-kids-racing-mini-edition（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/super-kids-racing-mini-edition/info/",
-    "claim_url": "https://isthereanydeal.com/game/super-kids-racing-mini-edition/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: super-kids-racing-mini-edition",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-math-fun-8071f78fdd",
-    "title": "[Epic Game Store] math-fun（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/math-fun/info/",
-    "claim_url": "https://isthereanydeal.com/game/math-fun/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: math-fun",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-funtoons-worl-91b8786194",
-    "title": "[Epic Game Store] funtoons-world（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/funtoons-world/info/",
-    "claim_url": "https://isthereanydeal.com/game/funtoons-world/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: funtoons-world",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-mountain-raci-ae24853369",
-    "title": "[Epic Game Store] mountain-racing（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/mountain-racing/info/",
-    "claim_url": "https://isthereanydeal.com/game/mountain-racing/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: mountain-racing",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "epic-game-store-horror-advent-6bef9067da",
-    "title": "[Epic Game Store] horror-adventure（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/horror-adventure/info/",
-    "claim_url": "https://isthereanydeal.com/game/horror-adventure/info/",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: horror-adventure",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "itch-io-deferral-5478e2ff81",
-    "title": "[itch.io] Deferral（限免）",
-    "category": "games",
-    "source_url": "https://serhiy-andreiev.itch.io/deferral",
-    "claim_url": "https://serhiy-andreiev.itch.io/deferral",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Deferral",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "itch-io-slasher-circus-128c209c52",
-    "title": "[itch.io] Slasher Circus（限免）",
-    "category": "games",
-    "source_url": "https://redwolfstudios-deg.itch.io/slasher-circus",
-    "claim_url": "https://redwolfstudios-deg.itch.io/slasher-circus",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Slasher Circus",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-03",
-    "status": "ended"
-  },
-  {
-    "id": "itch-io-requiem-station-089ac368e4",
-    "title": "[itch.io] Requiem Station（限免）",
-    "category": "games",
-    "source_url": "https://batpan-games.itch.io/requiem-station",
-    "claim_url": "https://batpan-games.itch.io/requiem-station",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Requiem Station",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-03",
-    "status": "ended"
-  },
-  {
-    "id": "itch-io-syntaxia-96d80e2e0c",
-    "title": "[itch.io] Syntaxia（限免）",
-    "category": "games",
-    "source_url": "https://spelkollektivet.itch.io/syntaxia",
-    "claim_url": "https://spelkollektivet.itch.io/syntaxia",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Syntaxia",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-06",
-    "status": "ended"
-  },
-  {
-    "id": "itch-io-golf-peaks-4a739cec5c",
-    "title": "[itch.io] Golf Peaks（限免）",
-    "category": "games",
-    "source_url": "https://afterburn.itch.io/golf-peaks",
-    "claim_url": "https://afterburn.itch.io/golf-peaks",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Golf Peaks",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-03",
-    "status": "ended"
-  },
-  {
-    "id": "itch-io-cthon-600099024a",
-    "title": "[itch.io] Cthon（限免）",
-    "category": "games",
-    "source_url": "https://gravitygames.itch.io/cthon",
-    "claim_url": "https://gravitygames.itch.io/cthon",
-    "start_date": "2026-11-03",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Cthon",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-03",
-    "last_seen": "2026-11-05",
-    "status": "ended"
-  },
-  {
     "id": "epic-idle-champions-of-the-for-e9da2a541b",
     "title": "Epic 免费游戏: 《Idle Champions of the Forgotten Realms》",
     "category": "games",
@@ -443,7 +85,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -538,7 +180,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -557,7 +199,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -595,7 +237,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-05",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -899,7 +541,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -937,7 +579,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -975,7 +617,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -994,7 +636,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1013,7 +655,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1032,7 +674,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1051,7 +693,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1070,7 +712,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1089,7 +731,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-06",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1792,7 +1434,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1811,7 +1453,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1830,7 +1472,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1849,7 +1491,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1868,7 +1510,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1887,7 +1529,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1906,7 +1548,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1925,7 +1567,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -1945,6 +1587,348 @@
     ],
     "discovered_at": "2026-11-10",
     "last_seen": "2026-11-10",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-goodboy-galaxy-gba-94b1370b76",
+    "title": "[itch.io] Goodboy Galaxy Gba（限免）",
+    "category": "games",
+    "source_url": "https://goodboygalaxy.itch.io/goodboy-galaxy-gba",
+    "claim_url": "https://goodboygalaxy.itch.io/goodboy-galaxy-gba",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Goodboy Galaxy Gba",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-imperial-grace-45baee0d71",
+    "title": "[itch.io] Imperial Grace（限免）",
+    "category": "games",
+    "source_url": "https://abiding-bridge.itch.io/imperial-grace",
+    "claim_url": "https://abiding-bridge.itch.io/imperial-grace",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Imperial Grace",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-backrooms-crawlers-71dbf303c6",
+    "title": "[itch.io] Backrooms Crawlers（限免）",
+    "category": "games",
+    "source_url": "https://worsteventgames.itch.io/backrooms-crawlers",
+    "claim_url": "https://worsteventgames.itch.io/backrooms-crawlers",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Backrooms Crawlers",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-the-last-laugh-db38619b64",
+    "title": "[itch.io] The Last Laugh（限免）",
+    "category": "games",
+    "source_url": "https://ji10-games.itch.io/the-last-laugh",
+    "claim_url": "https://ji10-games.itch.io/the-last-laugh",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: The Last Laugh",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-boxroom-01b1ec81a5",
+    "title": "[itch.io] Boxroom（限免）",
+    "category": "games",
+    "source_url": "https://pantaloon-io.itch.io/boxroom",
+    "claim_url": "https://pantaloon-io.itch.io/boxroom",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Boxroom",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-one-night-stand-0f91dffe3d",
+    "title": "[itch.io] One Night Stand（限免）",
+    "category": "games",
+    "source_url": "https://kinmoku.itch.io/one-night-stand",
+    "claim_url": "https://kinmoku.itch.io/one-night-stand",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: One Night Stand",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-lock-and-key-12fa41fa1e",
+    "title": "[itch.io] Lock And Key（限免）",
+    "category": "games",
+    "source_url": "https://vnstudioelan.itch.io/lock-and-key",
+    "claim_url": "https://vnstudioelan.itch.io/lock-and-key",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Lock And Key",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-its-not-human-2d26b6deb4",
+    "title": "[itch.io] Its Not Human（限免）",
+    "category": "games",
+    "source_url": "https://deeplookgames.itch.io/its-not-human",
+    "claim_url": "https://deeplookgames.itch.io/its-not-human",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Its Not Human",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-dont-fix-her-pipes-396d7fcf8f",
+    "title": "[itch.io] Dont Fix Her Pipes（限免）",
+    "category": "games",
+    "source_url": "https://deeplookgames.itch.io/dont-fix-her-pipes",
+    "claim_url": "https://deeplookgames.itch.io/dont-fix-her-pipes",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dont Fix Her Pipes",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-christmas-in-our-fear-b2d90f2a2f",
+    "title": "[itch.io] Christmas In Our Fears Extended Version（限免）",
+    "category": "games",
+    "source_url": "https://murushii.itch.io/christmas-in-our-fears-extended-version",
+    "claim_url": "https://murushii.itch.io/christmas-in-our-fears-extended-version",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Christmas In Our Fears Extended Version",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-bloodwash-f63bb3e4bc",
+    "title": "[itch.io] Bloodwash（限免）",
+    "category": "games",
+    "source_url": "https://torturestar.itch.io/bloodwash",
+    "claim_url": "https://torturestar.itch.io/bloodwash",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Bloodwash",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-fox-stamps-8163e92f94",
+    "title": "[itch.io] Fox Stamps（限免）",
+    "category": "games",
+    "source_url": "https://cyansorcery.itch.io/fox-stamps",
+    "claim_url": "https://cyansorcery.itch.io/fox-stamps",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Fox Stamps",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-kill-the-creator-9b8845d084",
+    "title": "[itch.io] Kill The Creator（限免）",
+    "category": "games",
+    "source_url": "https://deeplookgames.itch.io/kill-the-creator",
+    "claim_url": "https://deeplookgames.itch.io/kill-the-creator",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Kill The Creator",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-afterparty-16ba68c002",
+    "title": "[itch.io] Afterparty（限免）",
+    "category": "games",
+    "source_url": "https://aylalooner.itch.io/afterparty",
+    "claim_url": "https://aylalooner.itch.io/afterparty",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Afterparty",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-ghostsn-demons-229bafa9d3",
+    "title": "[itch.io] Ghostsn Demons（限免）",
+    "category": "games",
+    "source_url": "https://bonusjz.itch.io/ghostsn-demons",
+    "claim_url": "https://bonusjz.itch.io/ghostsn-demons",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Ghostsn Demons",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-lord-of-chaos-798434378a",
+    "title": "[itch.io] Lord Of Chaos（限免）",
+    "category": "games",
+    "source_url": "https://hexnut-studios.itch.io/lord-of-chaos",
+    "claim_url": "https://hexnut-studios.itch.io/lord-of-chaos",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Lord Of Chaos",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "steam-game-mail-mole-reddit-f-02cb813722",
+    "title": "[Steam] (Game) Mail Mole（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xtlgom/steam_game_mail_mole/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xtlgom/steam_game_mail_mole/",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "steam-game-the-spell-brigade-c2f250218f",
+    "title": "[Steam] (Game) The Spell Brigade（Reddit-FreeGameFindings）",
+    "category": "games",
+    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xsty3q/steam_game_the_spell_brigade/",
+    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xsty3q/steam_game_the_spell_brigade/",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "来源: Reddit-FreeGameFindings",
+    "tags": [
+      "blog",
+      "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-12",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -2022,6 +2006,44 @@
     ],
     "discovered_at": "2026-11-06T00:00:00.000000+08:00",
     "last_seen": "2026-11-06",
+    "status": "active"
+  },
+  {
+    "id": "lv-11-steam-steam-04a36f46e6",
+    "title": "知许。\n\nLv.11\n背刺拉满！Steam新一轮史低疯跌，闭眼入不亏\n懂的都懂，Steam玩家最大的痛就是原价入手转头就被背刺。这次我筛了一批实打实的史低游戏，没有凑数，也不玩虚标折扣那套。想买的先别",
+    "category": "games",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/196692736",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/196692736",
+    "start_date": "2026-11-12",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | games",
+    "tags": [
+      "小黑盒",
+      "games"
+    ],
+    "discovered_at": "2026-11-12T00:00:00.000000+08:00",
+    "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "stars-lv-20-epic-steam-n-epic-e1bb33f4a3",
+    "title": "丙醇星stars\n\nLv.20\n仅剩一天！Epic喜加四，Steam喜加N，极限入库喜加一！\n省流：Epic喜加四，Steam喜加N！还有十款免费精品游戏！喜加一别错过！入库永久保留，查缺补漏！建议收",
+    "category": "games",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/196693545",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/196693545",
+    "start_date": "2026-11-12",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | games",
+    "tags": [
+      "小黑盒",
+      "games"
+    ],
+    "discovered_at": "2026-11-12T00:00:00.000000+08:00",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
@@ -2560,7 +2582,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -2617,7 +2639,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -2712,7 +2734,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -2845,7 +2867,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -2940,7 +2962,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -2997,7 +3019,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -3035,7 +3057,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -3073,7 +3095,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -3149,7 +3171,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -3168,7 +3190,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -3377,7 +3399,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -3894,7 +3916,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -4236,7 +4258,7 @@
       "Reddit-FreeGameFindings"
     ],
     "discovered_at": "2026-10-27",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -4944,7 +4966,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-01",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-12",
     "status": "ended"
   },
   {
@@ -5458,6 +5480,364 @@
     ],
     "discovered_at": "2026-11-01",
     "last_seen": "2026-11-01",
+    "status": "ended"
+  },
+  {
+    "id": "epic-lisa-definitive-edition-0bdd07144d",
+    "title": "Epic 免费游戏: 《LISA: Definitive Edition》 ｜LISA：决定版",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-01 ~ 2026-11-10",
+    "tags": [],
+    "discovered_at": "2026-10-19T11:17:11.082899+08:00",
+    "last_seen": "2026-11-01",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-gladiator-bla-2efd4251e2",
+    "title": "[Epic Game Store] Gladiator: Blades of Fury（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/gladiator-blades-of-fury/info/",
+    "claim_url": "https://isthereanydeal.com/game/gladiator-blades-of-fury/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: Gladiator: Blades of Fury",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "ended"
+  },
+  {
+    "id": "steam-hunting-simulator-3-cla-2edaf08a8c",
+    "title": "[Steam] hunting-simulator-3-classic-american-hunter-pack（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/hunting-simulator-3-classic-american-hunter-pack/info/",
+    "claim_url": "https://isthereanydeal.com/game/hunting-simulator-3-classic-american-hunter-pack/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Steam 100% off 限免: hunting-simulator-3-classic-american-hunter-pack",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-epic-world-hu-48f8ab9280",
+    "title": "[Epic Game Store] epic-world-hunt-for-quest（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/epic-world-hunt-for-quest/info/",
+    "claim_url": "https://isthereanydeal.com/game/epic-world-hunt-for-quest/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: epic-world-hunt-for-quest",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-highway-drivi-3c0b8c01da",
+    "title": "[Epic Game Store] highway-driving（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/highway-driving/info/",
+    "claim_url": "https://isthereanydeal.com/game/highway-driving/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: highway-driving",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-maze-the-amaz-d6809df805",
+    "title": "[Epic Game Store] maze-the-amazing-labyrinth（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/maze-the-amazing-labyrinth/info/",
+    "claim_url": "https://isthereanydeal.com/game/maze-the-amazing-labyrinth/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: maze-the-amazing-labyrinth",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-dark-mystery-70be16bae8",
+    "title": "[Epic Game Store] dark-mystery（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/dark-mystery/info/",
+    "claim_url": "https://isthereanydeal.com/game/dark-mystery/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: dark-mystery",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-balloon-strik-216289c9e6",
+    "title": "[Epic Game Store] balloon-strike（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/balloon-strike/info/",
+    "claim_url": "https://isthereanydeal.com/game/balloon-strike/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: balloon-strike",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-super-kids-ra-58f0fd4191",
+    "title": "[Epic Game Store] super-kids-racing-mini-edition（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/super-kids-racing-mini-edition/info/",
+    "claim_url": "https://isthereanydeal.com/game/super-kids-racing-mini-edition/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: super-kids-racing-mini-edition",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-math-fun-8071f78fdd",
+    "title": "[Epic Game Store] math-fun（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/math-fun/info/",
+    "claim_url": "https://isthereanydeal.com/game/math-fun/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: math-fun",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-funtoons-worl-91b8786194",
+    "title": "[Epic Game Store] funtoons-world（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/funtoons-world/info/",
+    "claim_url": "https://isthereanydeal.com/game/funtoons-world/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: funtoons-world",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-mountain-raci-ae24853369",
+    "title": "[Epic Game Store] mountain-racing（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/mountain-racing/info/",
+    "claim_url": "https://isthereanydeal.com/game/mountain-racing/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: mountain-racing",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "epic-game-store-horror-advent-6bef9067da",
+    "title": "[Epic Game Store] horror-adventure（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/horror-adventure/info/",
+    "claim_url": "https://isthereanydeal.com/game/horror-adventure/info/",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: horror-adventure",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-deferral-5478e2ff81",
+    "title": "[itch.io] Deferral（限免）",
+    "category": "games",
+    "source_url": "https://serhiy-andreiev.itch.io/deferral",
+    "claim_url": "https://serhiy-andreiev.itch.io/deferral",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Deferral",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-slasher-circus-128c209c52",
+    "title": "[itch.io] Slasher Circus（限免）",
+    "category": "games",
+    "source_url": "https://redwolfstudios-deg.itch.io/slasher-circus",
+    "claim_url": "https://redwolfstudios-deg.itch.io/slasher-circus",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Slasher Circus",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-requiem-station-089ac368e4",
+    "title": "[itch.io] Requiem Station（限免）",
+    "category": "games",
+    "source_url": "https://batpan-games.itch.io/requiem-station",
+    "claim_url": "https://batpan-games.itch.io/requiem-station",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Requiem Station",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-syntaxia-96d80e2e0c",
+    "title": "[itch.io] Syntaxia（限免）",
+    "category": "games",
+    "source_url": "https://spelkollektivet.itch.io/syntaxia",
+    "claim_url": "https://spelkollektivet.itch.io/syntaxia",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Syntaxia",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-06",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-golf-peaks-4a739cec5c",
+    "title": "[itch.io] Golf Peaks（限免）",
+    "category": "games",
+    "source_url": "https://afterburn.itch.io/golf-peaks",
+    "claim_url": "https://afterburn.itch.io/golf-peaks",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Golf Peaks",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-cthon-600099024a",
+    "title": "[itch.io] Cthon（限免）",
+    "category": "games",
+    "source_url": "https://gravitygames.itch.io/cthon",
+    "claim_url": "https://gravitygames.itch.io/cthon",
+    "start_date": "2026-11-03",
+    "end_date": "2026-11-10",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Cthon",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-03",
+    "last_seen": "2026-11-05",
     "status": "ended"
   }
 ]
