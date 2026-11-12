@@ -1,24 +1,5 @@
 [
   {
-    "id": "11-e06ae154ad",
-    "title": "双 11 腾讯云和阿里云有没有活动啊？",
-    "category": "ai",
-    "source_url": "https://www.v2ex.com/t/1250393",
-    "claim_url": "https://www.v2ex.com/t/1250393",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-10",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-cloud",
-    "tags": [
-      "blog",
-      "V2EX-cloud"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-03",
-    "status": "ended"
-  },
-  {
     "id": "icloud-85-2tb-123-765d0dd4d2",
     "title": "刚需必入！苹果 iCloud+ 会员订阅 85 折优惠年卡 (2TB 空间/立省 123 元)",
     "category": "ai",
@@ -149,6 +130,25 @@
     ],
     "discovered_at": "2026-11-07",
     "last_seen": "2026-11-09",
+    "status": "active"
+  },
+  {
+    "id": "11-e06ae154ad",
+    "title": "双 11 腾讯云和阿里云有没有活动啊？",
+    "category": "ai",
+    "source_url": "https://www.v2ex.com/t/1250393",
+    "claim_url": "https://www.v2ex.com/t/1250393",
+    "start_date": "2026-10-21",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-cloud",
+    "tags": [
+      "blog",
+      "V2EX-cloud"
+    ],
+    "discovered_at": "2026-10-21",
+    "last_seen": "2026-11-12",
     "status": "active"
   },
   {
