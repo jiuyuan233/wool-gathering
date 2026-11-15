@@ -1,11 +1,12 @@
 """主收集脚本：Action 入口。
 
-不依赖 AI 中转站，用 Reddit JSON API 直接拿结构化数据。
+抓取主链路是关键词规则解析（blog/cloud/direct collector），不依赖 AI；
+AI 仅用于 PENDING_URLS.md 自然语言条目的理解（见 _process_natural_language）。
 
 设计原则：
 - 不同板块分时间段请求，不要频繁请求
 - 每次只更新一个类别，标注更新时间
-- 每天晚上全部整理一下（生成 SVG + README）
+- finalize 阶段整理：处理 PENDING_URLS + 归档过期活动 + 生成 SVG + README
 
 用法：
   python collect.py ai         # 只处理 AI 类（含 open-source 分流）= ai-cloud + ai-blog
@@ -624,7 +625,7 @@ def main() -> int:
             rc = process_category(m)
         else:
             log(f"未知模式: {m}，可用: ai / ai-cloud / ai-blog / open-source / drive / "
-                f"games / games-direct / games-blog / finalize / all")
+                f"games / games-direct / games-blog / game-discount / finalize / all")
             return 1
         if rc != 0:
             return rc

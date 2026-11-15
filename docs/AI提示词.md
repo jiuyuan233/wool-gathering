@@ -11,7 +11,7 @@
 - **完整示例**（喜加一/代金券/免费额度）
 - **输出格式**（严格 JSON）
 
-完整的人可读教程见 **[scripts/ai_guide.md](scripts/ai_guide.md)**，包含 10 个章节 + 4 个完整示例。
+完整的人可读教程见 **[scripts/ai_guide.md](../scripts/ai_guide.md)**，包含 10 个章节 + 4 个完整示例。
 
 想调整抽取规则（比如放宽/收紧什么算薅羊毛），直接改 `prompts.py` 或 `ai_guide.md` 即可，不用动其他代码。
 

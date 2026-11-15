@@ -85,7 +85,7 @@ wool-gathering/
 - **开车线报** `DRIVE_HINTS = ["开车","发车","上车","拼车","线报","羊毛群","薅羊毛","白嫖群"]`
 - **开源工具** `OPEN_SOURCE_HINTS = ["开源","github 上发现","在 github 发现","免费小工具","工具箱"]`
   且不含 `OPEN_SOURCE_EXCLUDE = ["限时","打折","优惠","年卡","vip","赠送","周年庆","半价"]`（含促销词的不算纯开源）
-- **购物** `SHOPPING_HINTS = ["双11","双 11","红包","wps","vmware","videoproc","复旦","周年庆","打折好价","codex"]`
+- **购物** `SHOPPING_HINTS = ["双11", "双 11", "红包", "打折好价"]`（2026-10-19 精简：wps/vmware/videoproc/复旦/codex 等软件词不算购物，归 ai/open-source）
 - **视频会员** `VIDEO_VIP_HINTS = ["爱奇艺","腾讯视频"]`
 - **网盘会员** `NETDISK_VIP_HINTS = ["夸克网盘","百度网盘","网盘svip","网盘 svip","网盘会员"]`
 - **价值词** `WOOL_VALUE_WORDS`：限免/喜加一/代金券/0元/免费领/打折/优惠/…（决定博客帖是否收录）
@@ -213,7 +213,7 @@ python scripts/collect.py all        # 全部（手动触发用）
 
 ### 5.3 Actions 提交规则
 
-workflow 最后一步：`git add data/ docs/calendar.svg docs/data/ README.md` → 有 diff 才 commit →
+workflow 最后一步：`git add data/ docs/ README.md PENDING_URLS.md` → 有 diff 才 commit →
 commit message 格式 `chore(data): {mode} update {YYYY-MM-DD}` → `git pull --rebase` → `git push`。
 
 ---
