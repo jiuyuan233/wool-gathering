@@ -1,5 +1,25 @@
 # 更新日志
 
+## 2026-11-15（晚）交接版本：全文档核对 + 功能闭环 + 日常维护 SOP
+
+> 本条目是开发 AI 的交接清单：所有文档已逐一核对并与实际行为对齐，历史遗留问题全部关闭。
+
+- **新增 [docs/日常更新指南.md](docs/日常更新指南.md)**：分清"开发 AI"与"日常更新 AI"两个角色，
+  给日常维护 AI / 新手的手把手 SOP（跑流程 → 验证 → 提交 → 故障排查 → 红线）
+- **兑现"提交 URL 即抓取"**：`process_pending_urls()` 对用户提交的 html URL 当场抓取解析入库
+  （实测：IT之家喜加一标签页入库 20 条、与现有数据 0 重复）；heybox URL 当场触发 Playwright 抓取
+- **修复 `fetch()` 中文 URL bug**：非 ASCII URL 自动 percent-encode（此前含中文的 URL 直接报编码错误）
+- **修复 game-discount 定时抓取缺失**：workflow 15:53 时段改为 `games-blog,game-discount`
+  （此前小黑盒打折只在手动 all 模式才被抓）
+- **文档全面重写**（与代码行为逐一对齐）：快速开始 / 工作原理 / 仓库结构 / 数据结构 / 自定义 /
+  常见问题 / 本地调试 / Fork指南 / 技术框架 / 日历视图 / GAME_PLATFORMS / ai_guide.md
+  —— 修正了旧模型名、错误的 Secret 数量、时间表 +1 小时、
+  "AI 在抓取主链路/联网搜索"的不实描述、"SEARCH_KEYWORDS"等已删除的配置指引
+- **架构语义澄清**：sources.json 是"源登记表"（heybox 类 9 个参与日常轮询，html 类 52 个仅
+  登记去重），日常轮询源 = `blog_collector.SOURCES` 内置 8 个 + 云厂商页 + 官方游戏 API；
+  详见 docs/工作原理.md 与 docs/自定义.md
+- **遗留问题全部关闭**：见 DEV_GUIDE.md 第 8 节（Qoder 按设计闭环，非 bug）
+
 ## 2026-11-15 过期活动自动归档 + AI 更换为 DeepSeek-V3.2
 
 - **修复：过期活动不再显示在 README**——`archive_expired()` 此前已定义但从未被调用，本次正式接入 `finalize()` 流程

@@ -146,6 +146,7 @@
 | 文档 | 内容 |
 |------|------|
 | [分类活动](docs/分类活动.md) | 🗂 分类活动 |
+| [日常更新指南](docs/日常更新指南.md) | 🤖 日常维护 AI / 新手操作手册（SOP） |
 | [快速开始](docs/快速开始.md) | 🚀 快速开始（2 步跑通） |
 | [Fork指南](docs/Fork指南.md) | 🍴 Fork 后如何使用（完整指南） |
 | [技术框架](docs/技术框架.md) | 🧱 技术框架 |
@@ -159,5 +160,6 @@
 | [常见问题](docs/常见问题.md) | ❓ 常见问题 |
 | [License](docs/License.md) | 📜 License |
 | [活动归档](docs/archive/) | 过期活动按月归档 |
-| [AGENT.md](AGENT.md) | AI 维护操作规范 |
+| [AGENT.md](AGENT.md) | AI 维护操作规范（开发/维护 AI 必读） |
+| [DEV_GUIDE.md](DEV_GUIDE.md) | 开发交接文档 |
 | [PENDING_URLS.md](PENDING_URLS.md) | 用户提交新网址入口 |

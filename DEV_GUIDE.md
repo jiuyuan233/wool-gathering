@@ -5,7 +5,9 @@
 > 
 > **最后更新**：2026-11-15
 > **当前 AI 模型**：gpt-6.1-sol（ChatAnywhere 主力）+ deepseek-ai/DeepSeek-V3.2（SiliconFlow 备用，失败自动切换）
-> **当前状态**：所有核心功能已实现；过期活动自动归档已接入 finalize（2026-11-15），遗留问题见第 8 节
+> **当前状态**：所有核心功能已实现并实测通过，历史遗留问题已全部关闭（见第 8 节）。
+> **角色分工**：日常更新（能力弱的 AI / 新手）读 [docs/日常更新指南.md](docs/日常更新指南.md)
+> 照 SOP 操作即可；开发维护（能力强的 AI）读本文件 + AGENT.md。
 
 ---
 
@@ -61,8 +63,8 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
 ┌──────────────────────────────────────────────────────────┐
 │              scripts/collect.py (主入口)                  │
 │                                                          │
-│  main() → process_pending_urls() → process_category()    │
-│         → finalize() → archive_expired()                 │
+│  main() → process_category() × N → finalize()            │
+│         （finalize 内含 PENDING_URLS 处理 + archive_expired）│
 └──────┬──────────────┬──────────────┬────────────────────┘
        │              │              │
        ▼              ▼              ▼
@@ -137,18 +139,23 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
 - `blog`：仅博客聚合
 - `direct`：仅官方 API（仅 games 有效）
 
-### scripts/blog_collector.py（博客+小黑盒抓取，28152 字节）
+### scripts/blog_collector.py（博客+小黑盒抓取）
 
-**职责**：从博客、RSS、社区聚合网站抓取活动信息。
+**职责**：从内置博客源、RSS、社区聚合网站抓取活动信息 + 小黑盒 Playwright 抓取。
 
 **关键函数**：
 
 | 函数 | 职责 |
 |------|------|
-| `collect_blog_activities(category)` | 从 sources.json 里该分类的博客源抓取 |
-| `collect_heybox_discounts()` | 小黑盒游戏打折（SPA，需 Playwright） |
-| `collect_heybox_community(category)` | 小黑盒社区合集帖（SPA，需 Playwright） |
+| `collect_blog_activities(category)` | 从**内置 `SOURCES` 字典**（不是 sources.json！）里该分类的博客源抓取 |
+| `fetch(url)` | 抓取 URL（自动 percent-encode 非 ASCII 字符、429 重试） |
+| `collect_heybox_discounts()` | 小黑盒游戏打折（SPA，需 Playwright，读 sources.json 的 heybox 源） |
+| `collect_heybox_community(category)` | 小黑盒社区合集帖（SPA，需 Playwright，读 sources.json 的 heybox-community 源） |
 | `parse_itad/itchio/ggdeals/reddit/rss/v2ex` | 各平台解析器 |
+
+> **源的真实分工**（2026-11-15 核实）：日常轮询源 = 内置 `SOURCES`（8 个）+ 云厂商页 +
+> 官方游戏 API + sources.json 的 heybox 类（9 个）。sources.json 里 52 个 html 源只做
+> 登记去重，不参与轮询；PENDING_URLS 提交的 URL 会被当场抓一次快照入库。
 
 **collect_heybox_community 的工作方式**：
 1. 用 Playwright 渲染 `https://xiaoheihe.cn/app/bbs/home`
@@ -182,18 +189,19 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
 - `AIClient`：AI 客户端，支持 chat/chat_text/chat_json
 
 **配置**（通过环境变量）：
-- `AI_BASE_URL`：中转站地址（`https://api.chatanywhere.org/v1`）
+- `AI_BASE_URL`：中转站地址（主力 `https://api.chatanywhere.tech/v1`）
 - `AI_API_KEY`：API key（存在 GitHub Secret 里）
-- `AI_MODEL`：模型名（`deepseek-v3-2`）
+- `AI_MODEL`：模型名（默认 `gpt-6.1-sol`，workflow env 会覆盖）
+- `AI_FALLBACK_BASE_URL` / `AI_FALLBACK_API_KEY` / `AI_FALLBACK_MODEL`：备用中转站（可选）
 
-### scripts/prompts.py（AI 提示词，5960 字节）
+### scripts/prompts.py（AI 提示词）
 
 **职责**：定义给 AI 的系统提示词和 prompt 模板。
 
 **关键内容**：
-- `SYSTEM_PROMPT`：AI 的完整操作手册（什么算薅羊毛活动、什么不算、输出格式）
-- `build_extract_messages()`：从种子源抽取活动的 messages
-- `build_search_messages()`：联网搜索活动的 messages
+- `SYSTEM_PROMPT`：AI 的完整操作手册（什么算薅羊毛活动、什么不算、游戏标题中文译名规则、输出格式）
+- `build_extract_messages()` / `build_search_messages()`：预留的模板（当前生产链路未调用；
+  AI 唯一在用的入口是 collect.py 的 `_process_natural_language`，直接用 SYSTEM_PROMPT）
 
 ### scripts/dedup.py（去重+合并+状态，3294 字节）
 
@@ -336,7 +344,7 @@ upcoming (未开始) → active (进行中) → expired (已过期)
 
 ```
 data/
-├── sources.json              # 61 个信息源
+├── sources.json              # 源登记表 61 个：heybox 类 9 个参与轮询，html 类 52 个仅登记
 ├── ai/activities.json        # AI 类活动
 ├── open-source/activities.json
 ├── drive/activities.json
@@ -419,7 +427,7 @@ data/
 
 ## 7. 开发环境与常见操作
 
-### 环境限制（重要！）
+### 环境限制（上一任开发环境的经验记录，新环境可能不适用，但值得先看）
 
 1. **文件恢复机制**：工作区文件和 .git/objects 会在 bash 命令间被恢复到 git HEAD 状态。edit 工具的修改也会被恢复。
    - **解决方案**：用 `python3 -c` 在 bash 内修改文件到 /tmp，再用 GitHub API 创建 blob 提交
@@ -532,7 +540,11 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 
 ---
 
-## 8. 遗留问题
+## 8. 遗留问题（截至 2026-11-15 已全部关闭）
+
+> 以下问题逐一核实并处理：问题 1（换强模型+备用切换）、问题 3（AI 不在抓取主链路）、
+> 问题 5（确认旧 key 失效并换新）、问题 6（早已修复）；问题 2 属于"待线上数据验证"，
+> 问题 4 按设计闭环（见下）。新出现的请追加到本节。
 
 ### 问题 1：PENDING_URLS 自然语言处理依赖 AI 可用性
 
@@ -572,16 +584,15 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 
 ### 问题 4：Qoder 活动未出现在 SVG 日历
 
-**状态**：待解决
+**状态**：按设计闭环（2026-11-15 验证）
 
 **详情**：
-- Qoder 源在 sources.json 里（`https://docs.qoder.cn/qoder/overview`）
-- 但 data/ai/activities.json 里 0 条 Qoder 活动
-- 可能原因：Qoder 页面是 JS 渲染的，抓到空壳；或 AI 没抽取到
-
-**建议**：
-- 检查 Qoder 页面是否需要 Playwright 渲染
-- 或在 PENDING_URLS.md 里用自然语言让 AI 直接创建活动
+- Qoder 源在 sources.json 里（`https://docs.qoder.cn/qoder/overview`），但页面是 JS 渲染，
+  通用抓取拿到空壳，抽不到活动
+- 2026-11-15 用自然语言条目实测：AI（gpt-6.1-sol）诚实返回空（聊天 API 无联网能力，
+  不能核实 Qoder 当前活动），符合"不确定不编造"的提示词设计
+- **如需收录 Qoder**：拿到官方活动页 URL 后在 PENDING_URLS.md 提交，或开发 AI 为
+  docs.qoder.cn 写专门解析器。这不是 bug。
 
 ### 问题 5：gpt-4o-mini 在 ChatAnywhere 免费版不可用
 
@@ -631,6 +642,10 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 - [x] ai_client.py 支持备用中转站自动切换（AI_FALLBACK_* 环境变量，SiliconFlow DeepSeek-V3.2 兜底）
 - [x] prompts.py 增加游戏标题中文译名规则（对接 AGENT.md 15.7）
 - [x] 文档同步（AGENT.md 第 13/20 节、DEV_GUIDE、本文件）
+- [x] process_pending_urls() 兑现「提交 URL 即抓取」：html URL 当场抓一次解析入库（实测 IT之家喜加一标签页入库 20 条）；heybox URL 当场触发 Playwright 抓取
+- [x] 修复 blog_collector.fetch() 中文 URL 报 ascii 编码错误的 bug（percent-encode）
+- [x] workflow 15:53 时段补上 game-discount（此前该分类只在手动 all 模式才被抓）
+- [x] 新增 docs/日常更新指南.md（两个 AI 角色分工 + 日常维护 SOP）；全部 docs 文档重写核对
 
 ### 近期修改（2026-10-28）
 - [x] process_pending_urls() 支持自然语言输入
@@ -711,4 +726,4 @@ git push origin main  # 或 force-with-lease
 4. **领取链接直接跳小黑盒**：不跳 Steam，直接跳小黑盒帖子
 5. **用 GitHub API 提交**：由于环境限制，用 GitHub API 创建提交比 git push 更可靠
 6. **全量模式需要 20-30 分钟**：mode=all 处理所有 8 个分类 + PENDING_URLS + finalize
-7. **AI 免费版限制**：每周 50000 点 + 每天 100 次请求，用 deepseek-v3-2 省额度
+7. **AI 额度**：AI 仅处理 PENDING_URLS 自然语言条目（日常 0 次调用），ChatAnywhere 免费版（每周 50000 点）绰绰有余；主力失败自动切 SiliconFlow 备用

@@ -10,40 +10,52 @@
 ## 0. 一句话理解这个项目
 
 GitHub Actions 每天分六个时段（分散全天、避开整点）自动抓取 AI/云服务优惠、开源免费工具、
-开车线报、游戏喜加一，去重合并后生成 README + SVG 甘特图日历，自动 commit 推送回仓库。
+开车线报、游戏喜加一，关键词规则解析 + 去重合并，过期活动自动归档，然后生成 README +
+SVG 甘特图日历，自动 commit 推送回仓库。
 维护者的任务是：**改规则、修 bug、加源、跑流程、推结果**，不要手动改 `data/` 或 `docs/` 里的生成产物。
+
+> **两种 AI 角色**：日常更新（能力弱）只需读 [docs/日常更新指南.md](docs/日常更新指南.md)
+> 照 SOP 操作；开发维护（能力强）读本文件全文 + DEV_GUIDE.md。
+> Actions 里内置的 AI（`ai_client.py`）只负责 PENDING_URLS 自然语言理解，不是维护者。
 
 ---
 
-## 1. 仓库结构（只需记住这几个关键文件）
+## 1. 仓库结构（只需记住这几个关键文件，完整树见 docs/仓库结构.md）
 
 ```
 wool-gathering/
 ├── AGENT.md                      # 本文件（维护规范）
+├── DEV_GUIDE.md                  # 开发交接文档
+├── PENDING_URLS.md               # 用户提交新网址/自然语言的入口
 ├── .github/workflows/daily-collect.yml  # Actions：六时段定时任务（分散全天避开整点）
 ├── scripts/                      # 所有 Python 脚本
-│   ├── collect.py                # 主入口（Action 调这个）
-│   ├── blog_collector.py         # 博客/V2EX/Reddit/ITAD/itch.io 抓取 + 分类规则
+│   ├── collect.py                # 主入口（Action 调这个；含 PENDING_URLS 处理 + 过期归档）
+│   ├── blog_collector.py         # 内置博客/V2EX/Reddit/ITAD/itch.io 源 + 分类规则 + 小黑盒
 │   ├── cloud_collector.py        # 云厂商活动抓取（华为云/阿里云/腾讯云）
 │   ├── direct_collector.py       # Epic/Steam/GOG 官方 API 抓取
+│   ├── ai_client.py              # AI 客户端（主力+备用自动切换）
+│   ├── prompts.py                # AI 提示词（仅用于 PENDING_URLS 自然语言理解）
 │   ├── dedup.py                  # 规范化 + 去重 + 合并
-│   ├── calendar_generator.py     # 生成 README + 前端 JSON（含车型子分类）
+│   ├── calendar_generator.py     # 生成 README + 前端 JSON（含车型子分类、ended 过滤）
 │   ├── svg_calendar.py           # 生成 SVG 甘特图（含文字防重叠）
 │   ├── utils.py                  # 工具函数（日期/ID/状态）
 │   └── readme_template.md        # README 模板
-├── data/                         # 原始数据（脚本写，人别手改）
-│   ├── ai/activities.json
-│   ├── open-source/activities.json
-│   ├── drive/activities.json
-│   ├── games/activities.json
-│   └── sources.json              # 种子源列表（可手改）
+├── data/                         # 原始数据（脚本写，人别手改 activities.json）
+│   ├── sources.json              # 源登记表：heybox/heybox-community 类参与日常轮询；
+│   │                             #   html 类只做登记（去重凭证），见 docs/日常更新指南.md
+│   └── {8 个分类}/activities.json  # ai/open-source/drive/games/shopping/video-vip/netdisk-vip/game-discount
 └── docs/                         # 生成产物（脚本写，人别手改）
     ├── calendar.svg              # README 嵌入的甘特图
-    └── data/{activities,meta}.json
+    ├── 分类活动.md               # 全部活动详情（自动生成）
+    ├── archive/                  # 过期活动按月归档（index.json 为索引）
+    ├── data/{activities,meta}.json
+    └── 日常更新指南.md           # ⭐ 日常更新 AI 的 SOP
 ```
 
 **铁律**：`data/*/activities.json`、`docs/calendar.svg`、`docs/data/*`、`README.md` 都是脚本生成的，
-**不要手动编辑**。要改数据，改 `scripts/` 里的规则然后重跑；要改源，改 `data/sources.json`。
+**不要手动编辑**。要改数据，改 `scripts/` 里的规则然后重跑；要加日常轮询源，
+改 `blog_collector.py` 的 `SOURCES` / `cloud_collector.py` 的 `CLOUD_PAGES` /
+`data/sources.json` 的 heybox 类条目（详见 docs/自定义.md）。
 
 ---
 
@@ -162,12 +174,13 @@ GitHub Actions 每天自动跑六次（`.github/workflows/daily-collect.yml`）�
 | 08:23 | 00:23 | `23 0 * * *` | `ai-blog` | 仅抓博客聚合（ai 板块，含 open-source 分流） |
 | 10:41 | 02:41 | `41 2 * * *` | `drive` | V2EX 开车线报 |
 | 13:37 | 05:37 | `37 5 * * *` | `games-direct` | 仅抓 Epic/Steam/GOG 官方 API |
-| 15:53 | 07:53 | `53 7 * * *` | `games-blog` | 仅抓 ITAD/itch.io/Reddit/ggdeals |
-| 20:47 | 12:47 | `47 12 * * *` | `finalize` | 整理：生成 SVG 日历 + 前端 JSON + README |
+| 15:53 | 07:53 | `53 7 * * *` | `games-blog,game-discount` | ITAD/itch.io/Reddit/ggdeals + 小黑盒打折（Playwright） |
+| 18:47 | 10:47 | `47 10 * * *` | `finalize` | 整理：PENDING_URLS + 归档 + SVG + 前端 JSON + README |
 
 **设计原则**：不集中在一个时间段请求免费源网站，把请求量分散到全天 6 个时段，间隔约 2-3 小时。
 
-**cron 提前说明**：GitHub Actions cron 在高峰期可能延迟 15 分钟到数小时。原 finalize 在 20:47 北京，延迟后可能到凌晨运行。现已提前到 18:47 北京，即使延迟 5 小时也是 23:47 北京，不会到凌晨。
+**cron 提前说明**：GitHub Actions cron 在高峰期可能延迟 15 分钟到数小时。finalize 已从
+20:47 提前到 18:47 北京，即使延迟 5 小时也在当晚完成。
 
 ### 5.1 命令对照（子模式）
 
@@ -177,19 +190,24 @@ python scripts/collect.py ai-cloud       # 仅云厂商
 python scripts/collect.py ai-blog        # 仅博客（ai 板块）
 python scripts/collect.py games-direct   # 仅 Epic/Steam/GOG 官方 API
 python scripts/collect.py games-blog     # 仅 ITAD/itch.io/Reddit
+python scripts/collect.py game-discount  # 仅小黑盒（需 Playwright）
 python scripts/collect.py drive          # V2EX 开车线报
-python scripts/collect.py finalize       # 整理：生成 SVG + README
+python scripts/collect.py finalize       # 整理：PENDING_URLS + 归档 + SVG + README
 
-# 粗粒度模式（手动触发或调试用，= 对应子模式之和）
+# 粗粒度模式（手动触发或调试用，= 对应子模式之和；支持逗号分隔多模式）
 python scripts/collect.py ai         # = ai-cloud + ai-blog
 python scripts/collect.py games      # = games-direct + games-blog
+python scripts/collect.py games-blog,game-discount   # workflow 15:53 时段实际跑的
 python scripts/collect.py all        # 全部（手动触发用）
 ```
 
 ### 5.2 collect.py 内部流程
 
-1. `process_category(cat)`：抓取 → `normalize_activity` 规范化 → 按 `category` 字段分流 → `_merge_and_save` 去重合并写回（合并前会丢弃 id 已归档的条目，防回流）
-2. `finalize()`：处理 `PENDING_URLS.md` → 刷新 status → `archive_expired()` 归档过期活动（写 `docs/archive/`）→ `generate_docs_data()` 生成前端 JSON → `generate_svg()` 生成 SVG → `generate_readme()` 生成 README
+1. `process_category(cat)`：抓取 → `_normalize_and_save`（规范化 + 按实际 category 分流 +
+   `_merge_and_save` 去重合并写回；合并前会丢弃 id 已归档的条目，防回流）
+2. `finalize()`：处理 `PENDING_URLS.md` → 刷新 status → `archive_expired()` 归档过期活动
+   （写 `docs/archive/`）→ `generate_docs_data()` 生成前端 JSON → `generate_svg()` 生成 SVG →
+   `generate_readme()` 生成 README（再兜底过滤一次 ended）
 3. `merge(old, new, today)`：**旧值优先**——已存在的字段不被新数据覆盖（尤其 end_date 一旦写入不覆盖）；
    status 按起止日期每天重算（active/upcoming/ended）
 
@@ -318,7 +336,7 @@ A: 本地没 `GITHUB_REPOSITORY` 环境变量。要么 `export GITHUB_REPOSITORY
 
 ## 12. 示范：实跑一次 finalize 流程
 
-下面是一次真实的 `finalize` 运行示范（21:00 时段的任务），供维护 AI 参考。
+下面是一次真实的 `finalize` 运行示范（18:47 时段的任务），供维护 AI 参考。
 
 ### 步骤 1：确认起点与远程一致
 
@@ -663,9 +681,12 @@ https://another.com/free-game # games
    a. **判断分类**：用户 `#` 注释优先，否则按 URL 关键词判断（见 16.3）
    b. **判断 type**：`xiaoheihe` → `heybox`（需 Playwright），其余 → `html`
    c. **去重检查**：查 `data/sources.json` 是否已有相同 URL，有则标记「重复，跳过」
-   d. **添加到 sources.json**：加一条源（格式见 16.4）
-   e. **抓取内容**：用对应分类的抓取器抓取，提取活动信息
-   f. **添加到 activities.json**：如果抓取到内容，规范化后添加到 `data/{category}/activities.json`
+   d. **添加到 sources.json**：加一条源（格式见 16.4）。注意：html 源只做登记，
+      不参与日常轮询（轮询源清单见 docs/日常更新指南.md 第二节）
+   e. **当场抓取**：html 源直接 fetch 该 URL → `parse_blog_articles` 通用解析（含关键词
+      过滤与自动分流）；heybox 源触发 `process_category("game-discount")` 走 Playwright
+   f. **入库**：抓到的活动经 `_normalize_and_save` 规范化合并进 `data/{category}/activities.json`
+   g. **记录结果**：抓到几条 / 页面无活动 / 抓取失败（可能 JS 渲染或反爬），写进「已处理」区
 
 #### 自然语言行处理（新增）
 
@@ -724,9 +745,9 @@ https://another.com/free-game # games
 
 ### 16.6 何时处理
 
-在 **finalize 阶段**（每天 20:47 北京时间，cron `47 12 * * *`）处理 `PENDING_URLS.md`。理由：
+在 **finalize 阶段**（每天 18:47 北京时间，cron `47 10 * * *`）处理 `PENDING_URLS.md`。理由：
 - finalize 是整理阶段，适合做「接入新源 + 重新生成产物」的工作
-- 处理完直接跑 finalize 生成 SVG + README，一步到位
+- 处理完直接生成 SVG + README，一步到位
 - 不影响其他时段的抓取任务
 
 ### 16.7 边界情况
@@ -745,15 +766,15 @@ https://another.com/free-game # games
 ### 17.1 日常运行（全自动，AI 不干预）
 
 GitHub Actions 每天跑 6 次（见第 5 节），AI 不需要手动干预：
-- 06:17 / 09:23 / 11:41 / 14:37 / 16:53 → 抓取各板块数据
-- 20:47 → `finalize`：**自动处理 PENDING_URLS.md** → 生成 SVG + README
+- 05:17 / 08:23 / 11:41 / 13:37 / 15:53 → 抓取各板块数据
+- 18:47 → `finalize`：**自动处理 PENDING_URLS.md + 归档过期活动** → 生成 SVG + README
 
 ### 17.2 用户提交新网址（全自动）
 
 1. 用户在 `PENDING_URLS.md` 的「待处理」区写网址（可选加 `# 分类` 注释）
-2. 当天 20:47 finalize 自动处理：`process_pending_urls()` 读取网址 → 判断分类 → 加入 `sources.json` → 移到「已处理」区
+2. 当天 18:47 finalize 自动处理：`process_pending_urls()` 读取网址 → 判断分类 → 登记 `sources.json` → 当场抓取入库 → 移到「已处理」区
 3. 次日对应分类的抓取模式运行时，自动抓取新源内容
-4. 次日 20:47 finalize 生成新的 SVG + README
+4. 次日 18:47 finalize 生成新的 SVG + README
 
 ### 17.3 AI 手动维护操作（用户要求时执行）
 
@@ -801,13 +822,14 @@ GitHub Actions 每天跑 6 次（见第 5 节），AI 不需要手动干预：
 
 | 功能 | 实现位置 | 状态 |
 |------|---------|------|
-| 六时段定时任务 | workflow 6 个 cron | ✅ 已实现 |
-| AI 抽取活动信息 | `AI_API_KEY` env + `ai_client.py` | ✅ 已实现 |
+| 六时段定时任务 | workflow 6 个 cron（15:53 含 game-discount） | ✅ 已实现 |
+| 过期活动自动归档 | `collect.py archive_expired()`，接入 finalize | ✅ 已实现（2026-11-15） |
+| PENDING_URLS URL 当场抓取入库 | `process_pending_urls()` + `_normalize_and_save()` | ✅ 已实现（2026-11-15） |
+| PENDING_URLS 自然语言理解 | `_process_natural_language()` + `ai_client.py`（主力+备用） | ✅ 已实现（2026-11-15 实测） |
 | Playwright 安装 | workflow「安装 Playwright」步骤 | ✅ 已实现 |
-| PENDING_URLS.md 自动处理 | `collect.py process_pending_urls()` | ✅ 已实现 |
 | PENDING_URLS.md 提交 | workflow `git add PENDING_URLS.md` | ✅ 已实现 |
 | finalize 生成 SVG+README | `collect.py finalize()` | ✅ 已实现 |
-| 联网搜索补充 | — | ❌ 暂未实现（AGENT.md 已标注） |
+| 联网搜索补充 | — | ❌ 暂未实现（聊天 API 无联网能力，NL 条目会诚实返回空） |
 
 ## 18. 好用 Agent 工具分区（静态，不进日历）
 
