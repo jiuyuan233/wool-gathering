@@ -3140,7 +3140,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-12",
+    "last_seen": "2026-11-15",
     "status": "active",
     "progress_pct": 50.0,
     "total_days": 8,
@@ -3949,6 +3949,28 @@
     "tags": [
       "blog",
       "Reddit-FreeGameFindings"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-the-bunker-3c6c8c50e8",
+    "title": "[itch.io] The Bunker（限免）",
+    "category": "games",
+    "source_url": "https://cyber752.itch.io/the-bunker",
+    "claim_url": "https://cyber752.itch.io/the-bunker",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: The Bunker",
+    "tags": [
+      "blog",
+      "itch.io"
     ],
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
