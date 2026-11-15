@@ -749,8 +749,8 @@
 <rect x="480" y="3548" width="14" height="10" rx="2" fill="#f43f5e"/><text x="500" y="3557" font-size="10" fill="#24292f">网盘</text>
 <rect x="540" y="3548" width="14" height="10" rx="2" fill="#14b8a6"/><text x="560" y="3557" font-size="10" fill="#24292f">开车</text>
 <rect x="600" y="3548" width="14" height="10" rx="2" fill="#22c55e"/><text x="620" y="3557" font-size="10" fill="#24292f">游戏</text>
-<rect x="535" y="3548" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="3557" font-size="10" fill="#24292f">已结束</text>
-<rect x="625" y="3548" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="3557" font-size="10" fill="#24292f">未开始</text>
-<line x1="715" y1="3546" x2="715" y2="3560" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="3557" font-size="10" fill="#24292f">今天</text>
+<rect x="660" y="3548" width="14" height="10" rx="2" fill="#8b5cf6"/><text x="680" y="3557" font-size="10" fill="#24292f">游戏打折</text>
+<rect x="745" y="3548" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="765" y="3557" font-size="10" fill="#24292f">未开始</text>
+<line x1="835" y1="3546" x2="835" y2="3560" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="843" y="3557" font-size="10" fill="#24292f">今天</text>
 <text x="20" y="3580" font-size="10" fill="#6e7681">另有 35 条活动缺少明确日期，未在时间轴显示（见下方表格）</text>
 </svg>

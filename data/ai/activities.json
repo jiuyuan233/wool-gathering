@@ -249,7 +249,6 @@
   {
     "id": "cloud_8ff1ec8d1772",
     "title": "腾讯·WorkBuddy AI办公",
-    "url": "https://workbuddy.tencent.com/",
     "source_url": "https://workbuddy.tencent.com/",
     "claim_url": "https://workbuddy.tencent.com/",
     "description": "腾讯 WorkBuddy - AI Agent 办公新范式。AI 办公助手，支持自定义 API 中转站",
@@ -263,7 +262,8 @@
     ],
     "status": "active",
     "discovered_at": "2026-10-19T16:30:00+08:00",
-    "last_seen": "2026-11-10"
+    "last_seen": "2026-11-10",
+    "requirements": []
   },
   {
     "id": "cloud_a6638bd2c0cc",
@@ -683,7 +683,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "8ce91c46d958",
+    "id": "qoder-100-2fe9d66eda",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -708,7 +708,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "7d87d4fed386",
+    "id": "deepseek-api-500-tokens-5eb8edf4b3",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -732,7 +732,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "608ffe1bee35",
+    "id": "glm-4-flash-api-345631c90a",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -757,7 +757,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "7a72069c1645",
+    "id": "kimi-api-15-2aa5fa2eed",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -782,7 +782,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "6318140e557d",
+    "id": "100-tokens-35854ff0a0",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -807,7 +807,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "1b86c40c9036",
+    "id": "api-36659a3e09",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -831,7 +831,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "94e7b10d5f13",
+    "id": "google-gemini-api-gemini-1-5-f-a6245e3055",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -855,7 +855,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "7b541a39e946",
+    "id": "groq-api-llama-3-1-aae288dd7f",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -878,7 +878,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "d757b86d252e",
+    "id": "cursor-ai-2d3c9db75c",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"
@@ -902,7 +902,7 @@
       "长期"
     ],
     "category": "ai",
-    "id": "dc5df52cf84e",
+    "id": "windsurf-ai-4ab8dbaedc",
     "discovered_at": "2026-11-02T00:00:00.000000+08:00",
     "last_seen": "2026-11-02",
     "status": "active"

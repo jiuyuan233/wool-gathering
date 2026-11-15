@@ -376,9 +376,9 @@ def process_pending_urls() -> int:
 def _process_natural_language(desc: str, category: str, today: str) -> list[dict]:
     """用 AI 理解自然语言描述，创建薅羊毛活动。
 
-    用户可能写"Qoder每天领100积分"这种描述，AI 需要理解并找到对应活动。
+    用户可能写"Qoder每天领100积分"这种描述，AI 基于描述本身的信息提取
+    （聊天 API 无联网能力，不编造；描述信息不足时诚实返回空）。
     """
-    import hashlib
     try:
         from ai_client import AIClient
         from prompts import SYSTEM_PROMPT
@@ -396,11 +396,11 @@ def _process_natural_language(desc: str, category: str, today: str) -> list[dict
 分类提示：{category}
 当前日期：{today}
 
-请理解这段描述，找出对应的薅羊毛/免费福利活动。
-- 如果描述提到某个产品/服务（如 Qoder、Cursor 等），请联网搜索该产品的最新免费福利/积分领取/额度信息
-- 提取活动标题、领取链接、开始/结束日期、福利价值等
-- 日期格式严格 YYYY-MM-DD，算不出来留空字符串
-- 如果找不到活动，返回 {{"activities": []}}
+请基于这段描述本身的信息理解并提取对应的薅羊毛/免费福利活动。
+- 你没有联网能力：只根据描述里明确给出的信息提取，不要凭记忆编造活动细节、日期或链接
+- 描述信息不足以确定活动细节时，宁可不抽
+- 日期格式严格 YYYY-MM-DD，描述里算不出来的留空字符串
+- 描述里没有可提取的活动时，返回 {{"activities": []}}
 
 请严格按系统提示的 JSON 格式输出。"""},
     ]
@@ -423,7 +423,8 @@ def _process_natural_language(desc: str, category: str, today: str) -> list[dict
         a["discovered_at"] = today + "T00:00:00.000000+08:00"
         a["last_seen"] = today
         a["status"] = "active"
-        a["id"] = hashlib.md5((a.get("title", "") + a.get("source_url", "")).encode()).hexdigest()[:12]
+        # ID 与全库统一（make_id），否则同一活动从不同入口进来会生成两套 id 导致重复
+        a["id"] = make_id(a.get("title", ""), a.get("source_url", ""))
         acts.append(a)
 
     return acts

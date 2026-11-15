@@ -5,7 +5,7 @@
 数据源：
 - Epic Games GraphQL API → 游戏类免费游戏促销
 - Steam Store API → 游戏类免费周末/特惠
-- GitHub Search API → AI 类免费资源仓库
+- GOG embed API → 游戏类限时免费
 """
 from __future__ import annotations
 
@@ -230,8 +230,8 @@ def collect_gog_free_games() -> list[dict]:
                 "title": f"GOG 免费: {title}",
                 "url": url,
                 "description": "GOG 限时免费领取，入库永久保留",
-                "start_date": BJ.strftime("%Y-%m-%d"),
-                "end_date": (BJ + timedelta(days=7)).strftime("%Y-%m-%d"),
+                "start_date": now_bj().strftime("%Y-%m-%d"),
+                "end_date": (now_bj() + timedelta(days=7)).strftime("%Y-%m-%d"),
                 "category": "games",
                 "status": "active",
                 "discovered_at": now_bj().isoformat(),

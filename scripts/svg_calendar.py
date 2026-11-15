@@ -301,7 +301,7 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
 
             y += ROW_H
 
-    # 底部图例
+    # 底部图例（已结束活动在生成前就会被归档，不再出现在时间轴上，故无"已结束"图例）
     legend_y = chart_bottom + 22
     legend_items = [
         (0, COLOR_AI, "AI / 云服务"),
@@ -310,6 +310,7 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
         (230, COLOR_NETDISK_VIP, "网盘"),
         (290, COLOR_DRIVE, "开车"),
         (350, COLOR_GAMES, "游戏"),
+        (410, COLOR_GAME_DISCOUNT, "游戏打折"),
     ]
     for xoff, color, label in legend_items:
         parts.append(
@@ -317,18 +318,14 @@ def generate_svg(activities: list[dict], output_path: Path | None = None) -> Pat
             f'<text x="{TRACK_X + xoff + 20}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">{label}</text>'
         )
     parts.append(
-        f'<rect x="{TRACK_X + 285}" y="{legend_y - 10}" width="14" height="10" rx="2" fill="#888" opacity="0.35"/>'
-        f'<text x="{TRACK_X + 305}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">已结束</text>'
-    )
-    parts.append(
-        f'<rect x="{TRACK_X + 375}" y="{legend_y - 10}" width="14" height="10" rx="2" '
+        f'<rect x="{TRACK_X + 495}" y="{legend_y - 10}" width="14" height="10" rx="2" '
         f'fill="none" stroke="#888" stroke-dasharray="3,2"/>'
-        f'<text x="{TRACK_X + 395}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">未开始</text>'
+        f'<text x="{TRACK_X + 515}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">未开始</text>'
     )
     parts.append(
-        f'<line x1="{TRACK_X + 465}" y1="{legend_y - 12}" x2="{TRACK_X + 465}" y2="{legend_y + 2}" '
+        f'<line x1="{TRACK_X + 585}" y1="{legend_y - 12}" x2="{TRACK_X + 585}" y2="{legend_y + 2}" '
         f'stroke="{COLOR_TODAY}" stroke-width="1.5" stroke-dasharray="3,2"/>'
-        f'<text x="{TRACK_X + 473}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">今天</text>'
+        f'<text x="{TRACK_X + 593}" y="{legend_y - 1}" font-size="10" fill="{COLOR_TEXT}">今天</text>'
     )
 
     # 无日期活动提示
@@ -365,7 +362,7 @@ if __name__ == "__main__":
     import json
     from utils import DATA_DIR
     acts = []
-    for cat in ("ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip"):
+    for cat in ("ai", "open-source", "drive", "games", "shopping", "video-vip", "netdisk-vip", "game-discount"):
         p = DATA_DIR / cat / "activities.json"
         if p.exists():
             acts.extend(json.loads(p.read_text(encoding="utf-8")))

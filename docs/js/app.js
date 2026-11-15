@@ -2,9 +2,36 @@
 (function () {
   "use strict";
 
+  // 分类配色与标签：与 docs/calendar.svg（svg_calendar.py）保持一致，全库统一
   const ACCENT = {
-    ai: "#4a9eff",
-    games: "#4ade80",
+    ai: "#f97316",
+    "open-source": "#16a34a",
+    drive: "#14b8a6",
+    games: "#22c55e",
+    shopping: "#eab308",
+    "video-vip": "#ec4899",
+    "netdisk-vip": "#f43f5e",
+    "game-discount": "#8b5cf6",
+  };
+  const CAT_LABEL = {
+    ai: "AI / 云服务",
+    "open-source": "开源工具",
+    drive: "开车线报",
+    games: "游戏喜加一",
+    shopping: "购物优惠",
+    "video-vip": "视频会员",
+    "netdisk-vip": "网盘会员",
+    "game-discount": "游戏打折",
+  };
+  const CAT_EMOJI = {
+    ai: "🤖",
+    "open-source": "🔓",
+    drive: "🚗",
+    games: "🎮",
+    shopping: "🛒",
+    "video-vip": "📺",
+    "netdisk-vip": "💾",
+    "game-discount": "🏷️",
   };
 
   let ALL = [];
@@ -43,21 +70,25 @@
     }
     const gen = META.generated_at ? new Date(META.generated_at).toLocaleString("zh-CN", { hour12: false }) : "?";
     const cats = META.by_category || {};
-    const ai = cats.ai || {}, gm = cats.games || {};
+    const catItems = Object.keys(CAT_LABEL)
+      .filter(c => cats[c] && cats[c].total)
+      .map(c => {
+        const s = cats[c];
+        return `<span class="meta-item">${CAT_EMOJI[c]} ${CAT_LABEL[c]}: ${s.active || 0}/${s.total || 0}</span>`;
+      })
+      .join("");
     bar.innerHTML = `
       <span class="meta-item">⏱ 更新于 ${gen}</span>
-      <span class="meta-item">🤖 AI: ${ai.active || 0} 进行中 / ${ai.total || 0} 总计</span>
-      <span class="meta-item">🎮 游戏: ${gm.active || 0} 进行中 / ${gm.total || 0} 总计</span>
+      ${catItems}
       <span class="meta-item">📦 共 ${META.total || 0} 条</span>
     `;
   }
 
   function getFiltered() {
     let list = ALL.slice();
-    if (currentFilter === "ai") list = list.filter(a => a.category === "ai");
-    else if (currentFilter === "games") list = list.filter(a => a.category === "games");
-    else if (currentFilter === "active") list = list.filter(a => a.status === "active");
+    if (currentFilter === "active") list = list.filter(a => a.status === "active");
     else if (currentFilter === "upcoming") list = list.filter(a => a.status === "upcoming");
+    else if (currentFilter !== "all") list = list.filter(a => a.category === currentFilter);
     // 排序：active 优先
     const order = { active: 0, upcoming: 1, ended: 2 };
     list.sort((a, b) => (order[a.status] - order[b.status]) || ((a.end_date || "").localeCompare(b.end_date || "")));
@@ -170,7 +201,7 @@
         <div class="card ${a.status}" style="--card-color:${color}">
           <div class="card-header">
             <div class="card-title">${escapeHtml(a.title)}</div>
-            <span class="card-cat ${a.category}">${a.category === "ai" ? "AI" : "游戏"}</span>
+            <span class="card-cat ${a.category}">${CAT_EMOJI[a.category] || "📌"} ${CAT_LABEL[a.category] || a.category}</span>
           </div>
           <span class="card-status ${a.status}">${statusLabel}</span>
           ${value}

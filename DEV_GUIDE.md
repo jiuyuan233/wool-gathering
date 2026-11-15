@@ -154,7 +154,7 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
 | `parse_itad/itchio/ggdeals/reddit/rss/v2ex` | 各平台解析器 |
 
 > **源的真实分工**（2026-11-15 核实）：日常轮询源 = 内置 `SOURCES`（8 个）+ 云厂商页 +
-> 官方游戏 API + sources.json 的 heybox 类（9 个）。sources.json 里 52 个 html 源只做
+> 官方游戏 API + sources.json 的 heybox 类（9 个）。sources.json 里 53 个 html 源只做
 > 登记去重，不参与轮询；PENDING_URLS 提交的 URL 会被当场抓一次快照入库。
 
 **collect_heybox_community 的工作方式**：
@@ -307,7 +307,7 @@ Qoder现在每天领100积分，非常好用 #ai
 
 `_process_natural_language()` 会：
 1. 用 AI 理解这段描述
-2. 让 AI 联网搜索该产品的免费福利
+2. AI 基于描述本身的信息提取（无联网能力，不编造；信息不足返回空）
 3. 返回活动信息，直接写入 activities.json
 
 ### AI 模型选择
@@ -344,7 +344,7 @@ upcoming (未开始) → active (进行中) → expired (已过期)
 
 ```
 data/
-├── sources.json              # 源登记表 61 个：heybox 类 9 个参与轮询，html 类 52 个仅登记
+├── sources.json              # 源登记表 62 个：heybox 类 9 个参与轮询，html 类 53 个仅登记
 ├── ai/activities.json        # AI 类活动
 ├── open-source/activities.json
 ├── drive/activities.json
@@ -584,15 +584,13 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 
 ### 问题 4：Qoder 活动未出现在 SVG 日历
 
-**状态**：按设计闭环（2026-11-15 验证）
+**状态**：已解决（2026-11-02 由 AI 自然语言处理自动创建）
 
 **详情**：
-- Qoder 源在 sources.json 里（`https://docs.qoder.cn/qoder/overview`），但页面是 JS 渲染，
-  通用抓取拿到空壳，抽不到活动
-- 2026-11-15 用自然语言条目实测：AI（gpt-6.1-sol）诚实返回空（聊天 API 无联网能力，
-  不能核实 Qoder 当前活动），符合"不确定不编造"的提示词设计
-- **如需收录 Qoder**：拿到官方活动页 URL 后在 PENDING_URLS.md 提交，或开发 AI 为
-  docs.qoder.cn 写专门解析器。这不是 bug。
+- 2026-11-02 那次运行里，AI 成功理解了 PENDING_URLS 里的 Qoder 描述，
+  创建了「Qoder 每天免费领 100 积分」（长期活动，end_date 空），已显示在 README 的 AI 分区
+- 2026-11-15 复验：条目在库；AI 无联网能力所以无法自动更新它的细节，
+  细节有变时用户可在 PENDING_URLS 提交官方页面 URL 触发重新抓取
 
 ### 问题 5：gpt-4o-mini 在 ChatAnywhere 免费版不可用
 

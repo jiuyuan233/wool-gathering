@@ -5,8 +5,15 @@
   --border: #2a3346;
   --text: #e6e6e6;
   --text-dim: #8a94a6;
-  --accent-ai: #4a9eff;
-  --accent-games: #4ade80;
+  /* 分类配色与 docs/calendar.svg（svg_calendar.py）保持一致，全库统一 */
+  --accent-ai: #f97316;
+  --accent-open-source: #16a34a;
+  --accent-drive: #14b8a6;
+  --accent-games: #22c55e;
+  --accent-shopping: #eab308;
+  --accent-video-vip: #ec4899;
+  --accent-netdisk-vip: #f43f5e;
+  --accent-game-discount: #8b5cf6;
   --accent-active: #22c55e;
   --accent-upcoming: #eab308;
   --accent-ended: #6b7280;
@@ -115,7 +122,13 @@ h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
 }
 .tl-label .cat-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
 .tl-label .cat-dot.ai { background: var(--accent-ai); }
+.tl-label .cat-dot.open-source { background: var(--accent-open-source); }
+.tl-label .cat-dot.drive { background: var(--accent-drive); }
 .tl-label .cat-dot.games { background: var(--accent-games); }
+.tl-label .cat-dot.shopping { background: var(--accent-shopping); }
+.tl-label .cat-dot.video-vip { background: var(--accent-video-vip); }
+.tl-label .cat-dot.netdisk-vip { background: var(--accent-netdisk-vip); }
+.tl-label .cat-dot.game-discount { background: var(--accent-game-discount); }
 
 .tl-track {
   position: relative; height: 26px;
@@ -175,8 +188,14 @@ h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
   font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 999px;
   white-space: nowrap;
 }
-.card-cat.ai { background: rgba(74,158,255,0.15); color: var(--accent-ai); }
-.card-cat.games { background: rgba(74,222,128,0.15); color: var(--accent-games); }
+.card-cat.ai { background: rgba(249,115,22,0.15); color: var(--accent-ai); }
+.card-cat.open-source { background: rgba(22,163,74,0.15); color: var(--accent-open-source); }
+.card-cat.drive { background: rgba(20,184,166,0.15); color: var(--accent-drive); }
+.card-cat.games { background: rgba(34,197,94,0.15); color: var(--accent-games); }
+.card-cat.shopping { background: rgba(234,179,8,0.15); color: var(--accent-shopping); }
+.card-cat.video-vip { background: rgba(236,72,153,0.15); color: var(--accent-video-vip); }
+.card-cat.netdisk-vip { background: rgba(244,63,94,0.15); color: var(--accent-netdisk-vip); }
+.card-cat.game-discount { background: rgba(139,92,246,0.15); color: var(--accent-game-discount); }
 
 .card-status {
   font-size: 0.78rem; padding: 0.15rem 0.6rem; border-radius: 999px; margin-bottom: 0.6rem;
