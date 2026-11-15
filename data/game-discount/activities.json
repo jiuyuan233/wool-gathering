@@ -95,5 +95,45 @@
     "discovered_at": "2026-11-01T00:00:00.000000+08:00",
     "last_seen": "2026-11-01",
     "status": "active"
+  },
+  {
+    "id": "saber-lv-24-11-14-10-13-57-37-6e3522b6a3",
+    "title": "黑气Saber\n\nLv.24\n【11.14】周末大胜利，等等党赢麻了，高好评新史低盘点！\n🎮 10.13 游戏折扣速报新史低：57 款 | 史低：37 款新游推荐一款融合了恋爱+养成+策略与影视互动的",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/196851052",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/196851052",
+    "start_date": "2026-11-15",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区合集帖 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount",
+      "合集"
+    ],
+    "discovered_at": "2026-11-15T00:00:00.000000+08:00",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "lv-17-11-15-steam-steam-4c888ef291",
+    "title": "迟暮雪\n\nLv.17\n（11/15）周末steam大促销，超多史低来袭，等等党必看\n大家好，暮雪今天给大家整理了三百来款steam打折游戏，基本上都是史低或者是超低折扣的游戏，关注暮雪，每天给大家更新",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/196950613",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/196950613",
+    "start_date": "2026-11-15",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区合集帖 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount",
+      "合集"
+    ],
+    "discovered_at": "2026-11-15T00:00:00.000000+08:00",
+    "last_seen": "2026-11-15",
+    "status": "active"
   }
 ]
