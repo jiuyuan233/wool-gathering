@@ -53,7 +53,7 @@ def fetch_source(src: Source, *, timeout: int = 15, max_bytes: int = 200_000) ->
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "zh-CN,en;q=0.7,en-US;q=0.3",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate",  # 不声明 br：requests 未装 brotli 会解不开
         "Connection": "keep-alive",
         "Sec-Fetch-Dest": "document",
         "Sec-Fetch-Mode": "navigate",

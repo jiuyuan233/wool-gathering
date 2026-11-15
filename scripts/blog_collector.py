@@ -16,6 +16,7 @@ from __future__ import annotations
 import html as _html
 import json
 import re
+import urllib.parse
 import urllib.request
 from datetime import timedelta
 
@@ -73,6 +74,8 @@ OPEN_SOURCE_EXCLUDE = ["限时", "打折", "优惠", "年卡", "vip", "赠送", 
 def fetch(url: str, timeout: int = 20) -> str | None:
     """抓取 URL 返回文本，失败返回 None。429 限流时等 3 秒重试一次。"""
     import time as _time
+    # 非 ASCII URL（如中文标签页 /tags/喜加一）必须 percent-encode，否则 urllib 报 ascii 编码错误
+    url = re.sub(r"[^\x00-\x7F]+", lambda m: urllib.parse.quote(m.group(0)), url)
     for attempt in range(2):
         try:
             req = urllib.request.Request(url, headers=HEADERS)

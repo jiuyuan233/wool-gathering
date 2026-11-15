@@ -9,7 +9,7 @@ on:
     - cron: "23 0 * * *"    # 08:23 北京 → ai-blog（博客聚合）
     - cron: "41 2 * * *"    # 10:41 北京 → drive（V2EX 开车线报）
     - cron: "37 5 * * *"    # 13:37 北京 → games-direct（Epic/Steam/GOG 官方 API）
-    - cron: "53 7 * * *"    # 15:53 北京 → games-blog（ITAD/itch.io/Reddit）
+    - cron: "53 7 * * *"    # 15:53 北京 → games-blog + game-discount（ITAD/itch.io/Reddit + 小黑盒 Playwright）
     - cron: "47 10 * * *"   # 18:47 北京 → finalize（整理：SVG + README）
   workflow_dispatch:
     inputs:
@@ -61,7 +61,7 @@ jobs:
               00) echo "mode=ai-blog" >> $GITHUB_OUTPUT;        echo "定时任务: 博客聚合 (09:23 北京)" ;;
               02) echo "mode=drive" >> $GITHUB_OUTPUT;          echo "定时任务: 开车线报 (11:41 北京)" ;;
               05) echo "mode=games-direct" >> $GITHUB_OUTPUT;   echo "定时任务: 游戏官方API (14:37 北京)" ;;
-              07) echo "mode=games-blog" >> $GITHUB_OUTPUT;     echo "定时任务: 游戏博客聚合 (16:53 北京)" ;;
+              07) echo "mode=games-blog,game-discount" >> $GITHUB_OUTPUT;  echo "定时任务: 游戏博客聚合+小黑盒打折 (15:53 北京)" ;;
               10) echo "mode=finalize" >> $GITHUB_OUTPUT;       echo "定时任务: 整理 (20:47 北京)" ;;
               *)  echo "mode=finalize" >> $GITHUB_OUTPUT;       echo "定时任务(非标准时间): 整理" ;;
             esac

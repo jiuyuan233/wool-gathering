@@ -26,7 +26,9 @@ BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "zh-CN,en;q=0.7,en-US;q=0.3",
-    "Accept-Encoding": "gzip, deflate, br",
+    # 不要手动声明 br 压缩：requests 未装 brotli 时解不开响应（GOG 曾因此误判非 JSON），
+    # 让 requests 自己协商 Accept-Encoding（默认 gzip/deflate）
+    "Accept-Encoding": "gzip, deflate",
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
 }

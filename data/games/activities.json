@@ -1178,6 +1178,402 @@
     "status": "active"
   },
   {
+    "id": "epic-knightica-8115abff72",
+    "title": "Epic 免费游戏: 斗阵骑士 Knightica",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-19",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-12 ~ 2026-11-19",
+    "tags": [],
+    "discovered_at": "2026-11-15T11:43:20.180279+08:00",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-knightica-141961a3a6",
+    "title": "Epic 喜加一：《斗阵骑士 Knightica》游戏免费领取",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/026/440.htm",
+    "claim_url": "https://www.ithome.com/1/026/440.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "steam-3d-sadball-947c3e567b",
+    "title": "Steam 喜加一：3D 动作游戏《Sadball》下架前免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/024/999.htm",
+    "claim_url": "https://www.ithome.com/1/024/999.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-gmh-good-morning-human-915355f3ac",
+    "title": "Epic 喜加一：游戏《GMH - Good Morning Human》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/023/990.htm",
+    "claim_url": "https://www.ithome.com/1/023/990.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-2deb26e8e4",
+    "title": "Epic 喜加一：《浮游世界》游戏免费领取",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/023/023.htm",
+    "claim_url": "https://www.ithome.com/1/023/023.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "steam-12-2-5ba57aa069",
+    "title": "Steam 喜加一：联想拯救者游戏社区将于 12 月 2 日发放免费《辐射：新维加斯》激活码",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/022/264.htm",
+    "claim_url": "https://www.ithome.com/1/022/264.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-epic-world-hunt-for-quest-63c6c116d5",
+    "title": "Epic 喜加一：横版动作冒险游戏《Epic World - Hunt For Quest》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/021/009.htm",
+    "claim_url": "https://www.ithome.com/1/021/009.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-quiztopia-the-ultimate-tr-5ac52d758a",
+    "title": "Epic 喜加一：益智问答游戏《Quiztopia : The Ultimate Trivia》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/020/810.htm",
+    "claim_url": "https://www.ithome.com/1/020/810.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-gladiator-blades-of-fury-36f455290b",
+    "title": "Epic 喜加一：中世纪冷兵器格斗游戏《Gladiator：Blades of Fury》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/020/782.htm",
+    "claim_url": "https://www.ithome.com/1/020/782.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "gog-a-new-beginning-final-cut-2957e11ee4",
+    "title": "GOG 喜加一：点击式冒险游戏《A New Beginning: Final Cut》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/020/738.htm",
+    "claim_url": "https://www.ithome.com/1/020/738.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "steam-42-asleep-act-1-10f188c568",
+    "title": "Steam 喜加一：原价 42 元心理恐怖冒险游戏《Asleep：Act 1》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/020/731.htm",
+    "claim_url": "https://www.ithome.com/1/020/731.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "steam-colleccct-ae62a80a88",
+    "title": "Steam 喜加一：益智游戏《Colleccct》转付费前免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/020/727.htm",
+    "claim_url": "https://www.ithome.com/1/020/727.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "steam-autumn-s-end-part-1-9196be8569",
+    "title": "Steam 喜加一：视觉小说《Autumn’s end (Part 1)》转付费前免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/020/064.htm",
+    "claim_url": "https://www.ithome.com/1/020/064.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-2faa03c602",
+    "title": "Epic 喜加一：《抱歉我们打烊了》游戏免费领取",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/019/789.htm",
+    "claim_url": "https://www.ithome.com/1/019/789.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-mafia-hotel-36ce9b3103",
+    "title": "Epic 喜加一：狼人杀推理游戏《MAFIA HOTEL》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/017/899.htm",
+    "claim_url": "https://www.ithome.com/1/017/899.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "steam-2d-depths-unseen-d9daec2101",
+    "title": "Steam 喜加一：2D 平台冒险游戏《Depths Unseen》转付费前限时免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/017/435.htm",
+    "claim_url": "https://www.ithome.com/1/017/435.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "steam-radiant-exodus-8bf55b8281",
+    "title": "Steam 喜加一：第一人称生存恐怖射击游戏《Radiant Exodus》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/017/379.htm",
+    "claim_url": "https://www.ithome.com/1/017/379.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-terraspace-76aa8c641f",
+    "title": "Epic 喜加一：太空生存策略游戏《Terraspace》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/017/005.htm",
+    "claim_url": "https://www.ithome.com/1/017/005.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-1280c36156",
+    "title": "Epic 喜加二：《斯盖尔仪式》《归家》游戏免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/016/744.htm",
+    "claim_url": "https://www.ithome.com/1/016/744.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-3d-gethigh-exe-1b848625c9",
+    "title": "Epic 喜加一：第一人称 3D 跑酷游戏《GetHigh.EXE》免费领",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/015/243.htm",
+    "claim_url": "https://www.ithome.com/1/015/243.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
+    "id": "epic-agent-a-35f01332cd",
+    "title": "Epic 喜加二：《烂奶酪》《Agent A - 伪装游戏》游戏免费领取",
+    "category": "games",
+    "source_url": "https://www.ithome.com/1/013/675.htm",
+    "claim_url": "https://www.ithome.com/1/013/675.htm",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "value": "",
+    "requirements": [],
+    "description": "来源: ithome.com",
+    "tags": [
+      "blog",
+      "ithome.com"
+    ],
+    "discovered_at": "2026-11-15",
+    "last_seen": "2026-11-15",
+    "status": "active"
+  },
+  {
     "id": "bug-lv-10-steam-steam-steam-10-fde4953f58",
     "title": "bug\n\nLv.10\nSteam尖叫游戏节开启！凌晨折扣发力，上百款史低游戏盘点\n✅ 等等党狂喜！Steam折扣持续加码｜今日折扣精选盘点🔥 Steam尖叫游戏节10.27-11.3已经等不及开玩的朋",
     "category": "games",
@@ -1293,6 +1689,54 @@
     "status": "active"
   },
   {
+    "id": "epic-alien-isolation-04be948d27",
+    "title": "Epic 免费游戏: 《Alien: Isolation》",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-19",
+    "end_date": "2026-11-26",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-19 ~ 2026-11-26",
+    "tags": [],
+    "discovered_at": "2026-11-15T11:43:20.179266+08:00",
+    "last_seen": "2026-11-15",
+    "status": "upcoming"
+  },
+  {
+    "id": "epic-mark-of-the-deep-67dd377767",
+    "title": "Epic 免费游戏: Mark of the Deep",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-19",
+    "end_date": "2026-11-26",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-19 ~ 2026-11-26",
+    "tags": [],
+    "discovered_at": "2026-11-15T11:43:20.180279+08:00",
+    "last_seen": "2026-11-15",
+    "status": "upcoming"
+  },
+  {
+    "id": "epic-terrascape-f2be507133",
+    "title": "Epic 免费游戏: TerraScape",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-21",
+    "end_date": "2026-12-21",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-21 ~ 2026-12-21",
+    "tags": [],
+    "discovered_at": "2026-11-15T11:43:20.180279+08:00",
+    "last_seen": "2026-11-15",
+    "status": "upcoming"
+  },
+  {
     "id": "epic-2-c44c4e8654",
     "title": "Epic 免费游戏: 《幽灵行者 2》",
     "category": "games",
@@ -1305,7 +1749,7 @@
     "description": "Epic Games Store 限时免费 | 2026-12-10 ~ 2027-01-07",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082882+08:00",
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-15",
     "status": "upcoming"
   }
 ]

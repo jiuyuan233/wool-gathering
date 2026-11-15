@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2934" viewBox="0 0 940 2934" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
-<rect width="940" height="2934" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="3606" viewBox="0 0 940 3606" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="940" height="3606" fill="#ffffff"/>
 <text x="20" y="28" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴（2026年11月）</text>
-<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-11-15 · 有时间限制活动 97 条，开源工具 22 条不显示 · 红线 = 今天 · 超一个月顶满</text>
+<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-11-15 · 有时间限制活动 121 条，开源工具 22 条不显示 · 红线 = 今天 · 超一个月顶满</text>
 <line x1="250" y1="62" x2="920" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <line x1="250.0" y1="58" x2="250.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="250.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">10-31</text>
@@ -17,7 +17,7 @@
 <text x="790.3225806451612" y="54" font-size="9" fill="#6e7681" text-anchor="middle">11-25</text>
 <line x1="920.0" y1="58" x2="920.0" y2="62" stroke="#d0d7de" stroke-width="1"/>
 <text x="920.0" y="54" font-size="9" fill="#6e7681" text-anchor="middle">12-01</text>
-<line x1="574.1935483870968" y1="60" x2="574.1935483870968" y2="2868" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="574.1935483870968" y1="60" x2="574.1935483870968" y2="3540" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
 <text x="574.1935483870968" y="56" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="600">今天</text>
 <rect x="10" y="70" width="920" height="20" rx="4" fill="#f97316" opacity="0.12"/>
 <text x="20" y="84" font-size="13" font-weight="600" fill="#f97316">AI / 云服务（33 条）</text>
@@ -228,7 +228,7 @@
 <rect x="509.35483870967744" y="1051" width="75.64516129032256" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <text x="585.0" y="1063.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 4 天</text>
 <rect x="10" y="1074" width="920" height="20" rx="4" fill="#22c55e" opacity="0.12"/>
-<text x="20" y="1088" font-size="13" font-weight="600" fill="#22c55e">游戏喜加一（63 条）</text>
+<text x="20" y="1088" font-size="13" font-weight="600" fill="#22c55e">游戏喜加一（87 条）</text>
 <line x1="10" y1="1128" x2="930" y2="1128" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="1114" r="3" fill="#22c55e"/>
 <text x="24" y="1118" font-size="12" fill="#24292f">🟢 [itch.io] Tower Of Gold（限…</text>
@@ -603,16 +603,154 @@
 <text x="585.0" y="2825.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 4 天</text>
 <line x1="10" y1="2864" x2="930" y2="2864" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2850" r="3" fill="#22c55e"/>
-<text x="24" y="2854" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
-<rect x="920" y="2841" width="2" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
-<rect x="250" y="2876" width="14" height="10" rx="2" fill="#f97316"/><text x="270" y="2885" font-size="10" fill="#24292f">AI / 云服务</text>
-<rect x="345" y="2876" width="14" height="10" rx="2" fill="#eab308"/><text x="365" y="2885" font-size="10" fill="#24292f">购物</text>
-<rect x="405" y="2876" width="14" height="10" rx="2" fill="#ec4899"/><text x="425" y="2885" font-size="10" fill="#24292f">视频会员</text>
-<rect x="480" y="2876" width="14" height="10" rx="2" fill="#f43f5e"/><text x="500" y="2885" font-size="10" fill="#24292f">网盘</text>
-<rect x="540" y="2876" width="14" height="10" rx="2" fill="#14b8a6"/><text x="560" y="2885" font-size="10" fill="#24292f">开车</text>
-<rect x="600" y="2876" width="14" height="10" rx="2" fill="#22c55e"/><text x="620" y="2885" font-size="10" fill="#24292f">游戏</text>
-<rect x="535" y="2876" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="2885" font-size="10" fill="#24292f">已结束</text>
-<rect x="625" y="2876" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="2885" font-size="10" fill="#24292f">未开始</text>
-<line x1="715" y1="2874" x2="715" y2="2888" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="2885" font-size="10" fill="#24292f">今天</text>
-<text x="20" y="2908" font-size="10" fill="#6e7681">另有 35 条活动缺少明确日期，未在时间轴显示（见下方表格）</text>
+<text x="24" y="2854" font-size="12" fill="#24292f">🟢 Epic 免费游戏: 斗阵骑士 Knig…</text>
+<rect x="509.35483870967744" y="2841" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="509.35483870967744" y="2841" width="75.64516129032256" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="585.0" y="2853.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 4 天</text>
+<line x1="10" y1="2892" x2="930" y2="2892" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2878" r="3" fill="#22c55e"/>
+<text x="24" y="2882" font-size="12" fill="#24292f">🟢 Epic 喜加一：《斗阵骑士 Knig…</text>
+<rect x="574.1935483870968" y="2869" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="2869" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="2881.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="2920" x2="930" y2="2920" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2906" r="3" fill="#22c55e"/>
+<text x="24" y="2910" font-size="12" fill="#24292f">🟢 Steam 喜加一：3D 动作游戏《S…</text>
+<rect x="574.1935483870968" y="2897" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="2897" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="2909.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="2948" x2="930" y2="2948" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2934" r="3" fill="#22c55e"/>
+<text x="24" y="2938" font-size="12" fill="#24292f">🟢 Epic 喜加一：游戏《GMH - Goo…</text>
+<rect x="574.1935483870968" y="2925" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="2925" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="2937.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="2976" x2="930" y2="2976" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2962" r="3" fill="#22c55e"/>
+<text x="24" y="2966" font-size="12" fill="#24292f">🟢 Epic 喜加一：《浮游世界》游戏…</text>
+<rect x="574.1935483870968" y="2953" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="2953" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="2965.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3004" x2="930" y2="3004" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2990" r="3" fill="#22c55e"/>
+<text x="24" y="2994" font-size="12" fill="#24292f">🟢 Steam 喜加一：联想拯救者游戏…</text>
+<rect x="574.1935483870968" y="2981" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="2981" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="2993.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3032" x2="930" y2="3032" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3018" r="3" fill="#22c55e"/>
+<text x="24" y="3022" font-size="12" fill="#24292f">🟢 Epic 喜加一：横版动作冒险游戏…</text>
+<rect x="574.1935483870968" y="3009" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3009" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3021.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3060" x2="930" y2="3060" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3046" r="3" fill="#22c55e"/>
+<text x="24" y="3050" font-size="12" fill="#24292f">🟢 Epic 喜加一：益智问答游戏《Qu…</text>
+<rect x="574.1935483870968" y="3037" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3037" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3049.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3088" x2="930" y2="3088" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3074" r="3" fill="#22c55e"/>
+<text x="24" y="3078" font-size="12" fill="#24292f">🟢 Epic 喜加一：中世纪冷兵器格斗…</text>
+<rect x="574.1935483870968" y="3065" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3065" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3077.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3116" x2="930" y2="3116" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3102" r="3" fill="#22c55e"/>
+<text x="24" y="3106" font-size="12" fill="#24292f">🟢 GOG 喜加一：点击式冒险游戏《A…</text>
+<rect x="574.1935483870968" y="3093" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3093" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3105.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3144" x2="930" y2="3144" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3130" r="3" fill="#22c55e"/>
+<text x="24" y="3134" font-size="12" fill="#24292f">🟢 Steam 喜加一：原价 42 元心理…</text>
+<rect x="574.1935483870968" y="3121" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3121" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3133.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3172" x2="930" y2="3172" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3158" r="3" fill="#22c55e"/>
+<text x="24" y="3162" font-size="12" fill="#24292f">🟢 Steam 喜加一：益智游戏《Coll…</text>
+<rect x="574.1935483870968" y="3149" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3149" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3161.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3200" x2="930" y2="3200" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3186" r="3" fill="#22c55e"/>
+<text x="24" y="3190" font-size="12" fill="#24292f">🟢 Steam 喜加一：视觉小说《Autu…</text>
+<rect x="574.1935483870968" y="3177" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3177" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3189.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3228" x2="930" y2="3228" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3214" r="3" fill="#22c55e"/>
+<text x="24" y="3218" font-size="12" fill="#24292f">🟢 Epic 喜加一：《抱歉我们打烊了…</text>
+<rect x="574.1935483870968" y="3205" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3205" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3217.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3256" x2="930" y2="3256" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3242" r="3" fill="#22c55e"/>
+<text x="24" y="3246" font-size="12" fill="#24292f">🟢 Epic 喜加一：狼人杀推理游戏《…</text>
+<rect x="574.1935483870968" y="3233" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3233" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3245.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3284" x2="930" y2="3284" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3270" r="3" fill="#22c55e"/>
+<text x="24" y="3274" font-size="12" fill="#24292f">🟢 Steam 喜加一：2D 平台冒险游戏…</text>
+<rect x="574.1935483870968" y="3261" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3261" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3273.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3312" x2="930" y2="3312" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3298" r="3" fill="#22c55e"/>
+<text x="24" y="3302" font-size="12" fill="#24292f">🟢 Steam 喜加一：第一人称生存恐…</text>
+<rect x="574.1935483870968" y="3289" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3289" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3301.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3340" x2="930" y2="3340" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3326" r="3" fill="#22c55e"/>
+<text x="24" y="3330" font-size="12" fill="#24292f">🟢 Epic 喜加一：太空生存策略游戏…</text>
+<rect x="574.1935483870968" y="3317" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3317" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3329.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3368" x2="930" y2="3368" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3354" r="3" fill="#22c55e"/>
+<text x="24" y="3358" font-size="12" fill="#24292f">🟢 Epic 喜加二：《斯盖尔仪式》《…</text>
+<rect x="574.1935483870968" y="3345" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3345" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3357.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3396" x2="930" y2="3396" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3382" r="3" fill="#22c55e"/>
+<text x="24" y="3386" font-size="12" fill="#24292f">🟢 Epic 喜加一：第一人称 3D 跑酷…</text>
+<rect x="574.1935483870968" y="3373" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3373" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3385.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3424" x2="930" y2="3424" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3410" r="3" fill="#22c55e"/>
+<text x="24" y="3414" font-size="12" fill="#24292f">🟢 Epic 喜加二：《烂奶酪》《Agen…</text>
+<rect x="574.1935483870968" y="3401" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="574.1935483870968" y="3401" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="649.8387096774194" y="3413.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="3452" x2="930" y2="3452" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3438" r="3" fill="#22c55e"/>
+<text x="24" y="3442" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《Alien: Isol…</text>
+<rect x="660.6451612903226" y="3429" width="151.29032258064524" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="3480" x2="930" y2="3480" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3466" r="3" fill="#22c55e"/>
+<text x="24" y="3470" font-size="12" fill="#24292f">🟡 Epic 免费游戏: Mark of the …</text>
+<rect x="660.6451612903226" y="3457" width="151.29032258064524" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="3508" x2="930" y2="3508" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3494" r="3" fill="#22c55e"/>
+<text x="24" y="3498" font-size="12" fill="#24292f">🟡 Epic 免费游戏: TerraScape</text>
+<rect x="703.8709677419354" y="3485" width="216.12903225806463" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<line x1="10" y1="3536" x2="930" y2="3536" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="3522" r="3" fill="#22c55e"/>
+<text x="24" y="3526" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
+<rect x="920" y="3513" width="2" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<rect x="250" y="3548" width="14" height="10" rx="2" fill="#f97316"/><text x="270" y="3557" font-size="10" fill="#24292f">AI / 云服务</text>
+<rect x="345" y="3548" width="14" height="10" rx="2" fill="#eab308"/><text x="365" y="3557" font-size="10" fill="#24292f">购物</text>
+<rect x="405" y="3548" width="14" height="10" rx="2" fill="#ec4899"/><text x="425" y="3557" font-size="10" fill="#24292f">视频会员</text>
+<rect x="480" y="3548" width="14" height="10" rx="2" fill="#f43f5e"/><text x="500" y="3557" font-size="10" fill="#24292f">网盘</text>
+<rect x="540" y="3548" width="14" height="10" rx="2" fill="#14b8a6"/><text x="560" y="3557" font-size="10" fill="#24292f">开车</text>
+<rect x="600" y="3548" width="14" height="10" rx="2" fill="#22c55e"/><text x="620" y="3557" font-size="10" fill="#24292f">游戏</text>
+<rect x="535" y="3548" width="14" height="10" rx="2" fill="#888" opacity="0.35"/><text x="555" y="3557" font-size="10" fill="#24292f">已结束</text>
+<rect x="625" y="3548" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="645" y="3557" font-size="10" fill="#24292f">未开始</text>
+<line x1="715" y1="3546" x2="715" y2="3560" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="723" y="3557" font-size="10" fill="#24292f">今天</text>
+<text x="20" y="3580" font-size="10" fill="#6e7681">另有 35 条活动缺少明确日期，未在时间轴显示（见下方表格）</text>
 </svg>

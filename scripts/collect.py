@@ -189,7 +189,8 @@ def process_pending_urls() -> int:
     """处理 PENDING_URLS.md 里用户提交的网址或自然语言描述。
 
     支持两种输入：
-    1. URL 行（http://...）→ 添加到 sources.json
+    1. URL 行（http://...）→ 登记 sources.json → html 源当场抓一次内容入库 /
+       heybox 源触发 Playwright 抓取
     2. 自然语言行（如"Qoder每天领100积分 #ai"）→ 用 AI 理解并直接创建活动
 
     Returns:
@@ -245,8 +246,13 @@ def process_pending_urls() -> int:
     processed = []
     new_count = 0
 
-    # ── 处理 URL 行（原有逻辑）──
+    # ── 处理 URL 行 ──
+    # 三步：登记到 sources.json（防重复提交）→ html 源当场抓一次内容入库 → heybox 源触发 Playwright 抓取
+    # 注意：sources.json 里的 html 源只做登记，不参与日常轮询；日常轮询源清单见 docs/日常更新指南.md
     from urllib.parse import urlparse
+    from blog_collector import fetch, parse_blog_articles
+
+    new_urls: list[dict] = []  # {url, category, src_type, name}
     for url, cat_hint, original_line in urls_to_process:
         if cat_hint and cat_hint in CATEGORIES:
             category = cat_hint
@@ -261,7 +267,6 @@ def process_pending_urls() -> int:
 
         domain = urlparse(url).netloc or url
         name = domain.replace("www.", "")[:30]
-
         all_sources.append({
             "name": name,
             "url": url,
@@ -272,27 +277,46 @@ def process_pending_urls() -> int:
         })
         existing_urls.add(url)
         new_count += 1
-        processed.append(f"- [{today}] {url} → {category}，已添加到 sources.json")
-        log(f"  {url} → {category}（{src_type}），已添加")
+        new_urls.append({"url": url, "category": category, "src_type": src_type, "name": name})
 
-    # 保存 sources.json
-    if any(u[0] in existing_urls for u in urls_to_process):
+    if new_urls:
         save_json(sources_path, all_sources)
-        log(f"sources.json: 新增源（总计 {len(all_sources)}）")
+        log(f"sources.json: 新增 {new_count} 个源（总计 {len(all_sources)}）")
 
-        cats_to_fetch = set()
-        for url2, cat_hint2, _ in urls_to_process:
-            if url2 in existing_urls and cat_hint2 and cat_hint2 in CATEGORIES:
-                cats_to_fetch.add(cat_hint2)
-            elif url2 in existing_urls:
-                cat2, _ = _guess_category_from_url(url2)
-                cats_to_fetch.add(cat2)
-        for cat in cats_to_fetch:
-            log(f"  抓取 [{cat}] 新源内容...")
-            try:
-                process_category(cat)
-            except Exception as e:
-                log(f"  抓取 [{cat}] 失败: {e}", level="WARN")
+        for item in new_urls:
+            url, category = item["url"], item["category"]
+            if item["src_type"] == "heybox":
+                # 小黑盒是 SPA，需 Playwright 渲染；当场触发 game-discount 抓取
+                # （会读 sources.json 里所有 heybox 源；失败也有每天 15:53 的定时抓取兜底）
+                log(f"  {url} → heybox 源，触发 game-discount 抓取...")
+                try:
+                    process_category("game-discount")
+                    processed.append(f"- [{today}] {url} → {category}，已添加到 sources.json 并触发 Playwright 抓取")
+                except Exception as e:
+                    processed.append(f"- [{today}] {url} → {category}，已登记，抓取失败（{safe_text(e, 80)}），等待每天 15:53 定时抓取")
+                continue
+
+            # html 源：当场抓一次页面，通用解析器抽取活动入库
+            log(f"  抓取用户提交 URL: {url[:70]}")
+            text = fetch(url)
+            raw_acts = []
+            if text and len(text) > 200:
+                try:
+                    raw_acts = parse_blog_articles(text, item["name"], category)
+                except Exception as e:
+                    log(f"  {item['name']} 解析失败: {safe_text(e, 120)}", level="WARN")
+            if raw_acts:
+                added = _normalize_and_save(raw_acts, category, today_bj())
+                if added:
+                    processed.append(f"- [{today}] {url} → {category}，抓取到 {added} 条活动已入库")
+                else:
+                    processed.append(f"- [{today}] {url} → {category}，页面无符合收录规则的新活动")
+                log(f"  {url} → 抽取 {len(raw_acts)} 条，入库 {added} 条")
+            else:
+                processed.append(
+                    f"- [{today}] {url} → {category}，已添加到 sources.json；本次未抓到活动"
+                    f"（页面可能需 JS 渲染/登录，或无符合收录规则的内容）")
+                log(f"  {url} → 未抓到活动")
 
     # ── 处理自然语言描述（新增逻辑）──
     for desc, cat_hint, original_line in nl_to_process:
@@ -407,6 +431,36 @@ def _process_natural_language(desc: str, category: str, today: str) -> list[dict
 
 
 
+def _normalize_and_save(raw_acts: list[dict], default_category: str, today) -> int:
+    """规范化 + 按条目实际 category 分流保存。process_category 与 PENDING_URLS 共用的收口。
+
+    Returns:
+        实际新增的活动条数（按合并前后文件长度差计算）
+    """
+    norm_acts = []
+    for a in raw_acts:
+        # 条目自身 category 优先（如开源工具会被标为 open-source）
+        act_cat = a.get("category", default_category)
+        norm = normalize_activity(a, act_cat)
+        if norm:
+            norm_acts.append(norm)
+
+    by_cat: dict[str, list[dict]] = {}
+    for a in norm_acts:
+        by_cat.setdefault(a["category"], []).append(a)
+
+    # 没有条目时仍要 merge 一次，刷新已有数据的状态
+    targets = by_cat if by_cat else {default_category: []}
+
+    added_total = 0
+    for cat, acts in targets.items():
+        path = DATA_DIR / cat / "activities.json"
+        before = len(load_json(path) or [])
+        _merge_and_save(cat, acts, today)
+        added_total += len(load_json(path) or []) - before
+    return added_total
+
+
 def _merge_and_save(category: str, new_acts: list[dict], today) -> None:
     """规范化 + 去重 + 合并写回单个类别。"""
     old_path = DATA_DIR / category / "activities.json"
@@ -488,29 +542,9 @@ def process_category(category: str, subset: str = "all") -> int:
         from blog_collector import collect_heybox_community
         raw_acts.extend(collect_heybox_community(category))
 
-    # 2. 规范化（生成 id 等字段）
-    norm_acts = []
-    for a in raw_acts:
-        # 条目自身 category 优先（开源工具会被标为 open-source）
-        act_cat = a.get("category", category)
-        norm = normalize_activity(a, act_cat)
-        if norm:
-            norm_acts.append(norm)
-
-    # 3. 按实际 category 分流保存
-    by_cat: dict[str, list[dict]] = {}
-    for a in norm_acts:
-        by_cat.setdefault(a["category"], []).append(a)
-
-    if not by_cat:
-        # 没有条目，仍要 merge 保存以刷新状态
-        _merge_and_save(category, [], today)
-    elif len(by_cat) == 1 and list(by_cat)[0] == category:
-        _merge_and_save(category, list(by_cat.values())[0], today)
-    else:
-        # 多类别分流（如 ai 模式产出 ai + open-source）
-        for cat, acts in by_cat.items():
-            _merge_and_save(cat, acts, today)
+    # 2-3. 规范化 + 按实际 category 分流保存（与 PENDING_URLS 共用同一收口）
+    added = _normalize_and_save(raw_acts, category, today)
+    log(f"[{category}] 新增 {added} 条")
 
     log(f"类别 {category} 处理完成")
     return 0

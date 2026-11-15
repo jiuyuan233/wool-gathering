@@ -12,10 +12,21 @@
 <!-- https://example.com/some-deal # ai -->
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 0d29793 (fix: 用户提交 URL 当场抓取入库 + 三处功能性 bug 修复)
 
 ## 已处理
 
 - [2026-10-21] https://docs.qoder.cn/qoder/overview → ai，已添加到 sources.json
 - [2026-10-28] Qoder现在每天领100积分，非常好用... → 处理失败: AI 调用最终失败: 401 Client Error: Unauthorized for url: https://api.chatanywhere.org/v1/chat/completions
+<<<<<<< HEAD
 - [2026-11-15] Qoder现在每天领100积分，非常好用... → ai，AI 未找到活动
+=======
+- [2026-11-15] https://www.ithome.com/tags/喜加一 → games，抓取到 20 条活动已入库
+>>>>>>> 0d29793 (fix: 用户提交 URL 当场抓取入库 + 三处功能性 bug 修复)
 <!-- AI 自动把处理完的网址移到这里，附上结果。不要手动编辑这个区域。 -->
