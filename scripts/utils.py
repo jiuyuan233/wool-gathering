@@ -86,7 +86,9 @@ def load_json(path: Path) -> Any:
         return None
     try:
         return json.loads(path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
+    except json.JSONDecodeError as e:
+        # 静默返回 None 会让调用方把损坏文件当空数据覆盖掉——必须留下痕迹
+        log(f"JSON 解析失败 {path}: {e}（调用方将按空数据处理！）", level="ERROR")
         return None
 
 

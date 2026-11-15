@@ -517,7 +517,8 @@ def collect_blog_activities(category: str) -> list[dict]:
     """收集指定类别的博客薅羊毛条目。
 
     Args:
-        category: "ai" 或 "games"
+        category: 8 个分类之一；SOURCES 只配置了 games/ai/drive 三类专属源，
+                  其余分类返回空列表（它们的数据来自 ai 分类的自动分流）
 
     Returns:
         标准化条目列表（未经 normalize_activity 处理的 raw dict）
@@ -645,10 +646,9 @@ def collect_heybox_discounts() -> list[dict]:
                     continue
 
                 # 提取日期范围（如 10.20-10.27）
-                import re
                 date_match = re.search(r'(\d{1,2}\.\d{1,2})\s*[一\-~至]\s*(\d{1,2}\.\d{1,2})', content)
-                from datetime import date, timedelta
-                today = date.today()
+                from datetime import date
+                today = today_bj()
                 start_date = today.isoformat()
                 end_date = (today + timedelta(days=7)).isoformat()
                 if date_match:
@@ -694,17 +694,6 @@ def collect_heybox_discounts() -> list[dict]:
 
     log(f"小黑盒打折聚合器共提取 {len(all_acts)} 条")
     return all_acts
-
-
-if __name__ == "__main__":
-    # 本地测试
-    import sys
-    cat = sys.argv[1] if len(sys.argv) > 1 else "games"
-    result = collect_blog_activities(cat)
-    print(f"\n=== {cat} 提取 {len(result)} 条 ===")
-    for a in result[:10]:
-        print(f"  {a['title'][:50]} -> {a['source_url'][:60]}")
-
 
 
 # ─────────────────────── 小黑盒社区渲染（进程级缓存） ───────────────────────
@@ -804,7 +793,7 @@ def collect_heybox_community(category: str) -> list[dict]:
         return all_acts
 
     from datetime import date
-    today = date.today()
+    today = today_bj()
 
     # 进程级渲染缓存：url -> posts 列表；None = 本次进程内已失败过（不再重复等 30s 超时）
     global _COMMUNITY_RENDER_CACHE
@@ -875,3 +864,13 @@ def collect_heybox_community(category: str) -> list[dict]:
         log(f"  小黑盒社区 [{category}]: 提取 {len(all_acts)} 条合集帖/活动帖")
     return all_acts
 
+
+
+if __name__ == "__main__":
+    # 本地测试：python scripts/blog_collector.py games
+    import sys
+    cat = sys.argv[1] if len(sys.argv) > 1 else "games"
+    result = collect_blog_activities(cat)
+    print(f"=== {cat} 提取 {len(result)} 条 ===")
+    for a in result[:10]:
+        print(f"  {a['title'][:50]} -> {a['source_url'][:60]}")

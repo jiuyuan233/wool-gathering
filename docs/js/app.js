@@ -129,11 +129,14 @@
       return Math.max(0, Math.min(100, ((d - minD) / totalMs) * 100));
     }
 
-    // 生成刻度（5 等分）
+    // 生成刻度（5 等分）；跨年时标签带年份，避免一串 MM-DD 读不出先后
     const ticks = [];
+    const minYear = minD.getFullYear();
     for (let i = 0; i <= 5; i++) {
       const t = new Date(minD.getTime() + (totalMs * i) / 5);
-      ticks.push({ pct: i * 20, label: t.toISOString().slice(0, 10) });
+      const iso = t.toISOString().slice(0, 10);
+      const label = t.getFullYear() === minYear ? iso.slice(5) : iso.slice(0, 7);
+      ticks.push({ pct: i * 20, label });
     }
 
     let html = '<div class="tl-axis">';

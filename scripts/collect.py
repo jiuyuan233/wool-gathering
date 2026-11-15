@@ -342,6 +342,11 @@ def process_pending_urls() -> int:
             else:
                 processed.append(f"- [{today}] {desc[:40]}... → {category}，AI 未找到活动")
                 log(f"    AI 未找到活动")
+        except SystemExit as e:
+            # ai_client 的 env(required=True) 用 sys.exit 报缺 key——SystemExit 不是
+            # Exception 子类，必须单独接住，否则会杀死整个 finalize
+            processed.append(f"- [{today}] {desc[:40]}... → 处理失败: AI key 未配置（{safe_text(e, 60)}）")
+            log(f"    自然语言处理失败（SystemExit）: {e}", level="WARN")
         except Exception as e:
             processed.append(f"- [{today}] {desc[:40]}... → 处理失败: {safe_text(e, 100)}")
             log(f"    自然语言处理失败: {e}", level="WARN")
@@ -380,6 +385,12 @@ def _process_natural_language(desc: str, category: str, today: str) -> list[dict
     用户可能写"Qoder每天领100积分"这种描述，AI 基于描述本身的信息提取
     （聊天 API 无联网能力，不编造；描述信息不足时诚实返回空）。
     """
+    import os
+    if not os.environ.get("AI_API_KEY"):
+        # AIClient 里 key 缺失会 sys.exit(1)（SystemExit 不被 except Exception 捕获，
+        # 会杀死整个 finalize）——先自查，没有 key 就优雅跳过
+        log("  未配置 AI_API_KEY，跳过自然语言处理（不影响其他环节）", level="WARN")
+        return []
     try:
         from ai_client import AIClient
         from prompts import SYSTEM_PROMPT

@@ -31,7 +31,7 @@ TRACK_X = LEFT_LABEL_W + 10  # 时间轴起点 x
 TRACK_W = WIDTH - TRACK_X - 20  # 时间轴宽度
 ROW_H = 28                   # 每行高度
 BAR_H = 18                   # 横条高度
-TOP_PAD = 70                 # 顶部留给标题+刻度
+TOP_PAD = 84                 # 顶部留给标题+副标题+刻度（刻度标签 y=TOP_PAD-16，需与副标题 y=48 拉开距离）
 BOTTOM_PAD = 50              # 底部留给图例
 LABEL_TEXT_X = 24            # 活动名文字起点
 LABEL_MAX_PX = TRACK_X - LABEL_TEXT_X - 6  # 活动名最大像素宽（超长强制压缩）
