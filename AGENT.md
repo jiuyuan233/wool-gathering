@@ -188,8 +188,8 @@ python scripts/collect.py all        # 全部（手动触发用）
 
 ### 5.2 collect.py 内部流程
 
-1. `process_category(cat)`：抓取 → `normalize_activity` 规范化 → 按 `category` 字段分流 → `_merge_and_save` 去重合并写回
-2. `finalize()`：读所有 `data/*/activities.json` → `generate_docs_data()` 生成前端 JSON → `generate_svg()` 生成 SVG → `generate_readme()` 生成 README
+1. `process_category(cat)`：抓取 → `normalize_activity` 规范化 → 按 `category` 字段分流 → `_merge_and_save` 去重合并写回（合并前会丢弃 id 已归档的条目，防回流）
+2. `finalize()`：处理 `PENDING_URLS.md` → 刷新 status → `archive_expired()` 归档过期活动（写 `docs/archive/`）→ `generate_docs_data()` 生成前端 JSON → `generate_svg()` 生成 SVG → `generate_readme()` 生成 README
 3. `merge(old, new, today)`：**旧值优先**——已存在的字段不被新数据覆盖（尤其 end_date 一旦写入不覆盖）；
    status 按起止日期每天重算（active/upcoming/ended）
 
@@ -403,21 +403,26 @@ $ git checkout -- README.md docs/        # 丢弃产物改动
 ## 13. AI 中转站配置与手动触发
 
 项目用 OpenAI 兼容协议的 AI 中转站辅助信息抽取（`scripts/ai_client.py`）。
-workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**只需配一个 GitHub Secret 即可跑通**。
+workflow 默认配置 **SiliconFlow DeepSeek-V3.2 为主力 + ChatAnywhere 为备用**，
+主力连续失败（401/欠费/超时）时自动切换备用。需配两个 GitHub Secret：`AI_API_KEY` 和 `AI_FALLBACK_API_KEY`。
 
 ### 13.1 当前配置（在 `.github/workflows/daily-collect.yml` 的 env 里）
 
 | 环境变量 | 值 | 说明 |
 |---------|-----|------|
-| `AI_BASE_URL` | `https://api.chatanywhere.org/v1` | ChatAnywhere 国外接入点（Action runner 在海外，用 .org；国内调试用 .tech） |
-| `AI_API_KEY` | `${{ secrets.AI_API_KEY }}` | 从 GitHub Secret 读，**不 commit 到代码** |
-| `AI_MODEL` | `deepseek-v3-2` | 弱模型，最便宜之一（input 0.0012/1K，output 0.0018/1K） |
+| `AI_BASE_URL` | `https://api.siliconflow.cn/v1` | 主力中转站 SiliconFlow |
+| `AI_API_KEY` | `${{ secrets.AI_API_KEY }}` | 主力 API Key，从 GitHub Secret 读，**不 commit 到代码** |
+| `AI_MODEL` | `deepseek-ai/DeepSeek-V3.2` | 主力模型：中文信息抽取强、价格低（2026-11-15 起启用） |
+| `AI_FALLBACK_BASE_URL` | `https://api.chatanywhere.org/v1` | 备用中转站 ChatAnywhere |
+| `AI_FALLBACK_API_KEY` | `${{ secrets.AI_FALLBACK_API_KEY }}` | 备用 API Key，从 GitHub Secret 读 |
+| `AI_FALLBACK_MODEL` | `deepseek-v3-2` | 备用模型 |
 
 ### 13.2 配置 GitHub Secret（必须做，否则 AI 调用失败）
 
 1. 仓库 **Settings → Secrets and variables → Actions → New repository secret**
-2. Name 填 `AI_API_KEY`，Value 填你的 ChatAnywhere API Key（形如 `sk-xxx`）
-3. 点 Add secret 保存。workflow 会自动读取，无需改代码。
+2. Name 填 `AI_API_KEY`，Value 填主力 SiliconFlow API Key（形如 `sk-xxx`）
+3. 再加一条 Name 填 `AI_FALLBACK_API_KEY`，Value 填备用 ChatAnywhere API Key
+4. 点 Add secret 保存。workflow 会自动读取，无需改代码。
 
 > fork 的仓库 secrets 不会从上游继承，必须自己配。
 
@@ -427,7 +432,8 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 
 | 中转站 | `AI_BASE_URL` | `AI_MODEL` | 说明 |
 |--------|---------------|------------|------|
-| ChatAnywhere（当前默认） | `https://api.chatanywhere.org/v1` | `deepseek-v3-2` | 免费版每周 50000 点 + 每天 100 次 |
+| SiliconFlow（当前主力） | `https://api.siliconflow.cn/v1` | `deepseek-ai/DeepSeek-V3.2` | 中文抽取强、价格低；模型列表见 `/v1/models` |
+| ChatAnywhere（当前备用） | `https://api.chatanywhere.org/v1` | `deepseek-v3-2` | 免费版每周 50000 点 + 每天 100 次；2026-11 起曾出现 401，故降级为备用 |
 | DeepSeek 官方 | `https://api.deepseek.com/v1` | `deepseek-chat` | 便宜、中文好、有 function calling |
 | 智谱 BigModel | `https://open.bigmodel.cn/api/paas/v4` | `glm-4-flash` | 免费额度大 |
 | 通义千问 | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-turbo` | 阿里云百炼 |
@@ -442,11 +448,13 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 
 > workflow 会按当前 UTC 小时自动判断跑哪个子模式（见第 5 节六时段表）。手动触发默认跑 `all`（全量）。
 
-### 13.5 ChatAnywhere 免费版限制（用 ChatAnywhere 时必看）
+### 13.5 中转站额度与调用频率
 
-- 每周 50000 点免费配额 + 每天 100 次请求次数配额
-- **用弱模型 `deepseek-v3-2` 省额度**，deepseek-v3-2 较强但消耗额度多，如不够可降为 deepseek-v3-2-mini
-- 每次跑约调 AI 30-50 次（51 个种子源抽取 + 联网搜索补充），免费额度基本够
+- **SiliconFlow（主力）**：按量付费（账户余额），DeepSeek-V3.2 约 2 元/百万输入 token。AI 仅在
+  PENDING_URLS.md 有自然语言条目时才调用，日常为 0 次/天，余额消耗极慢；余额耗尽自动切备用
+- **ChatAnywhere（备用）**：免费版每周 50000 点 + 每天 100 次请求。2026-11 观察到 401，
+  只作降级兜底，不作主力
+- 抓取主链路（blog/cloud/direct collector）**不走 AI**，纯关键词规则解析，抓取不受 AI 额度影响
 
 ### 13.6 已收录的 AI 信息源
 
@@ -455,8 +463,9 @@ workflow 已默认配置 ChatAnywhere 中转站 + `deepseek-v3-2` 弱模型，**
 
 ### 13.7 相关文件
 
-- `scripts/ai_client.py`：OpenAI 兼容客户端，读 `AI_BASE_URL`/`AI_API_KEY`/`AI_MODEL` 环境变量，默认 model `deepseek-v3-2-mini`
-- `.github/workflows/daily-collect.yml`：workflow env 配了 AI（key 从 secret 读）
+- `scripts/ai_client.py`：OpenAI 兼容客户端，读 `AI_BASE_URL`/`AI_API_KEY`/`AI_MODEL` 环境变量；
+  支持 `AI_FALLBACK_*` 三个环境变量配置备用中转站，主力连续 3 次失败自动切换
+- `.github/workflows/daily-collect.yml`：workflow env 配了主力 + 备用 AI（key 从 secret 读）
 - `scripts/cloud_collector.py`：`CLOUD_PAGES` 11 条（华为云 3 + 阿里云 3 + 腾讯云 4 + 腾讯 WorkBuddy 1）
 
 ---
@@ -652,7 +661,7 @@ https://another.com/free-game # games
 1. 提取非 URL 的文本行（如 `Qoder现在每天领100积分，非常好用 #ai`）
 2. 解析 `#分类` 注释（可选）
 3. 调用 `_process_natural_language(desc, category, today)`：
-   a. 用 AI（deepseek-v3-2）理解自然语言描述
+   a. 用 AI（主力 deepseek-ai/DeepSeek-V3.2，失败自动切备用）理解自然语言描述
    b. AI 联网搜索该产品的免费福利/积分领取信息
    c. 返回结构化活动 JSON
 4. 将活动直接写入 `data/{category}/activities.json`
@@ -834,9 +843,20 @@ README 里「🛠 好用 Agent 工具」分区是**静态内容**，直接写在
 
 ## 20. 过期活动归档（自动）
 
-`finalize` 阶段自动把过期活动按月归档到 `docs/archive/YYYY-MM.md`，从 `activities.json` 移除。
+`finalize` 阶段自动把过期活动按月归档到 `docs/archive/YYYY-MM.md`，从 `activities.json` 移除，
+**保证已结束活动不出现在 README / SVG / 前端数据里**（README 统计区会显示「已归档：N 个」）。
 
-**工作原理**：`archive_expired()` 找出 `status=ended` 或 `end_date < 今天` 的活动 → 按月分组 → 写入 `docs/archive/YYYY-MM.md` → 从 `activities.json` 移除。
+**工作原理**（`collect.py archive_expired()`）：
+1. 找出 `status=ended` 或 `end_date < 今天` 的活动
+2. 写入归档索引 `docs/archive/index.json`（按 id 去重，持久保存全部历史归档）
+3. 用索引**全量重渲染**各月 `docs/archive/YYYY-MM.md`（防止旧实现「本批归档覆盖整月文件」丢历史）
+4. 从 `activities.json` 移除已归档条目
+
+**防回流**：`_merge_and_save()` 会丢弃 id 已在归档索引里的新抓条目——源站还挂着过期帖被
+重新抓到时直接丢弃，避免「抓回 → 归档」每天在数据里来回震荡。
+
+**兜底**：`calendar_generator.generate_readme()` 生成 README 时再过滤一次 `status=ended`，
+即使归档环节失败，已结束活动也不会出现在页面上。
 
 ## 21. 开发文档（交接文档）
 

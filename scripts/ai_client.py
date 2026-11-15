@@ -52,16 +52,26 @@ class AIClient:
     ) -> None:
         self.base_url = (base_url or env("AI_BASE_URL", "https://api.openai.com/v1")).rstrip("/")
         self.api_key = api_key or env("AI_API_KEY", required=True)
-        self.model = model or env("AI_MODEL", "gpt-4o-mini")
+        self.model = model or env("AI_MODEL", "deepseek-ai/DeepSeek-V3.2")
         self.timeout = timeout
+        # 备用中转站（可选）：主力连续失败（401/欠费/超时）时自动切换。
+        # 通过 AI_FALLBACK_BASE_URL / AI_FALLBACK_API_KEY / AI_FALLBACK_MODEL 配置。
+        self.fallback_base_url = env("AI_FALLBACK_BASE_URL", "").rstrip("/")
+        self.fallback_api_key = env("AI_FALLBACK_API_KEY", "")
+        self.fallback_model = env("AI_FALLBACK_MODEL", "")
         self.session = requests.Session()
-        self.session.headers.update(
-            {
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json",
-            }
-        )
+        self.session.headers.update({"Content-Type": "application/json"})
         self.rate_limiter = RateLimiter(max_requests=45, window_seconds=300)
+
+    def _providers(self) -> list[tuple[str, str, str, str]]:
+        """返回 [(base_url, api_key, model, 标签)]，主力在前、备用在后。"""
+        providers = [(self.base_url, self.api_key, self.model, "主力")]
+        if self.fallback_base_url and self.fallback_api_key:
+            providers.append(
+                (self.fallback_base_url, self.fallback_api_key,
+                 self.fallback_model or self.model, "备用")
+            )
+        return providers
 
     def chat(
         self,
@@ -73,35 +83,47 @@ class AIClient:
         tool_choice: Any = "auto",
         retries: int = 3,
     ) -> dict:
-        """调用 chat completions，返回原始响应 JSON。"""
-        url = f"{self.base_url}/chat/completions"
-        payload: dict[str, Any] = {
-            "model": self.model,
+        """调用 chat completions，返回原始响应 JSON。
+
+        主力中转站连续 retries 次失败后，自动换备用中转站再试 retries 次。
+        """
+        base_payload: dict[str, Any] = {
             "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens,
         }
         if tools:
-            payload["tools"] = tools
-            payload["tool_choice"] = tool_choice
+            base_payload["tools"] = tools
+            base_payload["tool_choice"] = tool_choice
 
         last_err = None
-        for attempt in range(1, retries + 1):
-            try:
-                self.rate_limiter.wait_if_needed()
-                resp = self.session.post(url, json=payload, timeout=self.timeout)
-                if resp.status_code == 429:
-                    wait = 5 * attempt
-                    log(f"限流 429，等待 {wait}s 后重试 ({attempt}/{retries})")
+        for base_url, api_key, model, label in self._providers():
+            payload = {**base_payload, "model": model}
+            headers = {"Authorization": f"Bearer {api_key}"}
+            for attempt in range(1, retries + 1):
+                try:
+                    self.rate_limiter.wait_if_needed()
+                    resp = self.session.post(
+                        f"{base_url}/chat/completions", json=payload,
+                        headers=headers, timeout=self.timeout,
+                    )
+                    if resp.status_code == 429:
+                        wait = 5 * attempt
+                        log(f"[{label}] 限流 429，等待 {wait}s 后重试 ({attempt}/{retries})")
+                        time.sleep(wait)
+                        continue
+                    resp.raise_for_status()
+                    if label == "备用":
+                        log(f"已切换到备用中转站成功（{base_url} / {model}）")
+                    return resp.json()
+                except Exception as e:
+                    last_err = e
+                    wait = 2 * attempt
+                    log(f"[{label}] AI 调用失败 ({attempt}/{retries}): {safe_text(e, 200)}", level="ERROR")
                     time.sleep(wait)
-                    continue
-                resp.raise_for_status()
-                return resp.json()
-            except Exception as e:
-                last_err = e
-                wait = 2 * attempt
-                log(f"AI 调用失败 ({attempt}/{retries}): {safe_text(e, 200)}", level="ERROR")
-                time.sleep(wait)
+            log(f"[{label}] 中转站连续 {retries} 次失败" +
+                ("，尝试下一个备用" if label == "主力" and len(self._providers()) > 1 else ""),
+                level="ERROR")
 
         raise RuntimeError(f"AI 调用最终失败: {last_err}")
 

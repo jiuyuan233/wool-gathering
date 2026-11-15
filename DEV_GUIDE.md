@@ -3,9 +3,9 @@
 > 本文档是给**接手开发的 AI 或人类**看的完整交接资料。包含项目全貌、架构设计、
 > 每个文件职责、AI 工作流程、用户画像、遗留问题和开发指南。
 > 
-> **最后更新**：2026-10-28
-> **当前 AI 模型**：deepseek-v3-2（ChatAnywhere 免费版）
-> **当前状态**：所有核心功能已实现，部分遗留问题待解决（见第 8 节）
+> **最后更新**：2026-11-15
+> **当前 AI 模型**：deepseek-ai/DeepSeek-V3.2（SiliconFlow 主力）+ deepseek-v3-2（ChatAnywhere 备用，失败自动切换）
+> **当前状态**：所有核心功能已实现；过期活动自动归档已接入 finalize（2026-11-15），遗留问题见第 8 节
 
 ---
 
@@ -41,7 +41,7 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
 ### 技术栈
 
 - **语言**：Python 3.11
-- **AI**：ChatAnywhere 中转站（OpenAI 兼容协议），模型 `deepseek-v3-2`
+- **AI**：SiliconFlow 中转站（OpenAI 兼容协议），模型 `deepseek-ai/DeepSeek-V3.2`；ChatAnywhere 作备用自动切换
 - **浏览器自动化**：Playwright（小黑盒 SPA 渲染）
 - **CI/CD**：GitHub Actions（6 个 cron 定时任务）
 - **数据存储**：JSON 文件（无数据库）
@@ -75,16 +75,16 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
      │              │              │
      ▼              ▼              ▼
 ┌──────────────────────────────────────────┐
-│          AI 抽取 (ai_client.py)           │
-│  网页内容 → AI 理解 → 结构化活动 JSON     │
-│  模型: deepseek-v3-2 (ChatAnywhere)       │
+│      AI 抽取 (ai_client.py，仅用于        │
+│  PENDING_URLS 自然语言理解，非主链路)      │
+│  模型: DeepSeek-V3.2 (SiliconFlow)        │
 └──────────────────┬───────────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────────┐
 │        dedup.py (去重 + 合并 + 状态)      │
 │  normalize_activity → merge → refresh_   │
-│  status → dedupe_within                  │
+│  status → dedupe_within（已归档 id 防回流）│
 └──────────────────┬───────────────────────┘
                    │
                    ▼
@@ -249,18 +249,20 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
 
 ### AI 在项目中的角色
 
-AI 负责理解网页内容并抽取薅羊毛活动。脚本抓取网页内容后喂给 AI，AI 返回结构化 JSON。
+AI 只负责 **PENDING_URLS.md 自然语言条目**的理解（用户写"Qoder每天领100积分"这类描述时，
+AI 解析成结构化活动）。抓取主链路（blog/cloud/direct collector）不走 AI，纯关键词规则解析，
+所以 AI 挂了不影响日常抓取。
 
 ### 调用链
 
 ```
-collect.py process_category()
-  → blog_collector.py collect_blog_activities()
-    → sources_manager.py fetch_source()  # 抓网页
-    → ai_client.py chat_json()           # 调 AI
-      → prompts.py build_extract_messages()  # 组装 prompt
-      → ChatAnywhere API (deepseek-v3-2)     # 实际调用
-    → 返回 JSON → 解析为活动列表
+collect.py process_pending_urls()          # finalize 阶段触发
+  → _process_natural_language(desc, ...)   # 仅自然语言行走这里
+    → ai_client.py chat_json()             # 调 AI
+      → prompts.py SYSTEM_PROMPT           # 组装 prompt
+      → SiliconFlow API (deepseek-ai/DeepSeek-V3.2)  # 主力
+        ↳ 连续 3 次失败自动切 ChatAnywhere (deepseek-v3-2)  # 备用
+    → 返回 JSON → 解析为活动列表 → 写入 data/{category}/activities.json
 ```
 
 ### AI 的输入输出
@@ -302,9 +304,11 @@ Qoder现在每天领100积分，非常好用 #ai
 
 ### AI 模型选择
 
-- **当前**：`deepseek-v3-2`（ChatAnywhere 免费版）
-- **已测试不可用**：`gpt-4o-mini`（返回 401 Unauthorized）
-- **限制**：免费版每周 50000 点 + 每天 100 次请求
+- **当前主力**：`deepseek-ai/DeepSeek-V3.2`（SiliconFlow，2026-11-15 实测可用，中文抽取强）
+- **备用**：`deepseek-v3-2`（ChatAnywhere），主力连续 3 次失败（401/欠费/超时）自动切换，
+  逻辑在 `ai_client.py` 的 `_providers()`/`chat()`
+- **已确认不可用**：ChatAnywhere 免费版 `gpt-4o-mini`（401）；2026-11 起 ChatAnywhere 免费版
+  连 `deepseek-v3-2` 也出现 401，故只作兜底
 - **速率限制**：代码里 RateLimiter 限制 45 次/5 分钟
 
 ---
@@ -530,16 +534,15 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 
 ### 问题 1：PENDING_URLS 自然语言处理依赖 AI 可用性
 
-**状态**：代码已实现，但 AI 调用失败时无法处理
+**状态**：已解决（2026-11-15）
 
 **详情**：
 - `_process_natural_language()` 用 AI 理解自然语言描述
-- 如果 AI 调用失败（如 401、限流），自然语言无法处理
-- 当前 deepseek-v3-2 可用，但能力有限，可能无法准确理解复杂描述
+- 已换主力模型 deepseek-ai/DeepSeek-V3.2（SiliconFlow），并支持备用中转站自动切换；
+  单次调用失败也有 try-except 兜底，不影响 finalize 其他环节
 
-**建议**：
-- 换更强的 AI 模型（需要 ChatAnywhere 支持）
-- 或增加 fallback：AI 失败时用关键词匹配创建简单活动
+**残留风险**：SiliconFlow 余额耗尽且 ChatAnywhere 仍 401 时，自然语言条目会处理失败并记录
+到「已处理」区，等待下次运行重试。
 
 ### 问题 2：小黑盒社区合集帖抓取效果待验证
 
@@ -557,16 +560,13 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 
 ### 问题 3：AI 调用失败导致 process_category 中断
 
-**状态**：潜在问题
+**状态**：已解决（核实：AI 不在抓取主链路上）
 
 **详情**：
-- `collect_blog_activities()` 调用 AI 抽取活动
-- 如果 AI 调用失败抛异常，可能导致 `process_category` 中断
-- `collect_heybox_community()`（不依赖 AI）可能没机会执行
-
-**建议**：
-- 在 `process_category` 里给 `collect_blog_activities` 加 try-except
-- 确保 AI 失败不影响非 AI 的收集逻辑
+- `collect_blog_activities()` / `collect_cloud_activities()` / `collect_games_category()`
+  均为纯关键词规则解析，**不调用 AI**，AI 故障不影响抓取
+- 唯一调 AI 的 `_process_natural_language()` 在 `process_pending_urls()` 里已被
+  try-except 包裹，失败只记录到「已处理」区，不中断流程
 
 ### 问题 4：Qoder 活动未出现在 SVG 日历
 
@@ -583,12 +583,12 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 
 ### 问题 5：gpt-4o-mini 在 ChatAnywhere 免费版不可用
 
-**状态**：已确认
+**状态**：已解决（2026-11-15 换到 SiliconFlow）
 
 **详情**：
-- 测试 gpt-4o-mini 返回 401 Unauthorized
-- ChatAnywhere 免费版可能只支持 deepseek 系列模型
-- 用户决定不换模型，继续用 deepseek-v3-2
+- 测试 gpt-4o-mini 返回 401 Unauthorized，ChatAnywhere 免费版只支持 deepseek 系列模型
+- 2026-11 起 ChatAnywhere 免费版连 deepseek-v3-2 也返回 401（PENDING_URLS 已处理区有失败记录）
+- **已换主力**：SiliconFlow `deepseek-ai/DeepSeek-V3.2`（实测 200 可用），ChatAnywhere 降为备用
 
 ### 问题 6：SVG 虚线 bug（已修复）
 
@@ -606,12 +606,13 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 ### 核心功能
 - [x] 6 个定时任务分时段自动收集
 - [x] 8 个分类的活动管理
-- [x] AI 抽取薅羊毛活动（deepseek-v3-2）
+- [x] AI 理解 PENDING_URLS 自然语言条目（DeepSeek-V3.2 主力 + ChatAnywhere 备用自动切换）
 - [x] 去重 + 合并 + 状态刷新
 - [x] SVG 甘特图日历（实线/虚线区分状态）
 - [x] README.md 自动生成
 - [x] docs/分类活动.md 自动生成
-- [x] 过期活动归档到 docs/archive/
+- [x] 过期活动自动归档到 docs/archive/（归档索引防丢 + 防回流，2026-11-15 接入 finalize）
+- [x] README 兜底过滤已结束活动
 - [x] PENDING_URLS.md 用户提交入口（URL + 自然语言）
 - [x] 小黑盒游戏打折抓取（Playwright）
 - [x] 小黑盒社区合集帖抓取（Playwright）
@@ -619,6 +620,15 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 - [x] Epic/Steam/GOG 官方 API
 - [x] V2EX 开车线报
 - [x] 博客/RSS 聚合
+
+### 近期修改（2026-11-15）
+- [x] archive_expired() 接入 finalize：279 条过期活动按月归档到 docs/archive/，README 不再显示已结束活动
+- [x] 归档索引 docs/archive/index.json 全量重渲染各月 .md，修复旧实现覆盖丢历史的问题
+- [x] _merge_and_save() 丢弃已归档 id，防止过期活动被源站重新抓回
+- [x] AI 主力换为 SiliconFlow deepseek-ai/DeepSeek-V3.2（原 ChatAnywhere 免费版 401 不可用）
+- [x] ai_client.py 支持备用中转站自动切换（AI_FALLBACK_* 环境变量）
+- [x] prompts.py 增加游戏标题中文译名规则（对接 AGENT.md 15.7）
+- [x] 文档同步（AGENT.md 第 13/20 节、DEV_GUIDE、本文件）
 
 ### 近期修改（2026-10-28）
 - [x] process_pending_urls() 支持自然语言输入
@@ -640,18 +650,21 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 ```yaml
 env:
   TZ: Asia/Shanghai
-  AI_BASE_URL: https://api.chatanywhere.org/v1
-  AI_API_KEY: ${{ secrets.AI_API_KEY }}  # GitHub Secret
-  AI_MODEL: deepseek-v3-2
+  AI_BASE_URL: https://api.siliconflow.cn/v1          # 主力 SiliconFlow
+  AI_API_KEY: ${{ secrets.AI_API_KEY }}               # GitHub Secret
+  AI_MODEL: deepseek-ai/DeepSeek-V3.2
+  AI_FALLBACK_BASE_URL: https://api.chatanywhere.org/v1  # 备用 ChatAnywhere
+  AI_FALLBACK_API_KEY: ${{ secrets.AI_FALLBACK_API_KEY }}
+  AI_FALLBACK_MODEL: deepseek-v3-2
 ```
 
 ### GitHub Secrets
 
 | Secret 名 | 说明 |
 |-----------|------|
-| AI_API_KEY | ChatAnywhere API key |
-| AI_BASE_URL | 中转站地址（已硬编码在 workflow 里） |
-| AI_MODEL | 模型名（已硬编码在 workflow 里） |
+| AI_API_KEY | SiliconFlow API key（主力） |
+| AI_FALLBACK_API_KEY | ChatAnywhere API key（备用） |
+| AI_BASE_URL / AI_MODEL | 已硬编码在 workflow 里 |
 
 ### 运行模式
 
