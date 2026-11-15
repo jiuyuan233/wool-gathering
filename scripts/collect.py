@@ -40,6 +40,7 @@ from utils import (
     DATA_DIR,
     load_json,
     log,
+    make_id,
     now_bj,
     safe_text,
     save_json,
@@ -75,14 +76,46 @@ def _guess_category_from_url(url: str) -> tuple[str, str]:
 
 
 
+def _archive_month_of(a: dict) -> str:
+    """归档月份键：end_date 优先，其次 start_date / discovered_at，都没有归 unknown。"""
+    for key in ("end_date", "start_date"):
+        v = a.get(key) or ""
+        if re.match(r"^\d{4}-\d{2}", v):
+            return v[:7]
+    m = re.match(r"^(\d{4}-\d{2})", a.get("discovered_at") or "")
+    return m.group(1) if m else "unknown"
+
+
+def archive_index_path():
+    """归档索引文件路径：docs/archive/index.json。"""
+    return DATA_DIR.parent / "docs" / "archive" / "index.json"
+
+
+def archived_ids() -> set:
+    """读归档索引，返回已归档活动 id 集合（索引缺失返回空集）。"""
+    index = load_json(archive_index_path()) or []
+    if not isinstance(index, list):
+        return set()
+    return {a.get("id", "") for a in index if isinstance(a, dict) and a.get("id")}
+
+
 def archive_expired() -> int:
-    """把过期活动按月归档到 docs/archive/YYYY-MM.md，从 activities.json 移除。"""
-    from datetime import date
+    """把过期活动按月归档到 docs/archive/YYYY-MM.md，从 activities.json 移除（AGENT.md 第 20 节）。
+
+    归档索引 docs/archive/index.json 持久保存所有已归档活动（按 id 去重），
+    每次运行用索引全量重渲染各月 .md——旧实现只写「本批归档」会把同月文件里
+    之前的历史条目覆盖掉，这里必须全量重建。
+    """
     from collections import defaultdict
-    today = date.today().isoformat()
+    today = today_bj().isoformat()
     archive_dir = DATA_DIR.parent / "docs" / "archive"
     archive_dir.mkdir(parents=True, exist_ok=True)
-    by_month = defaultdict(list)
+
+    index = load_json(archive_index_path()) or []
+    if not isinstance(index, list):
+        index = []
+    index_by_id = {a.get("id", ""): a for a in index if isinstance(a, dict) and a.get("id")}
+
     archived_count = 0
     for cat in CATEGORIES:
         path = DATA_DIR / cat / "activities.json"
@@ -92,44 +125,63 @@ def archive_expired() -> int:
             status = a.get("status", "")
             end = a.get("end_date", "")
             if status == "ended" or (end and end < today):
-                month = (end or a.get("start_date", "") or "unknown")[:7]
-                by_month[month].append((cat, a))
-                archived_count += 1
+                if not a.get("id"):
+                    a["id"] = make_id(a.get("title", ""), a.get("source_url", ""))
+                if a["id"] not in index_by_id:
+                    index_by_id[a["id"]] = a
+                    archived_count += 1
             else:
                 kept.append(a)
         if len(kept) < len(acts):
             save_json(path, kept)
-    if archived_count == 0:
+
+    if not index_by_id:
         log("无过期活动需归档")
         return 0
-    cat_names = {"ai":"AI/云服务","open-source":"开源工具","drive":"开车线报","games":"游戏喜加一","shopping":"购物优惠","video-vip":"视频会员","netdisk-vip":"网盘会员","game-discount":"游戏打折"}
-    cat_emojis = {"ai":"🤖","open-source":"🔓","drive":"🚗","games":"🎮","shopping":"🛒","video-vip":"📺","netdisk-vip":"💾","game-discount":"🏷️"}
-    for month, items in sorted(by_month.items()):
+
+    # 全量重建索引（按月份分组排序）+ 重渲染各月 .md（防同月文件被覆盖丢历史）
+    by_month = defaultdict(list)
+    for a in index_by_id.values():
+        by_month[_archive_month_of(a)].append(a)
+
+    cat_names = {"ai": "AI/云服务", "open-source": "开源工具", "drive": "开车线报", "games": "游戏喜加一",
+                 "shopping": "购物优惠", "video-vip": "视频会员", "netdisk-vip": "网盘会员", "game-discount": "游戏打折"}
+    cat_emojis = {"ai": "🤖", "open-source": "🔓", "drive": "🚗", "games": "🎮", "shopping": "🛒",
+                  "video-vip": "📺", "netdisk-vip": "💾", "game-discount": "🏷️"}
+
+    new_index = []
+    for month in sorted(by_month):
+        items = sorted(by_month[month], key=lambda a: a.get("end_date") or a.get("start_date") or "")
+        new_index.extend(items)
+
         archive_path = archive_dir / f"{month}.md"
+        title = f"{month[:4]}年{int(month[5:7])}月归档" if re.match(r"^\d{4}-\d{2}$", month) else "未知月份归档"
         by_cat = defaultdict(list)
-        for cat, act in items:
-            by_cat[cat].append(act)
-        lines = [f"# {month[:4]}年{int(month[5:7])}月归档", "", "> 已过期的活动归档，从主页面移除。", ""]
+        for a in items:
+            by_cat.setdefault(a.get("category", ""), []).append(a)
+        lines = [f"# {title}", "", "> 已过期的活动归档，从主页面移除。", ""]
         for cat in CATEGORIES:
             cat_acts = by_cat.get(cat, [])
             if not cat_acts:
                 continue
-            lines.append(f"## {cat_emojis.get(cat,'📋')} {cat_names.get(cat,cat)}")
+            lines.append(f"## {cat_emojis.get(cat, '📋')} {cat_names.get(cat, cat)}")
             lines.append("")
             lines.append("| 活动 | 福利 | 时间 | 来源 |")
             lines.append("|------|------|------|------|")
             for a in cat_acts:
-                title = a.get("title", "").replace("|", "\|")
-                value = (a.get("value") or "—").replace("|", "\|")
-                start = a.get("start_date", "?")
-                end = a.get("end_date", "?")
+                t = a.get("title", "").replace("|", "\\|")
+                value = (a.get("value") or "—").replace("|", "\\|")
+                start = a.get("start_date") or "?"
+                end = a.get("end_date") or "?"
                 url = a.get("source_url", "") or a.get("claim_url", "")
                 link = f"[链接]({url})" if url else "—"
-                lines.append(f"| {title} | {value} | {start} ~ {end} | {link} |")
+                lines.append(f"| {t} | {value} | {start} ~ {end} | {link} |")
             lines.append("")
         archive_path.write_text("\n".join(lines), encoding="utf-8")
         log(f"归档 {month}: {len(items)} 条")
-    log(f"归档完成: 共 {archived_count} 条")
+
+    save_json(archive_index_path(), new_index)
+    log(f"归档完成: 本次新增 {archived_count} 条，索引共 {len(new_index)} 条")
     return archived_count
 
 
@@ -360,6 +412,12 @@ def _merge_and_save(category: str, new_acts: list[dict], today) -> None:
     old_path = DATA_DIR / category / "activities.json"
     old = load_json(old_path) or []
 
+    # 已归档的活动不再回流：源站还挂着过期帖时会被重新抓到，直接丢弃，
+    # 避免「抓回 → 归档」每天在数据里来回震荡
+    dead_ids = archived_ids()
+    if dead_ids:
+        new_acts = [a for a in new_acts if a.get("id") not in dead_ids]
+
     new_acts = dedupe_within(new_acts)
 
     # 云厂商活动是长期活动：同 id 条目用新 end_date 刷新旧数据
@@ -459,7 +517,7 @@ def process_category(category: str, subset: str = "all") -> int:
 
 
 def finalize() -> int:
-    """整理阶段：生成 SVG 日历 + 前端数据 + README。"""
+    """整理阶段：归档过期活动 + 生成 SVG 日历 + 前端数据 + README。"""
     log("=" * 60)
     log("开始每日整理")
     log(f"运行时间: {now_bj().isoformat()}")
@@ -478,6 +536,11 @@ def finalize() -> int:
         save_json(path, data)
         active = sum(1 for a in data if a["status"] == "active")
         log(f"[{cat}] 当前共 {len(data)} 条（active={active}）")
+
+    # 过期活动归档（AGENT.md 第 20 节）：必须在生成 README/SVG/前端数据之前执行，
+    # 保证已结束活动从所有产物里消失（README 只看进行中和即将开始的）
+    log("归档过期活动...")
+    archive_expired()
 
     # 生成前端数据
     log("生成前端数据...")

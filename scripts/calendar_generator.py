@@ -182,14 +182,27 @@ def _guess_pages_url() -> str:
     return "https://<your-username>.github.io/wool-gathering/"
 
 
+def _archived_count() -> int:
+    """读归档索引，统计已归档（过期）活动总数。"""
+    data = load_json(REPO_ROOT / "docs" / "archive" / "index.json") or []
+    return len(data) if isinstance(data, list) else 0
+
+
 def generate_readme() -> None:
     """读取 scripts/readme_template.md，替换占位符后写入 README.md。
 
     分类活动按两大超级分区组织：
     - 🆓 纯免费（open-source + games + drive）：完全免费、0 元可领取
     - 💰 打折优惠（ai + shopping + video-vip + netdisk-vip + game-discount）：有折扣但仍需付费
+
+    已结束（ended）活动不进 README：finalize 阶段 archive_expired() 会把它们归档到
+    docs/archive/，这里再兜底过滤一次，即使归档失败也不会出现在页面上。
     """
-    acts = _all_activities()
+    all_acts = _all_activities()
+    ended_count = sum(1 for a in all_acts if a["status"] == "ended")
+    if ended_count:
+        log(f"过滤 {ended_count} 条已结束活动，不进 README")
+    acts = [a for a in all_acts if a["status"] != "ended"]
     active = [a for a in acts if a["status"] == "active"]
     upcoming = [a for a in acts if a["status"] == "upcoming"]
 
@@ -245,6 +258,7 @@ def generate_readme() -> None:
         .replace("{{ACTIVE_COUNT}}", str(len(active)))
         .replace("{{UPCOMING_COUNT}}", str(len(upcoming)))
         .replace("{{TOTAL_COUNT}}", str(len(acts)))
+        .replace("{{ARCHIVED_COUNT}}", str(_archived_count()))
         .replace("{{SECTIONS}}", body)
     )
     (REPO_ROOT / "README.md").write_text(readme, encoding="utf-8")
