@@ -20,7 +20,7 @@ import urllib.parse
 import urllib.request
 from datetime import timedelta
 
-from utils import log, today_bj
+from utils import log, safe_text, today_bj
 
 
 # 完整浏览器头（避免被反爬拦截）
@@ -604,7 +604,7 @@ def collect_heybox_discounts() -> list[dict]:
     from pathlib import Path
     sources_path = Path(__file__).parent.parent / "data" / "sources.json"
     try:
-        with open(sources_path) as f:
+        with open(sources_path, encoding="utf-8") as f:
             all_sources = _json.load(f)
     except Exception:
         all_sources = []
@@ -629,7 +629,12 @@ def collect_heybox_discounts() -> list[dict]:
             log(f"  渲染 {name}: {url[:60]}")
             try:
                 page = browser.new_page()
-                page.goto(url, wait_until="networkidle", timeout=30000)
+                # goto 失败（如 SPA 偶发 30s 超时）重试一次，失败才跳过
+                try:
+                    page.goto(url, wait_until="networkidle", timeout=30000)
+                except Exception:
+                    log(f"  {name} 首次渲染超时，重试一次...")
+                    page.goto(url, wait_until="networkidle", timeout=30000)
                 page.wait_for_timeout(3000)
                 title = page.title()
                 content = page.inner_text("body")
@@ -701,12 +706,56 @@ if __name__ == "__main__":
         print(f"  {a['title'][:50]} -> {a['source_url'][:60]}")
 
 
+
+# ─────────────────────── 小黑盒社区渲染（进程级缓存） ───────────────────────
+# url -> posts 列表（或 None=本次进程内渲染失败）。mode=all 顺序跑 8 个分类时
+# 只渲染一次同一页面，其余分类直接复用（此前占总时长近 80%）。
+_COMMUNITY_RENDER_CACHE: dict = {}
+
+
+def _render_community_posts(browser, url: str) -> list[dict] | None:
+    """渲染小黑盒社区页并提取帖子标题/链接列表；失败抛异常（由调用方记 WARN 并缓存）。"""
+    page = browser.new_page()
+    try:
+        page.goto(url, wait_until="networkidle", timeout=30000)
+        page.wait_for_timeout(3000)
+
+        # 提取帖子标题和链接（用 DOM 查询）
+        posts: list[dict] = []
+        try:
+            posts = page.eval_on_selector_all(
+                "a",
+                """els => els.map(e => ({
+                    title: (e.innerText || e.textContent || '').trim(),
+                    url: e.href,
+                })).filter(p => p.title.length > 8 && p.url.includes('xiaoheihe') && !p.url.includes('bbs/home'))"""
+            )
+        except Exception:
+            pass
+
+        # 如果 DOM 查询没结果，退而求其次从文本提取
+        if not posts:
+            content_text = page.inner_text("body")
+            for line in content_text.splitlines():
+                line = line.strip()
+                if len(line) > 10 and len(line) < 200:
+                    posts.append({"title": line, "url": url})
+
+        return posts
+    finally:
+        page.close()
+
+
 def collect_heybox_community(category: str) -> list[dict]:
     """从小黑盒社区找"整理合集"帖子，提取帖子链接和持续时间。
 
     用户要求：在小黑盒找人家整理好的集合帖子，
     把帖子链接放到 README，持续时间按帖子里写的。
     不再把每条线报拆开抓，而是一个合集帖 = 一个活动。
+
+    性能：同一进程内（如 mode=all 顺序跑 8 个分类）对同一 URL 的渲染结果做缓存，
+    避免 8 个分类各自重新 Playwright 渲染同一页面（曾占总时长近 80%）。
+    缓存存活期 = 本次进程；渲染失败也缓存（None），同一次运行内不再重复等 30s 超时。
     """
     log(f"--- 小黑盒社区合集帖聚合器 [{category}] ---")
     all_acts: list[dict] = []
@@ -716,7 +765,7 @@ def collect_heybox_community(category: str) -> list[dict]:
     from pathlib import Path
     sources_path = Path(__file__).parent.parent / "data" / "sources.json"
     try:
-        with open(sources_path) as f:
+        with open(sources_path, encoding="utf-8") as f:
             all_sources = _json.load(f)
     except Exception:
         all_sources = []
@@ -751,91 +800,78 @@ def collect_heybox_community(category: str) -> list[dict]:
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
+        log("  Playwright 未安装，跳过小黑盒社区抓取", level="WARN")
         return all_acts
 
     from datetime import date
     today = date.today()
 
+    # 进程级渲染缓存：url -> posts 列表；None = 本次进程内已失败过（不再重复等 30s 超时）
+    global _COMMUNITY_RENDER_CACHE
+    browser = None  # 惰性启动：全部源命中缓存时不起浏览器
+    seen_titles = set()  # 跨源去重：8 个 community 源常是同一 URL，同标题只收一次
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
         for src in community_sources:
             url = src["url"]
-            try:
-                page = browser.new_page()
-                page.goto(url, wait_until="networkidle", timeout=30000)
-                page.wait_for_timeout(3000)
-
-                # 提取帖子标题和链接（用 DOM 查询）
-                posts = []
+            if url in _COMMUNITY_RENDER_CACHE:
+                posts = _COMMUNITY_RENDER_CACHE[url]
+            else:
+                if browser is None:
+                    browser = p.chromium.launch(headless=True)
                 try:
-                    posts = page.eval_on_selector_all(
-                        "a",
-                        """els => els.map(e => ({
-                            title: (e.innerText || e.textContent || '').trim(),
-                            url: e.href,
-                        })).filter(p => p.title.length > 8 && p.url.includes('xiaoheihe') && !p.url.includes('bbs/home'))"""
-                    )
-                except Exception:
-                    pass
+                    posts = _render_community_posts(browser, url)
+                except Exception as e:
+                    log(f"  {src.get('name', url)[:30]} 渲染失败: {safe_text(e, 120)}", level="WARN")
+                    posts = None
+                _COMMUNITY_RENDER_CACHE[url] = posts
+            if not posts:
+                log(f"  {src.get('name', url)[:30]}: 无帖子（渲染失败或页面为空）" if posts is None
+                    else f"  {src.get('name', url)[:30]}: 命中本进程渲染缓存（0 条帖子）")
+                continue
 
-                # 如果 DOM 查询没结果，退而求其次从文本提取
-                if not posts:
-                    content_text = page.inner_text("body")
-                    for line in content_text.split("\n"):
-                        line = line.strip()
-                        if len(line) > 10 and len(line) < 200:
-                            posts.append({"title": line, "url": url})
+            log(f"  {src.get('name', url)[:30]}: 复用 {len(posts)} 条帖子，按 [{category}] 关键词过滤")
+            for post in posts:
+                title = post.get("title", "").strip()
+                post_url = post.get("url", "").strip()
 
-                page.close()
-
-                if not posts:
+                if title in seen_titles:
+                    continue
+                if len(title) < 10 or len(title) > 200:
                     continue
 
-                # 去重（同标题只保留一条）
-                seen_titles = set()
-                for post in posts:
-                    title = post.get("title", "").strip()
-                    post_url = post.get("url", "").strip()
+                # 按分类关键词过滤
+                if not any(k.lower() in title.lower() for k in keywords):
+                    continue
+                # 必须包含活动词
+                if not any(w in title for w in ACTIVITY_WORDS):
+                    continue
 
-                    if title in seen_titles:
-                        continue
-                    if len(title) < 10 or len(title) > 200:
-                        continue
+                seen_titles.add(title)
 
-                    # 按分类关键词过滤
-                    if not any(k.lower() in title.lower() for k in keywords):
-                        continue
-                    # 必须包含活动词
-                    if not any(w in title for w in ACTIVITY_WORDS):
-                        continue
+                # 判断是否合集帖
+                is_collection = any(w in title for w in COLLECTION_WORDS)
 
-                    seen_titles.add(title)
+                act = {
+                    "title": title[:100],
+                    "category": category,
+                    "source_url": post_url or url,
+                    "claim_url": post_url or url,
+                    "start_date": today.isoformat(),
+                    "end_date": "",
+                    "value": "",
+                    "requirements": [],
+                    "description": f"小黑盒社区{'合集帖' if is_collection else '帖子'} | {category}",
+                    "tags": ["小黑盒", category] + (["合集"] if is_collection else []),
+                    "discovered_at": today.isoformat() + "T00:00:00.000000+08:00",
+                    "last_seen": today.isoformat(),
+                    "status": "active",
+                }
+                all_acts.append(act)
 
-                    # 判断是否合集帖
-                    is_collection = any(w in title for w in COLLECTION_WORDS)
+        if browser is not None:
+            browser.close()
 
-                    act = {
-                        "title": title[:100],
-                        "category": category,
-                        "source_url": post_url or url,
-                        "claim_url": post_url or url,
-                        "start_date": today.isoformat(),
-                        "end_date": "",
-                        "value": "",
-                        "requirements": [],
-                        "description": f"小黑盒社区{'合集帖' if is_collection else '帖子'} | {category}",
-                        "tags": ["小黑盒", category] + (["合集"] if is_collection else []),
-                        "discovered_at": today.isoformat() + "T00:00:00.000000+08:00",
-                        "last_seen": today.isoformat(),
-                        "status": "active",
-                    }
-                    all_acts.append(act)
-
-                if all_acts:
-                    log(f"  小黑盒社区 [{category}]: 提取 {len(all_acts)} 条合集帖/活动帖")
-            except Exception as e:
-                log(f"  小黑盒社区渲染失败: {e}", level="WARN")
-        browser.close()
-
+    if all_acts:
+        log(f"  小黑盒社区 [{category}]: 提取 {len(all_acts)} 条合集帖/活动帖")
     return all_acts
 
