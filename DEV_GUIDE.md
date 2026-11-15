@@ -4,7 +4,7 @@
 > 每个文件职责、AI 工作流程、用户画像、遗留问题和开发指南。
 > 
 > **最后更新**：2026-11-15
-> **当前 AI 模型**：deepseek-ai/DeepSeek-V3.2（SiliconFlow 主力）+ deepseek-v3-2（ChatAnywhere 备用，失败自动切换）
+> **当前 AI 模型**：gpt-6.1-sol（ChatAnywhere 主力）+ deepseek-ai/DeepSeek-V3.2（SiliconFlow 备用，失败自动切换）
 > **当前状态**：所有核心功能已实现；过期活动自动归档已接入 finalize（2026-11-15），遗留问题见第 8 节
 
 ---
@@ -41,7 +41,7 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
 ### 技术栈
 
 - **语言**：Python 3.11
-- **AI**：SiliconFlow 中转站（OpenAI 兼容协议），模型 `deepseek-ai/DeepSeek-V3.2`；ChatAnywhere 作备用自动切换
+- **AI**：ChatAnywhere 中转站（OpenAI 兼容协议），模型 `gpt-6.1-sol`；SiliconFlow DeepSeek-V3.2 作备用自动切换
 - **浏览器自动化**：Playwright（小黑盒 SPA 渲染）
 - **CI/CD**：GitHub Actions（6 个 cron 定时任务）
 - **数据存储**：JSON 文件（无数据库）
@@ -77,7 +77,7 @@ GitHub Actions 每天分六个时段自动抓取 AI/云服务优惠、开源免�
 ┌──────────────────────────────────────────┐
 │      AI 抽取 (ai_client.py，仅用于        │
 │  PENDING_URLS 自然语言理解，非主链路)      │
-│  模型: DeepSeek-V3.2 (SiliconFlow)        │
+│  模型: gpt-6.1-sol (ChatAnywhere)         │
 └──────────────────┬───────────────────────┘
                    │
                    ▼
@@ -260,8 +260,8 @@ collect.py process_pending_urls()          # finalize 阶段触发
   → _process_natural_language(desc, ...)   # 仅自然语言行走这里
     → ai_client.py chat_json()             # 调 AI
       → prompts.py SYSTEM_PROMPT           # 组装 prompt
-      → SiliconFlow API (deepseek-ai/DeepSeek-V3.2)  # 主力
-        ↳ 连续 3 次失败自动切 ChatAnywhere (deepseek-v3-2)  # 备用
+      → ChatAnywhere API (gpt-6.1-sol)     # 主力，接入点 api.chatanywhere.tech
+        ↳ 连续 3 次失败自动切 SiliconFlow (deepseek-ai/DeepSeek-V3.2)  # 备用
     → 返回 JSON → 解析为活动列表 → 写入 data/{category}/activities.json
 ```
 
@@ -304,11 +304,13 @@ Qoder现在每天领100积分，非常好用 #ai
 
 ### AI 模型选择
 
-- **当前主力**：`deepseek-ai/DeepSeek-V3.2`（SiliconFlow，2026-11-15 实测可用，中文抽取强）
-- **备用**：`deepseek-v3-2`（ChatAnywhere），主力连续 3 次失败（401/欠费/超时）自动切换，
+- **当前主力**：`gpt-6.1-sol`（ChatAnywhere，2026-11-15 两轮实测：JSON 最干净、相对日期最准、
+  福利价值抓取最全；该 key 下 19 个模型可用，见 AGENT.md 13.1.1）
+- **备用**：`deepseek-ai/DeepSeek-V3.2`（SiliconFlow），主力连续 3 次失败（401/欠费/超时）自动切换，
   逻辑在 `ai_client.py` 的 `_providers()`/`chat()`
-- **已确认不可用**：ChatAnywhere 免费版 `gpt-4o-mini`（401）；2026-11 起 ChatAnywhere 免费版
-  连 `deepseek-v3-2` 也出现 401，故只作兜底
+- **历史坑**：旧 key 在 ChatAnywhere 免费版 401（gpt-4o-mini / deepseek-v3-2 均失败，见 PENDING_URLS
+  已处理区 2026-10-28 记录）；2026-11-15 换新 key 后 gpt 系/DeepSeek 系均正常。接入点 `.tech` 实测可达，
+  `.org` 从部分网络连不上（本地超时，GitHub runner 之前一直用 .org 也通）
 - **速率限制**：代码里 RateLimiter 限制 45 次/5 分钟
 
 ---
@@ -538,10 +540,10 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 
 **详情**：
 - `_process_natural_language()` 用 AI 理解自然语言描述
-- 已换主力模型 deepseek-ai/DeepSeek-V3.2（SiliconFlow），并支持备用中转站自动切换；
+- 已换主力模型 gpt-6.1-sol（ChatAnywhere 新 key，实测可用），并支持备用中转站自动切换；
   单次调用失败也有 try-except 兜底，不影响 finalize 其他环节
 
-**残留风险**：SiliconFlow 余额耗尽且 ChatAnywhere 仍 401 时，自然语言条目会处理失败并记录
+**残留风险**：ChatAnywhere 免费额度耗尽且 SiliconFlow 余额耗尽时，自然语言条目会处理失败并记录
 到「已处理」区，等待下次运行重试。
 
 ### 问题 2：小黑盒社区合集帖抓取效果待验证
@@ -583,12 +585,12 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 
 ### 问题 5：gpt-4o-mini 在 ChatAnywhere 免费版不可用
 
-**状态**：已解决（2026-11-15 换到 SiliconFlow）
+**状态**：已解决（2026-11-15 确认为旧 key 失效）
 
 **详情**：
-- 测试 gpt-4o-mini 返回 401 Unauthorized，ChatAnywhere 免费版只支持 deepseek 系列模型
-- 2026-11 起 ChatAnywhere 免费版连 deepseek-v3-2 也返回 401（PENDING_URLS 已处理区有失败记录）
-- **已换主力**：SiliconFlow `deepseek-ai/DeepSeek-V3.2`（实测 200 可用），ChatAnywhere 降为备用
+- 旧 key 测试 gpt-4o-mini 返回 401 Unauthorized，后来连 deepseek-v3-2 也 401（key 额度/权限问题）
+- 2026-11-15 换新 key 实测：gpt-4o-mini / gpt-4o / gpt-5 系 / gpt-6 系 / deepseek 系等 19 个模型全部可用
+- **当前主力**：ChatAnywhere `gpt-6.1-sol`；SiliconFlow DeepSeek-V3.2 跨服务商兜底
 
 ### 问题 6：SVG 虚线 bug（已修复）
 
@@ -625,8 +627,8 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 - [x] archive_expired() 接入 finalize：279 条过期活动按月归档到 docs/archive/，README 不再显示已结束活动
 - [x] 归档索引 docs/archive/index.json 全量重渲染各月 .md，修复旧实现覆盖丢历史的问题
 - [x] _merge_and_save() 丢弃已归档 id，防止过期活动被源站重新抓回
-- [x] AI 主力换为 SiliconFlow deepseek-ai/DeepSeek-V3.2（原 ChatAnywhere 免费版 401 不可用）
-- [x] ai_client.py 支持备用中转站自动切换（AI_FALLBACK_* 环境变量）
+- [x] AI 主力换为 ChatAnywhere gpt-6.1-sol（新 key 实测 19 个模型可用；旧 key 401 失效）
+- [x] ai_client.py 支持备用中转站自动切换（AI_FALLBACK_* 环境变量，SiliconFlow DeepSeek-V3.2 兜底）
 - [x] prompts.py 增加游戏标题中文译名规则（对接 AGENT.md 15.7）
 - [x] 文档同步（AGENT.md 第 13/20 节、DEV_GUIDE、本文件）
 
@@ -650,20 +652,20 @@ api_call('PUT', 'actions/secrets/SECRET_NAME', {
 ```yaml
 env:
   TZ: Asia/Shanghai
-  AI_BASE_URL: https://api.siliconflow.cn/v1          # 主力 SiliconFlow
-  AI_API_KEY: ${{ secrets.AI_API_KEY }}               # GitHub Secret
-  AI_MODEL: deepseek-ai/DeepSeek-V3.2
-  AI_FALLBACK_BASE_URL: https://api.chatanywhere.org/v1  # 备用 ChatAnywhere
+  AI_BASE_URL: https://api.chatanywhere.tech/v1          # 主力 ChatAnywhere
+  AI_API_KEY: ${{ secrets.AI_API_KEY }}                  # GitHub Secret
+  AI_MODEL: gpt-6.1-sol
+  AI_FALLBACK_BASE_URL: https://api.siliconflow.cn/v1    # 备用 SiliconFlow
   AI_FALLBACK_API_KEY: ${{ secrets.AI_FALLBACK_API_KEY }}
-  AI_FALLBACK_MODEL: deepseek-v3-2
+  AI_FALLBACK_MODEL: deepseek-ai/DeepSeek-V3.2
 ```
 
 ### GitHub Secrets
 
 | Secret 名 | 说明 |
 |-----------|------|
-| AI_API_KEY | SiliconFlow API key（主力） |
-| AI_FALLBACK_API_KEY | ChatAnywhere API key（备用） |
+| AI_API_KEY | ChatAnywhere API key（主力） |
+| AI_FALLBACK_API_KEY | SiliconFlow API key（备用） |
 | AI_BASE_URL / AI_MODEL | 已硬编码在 workflow 里 |
 
 ### 运行模式

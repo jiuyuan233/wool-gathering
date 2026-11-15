@@ -7,8 +7,9 @@
 - 归档索引 `docs/archive/index.json` 按 id 去重持久保存，每次全量重渲染各月 `.md`（修复旧实现本批覆盖整月、丢历史的问题）
 - 防回流：`_merge_and_save()` 丢弃已归档 id，过期帖被源站重新抓到时直接丢弃
 - README 兜底：`generate_readme()` 过滤 `status=ended`，归档失败也不会显示已结束活动；统计区新增「已归档：N 个」
-- **AI 更换**：主力 ChatAnywhere `deepseek-v3-2`（已 401 不可用）→ SiliconFlow `deepseek-ai/DeepSeek-V3.2`（实测可用，中文抽取更强）
-- `ai_client.py` 支持备用中转站：主力连续 3 次失败自动切 ChatAnywhere（`AI_FALLBACK_*` 环境变量 + 新 Secret `AI_FALLBACK_API_KEY`）
+- **AI 更换**：原 ChatAnywhere key 已 401 失效 → 换新 key 后主力用 ChatAnywhere `gpt-6.1-sol`
+  （实测 19 个模型可用，两轮抽取测试 JSON 最稳、相对日期最准）；SiliconFlow `deepseek-ai/DeepSeek-V3.2` 降为跨服务商备用
+- `ai_client.py` 支持备用中转站：主力连续 3 次失败自动切 SiliconFlow（`AI_FALLBACK_*` 环境变量 + 新 Secret `AI_FALLBACK_API_KEY`）
 - `prompts.py`：游戏标题中文译名规则进系统提示词（对接 AGENT.md 15.7，AI 创建游戏条目自动带翻译）
 - 文档同步：AGENT.md 第 13/16/20 节、DEV_GUIDE（调用链修正 + 遗留问题 1/3/5 关闭）
 

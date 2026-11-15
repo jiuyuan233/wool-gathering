@@ -403,25 +403,36 @@ $ git checkout -- README.md docs/        # 丢弃产物改动
 ## 13. AI 中转站配置与手动触发
 
 项目用 OpenAI 兼容协议的 AI 中转站辅助信息抽取（`scripts/ai_client.py`）。
-workflow 默认配置 **SiliconFlow DeepSeek-V3.2 为主力 + ChatAnywhere 为备用**，
+workflow 默认配置 **ChatAnywhere `gpt-6.1-sol` 为主力 + SiliconFlow DeepSeek-V3.2 为备用**，
 主力连续失败（401/欠费/超时）时自动切换备用。需配两个 GitHub Secret：`AI_API_KEY` 和 `AI_FALLBACK_API_KEY`。
 
 ### 13.1 当前配置（在 `.github/workflows/daily-collect.yml` 的 env 里）
 
 | 环境变量 | 值 | 说明 |
 |---------|-----|------|
-| `AI_BASE_URL` | `https://api.siliconflow.cn/v1` | 主力中转站 SiliconFlow |
+| `AI_BASE_URL` | `https://api.chatanywhere.tech/v1` | 主力中转站 ChatAnywhere 国内接入点（EdgeOne 全球 CDN，海外 runner 可达；备选 `.org`） |
 | `AI_API_KEY` | `${{ secrets.AI_API_KEY }}` | 主力 API Key，从 GitHub Secret 读，**不 commit 到代码** |
-| `AI_MODEL` | `deepseek-ai/DeepSeek-V3.2` | 主力模型：中文信息抽取强、价格低（2026-11-15 起启用） |
-| `AI_FALLBACK_BASE_URL` | `https://api.chatanywhere.org/v1` | 备用中转站 ChatAnywhere |
+| `AI_MODEL` | `gpt-6.1-sol` | 主力模型：2026-11-15 实测 JSON 最稳、相对日期最准（19 个可用模型中最优） |
+| `AI_FALLBACK_BASE_URL` | `https://api.siliconflow.cn/v1` | 备用中转站 SiliconFlow |
 | `AI_FALLBACK_API_KEY` | `${{ secrets.AI_FALLBACK_API_KEY }}` | 备用 API Key，从 GitHub Secret 读 |
-| `AI_FALLBACK_MODEL` | `deepseek-v3-2` | 备用模型 |
+| `AI_FALLBACK_MODEL` | `deepseek-ai/DeepSeek-V3.2` | 备用模型 |
+
+### 13.1.1 ChatAnywhere 可用模型实测（2026-11-15，key 实测通过）
+
+**可用（19 个）**：`gpt-6.1-sol` / `gpt-6.1-terra` / `gpt-6-sol` / `gpt-6-luna` / `gpt-6-astra` /
+`gpt-5.6-sol` / `gpt-5.6-luna` / `gpt-5.6-terra` / `gpt-5.5`* / `gpt-5.4-*`* / `gpt-5.2`* / `gpt-5.1` /
+`gpt-5` / `gpt-5-mini` / `gpt-4o` / `gpt-4o-mini` / `gpt-4.1` / `gpt-4.1-mini` / `gpt-3.5-turbo` /
+`deepseek-chat` / `deepseek-v3.2` / `deepseek-v4-pro` / `deepseek-v4.1-flash(-1017)`
+（带 * 的当时 503 负载高，可能间歇可用）
+
+**选型依据**：`gpt-6.1-sol` 两轮抽取测试 JSON 最干净（不裹代码块）、相对日期换算最准（"本周四"→具体日期）、
+福利价值抓取最全、token 消耗低。备选 `deepseek-v4.1-flash`（便宜省额度）、`gpt-5-mini`（轻量）。
 
 ### 13.2 配置 GitHub Secret（必须做，否则 AI 调用失败）
 
 1. 仓库 **Settings → Secrets and variables → Actions → New repository secret**
-2. Name 填 `AI_API_KEY`，Value 填主力 SiliconFlow API Key（形如 `sk-xxx`）
-3. 再加一条 Name 填 `AI_FALLBACK_API_KEY`，Value 填备用 ChatAnywhere API Key
+2. Name 填 `AI_API_KEY`，Value 填主力 ChatAnywhere API Key（形如 `sk-xxx`）
+3. 再加一条 Name 填 `AI_FALLBACK_API_KEY`，Value 填备用 SiliconFlow API Key
 4. 点 Add secret 保存。workflow 会自动读取，无需改代码。
 
 > fork 的仓库 secrets 不会从上游继承，必须自己配。
@@ -432,8 +443,8 @@ workflow 默认配置 **SiliconFlow DeepSeek-V3.2 为主力 + ChatAnywhere 为�
 
 | 中转站 | `AI_BASE_URL` | `AI_MODEL` | 说明 |
 |--------|---------------|------------|------|
-| SiliconFlow（当前主力） | `https://api.siliconflow.cn/v1` | `deepseek-ai/DeepSeek-V3.2` | 中文抽取强、价格低；模型列表见 `/v1/models` |
-| ChatAnywhere（当前备用） | `https://api.chatanywhere.org/v1` | `deepseek-v3-2` | 免费版每周 50000 点 + 每天 100 次；2026-11 起曾出现 401，故降级为备用 |
+| ChatAnywhere（当前主力） | `https://api.chatanywhere.tech/v1` | `gpt-6.1-sol` | 免费版每周 50000 点 + 每天 100 次；仅 PENDING_URLS 自然语言时调用，额度消耗极低 |
+| SiliconFlow（当前备用） | `https://api.siliconflow.cn/v1` | `deepseek-ai/DeepSeek-V3.2` | 按量付费，跨服务商兜底 |
 | DeepSeek 官方 | `https://api.deepseek.com/v1` | `deepseek-chat` | 便宜、中文好、有 function calling |
 | 智谱 BigModel | `https://open.bigmodel.cn/api/paas/v4` | `glm-4-flash` | 免费额度大 |
 | 通义千问 | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-turbo` | 阿里云百炼 |
@@ -450,10 +461,10 @@ workflow 默认配置 **SiliconFlow DeepSeek-V3.2 为主力 + ChatAnywhere 为�
 
 ### 13.5 中转站额度与调用频率
 
-- **SiliconFlow（主力）**：按量付费（账户余额），DeepSeek-V3.2 约 2 元/百万输入 token。AI 仅在
-  PENDING_URLS.md 有自然语言条目时才调用，日常为 0 次/天，余额消耗极慢；余额耗尽自动切备用
-- **ChatAnywhere（备用）**：免费版每周 50000 点 + 每天 100 次请求。2026-11 观察到 401，
-  只作降级兜底，不作主力
+- **ChatAnywhere（主力）**：免费版每周 50000 点 + 每天 100 次请求。AI 仅在 PENDING_URLS.md
+  有自然语言条目时才调用，日常为 0 次/天，额度消耗极低
+- **SiliconFlow（备用）**：按量付费（账户余额），DeepSeek-V3.2 约 2 元/百万输入 token；
+  仅主力连续失败时兜底
 - 抓取主链路（blog/cloud/direct collector）**不走 AI**，纯关键词规则解析，抓取不受 AI 额度影响
 
 ### 13.6 已收录的 AI 信息源
@@ -661,7 +672,7 @@ https://another.com/free-game # games
 1. 提取非 URL 的文本行（如 `Qoder现在每天领100积分，非常好用 #ai`）
 2. 解析 `#分类` 注释（可选）
 3. 调用 `_process_natural_language(desc, category, today)`：
-   a. 用 AI（主力 deepseek-ai/DeepSeek-V3.2，失败自动切备用）理解自然语言描述
+   a. 用 AI（主力 gpt-6.1-sol，失败自动切备用）理解自然语言描述
    b. AI 联网搜索该产品的免费福利/积分领取信息
    c. 返回结构化活动 JSON
 4. 将活动直接写入 `data/{category}/activities.json`

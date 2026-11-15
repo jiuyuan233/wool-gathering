@@ -52,7 +52,7 @@ class AIClient:
     ) -> None:
         self.base_url = (base_url or env("AI_BASE_URL", "https://api.openai.com/v1")).rstrip("/")
         self.api_key = api_key or env("AI_API_KEY", required=True)
-        self.model = model or env("AI_MODEL", "deepseek-ai/DeepSeek-V3.2")
+        self.model = model or env("AI_MODEL", "gpt-6.1-sol")
         self.timeout = timeout
         # 备用中转站（可选）：主力连续失败（401/欠费/超时）时自动切换。
         # 通过 AI_FALLBACK_BASE_URL / AI_FALLBACK_API_KEY / AI_FALLBACK_MODEL 配置。

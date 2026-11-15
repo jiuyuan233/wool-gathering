@@ -70,15 +70,16 @@ jobs:
       - name: 运行收集脚本
         env:
           TZ: Asia/Shanghai
-          # AI 主力：SiliconFlow DeepSeek-V3.2（中文信息抽取强，价格低，已验证可用）
-          # AI 备用：ChatAnywhere deepseek-v3-2——主力 401/欠费/超时连续失败时自动切换
+          # AI 主力：ChatAnywhere gpt-6.1-sol（2026-11-15 实测 19 个模型可用，此模型 JSON 最稳、相对日期最准）
+          #   国内接入点 .tech 为 EdgeOne 全球 CDN，海外 runner 实测可达；备选接入点 .org
+          # AI 备用：SiliconFlow DeepSeek-V3.2——主力连续失败时自动切换（跨服务商兜底）
           # 两个 API_KEY 都从 GitHub Secret 读（AI_API_KEY / AI_FALLBACK_API_KEY），不 commit 到代码
-          AI_BASE_URL: https://api.siliconflow.cn/v1
+          AI_BASE_URL: https://api.chatanywhere.tech/v1
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          AI_MODEL: deepseek-ai/DeepSeek-V3.2
-          AI_FALLBACK_BASE_URL: https://api.chatanywhere.org/v1
+          AI_MODEL: gpt-6.1-sol
+          AI_FALLBACK_BASE_URL: https://api.siliconflow.cn/v1
           AI_FALLBACK_API_KEY: ${{ secrets.AI_FALLBACK_API_KEY }}
-          AI_FALLBACK_MODEL: deepseek-v3-2
+          AI_FALLBACK_MODEL: deepseek-ai/DeepSeek-V3.2
         run: |
           python scripts/collect.py ${{ steps.mode.outputs.mode }}
 
