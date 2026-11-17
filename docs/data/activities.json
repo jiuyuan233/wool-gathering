@@ -17,9 +17,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-11-12",
     "status": "active",
-    "progress_pct": 93.3,
+    "progress_pct": 96.7,
     "total_days": 30,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "wps-ai-vip-plus-5a8782e5e4",
@@ -39,9 +39,9 @@
     "discovered_at": "2026-10-19",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 85.7,
+    "progress_pct": 88.6,
     "total_days": 35,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
@@ -61,9 +61,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 84.8,
+    "progress_pct": 87.9,
     "total_days": 33,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "b-plus-87eed4109c",
@@ -83,9 +83,9 @@
     "discovered_at": "2026-10-21",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 84.8,
+    "progress_pct": 87.9,
     "total_days": 33,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "ai-vip-587de366e7",
@@ -105,9 +105,9 @@
     "discovered_at": "2026-10-30",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 79.2,
+    "progress_pct": 83.3,
     "total_days": 24,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "codex-1-8-955473f3ff",
@@ -127,9 +127,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "instabox-4-8gb-linux-ai-agent-a5660cc687",
@@ -149,9 +149,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "codex-ba71f9703f",
@@ -171,9 +171,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "cloud_21e1f5e207cc",
@@ -193,9 +193,9 @@
     "discovered_at": "2026-10-19T11:37:08.835788+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_b9088095b507",
@@ -215,9 +215,9 @@
     "discovered_at": "2026-10-19T11:37:12.559443+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_e75f23a2006f",
@@ -237,9 +237,9 @@
     "discovered_at": "2026-10-19T13:16:14.748266+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_4d4fd319df26",
@@ -259,9 +259,9 @@
     "discovered_at": "2026-10-19T13:16:15.804000+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_3dfb1407dfbe",
@@ -281,9 +281,9 @@
     "discovered_at": "2026-10-19T13:16:18.485054+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_5cfd79b201c8",
@@ -303,9 +303,9 @@
     "discovered_at": "2026-10-19T13:16:22.768559+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_8ff1ec8d1772",
@@ -325,9 +325,9 @@
     "discovered_at": "2026-10-19T16:30:00+08:00",
     "last_seen": "2026-11-15",
     "requirements": [],
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_a6638bd2c0cc",
@@ -347,9 +347,9 @@
     "discovered_at": "2026-10-19T16:46:02.531627+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_4b7a798bd85e",
@@ -369,9 +369,9 @@
     "discovered_at": "2026-10-19T16:46:04.603884+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_8a5fcce5d067",
@@ -391,9 +391,9 @@
     "discovered_at": "2026-10-19T16:46:06.353735+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "cloud_e9c81e3c3f4a",
@@ -413,9 +413,9 @@
     "discovered_at": "2026-10-19T16:46:07.791323+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 51.7,
+    "progress_pct": 53.4,
     "total_days": 58,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "ai-agent-5cecfcac",
@@ -437,9 +437,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-190f2c96",
@@ -460,9 +460,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-4c4a355f",
@@ -483,9 +483,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-cee2957f",
@@ -507,9 +507,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-b1a16b4d",
@@ -530,9 +530,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-43916e68",
@@ -552,9 +552,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-183e2d4d",
@@ -575,9 +575,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-bfdfe2d9",
@@ -599,9 +599,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-6013aa86",
@@ -623,9 +623,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 40.5,
+    "progress_pct": 41.9,
     "total_days": 74,
-    "days_left": 44
+    "days_left": 43
   },
   {
     "id": "ai-agent-cefaaa69",
@@ -646,9 +646,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 7.1,
     "total_days": 439,
-    "days_left": 409
+    "days_left": 408
   },
   {
     "id": "ai-agent-1a83eebb",
@@ -670,9 +670,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 7.1,
     "total_days": 439,
-    "days_left": 409
+    "days_left": 408
   },
   {
     "id": "ai-agent-e66621c6",
@@ -693,9 +693,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 7.1,
     "total_days": 439,
-    "days_left": 409
+    "days_left": 408
   },
   {
     "id": "ai-agent-a983e290",
@@ -716,9 +716,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 7.1,
     "total_days": 439,
-    "days_left": 409
+    "days_left": 408
   },
   {
     "id": "ai-agent-fac0be86",
@@ -739,9 +739,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 7.1,
     "total_days": 439,
-    "days_left": 409
+    "days_left": 408
   },
   {
     "id": "ai-agent-af3a32c5",
@@ -763,9 +763,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 6.8,
+    "progress_pct": 7.1,
     "total_days": 439,
-    "days_left": 409
+    "days_left": 408
   },
   {
     "id": "zzzzzzzzzbv-lv-12-deepseek-qq-82106f31ac",
@@ -1668,9 +1668,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-12",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "-0ff19a19bc",
@@ -1690,9 +1690,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "lv-18-gta6-gta5-gta6-gta5-13-05cbe9d41a",
@@ -1783,974 +1783,6 @@
     "days_left": null
   },
   {
-    "id": "itch-io-tower-of-gold-d7aad5a8c0",
-    "title": "[itch.io] Tower Of Gold（限免）",
-    "category": "games",
-    "source_url": "https://remar-games.itch.io/tower-of-gold",
-    "claim_url": "https://remar-games.itch.io/tower-of-gold",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Tower Of Gold",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-how-to-date-a-sleep-p-64cfdd50b6",
-    "title": "[itch.io] How To Date A Sleep Paralysis Demon（限免）",
-    "category": "games",
-    "source_url": "https://sfour-s4.itch.io/how-to-date-a-sleep-paralysis-demon",
-    "claim_url": "https://sfour-s4.itch.io/how-to-date-a-sleep-paralysis-demon",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: How To Date A Sleep Paralysis Demon",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-seasonshift-d837f11072",
-    "title": "[itch.io] Seasonshift（限免）",
-    "category": "games",
-    "source_url": "https://emlise.itch.io/seasonshift",
-    "claim_url": "https://emlise.itch.io/seasonshift",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Seasonshift",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-votv-f261ceefc5",
-    "title": "[itch.io] Votv（限免）",
-    "category": "games",
-    "source_url": "https://mrdrnose.itch.io/votv",
-    "claim_url": "https://mrdrnose.itch.io/votv",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Votv",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-datingkillmulator-7900f2906c",
-    "title": "[itch.io] Datingkillmulator（限免）",
-    "category": "games",
-    "source_url": "https://coolom-games.itch.io/datingkillmulator",
-    "claim_url": "https://coolom-games.itch.io/datingkillmulator",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Datingkillmulator",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-guesthour-8bdf23acde",
-    "title": "[itch.io] Guesthour（限免）",
-    "category": "games",
-    "source_url": "https://mymadnessworks.itch.io/guesthour",
-    "claim_url": "https://mymadnessworks.itch.io/guesthour",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Guesthour",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-error143-0bdda4e80d",
-    "title": "[itch.io] Error143（限免）",
-    "category": "games",
-    "source_url": "https://jennyvipham.itch.io/error143",
-    "claim_url": "https://jennyvipham.itch.io/error143",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Error143",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-touchstarved-407d3f6e84",
-    "title": "[itch.io] Touchstarved（限免）",
-    "category": "games",
-    "source_url": "https://redspringstudio.itch.io/touchstarved",
-    "claim_url": "https://redspringstudio.itch.io/touchstarved",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Touchstarved",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-earth-regen-7d13d07430",
-    "title": "[itch.io] Earth Regen（限免）",
-    "category": "games",
-    "source_url": "https://disagreeg.itch.io/earth-regen",
-    "claim_url": "https://disagreeg.itch.io/earth-regen",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Earth Regen",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-to-eat-a-god-0c65485134",
-    "title": "[itch.io] To Eat A God（限免）",
-    "category": "games",
-    "source_url": "https://soffis-mbm.itch.io/to-eat-a-god",
-    "claim_url": "https://soffis-mbm.itch.io/to-eat-a-god",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: To Eat A God",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-14dayswithyou-7ed7170037",
-    "title": "[itch.io] 14dayswithyou（限免）",
-    "category": "games",
-    "source_url": "https://cutiesai.itch.io/14dayswithyou",
-    "claim_url": "https://cutiesai.itch.io/14dayswithyou",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: 14dayswithyou",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-the-freak-circus-72359aae4a",
-    "title": "[itch.io] The Freak Circus（限免）",
-    "category": "games",
-    "source_url": "https://garula.itch.io/the-freak-circus",
-    "claim_url": "https://garula.itch.io/the-freak-circus",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: The Freak Circus",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-creepydates-972ad81f8a",
-    "title": "[itch.io] Creepydates（限免）",
-    "category": "games",
-    "source_url": "https://hahadit.itch.io/creepydates",
-    "claim_url": "https://hahadit.itch.io/creepydates",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Creepydates",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-bleeding-f5735b7e5c",
-    "title": "[itch.io] Bleeding（限免）",
-    "category": "games",
-    "source_url": "https://depra.itch.io/bleeding",
-    "claim_url": "https://depra.itch.io/bleeding",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Bleeding",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-ddlc-b185bbf53e",
-    "title": "[itch.io] Ddlc（限免）",
-    "category": "games",
-    "source_url": "https://teamsalvato.itch.io/ddlc",
-    "claim_url": "https://teamsalvato.itch.io/ddlc",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Ddlc",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-mushroom-oasis-12efff9a82",
-    "title": "[itch.io] Mushroom Oasis（限免）",
-    "category": "games",
-    "source_url": "https://deerspherestudios.itch.io/mushroom-oasis",
-    "claim_url": "https://deerspherestudios.itch.io/mushroom-oasis",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Mushroom Oasis",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-u-dont-get-it-8e66082aad",
-    "title": "[itch.io] U Dont Get It（限免）",
-    "category": "games",
-    "source_url": "https://vhan-5.itch.io/u-dont-get-it",
-    "claim_url": "https://vhan-5.itch.io/u-dont-get-it",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: U Dont Get It",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-online-obsession-8ba34fffc9",
-    "title": "[itch.io] Online Obsession（限免）",
-    "category": "games",
-    "source_url": "https://sourmiiiilk.itch.io/online-obsession",
-    "claim_url": "https://sourmiiiilk.itch.io/online-obsession",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Online Obsession",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-mindustry-14eb20d23f",
-    "title": "[itch.io] Mindustry（限免）",
-    "category": "games",
-    "source_url": "https://anuke.itch.io/mindustry",
-    "claim_url": "https://anuke.itch.io/mindustry",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Mindustry",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-bigbaddogs-8ef50c9256",
-    "title": "[itch.io] Bigbaddogs（限免）",
-    "category": "games",
-    "source_url": "https://spar0w.itch.io/bigbaddogs",
-    "claim_url": "https://spar0w.itch.io/bigbaddogs",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Bigbaddogs",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-my-fiance-is-a-fiend-1fdb3ff227",
-    "title": "[itch.io] My Fiance Is A Fiend（限免）",
-    "category": "games",
-    "source_url": "https://akilargie.itch.io/my-fiance-is-a-fiend",
-    "claim_url": "https://akilargie.itch.io/my-fiance-is-a-fiend",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: My Fiance Is A Fiend",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-dont-eat-the-cashier-03b85eb15d",
-    "title": "[itch.io] Dont Eat The Cashier（限免）",
-    "category": "games",
-    "source_url": "https://detcc.itch.io/dont-eat-the-cashier",
-    "claim_url": "https://detcc.itch.io/dont-eat-the-cashier",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Dont Eat The Cashier",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-kingdom-of-marionette-11d2d7f000",
-    "title": "[itch.io] Kingdom Of Marionettes（限免）",
-    "category": "games",
-    "source_url": "https://thepipiw.itch.io/kingdom-of-marionettes",
-    "claim_url": "https://thepipiw.itch.io/kingdom-of-marionettes",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Kingdom Of Marionettes",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-kritsana-4bd5622f37",
-    "title": "[itch.io] Kritsana（限免）",
-    "category": "games",
-    "source_url": "https://debuz.itch.io/kritsana",
-    "claim_url": "https://debuz.itch.io/kritsana",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Kritsana",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-martin-no-filter-figh-bdcc4b1bbe",
-    "title": "[itch.io] Martin No Filter Fighters Unofficial Fan Game（限免）",
-    "category": "games",
-    "source_url": "https://trey2k23.itch.io/martin-no-filter-fighters-unofficial-fan-game",
-    "claim_url": "https://trey2k23.itch.io/martin-no-filter-fighters-unofficial-fan-game",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Martin No Filter Fighters Unofficial Fan Game",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-dressmaker-599878da1b",
-    "title": "[itch.io] Dressmaker（限免）",
-    "category": "games",
-    "source_url": "https://elyaradine.itch.io/dressmaker",
-    "claim_url": "https://elyaradine.itch.io/dressmaker",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Dressmaker",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-roam-3621b76e4a",
-    "title": "[itch.io] Roam（限免）",
-    "category": "games",
-    "source_url": "https://nso9019.itch.io/roam",
-    "claim_url": "https://nso9019.itch.io/roam",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Roam",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-obsession-cec1e827d3",
-    "title": "[itch.io] Obsession（限免）",
-    "category": "games",
-    "source_url": "https://selyk-alien.itch.io/obsession",
-    "claim_url": "https://selyk-alien.itch.io/obsession",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Obsession",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-gravekeepers-assistan-f36df93412",
-    "title": "[itch.io] Gravekeepers Assistant（限免）",
-    "category": "games",
-    "source_url": "https://tioomeow.itch.io/gravekeepers-assistant",
-    "claim_url": "https://tioomeow.itch.io/gravekeepers-assistant",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Gravekeepers Assistant",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-lookouts-046b930541",
-    "title": "[itch.io] Lookouts（限免）",
-    "category": "games",
-    "source_url": "https://paranoidhawk.itch.io/lookouts",
-    "claim_url": "https://paranoidhawk.itch.io/lookouts",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Lookouts",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-our-life-2dcaafb7fd",
-    "title": "[itch.io] Our Life（限免）",
-    "category": "games",
-    "source_url": "https://gbpatch.itch.io/our-life",
-    "claim_url": "https://gbpatch.itch.io/our-life",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Our Life",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-knee-deep-e046305f7b",
-    "title": "[itch.io] Knee Deep（限免）",
-    "category": "games",
-    "source_url": "https://comfortkuma.itch.io/knee-deep",
-    "claim_url": "https://comfortkuma.itch.io/knee-deep",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Knee Deep",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-the-devils-in-the-det-b66746e057",
-    "title": "[itch.io] The Devils In The Details（限免）",
-    "category": "games",
-    "source_url": "https://itsbumblebear.itch.io/the-devils-in-the-details",
-    "claim_url": "https://itsbumblebear.itch.io/the-devils-in-the-details",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: The Devils In The Details",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-behind-the-broadcast-0271ab22f4",
-    "title": "[itch.io] Behind The Broadcast（限免）",
-    "category": "games",
-    "source_url": "https://eliscz.itch.io/behind-the-broadcast",
-    "claim_url": "https://eliscz.itch.io/behind-the-broadcast",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Behind The Broadcast",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-our-life-nf-25744b38de",
-    "title": "[itch.io] Our Life Nf（限免）",
-    "category": "games",
-    "source_url": "https://gbpatch.itch.io/our-life-nf",
-    "claim_url": "https://gbpatch.itch.io/our-life-nf",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Our Life Nf",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "exiled-giveaways-and-itch-io-m-468bf53699",
-    "title": "Exiled Giveaways and Itch.io Mega Threads（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xryqdy/exiled_giveaways_and_itchio_mega_threads/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xryqdy/exiled_giveaways_and_itchio_mega_threads/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-freestyle-2-street-e78b2c34b0",
-    "title": "[Steam] (Game) Freestyle 2: Street Basketball（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xs1i3q/steam_game_freestyle_2_street_basketball/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xs1i3q/steam_game_freestyle_2_street_basketball/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-sadball-reddit-fre-056630c3fd",
-    "title": "[Steam] (Game) Sadball（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xrryk1/steam_game_sadball/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xrryk1/steam_game_sadball/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-demon-sighting-red-1355705246",
-    "title": "[Steam] (Game) Demon Sighting（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xqgtz3/steam_game_demon_sighting/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xqgtz3/steam_game_demon_sighting/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-ammerow-lands-beyo-ac07527f00",
-    "title": "[Steam] (Game) Ammerow: Lands Beyond（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xpxi4s/steam_game_ammerow_lands_beyond/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xpxi4s/steam_game_ammerow_lands_beyond/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-growtopia-reddit-f-96b2c798d0",
-    "title": "[Steam] (Game) Growtopia（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xpcoc1/steam_game_growtopia/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xpcoc1/steam_game_growtopia/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-12",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-missile-input-redd-d7aaa8ca6b",
-    "title": "[Steam] (Game) Missile Input（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xpcq35/steam_game_missile_input/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xpcq35/steam_game_missile_input/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-12",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-stickman-killing-z-2b453292c3",
-    "title": "[Steam] (Game) Stickman Killing Zombie（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xqbtcs/steam_game_stickman_killing_zombie/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xqbtcs/steam_game_stickman_killing_zombie/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-12",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-sorcerer-adventure-d78ab4e714",
-    "title": "[Steam] (Game) Sorcerer Adventure（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xpr5x7/steam_game_sorcerer_adventure/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xpr5x7/steam_game_sorcerer_adventure/",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-17",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-10",
-    "last_seen": "2026-11-10",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
     "id": "itch-io-goodboy-galaxy-gba-94b1370b76",
     "title": "[itch.io] Goodboy Galaxy Gba（限免）",
     "category": "games",
@@ -2768,9 +1800,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-imperial-grace-45baee0d71",
@@ -2790,9 +1822,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-backrooms-crawlers-71dbf303c6",
@@ -2812,9 +1844,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-the-last-laugh-db38619b64",
@@ -2834,9 +1866,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-boxroom-01b1ec81a5",
@@ -2856,9 +1888,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-12",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-one-night-stand-0f91dffe3d",
@@ -2878,9 +1910,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-12",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-lock-and-key-12fa41fa1e",
@@ -2900,9 +1932,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-its-not-human-2d26b6deb4",
@@ -2922,9 +1954,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-dont-fix-her-pipes-396d7fcf8f",
@@ -2944,9 +1976,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-christmas-in-our-fear-b2d90f2a2f",
@@ -2966,9 +1998,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-bloodwash-f63bb3e4bc",
@@ -2988,9 +2020,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-12",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-fox-stamps-8163e92f94",
@@ -3010,9 +2042,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-kill-the-creator-9b8845d084",
@@ -3032,9 +2064,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-afterparty-16ba68c002",
@@ -3054,9 +2086,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-ghostsn-demons-229bafa9d3",
@@ -3076,9 +2108,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "itch-io-lord-of-chaos-798434378a",
@@ -3098,9 +2130,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "steam-game-mail-mole-reddit-f-02cb813722",
@@ -3120,9 +2152,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "steam-game-the-spell-brigade-c2f250218f",
@@ -3142,9 +2174,9 @@
     "discovered_at": "2026-11-12",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "epic-knightica-8115abff72",
@@ -3161,9 +2193,9 @@
     "discovered_at": "2026-11-15T11:43:20.180279+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 75.0,
+    "progress_pct": 87.5,
     "total_days": 8,
-    "days_left": 2
+    "days_left": 1
   },
   {
     "id": "epic-knightica-141961a3a6",
@@ -3183,9 +2215,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-3d-sadball-947c3e567b",
@@ -3205,9 +2237,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-gmh-good-morning-human-915355f3ac",
@@ -3227,9 +2259,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-2deb26e8e4",
@@ -3249,9 +2281,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-12-2-5ba57aa069",
@@ -3271,9 +2303,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-epic-world-hunt-for-quest-63c6c116d5",
@@ -3293,9 +2325,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-quiztopia-the-ultimate-tr-5ac52d758a",
@@ -3315,9 +2347,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-gladiator-blades-of-fury-36f455290b",
@@ -3337,9 +2369,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "gog-a-new-beginning-final-cut-2957e11ee4",
@@ -3359,9 +2391,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-42-asleep-act-1-10f188c568",
@@ -3381,9 +2413,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-colleccct-ae62a80a88",
@@ -3403,9 +2435,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-autumn-s-end-part-1-9196be8569",
@@ -3425,9 +2457,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-2faa03c602",
@@ -3447,9 +2479,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-mafia-hotel-36ce9b3103",
@@ -3469,9 +2501,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-2d-depths-unseen-d9daec2101",
@@ -3491,9 +2523,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-radiant-exodus-8bf55b8281",
@@ -3513,9 +2545,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-terraspace-76aa8c641f",
@@ -3535,9 +2567,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-1280c36156",
@@ -3557,9 +2589,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-3d-gethigh-exe-1b848625c9",
@@ -3579,9 +2611,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-agent-a-35f01332cd",
@@ -3601,9 +2633,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-game-store-knightica-a6905b3d09",
@@ -3623,9 +2655,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-sword-sceptre-64-590a039be4",
@@ -3645,9 +2677,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-psychonauts-ece81e3ed2",
@@ -3667,9 +2699,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-microlandia-b121dfd0e7",
@@ -3689,9 +2721,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-chasing-winds-d4955e7653",
@@ -3711,9 +2743,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-paicom-premium-e9837858c8",
@@ -3733,9 +2765,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-faintedmemories-89a30a2d0d",
@@ -3755,9 +2787,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "stove-game-big-deal-big-star-f31f300350",
@@ -3777,9 +2809,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-game-itching-for-games-3-8055bafb54",
@@ -3799,9 +2831,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-games-game-knightica-red-a3a07d340d",
@@ -3821,9 +2853,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "epic-games-mobile-game-knight-6bf51694dd",
@@ -3843,9 +2875,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "psa-jurassic-world-evolution-5bb2b44789",
@@ -3865,9 +2897,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-game-ancient-warrior-re-2483c127cd",
@@ -3887,9 +2919,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "steam-game-catto-pew-pew-og-e-0b6f12b14a",
@@ -3909,9 +2941,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-the-bunker-3c6c8c50e8",
@@ -3931,9 +2963,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "bug-lv-10-steam-steam-steam-10-fde4953f58",
@@ -4085,7 +3117,7 @@
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 8,
-    "days_left": 9
+    "days_left": 8
   },
   {
     "id": "epic-mark-of-the-deep-67dd377767",
@@ -4104,7 +3136,7 @@
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 8,
-    "days_left": 9
+    "days_left": 8
   },
   {
     "id": "epic-terrascape-f2be507133",
@@ -4123,7 +3155,7 @@
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 31,
-    "days_left": 34
+    "days_left": 33
   },
   {
     "id": "epic-2-c44c4e8654",
@@ -4142,7 +3174,7 @@
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 29,
-    "days_left": 51
+    "days_left": 50
   },
   {
     "id": "11-150-6-adguard-typora-pixpi-a19ebcff54",
@@ -4162,9 +3194,9 @@
     "discovered_at": "2026-11-15",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "lv-17-10-27-68-galgame-4f626db50b",
