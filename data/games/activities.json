@@ -15,7 +15,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -34,7 +34,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -129,7 +129,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -148,7 +148,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -186,7 +186,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -243,7 +243,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -281,7 +281,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -300,7 +300,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-12",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -753,7 +753,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -772,7 +772,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -791,7 +791,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -810,7 +810,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -1019,7 +1019,121 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-18",
+    "status": "active"
+  },
+  {
+    "id": "epic-game-store-contractor-th-3078887408",
+    "title": "[Epic Game Store] contractor-the-clean-up-part-ii（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/contractor-the-clean-up-part-ii/info/",
+    "claim_url": "https://isthereanydeal.com/game/contractor-the-clean-up-part-ii/info/",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-25",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: contractor-the-clean-up-part-ii",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-a-love-like-broken-gl-c5eafcb1ec",
+    "title": "[itch.io] A Love Like Broken Glass（限免）",
+    "category": "games",
+    "source_url": "https://devvayo.itch.io/a-love-like-broken-glass",
+    "claim_url": "https://devvayo.itch.io/a-love-like-broken-glass",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-25",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: A Love Like Broken Glass",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-dragaea-idle-1457f738a4",
+    "title": "[itch.io] Dragaea Idle（限免）",
+    "category": "games",
+    "source_url": "https://renoki.itch.io/dragaea-idle",
+    "claim_url": "https://renoki.itch.io/dragaea-idle",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-25",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dragaea Idle",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-sofia-a8836f6110",
+    "title": "[itch.io] Sofia（限免）",
+    "category": "games",
+    "source_url": "https://hatoge.itch.io/sofia",
+    "claim_url": "https://hatoge.itch.io/sofia",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-25",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Sofia",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-pcb-defense-breach-91bfe60b75",
+    "title": "[itch.io] Pcb Defense Breach（限免）",
+    "category": "games",
+    "source_url": "https://juba13.itch.io/pcb-defense-breach",
+    "claim_url": "https://juba13.itch.io/pcb-defense-breach",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-25",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Pcb Defense Breach",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-agnadulofficial-32bf7c6fbb",
+    "title": "[itch.io] Agnadulofficial（限免）",
+    "category": "games",
+    "source_url": "https://leshii413.itch.io/agnadulofficial",
+    "claim_url": "https://leshii413.itch.io/agnadulofficial",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-25",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Agnadulofficial",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-18",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
@@ -1135,6 +1249,25 @@
     ],
     "discovered_at": "2026-11-12T00:00:00.000000+08:00",
     "last_seen": "2026-11-12",
+    "status": "active"
+  },
+  {
+    "id": "lv-17-epic-14-epic-contractor-678f1cbcb3",
+    "title": "梧岛\n\nLv.17\nEpic额外喜加一！限时14天免费领！\n小伙伴们，Epic又多出一款额外喜加一！可以不玩但不能入库。点我跳转喜加一本次免费的是《Contractor: The Clean Up P",
+    "category": "games",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/197198592",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/197198592",
+    "start_date": "2026-11-18",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | games",
+    "tags": [
+      "小黑盒",
+      "games"
+    ],
+    "discovered_at": "2026-11-18T00:00:00.000000+08:00",
+    "last_seen": "2026-11-18",
     "status": "active"
   },
   {
