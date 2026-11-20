@@ -1673,6 +1673,28 @@
     "days_left": 6
   },
   {
+    "id": "-fbea4d5bce",
+    "title": "试用福利🎁｜动态 / 静态住宅代理，流量永久有效，无隐形扣费",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1258444",
+    "claim_url": "https://www.v2ex.com/t/1258444",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
     "id": "lv-18-gta6-gta5-gta6-gta5-13-05cbe9d41a",
     "title": "直至塔顶\n\nLv.18\nGTA6发售前一天！GTA5玩家约好集体告别洛圣都：这次不打架只开车\n随着《GTA6》发售日期越来越近，一群《GTA5》玩家决定用一种特殊的方式，为陪伴自己13年的洛圣都画上句",
     "category": "drive",
@@ -2260,7 +2282,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2282,7 +2304,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2524,7 +2546,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 75.0,
     "total_days": 8,
@@ -2546,7 +2568,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-18",
-    "last_seen": "2026-11-18",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 37.5,
     "total_days": 8,
@@ -2568,7 +2590,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-18",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 37.5,
     "total_days": 8,
@@ -2590,7 +2612,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-18",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 37.5,
     "total_days": 8,
@@ -2612,7 +2634,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-18",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 37.5,
     "total_days": 8,
@@ -2760,7 +2782,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2782,11 +2804,209 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
     "days_left": 6
+  },
+  {
+    "id": "epic-game-store-mark-of-the-d-21d8f3d979",
+    "title": "[Epic Game Store] mark-of-the-deep（限免）",
+    "category": "games",
+    "source_url": "https://isthereanydeal.com/game/mark-of-the-deep/info/",
+    "claim_url": "https://isthereanydeal.com/game/mark-of-the-deep/info/",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Game Store 100% off 限免: mark-of-the-deep",
+    "tags": [
+      "blog",
+      "IsThereAnyDeal"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-callus-b6784f35d3",
+    "title": "[itch.io] Callus（限免）",
+    "category": "games",
+    "source_url": "https://emika-games.itch.io/callus",
+    "claim_url": "https://emika-games.itch.io/callus",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Callus",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-flopbox-85e6666865",
+    "title": "[itch.io] Flopbox（限免）",
+    "category": "games",
+    "source_url": "https://kareem8.itch.io/flopbox",
+    "claim_url": "https://kareem8.itch.io/flopbox",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Flopbox",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-keepsake-county-749db26cdd",
+    "title": "[itch.io] Keepsake County（限免）",
+    "category": "games",
+    "source_url": "https://forwardinstinct.itch.io/keepsake-county",
+    "claim_url": "https://forwardinstinct.itch.io/keepsake-county",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Keepsake County",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-the-fermi-paradox-ear-89665166ea",
+    "title": "[itch.io] The Fermi Paradox Early Access（限免）",
+    "category": "games",
+    "source_url": "https://the-fermi-paradox.itch.io/the-fermi-paradox-early-access",
+    "claim_url": "https://the-fermi-paradox.itch.io/the-fermi-paradox-early-access",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: The Fermi Paradox Early Access",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-kill-race-5aa55e13e2",
+    "title": "[itch.io] Kill Race（限免）",
+    "category": "games",
+    "source_url": "https://2311-bytes.itch.io/kill-race",
+    "claim_url": "https://2311-bytes.itch.io/kill-race",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Kill Race",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-dualspace-76c2d294e6",
+    "title": "[itch.io] Dualspace（限免）",
+    "category": "games",
+    "source_url": "https://codergenius72.itch.io/dualspace",
+    "claim_url": "https://codergenius72.itch.io/dualspace",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dualspace",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-kourush-683ce855ef",
+    "title": "[itch.io] Kourush（限免）",
+    "category": "games",
+    "source_url": "https://sderfxdev.itch.io/kourush",
+    "claim_url": "https://sderfxdev.itch.io/kourush",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Kourush",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-dont-sleep-050a1d35a7",
+    "title": "[itch.io] Dont Sleep（限免）",
+    "category": "games",
+    "source_url": "https://murushii.itch.io/dont-sleep",
+    "claim_url": "https://murushii.itch.io/dont-sleep",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dont Sleep",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
   },
   {
     "id": "bug-lv-10-steam-steam-steam-10-fde4953f58",
@@ -3426,6 +3646,50 @@
     ],
     "discovered_at": "2026-11-19T00:00:00.000000+08:00",
     "last_seen": "2026-11-19",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "lv-14-gta6-gta6-gta-5c5c6e5e8b",
+    "title": "吃糖会蛀牙\n\nLv.14\nGTA6单机内容锁订阅引不满：终极版也得月月续费\n发售进入第三天，《GTA6》的付费争议精准踩中了玩家的敏感神经原本只服务线上模式的GTA+月度会员，这次直接覆盖到了单机剧情",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/197302189",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/197302189",
+    "start_date": "2026-11-20",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount"
+    ],
+    "discovered_at": "2026-11-20T00:00:00.000000+08:00",
+    "last_seen": "2026-11-20",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "lv-7-91-1-8dd6f728eb",
+    "title": "那杯星冰乐\n\nLv.7\n双人成行史低啦\n一个小时前还看了一下是原价，一个小时后正在刷帖，网友突然给我上一条帖子回复说史低了，我以为恶作剧，去看了一下真史低了，只能说露头秒，感谢网友\n双人成行\n91\n1",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/197336368",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/197336368",
+    "start_date": "2026-11-20",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区帖子 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount"
+    ],
+    "discovered_at": "2026-11-20T00:00:00.000000+08:00",
+    "last_seen": "2026-11-20",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
