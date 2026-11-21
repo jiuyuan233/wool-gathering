@@ -433,7 +433,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -452,7 +452,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -471,7 +471,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -661,7 +661,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -680,7 +680,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-18",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -699,7 +699,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-18",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -718,7 +718,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-18",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -737,7 +737,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-18",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -883,7 +883,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -902,7 +902,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -921,7 +921,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -940,7 +940,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -959,7 +959,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -978,7 +978,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -997,7 +997,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -1016,7 +1016,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -1035,7 +1035,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "status": "active"
   },
   {
@@ -1055,6 +1055,79 @@
     ],
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-20",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-roguecraft-dx-pc-70ddb05ffb",
+    "title": "[itch.io] Roguecraft Dx Pc（限免）",
+    "category": "games",
+    "source_url": "https://thalamusdigital.itch.io/roguecraft-dx-pc",
+    "claim_url": "https://thalamusdigital.itch.io/roguecraft-dx-pc",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Roguecraft Dx Pc",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-molokaust-fdd34aeed8",
+    "title": "[itch.io] Molokaust（限免）",
+    "category": "games",
+    "source_url": "https://elp3luca.itch.io/molokaust",
+    "claim_url": "https://elp3luca.itch.io/molokaust",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Molokaust",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-lift-a-house-with-bal-5f10607633",
+    "title": "[itch.io] Lift A House With Balloons（限免）",
+    "category": "games",
+    "source_url": "https://barhe.itch.io/lift-a-house-with-balloons",
+    "claim_url": "https://barhe.itch.io/lift-a-house-with-balloons",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Lift A House With Balloons",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "status": "active"
+  },
+  {
+    "id": "epic-terrascape-f2be507133",
+    "title": "Epic 免费游戏: TerraScape",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-21",
+    "end_date": "2026-12-21",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-21 ~ 2026-12-21",
+    "tags": [],
+    "discovered_at": "2026-11-15T11:43:20.180279+08:00",
+    "last_seen": "2026-11-15",
     "status": "active"
   },
   {
@@ -1189,22 +1262,6 @@
     ],
     "discovered_at": "2026-11-18T00:00:00.000000+08:00",
     "last_seen": "2026-11-18",
-    "status": "active"
-  },
-  {
-    "id": "epic-terrascape-f2be507133",
-    "title": "Epic 免费游戏: TerraScape",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-11-21",
-    "end_date": "2026-12-21",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-11-21 ~ 2026-12-21",
-    "tags": [],
-    "discovered_at": "2026-11-15T11:43:20.180279+08:00",
-    "last_seen": "2026-11-15",
     "status": "active"
   },
   {
