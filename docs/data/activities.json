@@ -1,159 +1,5 @@
 [
   {
-    "id": "wps-ai-vip-plus-5a8782e5e4",
-    "title": "金山 WPS 大会员 (含AI + 超会) VIP 必入低价优惠 - 送京东 PLUS / 喜马 / 网易云",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/wps-vip",
-    "claim_url": "https://www.iplaysoft.com/p/wps-vip",
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-19",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 35,
-    "days_left": 0
-  },
-  {
-    "id": "workbuddy-deepseek-codex-clau-1269d1fcd6",
-    "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/workbuddy.html",
-    "claim_url": "https://www.iplaysoft.com/workbuddy.html",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 33,
-    "days_left": 0
-  },
-  {
-    "id": "b-plus-87eed4109c",
-    "title": "年度低价！哔哩 B 站大会员 + 送京东 PLUS 年卡优惠 (支持电视端)",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "claim_url": "https://www.iplaysoft.com/p/bilibili-vip",
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-21",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 33,
-    "days_left": 0
-  },
-  {
-    "id": "ai-vip-587de366e7",
-    "title": "为了低价续费会员，我用 AI 做了个 VIP 年卡降价监控提醒网站",
-    "category": "ai",
-    "source_url": "https://www.iplaysoft.com/news/6636",
-    "claim_url": "https://www.iplaysoft.com/news/6636",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 异次元软件世界",
-    "tags": [
-      "blog",
-      "异次元软件世界"
-    ],
-    "discovered_at": "2026-10-30",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 24,
-    "days_left": 0
-  },
-  {
-    "id": "codex-1-8-955473f3ff",
-    "title": "福利：复旦「学术版 Codex」客户端上线,下载登录就送1 万积分，还可享会员 8 折",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/wp-content/uploads/2026/11/image9jpg.avif",
-    "claim_url": "https://www.appinn.com/wp-content/uploads/2026/11/image9jpg.avif",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "instabox-4-8gb-linux-ai-agent-a5660cc687",
-    "title": "赛博领鸡蛋：InstaBox，免费领 4 核 8GB 云电脑，支持 Linux 桌面、安卓镜像和 AI Agent",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/egg-instabox/",
-    "claim_url": "https://www.appinn.com/egg-instabox/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "codex-ba71f9703f",
-    "title": "福利｜复旦「学术版 Codex」双十一积分翻倍！",
-    "category": "ai",
-    "source_url": "https://www.appinn.com/qiewenpaper-1111/",
-    "claim_url": "https://www.appinn.com/qiewenpaper-1111/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
     "id": "cloud_21e1f5e207cc",
     "title": "华为云·免费试用",
     "category": "ai",
@@ -171,9 +17,9 @@
     "discovered_at": "2026-10-19T11:37:08.835788+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_b9088095b507",
@@ -193,9 +39,9 @@
     "discovered_at": "2026-10-19T11:37:12.559443+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_e75f23a2006f",
@@ -215,9 +61,9 @@
     "discovered_at": "2026-10-19T13:16:14.748266+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_4d4fd319df26",
@@ -237,9 +83,9 @@
     "discovered_at": "2026-10-19T13:16:15.804000+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_3dfb1407dfbe",
@@ -259,9 +105,9 @@
     "discovered_at": "2026-10-19T13:16:18.485054+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_5cfd79b201c8",
@@ -281,9 +127,9 @@
     "discovered_at": "2026-10-19T13:16:22.768559+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_8ff1ec8d1772",
@@ -303,9 +149,9 @@
     "discovered_at": "2026-10-19T16:30:00+08:00",
     "last_seen": "2026-11-15",
     "requirements": [],
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_a6638bd2c0cc",
@@ -325,9 +171,9 @@
     "discovered_at": "2026-10-19T16:46:02.531627+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_4b7a798bd85e",
@@ -347,9 +193,9 @@
     "discovered_at": "2026-10-19T16:46:04.603884+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_8a5fcce5d067",
@@ -369,9 +215,9 @@
     "discovered_at": "2026-10-19T16:46:06.353735+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "cloud_e9c81e3c3f4a",
@@ -391,9 +237,9 @@
     "discovered_at": "2026-10-19T16:46:07.791323+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 60.3,
+    "progress_pct": 62.1,
     "total_days": 58,
-    "days_left": 23
+    "days_left": 22
   },
   {
     "id": "ai-agent-5cecfcac",
@@ -415,9 +261,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-190f2c96",
@@ -438,9 +284,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-4c4a355f",
@@ -461,9 +307,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-cee2957f",
@@ -485,9 +331,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-b1a16b4d",
@@ -508,9 +354,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-43916e68",
@@ -530,9 +376,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-183e2d4d",
@@ -553,9 +399,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-bfdfe2d9",
@@ -577,9 +423,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-6013aa86",
@@ -601,9 +447,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 47.3,
+    "progress_pct": 48.6,
     "total_days": 74,
-    "days_left": 39
+    "days_left": 38
   },
   {
     "id": "ai-agent-cefaaa69",
@@ -624,9 +470,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.0,
+    "progress_pct": 8.2,
     "total_days": 439,
-    "days_left": 404
+    "days_left": 403
   },
   {
     "id": "ai-agent-1a83eebb",
@@ -648,9 +494,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.0,
+    "progress_pct": 8.2,
     "total_days": 439,
-    "days_left": 404
+    "days_left": 403
   },
   {
     "id": "ai-agent-e66621c6",
@@ -671,9 +517,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.0,
+    "progress_pct": 8.2,
     "total_days": 439,
-    "days_left": 404
+    "days_left": 403
   },
   {
     "id": "ai-agent-a983e290",
@@ -694,9 +540,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.0,
+    "progress_pct": 8.2,
     "total_days": 439,
-    "days_left": 404
+    "days_left": 403
   },
   {
     "id": "ai-agent-fac0be86",
@@ -717,9 +563,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.0,
+    "progress_pct": 8.2,
     "total_days": 439,
-    "days_left": 404
+    "days_left": 403
   },
   {
     "id": "ai-agent-af3a32c5",
@@ -741,9 +587,9 @@
     "discovered_at": "2026-10-19T19:30:00+08:00",
     "last_seen": "2026-10-19",
     "status": "active",
-    "progress_pct": 8.0,
+    "progress_pct": 8.2,
     "total_days": 439,
-    "days_left": 404
+    "days_left": 403
   },
   {
     "id": "zzzzzzzzzbv-lv-12-deepseek-qq-82106f31ac",
@@ -1629,28 +1475,6 @@
     "days_left": null
   },
   {
-    "id": "-0ff19a19bc",
-    "title": "「我享云」机场代理 今天优惠最后一天，建议囤永久套餐，不用不过期",
-    "category": "drive",
-    "source_url": "https://www.v2ex.com/t/1257173",
-    "claim_url": "https://www.v2ex.com/t/1257173",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: V2EX-promotions",
-    "tags": [
-      "blog",
-      "V2EX-promotions"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
     "id": "gpt-key-4bcbb4c657",
     "title": "[GPT 赠送的 key] 收收收！",
     "category": "drive",
@@ -1668,9 +1492,9 @@
     "discovered_at": "2026-11-19",
     "last_seen": "2026-11-19",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "-fbea4d5bce",
@@ -1690,9 +1514,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-20",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "ai-fb34d25cbd",
@@ -1712,9 +1536,9 @@
     "discovered_at": "2026-11-21",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 25.0,
+    "progress_pct": 37.5,
     "total_days": 8,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "lv-18-gta6-gta5-gta6-gta5-13-05cbe9d41a",
@@ -1805,776 +1629,6 @@
     "days_left": null
   },
   {
-    "id": "epic-knightica-141961a3a6",
-    "title": "Epic 喜加一：《斗阵骑士 Knightica》游戏免费领取",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/026/440.htm",
-    "claim_url": "https://www.ithome.com/1/026/440.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-3d-sadball-947c3e567b",
-    "title": "Steam 喜加一：3D 动作游戏《Sadball》下架前免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/024/999.htm",
-    "claim_url": "https://www.ithome.com/1/024/999.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-gmh-good-morning-human-915355f3ac",
-    "title": "Epic 喜加一：游戏《GMH - Good Morning Human》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/023/990.htm",
-    "claim_url": "https://www.ithome.com/1/023/990.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-2deb26e8e4",
-    "title": "Epic 喜加一：《浮游世界》游戏免费领取",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/023/023.htm",
-    "claim_url": "https://www.ithome.com/1/023/023.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-12-2-5ba57aa069",
-    "title": "Steam 喜加一：联想拯救者游戏社区将于 12 月 2 日发放免费《辐射：新维加斯》激活码",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/022/264.htm",
-    "claim_url": "https://www.ithome.com/1/022/264.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-epic-world-hunt-for-quest-63c6c116d5",
-    "title": "Epic 喜加一：横版动作冒险游戏《Epic World - Hunt For Quest》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/021/009.htm",
-    "claim_url": "https://www.ithome.com/1/021/009.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-quiztopia-the-ultimate-tr-5ac52d758a",
-    "title": "Epic 喜加一：益智问答游戏《Quiztopia : The Ultimate Trivia》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/020/810.htm",
-    "claim_url": "https://www.ithome.com/1/020/810.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-gladiator-blades-of-fury-36f455290b",
-    "title": "Epic 喜加一：中世纪冷兵器格斗游戏《Gladiator：Blades of Fury》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/020/782.htm",
-    "claim_url": "https://www.ithome.com/1/020/782.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "gog-a-new-beginning-final-cut-2957e11ee4",
-    "title": "GOG 喜加一：点击式冒险游戏《A New Beginning: Final Cut》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/020/738.htm",
-    "claim_url": "https://www.ithome.com/1/020/738.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-42-asleep-act-1-10f188c568",
-    "title": "Steam 喜加一：原价 42 元心理恐怖冒险游戏《Asleep：Act 1》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/020/731.htm",
-    "claim_url": "https://www.ithome.com/1/020/731.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-colleccct-ae62a80a88",
-    "title": "Steam 喜加一：益智游戏《Colleccct》转付费前免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/020/727.htm",
-    "claim_url": "https://www.ithome.com/1/020/727.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-autumn-s-end-part-1-9196be8569",
-    "title": "Steam 喜加一：视觉小说《Autumn’s end (Part 1)》转付费前免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/020/064.htm",
-    "claim_url": "https://www.ithome.com/1/020/064.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-2faa03c602",
-    "title": "Epic 喜加一：《抱歉我们打烊了》游戏免费领取",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/019/789.htm",
-    "claim_url": "https://www.ithome.com/1/019/789.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-mafia-hotel-36ce9b3103",
-    "title": "Epic 喜加一：狼人杀推理游戏《MAFIA HOTEL》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/017/899.htm",
-    "claim_url": "https://www.ithome.com/1/017/899.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-2d-depths-unseen-d9daec2101",
-    "title": "Steam 喜加一：2D 平台冒险游戏《Depths Unseen》转付费前限时免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/017/435.htm",
-    "claim_url": "https://www.ithome.com/1/017/435.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-radiant-exodus-8bf55b8281",
-    "title": "Steam 喜加一：第一人称生存恐怖射击游戏《Radiant Exodus》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/017/379.htm",
-    "claim_url": "https://www.ithome.com/1/017/379.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-terraspace-76aa8c641f",
-    "title": "Epic 喜加一：太空生存策略游戏《Terraspace》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/017/005.htm",
-    "claim_url": "https://www.ithome.com/1/017/005.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-1280c36156",
-    "title": "Epic 喜加二：《斯盖尔仪式》《归家》游戏免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/016/744.htm",
-    "claim_url": "https://www.ithome.com/1/016/744.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-3d-gethigh-exe-1b848625c9",
-    "title": "Epic 喜加一：第一人称 3D 跑酷游戏《GetHigh.EXE》免费领",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/015/243.htm",
-    "claim_url": "https://www.ithome.com/1/015/243.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-agent-a-35f01332cd",
-    "title": "Epic 喜加二：《烂奶酪》《Agent A - 伪装游戏》游戏免费领取",
-    "category": "games",
-    "source_url": "https://www.ithome.com/1/013/675.htm",
-    "claim_url": "https://www.ithome.com/1/013/675.htm",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: ithome.com",
-    "tags": [
-      "blog",
-      "ithome.com"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-game-store-knightica-a6905b3d09",
-    "title": "[Epic Game Store] Knightica（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/knightica/info/",
-    "claim_url": "https://isthereanydeal.com/game/knightica/info/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: Knightica",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-19",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-sword-sceptre-64-590a039be4",
-    "title": "[itch.io] Sword Sceptre 64（限免）",
-    "category": "games",
-    "source_url": "https://wirelessjava.itch.io/sword-sceptre-64",
-    "claim_url": "https://wirelessjava.itch.io/sword-sceptre-64",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Sword Sceptre 64",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-19",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-psychonauts-ece81e3ed2",
-    "title": "[itch.io] Psychonauts（限免）",
-    "category": "games",
-    "source_url": "https://doublefine.itch.io/psychonauts",
-    "claim_url": "https://doublefine.itch.io/psychonauts",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Psychonauts",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-21",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-microlandia-b121dfd0e7",
-    "title": "[itch.io] Microlandia（限免）",
-    "category": "games",
-    "source_url": "https://explodi.itch.io/microlandia",
-    "claim_url": "https://explodi.itch.io/microlandia",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Microlandia",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-21",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-chasing-winds-d4955e7653",
-    "title": "[itch.io] Chasing Winds（限免）",
-    "category": "games",
-    "source_url": "https://awlabs.itch.io/chasing-winds",
-    "claim_url": "https://awlabs.itch.io/chasing-winds",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Chasing Winds",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-21",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-paicom-premium-e9837858c8",
-    "title": "[itch.io] Paicom Premium（限免）",
-    "category": "games",
-    "source_url": "https://ovidiu-dendrino.itch.io/paicom-premium",
-    "claim_url": "https://ovidiu-dendrino.itch.io/paicom-premium",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Paicom Premium",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-faintedmemories-89a30a2d0d",
-    "title": "[itch.io] Faintedmemories（限免）",
-    "category": "games",
-    "source_url": "https://elacior.itch.io/faintedmemories",
-    "claim_url": "https://elacior.itch.io/faintedmemories",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Faintedmemories",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "stove-game-big-deal-big-star-f31f300350",
-    "title": "[STOVE] (Game) Big Deal Big Star Discount（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xw7spf/stove_game_big_deal_big_star_discount/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xw7spf/stove_game_big_deal_big_star_discount/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-game-itching-for-games-3-8055bafb54",
-    "title": "[Itch] (Game) Itching for games 3 Bundle（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xw34iy/itch_game_itching_for_games_3_bundle/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xw34iy/itch_game_itching_for_games_3_bundle/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-games-game-knightica-red-a3a07d340d",
-    "title": "[Epic Games] (Game) Knightica（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xuginp/epic_games_game_knightica/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xuginp/epic_games_game_knightica/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "epic-games-mobile-game-knight-6bf51694dd",
-    "title": "[Epic Games Mobile] (Game) Knightica（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xugop9/epic_games_mobile_game_knightica/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xugop9/epic_games_mobile_game_knightica/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "psa-jurassic-world-evolution-5bb2b44789",
-    "title": "[PSA] Jurassic World Evolution 2 (EGS), Radiolight (EGS) are complimentary with Amazon Prime（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xujrw0/psa_jurassic_world_evolution_2_egs_radiolight_egs/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xujrw0/psa_jurassic_world_evolution_2_egs_radiolight_egs/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-ancient-warrior-re-2483c127cd",
-    "title": "[Steam] (Game) Ancient Warrior（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xw5jwx/steam_game_ancient_warrior/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xw5jwx/steam_game_ancient_warrior/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "steam-game-catto-pew-pew-og-e-0b6f12b14a",
-    "title": "[Steam] (Game) Catto Pew Pew! OG EDITION（Reddit-FreeGameFindings）",
-    "category": "games",
-    "source_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xu8uzu/steam_game_catto_pew_pew_og_edition/",
-    "claim_url": "https://www.reddit.com/r/FreeGameFindings/comments/1xu8uzu/steam_game_catto_pew_pew_og_edition/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: Reddit-FreeGameFindings",
-    "tags": [
-      "blog",
-      "Reddit-FreeGameFindings"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
-    "id": "itch-io-the-bunker-3c6c8c50e8",
-    "title": "[itch.io] The Bunker（限免）",
-    "category": "games",
-    "source_url": "https://cyber752.itch.io/the-bunker",
-    "claim_url": "https://cyber752.itch.io/the-bunker",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: The Bunker",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-21",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
-  },
-  {
     "id": "epic-game-store-contractor-th-3078887408",
     "title": "[Epic Game Store] contractor-the-clean-up-part-ii（限免）",
     "category": "games",
@@ -2592,9 +1646,9 @@
     "discovered_at": "2026-11-18",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-a-love-like-broken-gl-c5eafcb1ec",
@@ -2614,9 +1668,9 @@
     "discovered_at": "2026-11-18",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-dragaea-idle-1457f738a4",
@@ -2636,9 +1690,9 @@
     "discovered_at": "2026-11-18",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-sofia-a8836f6110",
@@ -2658,9 +1712,9 @@
     "discovered_at": "2026-11-18",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-pcb-defense-breach-91bfe60b75",
@@ -2680,9 +1734,9 @@
     "discovered_at": "2026-11-18",
     "last_seen": "2026-11-19",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "itch-io-agnadulofficial-32bf7c6fbb",
@@ -2702,9 +1756,9 @@
     "discovered_at": "2026-11-18",
     "last_seen": "2026-11-18",
     "status": "active",
-    "progress_pct": 62.5,
+    "progress_pct": 75.0,
     "total_days": 8,
-    "days_left": 3
+    "days_left": 2
   },
   {
     "id": "epic-alien-isolation-04be948d27",
@@ -2721,9 +1775,9 @@
     "discovered_at": "2026-11-15T11:43:20.179266+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "epic-mark-of-the-deep-67dd377767",
@@ -2740,9 +1794,9 @@
     "discovered_at": "2026-11-15T11:43:20.180279+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "epic-game-store-contractor-th-1e82bdc90b",
@@ -2762,9 +1816,9 @@
     "discovered_at": "2026-11-19",
     "last_seen": "2026-11-19",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "itch-io-insert-8653b1db87",
@@ -2784,9 +1838,9 @@
     "discovered_at": "2026-11-19",
     "last_seen": "2026-11-19",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "itch-io-broken-age-a24e919fd2",
@@ -2806,9 +1860,9 @@
     "discovered_at": "2026-11-19",
     "last_seen": "2026-11-20",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "itch-io-grimdelve-26e0750d9f",
@@ -2828,9 +1882,9 @@
     "discovered_at": "2026-11-19",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 50.0,
+    "progress_pct": 62.5,
     "total_days": 8,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "epic-game-store-mark-of-the-d-21d8f3d979",
@@ -2850,9 +1904,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-callus-b6784f35d3",
@@ -2872,9 +1926,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-flopbox-85e6666865",
@@ -2894,9 +1948,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-keepsake-county-749db26cdd",
@@ -2916,9 +1970,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-the-fermi-paradox-ear-89665166ea",
@@ -2938,9 +1992,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-kill-race-5aa55e13e2",
@@ -2960,9 +2014,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-dualspace-76c2d294e6",
@@ -2982,9 +2036,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-kourush-683ce855ef",
@@ -3004,9 +2058,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-dont-sleep-050a1d35a7",
@@ -3026,9 +2080,9 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-20",
     "status": "active",
-    "progress_pct": 37.5,
+    "progress_pct": 50.0,
     "total_days": 8,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "itch-io-roguecraft-dx-pc-70ddb05ffb",
@@ -3048,9 +2102,9 @@
     "discovered_at": "2026-11-21",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 25.0,
+    "progress_pct": 37.5,
     "total_days": 8,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "itch-io-molokaust-fdd34aeed8",
@@ -3070,9 +2124,9 @@
     "discovered_at": "2026-11-21",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 25.0,
+    "progress_pct": 37.5,
     "total_days": 8,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "itch-io-lift-a-house-with-bal-5f10607633",
@@ -3092,9 +2146,9 @@
     "discovered_at": "2026-11-21",
     "last_seen": "2026-11-21",
     "status": "active",
-    "progress_pct": 25.0,
+    "progress_pct": 37.5,
     "total_days": 8,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "epic-game-store-mark-of-the-d-e0945a8fac",
@@ -3114,9 +2168,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-fih-c68b197145",
@@ -3136,9 +2190,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-kenzu-a212b698d5",
@@ -3158,9 +2212,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-a-mirrors-curse-sfw-69288b7b47",
@@ -3180,9 +2234,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-dont-look-back-a91f51286c",
@@ -3202,9 +2256,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-trees-hate-you-53b97d6bcc",
@@ -3224,9 +2278,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-funerama-73a550aeda",
@@ -3246,9 +2300,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-suzy-says-ad61f9f8e6",
@@ -3268,9 +2322,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-ambermoon-a113984561",
@@ -3290,9 +2344,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-dead-sight-297767dc7d",
@@ -3312,9 +2366,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-prescriptionlove-f0cf512674",
@@ -3334,9 +2388,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-landsword-e27d75ad67",
@@ -3356,9 +2410,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-dummy-warfare-6ba4630f2c",
@@ -3378,9 +2432,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-prehistoric-relations-8314512a6e",
@@ -3400,9 +2454,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-traveloot-25ec15272d",
@@ -3422,9 +2476,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-looking-for-you-172c2a4d5d",
@@ -3444,9 +2498,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-insomnia-jeff-the-kil-2316c41c66",
@@ -3466,9 +2520,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "itch-io-dead-plate-dcc5fb13d8",
@@ -3488,9 +2542,9 @@
     "discovered_at": "2026-11-22",
     "last_seen": "2026-11-22",
     "status": "active",
-    "progress_pct": 12.5,
+    "progress_pct": 25.0,
     "total_days": 8,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "epic-terrascape-f2be507133",
@@ -3507,9 +2561,9 @@
     "discovered_at": "2026-11-15T11:43:20.180279+08:00",
     "last_seen": "2026-11-15",
     "status": "active",
-    "progress_pct": 6.5,
+    "progress_pct": 9.7,
     "total_days": 31,
-    "days_left": 29
+    "days_left": 28
   },
   {
     "id": "bug-lv-10-steam-steam-steam-10-fde4953f58",
@@ -3683,29 +2737,7 @@
     "status": "upcoming",
     "progress_pct": 0,
     "total_days": 29,
-    "days_left": 46
-  },
-  {
-    "id": "11-150-6-adguard-typora-pixpi-a19ebcff54",
-    "title": "双 11 大促！150+ 款正版软件低至 6 折，AdGuard、Typora、PixPin、思源笔记、Mole 等…",
-    "category": "shopping",
-    "source_url": "https://www.appinn.com/lizhi-261111/",
-    "claim_url": "https://www.appinn.com/lizhi-261111/",
-    "start_date": "2026-11-15",
-    "end_date": "2026-11-22",
-    "value": "",
-    "requirements": [],
-    "description": "来源: 小众软件",
-    "tags": [
-      "blog",
-      "小众软件"
-    ],
-    "discovered_at": "2026-11-15",
-    "last_seen": "2026-11-15",
-    "status": "active",
-    "progress_pct": 100,
-    "total_days": 8,
-    "days_left": 0
+    "days_left": 45
   },
   {
     "id": "lv-17-10-27-68-galgame-4f626db50b",
