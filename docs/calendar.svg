@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2276" viewBox="0 0 940 2276" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
-<rect width="940" height="2276" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2388" viewBox="0 0 940 2388" font-family="-apple-system,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="940" height="2388" fill="#ffffff"/>
 <text x="20" y="28" font-size="16" font-weight="600" fill="#24292f">📅 活动时间轴（2026年11月）</text>
-<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-11-23 · 有时间限制活动 73 条，开源工具 23 条不显示 · 红线 = 今天 · 超一个月顶满</text>
+<text x="20" y="48" font-size="11" fill="#6e7681">更新于 2026-11-23 · 有时间限制活动 77 条，开源工具 23 条不显示 · 红线 = 今天 · 超一个月顶满</text>
 <line x1="250" y1="76" x2="920" y2="76" stroke="#d0d7de" stroke-width="1"/>
 <line x1="250.0" y1="72" x2="250.0" y2="76" stroke="#d0d7de" stroke-width="1"/>
 <text x="250.0" y="68" font-size="9" fill="#6e7681" text-anchor="middle">10-31</text>
@@ -17,7 +17,7 @@
 <text x="790.3225806451612" y="68" font-size="9" fill="#6e7681" text-anchor="middle">11-25</text>
 <line x1="920.0" y1="72" x2="920.0" y2="76" stroke="#d0d7de" stroke-width="1"/>
 <text x="920.0" y="68" font-size="9" fill="#6e7681" text-anchor="middle">12-01</text>
-<line x1="747.0967741935484" y1="74" x2="747.0967741935484" y2="2210" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="747.0967741935484" y1="74" x2="747.0967741935484" y2="2322" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
 <text x="747.0967741935484" y="70" font-size="9" fill="#ef4444" text-anchor="middle" font-weight="600">今天</text>
 <rect x="10" y="84" width="920" height="20" rx="4" fill="#f97316" opacity="0.12"/>
 <text x="20" y="98" font-size="13" font-weight="600" fill="#f97316">AI / 云服务（26 条）</text>
@@ -198,7 +198,7 @@
 <rect x="703.8709677419354" y="925" width="56.73387096774197" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
 <text x="779.516129032258" y="937.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 5 天</text>
 <rect x="10" y="948" width="920" height="20" rx="4" fill="#22c55e" opacity="0.12"/>
-<text x="20" y="962" font-size="13" font-weight="600" fill="#22c55e">游戏喜加一（44 条）</text>
+<text x="20" y="962" font-size="13" font-weight="600" fill="#22c55e">游戏喜加一（48 条）</text>
 <line x1="10" y1="1002" x2="930" y2="1002" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="988" r="3" fill="#22c55e"/>
 <text x="24" y="992" font-size="12" fill="#24292f">🟢 [Epic Game Store] contracto…</text>
@@ -453,22 +453,46 @@
 <text x="801.1290322580645" y="2139.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 6 天</text>
 <line x1="10" y1="2178" x2="930" y2="2178" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2164" r="3" fill="#22c55e"/>
-<text x="24" y="2168" font-size="12" fill="#24292f">🟢 Epic 免费游戏: TerraScape</text>
-<rect x="703.8709677419354" y="2155" width="216.12903225806463" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
-<rect x="703.8709677419354" y="2155" width="20.96451612903227" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
-<text x="811.9354838709677" y="2167.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 28 天</text>
+<text x="24" y="2168" font-size="12" fill="#24292f">🟢 [itch.io] Of The World（限…</text>
+<rect x="747.0967741935484" y="2155" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="747.0967741935484" y="2155" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="822.741935483871" y="2167.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
 <line x1="10" y1="2206" x2="930" y2="2206" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
 <circle cx="14" cy="2192" r="3" fill="#22c55e"/>
-<text x="24" y="2196" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
-<rect x="920" y="2183" width="2" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
-<rect x="250" y="2218" width="14" height="10" rx="2" fill="#f97316"/><text x="270" y="2227" font-size="10" fill="#24292f">AI / 云服务</text>
-<rect x="345" y="2218" width="14" height="10" rx="2" fill="#eab308"/><text x="365" y="2227" font-size="10" fill="#24292f">购物</text>
-<rect x="405" y="2218" width="14" height="10" rx="2" fill="#ec4899"/><text x="425" y="2227" font-size="10" fill="#24292f">视频会员</text>
-<rect x="480" y="2218" width="14" height="10" rx="2" fill="#f43f5e"/><text x="500" y="2227" font-size="10" fill="#24292f">网盘</text>
-<rect x="540" y="2218" width="14" height="10" rx="2" fill="#14b8a6"/><text x="560" y="2227" font-size="10" fill="#24292f">开车</text>
-<rect x="600" y="2218" width="14" height="10" rx="2" fill="#22c55e"/><text x="620" y="2227" font-size="10" fill="#24292f">游戏</text>
-<rect x="660" y="2218" width="14" height="10" rx="2" fill="#8b5cf6"/><text x="680" y="2227" font-size="10" fill="#24292f">游戏打折</text>
-<rect x="745" y="2218" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="765" y="2227" font-size="10" fill="#24292f">未开始</text>
-<line x1="835" y1="2216" x2="835" y2="2230" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="843" y="2227" font-size="10" fill="#24292f">今天</text>
-<text x="20" y="2250" font-size="10" fill="#6e7681">另有 47 条活动缺少明确日期，未在时间轴显示（见下方表格）</text>
+<text x="24" y="2196" font-size="12" fill="#24292f">🟢 [itch.io] Escaped Chasm（限…</text>
+<rect x="747.0967741935484" y="2183" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="747.0967741935484" y="2183" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="822.741935483871" y="2195.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="2234" x2="930" y2="2234" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2220" r="3" fill="#22c55e"/>
+<text x="24" y="2224" font-size="12" fill="#24292f">🟢 [itch.io] Dwellers Empty Pa…</text>
+<rect x="747.0967741935484" y="2211" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="747.0967741935484" y="2211" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="822.741935483871" y="2223.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="2262" x2="930" y2="2262" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2248" r="3" fill="#22c55e"/>
+<text x="24" y="2252" font-size="12" fill="#24292f">🟢 [itch.io] Hiwhi（限免）</text>
+<rect x="747.0967741935484" y="2239" width="151.29032258064512" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="747.0967741935484" y="2239" width="18.91129032258064" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="822.741935483871" y="2251.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 7 天</text>
+<line x1="10" y1="2290" x2="930" y2="2290" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2276" r="3" fill="#22c55e"/>
+<text x="24" y="2280" font-size="12" fill="#24292f">🟢 Epic 免费游戏: TerraScape</text>
+<rect x="703.8709677419354" y="2267" width="216.12903225806463" height="18" rx="4" fill="#22c55e" opacity="0.85"/>
+<rect x="703.8709677419354" y="2267" width="20.96451612903227" height="18" rx="4" fill="#ffffff" opacity="0.35"/>
+<text x="811.9354838709677" y="2279.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">剩 28 天</text>
+<line x1="10" y1="2318" x2="930" y2="2318" stroke="#d0d7de" stroke-width="0.5" opacity="0.5"/>
+<circle cx="14" cy="2304" r="3" fill="#22c55e"/>
+<text x="24" y="2308" font-size="12" fill="#24292f">🟡 Epic 免费游戏: 《幽灵行者 2》</text>
+<rect x="920" y="2295" width="2" height="18" rx="4" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+<rect x="250" y="2330" width="14" height="10" rx="2" fill="#f97316"/><text x="270" y="2339" font-size="10" fill="#24292f">AI / 云服务</text>
+<rect x="345" y="2330" width="14" height="10" rx="2" fill="#eab308"/><text x="365" y="2339" font-size="10" fill="#24292f">购物</text>
+<rect x="405" y="2330" width="14" height="10" rx="2" fill="#ec4899"/><text x="425" y="2339" font-size="10" fill="#24292f">视频会员</text>
+<rect x="480" y="2330" width="14" height="10" rx="2" fill="#f43f5e"/><text x="500" y="2339" font-size="10" fill="#24292f">网盘</text>
+<rect x="540" y="2330" width="14" height="10" rx="2" fill="#14b8a6"/><text x="560" y="2339" font-size="10" fill="#24292f">开车</text>
+<rect x="600" y="2330" width="14" height="10" rx="2" fill="#22c55e"/><text x="620" y="2339" font-size="10" fill="#24292f">游戏</text>
+<rect x="660" y="2330" width="14" height="10" rx="2" fill="#8b5cf6"/><text x="680" y="2339" font-size="10" fill="#24292f">游戏打折</text>
+<rect x="745" y="2330" width="14" height="10" rx="2" fill="none" stroke="#888" stroke-dasharray="3,2"/><text x="765" y="2339" font-size="10" fill="#24292f">未开始</text>
+<line x1="835" y1="2328" x2="835" y2="2342" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/><text x="843" y="2339" font-size="10" fill="#24292f">今天</text>
+<text x="20" y="2362" font-size="10" fill="#6e7681">另有 49 条活动缺少明确日期，未在时间轴显示（见下方表格）</text>
 </svg>

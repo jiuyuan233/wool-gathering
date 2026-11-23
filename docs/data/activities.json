@@ -1814,7 +1814,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 62.5,
     "total_days": 8,
@@ -2166,7 +2166,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2188,7 +2188,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2210,7 +2210,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2232,7 +2232,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2276,7 +2276,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2298,7 +2298,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2320,7 +2320,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2364,7 +2364,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2386,7 +2386,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2408,7 +2408,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2430,7 +2430,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2496,7 +2496,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
@@ -2540,11 +2540,99 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 25.0,
     "total_days": 8,
     "days_left": 6
+  },
+  {
+    "id": "itch-io-of-the-world-ef2f62bda3",
+    "title": "[itch.io] Of The World（限免）",
+    "category": "games",
+    "source_url": "https://tuyoki.itch.io/of-the-world",
+    "claim_url": "https://tuyoki.itch.io/of-the-world",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Of The World",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-23",
+    "last_seen": "2026-11-23",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-escaped-chasm-bfbb1fb3fd",
+    "title": "[itch.io] Escaped Chasm（限免）",
+    "category": "games",
+    "source_url": "https://tuyoki.itch.io/escaped-chasm",
+    "claim_url": "https://tuyoki.itch.io/escaped-chasm",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Escaped Chasm",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-23",
+    "last_seen": "2026-11-23",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-dwellers-empty-path-c1e4b6663b",
+    "title": "[itch.io] Dwellers Empty Path（限免）",
+    "category": "games",
+    "source_url": "https://tuyoki.itch.io/dwellers-empty-path",
+    "claim_url": "https://tuyoki.itch.io/dwellers-empty-path",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dwellers Empty Path",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-23",
+    "last_seen": "2026-11-23",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
+  },
+  {
+    "id": "itch-io-hiwhi-6d78b6e5ca",
+    "title": "[itch.io] Hiwhi（限免）",
+    "category": "games",
+    "source_url": "https://echo0bat.itch.io/hiwhi",
+    "claim_url": "https://echo0bat.itch.io/hiwhi",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Hiwhi",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-23",
+    "last_seen": "2026-11-23",
+    "status": "active",
+    "progress_pct": 12.5,
+    "total_days": 8,
+    "days_left": 7
   },
   {
     "id": "epic-terrascape-f2be507133",
@@ -3228,6 +3316,52 @@
     ],
     "discovered_at": "2026-11-22T00:00:00.000000+08:00",
     "last_seen": "2026-11-22",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "lv-20-6-7-69-9045607939",
+    "title": "龙子墨\n\nLv.20\n等等党大胜利！最低仅需6.7元！69款史低游戏大盘点！🌹\n哈喽，大家好，这里是龙子墨。今天给大家盘点近期几十款史低折扣游戏。废话不多说，盘点马上开始！双击完成每日任务哦~折扣促销",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/197552081",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/197552081",
+    "start_date": "2026-11-23",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区合集帖 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount",
+      "合集"
+    ],
+    "discovered_at": "2026-11-23T00:00:00.000000+08:00",
+    "last_seen": "2026-11-23",
+    "status": "active",
+    "progress_pct": 100,
+    "total_days": null,
+    "days_left": null
+  },
+  {
+    "id": "lv-12-steam-3a-2d77f6044f",
+    "title": "知许。\n\nLv.12\nsteam黑五杀疯了！一大波游戏迎来史无前例的骨折背刺！\n盒友们，黑五的折扣浪潮已经来了！面对密密麻麻的折扣列表，挨个翻商店实在太耗时间。我帮大家筛好了这一批史低游戏，不管是3A",
+    "category": "game-discount",
+    "source_url": "https://xiaoheihe.cn/app/bbs/link/197165807",
+    "claim_url": "https://xiaoheihe.cn/app/bbs/link/197165807",
+    "start_date": "2026-11-23",
+    "end_date": null,
+    "value": "",
+    "requirements": [],
+    "description": "小黑盒社区合集帖 | game-discount",
+    "tags": [
+      "小黑盒",
+      "game-discount",
+      "合集"
+    ],
+    "discovered_at": "2026-11-23T00:00:00.000000+08:00",
+    "last_seen": "2026-11-23",
     "status": "active",
     "progress_pct": 100,
     "total_days": null,
