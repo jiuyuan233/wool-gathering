@@ -161,7 +161,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -465,7 +465,7 @@
       "IsThereAnyDeal"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -484,7 +484,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -503,7 +503,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -522,7 +522,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -560,7 +560,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -579,7 +579,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -598,7 +598,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -636,7 +636,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -655,7 +655,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -674,7 +674,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -693,7 +693,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -750,7 +750,7 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
@@ -788,7 +788,83 @@
       "itch.io"
     ],
     "discovered_at": "2026-11-22",
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-of-the-world-ef2f62bda3",
+    "title": "[itch.io] Of The World（限免）",
+    "category": "games",
+    "source_url": "https://tuyoki.itch.io/of-the-world",
+    "claim_url": "https://tuyoki.itch.io/of-the-world",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Of The World",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-23",
+    "last_seen": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-escaped-chasm-bfbb1fb3fd",
+    "title": "[itch.io] Escaped Chasm（限免）",
+    "category": "games",
+    "source_url": "https://tuyoki.itch.io/escaped-chasm",
+    "claim_url": "https://tuyoki.itch.io/escaped-chasm",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Escaped Chasm",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-23",
+    "last_seen": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-dwellers-empty-path-c1e4b6663b",
+    "title": "[itch.io] Dwellers Empty Path（限免）",
+    "category": "games",
+    "source_url": "https://tuyoki.itch.io/dwellers-empty-path",
+    "claim_url": "https://tuyoki.itch.io/dwellers-empty-path",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Dwellers Empty Path",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-23",
+    "last_seen": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "itch-io-hiwhi-6d78b6e5ca",
+    "title": "[itch.io] Hiwhi（限免）",
+    "category": "games",
+    "source_url": "https://echo0bat.itch.io/hiwhi",
+    "claim_url": "https://echo0bat.itch.io/hiwhi",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Hiwhi",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-23",
+    "last_seen": "2026-11-23",
     "status": "active"
   },
   {
