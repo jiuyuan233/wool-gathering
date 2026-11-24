@@ -142,7 +142,7 @@
     "description": "Epic Games Store 限时免费 | 2026-11-19 ~ 2026-11-26",
     "tags": [],
     "discovered_at": "2026-11-15T11:43:20.180279+08:00",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-24",
     "status": "active"
   },
   {
@@ -880,7 +880,7 @@
     "description": "Epic Games Store 限时免费 | 2026-11-21 ~ 2026-12-21",
     "tags": [],
     "discovered_at": "2026-11-15T11:43:20.180279+08:00",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-24",
     "status": "active"
   },
   {
@@ -1018,6 +1018,38 @@
     "status": "active"
   },
   {
+    "id": "epic-luftrausers-3305b04d0f",
+    "title": "Epic 免费游戏: Luftrausers",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-27",
+    "end_date": "2026-12-01",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-27 ~ 2026-12-01",
+    "tags": [],
+    "discovered_at": "2026-11-24T13:18:45.211656+08:00",
+    "last_seen": "2026-11-24",
+    "status": "upcoming"
+  },
+  {
+    "id": "epic-rpg-c1ff81e3f3",
+    "title": "Epic 免费游戏: 火之石 – 放置点击英雄RPG",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-11-26",
+    "end_date": "2026-12-03",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-11-26 ~ 2026-12-03",
+    "tags": [],
+    "discovered_at": "2026-11-24T13:18:45.211565+08:00",
+    "last_seen": "2026-11-24",
+    "status": "upcoming"
+  },
+  {
     "id": "epic-2-c44c4e8654",
     "title": "Epic 免费游戏: 《幽灵行者 2》",
     "category": "games",
@@ -1030,7 +1062,23 @@
     "description": "Epic Games Store 限时免费 | 2026-12-10 ~ 2027-01-07",
     "tags": [],
     "discovered_at": "2026-10-19T11:17:11.082882+08:00",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-24",
+    "status": "upcoming"
+  },
+  {
+    "id": "epic-bread-and-fred-288ff839ce",
+    "title": "Epic 免费游戏: Bread and Fred",
+    "category": "games",
+    "source_url": "https://store.epicgames.com/zh-CN/free-games",
+    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
+    "start_date": "2026-12-10",
+    "end_date": "2027-01-07",
+    "value": "",
+    "requirements": [],
+    "description": "Epic Games Store 限时免费 | 2026-12-10 ~ 2027-01-07",
+    "tags": [],
+    "discovered_at": "2026-11-24T13:18:45.211585+08:00",
+    "last_seen": "2026-11-24",
     "status": "upcoming"
   }
 ]
