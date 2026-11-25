@@ -16,6 +16,8 @@
 | [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis) ⭐10.6k | 永久免费 LLM API 列表 |
 | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) ⭐4.4k | 134+ 免费 LLM API & AI API Key，40+ 厂商 |
 | [guihuashaoxiang/FreeLLM-API-KeyHub](https://github.com/guihuashaoxiang/FreeLLM-API-KeyHub) | 🇨🇳 国内免费大语言模型 API 资源与接入指南 |
+| [KJAI123/tokenmost](https://github.com/KJAI123/tokenmost) | TokenMost（tokenmost.com）羊毛情报站源码：260+ 条官方渠道免费额度情报，每日人工核验、每条带核实日期、过期自动下架 |
+| [KJAI123/free-ai-tokens](https://github.com/KJAI123/free-ai-tokens) | TokenMost 同站开源数据集：deals.json / llms.txt / RSS，可程序化消费 |
 
 ### 云服务 / SaaS 免费层
 
