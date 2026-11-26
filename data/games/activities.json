@@ -1,113 +1,5 @@
 [
   {
-    "id": "epic-alien-isolation-04be948d27",
-    "title": "Epic 免费游戏: 《Alien: Isolation》",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-11-19",
-    "end_date": "2026-11-26",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-11-19 ~ 2026-11-26",
-    "tags": [],
-    "discovered_at": "2026-11-15T11:43:20.179266+08:00",
-    "last_seen": "2026-11-15",
-    "status": "active"
-  },
-  {
-    "id": "epic-mark-of-the-deep-67dd377767",
-    "title": "Epic 免费游戏: Mark of the Deep",
-    "category": "games",
-    "source_url": "https://store.epicgames.com/zh-CN/free-games",
-    "claim_url": "https://store.epicgames.com/zh-CN/free-games",
-    "start_date": "2026-11-19",
-    "end_date": "2026-11-26",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Games Store 限时免费 | 2026-11-19 ~ 2026-11-26",
-    "tags": [],
-    "discovered_at": "2026-11-15T11:43:20.180279+08:00",
-    "last_seen": "2026-11-24",
-    "status": "active"
-  },
-  {
-    "id": "epic-game-store-contractor-th-1e82bdc90b",
-    "title": "[Epic Game Store] Contractor: The Clean Up Part II（限免）",
-    "category": "games",
-    "source_url": "https://isthereanydeal.com/game/contractor-the-clean-up-part-ii/info/",
-    "claim_url": "https://isthereanydeal.com/game/contractor-the-clean-up-part-ii/info/",
-    "start_date": "2026-11-19",
-    "end_date": "2026-11-26",
-    "value": "",
-    "requirements": [],
-    "description": "Epic Game Store 100% off 限免: Contractor: The Clean Up Part II",
-    "tags": [
-      "blog",
-      "IsThereAnyDeal"
-    ],
-    "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-23",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-insert-8653b1db87",
-    "title": "[itch.io] Insert（限免）",
-    "category": "games",
-    "source_url": "https://badnight-studio.itch.io/insert",
-    "claim_url": "https://badnight-studio.itch.io/insert",
-    "start_date": "2026-11-19",
-    "end_date": "2026-11-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Insert",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-19",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-broken-age-a24e919fd2",
-    "title": "[itch.io] Broken Age（限免）",
-    "category": "games",
-    "source_url": "https://doublefine.itch.io/broken-age",
-    "claim_url": "https://doublefine.itch.io/broken-age",
-    "start_date": "2026-11-19",
-    "end_date": "2026-11-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Broken Age",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-20",
-    "status": "active"
-  },
-  {
-    "id": "itch-io-grimdelve-26e0750d9f",
-    "title": "[itch.io] Grimdelve（限免）",
-    "category": "games",
-    "source_url": "https://toastytime.itch.io/grimdelve",
-    "claim_url": "https://toastytime.itch.io/grimdelve",
-    "start_date": "2026-11-19",
-    "end_date": "2026-11-26",
-    "value": "",
-    "requirements": [],
-    "description": "itch.io 限时免费: Grimdelve",
-    "tags": [
-      "blog",
-      "itch.io"
-    ],
-    "discovered_at": "2026-11-19",
-    "last_seen": "2026-11-21",
-    "status": "active"
-  },
-  {
     "id": "epic-game-store-mark-of-the-d-21d8f3d979",
     "title": "[Epic Game Store] mark-of-the-deep（限免）",
     "category": "games",
@@ -917,7 +809,7 @@
     "tags": [],
     "discovered_at": "2026-11-24T13:18:45.211656+08:00",
     "last_seen": "2026-11-24",
-    "status": "upcoming"
+    "status": "active"
   },
   {
     "id": "epic-rpg-c1ff81e3f3",
