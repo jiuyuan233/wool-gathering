@@ -19,6 +19,14 @@
 | [KJAI123/tokenmost](https://github.com/KJAI123/tokenmost) | TokenMost（tokenmost.com）羊毛情报站源码：260+ 条官方渠道免费额度情报，每日人工核验、每条带核实日期、过期自动下架 |
 | [KJAI123/free-ai-tokens](https://github.com/KJAI123/free-ai-tokens) | TokenMost 同站开源数据集：deals.json / llms.txt / RSS，可程序化消费 |
 
+### Token 池化 / 使用工具
+
+> 拿到上面的免费 token / API Key 后，用这类工具统一管理：一个本地网关，所有 Agent 共用，额度用完自动切换。
+
+| 工具 | 简介 |
+|------|------|
+| [yetone/magpie](https://github.com/yetone/magpie) ⭐42.3k | 本地 LLM 网关（MIT 开源）：把 Claude/ChatGPT/Copilot/GLM/Kimi 等订阅套餐与 API Key 池化，任何 Agent（Claude Code/Codex/Gemini CLI 等）都能调用池内任意模型，额度用完自动切换下一个；支持 macOS/Windows/Linux/Docker |
+
 ### 云服务 / SaaS 免费层
 
 | 项目 | 简介 |
