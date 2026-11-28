@@ -7813,5 +7813,81 @@
     "discovered_at": "2026-11-20",
     "last_seen": "2026-11-20",
     "status": "ended"
+  },
+  {
+    "id": "ai-fb34d25cbd",
+    "title": "我用 ai 半小时做了一个日语视频生成工具，新用户签到可以免费送积分，有没有日本的朋友。评论区留言送积分。",
+    "category": "drive",
+    "source_url": "https://www.v2ex.com/t/1258626",
+    "claim_url": "https://www.v2ex.com/t/1258626",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-28",
+    "value": "",
+    "requirements": [],
+    "description": "来源: V2EX-promotions",
+    "tags": [
+      "blog",
+      "V2EX-promotions"
+    ],
+    "discovered_at": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-roguecraft-dx-pc-70ddb05ffb",
+    "title": "[itch.io] Roguecraft Dx Pc（限免）",
+    "category": "games",
+    "source_url": "https://thalamusdigital.itch.io/roguecraft-dx-pc",
+    "claim_url": "https://thalamusdigital.itch.io/roguecraft-dx-pc",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Roguecraft Dx Pc",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-molokaust-fdd34aeed8",
+    "title": "[itch.io] Molokaust（限免）",
+    "category": "games",
+    "source_url": "https://elp3luca.itch.io/molokaust",
+    "claim_url": "https://elp3luca.itch.io/molokaust",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Molokaust",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "status": "ended"
+  },
+  {
+    "id": "itch-io-lift-a-house-with-bal-5f10607633",
+    "title": "[itch.io] Lift A House With Balloons（限免）",
+    "category": "games",
+    "source_url": "https://barhe.itch.io/lift-a-house-with-balloons",
+    "claim_url": "https://barhe.itch.io/lift-a-house-with-balloons",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-28",
+    "value": "",
+    "requirements": [],
+    "description": "itch.io 限时免费: Lift A House With Balloons",
+    "tags": [
+      "blog",
+      "itch.io"
+    ],
+    "discovered_at": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "status": "ended"
   }
 ]
